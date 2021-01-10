@@ -1,0 +1,10 @@
+version: 1
+dn: ou=objectClasses,cn=inetorgperson,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 1f30594b-eac0-4bf4-a9a8-898d1da1f52b
+ou: objectclasses
+entryUUID: 8a71e35e-3cc8-41f3-9536-6ddf3f47febd
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.441Z
+entryCSN: 20140513151214.833000Z#00000e#000#000000

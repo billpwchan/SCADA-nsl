@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$trddataset_8h.html" title="Data used in Trend server context." alt="trddataset.h" coords="31,92,113,119" />
+<area shape="rect" href="$trd_8h.html" title="Access to the the Trend server (TRD)" alt="trd.h" coords="52,241,92,268" />
+<area shape="rect" href="$trdhissubscription_8h.html" title="Management of archives of the Trend server (TRD)" alt="trdhissubscription.h" coords="57,167,193,193" />
+</map>

@@ -1,0 +1,13 @@
+// IlvMessageDatabase 4 Fri Jun 16 04:40:40 2000
+// Language: fr_FR
+// Encoding: US-ASCII
+"&CAMERA_STATUS" "Etat Camera"
+"&DIAGNOSTIC_STATUS" "Etat Diagnostic"
+"&DOOR_STATUS" "Etat Porte"
+"&SCS_ENV_STATE" "Etat Environment SCADAsoft"
+"&NORMAL" "normal"
+"&AVAILABLE" "disponible"
+"&CLOSED" "fermé"
+"&DOWN" "arrêté"
+"&OPEN" "ouvert"
+"&MOVING" "en mouvement"

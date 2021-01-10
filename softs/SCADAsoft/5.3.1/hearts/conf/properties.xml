@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+    
+    <comment></comment>
+
+    <!-- Configuration files location -->
+    <entry key="application.conf">${application.home}/conf</entry>
+    <entry key="property.logging.cfg.file">${application.conf}/log4j.prop</entry>
+    <entry key="property.hibernate.cfg.file">${application.conf}/hibernate.cfg.xml</entry>
+    <entry key="property.hibernate.dtd.file">${application.conf}/hibernate-configuration-3.0.dtd</entry>
+    
+    <!-- SCADAsoft properties -->
+    <!-- to modify according to your environment -->
+    <entry key="property.scs.path">D:\Temp\ROOT_SLOT\space3\SCDMSRVLT</entry>
+
+    <!-- CORBA properties -->
+    <!-- to modify according to your environment -->
+    <entry key="property.corba.nameserv.port">9740</entry>
+
+    <!-- Table properties -->
+    <!-- integer * tables -->
+    <entry key="property.table.number">7</entry>
+    <!-- integer * days -->
+    <entry key="property.table.days">1</entry>
+    <!-- integer between [0,23], the start time for each day -->
+    <entry key="property.table.min.hour">0</entry>
+    <!-- set the full path with the script -->
+    <!-- to modify according to your environment -->
+    <entry key="property.table.backup.script">D:\Temp\ROOT_SLOT\LTServer\dump_table.bat</entry>
+    
+    <!-- Space disk properties -->
+    <!-- Root path where are stored the archive files -->
+    <!-- Example : C:/ or /home/user -->
+    <!-- to modify according to your environment -->
+    <entry key="property.spacedisk.path">D:/</entry>
+    <!-- Among of space disk beyond the archive files are not processed -->
+    <!-- Example : 50%, 80%, ... -->
+    <entry key="property.spacedisk.threshold">1%</entry>
+    
+    <!-- Report properties -->
+    <!-- When parsing the archive files if this keyword is met, -->
+    <!-- an event is sent in order to generate a set of predefined reports -->
+    <entry key="property.report.generation.key">end of exploitation</entry>
+    
+    <!-- Directory properties -->
+    <!-- to modify according to your environment -->
+    <entry key="property.dir.dbm">D:/Temp/ROOT_SLOT/space3/SCDMSRVLT/Dbm</entry>
+    <!-- to modify according to your environment -->
+    <entry key="property.dir.copy">D:/Temp/ROOT_SLOT/space3/SCDMSRVLT/COPY</entry>
+    <!-- to modify according to your environment -->
+    <entry key="property.dir.wip">D:/Temp/ROOT_SLOT/space3/SCDMSRVLT/WIP</entry>
+    <!-- to modify according to your environment -->
+    <entry key="property.dir.done">D:/Temp/ROOT_SLOT/space3/SCDMSRVLT/DONE</entry>
+    <!-- to modify according to your environment -->
+    <entry key="property.dir.err">D:/Temp/ROOT_SLOT/space3/SCDMSRVLT/ERR</entry>
+    <!-- to modify according to your environment -->
+    <entry key="property.dir.lostandfound">D:/Temp/ROOT_SLOT/space3/SCDMSRVLT/LOST+FOUND</entry>
+    <!-- to modify according to your environment -->
+    <entry key="property.dir.notmanagedfiles">D:/Temp/ROOT_SLOT/space3/SCDMSRVLT/NOT_MANAGED_FILES</entry>
+    <!-- to modify according to your environment -->
+    <entry key="property.dir.standby">D:/Temp/ROOT_SLOT/space3/SCDMSRVLT/STANDBY_FILES</entry>
+    
+    <!-- Thread pool properties -->
+    <!-- use as max pool size, and permanent pool size -->
+    <entry key="property.threadpool.wip.size">10</entry>
+    <!-- milliseconds -->
+    <entry key="property.threadpool.wip.keepalivetime">100</entry>
+    
+    <!-- WIP directory watcher -->
+    <!-- milliseconds, default value 500 ms. -->
+    <entry key="property.wip.dir.watcher.period">1000</entry>
+    
+    <!-- For tests only -->
+    <!-- true/false-->
+    <entry key="property.table.push.acceleration">false</entry>
+    <entry key="property.table.push.acceleration.seconds">120</entry>
+    
+</properties>

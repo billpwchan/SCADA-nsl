@@ -1,0 +1,12 @@
+# generic column value for selection
+&dpctag_value_tagged : Tagged
+&dpctag_value_untagged : Un-Tagged
+
+&project_button_untagged : Un-Tagged
+&project_button_tagged : Tagged
+&project_button_filter_reset : Filter Reset
+&project_button_filter_applied : Filter Applied
+&project_button_tag : Tag
+&project_button_untag : Un-Tag
+&project_button_apply : Apply
+&dpctag_placeholder_ptw_comment: PTW Comment

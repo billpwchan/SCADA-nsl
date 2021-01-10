@@ -1,0 +1,50 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 16:29:48 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "astipage1opt"
+PathName "D:\\SOFTS\\animator4\\anstudio\\data\\anilv\\astipage1opt.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 10
+3 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 90 230 51 F268435468 0 { IlvMessageItem 262169 4 16 4 "&SymbolFactor"  }   } 0
+0
+3 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 -3 230 90 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Backup"  }   } 0
+0
+3 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 84 36 62 22 F6 2 16 -1 0 "AutoSave" } 32 "BackupName"
+0
+3 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 15 68 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "&TimeBackup"  }   } 0
+0
+3 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 84 15 62 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "&NameBackup"  }   } 0
+0
+3 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 15 109 210 22 F6 2 16 -1 0 "1" . , 2 16 1e-006 1e+006 } 32 "ZoomFactorSymbol"
+2048 "BackupTime"
+3 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 12 36 68 22 F6 2 16 -1 0 "300" . , 2 0 0 2147483647 } 32 "BackupTime"
+4096 "ZoomFactorSymbol"
+3 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 150 15 78 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "&SubDirBackup"  }   } 0
+0
+3 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 150 36 78 22 F6 2 16 -1 0 "" } 32 "BackupSubDir"
+0
+3 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 86 65 57 16 F1073741825 2 1 2 0 0 0 Y "&Actif" } 32 "StateBackup"
+0
+Size 240 150
+EOF

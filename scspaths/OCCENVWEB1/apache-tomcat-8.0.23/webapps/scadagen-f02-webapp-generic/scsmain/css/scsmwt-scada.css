@@ -1,0 +1,146 @@
+.mwt-infopanel-view td {
+	padding: 0px;
+	width: 1%;
+    white-space: nowrap;
+}
+
+.mwt-infopanel-view td.last {
+	padding: 0px;
+	width: 100%;
+    white-space: nowrap;
+}
+
+.mwt-infopanel-view {
+	background-color: #102128;
+}
+
+.mwt-infopanel-view .mwt-infopanel-entry {
+	border: 1px solid #444444;
+    width: 100%;
+}
+
+.mwt-infopanel-view .mwt-infopanel-header {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mwt-infopanel-view .mwt-infopanel-label-left {
+    font-weight: bold;
+    color: white;
+    margin: 2px;
+	text-align: left;
+	width: 100px;
+}
+.mwt-infopanel-view .mwt-infopanel-label-right {
+    color: white;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.gwt-DisclosurePanel a {
+    text-decoration: none;
+}
+
+.scs-disclosure-offline a {
+	pointer-events: none !important;
+    cursor: default !important;
+}
+
+.gwt-DisclosurePanel  .mwt-infopanel-entry.content  td {
+    padding: 6px;
+	width: 1%;
+    white-space: nowrap;
+}
+.gwt-DisclosurePanel .mwt-infopanel-entry.content  td.last {
+    padding: 0px;
+	width: 100%;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.scs-almseverity-none {
+	border-right: 10px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.scs-almseverity-0 {
+    border-right: 10px solid green;
+    border-left: 1px solid green;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    
+}
+
+.scs-almseverity-invalid {
+    border-right: 10px solid blue;
+    border-left: 1px solid blue;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+}
+
+.scs-almseverity-offline {
+    border-right: 10px solid grey !important;
+    border-left: 1px solid grey !important;
+    border-top: 1px solid grey !important;
+    border-bottom: 1px solid grey !important;
+	color: grey !important;
+    padding-right: 4px !important;
+    font-style: italic !important;
+}
+
+.scs-almseverity-1 {
+    border-right: 10px solid green;
+    border-left: 1px solid green;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+   
+}
+.scs-almseverity-2{
+	border-right: 10px solid #F9F900;
+    border-left: 1px solid #F9F900;
+    border-top: 1px solid #F9F900;
+    border-bottom: 1px solid #F9F900;
+    
+}
+.scs-almseverity-3{
+	border-right: 10px solid #F29D00;
+    border-left: 1px solid #F29D00;
+    border-top: 1px solid #F29D00;
+    border-bottom: 1px solid #F29D00;
+    
+}
+.scs-almseverity-4{
+    border-right: 10px solid #C92F18;
+    border-left: 1px solid #C92F18;
+    border-top: 1px solid #C92F18;
+    border-bottom: 1px solid #C92F18;
+   
+}
+
+/*SCADAsoft Custom*/
+
+.edge-info-panel{
+	color:white;
+	width: 23px;
+	margin: 2px;
+}
+.edge-info-panel:hover {
+	color:white;
+	border: none !important;
+}
+
+.edge-info-panel-filled{
+	color:#00E0FF!important;
+}
+
+.edge-info-panel-unkwnow{
+	color:#F1C315!important;
+}
+
+

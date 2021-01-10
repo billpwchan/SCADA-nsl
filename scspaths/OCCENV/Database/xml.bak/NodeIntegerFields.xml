@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="NodeIntegerFields" numAttributes="24" numInstances="0" numPeriod_MT="" numPeriod_ST="" period_MT="" period_ST="">
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="description" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf1" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf10" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf2" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf3" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf4" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf5" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf6" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf7" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf8" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf9" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="label" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf1" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf2" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf3" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf10" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf4" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf5" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf6" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf7" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf8" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf9" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+</Class>

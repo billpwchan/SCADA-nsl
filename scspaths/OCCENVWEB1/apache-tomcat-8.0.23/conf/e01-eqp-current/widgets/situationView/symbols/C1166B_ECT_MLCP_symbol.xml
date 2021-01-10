@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<symbolConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/symbol">
+    <entitySymbol animationId="C1166B_ECT_MLCP_animation" cssBaseClass="mwt-sv-cfg-entity" id="C1166B_ECT_MLCP" graphicId="C1166B_ECT_MLCP_graphic" zoomStrategyId="ID" width="200.000000" height="100.000000"></entitySymbol>
+</symbolConfiguration>

@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" href="$ols_8h.html" title="Remote access to OlsList objects." alt="ols.h" coords="173,167,211,193" />
+<area shape="rect" href="$olstypes_8h.html" title="Various classes, typedefs and functions used in OlsList context." alt="olstypes.h" coords="229,92,301,119" />
+<area shape="rect" href="$his_8h.html" title="Access to the History server for archive management." alt="his.h" coords="7,316,44,343" />
+<area shape="rect" href="$histypes_8h.html" title="Various utility classes used in the History server context." alt="histypes.h" coords="97,241,169,268" />
+<area shape="rect" href="$scsalm_8h.html" title="Access to the Alarm Server component." alt="scsalm.h" coords="220,241,284,268" />
+<area shape="rect" href="$trd_8h.html" title="Access to the the Trend server (TRD)" alt="trd.h" coords="101,540,141,567" />
+<area shape="rect" href="$hisreadfilemgr_8h.html" title="Utility class used to read periodic archive files without any running SCADASoft envrionment." alt="hisreadfilemgr.h" coords="68,316,185,343" />
+<area shape="rect" href="$trddata_8h.html" title="Data used in Trend server context." alt="trddata.h" coords="209,316,276,343" />
+<area shape="rect" href="$trddataset_8h.html" title="Data used in Trend server context." alt="trddataset.h" coords="185,391,268,417" />
+<area shape="rect" href="$trdhissubscription_8h.html" title="Management of archives of the Trend server (TRD)" alt="trdhissubscription.h" coords="159,465,295,492" />
+<area shape="rect" href="$scsalmext_8h.html" title="Remote Access to the Alarm Server." alt="scsalmext.h" coords="300,316,383,343" />
+</map>

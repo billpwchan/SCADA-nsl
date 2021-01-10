@@ -1,0 +1,51 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astilevelsws"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astilevelsws.ilv"
+Palettes 3
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F 44544 45568 49920 "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 2 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 4
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 124 241 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&add"  }   } 512
+1
+1 "__ilvCallback" "addCB"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 306 241 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "closeCB"
+10240 "Matrix"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 10 10 494 210 F34904 2 Y N 0 0 0 0 1 1 157 20 1 1 1 1 1 1 3 2 V0 2 3 0 0 226 IlvGadgetMatrixItem P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 16 16 150 13 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Name"  }   1 
+1 0 226 IlvGadgetMatrixItem P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 173 16 150 13 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Comment"  }   1  2 0 226 IlvGadgetMatrixItem P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 330 16 150 13 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Domain"  }   1 
+0 N 0 0 1 1 0  } 544 "Matrix"
+1
+1 "__ilvCallback" "matrixCB"
+4096 "Button_1"
+1 { 3 2 IlvReliefLine 0 231 513 231 1 } 0
+0
+Size 513 272
+GeometryHandlers
+1 100 513 513 0 513 0
+4 3 124 0 124  0 0 73 0  316 0 316 0
+ 3 306 0 306  0 0 73 1  134 0 134 0
+ 3 0 0 10  494 0 494 2  0 0 9 0
+ 3 0 0 0  513 0 513 3  0 0 0 0
+1 100 272 272 0 272 0
+4 3 241 0 241  0 0 23 1  0 0 8 0
+ 3 241 0 241  0 0 23 0  0 0 8 0
+ 3 0 0 10  210 0 210 2  0 0 52 0
+ 3 230 0 230  0 0 2 3  0 0 40 0
+EOF

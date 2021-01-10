@@ -1,0 +1,25 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.6.12,ou=objectClasses,cn=dhcp,ou=schema
+m-supobjectclass: top
+m-must: cn
+m-must: dhcpServiceDN
+m-may: dhcpVersion
+m-may: dhcpImplementation
+m-may: dhcpHashBucketAssignment
+m-may: dhcpDelayedServiceParameter
+m-may: dhcpMaxClientLeadTime
+m-may: dhcpFailOverEndpointState
+m-may: dhcpStatements
+m-typeobjectclass: STRUCTURAL
+m-oid: 2.16.840.1.113719.1.203.6.12
+m-name: dhcpServer
+m-description: DHCP Server Object
+m-obsolete: FALSE
+entryParentId: eeb3e466-e731-479e-b508-326bdc770ee8
+createTimestamp: 20140513151219.863Z
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+entryUUID: 71904644-1767-443d-bbbe-0813fa5186f3
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.817000Z#000011#000#000000

@@ -1,0 +1,50 @@
+#
+# Concentrateur HBA
+# External variables configuration file
+# this file has been automatically build by ScsConf
+#
+# Wed May 16 11:26:15 CEST 2012
+#
+#
+# Discrete External Input Variables
+#
+DEIV= <SUBSCRIPTION_DMM><DMM001><Layout>; deiDMM001_Layout; 4; ; ; 0; , , ; # deiDMM001_Layout
+DEIV= $GetState-HBA; deiHBA_State; 4; ; ; 0; , , ; # deiHBA_State
+DEIV= $GetSpy-HBA; deiHBA_Spy; 4; ; ; 0; , , ; # deiHBA_Spy
+DEIV= $GetLnk-HBA-1; deiHBA_Lnk_Endpoint1; 4; ; ; 0; , , ; # deiHBA_Lnk_Endpoint1
+DEIV= <SUBSCRIPTION_DMM><DMM002><Layout>; deiDMM002_Layout; 4; ; ; 0; , , ; # deiDMM002_Layout
+#
+#
+# Discrete External Output Variables
+#
+DEOV= $SetLnk-HBA-Endpoint1; deoHBA_Lnk_Endpoint1; 4; ; ; 0; , , ; # deoHBA_Lnk_Endpoint1
+DEOV= $SetSpy-HBA; deoHBA_Spy; 4; ; ; 0; , , ; # deoHBA_Spy
+DEOV= $SetState-HBA; deoHBA_State; 4; ; ; 0; , , ; # deoHBA_State
+#
+#
+# Analogue External Input Variables
+#
+AEIV= <SUBSCRIPTION_CAMERA><CAM001><Pan>; aeiSITE_1B001R001CAM001_Pan; 4; ; ; 0; , , ; # aeiR001CAM001_Pan
+AEIV= <SUBSCRIPTION_CAMERA><CAM002><Pan>; aeiSITE_1B001R001CAM002_Pan; 4; ; ; 0; , , ; # aeiR001CAM002_Pan
+AEIV= <SUBSCRIPTION_CAMERA><CAM003><Pan>; aeiSITE_1B002R001CAM001_Pan; 4; ; ; 0; , , ; # aeiR001CAM001_Pan
+AEIV= <SUBSCRIPTION_CAMERA><CAM004><Pan>; aeiSITE_1B002R001CAM002_Pan; 4; ; ; 0; , , ; # aeiR001CAM002_Pan
+#
+#
+# Analogue External Output Variables
+#
+#
+#
+# Structured External Input Variables
+#
+SEIV= <SUBSCRIPTION_CAMERA><CAM001><Status>; seiSITE_1B001R001CAM001_Raw; 1024; ; ; 0; , , ; # seiR001CAM001_Raw
+SEIV= <SUBSCRIPTION_CAMERA><CAM002><Status>; seiSITE_1B001R001CAM002_Raw; 1024; ; ; 0; , , ; # seiR001CAM002_Raw
+SEIV= <SUBSCRIPTION_CAMERA><CAM003><Status>; seiSITE_1B002R001CAM001_Raw; 1024; ; ; 0; , , ; # seiR001CAM001_Raw
+SEIV= <SUBSCRIPTION_CAMERA><CAM004><Status>; seiSITE_1B002R001CAM002_Raw; 1024; ; ; 0; , , ; # seiR001CAM002_Raw
+SEIV= <SUBSCRIPTION_DMM><DMM001><DMMLoc>; seiDMM001_Raw; 1024; ; ; 0; , , ; # seiDMM001_Raw
+SEIV= <SUBSCRIPTION_DMM><DMM002><DMMLoc>; seiDMM002_Raw; 1024; ; ; 0; , , ; # seiDMM002_Raw
+#
+#
+# Structured External Output Variables
+#
+SEOV= <CommandPreset><CAM001>; seoSITE_1B001R001CAM001_Pre; 1024; ; ; 0; , , ; # seoR001CAM001_Pre
+SEOV= <CommandCommutation><DMM001>; seoDMM001_Com; 1024; ; ; 0; , , ; # seoDMM001_Com

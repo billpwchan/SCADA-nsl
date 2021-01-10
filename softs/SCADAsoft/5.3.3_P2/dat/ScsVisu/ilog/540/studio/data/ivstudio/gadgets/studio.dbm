@@ -1,0 +1,23 @@
+// IlvMessageDatabase 5.4 Wed Apr 14 11:25:31 CEST 2010
+// Language: en_US
+// Encoding: US-ASCII
+"&ErrNbVisItemGT0" "The number of visible items must be in the range 0-50"
+"&attachmentMode" "Attachments"
+"&attachmentModeP" "Attachment editing mode"
+"&focusMode" "Focus"
+"&focusModeP" "Keyboard focus linking mode"
+"&matrixMode" "Matri^x"
+"&matrixModePrompt" "Matrix editing mode"
+"&menuMode" "^Menu"
+"&menuModePrompt" "Menu editing mode"
+"&newGadgetBuffer" "Gadgets"
+"&newGadgetBufferP" "Create a new buffer for gadgets"
+"&removeAllAttachments" "Remove All Attachments"
+"&removeAllAttachmentsP" "Remove all the attachments in the current buffer"
+"&removeAttachments" "Remove Attachments"
+"&removeAttachmentsP" "Remove the selected objects' attachments"
+"&scMgrPrompt" "Create a SCManagerRectangle"
+"&spinBoxMode" "SpinBox"
+"&spinBoxModePrompt" "SpinBox editing mode"
+"&ttmatrixMode" "Matrix"
+"&ttmenuMode" "Menu"

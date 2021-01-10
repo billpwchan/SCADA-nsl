@@ -1,0 +1,7 @@
+Modify C:\WINDOWS\system32\drivers\etc\hosts to match application installation
+
+# for a full local application use your local ip
+192.168.56.1 p-dummy ba1node1 ba1node2 ba1lb pl1node1 hisnode
+192.168.56.1 p-dummy ba2node1 ba2node2 ba2lb pl2node1 illb gisnode
+192.168.56.1 rtu01a rtu01b rtu02a rtu02b rtu03a rtu03b rtu04a rtu04b
+192.168.56.1 rtu05a rtu05b rtu06a rtu06b rtu07a rtu07b rtu08a rtu08b

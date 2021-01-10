@@ -1,0 +1,59 @@
+// Ilv Version: 2.21
+// File generated: Tue Jun 25 14:53:08 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+1 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 2 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 39
+1 { 0 0 IlvFrame 5 145 304 161 0 "&state" 1 } 32 "Frame_1" 0
+1 { 1 0 IlvFrame 5 310 303 70 0 "&scrollbars" 1 } 0 0
+2 { 2 0 IlvToggle 137 167 101 17 F1 2 1 2 0 0 0 Y "&exclusive" } 96 "excl" "Toggle" 0
+2 { 3 0 IlvToggle 137 211 101 17 F1 2 1 2 0 0 0 Y "&sensitive" } 96 "sens" "Toggle" 0
+2 { 4 0 IlvToggle 137 233 101 17 F1 2 1 2 0 0 0 Y "&shadow" } 96 "shadow" "Toggle" 0
+2 { 5 0 IlvTextField 101 4 46 23 F6 2 1 -1 0 "" } 96 "columns" "TextField" 0
+2 { 6 0 IlvTextField 101 32 46 23 F6 2 1 -1 0 "" } 96 "xsize" "TextField" 0
+2 { 7 0 IlvTextField 101 60 46 23 F6 2 1 -1 0 "" } 96 "frow" "TextField" 0
+2 { 8 0 IlvTextField 101 116 46 23 F6 2 1 -1 0 "" } 96 "spacing" "TextField" 0
+2 { 9 0 IlvToggle 18 167 111 17 F1 2 1 2 0 0 0 Y "&background" } 96 "bg" "Toggle" 0
+2 { 10 0 IlvToggle 18 189 117 17 F1 2 1 2 0 0 0 Y "&fitToSize" } 96 "fito" "Toggle" 4 "CallFitToSize"
+2 { 11 0 IlvToggle 18 211 101 17 F1 2 1 2 0 0 0 Y "&grid" } 96 "grid" "Toggle" 0
+2 { 12 0 IlvToggle 18 233 101 17 F1 2 1 2 0 0 0 Y "&editable" } 96 "allowEdit" "Toggle" 0
+2 { 13 0 IlvTextField 260 4 46 23 F6 2 1 -1 0 "" } 96 "rows" "TextField" 0
+2 { 14 0 IlvTextField 260 32 46 23 F6 2 1 -1 0 "" } 96 "ysize" "TextField" 0
+2 { 15 0 IlvTextField 260 60 46 23 F6 2 1 -1 0 "" } 96 "fcol" "TextField" 0
+2 { 16 1 IlvButton 5 396 60 23 F1 2 16 Y "&apply" } 64 "Button" 132 "apply" 1 5
+2 { 17 1 IlvButton 256 396 60 23 F1 2 16 Y "&close" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 18 0 IlvToggle 137 189 124 17 F1 2 1 2 0 0 0 Y "&adjustLast" } 96 "alast" "Toggle" 4 "CallAdjustLast"
+2 { 19 0 IlvTextField 101 88 46 23 F6 2 1 -1 0 "" } 96 "fixedRow" "TextField" 0
+2 { 20 0 IlvTextField 260 88 46 23 F6 2 1 -1 0 "" } 96 "fixedColumn" "TextField" 0
+2 { 21 0 IlvComboBox 171 327 130 21 F3 2 3 "&show"
+"&show"
+"&hide"
+"&asNeeded" } 32 "vert" 6144 "vpos" "text"
+2 { 22 0 IlvComboBox 171 352 130 21 F3 2 3 "&show"
+"&show"
+"&hide"
+"&asNeeded" } 32 "horiz" 6144 "hpos" "vpos"
+3 { 23 2 IlvReliefLine 0 388 321 388 1 } 32 "line" 464 1 0 1 0 1 35 2
+3 { 24 0 IlvMessageLabel 10 3 82 26 0 "&column" 1 } 0 0
+3 { 25 0 IlvMessageLabel 167 3 84 26 0 "&row" 1 } 0 0
+3 { 26 0 IlvMessageLabel 10 87 82 26 0 "&fixedRow" 1 } 0 0
+3 { 27 0 IlvMessageLabel 10 59 82 26 0 "&firstRow" 1 } 0 0
+3 { 28 0 IlvMessageLabel 167 59 84 26 0 "&firstColumn" 1 } 0 0
+3 { 29 0 IlvMessageLabel 10 31 82 26 0 "&width" 1 } 0 0
+3 { 30 0 IlvMessageLabel 167 31 84 26 0 "&height" 1 } 0 0
+3 { 31 0 IlvToggle 18 255 78 17 F1 2 1 2 0 0 0 Y "&Browse" } 32 "browse" 0
+3 { 32 0 IlvMessageLabel 10 115 82 26 0 "&spacing" 1 } 0 0
+3 { 33 0 IlvMessageLabel 167 87 84 26 0 "&fixedColumn" 1 } 0 0
+3 { 34 0 IlvMessageLabel 17 327 102 22 0 "&vertical" 1 } 0 0
+3 { 35 0 IlvMessageLabel 17 352 91 22 0 "&horizontal" 1 } 0 0
+3 { 36 0 IlvToggle 137 253 138 17 F1 2 1 2 0 0 0 Y "&directEdit" } 32 "directEdit" 0
+3 { 37 0 IlvMessageLabel 21 278 93 22 0 "&editDirection" 1 } 0 0
+3 { 38 0 IlvScrolledComboBox 138 278 108 20 F7 2 5 "Droite"
+"&right"
+"&left"
+"&top"
+"&bottom"
+"&none" 5 } 32 "editDirection" 0
+Size 321 424

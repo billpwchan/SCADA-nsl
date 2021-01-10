@@ -1,0 +1,59 @@
+/************************************************/
+/* PIE configuration */
+/************************************************/
+
+
+.pieConfiguration {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: row;
+  flex-grow: 1;
+  margin: 8px;
+}
+.pieConfiguration-pieRepConfigContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.pieConfiguration-pieRepConfigLabel {
+/*   font-family: "Roboto-regular"; */
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.pieConfiguration-timeConfigContainer {
+  color: #FFFFFF;
+  width: 470px;
+}
+.pieConfiguration-timeConfigLabel {
+/*   font-family: "Roboto-regular"; */
+  font-size: 15px;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+/*********************************************************/
+
+.pieSliceLabel {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+/*   font-family: "Roboto-medium"; */
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  padding: 4px;
+}
+.pieSliceLabel .pieSliceLabel-percentValue {
+/*   font-family: "Roboto-medium"; */
+  font-size: 18px;
+}
+.pieSliceLabel .pieSliceLabel-labelValue .pieSliceLabel-label {
+  margin-right: 8px;
+}

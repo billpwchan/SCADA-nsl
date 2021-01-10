@@ -1,0 +1,30 @@
+// Ilv Version: 2.3
+// File generated: Wed Nov 13 11:20:19 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+2 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 1 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 8
+0 { 0 0 IlvTextField 5 27 246 22 F6 2 1 -1 0 "" } 32 "label" 10244 "label" "bitmap"
+0 { 1 1 IlvReliefLine 0 92 256 92 1 } 32 "line" 0
+0 { 2 2 IlvButton 5 100 76 23 F1 2 16 Y "&apply" } 0 6148 "apply" "Button_2" "period"
+0 { 3 2 IlvButton 175 100 76 23 F1 2 16 Y "&close" } 0 4100 "cancel" "Button_1"
+0 { 4 0 IlvMessageLabel 10 2 236 23 F1 0 "&label" 1 } 0 16 1 10
+0 { 5 2 IlvButton 175 59 76 23 F1 2 16 Y "&Palette..." } 0 4 "palette"
+0 { 6 1 IlvFilledRectangle 5 58 165 26 } 32 "frect" 0
+0 { 7 1 IlvRectangle 5 58 165 26 } 32 "rect" 0
+Size 256 128
+GeometryHandlers
+1 100 0 256 0 256 0
+7 3 0 0 0  256 0 256 1  0 0 0 0
+ 3 175 0 175  0 0 76 3  0 0 5 0
+ 3 175 0 175  0 0 76 5  0 0 5 0
+ 3 0 0 5  165 0 165 7  0 0 86 0
+ 3 0 0 5  246 0 246 0  0 0 5 0
+ 3 0 0 5  165 0 165 6  0 0 86 0
+ 3 0 0 5  0 0 76 2  175 0 175 0
+1 100 0 128 0 128 0
+3 3 100 0 100  0 0 23 2  0 0 5 0
+ 3 100 0 100  0 0 23 3  0 0 5 0
+ 3 91 0 91  0 0 2 1  0 0 35 0

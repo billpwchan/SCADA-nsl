@@ -1,0 +1,160 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:23 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "Connect"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\Connect.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 17
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton -1 -1 322 292 F536870925 0 { IlvMessageItem 262144 4 16 4  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 7 37 309 107 F268435468 0 { IlvMessageItem 262168 4 16 4  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSheet 8 38 305 104 F335579230 2 Y Y 0 0 0 0 1 1 95 25 0 1 0 1 1 0 3 1 V0 2 95 
+194 
+287 
+3 0 0 160 IlvGadgetMatrixItem P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 10 40 92 22 F13 2 { IlvMessageItem 262145 4 16 4 "Accessor"  }   c 
+1
+1 "__ilvCallback" "CAddCB" 1 
+1 0 160 IlvGadgetMatrixItem P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 105 40 96 22 F13 2 { IlvMessageItem 262145 4 16 4 "Type"  }   c 
+1
+1 "__ilvCallback" "CAddCB" 0  2 0 161 IlvGadgetMatrixItem P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 204 40 90 22 F13 2 { IlvMessageItem 262145 4 16 4 "Value"  }   c 
+1
+1 "__ilvCallback" "CAddCB" 0  0 L N 0 0 0 1 0  } 544 "SheetList"
+1
+1 "__ilvCallback" "matrixCB"
+0
+1 { 3 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "Relative Path" 4 4 ]
+0 IlvTextField 14 168 104 25 F6 2 1 -1 0 "Relative Path" } 32 "CPath"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 124 168 26 25 F13 2 { IlvMessageItem 262146 4 16 4 1 0 "icons/browse_db.png"  }   } 544 "CBrowse"
+1
+1 "__ilvCallback" "CBrowseCB"
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 163 6 151 25 F39 2 1 -1 0 "Refresh Mode" 5
+{ IlvMenuItem 1 2 4 "Read"  } 
+{ IlvMenuItem 1 2 4 "Read/Write"  } 
+{ IlvMenuItem 1 2 4 "Poll"  } 
+{ IlvMenuItem 1 2 4 "Computed"  } 
+{ IlvMenuItem 1 2 4 "History"  }  } 544 "CRefreshMode"
+1
+1 "__ilvCallback" "CRefreshModeCB"
+2048 "CAdd"
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 239 254 75 25 F13 2 { IlvMessageItem 262147 4 2 4 "Remove" 1 0 "icons/scs_remove.png"  }   } 544 "CClear"
+1
+1 "__ilvCallback" "CClearCB"
+6144 "CAttributeList" "CAdd"
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 151 254 75 25 F13 2 { IlvMessageItem 262147 4 2 4 "Set" 1 0 "icons/scs_set.png"  }   } 544 "CAdd"
+1
+1 "__ilvCallback" "CAddCB"
+6144 "CClear" "CRefreshMode"
+1 { 8 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "Attribute" 4 4 ]
+0 IlvTextField 14 206 104 25 F6 2 1 -1 0 "Attribute" } 32 "CAttribute"
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 124 206 26 25 F13 2 { IlvMessageItem 262146 4 16 4 1 0 "icons/browse_select.png"  }   } 544 "CSelect"
+1
+1 "__ilvCallback" "CSelectCB"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 9 149 147 90 F268435468 0 { IlvMessageItem 262169 4 16 4 "DB Connect"  }   } 0
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 167 149 147 90 F268435468 0 { IlvMessageItem 262169 4 16 4 "Formula Connect"  }   } 0
+0
+1 { 12 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "Formula Name" 4 4 ]
+0 IlvTextField 172 169 104 25 F6 2 1 -1 0 "Formula Name" } 32 "CFormulaName"
+0
+1 { 13 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "Variable Name" 4 4 ]
+0 IlvTextField 172 206 104 25 F6 2 1 -1 0 "Variable Name" } 32 "CVariableName"
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 282 169 26 25 F13 2 { IlvMessageItem 262146 4 16 4 1 0 "icons/browse_file.png"  }   } 544 "CFBrowse"
+1
+1 "__ilvCallback" "CFormulaBrowseCB"
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 282 206 26 25 F13 2 { IlvMessageItem 262146 4 16 4 1 0 "icons/browse_select.png"  }   } 544 "CFSelect"
+1
+1 "__ilvCallback" "CVariableSelectCB"
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 7 6 151 25 F807 2 1 -1 0 "Attribute List" 0 20 2 } 544 "CAttributeList"
+1
+1 "__ilvCallback" "CAttributeListCB"
+0
+Size 320 290
+Background 54998 54227 52942
+GeometryHandlers
+2 50 0 159 0 159 0
+ 50 0 161 159 161 159
+11 3 0 0 8  305 0 305 2  0 1 7 1
+ 3 0 0 9  147 0 147 10  0 0 3 0
+ 3 124 0 124  0 0 26 9  0 0 9 0
+ 3 124 0 124  0 0 26 4  0 0 9 0
+ 3 0 0 14  104 0 104 3  0 0 41 0
+ 3 0 0 14  104 0 104 8  0 0 41 0
+ 3 151 0 151  0 0 75 7  0 0 94 1
+ 3 239 0 239  0 0 75 6  0 0 6 1
+ 3 0 0 7  309 0 309 1  0 0 4 1
+ 3 0 -1 -1  322 0 322 0  0 -1 -1 1
+ 3 0 0 7  151 0 151 16  0 0 1 0
+6 3 0 0 4  151 0 151 5  0 0 6 1
+ 3 0 0 8  147 0 147 11  0 0 6 1
+ 3 0 0 13  104 0 104 12  0 0 44 1
+ 3 0 0 13  104 0 104 13  0 0 44 1
+ 3 123 0 123  0 0 26 14  0 0 12 1
+ 3 123 0 123  0 0 26 15  0 0 12 1
+2 100 0 147 0 147 0
+ 0 0 143 147 143 147
+3 3 0 0 38  104 0 104 2  0 0 5 0
+ 3 0 0 37  107 0 107 1  0 0 3 0
+ 3 0 -1 -1  292 0 292 0  0 -1 -1 1
+12 3 0 0 2  90 0 90 10  0 0 51 1
+ 3 0 0 21  25 0 25 3  0 0 97 1
+ 3 0 0 21  25 0 25 4  0 0 97 1
+ 3 0 0 59  25 0 25 8  0 0 59 1
+ 3 0 0 59  25 0 25 9  0 0 59 1
+ 3 0 0 22  25 0 25 12  0 0 96 1
+ 3 0 0 2  90 0 90 11  0 0 51 1
+ 3 0 0 59  25 0 25 13  0 0 59 1
+ 3 0 0 107  25 0 25 6  0 0 11 1
+ 3 0 0 107  25 0 25 7  0 0 11 1
+ 3 22 0 22  0 0 25 14  0 0 96 1
+ 3 59 0 59  0 0 25 15  0 0 59 1
+EOF

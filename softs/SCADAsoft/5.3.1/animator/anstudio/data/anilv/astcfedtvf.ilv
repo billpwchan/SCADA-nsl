@@ -1,0 +1,81 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:23:08 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcfedtvf"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcfedtvf.ilv"
+Palettes 4
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+3 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+"default" 2 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 11
+1 { 0 P 2
+[ IlvAttachments _IlvAttachments 672  1 10 1 294 2 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 114 10 80 160 F131 2 A A 0 0 0 0 0 1 0 0 V0 2 0 } 544 "List"
+2
+1 "__ilvCallback" "loadLetterCB"
+1 "__ilvSCallback" "loadLetterCB"
+0
+1 { 1 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&edtvftpsaveselected" 4 4 ]
+1 IlvButton 7 77 100 23 F13 2 { IlvMessageItem 262145 4 16 4 "&EdtVfSaveSelected"  }   } 512
+1
+1 "__ilvCallback" "saveLetterIlvCB"
+0
+1 { 2 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&edtvftpsaveall" 4 4 ]
+1 IlvButton 7 44 100 23 F13 2 { IlvMessageItem 262145 4 16 4 "&EdtVfSaveAll"  }   } 512
+1
+1 "__ilvCallback" "saveAllLettersCB"
+0
+1 { 3 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&edtvftpshow" 4 4 ]
+1 IlvButton 7 11 100 23 F13 2 { IlvMessageItem 262145 4 16 4 "&EdtVfFontTest"  }   } 512
+1
+1 "__ilvCallback" "loadFileCB"
+0
+1 { 4 P 2
+[ IlvAttachments _IlvAttachments 128  1 17 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 289 424 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&ok"  }   } 512
+1
+1 "__ilvCallback" "closeCB"
+0
+1 { 5 P 2
+[ IlvAttachments _IlvAttachments 464  1 11 1 26 1 54 2 ]
+[ IlvInteractorProperty __ilvInteractor "SCManager" ]
+2 IlvSCManagerRectangle 11 215 315 179 YY } 32 "MgrFont"
+0
+1 { 6 P 2
+[ IlvAttachments _IlvAttachments 1008  1 200 1 10 1 9 1 293 2 2 ]
+[ IlvInteractorProperty __ilvInteractor "SCManager" ]
+2 IlvSCManagerRectangle 200 10 143 145 YY } 32 "MgrLetter"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 7 117 100 53 F268435468 0 { IlvMessageItem 262169 4 16 4 "Offset Marker"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 17 137 79 23 F6 2 2 -1 0 "0" . , 2 2 -1000 1000 } 544 "Offset"
+1
+1 "__ilvCallback" "offsetCB"
+0
+1 { 9 P 2
+[ IlvAttachments _IlvAttachments 464  1 5 1 13 1 44 2 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvFrame 5 168 350 252 F268435468 0 { IlvMessageItem 262169 4 16 4 "Font"  }   } 0
+0
+1 { 10 P 2
+[ IlvAttachments _IlvAttachments 128  1 251 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 280 190 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&reset"  }   } 512
+1
+1 "__ilvCallback" "makeVectLabelCB"
+0
+Size 368 464
+EOF

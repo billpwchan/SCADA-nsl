@@ -1,0 +1,188 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:23:08 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcledtbargraph"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcledtbargraph.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 22
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+0 IlvMatrix 20 238 110 111 F34904 2 N N 0 0 0 0 1 1 105 106 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 32 "Preview"
+2
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMenuBar 0 0 298 29 F268435750 2 V0 2 2
+{ IlvMenuItem 67108865 2 4 "&menu_file"  0 IlvPopupMenu 3 26 120 167 F166 2 V0 2 10
+{ IlvMenuItem 33554435 2 4 "&mnew" 1 0 "astnew2.png"  "mnewCB" } 
+{ IlvMenuItem 33554435 2 4 "&menu_open..." 1 0 "astopen2.png"  "mopenCB" } 
+{ IlvMenuItem 33554435 2 4 "&menu_save" 1 0 "astsave2.png"  "msaveCB" } 
+{ IlvMenuItem 33554435 2 4 "&saveAs" 1 0 "astsaveas.png"  "msaveasCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554435 2 4 "&showpanelWorkSpace" 1 0 "ws2.png"  "workspaceCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554435 2 4 "&showpanelErrors" 1 0 "error.png"  "errorsCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554435 2 4 "&quit" 1 0 "icquit.png"  "cancelECB" }  22   } 
+{ IlvMenuItem 33554433 2 4 "&menu_help"  "HelpCB" }  0 } 32 "Menu"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 150 208 146 148 F268435468 0 { IlvMessageItem 262169 4 16 4 ""  }   } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 4 201 143 155 F268435468 0 { IlvMessageItem 262169 4 16 4 "&previewSA"  }   } 0
+0
+1 { 4 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ImportPortableFormatTip" 4 4 ]
+0 IlvButton 41 34 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astopen.png"  }   } 544 "Open"
+1
+1 "__ilvCallback" "mopenCB"
+4096 "SymbolList"
+1 { 5 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ExportPortableFormatTip" 4 4 ]
+0 IlvButton 79 34 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astsave.png"  }   } 544 "Save"
+1
+1 "__ilvCallback" "msaveCB"
+0
+1 { 6 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&QuitTip" 4 4 ]
+0 IlvButton 266 34 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "ivicn6.png"  }   } 512
+1
+1 "__ilvCallback" "cancelECB"
+0
+1 { 7 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&Set" 4 4 ]
+0 IlvArrowButton 158 216 46 23 F13 2 { IlvMessageItem 262145 4 16 4 ""  }   2 0 } 544 "SetSymbol"
+1
+1 "__ilvCallback" "setSymbolCB"
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+0 IlvMatrix 208 216 80 80 F34904 2 N N 0 0 0 0 1 1 75 75 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 32 "PreviewSymbol"
+2
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 238 301 50 22 F6 2 2 -1 0 "1" . , 2 2 1 2147483647 } 544 "BarCount"
+1
+1 "__ilvCallback" "barCountCB"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 238 326 50 22 F6 2 2 -1 0 "1" . , 2 2 1 2147483647 } 544 "Spacing"
+1
+1 "__ilvCallback" "spacingCB"
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 158 301 74 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&BarCount"  }   } 0
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 158 326 74 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&spacing"  }   } 0
+0
+1 { 13 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&DesignateTip" 4 4 ]
+0 IlvButton 117 34 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astdesignate.png"  }   } 544 "Designate"
+1
+1 "__ilvCallback" "designateCB"
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 2 361 294 22 F7 2 1 -1 0 "" } 32 "Message"
+0
+1 { 15 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&NewTip" 4 4 ]
+0 IlvButton 3 34 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astnew.png"  }   } 544 "New"
+1
+1 "__ilvCallback" "mnewCB"
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 36 218 78 16 F1 2 16 2 0 0 0 Y "&Show" } 544 "ShowPreview"
+1
+1 "__ilvCallback" "showPreviewCB"
+0
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 4 69 143 22 F6 2 2 -1 0 "*" } 544 "FilterDir"
+1
+1 "__ilvCallback" "filterCB"
+0
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 150 69 146 22 F6 2 2 -1 0 "*" } 544 "FilterFile"
+1
+1 "__ilvCallback" "filterCB"
+0
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTreeGadget 4 96 143 105 F32 2 A A 0 0 0 0 20 1 1 1 1 1 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 2
+{ IlvTreeGadgetItem 1 2 4 "First Root" 2
+{ IlvTreeGadgetItem 1 2 4 "Leaf 1" 0
+ } { IlvTreeGadgetItem 1 2 4 "Leaf 2" 0
+ }  } { IlvTreeGadgetItem 1 2 4 "Second Root" 0
+ }  }  } 544 "TreeDir"
+1
+1 "__ilvCallback" "treeDirCB"
+0
+1 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTreeGadget 150 96 146 105 F32 2 A A 0 0 0 0 20 1 1 1 1 1 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 2
+{ IlvTreeGadgetItem 1 2 4 "First Root" 2
+{ IlvTreeGadgetItem 1 2 4 "Leaf 1" 0
+ } { IlvTreeGadgetItem 1 2 4 "Leaf 2" 0
+ }  } { IlvTreeGadgetItem 1 2 4 "Second Root" 0
+ }  }  } 544 "TreeFile"
+1
+1 "__ilvCallback" "treeFileCB"
+0
+1 { 21 1 IlvReliefLine 0 28 298 28 1 } 0
+0
+Size 298 387
+GeometryHandlers
+2 100 149 149 0 149 0
+ 100 149 149 149 149 149
+7 3 0 0 2  294 0 294 14  0 0 2 1
+ 3 0 0 0  298 0 298 1  0 0 0 1
+ 3 266 0 266  0 0 30 6  0 0 2 1
+ 3 0 0 4  143 0 143 17  0 0 2 0
+ 3 0 0 4  143 0 143 19  0 0 2 0
+ 3 0 0 0  298 0 298 21  0 0 0 1
+ 3 0 0 4  143 0 143 3  0 0 2 0
+9 3 0 0 1  146 0 146 18  0 0 2 1
+ 3 0 0 1  146 0 146 20  0 0 2 1
+ 3 0 0 9  0 0 46 7  94 0 94 1
+ 3 59 0 59  0 0 80 8  0 0 10 1
+ 3 0 0 9  0 0 74 11  66 0 66 1
+ 3 0 0 9  0 0 74 12  66 0 66 1
+ 3 0 0 89  50 0 50 9  0 0 10 1
+ 3 0 0 89  50 0 50 10  0 0 10 1
+ 3 0 0 1  146 0 146 2  0 0 2 1
+3 0 93 93 0 93 0
+ 100 108 108 93 108 93
+ 0 186 186 201 186 201
+1 3 361 0 361  0 0 22 14  0 0 4 2
+2 3 0 0 3  105 0 105 19  0 0 0 1
+ 3 0 0 3  105 0 105 20  0 0 0 1
+10 3 0 0 0  0 0 155 3  31 0 31 2
+ 3 0 0 17  0 0 16 16  153 0 153 2
+ 3 0 0 37  0 0 111 0  38 0 38 2
+ 3 0 0 7  148 0 148 2  0 0 31 2
+ 3 0 0 15  0 0 23 7  148 0 148 2
+ 3 0 0 100  0 0 22 11  64 0 64 2
+ 3 0 0 125  0 0 22 12  39 0 39 2
+ 3 0 0 100  0 0 22 9  64 0 64 2
+ 3 0 0 125  0 0 22 10  39 0 39 2
+ 3 0 0 15  0 0 80 8  91 0 91 2
+EOF

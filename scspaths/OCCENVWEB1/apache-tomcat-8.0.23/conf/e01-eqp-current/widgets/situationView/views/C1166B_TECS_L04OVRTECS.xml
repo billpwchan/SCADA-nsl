@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_TECS_L04OVRTECS" resolution="3.09693251534 2.58077709611 2.1506475801 1.79220631675 1.49350526396 1.24458771996 1.0371564333 0.864297027752 0.720247523127 0.600206269272" maxExtent="0.0 0.0 4536.0 2524.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_TECS_L04OVRTECS.svg" width="4536.0" height="2524.0" bounds="0.0 0.0 4536.0 2524.0" name="C1166B_TECS_L04OVRTECS" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="1906.0" y="1873.0" symbolId="C1166B_ECT_MFD__Horizontal" entityId="OCC_SSVECTMFD_0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2275.0" y="1873.0" symbolId="C1166B_ECT_MFD__Horizontal" entityId="OCC_SSVECTMFD_0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1894.0" y="550.0" symbolId="C1166B_ECT_MFD__Horizontal" entityId="OCC_SSVECTMFD_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2279.0" y="550.0" symbolId="C1166B_ECT_MFD__Horizontal" entityId="OCC_SSVECTMFD_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1690.0" y="842.0" symbolId="C1166B_ECT_MFD__Horizontal" entityId="OCC_SSVECTMFD_0008" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2095.0" y="842.0" symbolId="C1166B_ECT_MFD__Horizontal" entityId="OCC_SSVECTMFD_0007" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2499.0" y="842.0" symbolId="C1166B_ECT_MFD__Horizontal" entityId="OCC_SSVECTMFD_0006" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2082.0" y="1579.0" symbolId="C1166B_ECT_MFD__Horizontal" entityId="OCC_SSVECTMFD_0010" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2497.0" y="1579.0" symbolId="C1166B_ECT_MFD__Horizontal" entityId="OCC_SSVECTMFD_0009" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2959.0" y="1579.0" symbolId="C1166B_ECT_MFD__Horizontal" entityId="OCC_SSVECTMFD_0005" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1910.0" y="2185.0" symbolId="C1166B_ECT_TTVF_Down" entityId="OCC_SSVECTTTVF0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2286.0" y="2185.0" symbolId="C1166B_ECT_TTVF_Down" entityId="OCC_SSVECTTTVF0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1895.0" y="235.0" symbolId="C1166B_ECT_TTVF_Up" entityId="OCC_SSVECTTTVF0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2276.0" y="235.0" symbolId="C1166B_ECT_TTVF_Up" entityId="OCC_SSVECTTTVF0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+
+  All content copyright (c) 2003-2008 Terracotta, Inc.,
+  except as may otherwise be noted in a separate copyright notice.
+  All rights reserved
+
+-->
+
+<!-- This config file is used by the server and bootjar tool when none is specified. -->
+
+<tc:tc-config xmlns:tc="http://www.terracotta.org/config">
+    <servers>
+        <server host="localhost" name="terracotta_scada1_node1">
+            <data>./terracotta/server-data</data>
+            <logs>./terracotta/server-logs</logs>
+            <index>./terracotta/server-index</index>
+            <statistics>./terracotta/server-statistics</statistics>
+            <dso-port>9510</dso-port>
+            <dso>
+                <client-reconnect-window>10</client-reconnect-window>
+            </dso>
+        </server>
+
+
+
+        <server host="localhost" name="terracotta_scada1_node2">
+            <data>./terracotta/server-data</data>
+            <logs>./terracotta/server-logs</logs>
+            <index>./terracotta/server-index</index>
+            <statistics>./terracotta/server-statistics</statistics>
+            <dso-port>9511</dso-port>
+            <dso>
+                <client-reconnect-window>10</client-reconnect-window>
+            </dso>
+        </server>
+
+        <mirror-groups>
+            <!-- Each group can also be assigned a group name. Each group has members 
+        which are actually the "name" of the server specified above in the server section.
+        More than one member can be present in a mirror group.
+      -->
+            <mirror-group group-name="group1">
+                <members>
+                    <member>terracotta_scada1_node1</member>
+                    <member>terracotta_scada1_node2</member>
+                </members>
+                <!-- Each group can have its own ha, otherwise it is taken as the common ha defined -->
+                <ha>
+                    <mode>networked-active-passive</mode>
+                    <networked-active-passive>
+                        <election-time>5</election-time>
+                    </networked-active-passive>
+                </ha>
+            </mirror-group>
+
+
+
+        </mirror-groups> 
+
+    </servers>
+
+    <clients>
+        <logs>./terracotta/client-logs</logs>
+    </clients>
+</tc:tc-config>

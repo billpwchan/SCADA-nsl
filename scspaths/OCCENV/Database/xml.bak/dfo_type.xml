@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="dfo_type" numAttributes="7" numInstances="3962" numPeriod_MT="0" numPeriod_ST="0" period_MT="0" period_ST="0">
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="class_id" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="404"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="forcedDate" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="forcedSource" replicated="0">
+<Scalar size="31" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="forcedStatus" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="forcedValue" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+</Class>

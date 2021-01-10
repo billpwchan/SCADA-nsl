@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_MCS_L01HLTMCS_" resolution="1.33006134969 1.10838445808 0.923653715065 0.769711429221 0.641426191017 0.534521825848 0.445434854873 0.371195712394 0.309329760329 0.257774800274" maxExtent="0.0 0.0 1945.0 1084.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_MCS_L01HLTMCS_.svg" width="2074.0" height="1059.0" bounds="0.0 0.0 2074.0 1059.0" name="C1166B_MCS_L01HLTMCS_" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="1020.0" y="565.0" symbolId="C1166B_COM_WKST" entityId="OCC_OCCENVWKST0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="572.0" y="209.0" symbolId="C1166B_COM_SERV" entityId="OCC_OCCENVSERV0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1432.0" y="209.0" symbolId="C1166B_COM_WKST_SRV" entityId="OCC_OCCENVWKST0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1296.0" y="209.0" symbolId="C1166B_COM_WKST_SRV" entityId="OCC_OCCENVWKST0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="708.0" y="209.0" symbolId="C1166B_COM_SERV" entityId="OCC_OCCENVSERV0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="894.0" y="209.0" symbolId="C1166B_COM_WKST_SRV" entityId="OCC_OCCENVWKST0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1107.0" y="209.0" symbolId="C1166B_COM_DBMS" entityId="OCC_OCCSYSDBMS0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

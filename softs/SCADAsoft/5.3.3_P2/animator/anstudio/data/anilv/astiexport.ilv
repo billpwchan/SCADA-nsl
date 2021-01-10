@@ -1,0 +1,191 @@
+// Ilv Version: 5.0
+// File generated: Mon May 30 11:21:18 2005
+// Creator class: IlvGadgetManagerOutput
+FileName "astiexport"
+PathName "M:\\devani_dla\\animator\\source\\anstudio\\data\\anilv\\astiexport.ilv"
+Palettes 2
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 33
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 240 256 192 16 F1073741825 2 1 2 0 0 0 Y "&CursorManagement" } 544 "CursorManagement"
+1
+1 "__ilvCallback" "CursorManagementCB"
+6144 "CursorMode" "TextCursor"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 240 176 192 16 F1073741825 2 1 2 0 0 0 Y "&CommentFile" } 32 "CommentFile"
+6144 "IndentFile" "PanZoom"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 240 200 192 16 F1073741825 2 1 2 0 0 0 Y "&IndentFile" } 32 "IndentFile"
+6144 "EnableTooltips" "CommentFile"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 24 128 72 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Encoding"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 96 129 120 20 F806 2 1 -1 0 "ISO-8859-1" 3
+{ IlvGadgetItem 1 2 4 "ISO-8859-1"  } 
+{ IlvGadgetItem 1 2 4 "UTF-8"  } 
+{ IlvGadgetItem 1 2 4 "US-ASCII"  }  5 0 } 32 "Encoding"
+6144 "ColorMode" "ImageRendering"
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 24 176 192 16 F1073741825 2 1 2 0 0 0 Y "&GenerateBackground" } 32 "GenerateBackground"
+2048 "PanZoom"
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 240 128 80 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ColorMode"  }   } 0
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 24 200 192 16 F1073741825 2 1 2 0 0 0 Y "&PanZoom" } 32 "PanZoom"
+6144 "CommentFile" "GenerateBackground"
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector 0 2
+0 IlvToggle 320 119 120 16 F1 2 1 2 1 0 0 Y "&Hexadecimal" 
+0 IlvToggle 320 143 120 16 F1 2 1 2 1 0 0 Y "&RGB" 
+ } 32 "ColorMode"
+6144 "GenerateBackground" "Encoding"
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 8 96 440 232 F268435468 0 { IlvMessageItem 262169 4 16 4 "&SvgFeatures"  }   } 0
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 376 416 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Generate"  }   } 544 "Generate"
+1
+1 "__ilvCallback" "GenerateCB"
+10240 "ColorRendering"
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 296 416 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Cancel"  }   } 544 "Cancel"
+1
+1 "__ilvCallback" "CancelCB"
+4096 "MaxWindow"
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 240 360 192 16 F1 2 1 2 0 0 0 Y "&DisplayFileOnceDone" } 544 "DisplayOnceDone"
+1
+1 "__ilvCallback" "DisplayOnceDoneCB"
+6144 "MaxWindow" "CompressFile"
+1 { 13 1 IlvReliefLine 17 169 437 169 1 } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 24 360 192 16 F1 2 1 2 0 0 0 Y "&CompressFile" } 544 "CompressFile"
+1
+1 "__ilvCallback" "CompressFileCB"
+6144 "DisplayOnceDone" "Cursors"
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 24 256 192 16 F1073741825 2 1 2 0 0 0 Y "&EnableBlinking" } 544 "EnableBlinking"
+1
+1 "__ilvCallback" "EnableBlinkingCB"
+6144 "DoFlashing" "EnableTooltips"
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 264 384 168 16 F1 2 1 2 0 0 0 Y "&MaxWindow" } 32 "MaxWindow"
+6144 "Cancel" "DisplayOnceDone"
+1 { 17 1 IlvReliefLine 17 225 437 225 1 } 0
+0
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 339 300 98 20 F807 2 1 -1 0 "default" 15
+{ IlvGadgetItem 1 2 4 "default"  } 
+{ IlvGadgetItem 1 2 4 "crosshair"  } 
+{ IlvGadgetItem 1 2 4 "help"  } 
+{ IlvGadgetItem 1 2 4 "move"  } 
+{ IlvGadgetItem 1 2 4 "pointer"  } 
+{ IlvGadgetItem 1 2 4 "text"  } 
+{ IlvGadgetItem 1 2 4 "wait"  } 
+{ IlvGadgetItem 1 2 4 "e-resize"  } 
+{ IlvGadgetItem 1 2 4 "n-resize"  } 
+{ IlvGadgetItem 1 2 4 "ne-resize"  } 
+{ IlvGadgetItem 1 2 4 "nw-resize"  } 
+{ IlvGadgetItem 1 2 4 "s-resize"  } 
+{ IlvGadgetItem 1 2 4 "se-resize"  } 
+{ IlvGadgetItem 1 2 4 "sw-resize"  } 
+{ IlvGadgetItem 1 2 4 "w-resize"  }  5 0 } 32 "Cursors"
+2048 "CompressFile"
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector 0 2
+0 IlvToggle 264 280 72 16 F1 2 1 2 1 0 0 Y "&Auto" 
+0 IlvToggle 264 304 59 16 F1 2 1 2 1 0 0 Y "&Force" 
+ } 544 "CursorMode"
+1
+1 "__ilvCallback" "CursorModeCB"
+6144 "Cursors" "CursorManagement"
+1 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 240 232 200 16 F1 2 1 2 0 0 0 Y "&TextCursor" } 32 "TextCursor"
+6144 "CursorManagement" "DoFlashing"
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 24 232 192 16 F1073741825 2 1 2 0 0 0 Y "&EnableTooltips" } 32 "EnableTooltips"
+6144 "EnableBlinking" "IndentFile"
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 24 24 72 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&RColor"  }   } 0
+0
+1 { 23 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 96 25 120 20 F807 2 1 -1 0 "&Auto" 3
+{ IlvGadgetItem 1 2 4 "&Auto"  } 
+{ IlvGadgetItem 1 2 4 "&OptimizeSpeed"  } 
+{ IlvGadgetItem 1 2 4 "&OptimizeQuality"  }  5 2 } 32 "ColorRendering"
+6144 "ShapeRendering" "Generate"
+1 { 24 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 24 56 72 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&RShape"  }   } 0
+0
+1 { 25 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 96 57 120 20 F807 2 1 -1 0 "&Auto" 4
+{ IlvGadgetItem 1 2 4 "&Auto"  } 
+{ IlvGadgetItem 1 2 4 "&OptimizeSpeed"  } 
+{ IlvGadgetItem 1 2 4 "&CrispEdge"  } 
+{ IlvGadgetItem 1 2 4 "&GeometricPrecision"  }  5 2 } 32 "ShapeRendering"
+6144 "TextRendering" "ColorRendering"
+1 { 26 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 240 24 72 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&RText"  }   } 0
+0
+1 { 27 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 240 56 72 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&RImage"  }   } 0
+0
+1 { 28 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 320 25 120 20 F807 2 1 -1 0 "&Auto" 4
+{ IlvGadgetItem 1 2 4 "&Auto"  } 
+{ IlvGadgetItem 1 2 4 "&OptimizeSpeed"  } 
+{ IlvGadgetItem 1 2 4 "&OptimizeLegibility"  } 
+{ IlvGadgetItem 1 2 4 "&GeometricPrecision"  }  5 2 } 32 "TextRendering"
+6144 "ImageRendering" "ShapeRendering"
+1 { 29 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 320 57 120 20 F807 2 1 -1 0 "&Auto" 3
+{ IlvGadgetItem 1 2 4 "&Auto"  } 
+{ IlvGadgetItem 1 2 4 "&OptimizeSpeed"  } 
+{ IlvGadgetItem 1 2 4 "&OptimizeQuality"  }  5 2 } 32 "ImageRendering"
+6144 "Encoding" "TextRendering"
+1 { 30 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 8 0 440 88 F268435468 0 { IlvMessageItem 262169 4 16 4 "&SvgRendering"  }   } 0
+0
+1 { 31 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 48 280 168 16 F1 2 1 2 0 0 0 Y "&DoFlashing" } 32 "DoFlashing"
+6144 "TextCursor" "EnableBlinking"
+1 { 32 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 8 336 440 72 F268435468 0 { IlvMessageItem 262169 4 16 4 "&SvgOptions"  }   } 0
+0
+Size 454 444
+EOF

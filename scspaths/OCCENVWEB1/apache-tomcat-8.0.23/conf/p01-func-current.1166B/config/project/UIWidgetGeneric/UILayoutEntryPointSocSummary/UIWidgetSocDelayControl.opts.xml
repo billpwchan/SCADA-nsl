@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE xml>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header key="header">
+		<TargetDataGrid_A>UIDataGridFormatterSOC</TargetDataGrid_A>
+		<TargetDataGridColumn_A>ScsEnvID</TargetDataGridColumn_A>
+		<TargetDataGridColumn_A2>Alias</TargetDataGridColumn_A2>
+		
+		<TargetDataGrid_B>UIDataGridFormatterSOCDetails</TargetDataGrid_B>
+		<TargetDataGridColumn_B>Step</TargetDataGridColumn_B>
+		<TargetDataGridColumn_B2>SuccessDelay</TargetDataGridColumn_B2>
+	</header>
+	
+	<actionset key="init">
+	</actionset>
+	
+	<actionset key="set_default_action">
+		<OperationType>actionsetkey</OperationType>
+	</actionset>
+
+	<actionset key="apply">
+		<OperationType>actionsetkey</OperationType>
+		<OperationString1>apply</OperationString1>
+	</actionset>
+	
+	<action key="apply">
+		<OperationType>action</OperationType>
+		<OperationAction>dialogmsg</OperationAction>
+		<OperationString1>UIDialogMsg</OperationString1>
+		<OperationString2>DLG_YESNO</OperationString2>
+		<OperationString3>&amp;UIWidgetSocDelayControl_title_ask_write_delay_step</OperationString3>
+		<OperationString4>&amp;UIWidgetSocDelayControl_ask_write_delay_step</OperationString4>
+		<OperationString5>write_delay_to_db</OperationString5>
+	</action>
+	
+	<actionset key="write_delay_to_db">
+		<OperationType>actionsetkey</OperationType>
+		<OperationString1>write_delay_to_db</OperationString1>
+		<OperationString2>reload_db_column_data</OperationString2>
+	</actionset>
+	
+	<action key="write_delay_to_db">
+		<OperationType>action</OperationType>
+		<OperationAction>dbm</OperationAction>
+		<OperationString1>WriteIntValue</OperationString1>
+		<OperationString2>ScsEnvID</OperationString2>
+		<OperationString3>dbalias</OperationString3>
+		<OperationString4>1</OperationString4>
+	</action>
+	
+	<action key="reload_db_column_data">
+		<SenderOperation>event</SenderOperation>
+		<OperationType>action</OperationType>
+		<OperationElement>UILayoutSocSummaryViewer2</OperationElement>
+		<OperationString1>ReloadColumnData</OperationString1>
+		<OperationString2>UIDataGridFormatterSOCDetails</OperationString2>
+		<OperationString3>SuccessDelay</OperationString3>
+	</action>
+	
+</data-set>

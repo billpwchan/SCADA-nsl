@@ -1,0 +1,16 @@
+// IlvMessageDatabase 5.1 Sun Jan  2 15:36:59 2005
+// Language: ja_JP
+// Encoding: Shift_JIS
+"&Contextual" "Contextual"
+"&Direction" "方向"
+"&LtoR" "左から右へ"
+"&National" "National"
+"&Nominal" "名詞"
+"&Numerals" "数字"
+"&RtoL" "右から左へ"
+"&Shaping" "Shaping"
+"&ShowBidiTestPanel" "ﾃｽﾄ構成..."
+"&Swapping" "交換"
+"&WordBreak" "改ﾍﾟｰｼﾞと改行"
+"&applyDefault" "ﾃﾞﾌｫﾙﾄ ｱﾄﾘﾋﾞｭｰﾄ"
+

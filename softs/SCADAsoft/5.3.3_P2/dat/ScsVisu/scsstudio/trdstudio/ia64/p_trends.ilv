@@ -1,0 +1,14 @@
+// Ilv Version: 5.0
+// File generated: Thu Sep 16 16:24:33 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "p_trends"
+PathName "D:\\SCADASOFT\\SCSHOME\\dat\\ScsVisu\\scsstudio\\trdstudio\\ia64\\p_trends.ilv"
+Palettes 1
+0 F "gray" 65025 0 0 "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 1
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 8 7 184 56 F268435468 0 { IlvMessageItem 262169 4 16 4 "&NoTRD"  }   } 0
+0
+Size 202 347
+EOF

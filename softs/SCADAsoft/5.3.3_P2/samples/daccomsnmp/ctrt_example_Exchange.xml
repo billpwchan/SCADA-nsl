@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+
+    <SCOPE name= "SCS">
+
+        <!-- If we have to wait a SCADAsoft process to be up, set this variable with the process name -->
+        <!-- Example: DacControl or  DpcVarServer -->
+        <CONF key = "WaitForServer">DacControl</CONF>
+        
+        <!-- do we really send commands (EOV) to the devices ? (on/off) -->
+        <CONF key = "CommandSending"> on</CONF>
+        
+        <!-- set to 'on' if you want to abort device configuration in case of EVariables.dat error 
+            If 'off', a Conf error will only be a warning -->
+        <CONF key = "StrictMode">off</CONF>
+        
+        <!-- set to 'on' if you want the Standby DacCom to try to connect to the device. 
+            If 'off', only the Online DacCom will connect to the device. -->
+        <CONF key = "StandbyConnect">false</CONF>
+        
+  
+    </SCOPE>
+    
+    
+    <SCOPE name= "SNMP">
+    
+        <!-- Most of SNMP scopes can be redefined in a polling group  -->
+        
+        <!-- How often do we check a SNMP agent connection ? 
+                 This is the default value for all polling groups.
+            This value (in seconds) must be smaller than each PollingPeriod for any PollingGroup.
+            When a system snmp-get works fine, the $GetGrp-<grpname> is set to INS and polling
+            all EIVs can start.
+            When a system snmp-get fails, the $GetGrp-<grpname> is set to OUS, polling
+            stops and all EIVs are invalidated.
+            CheckingFailureThreshold: how many SNMP failure before doing the INS->OUS transition ? 
+        -->
+        <CONF key = "CheckingPeriod">30</CONF>
+        <CONF key = "CheckingFailureThreshold">2</CONF>
+        
+        <!-- How many seconds do we wait before starting/polling a frame ? 
+            This is a global value. Each frame waits for this time * the rank of the frame.
+            Ex: third frame waits for 30 sec if FrameStartingPause is 15.
+            <FrameStartingPause> cannot be redefined in a polling group.
+            <rank> starts from zero, then the first frame never waits before polling.
+            -->
+        <CONF key = "FrameStartingPause">15</CONF>
+        
+        <!-- How often do we poll a SNMP agent ? 
+                 This is the default value for all polling groups.
+            This value (in seconds) must be greater than CheckingPeriod, and should be a multiple of CheckingPeriod.
+        -->
+        <CONF key = "PollingPeriod">120</CONF>
+        
+    
+        <!-- SNMP Version used by the agent - Value can be: v1 or v2c -->
+        <CONF key = "Version">v2c</CONF>
+        
+        <SCOPE name= "ReadAccess">
+          <!-- Community Name for read requests in the agent -->
+          <CONF key = "Community">public</CONF>
+          <!-- Communication options: number of retries and request timeout (in µseconds) 
+                  Default are 5 and 1000000 (1 sec) -->
+          <CONF key = "Retries">5</CONF>
+          <CONF key = "Timeout">1000000</CONF>
+        </SCOPE>
+        
+        <SCOPE name= "WriteAccess">
+          <!-- Community Name for write requests in the agent -->
+          <CONF key = "Community">private</CONF>
+          <!-- Communication options: number of retries and request timeout (in µseconds) 
+                  Default are 5 and 2000000 (2 sec) -->
+          <CONF key = "Retries">6</CONF>
+          <CONF key = "Timeout">2000000</CONF>
+        </SCOPE>
+        
+        <!-- How many OID per Get message sent to the agent ?
+                Use with care: SNMP specifies a "minimum maximum" packet size (484 bytes)
+                If exceeding a limit (Agent or Manager), we may receive a SNMP "tooBig" error. 
+                We distinguish 2 cases: SEIV (string) and non-SEIV (numeric). 
+                Not used for <TableAttributes> attributes.
+          -->
+        <CONF key = "NbVarBindPerGetSeiv">5</CONF>
+        <CONF key = "NbVarBindPerGetNonSeiv">25</CONF>
+        
+        <!-- Aliases are used to make SNMP addresses shorter. For instance, if adr = "%E77%.121.83.81.76"
+                 then we must find an alias "E77" in the scope Alias. 
+                 Ex: <CONF key = "A45">1.3.6.1.4.1.45.1.2.3.1.1.5.4</CONF>
+                 <Alias> cannot be redefined in a polling group.
+        -->
+        <SCOPE name= "Alias">
+          <CONF key = "SIMU">1.3.6.1.2.1.25.6.3.1</CONF>
+        </SCOPE>
+
+    </SCOPE> <!-- SNMP -->
+    
+    
+    <!-- Polling groups :
+      Define a group per SNMP agent to be monitored.
+      A group must define at least: a unique name, specific IP and port values and some regular
+      expressions to define its input/output variables. 
+      Last, a group may overwrite some global SNMP configuration values.
+      
+      All EIV variables are polled and updated each <PollingPeriod> seconds.
+      All $mem/$fs EIV variables are polled and updated each <StoragePollingPeriod> seconds.
+      If <StoragePollingPeriod> is omitted we use <PollingPeriod>.
+    -->
+        
+    <SCOPE name= "PollingGroups">
+      
+      <SCOPE name= "SIMU">
+      
+        <CONF key = "AgentIP">10.198.158.102</CONF>   
+        <CONF key = "AgentPort">161</CONF> 
+        <CONF key = "CheckingPeriod">5</CONF>
+        <CONF key = "PollingPeriod">40</CONF>
+        <CONF key = "StoragePollingPeriod">30</CONF>        
+        <SCOPE name= "WriteAccess">
+          <CONF key = "Community">pwrite</CONF>
+        </SCOPE>
+        
+        <SCOPE name= "InVariables">
+          <CONF key = "DEI">deiSIMU*</CONF>     
+          <CONF key = "AEI">aeiSIMU*</CONF>     
+          <CONF key = "SEI">seiSIMU*</CONF>     
+        </SCOPE>
+        <SCOPE name= "OutVariables">
+          <CONF key = "DEI">deoSIMU*</CONF>     
+          <CONF key = "AEI">aeoSIMU*</CONF>     
+          <CONF key = "SEI">seoSIMU*</CONF>     
+        </SCOPE>
+
+      </SCOPE>  <!-- SIMU -->
+      
+      
+      
+      <SCOPE name= "PRT">
+      
+        <CONF key = "AgentIP">10.221.23.132</CONF>   
+        <CONF key = "AgentPort">161</CONF> 
+        <CONF key = "CheckingPeriod">5</CONF>
+        <CONF key = "PollingPeriod">20</CONF>
+        <CONF key = "StoragePollingPeriod">60</CONF>        
+        
+        <SCOPE name= "InVariables">
+          <CONF key = "DEI">deiPRT*</CONF>     
+          <CONF key = "AEI">aeiPRT*</CONF>     
+          <CONF key = "SEI">seiPRT*</CONF>     
+        </SCOPE>
+        <SCOPE name= "OutVariables">
+          <CONF key = "DEI">deoPRT*</CONF>     
+          <CONF key = "AEI">aeoPRT*</CONF>     
+          <CONF key = "SEI">seoPRT*</CONF>     
+        </SCOPE>
+
+      </SCOPE>  <!-- PRT -->
+      
+      <SCOPE name= "ESX1">
+        <CONF key = "AgentIP">192.168.1.222</CONF>   
+        <CONF key = "AgentPort">163</CONF> 
+        <CONF key = "StoragePollingPeriod">10</CONF>
+        <SCOPE name= "ReadAccess">
+           <CONF key = "Community">comesx</CONF>
+        </SCOPE>
+        <SCOPE name= "InVariables">
+          <CONF key = "DEI">^deiESX1.*</CONF>     
+          <CONF key = "AEI">^aeiESX1.*</CONF>     
+          <CONF key = "SEI">^seiESX1.*</CONF>     
+        </SCOPE>
+      </SCOPE>  <!-- ESX1 -->
+      
+      
+      <SCOPE name= "ESX2">
+        <CONF key = "AgentIP">192.168.1.223</CONF>   
+        <CONF key = "AgentPort">163</CONF> 
+        <CONF key = "StoragePollingPeriod">10</CONF>
+        <SCOPE name= "ReadAccess">
+           <CONF key = "Community">comesx</CONF>
+        </SCOPE>
+        <SCOPE name= "InVariables">
+          <CONF key = "DEI">^deiESX2.*</CONF>     
+          <CONF key = "AEI">^aeiESX2.*</CONF>     
+          <CONF key = "SEI">^seiESX2.*</CONF>     
+        </SCOPE>
+      </SCOPE>  <!-- ESX2 -->
+    
+    </SCOPE>  <!-- PollingGroups -->
+    
+    <!-- TableAttributes
+      Create a subscope to access N attributes stored in a table when there is a variable indirection (Idx).
+      We must identify the table root OID, the index in this table where the PK has to be searched,
+      and the PK value. 
+      This help to find the target entry "Idx". Then we can access the N target attributes
+      value: <TableOID>.<Attributes>[i].<Idx>  (for each entry in <Attributes> scope)
+      where <TableOID>.<PKIndex>.<Idx> == <PKValue>
+      
+      Notes:
+        - avoid '-' caracter in scope names and attribute names.
+        - one snmpwalk is performed per subscope/tableOID.
+    -->
+      
+    <SCOPE name= "TableAttributes">
+      <SCOPE name= "vmware">
+        <CONF key = "TableOID">1.3.6.1.4.1.6876.2.1.1</CONF>     
+        <CONF key = "PKIndex">2</CONF>     <!-- vmwVmDisplayName -->
+        <CONF key = "PKValue">VM2</CONF>    
+        <!-- list all attributes name/index to be retrieved in this table.
+            For a key "aname", we shall have an EIV called "$table-vmware-aname".
+        -->
+        <SCOPE name= "Attributes">
+          <CONF key = "vmwVmMemSize">5</CONF>       
+          <CONF key = "vmwVmState">6</CONF>            
+          <CONF key = "vmwVmID">7</CONF>            
+          <CONF key = "vmwVmGuestState">8</CONF>            
+          <CONF key = "vmwVmCpus">9</CONF>             
+        </SCOPE> 
+      </SCOPE>  <!-- vmw -->
+    </SCOPE>  <!-- TableAttributes -->
+  
+</root>

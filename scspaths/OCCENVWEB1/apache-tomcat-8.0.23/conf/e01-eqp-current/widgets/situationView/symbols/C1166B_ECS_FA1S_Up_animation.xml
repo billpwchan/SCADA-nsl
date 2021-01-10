@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<animationConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/animation">
+    <animationRules id="C1166B_ECS_FA1S_Up_animation">
+        <animationRule>
+            <source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:computedStatusDataSourceType" statusComputerName="com.thalesgroup.scadasoft.stresstest.calculated.widget.C1166B_ECS_State" name="C1166B_ECS_State"></source>
+            <sourceType>STRING</sourceType>
+            <svgRefAnimation defaultValue="ECS_FA1S_U_State_Empty" nodeId="C1166B_ECS_State_node">
+                <enumerationBinding>
+                    <item inputValue="2" value="ECS_FA1S_U_State_Selected"></item>
+                    <item inputValue="3" value="ECS_FA1S_U_State_MO"></item>
+                    <item inputValue="1" value="ECS_FA1S_U_State_Invalid"></item>
+                    <item inputValue="0" value="ECS_FA1S_U_State_Empty"></item>
+                    <item inputValue="4" value="ECS_FA1S_U_State_Selected_MO"></item>
+                </enumerationBinding>
+            </svgRefAnimation>
+        </animationRule>
+        <animationRule>
+            <source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:statusDataSourceType" name="symbol1"></source>
+            <sourceType>INT</sourceType>
+            <svgRefAnimation defaultValue="ECS_FA1S_U_Undefined" nodeId="symbol1.value_node">
+                <enumerationBinding>
+                    <item inputValue="1" value="ECS_FA1S_U_Run"></item>
+                    <item inputValue="2" value="ECS_FA1S_U_Stop"></item>
+                    <item inputValue="0" value="ECS_FA1S_U_Undefined"></item>
+                </enumerationBinding>
+            </svgRefAnimation>
+        </animationRule>
+    </animationRules>
+</animationConfiguration>

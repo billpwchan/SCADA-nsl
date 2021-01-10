@@ -1,0 +1,55 @@
+################################################################
+# Processes
+################################################################
+# Phase = <phase number>
+# Termination = NONE | SHUTDOWN | RED_SHUTDOWN_OR_RETRY | RED_SHUTDOWN_OR_NONE | RETRY
+# Snapshot = NONE | BACKGROUND | FOREGROUND
+# Shutdown order = <number> | LAST | LAST - <number>
+# 
+## Definition de process
+#
+Define Environment {
+  Define Server "InputMgr" {
+    Phase = 0
+    Termination = SHUTDOWN
+    Shutdown order = LAST
+    Snapshot = FOREGROUND
+    Supervision = PUSH
+    Run string = "inputmgr -l12"
+    Init timeout = 3600
+    Shutdown timeout = 600
+  }
+  
+  Define Server "DbmServer" {
+    Phase = 30
+    Termination = SHUTDOWN
+    Snapshot = BACKGROUND 
+    Shutdown order = LAST - 1
+    Supervision = PUSH
+    Priority = NORMAL
+    Run string = "dbserver -a -f -k "
+    Init timeout = 3600
+    Shutdown timeout = 600
+  }
+  Define Server "Browser" {
+    Phase = 40
+    Termination = SHUTDOWN
+    Snapshot = NONE  
+    Shutdown order = LAST - 2
+    Supervision = PUSH
+    Run string = "scsbrowser -E %SCSENV%"
+    Init timeout = 3600
+  }
+
+  Define Server "PyBrowser" {
+    Phase = 0
+    Termination = SHUTDOWN
+    Snapshot = NONE  
+    Shutdown order = LAST - 2
+    Supervision = PUSH
+    Run string = "python dbm.py"
+    Init timeout = 3600
+  }
+  
+  
+}

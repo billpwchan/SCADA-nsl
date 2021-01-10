@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_LV__CLP__graphic">
+        <root>
+            <svgGroup id="C1166B_LV__CLP__CLP__State_MO_CLP__State_Empty_CLP__State_Selected_MO_CLP__State_Selected_CLP__State_Invalid">
+                <svgRef brickId="CLP__State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_LV__CLP__CLP__Decor_Empty_CLP__Decor_Trip_CLP__Decor_PTW_CLP__Decor_MO_CLP__Decor_NotInService">
+                <svgRef brickId="CLP__Decor_NotInService" id="tag2.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_LV__CLP__CLP__Decor_Empty_L_CLP__Decor_Local">
+                <svgRef brickId="CLP__Decor_Local" id="tag3.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_LV__CLP__CLP__Symbol_Open_CLP__Symbol_Close_CLP__Symbol_Undefined_CLP__Symbol_Alarm_CLP__Symbol_Alarm_Blink_CLP__Symbol_Close_Blink_CLP__Symbol_Open_Blink">
+                <svgRef brickId="CLP__Symbol_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

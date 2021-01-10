@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=0.9.2342.19200300.100.1.60,ou=attributeTypes,cn=inetorgperson,ou=schem
+ a
+m-usage: USER_APPLICATIONS
+m-oid: 0.9.2342.19200300.100.1.60
+m-name: jpegPhoto
+m-description: RFC2798: a JPEG image
+m-obsolete: FALSE
+entryParentId: cf40f50c-eb91-4e40-879d-04db5b87ba4f
+m-singlevalue: FALSE
+createTimestamp: 20140513151220.207Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.28
+m-nousermodification: FALSE
+m-collective: FALSE
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: cb872db8-5baf-470f-ae5f-72e9630ea91c
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.833000Z#000011#000#000000

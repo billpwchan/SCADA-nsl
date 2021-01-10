@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.3.7,ou=objectClasses,cn=apachemeta,ou=schema
+m-supobjectclass: metaTop
+m-must: m-oc
+m-must: m-must
+m-may: m-name
+m-may: m-obsolete
+m-may: m-may
+m-typeobjectclass: STRUCTURAL
+m-oid: 1.3.6.1.4.1.18060.0.4.0.3.7
+m-name: metaNameForm
+m-description: meta definition of the NameForm object
+m-obsolete: FALSE
+entryParentId: 9cdaa799-befc-4c3a-bc01-a8882d6b846d
+createTimestamp: 20140513151220.285Z
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+entryUUID: 8353684b-56e4-4786-87e4-f1a22df92d9c
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.676000Z#000017#000#000000

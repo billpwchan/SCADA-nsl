@@ -1,0 +1,38 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 13:44:00 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "preferences"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\browser\\preferences.ilv"
+Palettes 1
+"IlvStToolBar" 0 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 3
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 417 249 65 24 F13 2 { IlvMessageItem 262145 4 16 4 "&cancel"  }   } 512
+1
+1 "__ilvCallback" "cancelPrefCB"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 335 249 65 23 F13 2 { IlvMessageItem 262145 4 16 4 "&validate"  }   } 512
+1
+1 "__ilvCallback" "okPrefCB"
+0
+1 { 2 P 2
+[ IlvPanelObjectReference IlvPanelObjectReference  "1056117000.0" ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNotebook 10 10 472 233 F1 2 0 2  1
+" { IlvNotebookPageItem 1 2 4 "&display"  }  B "./preferences_display.ilv"
+0 0 4 5 2 10 10 10 10  } 32 "Preferences"
+0
+Size 492 283
+GeometryHandlers
+1 100 0 492 0 492 0
+3 3 0 0 10  472 0 472 2  0 3 10 0
+ 3 417 0 417  0 0 65 0  0 0 10 0
+ 3 335 0 335  0 0 65 1  0 0 92 0
+1 100 0 283 0 283 0
+3 3 0 0 10  233 0 233 2  0 0 40 0
+ 3 249 0 249  0 0 24 0  0 0 10 0
+ 3 249 0 249  0 0 23 1  0 0 11 0
+EOF

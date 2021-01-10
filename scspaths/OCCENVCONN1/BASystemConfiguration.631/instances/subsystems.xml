@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Definition of all the subsystems defined in the system -->
+<hv-conf:entitiesConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:hv-conf="http://www.thalesgroup.com/hv/data-v1/entity/configuration" 
+                               xmlns:hv-sub="http://www.thalesgroup.com/hv/data-v1/service/configuration"
+                               xmlns:myproject-sub="http://www.thalesgroup.com/myproject/scadaphysicalsystem/scada_cluster/configuration">
+    <hv-conf:entity xsi:type="hv-sub:PresentationLayerType" id="OCCENVWEB1" />
+    <hv-conf:entity xsi:type="hv-sub:PresentationLayerType" id="OCCENVWEB2" />
+
+    <hv-conf:entity xsi:type="myproject-sub:SCADAType" id="OCCENVCONN">
+        <hv-sub:notificationProducerEndpoint>http://127.0.0.1:8801/scada1/notification/producer</hv-sub:notificationProducerEndpoint>
+        <hv-sub:operationResponderEndpoint>http://127.0.0.1:8801/scada1/operation/responder</hv-sub:operationResponderEndpoint>
+    </hv-conf:entity>
+</hv-conf:entitiesConfiguration>

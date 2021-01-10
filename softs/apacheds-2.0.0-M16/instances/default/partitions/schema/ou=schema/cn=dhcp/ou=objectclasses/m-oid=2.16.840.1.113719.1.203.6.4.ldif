@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.6.4,ou=objectClasses,cn=dhcp,ou=schema
+m-supobjectclass: top
+m-must: cn
+m-must: dhcpRange
+m-may: dhcpClassesDN
+m-may: dhcpPermitList
+m-may: dhcpLeasesDN
+m-may: dhcpOptionsDN
+m-may: dhcpStatements
+m-oid: 2.16.840.1.113719.1.203.6.4
+m-name: dhcpPool
+m-description: This stores configuration information about a pool.
+entryParentId: eeb3e466-e731-479e-b508-326bdc770ee8
+createTimestamp: 20140513151219.957Z
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+entryUUID: 94540c05-d414-4d3e-8375-a602381a8d80
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.833000Z#000000#000#000000

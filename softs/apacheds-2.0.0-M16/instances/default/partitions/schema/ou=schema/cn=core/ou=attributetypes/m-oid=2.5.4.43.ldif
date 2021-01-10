@@ -1,0 +1,23 @@
+version: 1
+dn: m-oid=2.5.4.43,ou=attributeTypes,cn=core,ou=schema
+m-usage: USER_APPLICATIONS
+m-oid: 2.5.4.43
+m-name: initials
+m-description: RFC2256: initials of some or all of names, but not the surname(s)
+ .
+m-obsolete: FALSE
+m-equality: caseIgnoreMatch
+m-supattributetype: name
+entryParentId: 403c3c39-ecc4-462e-9b10-56b8350aab62
+m-substr: caseIgnoreSubstringsMatch
+m-singlevalue: FALSE
+createTimestamp: 20140513151220.285Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-nousermodification: FALSE
+m-collective: FALSE
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: ad542407-85fa-412f-9477-0671d0f4ede7
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.739000Z#000007#000#000000

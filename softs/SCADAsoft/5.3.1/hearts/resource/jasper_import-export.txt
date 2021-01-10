@@ -1,0 +1,7 @@
+cd /d D:\softs\jasperreports-server-cp-4.0.0\buildomatic
+
+js-export.bat --everything --output-dir D:\temp\JRXML\JasperServerRepository
+js-import.bat --input-dir D:\temp\JRXML\JasperServerRepository
+
+http://localhost:8090/jasperserver/flow.html?_flowId=searchFlow&j_username=jasperadmin&j_password=jasperadmin
+http://localhost:8090/jasperserver/flow.html?_flowId=searchFlow&j_username=user&j_password=user

@@ -1,0 +1,13 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.1466.115.121.1.52,ou=syntaxCheckers,cn=system,ou=schema
+objectclass: metaSyntaxChecker
+objectclass: metaTop
+objectclass: top
+m-fqcn: org.apache.directory.api.ldap.model.schema.syntaxCheckers.TelexNumberSyn
+ taxChecker
+m-oid: 1.3.6.1.4.1.1466.115.121.1.52
+entryParentId: 10103910-148e-4a12-ad84-f01a35aaddad
+entryUUID: 6c14d724-577b-4bd2-b7fa-cd0aa90d605a
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.270Z
+entryCSN: 20140513151215.083000Z#000011#000#000000

@@ -1,0 +1,14 @@
+dssstudio.foreground: black
+dssstudio.background: #bebebebebebe
+dssstudio.menuBackground: #a8b0b8
+dssstudio.menuForeground: black
+dssstudio.menuFont: %times-14-B
+dssstudio.panelBackground: #bebebebebebe
+dssstudio.toolBarBackground: #bebebebebebe
+dssstudio.toolBarForeground: black
+dssstudio.toolBarFont: %helvetica-12-
+dssstudio.workSpaceBackground: #bebebebebebe
+dssstudio.miscBackground: #a8a0b0
+dssstudio.focusPathColor: Blue
+dssstudio.attachmentColor: Green
+dssstudio.attachmentHighlightColor: Blue

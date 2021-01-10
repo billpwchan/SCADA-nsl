@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" href="$trddataset_8h.html" title="Data used in Trend server context." alt="trddataset.h" coords="667,92,749,119" />
+<area shape="rect" href="$trddata_8h.html" title="Data used in Trend server context." alt="trddata.h" coords="475,167,541,193" />
+<area shape="rect" href="$scs_8h.html" title="General Purpose ScadaSoft Utilities." alt="scs.h" coords="445,540,483,567" />
+<area shape="rect" href="$histypes_8h.html" title="Various utility classes used in the History server context." alt="histypes.h" coords="472,241,544,268" />
+<area shape="rect" href="$scsdefs_8h.html" title="Definition of priority levels." alt="scsdefs.h" coords="7,689,73,716" />
+<area shape="rect" href="$scsdata_8h.html" title="General Purpose Scadasoft datatype definitions." alt="scsdata.h" coords="141,615,208,641" />
+<area shape="rect" href="$ols_8h.html" title="Remote access to OlsList objects." alt="ols.h" coords="535,316,572,343" />
+<area shape="rect" href="$scstimer_8h.html" title="Timer management." alt="scstimer.h" coords="652,465,724,492" />
+<area shape="rect" href="$olstypes_8h.html" title="Various classes, typedefs and functions used in OlsList context." alt="olstypes.h" coords="576,391,648,417" />
+</map>

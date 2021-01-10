@@ -1,0 +1,156 @@
+COMPONENT=Tsc,Tsc
+
+Init() {
+   english="Tcs Initialization"
+   french="Initialisation du serveur Tsc"
+}
+
+ORB(const char *) {
+   english="Orb error: %s"
+   french="Erreur Orb: %s"
+}
+
+NoServer(const char*, const char*) {
+   english="No TscServer connection available: cannot proceed ('%s', '%s')"
+   french="Connexion TscServer non disponible : impossible de continuer ('%s', '%s')"
+}
+
+AlmServer(const char*) {
+   english="Alarm server cannot log event ('%s')"
+   french="Le serveur d'alarmes ne peut pas enregistrer l'evenement ('%s')"
+}
+
+Invalid() {
+   english="Invalid TSC server: unable to start service"
+   french="Serveur TSC invalide : service non demarre"
+}
+
+Empty(int) {
+   english="Daygroup ID=%d is empty: invalid, past or no dates"
+   french="Le calendrier ID=%d est vide: pas de dates, ou dates invalides ou depassees"
+}
+
+BadDgDateFormat(const char *) {
+   english="Bad daygroup file format: '%s' to not match 'dd/mm/yyyy'"
+   french="Erreur de format de calendrier : '%s' ne correspond pas à 'jj/mm/aaaa'"
+}
+
+BadDate(const char *) {
+   english="Invalid date '%s': ignored"
+   french="Date invalide '%s': ignoree"
+}
+
+PastDate(const char *) {
+   english="Valid date '%s' is ignored as it is past"
+   french="Date valide '%s' ignoree car depassee"
+}
+
+BadDgName(const char *) {
+   english="No daygroup name in '%s'"
+   french="Pas de nom de calendrier dans '%s"
+}
+
+BadDgId(int) {
+   english="Bad daygroup ID: '%d' is invalid"
+   french="Numero de calendrier invalide ('%d')"
+}
+
+UnexpectedStatement(const char *) {
+   english="Unable to interpret '%s'"
+   french="Impossible d'interpreter '%s'"
+}
+
+BadTaskFormat(const char *) {
+   english="'%s' is not a valid task declaration: statement ignored"
+   french="'%s' n'est pas une declaration de tache valide : ligne ignoree"
+}
+
+BadTaskName(const char *) {
+   english="'%s' does not present a task name: statement ignored"
+   french="'%s' ne possede pas de nom de tache : ligne ignoree"
+}
+
+BadCommand(const char *) {
+   english="'%s' does not present a command to be triggered: task ignored"
+   french="'%s' ne possede pas de nom de commande a declencher : tache ignoree"
+}
+
+InvalidInterval(int) {
+   english="Invalid interval (%d): interval is ignored (set to 0)"
+   french="Intervalle invalid (%d) : intervalle ignore (mis a 0)"
+}
+
+InvalidLog(const char*, const char*) {
+   english="Invalid log flag ('%s') for task '%s': log activated"
+   french="Valeur de log invalide ('%s') pour la tache '%s' : log actif"
+}
+
+InvalidStart(const char *) {
+   english="Invalid starting time ('%s') do not match 'dd/mm/yyyy_hh:mm': starting time is set to *"
+   french="Heure de debut invalide ('%s') ne correspond pas a 'jj/mm/aaaa_hh:mm': heure de debut positionnee a *"
+}
+
+InvalidEnd(const char *) {
+   english="Invalid ending time ('%s') do not match 'dd/mm/yyyy_hh:mm': ending time is set to *"
+   french="Heure de fin invalide ('%s') ne correspond pas a 'jj/mm/aaaa_hh:mm' : heure de fin positionnee a *"
+}
+
+InvalidTask(const char *) {
+   english="Ignored task ('%s'): mismatching starting and/or ending time, or no launching conditions"
+   french="Tache ignoree ('%s') : problemes de date de debut et/ou de fin, ou aucuine condition de lancement"
+}
+
+InvalidCommand(const char *) {
+   english="Ignored command ('%s'): mismatching or bad data"
+   french="Commande ignoree ('%s') : incoherence entre donnees ou mauvais format"
+}
+
+BadFilterFormat(const char *) {
+   english="'%s' is not a valid filter declaration: filter ignored"
+   french="'%s' n'est pas une declaration de filtre valide : filtre ignore"
+}
+
+BadFilterItem(const char *, const char *) {
+   english="'%s' is not a valid filter item (%s): filter ignored"
+   french="'%s' n'est pas une partie valide du filtre (%s) : filtre ignore"
+}
+
+FileAccess(const char *) {
+   english="Unable to access the file '%s'"
+   french="Impossible d'acceder au fichier '%s'"
+}
+
+UnknownTask(const char *) {
+   english="Unknown task '%s': command ignored"
+   french="Tache '%s' inconnue: commande ignoree"
+}
+
+UnknownDayGroup(int) {
+   english="Unknown day group '%d': command ignored"
+   french="Calendrier '%d' inconnu: commande ignoree"
+}
+
+InFunction( const char* ) {
+   english="'%s' function returns an error"
+   french="La fonction '%s' retourne une erreur"
+}
+
+InvalidInhibited(const char*, const char*) {
+   english="Invalid inhibition flag ('%s') for task '%s': inhibition set"
+   french="Valeur d'inhibition  invalide ('%s') pour la tache '%s' : inhibition activée"
+}
+
+ExecutionFailed(const char*, const char*) {
+   english="Execution of task '%s' failed, error: '%s'"
+   french="L'execution de la tache '%s' a échouée, erreur: '%s'"
+}
+
+TaskAlreadyExist(const char*) {
+   english="The task '%s' already exists."
+   french="La tache '%s' existe deja."
+}
+
+BadArgumentType(const char*,int, int) {
+   english="The Type of task '%s' is '%d', but type of argument is '%d'"
+   french="Le type de la tache '%s' est '%d', mais le type de l'argument est '%d'"
+}

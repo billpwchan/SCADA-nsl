@@ -1,0 +1,55 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astitreecriteria"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astitreecriteria.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 7
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 159 81 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "closeCB"
+10240 "VisibleSelector"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 5 111 67 F268435468 0 { IlvMessageItem 262169 4 16 4 ""  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Toggle" ]
+0 IlvToggle 135 17 82 16 F1 2 1 2 0 0 0 Y "&Name" } 544 "NameToggle"
+1
+1 "__ilvCallback" "designateCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Toggle" ]
+0 IlvColoredToggle 135 43 82 16 F1 2 1 2 0 0 0 Y "&Comment" 0 0 0  } 544 "CommentToggle"
+1
+1 "__ilvCallback" "designateCB"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 121 5 111 67 F268435468 0 { IlvMessageItem 262169 4 16 4 ""  }   } 0
+0
+2 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+0 IlvButton 5 81 62 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Apply"  }   } 544 "Ok"
+1
+1 "__ilvCallback" "applyCB"
+0
+2 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector -1 2
+0 IlvToggle 18 17 92 16 F1 2 1 2 1 0 0 Y "&AllVisible" 
+0 IlvToggle 18 43 92 16 F1 2 1 2 1 0 0 Y "&NoVisible" 
+ } 544 "VisibleSelector"
+1
+1 "__ilvCallback" "visibleSelectorCB"
+4096 "Button_1"
+Size 237 108
+Layers 3
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

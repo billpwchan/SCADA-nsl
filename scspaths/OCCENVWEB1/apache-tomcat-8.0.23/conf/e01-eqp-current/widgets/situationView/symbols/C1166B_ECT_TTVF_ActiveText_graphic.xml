@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_ECT_TTVF_ActiveText_graphic">
+        <root>
+            <svgText initValue="XXXXXXXX" horizontalAlignment="middle" verticalAlignment="bottom" id="C1166B_ECT_TTVF_ActiveText_ECT_TTVF_ActiveText_UNNAMED" cssClass="ECT_TTVF_ActiveText" tx="1.0" ty="18.0"></svgText>
+        </root>
+    </graphic>
+</graphicConfiguration>

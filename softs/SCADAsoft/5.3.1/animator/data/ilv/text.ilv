@@ -1,0 +1,25 @@
+// Ilv Version: 2.3
+// File generated: Wed Nov 13 11:11:21 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+1 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 2 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 16
+2 { 0 0 IlvTextField 145 5 85 23 F6 2 2 -1 0 "" } 96 "leftMargin" "TextField" 336 1 145 1 5 2
+2 { 1 0 IlvTextField 145 35 85 23 F6 2 2 -1 0 "" } 96 "rightMargin" "TextField" 336 1 145 1 5 2
+2 { 2 1 IlvButton 5 219 64 23 F1 2 16 Y "&apply" } 64 "Button" 148 "apply" 1 5 1 5
+2 { 3 1 IlvButton 161 219 69 23 F1 2 16 Y "&cancel" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 4 0 IlvMessageLabel 10 5 126 26 0 "&leftMargin" 1 } 0 16 1 10
+2 { 5 0 IlvMessageLabel 10 35 126 30 0 "&rightMargin" 1 } 0 16 1 10
+2 { 6 0 IlvMessageLabel 10 65 126 26 0 "&topMargin" 1 } 0 16 1 10
+2 { 7 0 IlvMessageLabel 10 95 126 26 0 "&bottomMargin" 1 } 0 16 1 10
+2 { 8 0 IlvTextField 145 65 85 23 F6 2 2 -1 0 "" } 96 "topMargin" "TextField" 336 1 145 1 5 2
+2 { 9 0 IlvTextField 145 95 85 23 F6 2 2 -1 0 "" } 96 "bottomMargin" "TextField" 336 1 145 1 5 2
+2 { 10 0 IlvToggle 5 125 132 17 F1 2 1 2 0 0 0 Y "&verticalScrollBar" } 96 "vsbar" "Toggle" 16 1 5
+2 { 11 0 IlvToggle 5 150 139 17 F1 2 1 2 0 0 0 Y "&horizontalScrollBar" } 96 "hsbar" "Toggle" 16 1 5
+2 { 12 0 IlvToggle 5 175 92 17 F1 2 1 2 0 0 0 Y "&editable" } 96 "editable" "Toggle" 16 1 5
+2 { 13 0 IlvToggle 151 125 79 17 F1 2 1 2 0 0 0 Y "&left" } 96 "vsbPos" "Toggle" 16 1 151
+2 { 14 0 IlvToggle 151 150 79 17 F1 2 1 2 0 0 0 Y "&top" } 96 "hsbPos" "Toggle" 16 1 151
+3 { 15 2 IlvReliefLine 0 211 235 211 1 } 32 "line" 464 1 0 1 0 1 35 2
+Size 235 247

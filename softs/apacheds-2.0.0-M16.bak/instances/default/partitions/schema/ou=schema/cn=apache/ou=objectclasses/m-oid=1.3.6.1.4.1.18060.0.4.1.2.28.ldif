@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.28,ou=objectClasses,cn=apache,ou=schema
+m-must: prescriptiveTriggerSpecification
+m-typeobjectclass: AUXILIARY
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.28
+m-name: triggerExecutionSubentry
+m-description: Used to track a subentry associated with trigger areas
+m-obsolete: FALSE
+entryParentId: 4dfedaad-7aa9-497e-9b15-3fefcac81ae7
+createTimestamp: 20140513151220.113Z
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+entryUUID: 21a59463-d1fa-426e-9511-d1980733ac90
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.614000Z#00000f#000#000000

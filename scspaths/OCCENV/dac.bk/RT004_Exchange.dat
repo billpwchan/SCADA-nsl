@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE root SYSTEM "DacExchange.dtd">
+<root>
+<SCOPE name="PS">
+<SCOPE name="Linksaddr">
+<CONF key="L1">rtu04a:21007</CONF>
+<CONF key="L2">rtu04b:21008</CONF>
+</SCOPE>
+<CONF key="PollingInterval">500</CONF>
+<CONF key="RequestTimeout">2000</CONF>
+</SCOPE>
+<SCOPE name="SCS">
+<CONF key="CommandSending">1</CONF>
+<CONF key="StandbyConnect">1</CONF>
+<CONF key="TraceLevels">0,1</CONF>
+<CONF key="TraceModules">12</CONF>
+<CONF key="WaitForServer">DpcVarServer</CONF>
+</SCOPE>
+</root>

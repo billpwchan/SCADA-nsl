@@ -1,0 +1,10 @@
+version: 1
+dn: ou=matchingRuleUse,cn=autofs,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 9c11f1c4-cc39-4bd0-b72c-0144f5576c76
+ou: matchingruleuse
+entryUUID: 00a4383e-3462-40c3-a552-24150e03426f
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.348Z
+entryCSN: 20140513151214.692000Z#000005#000#000000

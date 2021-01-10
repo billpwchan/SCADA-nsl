@@ -1,0 +1,12 @@
+// ILOG Views Studio Options for Appframe
+
+studio {
+
+    messageDB			"ivstudio/appframe/studio.dbm";
+
+    dragDropPalette "Appframe" {
+	dataFileName "ivstudio/appframe/palette.ilv";
+	label "&Appframe";
+    }
+
+}

@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" href="$scs_8h.html" title="General Purpose ScadaSoft Utilities." alt="scs.h" coords="396,615,433,641" />
+<area shape="rect" href="$his_8h.html" title="Access to the History server for archive management." alt="his.h" coords="354,241,392,268" />
+<area shape="rect" href="$trddataset_8h.html" title="Data used in Trend server context." alt="trddataset.h" coords="484,167,566,193" />
+<area shape="rect" href="$trdhissubscription_8h.html" title="Management of archives of the Trend server (TRD)" alt="trdhissubscription.h" coords="461,92,597,119" />
+<area shape="rect" href="$scsdefs_8h.html" title="Definition of priority levels." alt="scsdefs.h" coords="589,764,656,791" />
+<area shape="rect" href="$scsdata_8h.html" title="General Purpose Scadasoft datatype definitions." alt="scsdata.h" coords="161,689,228,716" />
+<area shape="rect" href="$ols_8h.html" title="Remote access to OlsList objects." alt="ols.h" coords="354,391,392,417" />
+<area shape="rect" href="$histypes_8h.html" title="Various utility classes used in the History server context." alt="histypes.h" coords="418,316,490,343" />
+<area shape="rect" href="$scstimer_8h.html" title="Timer management." alt="scstimer.h" coords="205,540,277,567" />
+<area shape="rect" href="$olstypes_8h.html" title="Various classes, typedefs and functions used in OlsList context." alt="olstypes.h" coords="330,465,402,492" />
+<area shape="rect" href="$trddata_8h.html" title="Data used in Trend server context." alt="trddata.h" coords="488,241,554,268" />
+</map>

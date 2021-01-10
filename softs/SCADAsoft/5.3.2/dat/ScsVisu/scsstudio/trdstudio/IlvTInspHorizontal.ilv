@@ -1,0 +1,164 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 17:29:44 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "IlvTInspHorizontal"
+PathName "D:\\SCADASOFT\\SCSHOME\\dat\\ScsVisu\\scsstudio\\trdstudio\\IlvTInspHorizontal.ilv"
+Palettes 3
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+2 F "gray" 0 0 65025 "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 22
+1 { 0 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttFormat" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 300 210 115 22 F806 2 1 -1 0 "%X" 20
+{ IlvGadgetItem 1 2 4 "%x, %X"  } 
+{ IlvGadgetItem 1 2 4 "%X"  } 
+{ IlvGadgetItem 0 2 4  } 
+{ IlvGadgetItem 1 2 4 "%H:%M:%S"  } 
+{ IlvGadgetItem 1 2 4 "%H:%M"  } 
+{ IlvGadgetItem 1 2 4 "%M:%S"  } 
+{ IlvGadgetItem 1 2 4 "%H"  } 
+{ IlvGadgetItem 1 2 4 "%M"  } 
+{ IlvGadgetItem 1 2 4 "%S"  } 
+{ IlvGadgetItem 1 2 4 "%x"  } 
+{ IlvGadgetItem 1 2 4 "%I:%M:%S %p"  } 
+{ IlvGadgetItem 1 2 4 "%a, %m/%d/%Y"  } 
+{ IlvGadgetItem 1 2 4 "%a %d %b %y"  } 
+{ IlvGadgetItem 1 2 4 "%A %d %B %Y"  } 
+{ IlvGadgetItem 1 2 4 "%d/%m/%y"  } 
+{ IlvGadgetItem 1 2 4 "Week of year #%W"  } 
+{ IlvGadgetItem 1 2 4 "Day of week #%w"  } 
+{ IlvGadgetItem 1 2 4 "Day of year #%j"  } 
+{ IlvGadgetItem 0 2 4  } 
+{ IlvGadgetItem 0 2 4  }  5 0 } 544 "Format"
+1
+1 "__ilvCallback" "Format"
+0
+1 { 1 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttXRange" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 334 131 81 22 F807 2 1 -1 0 "&Minutes" 4
+{ IlvGadgetItem 1 2 4 "&Seconds"  } 
+{ IlvGadgetItem 1 2 4 "&Minutes"  } 
+{ IlvGadgetItem 1 2 4 "&Hours"  } 
+{ IlvGadgetItem 1 2 4 "&Days"  }  10 0 } 544 "XRange2"
+1
+1 "__ilvCallback" "XRange"
+6144 "TextField_1" "XRange"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 10 97 415 80 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Time_scale"  }   } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 200 131 96 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Range"  }   } 0
+0
+1 { 4 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttXRange" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 300 131 30 22 F6 2 16 3 0 "5" . , 0 0 1 999 } 544 "XRange"
+1
+1 "__ilvFocusOut" "XRange"
+6144 "XRange2" "TimeScale"
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 10 190 415 80 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Ticks_options"  }   } 0
+0
+1 { 6 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttDisplay" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 20 27 160 16 F1073741825 2 1 2 0 16 0 Y "&Display_axis_labels" } 544 "DisplayH"
+1
+1 "__ilvCallback" "DisplayH"
+10240 "TicksH"
+1 { 7 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttOriented" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 200 58 175 16 F1073741825 2 1 2 0 16 0 Y "&Oriented_axis" } 544 "OrientedH"
+1
+1 "__ilvCallback" "OrientedH"
+6144 "TimeScale" "XUnits"
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector 1 2
+0 IlvToggle 20 120 163 16 F1 2 1 2 1 16 0 Y "&Fixed_via_API" 
+0 IlvToggle 20 150 163 16 F1 2 1 2 1 16 0 Y "&Sliding " 
+ } 544 "TimeScale"
+1
+1 "__ilvCallback" "TimeScale"
+6144 "XRange" "OrientedH"
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 20 240 100 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Minor_ticks"  }   } 0
+0
+1 { 10 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttMinorTicks" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 125 240 55 22 F6 2 16 3 0 "5" . , 0 0 0 999 } 544 "MinorTicks"
+1
+1 "__ilvFocusOut" "NbTicks"
+6144 "TickFormat" "MajorTicks"
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 200 26 100 18 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Units_label"  }   } 0
+0
+1 { 12 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttUnits" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 300 24 115 22 F6 2 16 12 0 "" } 544 "XUnits"
+1
+1 "__ilvFocusOut" "XUnits"
+6144 "OrientedH" "TicksH"
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 190 208 2 55 F268435468 0 { IlvMessageItem 262168 4 16 4  }   } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 20 210 100 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Major_ticks"  }   } 0
+0
+1 { 15 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttMajorTicks" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 125 210 55 22 F6 2 16 3 0 "5" . , 0 0 2 999 } 544 "MajorTicks"
+1
+1 "__ilvFocusOut" "NbTicks"
+6144 "MinorTicks" "XRange2"
+1 { 16 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttTicks" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 20 58 160 16 F1073741825 2 1 2 0 16 0 Y "&Display_axis_ticks" } 544 "TicksH"
+1
+1 "__ilvCallback" "NbTicks"
+6144 "XUnits" "DisplayH"
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 190 114 2 55 F268435468 0 { IlvMessageItem 262168 4 16 4  }   } 0
+0
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 10 5 415 80 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Axis_features"  }   } 0
+0
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 190 22 2 55 F268435468 0 { IlvMessageItem 262168 4 16 4  }   } 0
+0
+1 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 200 210 94 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Format"  }   } 0
+0
+1 { 21 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttSample" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvTextField 200 240 214 22 F268435471 0 2 24 0 "[ sample ]" } 928 "Sample"
+1
+1 "__ilvFocusOut" "XUnits"
+0
+Size 435 333
+GeometryHandlers
+1 100 0 435 0 435 0
+1 3 0 0 10  0 0 415 2  0 0 10 0
+1 100 0 333 0 333 0
+1 3 0 0 97  0 0 80 2  0 0 156 0
+EOF

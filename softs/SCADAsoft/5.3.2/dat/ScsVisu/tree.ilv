@@ -1,0 +1,33 @@
+// Ilv Version: 2.4
+// File generated: Wed Oct  1 18:56:17 1997
+// Creator class: IlvGadgetManagerOutput
+Palettes 2
+"IlvStText" 0 44544 45568 49920 0 0 0 "normal" "%helvetica-12-" 0 solid solid 0 0 0
+1 44544 45568 49920 0 0 0 "button" "%helvetica-12-B" 0 solid solid 0 0 0
+IlvObjects 8
+1 { 0 0 IlvTreeGadget 10 80 280 310 F12 2 20 1 1 1 1 1 0
+"root" 0 "N" "N" 0
+ } 32 "tree"
+0
+1 { 1 0 IlvTextField 70 13 220 22 F6 2 1 -1 0 "" } 32 "CWP"
+0
+1 { 2 0 IlvTextField 70 46 220 22 F6 2 1 -1 0 "" } 32 "Path"
+0
+1 { 3 0 IlvLabel 17 31 "CWP :" } 0
+0
+1 { 4 0 IlvLabel 18 64 "Path :" } 0
+0
+1 { 5 1 IlvButton 10 405 73 23 F1 2 16 Y "OK" } 512
+1
+1 "__ilvCallback" "OK"
+0
+1 { 6 1 IlvButton 113 405 73 23 F1 2 16 Y "CWP" } 512
+1
+1 "__ilvCallback" "CWP"
+0
+1 { 7 1 IlvButton 216 405 73 23 F1 2 16 Y "Cancel" } 512
+1
+1 "__ilvCallback" "Cancel"
+0
+Size 300 440
+Background 44544 45568 49920

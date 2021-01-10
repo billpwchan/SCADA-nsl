@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.411,ou=attributeTypes,cn=adsconfig,ou=schema
+m-length: 0
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.411
+m-name: ads-krbPrimaryRealm
+m-description: The primary realm
+m-equality: caseExactMatch
+entryParentId: c11acc1c-02ea-42e3-b600-cc0ca6feff74
+m-substr: caseExactSubstringsMatch
+m-ordering: caseExactOrderingMatch
+m-singlevalue: TRUE
+createTimestamp: 20140513151220.004Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.44
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+entryUUID: e87c5284-562c-49d6-8cc7-847893d3cf22
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.411000Z#000012#000#000000

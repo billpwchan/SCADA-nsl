@@ -1,0 +1,59 @@
+// --------------------------------------------------------------------------
+
+panel "MainPanel" {
+
+  visible true;
+
+  menuItem NewDssScenario : "&mfile", "&new";
+
+  // New QUIT command to close the DSS/Animator images
+  removeMenuItem QuitScsStudio :  "&mfile";
+  menuItem QuitDssStudio :  "&mfile";
+
+  // Remove the 2 last menus to insert the DSS one...
+
+  removeMenuItem :"&mwindow";
+  removeMenuItem :"&mhelp";
+
+  menu "D^SS" {
+    CheckScenarioConsistency,
+    GenerateAnimatorFiles
+  };
+
+  // IV5
+  menu "&mwindow" {
+    CloseAllBuffers,
+    MinimizeAllWindows,
+    RestoreAllWindows,
+    -,
+    CascadeWindows,
+    TileHorizontally,
+    TileVertically,
+    -	    
+  }
+
+  //menu "&mwindow" {
+  //  CloseAllBuffers,
+  //  MinimizeAllWindows,
+  //  RestoreAllWindows,
+  //  CascadeWindows,
+  //  -
+  //}
+
+  menu "&mhelp" {
+    ShowScsInfo
+  }
+}
+
+// Resize palette panel to see all DSS steps
+panel "PalettePanel" {
+    title "&Palettes";
+    visible true;
+    width 230;
+}
+
+panel "Errors" {
+    visible false;
+    x 765
+    y 0
+}

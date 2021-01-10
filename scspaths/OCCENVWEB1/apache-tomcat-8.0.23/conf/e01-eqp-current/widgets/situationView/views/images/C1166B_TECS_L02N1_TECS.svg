@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="1629" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 3191 1629" width="3191">
+
+  
+  <g class="AnLayer" id="AnDefaultLayer">
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="70,515 1569,515 1569,1493 70,1493 70,515 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="1619,515 3118,515 3118,1564 1619,1564 1619,515 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="70,179 3119,179 3119,318 70,318 70,179 " />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,515 3118,515 3118,585 1619,585 1619,515 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,585 3118,585 3118,655 1619,655 1619,585 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,655 3118,655 3118,725 1619,725 1619,655 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,725 3118,725 3118,795 1619,795 1619,725 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,795 3118,795 3118,865 1619,865 1619,795 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,865 3118,865 3118,935 1619,935 1619,865 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,935 3118,935 3118,1005 1619,1005 1619,935 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,1005 3118,1005 3118,1075 1619,1075 1619,1005 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,1075 3118,1075 3118,1145 1619,1145 1619,1075 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,1145 3118,1145 3118,1215 1619,1215 1619,1145 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,1215 3118,1215 3118,1285 1619,1285 1619,1215 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,1285 3118,1285 3118,1355 1619,1355 1619,1285 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,1355 3118,1355 3118,1425 1619,1425 1619,1355 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,1425 3118,1425 3118,1495 1619,1495 1619,1425 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,1495 3118,1495 3118,1565 1619,1565 1619,1495 " stroke="#000000" stroke-width="1px" />
+
+      
+      <g>
+
+        
+        <polyline class="AnPolyline" fill="none" points="2399,515 2399,1563 " stroke="#000000" stroke-width="1px" />
+
+        
+        <polyline class="AnPolyline" fill="none" points="2772,515 2772,1563 " stroke="#000000" stroke-width="1px" />
+
+      
+      </g>
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="70,178 3119,178 3119,248 70,248 70,178 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="70,248 3119,248 3119,318 70,318 70,248 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,515 1569,515 1569,585 70,585 70,515 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,585 1569,585 1569,655 70,655 70,585 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,655 1569,655 1569,725 70,725 70,655 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,725 1569,725 1569,795 70,795 70,725 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,795 1569,795 1569,865 70,865 70,795 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,865 1569,865 1569,935 70,935 70,865 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,935 1569,935 1569,1005 70,1005 70,935 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,1005 1569,1005 1569,1075 70,1075 70,1005 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,1075 1569,1075 1569,1145 70,1145 70,1075 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,1145 1569,1145 1569,1215 70,1215 70,1145 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,1215 1569,1215 1569,1285 70,1285 70,1215 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,1285 1569,1285 1569,1355 70,1355 70,1285 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,1355 1569,1355 1569,1425 70,1425 70,1355 " stroke="#000000" stroke-width="1px" />
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="943,178 943,318 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="2240,178 2240,318 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="850,515 850,1493 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1223,515 1223,1493 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,1425 1569,1425 1569,1495 70,1495 70,1425 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3119,177 70,177 " stroke="#656565" stroke-width="3px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,177 70,317 " stroke="#656565" stroke-width="3px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1569,515 70,515 " stroke="#656565" stroke-width="3px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="70,515 70,1495 " stroke="#656565" stroke-width="3px" />
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="3118,515 1619,515 " stroke="#656565" stroke-width="3px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1619,515 1619,1565 " stroke="#656565" stroke-width="3px" />
+
+    
+    </g>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement">
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,365.821991,189.270004)" x="0px" y="12px">Mode Number</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,468.044006,259.269989)" x="0px" y="12px">N1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1436.489990,189.270004)" x="0px" y="12px">Mode Description</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1337.599976,259.269989)" x="0px" y="12px">MASTER NORMAL MODE N1
+</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2544.820068,189.270004)" x="0px" y="12px">Mode Status</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,360.821991,526.270020)" x="0px" y="12px">Equipment</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,596.270020)" x="0px" y="12px">CTV - Tunnel Ventilation Fan (TVF-001)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,921.489014,526.270020)" x="0px" y="12px">Current Value</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1284.819946,526.270020)" x="0px" y="12px">Target Value</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,596.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,666.270020)" x="0px" y="12px">CTV - Tunnel Ventilation Fan (TVF-002)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,666.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,736.270020)" x="0px" y="12px">CTV - Tunnel Ventilation Fan (TVF-003)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,736.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,806.270020)" x="0px" y="12px">CTV - Tunnel Ventilation Fan (TVF-004)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,808.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,876.270020)" x="0px" y="12px">CTV - Motorised Fire Damper (MFD-001)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,876.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,946.270020)" x="0px" y="12px">CTV - Motorised Fire Damper (MFD-002)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,946.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,1016.270020)" x="0px" y="12px">CTV - Motorised Fire Damper (MFD-003)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,1016.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,1086.270020)" x="0px" y="12px">CTV - Motorised Fire Damper (MFD-004)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,1086.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,1156.270020)" x="0px" y="12px">CTV - Motorised Fire Damper (MFD-005)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,1156.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,1226.270020)" x="0px" y="12px">CTV - Motorised Fire Damper (MFD-006)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,1226.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,1296.270020)" x="0px" y="12px">CTV - Motorised Fire Damper (MFD-007)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,1296.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,1366.270020)" x="0px" y="12px">CTV - Motorised Fire Damper (MFD-008)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,1366.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,98.043999,1436.270020)" x="0px" y="12px">CTV - Motorised Fire Damper (MFD-009)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1342.819946,1436.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1909.819946,526.270020)" x="0px" y="12px">Equipment</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,596.270020)" x="0px" y="12px">SSV - Tunnel Ventilation Fan (TVF-001)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2470.489990,526.270020)" x="0px" y="12px">Current Value</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2833.820068,526.270020)" x="0px" y="12px">Target Value</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,596.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,666.270020)" x="0px" y="12px">SSV - Tunnel Ventilation Fan (TVF-002)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,666.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,736.270020)" x="0px" y="12px">SSV - Tunnel Ventilation Fan (TVF-003)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,736.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,806.270020)" x="0px" y="12px">SSV - Tunnel Ventilation Fan (TVF-004)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,808.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,876.270020)" x="0px" y="12px">SSV - Motorised Fire Damper (MFD-001)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,876.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,946.270020)" x="0px" y="12px">SSV - Motorised Fire Damper (MFD-002)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,946.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,1016.270020)" x="0px" y="12px">SSV - Motorised Fire Damper (MFD-003)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,1016.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,1086.270020)" x="0px" y="12px">SSV - Motorised Fire Damper (MFD-004)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,1086.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,1156.270020)" x="0px" y="12px">SSV - Motorised Fire Damper (MFD-005)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,1156.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,1226.270020)" x="0px" y="12px">SSV - Motorised Fire Damper (MFD-006)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,1226.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,1296.270020)" x="0px" y="12px">SSV - Motorised Fire Damper (MFD-007)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,1296.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,1366.270020)" x="0px" y="12px">SSV - Motorised Fire Damper (MFD-008)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,1366.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,1436.270020)" x="0px" y="12px">SSV - Motorised Fire Damper (MFD-009)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,1436.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,1647.040039,1506.270020)" x="0px" y="12px">SSV - Motorised Fire Damper (MFD-010)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.200000,0.000000,0.000000,3.200000,2895.820068,1506.270020)" x="0px" y="12px">Close</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.840000,0.000000,0.000000,3.840000,70.586403,439.523987)" x="0px" y="12px">Equipment</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.800000,0.000000,0.000000,4.800000,1045.479980,51.404999)" x="0px" y="12px">LMC/SSV/CTV - Normal Mode Details - N1</text>
+
+  
+  </g>
+
+</svg>

@@ -1,0 +1,67 @@
+#
+# Interface messages file - ANIMATOR V8
+#
+# Process PCOMPI - EDITOR/COMPILER
+#
+# Subprocess PCOMPI
+#
+020400201,Image name : %s \t Animator Version : %s - %s\n
+020400202,Image comment: %s
+020400203,Number of objects: %d\n
+020400204,Number of class: %d\n
+020400205,=============
+
+020400210,Class name   : %s
+020400211,Class ind    : %d
+020400212,Class type   : %d
+020400213,Class type   : %d \t %s
+020400214,Class type   : %hd \t Active symbol
+020400215,Class type   : %hd \t Active Text
+020400216,Class type   : %hd \t Numeric display
+020400217,Class type   : %hd \t Standard curve
+020400218,Class type   : %hd \t Bar graph
+020400219,Class type   : %hd \t Redirection
+020400220,Class type   : %hd \t Data entry field
+020400221,Class type   : %hd \t Mobile symbol
+020400222,Class type   : %hd \t List
+020400223,Class type   : %hd \t Curve y=f(t)
+020400224,Class type   : %hd \t Curve y=f(x)
+020400225,Class type   : %hd \t Array
+020400226,Class type   : %hd \t Differential Bar graph
+020400227,Class type   : %hd \t User Class
+
+020400230,Class comm   : %s
+020400231,Sensitive    : %s
+020400232,Node number  : %d
+020400233,Node ind     : %d
+020400234,Node name    : %s
+020400235,NodeClassInd : %d
+020400236,LayerLevel   : %d
+020400237,Number of colors: %d
+020400238,Number of representations: %d
+020400239,Length of texte: %d characters
+020400240,Format: %s 
+020400241,Time scale   : %d
+020400242,Min. value   : %lf   Max. value: %lf
+020400243,Max. number of lines: %d
+020400244,Number of columns: %d
+020400245,Column number: %d
+020400246,Number of measures: %d
+020400247,Function key number:%d        Function key name: %s
+020400248,Function key comment: %s
+020400249,NodeComment  : %s
+
+020400250,Object name  : %s
+020400251,ObjAn Number : %d
+020400252,Object ind   : %d
+020400253,Object comm  : %s
+020400254,Depth        : %d
+020400255,Root Object  : %d
+020400256,Node ind.list: [ 
+
+020400260,VAOA  %s
+020400261,VAOB  %s
+020400262,VAOT  %s
+020400263,VAOI  %s
+
+020400264,column %d type %d Format %s longueur %d

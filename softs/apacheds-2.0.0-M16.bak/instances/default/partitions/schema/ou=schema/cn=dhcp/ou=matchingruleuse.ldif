@@ -1,0 +1,10 @@
+version: 1
+dn: ou=matchingRuleUse,cn=dhcp,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 708bba73-5958-4596-a2fd-76de6be9d7d0
+ou: matchingruleuse
+entryUUID: f51855f0-1568-4aa3-abab-2d0b31de4b30
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.395Z
+entryCSN: 20140513151214.801000Z#000002#000#000000

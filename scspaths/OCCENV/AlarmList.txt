@@ -1,0 +1,11 @@
+olsShow: using dynamic assignement for the single-threaded IP port.
+olsShow: using dynamic assignement for the multi-threaded IP port.
+[0] olsShow@SRV1_PC16011 07/15/16 16:20:55.783(07/15/16 16:20:55.752) <18960/22160> (olsshow:199)
+<<Create OlsServer(SRV1_PC16011,AlmServer)>>
+[0] olsShow@SRV1_PC16011 07/15/16 16:20:55.799(07/15/16 16:20:55.752) <18960/22160> (olsshow:210)
+<<Result of getSubscriber(AlarmList)>>
+DataList entries :0 - Current subId :10
+8 - SCSConnector@HVSRV1N1_PC16011 - 3:OlsClientIdl - Logical - oneway - "" 0 0 - OldClient
+[0] olsShow@SRV1_PC16011 07/15/16 16:20:55.800(07/15/16 16:20:55.752) <18960/22160> (olsshow:232)
+<<Result of read(AlarmList)>>
+"AlarmId" 1 1 1 0 "AutoId" 12 1 1 0 "UserID" 1 1 1 0 "EquipmentName" 3 1 1 0  "Value" 3 1 1 0  "ValueState" 1 1 1 0 "AcknowledgeRequired" 1 1 1 0 "Severity" 1 1 1 0 "Shelve" 1 1 1 0 "Hidden" 1 1 1 0 "Message" 3 1 1 0  "Theme" 1 1 1 0 "EquipmentDate" 5 1 1 1468562195 752000 "AcquisitionDate" 5 1 1 1468562195 752000 "SCSTime" 5 1 1 1468562195 752000 "FunctionalCategory" 1 1 1 0 "GeographicalCategory" 1 1 1 0 "AckAutomatonPointer" 6 1 1  0 0 "Environment" 3 1 1 0  "User1" 3 1 1 0  "User2" 3 1 1 0  "DssEventType" 3 1 1 0  

@@ -1,0 +1,95 @@
+// Ilv Version: 2.4
+// File generated: Wed Dec 18 18:11:42 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 4
+0 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 3 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+2 "defaultBg" "defaultFg" "menu" "%helvetica-12-B" 0 solid solid 0 0 0
+"IlvStText" 1 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 35
+1 { 0 0 IlvFrame 10 203 157 28 0 "^Frame" 1 } 0 0
+1 { 1 1 IlvTreeGadget 15 499 149 79 F12 2 20 1 1 1 1 1 12
+"root" 8 "N" "N" 2
+"First Root" 8 "N" "N" 2
+"Leaf 1" 8 "N" "N" 0
+"Leaf 2" 8 "N" "N" 0
+"Second Root" 8 "N" "N" 0
+ } 32 "tree" 0
+2 { 2 1 IlvToggle 83 591 78 17 F1 2 1 2 0 0 0 Y "Toggle" } 0 0
+2 { 3 1 IlvTextField 9 36 154 22 F6 2 1 -1 0 "Text Field" } 0 0
+2 { 4 1 IlvLabel 12 603 "Label" } 0 0
+2 { 5 2 IlvMenuBar 9 5 154 29 F2 2 3
+2 "&menu_file"
+2 "&menu_edit"
+2 "&menu_help" } 0 0
+2 { 6 1 IlvComboBox 13 355 151 20 2 3 "ComboBox"
+"item1"
+"item2"
+"item3" } 0 0
+2 { 7 1 IlvOptionMenu 13 330 151 20 2 3 0
+"item1"
+"item2"
+"item3" } 0 0
+2 { 8 0 IlvButton 9 147 73 23 F1 2 16 Y "button" } 0 0
+2 { 9 1 IlvScrolledStringList 72 434 79 41 F1 2 0 1 0 0 4
+"item1"
+"item2"
+"item3"
+"this item is very long. You must scroll to see it." Y Y } 0 0
+2 { 10 1 IlvStringList 15 434 51 58 F1 2 0 1 0 0 3
+"item1"
+"item2"
+"item3" } 0 0
+2 { 11 1 IlvSlider 115 650 18 120 F1 2 0 100 50 10 4 10 } 0 0
+2 { 12 1 IlvScrollBar 141 650 4294967279 120 F1 2 0 100 50 10 1 10 64 1 10 } 0 0
+2 { 13 1 IlvSlider 8 645 96 19 F1 2 0 100 50 10 1 10 } 0 0
+2 { 14 1 IlvScrollBar 8 670 96 4294967279 F1 2 0 100 50 10 1 10 32 1 10 } 0 0
+2 { 15 1 IlvGadget 113 147 49 23 2 } 0 0
+2 { 16 1 IlvScrolledComboBox 13 300 151 20 F4 2 8 "SCCombo"
+"A"
+"B"
+"C"
+"D"
+"E"
+"F"
+"G"
+"H" 4 } 0 0
+2 { 17 1 IlvMessageLabel 13 274 151 22 0 "MessageLabel" 1 } 0 0
+2 { 18 1 IlvText 13 380 134 45 F1 2 0 2
+"Text"
+"multi lines" } 0 0
+2 { 19 1 IlvSpinBox 12 179 150 22 2 0 200 32 2 1
+1 IlvTextField 12 179 134 22 F6 2 1 -1 0 "Monday"  f 0 1 7 0
+"Monday"
+"Tuesday"
+"Wednesday"
+"Thursday"
+"Friday"
+"Saturday"
+"Sunday" } 0 0
+2 { 20 3 IlvArrowButton 86 147 23 23 F1 2 16 Y "" 2 0 } 0 0
+2 { 21 1 IlvNotebook 10 237 155 34 2 2
+"Tab 1" "" 1 "gray" ""
+"Tab 2" "" 1 "gray" ""
+0 0 4 0 0 5 2 10 10 10 10  } 32 "book" 0
+4 { 22 1 IlvColoredToggle 81 621 78 17 F1 2 1 2 0 0 0 Y "Colored" 0 0 0  } 0 0
+6 { 23 2 IlvPopupMenu 7 699 97 76 F2 2 4
+2 "&menu_open..."
+2 "&menu_save"
+0 
+2 "&menu_exit" } 64 "Popup" 0
+6 { 24 1 IlvListLabel 11 612 1 2
+"Multi lines"
+"label" } 0 0
+7 { 25 1 IlvMatrix 9 780 67 64 F88 2 1 1 1 20 29 1 1 0 0 1 1 1 3 2 0 1 N 0 0 0 0 0 0 0  } 64 "MatrixSelector" 0
+7 { 26 1 IlvScrolledMatrix 86 781 71 47 F88 2 1 1 1 22 31 1 1 0 0 1 0 1 3 2 0 1 N 0 0 0 0 1 1 0  } 0 0
+7 { 27 1 IlvSheet 7 850 136 63 F88 2 1 1 1 40 25 1 1 1 1 0 0 1 4 4 1 0 0 66 1 ""
+1 N 0 0 1 1 1 1 0  } 0 0
+7 { 28 1 IlvPasswordTextField 9 92 154 22 F6 2 1 -1 0 "ILOG Views Studio" } 0 0
+7 { 29 1 IlvDateField 9 120 154 22 F6 2 1 -1 0 "07/15/1995" / 3 1 7 } 0 0
+7 { 30 1 IlvNumberField 9 64 154 22 F6 2 2 -1 0 "1234543.625" . , 2 16 -3.40282e+38 3.40282e+38 } 0 0
+7 { 31 1 IlvGadgetContainerRectangle 0 941 211 33 "" } 0 0
+7 { 32 1 IlvSCGadgetContainerRectangle 0 979 211 30 "" 3 } 0 0
+7 { 33 1 IlvSCManagerRectangle 0 1015 195 26 YY } 64 "SCManager" 0
+7 { 34 1 IlvSCGrapherRectangle 0 1064 195 27 YY } 64 "SCManager" 0
+Size 220 1112

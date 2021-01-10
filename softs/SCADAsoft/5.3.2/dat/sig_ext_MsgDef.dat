@@ -1,0 +1,145 @@
+/******************************************************************************/
+/*									      */
+/*  FILE	: sig_ext_MsgDef.dat                                          */
+/*  FULL NAME	: CSCI SIDL, CSC1 External, define for the message type send  */
+/*									      */
+/*----------------------------------------------------------------------------*/
+/*  AUTHOR		:	Olivier GARCIA                                */
+/*  COMPANY		:	SYSECA					      */
+/*  CREATION DATE	:	1996/07/02				      */
+/*  LANGUAGE		:	C Ansi					      */
+/*............................................................................*/
+/*  OVERVIEW								      */
+/*	Message type send                                                     */
+/*	Name of the define is limited to 64 caracters                         */
+/*............................................................................*/
+/*  CONTENTS								      */
+/*	...								      */
+/******************************************************************************/
+
+#ifndef __SIL_EXT_MSGDEF__
+#define __SIL_EXT_MSGDEF__
+
+/*----------------------------------------------------------------------------*/
+/*  IDENTIFICATION							      */
+#       @(#)sig_ext_MsgDef.dat	1.5 04/29/97
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  ENVIRONMENT								      */
+/*----------------------------------------------------------------------------*/
+#include "gof_MsgBaseDef.h"
+
+/*----------------------------------------------------------------------------*/
+/*  PROTOTYPES DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  CONSTANTS DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*==============================*/
+/* Exchanged messages with SINF */
+/*==============================*/
+
+#define	SIG_D_MSG_EXECRESULT	 	2001
+#define	SIG_D_MSG_INTERMRESULT	 	2002
+#define	SIG_D_MSG_CMDACK	 	2003
+#define	SIG_D_MSG_ACQNOACK	 	2004
+#define	SIG_D_MSG_DIAGACK 	 	2005
+#define	SIG_D_MSG_RESP_CREATE	 	2006
+#define	SIG_D_MSG_RESP_MODSUP 		2007
+#define	SIG_D_MSG_ACQUIREDDATA 		2008
+#define	SIG_D_MSG_GRPSBS  		2009
+#define	SIG_D_MSG_LSTSBS  		2010
+#define	SIG_D_MSG_RESPENDHISTO 		2011
+#define	SIG_D_MSG_ACKREFALA 		2012
+#define	SIG_D_MSG_ACKKEYALA  		2013
+#define	SIG_D_MSG_ECHCTLPRESS  		2014
+#define	SIG_D_MSG_MMICTLPRESS 		2015
+#define	SIG_D_MSG_ECHCONTROL 		2016
+#define	SIG_D_MSG_MMICONTROL 		2017
+#define	SIG_D_MSG_MAINTENANCE 		2018
+#define	SIG_D_MSG_VALVEPOS  		2019
+#define	SIG_D_MSG_MANUALVALVE   	2020
+#define	SIG_D_MSG_PASSWD  		2021
+#define	SIG_D_MSG_THRESHOLDVALUES  	2022
+#define	SIG_D_MSG_SETMANUALVALUE 	2023
+#define	SIG_D_MSG_SETFORCINGVALUE 	2024
+#define	SIG_D_MSG_ENDFORCINGVALUE 	2025
+#define	SIG_D_MSG_INITSA      		2026
+#define	SIG_D_MSG_ASYNACQSA  		2027   
+#define	SIG_D_MSG_ASYNACQSPECSA 	2028
+#define	SIG_D_MSG_ASYNACQEQP  		2029
+#define	SIG_D_MSG_CHEXPMODSA   		2030
+#define	SIG_D_MSG_GLOBLOADSA  		2031
+#define	SIG_D_MSG_UPLOADSA     		2032
+#define	SIG_D_MSG_PARTLOADSA  		2033
+#define	SIG_D_MSG_INHIBOPER    		2034
+#define	SIG_D_MSG_INHIBALARM   		2035
+#define	SIG_D_MSG_SHIFT        		2036
+#define	SIG_D_MSG_SETINQUIRED		2037
+#define SIG_D_MSG_FASTRESULT		2038
+#define SIG_D_MSG_REQPRTBYREF           2039
+#define SIG_D_MSG_REQREPBYREF           2040
+ 
+#define SIG_D_MSG_CREATE_INCIDENT       2041
+#define SIG_D_MSG_DELETE_INCIDENT       2042
+#define SIG_D_MSG_MODIFY_INCIDENT       2043
+ 
+#define SIG_D_MSG_CREATE_ORDER          2044
+#define SIG_D_MSG_DELETE_ORDER          2045
+#define SIG_D_MSG_MODIFY_ORDER          2046
+ 
+#define SIG_D_MSG_AUTOR_MANOEUV         2047
+#define SIG_D_MSG_VALID_MANOEUV         2048
+#define SIG_D_MSG_ACQ_PLAN_ORDER        2049
+#define SIG_D_MSG_APPLI_PLAN_ORDER      2050
+ 
+#define SIG_D_MSG_GENAL                 2051
+#define SIG_D_MSG_USERAL                2052
+ 
+#define SIG_D_MSG_REQPRTBYID            2053
+#define SIG_D_MSG_REQFILEBYID           2054
+#define SIG_D_MSG_REQREPSHIFT           2055
+#define SIG_D_MSG_PRTREPSHIFT           2056
+#define SIG_D_MSG_CHEXIST               2057
+
+#define SIG_D_MSG_LISTAPPLIMODIFY       2058
+#define SIG_D_MSG_MANUALACTIVATION      2059
+#define SIG_D_MSG_REQMULTAUGT           2060
+#define SIG_D_MSG_ANSMULTAUGT           2061
+#define SIG_D_MSG_ALDIFF                2062
+#define SIG_D_MSG_ALFILE                2063
+
+
+
+/*----------------------------------------------------------------------------*/
+/*  STRUCTURES DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  EXTERNALS DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  RESOURCES DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  VARIABLES DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  OTHER DEFINITIONS							      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*	EXPORTED DATA AND TYPES						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*	EXPORTED SUB-PROGRAMS						      */
+/*----------------------------------------------------------------------------*/
+
+#endif

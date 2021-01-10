@@ -1,0 +1,13 @@
+// IlvMessageDatabase 4 Fri Jun 16 04:40:40 2000
+// Language: br_BR
+// Encoding: US-ASCII
+"&CAMERA_STATUS" "Camera Status"
+"&DIAGNOSTIC_STATUS" "Diagnostic Status"
+"&DOOR_STATUS" "Door Status"
+"&SCS_ENV_STATE" "SCADAsoft Environment State"
+"&NORMAL" "normal"
+"&AVAILABLE" "available"
+"&CLOSED" "closed"
+"&DOWN" "down"
+"&OPEN" "open"
+"&MOVING" "moving"

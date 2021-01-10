@@ -1,0 +1,29 @@
+<project name="heartsuser" basedir="." default="all">
+	
+	<property file="build.properties"/>
+	
+	<path id="classpath">
+		<fileset dir="${lib.includes}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	
+	<target name="compile">
+		<delete dir="${bin.target}"/>
+		<mkdir dir="${bin.target}"/>
+		<javac destdir="${bin.target}" debug="on" deprecation="on" optimize="off" classpathref="classpath">
+			<src path="${src.includes}" />
+			<include name="**/*.java" />
+		</javac>
+	</target>
+	
+	<target name="buildLibPlugin">
+		<delete file="${jar.plugin}"/>
+		<jar jarfile="${jar.plugin}">
+			<fileset dir="${bin.target}" includes="**"/>
+		</jar>
+	</target>
+	
+	<target name="all" depends="compile, buildLibPlugin"/>
+	
+</project>

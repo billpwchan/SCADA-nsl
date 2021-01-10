@@ -1,0 +1,30 @@
+<!-- DtdVersion='2.3' -->
+
+<!ELEMENT Instance (InstanceDescription+)>
+<!ATTLIST Instance
+ classId CDATA #REQUIRED
+>
+<!ELEMENT InstanceDescription (Context+)>
+<!ATTLIST InstanceDescription
+ alias CDATA #REQUIRED
+ calculation (OPTIMISED | STANDARD) #IMPLIED
+>
+<!ELEMENT Context (AttributDescription*)>
+<!ATTLIST Context
+ contextId CDATA #REQUIRED
+>
+<!ELEMENT AttributDescription (ScalarValue|VectorValue|StructVectorValue)>
+<!ATTLIST AttributDescription
+ attrId CDATA #REQUIRED
+ position CDATA #IMPLIED
+ activation (ENABLE|DISABLE) #IMPLIED
+ formula CDATA #IMPLIED
+>
+<!ELEMENT ScalarValue EMPTY>
+<!ATTLIST ScalarValue
+ value CDATA #REQUIRED
+>
+<!ELEMENT VectorValue (ScalarValue+)>
+<!ELEMENT StructVectorValue (StructFieldValue+)>
+<!ELEMENT StructFieldValue (ScalarValue+)>
+

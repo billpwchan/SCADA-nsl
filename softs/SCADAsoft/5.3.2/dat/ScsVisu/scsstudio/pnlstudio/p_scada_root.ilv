@@ -1,0 +1,34 @@
+// Ilv Version: 5.0
+// File generated: Tue Jan 25 16:37:20 2005
+// Creator class: IlvGadgetManagerOutput
+FileName "p_scada_root"
+PathName "D:\\SCADASOFT\\SCSHOME\\dat\\ScsVisu\\scsstudio\\pnlstudio\\p_scada_root.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 4
+0 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFileSelectorField 8 123 142 22 F6 2 1 128 0 "File Selector Field" } 32 "VarModel"
+6144 "ArgFormat" "ArgId"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 ScsSheet 8 8 142 100 F34904 2 Y Y 0 0 0 0 1 1 40 25 1 1 1 1 0 0 4 4 V0 2 1 0 0 66 IlvLabelMatrixItem "" 
+1 N 0 0 1 1 0  } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 ScsTextField 8 159 142 20 F6 2 1 -1 0 "Overwriting Text Field" } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 ScsText 8 192 142 58 F129 2 Y N 1 1 1 1 0 3
+"Text"
+"multi lines with"
+"auto-wrapping"
+0 0 2 13 } 0
+0
+Size 156 260
+Layers 2
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

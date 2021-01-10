@@ -1,0 +1,197 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:23 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "IlvTInspData"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\trdstudio\\IlvTInspData.ilv"
+Palettes 4
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+2 F "gray" "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+"default" 3 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 33
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 160 125 260 20 F806 2 1 -1 0 "" 0 4 0 } 544 "YSourceAddress"
+1
+1 "__ilvCallback" "YSourceAddress"
+2048 "InvertMarkers"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 160 25 260 20 F806 2 1 -1 0 "" 0 4 0 } 544 "XHistoryTable"
+1
+1 "__ilvCallback" "XHistoryTable"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 160 49 260 20 F806 2 1 -1 0 "" 0 4 0 } 544 "XSourceAddress"
+1
+1 "__ilvCallback" "XSourceAddress"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 160 100 260 20 F806 2 1 -1 0 "" 0 4 0 } 544 "YHistoryTable"
+1
+1 "__ilvCallback" "YHistoryTable"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 15 101 139 17 F268435468 0 { IlvMessageItem 262169 4 16 4 "&YHistory_table"  }   } 0
+0
+1 { 5 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttMarkers" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 13 203 130 22 F807 2 1 -1 0 "&MarkerSquare" 10
+{ IlvGadgetItem 1 2 4 "&MarkerSquare"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerFilledSquare"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerCircle"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerFilledCircle"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerTriangle"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerFilledTriangle"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerDiamond"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerFilledDiamond"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerPlus"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerCross"  }  10 0 } 544 "Markers"
+1
+1 "__ilvCallback" "Markers"
+6144 "MarkerSize" "InvertMarkers"
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 13 230 79 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Size"  }   } 0
+0
+1 { 7 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttMarkerSize" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 98 230 45 22 F6 2 16 3 0 "5" . , 0 0 0 999 } 544 "MarkerSize"
+1
+1 "__ilvFocusOut" "Markers"
+6144 "CleanQ" "Markers"
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 5 81 425 73 F268435468 0 { IlvMessageItem 262169 4 16 4 "&YData_source"  }   } 0
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 15 126 139 17 F268435468 0 { IlvMessageItem 262169 4 16 4 "&YPoint_address"  }   } 0
+0
+1 { 10 0 IlvGraphicSet 0 } 0
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 15 27 139 16 F268435468 0 { IlvMessageItem 262169 4 16 4 "&XHistory_table"  }   } 32 "Text2"
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 15 51 139 16 F268435468 0 { IlvMessageItem 262169 4 16 4 "&XPoint_address"  }   } 32 "Text1"
+0
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvFrame 5 5 425 73 F268435468 0 { IlvMessageItem 262169 4 16 4 "&XData_source"  }   } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvFrame 5 156 425 169 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Analysis_facilities"  }   } 0
+0
+1 { 15 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttShowLimits" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 15 268 136 16 F1 2 1 2 0 16 0 Y "&Show_limits_" } 544 "ShowLimits"
+1
+1 "__ilvCallback" "Limits"
+6144 "LowValue" "DownQ"
+1 { 16 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttLimit" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 235 266 50 22 F6 2 16 -1 0 "0" . , 4 16 -1.79769e+308 1.79769e+308 } 544 "LowValue"
+1
+1 "__ilvFocusOut" "Limits"
+6144 "HighValue" "ShowLimits"
+1 { 17 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttLimit" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 370 266 50 22 F6 2 16 -1 0 "0" . , 4 16 -1.79769e+308 1.79769e+308 } 544 "HighValue"
+1
+1 "__ilvFocusOut" "Limits"
+6144 "AxisMark" "LowValue"
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 160 266 70 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Low"  }   } 0
+0
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 295 266 70 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&High"  }   } 0
+0
+1 { 20 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttInvertPalette" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 295 294 125 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Invert_palette"  }   } 544 "InvertPalette"
+1
+1 "__ilvCallback" "InvertPalette"
+6144 "XHistoryTable" "AxisMark"
+1 { 21 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttAxisMark" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 160 296 110 16 F1073741825 2 1 2 0 16 0 Y "&Axis_mark" } 544 "AxisMark"
+1
+1 "__ilvCallback" "Limits"
+6144 "InvertPalette" "HighValue"
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 150 265 2 54 F268435468 0 { IlvMessageItem 262168 4 16 4  }   } 0
+0
+1 { 23 3 IlvReliefLine 10 259 420 259 1 } 0
+0
+1 { 24 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 160 201 60 22 F13 2 { IlvMessageItem 262145 4 16 4 "&addQ"  }   } 544 "AddQ"
+1
+1 "__ilvCallback" "AddQ"
+6144 "RemoveQ" "CleanQ"
+1 { 25 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 150 170 2 82 F268435468 0 { IlvMessageItem 262168 4 16 4  }   } 0
+0
+1 { 26 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 160 230 60 22 F13 2 { IlvMessageItem 262145 4 16 4 "&removeQ"  }   } 544 "RemoveQ"
+1
+1 "__ilvCallback" "RemoveQ"
+6144 "QList" "AddQ"
+1 { 27 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 160 174 60 22 F13 2 { IlvMessageItem 262145 4 16 4 "&cleanQ"  }   } 544 "CleanQ"
+1
+1 "__ilvCallback" "CleanQ"
+6144 "AddQ" "MarkerSize"
+1 { 28 P 2
+[ IlvToolTip __ilvToolTip 2 "&upQ" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvArrowButton 393 174 27 22 F15 2 { IlvMessageItem 262145 4 16 4 ""  }   200 4 0 } 544 "UpQ"
+1
+1 "__ilvCallback" "UpQ"
+6144 "DownQ" "QList"
+1 { 29 P 2
+[ IlvToolTip __ilvToolTip 2 "&downQ" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvArrowButton 393 230 27 22 F15 2 { IlvMessageItem 262145 4 16 4 ""  }   200 8 0 } 544 "DownQ"
+1
+1 "__ilvCallback" "DownQ"
+6144 "ShowLimits" "UpQ"
+1 { 30 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 227 174 160 72 F131 2 Y N 0 0 0 0 0 4 0 0 V0 2 0 } 416 "DummyList"
+0
+1 { 31 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 227 174 160 78 F131 2 Y N 0 0 0 0 0 4 0 0 V0 2 0 } 544 "QList"
+1
+1 "__ilvCallback" "QList"
+6144 "UpQ" "RemoveQ"
+1 { 32 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttInvertPalette2" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 13 177 130 16 F1 2 1 2 0 16 0 Y "&Invert_palette" } 544 "InvertMarkers"
+1
+1 "__ilvCallback" "InvertMarkers"
+6144 "Markers" "YSourceAddress"
+Size 435 333
+EOF

@@ -1,0 +1,45 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="SC___Symbol_Normal_Blink"><g id="_C1166B_SYMBOLS_AFC_C1166B_AFC_SC___1_NORMAL_SVG" transform="translate(-99.0 -99.0)scale(1.0 1.0)"><rect x="50.0" fill="red" width="100.0" height="90.0" y="55.0" opacity="0"/><g id="AFC/C1166B_AFC_SC___1_Normal" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-35,29 -28,29 -28,35 -35,35 -35,29 " stroke="#218A21"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="34,29 27,29 27,35 34,35 34,29 " stroke="#218A21"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-41,-45 -41,16 40,16 40,-45 -41,-45 " stroke="#218A21"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-35,-39 -35,10 34,10 34,-39 -35,-39 " stroke="#218A21"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-41,19 40,19 49,38 49,44 -50,44 -50,38 -41,19 " stroke="#218A21"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-22,29 -22,35 -16,35 -16,29 -22,29 " stroke="#218A21"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-10,29 -10,35 -4,35 -4,29 -10,29 " stroke="#218A21"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="3,29 3,35 9,35 9,29 3,29 " stroke="#218A21"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="15,29 15,35 21,35 21,29 15,29 " stroke="#218A21"/>
+
+  
+  <line fill="none" x1="-28px" x2="-22px" y1="32px" y2="32px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-16px" x2="-10px" y1="32px" y2="32px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-4px" x2="3px" y1="32px" y2="32px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="9px" x2="15px" y1="32px" y2="32px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="21px" x2="27px" y1="32px" y2="32px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

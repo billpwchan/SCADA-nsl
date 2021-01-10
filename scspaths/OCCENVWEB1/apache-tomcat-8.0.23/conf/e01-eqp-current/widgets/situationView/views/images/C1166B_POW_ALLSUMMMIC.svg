@@ -1,0 +1,709 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="2404" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 4320 2404" width="4320">
+
+  
+  <g transform="translate(-240, -133)"><g class="AnLayer" id="Background">
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="271px" x2="271px" y1="2491px" y2="262px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3653px" x2="3653px" y1="2493px" y2="265px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1095px" x2="1095px" y1="2491px" y2="2347px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1095px" x2="1095px" y1="971px" y2="262px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1910px" x2="1910px" y1="971px" y2="262px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2755px" x2="2755px" y1="971px" y2="262px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1095px" x2="1095px" y1="2198px" y2="1906px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1910px" x2="1910px" y1="2198px" y2="1906px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2755px" x2="2755px" y1="2198px" y2="1906px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="271px" x2="4532px" y1="262px" y2="262px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="271px" x2="4532px" y1="378px" y2="378px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="4532px" x2="4532px" y1="262px" y2="2491px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="4532px" x2="271px" y1="2491px" y2="2491px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1096,1457 3653,1457 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="271,970 3653,970 3653,1117 271,1117 271,970 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="271,1753 3653,1753 3653,1900 271,1900 271,1753 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="272,527 2755,527 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="272,822 2755,822 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2753,673 3654,674 " stroke="#000000" stroke-width="2px" />
+
+    
+    <g>
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1095px" x2="1095px" y1="1756px" y2="1120px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1910px" x2="1910px" y1="1756px" y2="1120px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2755px" x2="2755px" y1="1756px" y2="1120px" />
+
+    
+    </g>
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3268px" x2="3268px" y1="378px" y2="262px" />
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="271,1900 3653,1900 3653,2048 271,2048 271,1900 " stroke="#000000" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="271,2048 3653,2048 3653,2195 271,2195 271,2048 " stroke="#000000" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="271,2195 3653,2195 3653,2343 271,2343 271,2195 " stroke="#000000" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="271,2343 3653,2343 3653,2491 271,2491 271,2343 " stroke="#000000" stroke-width="2px" />
+
+    
+    </g>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement">
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_15_1">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3918,857 3868,907 3918,956 3967,906 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_16_2">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3918,708 3868,758 3918,807 3967,757 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_5_3">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3131,1242 3081,1292 3131,1341 3180,1291 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_10_4">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3131,1553 3081,1603 3131,1652 3180,1602 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_12_5">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3131,998 3081,1048 3131,1097 3180,1047 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_13_6">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3131,853 3081,903 3131,952 3180,902 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_14_7">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3131,706 3081,756 3131,805 3180,755 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_15_8">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3131,556 3081,606 3131,655 3180,605 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_16_9">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3131,407 3081,457 3131,506 3180,456 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_9_10">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3245,2077 3195,2127 3245,2176 3294,2126 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_10_11">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3569,1553 3519,1603 3569,1652 3618,1602 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_11_12">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3569,1146 3519,1196 3569,1245 3618,1195 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_13_13">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3569,853 3519,903 3569,952 3618,902 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_14_14">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3569,706 3519,756 3569,805 3618,755 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_15_15">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3569,556 3519,606 3569,655 3618,605 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_16_16">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3569,407 3519,457 3569,506 3618,456 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_5_17">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="3569,1337 3519,1387 3569,1436 3618,1386 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_5_18">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2253,1239 2203,1289 2253,1338 2302,1288 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_9_19">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2253,2073 2203,2123 2253,2172 2302,2122 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_10_20">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2253,1558 2203,1608 2253,1657 2302,1607 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_13_21">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2253,850 2203,900 2253,949 2302,899 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_14_22">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2253,702 2203,752 2253,801 2302,751 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_15_23">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2253,553 2203,603 2253,652 2302,602 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_16_24">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2253,403 2203,453 2253,502 2302,452 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_5_25">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2667,1239 2617,1289 2667,1338 2716,1288 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_9_26">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2667,2073 2617,2123 2667,2172 2716,2122 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_10_27">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2667,1558 2617,1608 2667,1657 2716,1607 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_13_28">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2667,850 2617,900 2667,949 2716,899 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_14_29">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="2667,702 2617,752 2667,801 2716,751 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_6_30">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="570,1558 520,1608 570,1657 619,1607 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_9_31">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="570,2077 520,2127 570,2176 619,2126 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_11_32">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="570,1219 520,1269 570,1318 619,1268 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_13_33">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="570,854 520,904 570,953 619,903 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_14_34">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="570,707 520,757 570,806 619,756 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_15_35">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="570,557 520,607 570,656 619,606 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_16_36">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="570,408 520,458 570,507 619,457 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_6_37">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="1010,1558 960,1608 1010,1657 1059,1607 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_9_38">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="1010,2077 960,2127 1010,2176 1059,2126 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_11_39">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="1010,1219 960,1269 1010,1318 1059,1268 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_13_40">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="1010,854 960,904 1010,953 1059,903 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_14_41">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="1010,707 960,757 1010,806 1059,756 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_1_42">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="1410,2373 1360,2423 1410,2472 1459,2422 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_3_43">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="1410,2076 1360,2126 1410,2175 1459,2125 " />
+
+    
+    </g>
+
+    
+    <g class="ECT_static power VCB Symbol" id="TECS_static power VCB_20_44">
+
+      
+      <polygon class="AnPolygon" fill="#0000FF" fill-rule="evenodd" points="1823,2076 1773,2126 1823,2175 1872,2125 " />
+
+    
+    </g>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,519.900024,286.200012)" x="0px" y="12px">UP TRACK</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(7.200000,0.000000,0.000000,7.200000,1804.199951,145.800003)" x="0px" y="12px">NSL 25KV VCB SUMMARY</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,1347.540039,286.200012)" x="0px" y="12px">SECTION</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,2099.939941,286.200012)" x="0px" y="12px">DOWN TRACK</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,2782.840088,286.200012)" x="0px" y="12px">BUS-SECTION</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,3317.639893,286.200012)" x="0px" y="12px">IN-FEED</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,3763.500000,286.200012)" x="0px" y="12px">INTER-CONNECTORS</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,1315.140015,421.200012)" x="0px" y="12px">ADM - SOV</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,1315.140015,639.900024)" x="0px" y="12px">SOV - TAW</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,1318.199951,856.799988)" x="0px" y="12px">TAW - TPK</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,1356.000000,1013.400024)" x="0px" y="12px">TPK TSC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,1228.739990,1573.199951)" x="0px" y="12px">FAN - LOW/LMC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,1340.699951,1797.300049)" x="0px" y="12px">POWER FACTOR CORRECTION EQUIPMENT</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,1329.000000,1252.800049)" x="0px" y="12px">TPK - FAN</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,3691.110107,724.443970)" x="0px" y="12px">HT/A</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,3700.560059,871.221985)" x="0px" y="12px">TWE</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,4002.669922,724.443970)" x="0px" y="12px">To HMF311 (EWL)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,4002.669922,871.221985)" x="0px" y="12px">To TWF310 (EWL)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2852.780029,423.889008)" x="0px" y="12px">SV/BS1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2852.780029,570.556030)" x="0px" y="12px">SV/BS2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2839.219971,720.888977)" x="0px" y="12px">TW/BS1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2833.780029,864.000000)" x="0px" y="12px">TW/BS2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2852.780029,1260.000000)" x="0px" y="12px">FG/BS1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2851.000000,1566.000000)" x="0px" y="12px">FG/BS2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2848.000000,1017.000000)" x="0px" y="12px">TK/BS2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,3319.439941,423.889008)" x="0px" y="12px">SV/F1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,3319.439941,570.556030)" x="0px" y="12px">SV/F2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,3308.560059,720.888977)" x="0px" y="12px">TW/F2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,3311.219971,864.000000)" x="0px" y="12px">TW/F1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,3319.439941,1566.000000)" x="0px" y="12px">FG/F3</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,3037.330078,2090.669922)" x="0px" y="12px">PF/4</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,3319.439941,1160.109985)" x="0px" y="12px">FG/F1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,3319.439941,1354.560059)" x="0px" y="12px">FG/F2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2006.329956,420.333008)" x="0px" y="12px">SV/16</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2039.560059,567.000000)" x="0px" y="12px">SV/2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2034.780029,717.333008)" x="0px" y="12px">HT/2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2020.560059,860.443970)" x="0px" y="12px">TW/4</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2039.560059,1256.439941)" x="0px" y="12px">FG/6</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2039.560059,1571.439941)" x="0px" y="12px">FG/8</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2049.110107,2087.110107)" x="0px" y="12px">PF/3</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2432.780029,717.333008)" x="0px" y="12px">TW/2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2447.000000,860.443970)" x="0px" y="12px">TK/4</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2447.000000,1256.439941)" x="0px" y="12px">TK/6</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2447.000000,1571.439941)" x="0px" y="12px">LC/8</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,2461.330078,2087.110107)" x="0px" y="12px">PF/7</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,318.889008,424.778015)" x="0px" y="12px">SV/15</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,353.889008,571.443970)" x="0px" y="12px">SV/1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,352.666992,721.778015)" x="0px" y="12px">HT/1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,340.221985,864.888977)" x="0px" y="12px">TW/3</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,365.221985,2091.560059)" x="0px" y="12px">PF/1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,352.110992,1233.000000)" x="0px" y="12px">FG/5</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,353.889008,1570.560059)" x="0px" y="12px">FG/7</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,622.500000,2386.800049)" x="0px" y="12px">HTD</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,788.443970,721.778015)" x="0px" y="12px">TW/1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,797.333008,864.888977)" x="0px" y="12px">TK/3</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,811.556030,2091.560059)" x="0px" y="12px">PF/6</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,797.333008,1233.000000)" x="0px" y="12px">TK/5</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,797.333008,1570.560059)" x="0px" y="12px">LC/7</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,1204.000000,2089.780029)" x="0px" y="12px">PF/2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,1185.000000,2388.560059)" x="0px" y="12px">TWD</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,1620.670044,2089.780029)" x="0px" y="12px">PF/5</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,506.040009,1943.099976)" x="0px" y="12px">SOV - TAW</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,1318.199951,1943.099976)" x="0px" y="12px">TAW - TPK</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,2167.800049,1943.099976)" x="0px" y="12px">TPK - FAN</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,2944.139893,1943.099976)" x="0px" y="12px">FAN - LOW/LMC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.400000,0.000000,0.000000,5.400000,1891.140015,2241.899902)" x="0px" y="12px">DEPOT</text>
+
+  
+  </g>
+
+</g></svg>

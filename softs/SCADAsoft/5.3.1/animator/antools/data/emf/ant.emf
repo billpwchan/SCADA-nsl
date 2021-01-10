@@ -1,0 +1,32 @@
+## -------------------------------------------------------------- -*- MSG -*-
+##     SYSECA                                 Animator
+##                                            [TOOLS]
+## --------------------------------------------------------------------------
+## The information contained in this document is proprietary to Animator's
+##   group of SYSECA and shall not be disclosed by the recipent to third
+##             persons without the written consent of SYSECA
+## --------------------------------------------------------------------------
+##         file: ant.emf
+##  description: ANIMATOR error message file 
+##     creation: 1997/05/12
+##       author: olivier
+## --------------------------------------------------------------------------
+## $Id: tools.emf,v 1.2 1997/06/13 08:09:01 olivier Exp $
+##
+## $Log: tools.emf,v $
+## --------------------------------------------------------------------------
+COMPONENT=antools,Ant
+BadMessageFileLocation(const char*) {
+  english="Error message file '%s' cannot be located"
+  french="Le fichier de messages d'erreur '%s' ne peut être localise"
+}
+IncoherentFormat(const char*) {
+  english="Incoherent output format : '%s'"
+  french="Format de sortie incoherent : '%s'"
+  spanish="Formato de salida incoherente: '%s'"
+}
+UncheckedFormat(const char*) {
+  english="Unchecked output format : '%s'"
+  french="Format de sortie non vérifié : '%s'"
+  spanish="Formato de salida sin verificar : '%s'"
+}

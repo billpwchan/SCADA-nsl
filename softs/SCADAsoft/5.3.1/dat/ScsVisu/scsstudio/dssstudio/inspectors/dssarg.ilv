@@ -1,0 +1,131 @@
+// Ilv Version: 4.0
+// File generated: Tue Jan 16 17:29:14 2001
+// Creator class: IlvGadgetManagerOutput
+FileName "dssarg"
+PathName "Y:\\scadasoft\\dat\\ScsVisu\\scsstudio\\dssstudio\\inspectors\\dssarg.ilv"
+Palettes 2
+1 "gray" "black" "button" "StockedDefaultGui" 0 solid solid 0 0 0
+"default" 0 "gray" "black" "normal" "StockedDefaultGui" 0 solid solid 0 0 0
+IlvObjects 17
+0 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFileSelectorField 150 96 136 22 F6 2 1 128 0 "" } 32 "ArgModel"
+6144 "ArgFormat" "ArgId"
+0 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 150 168 136 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&argValue"  }   } 32 "ArgText"
+0
+0 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 150 72 136 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&argModel"  }   } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 4 -2 136 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&incomingArgs"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 4 24 136 224 F131 2 A A S 0 0 0 0 0 4 0 0 V0 2 0 } 544 "ArgList"
+1
+1 "__ilvCallback" "_ArgList"
+6144 "ArgId" "ArgValue"
+1 { 5 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&insert" 4 4 ]
+1 IlvButton 4 253 19 23 F29 1 { IlvMessageItem 262147 4 16 4 "" 1 0 "ivstudio/icons/insert.png"  }   } 544 "InsertArg"
+1
+1 "__ilvCallback" "_InsertArg"
+0
+1 { 6 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&add" 4 4 ]
+1 IlvButton 28 253 19 23 F29 1 { IlvMessageItem 262147 4 16 4 "" 1 0 "ivstudio/icons/add.png"  }   } 544 "AddArg"
+1
+1 "__ilvCallback" "_AddArg"
+0
+1 { 7 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&remove" 4 4 ]
+1 IlvButton 52 253 19 23 F29 1 { IlvMessageItem 262147 4 16 4 "" 1 0 "ivstudio/icons/removitm.png"  }   } 544 "RemoveArg"
+1
+1 "__ilvCallback" "_RemoveArg"
+0
+1 { 8 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&clean" 4 4 ]
+1 IlvButton 76 253 19 23 F29 1 { IlvMessageItem 262147 4 16 4 "" 1 0 "ivstudio/icons/clean.png"  }   } 544 "CleanArg"
+1
+1 "__ilvCallback" "_CleanArg"
+0
+1 { 9 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&MoveUp" 4 4 ]
+0 IlvButton 100 253 17 23 F31 0 { IlvMessageItem 262147 4 16 4 "" 1 0 "ivstudio/icons/up.png"  }   200 } 544 "UpArg"
+1
+1 "__ilvCallback" "_UpArg"
+0
+1 { 10 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&MoveDown" 4 4 ]
+0 IlvButton 122 253 17 23 F31 1 { IlvMessageItem 262147 4 16 4 "" 1 0 "ivstudio/icons/down.png"  }   200 } 544 "DownArg"
+1
+1 "__ilvCallback" "_DownArg"
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 150 24 136 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&argId"  }   } 0
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 150 48 136 22 F6 2 1 32 0 "" } 32 "ArgId"
+6144 "ArgModel" "ArgList"
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 150 144 136 22 F6 2 1 128 0 "" } 32 "ArgFormat"
+6144 "ArgValue" "ArgModel"
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 150 120 136 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&argFormat"  }   } 0
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 150 192 136 22 F6 2 1 128 0 "" } 416 "ArgValue"
+6144 "ArgList" "ArgFormat"
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 150 -2 136 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&argData"  }   } 0
+0
+Size 293 281
+Background "gray"
+GeometryHandlers
+2 100 0 144 0 144 0
+ 100 0 149 144 149 144
+8 3 0 0 4  136 0 136 4  0 0 4 0
+ 3 0 0 4  0 0 19 5  121 0 121 0
+ 3 0 0 28  0 0 19 6  97 0 97 0
+ 3 0 0 52  0 0 19 7  73 0 73 0
+ 3 0 0 76  0 0 19 8  49 0 49 0
+ 3 100 0 100  0 0 17 9  0 0 27 0
+ 3 122 0 122  0 0 17 10  0 0 5 0
+ 3 0 0 4  136 0 136 3  0 0 4 0
+9 3 0 0 6  136 0 136 16  0 0 7 1
+ 3 0 0 6  136 0 136 11  0 0 7 1
+ 3 0 0 6  136 0 136 12  0 0 7 1
+ 3 0 0 6  136 0 136 14  0 0 7 1
+ 3 0 0 6  136 0 136 13  0 0 7 1
+ 3 0 0 6  136 0 136 1  0 0 7 1
+ 3 0 0 6  136 0 136 15  0 0 7 1
+ 3 0 0 6  136 0 136 2  0 0 7 1
+ 3 0 0 6  136 0 136 0  0 0 7 1
+1 100 0 281 0 281 0
+7 3 253 0 253  0 0 23 5  0 0 5 0
+ 3 253 0 253  0 0 23 6  0 0 5 0
+ 3 253 0 253  0 0 23 7  0 0 5 0
+ 3 253 0 253  0 0 23 8  0 0 5 0
+ 3 253 0 253  0 0 23 9  0 0 5 0
+ 3 253 0 253  0 0 23 10  0 0 5 0
+ 3 0 0 24  224 0 224 4  0 0 33 0
+Layers 2
+"" 4 0 
+"" 4 0 
+EOF

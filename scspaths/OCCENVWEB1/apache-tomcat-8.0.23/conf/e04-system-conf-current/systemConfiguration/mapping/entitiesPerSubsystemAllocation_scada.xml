@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with MetaConfigurator -->
+<p:configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.thalesgroup.com/hv/data-v1/system/configuration" xsi:schemaLocation="http://www.thalesgroup.com/hv/data-v1/system/configuration hypervisor_system_configuration.xsd">
+	<p:mapping runtimeMode="OPERATIONAL" xsi:type="p:IdToIdMapType">
+		<p:entry key="HVSCADA2" role="DEFAULT" xsi:type="p:IdToIdEntryType">
+			<p:value>HVSCADA2</p:value>
+		</p:entry>
+		<p:entry key="SCADA1" role="DEFAULT" xsi:type="p:IdToIdEntryType">
+			<p:value>SCADA1</p:value>
+		</p:entry>
+	</p:mapping>
+</p:configuration>

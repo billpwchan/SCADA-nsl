@@ -1,0 +1,59 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:23 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "BBoxPath"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\BBoxPath.ilv"
+Palettes 2
+"defaultGadget" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+0 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 9
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 130 160 100 23 F13 2 { IlvMessageItem 262147 4 2 4 "Set" 1 0 "icons/scs_set.png"  }   } 544 "DPAdd"
+1
+1 "__ilvCallback" "DPAddCB"
+6144 "DPClose" "Button_1"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 322 209 73 23 F268435469 2 { IlvMessageItem 262145 4 16 4 "Close"  }   } 544 "DPClose"
+1
+1 "__ilvCallback" "DPCloseCB"
+6144 "DPPath" "DPAdd"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 22 160 100 23 F13 2 { IlvMessageItem 262147 4 2 4 "Remove" 1 0 "icons/scs_remove.png"  }   } 544 "DPRemove"
+1
+1 "__ilvCallback" "DPRemoveCB"
+6144 "DPClose" "Button_1"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 4 6 391 196 F268435468 0 { IlvMessageItem 262169 4 16 4 "Panel info"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 13 24 373 82 F268435468 0 { IlvMessageItem 262169 4 16 4 "Environment path"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvTextField 22 46 352 21 F6 2 1 -1 0 "Path" } 544 "DPPath"
+1
+1 "__ilvCallback" "DPPathCB"
+6144 "Button_1" "DPClose"
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 22 75 100 23 F13 2 { IlvMessageItem 262147 4 2 4 "Browse..." 1 0 "icons/browse_db.png"  }   } 544 "DPBrowse"
+1
+1 "__ilvCallback" "DPBrowseCB"
+6144 "DPOK" "DPPath"
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvScrolledComboBox 22 129 352 23 F806 2 1 -1 0 "DPEnv" 0 4 0 } 544 "DPEnv"
+1
+1 "__ilvCallback" "DPEnvCB"
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 13 107 373 85 F268435468 0 { IlvMessageItem 262169 4 16 4 "Environments"  }   } 0
+0
+Size 399 238
+EOF

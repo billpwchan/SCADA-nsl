@@ -1,0 +1,74 @@
+## -------------------------------------------------------------- -*- MSG -*-
+##     SYSECA                                 Animator
+##                                            [TOOLS]
+## --------------------------------------------------------------------------
+## The information contained in this document is proprietary to Animator's
+##   group of SYSECA and shall not be disclosed by the recipent to third
+##             persons without the written consent of SYSECA
+## --------------------------------------------------------------------------
+##         file: io.emf
+##  description: ANIMATOR error message file 
+##     creation: 1997/09/01
+##       author: pierre
+## --------------------------------------------------------------------------
+## $Id:
+##
+## $Log:
+## --------------------------------------------------------------------------
+COMPONENT=IO,AnIO
+
+Parse(const char*, int, const char*, const char*)
+{
+  english="%s line %d: %s on '%s'."
+  french="%s ligne %d: %s on '%s'."
+}
+FileNotFound(const char*)
+{
+  english="File %s does not exist."
+  french="Le fichier %s n'existe pas."
+}
+BadClassFile(const char*)
+{
+  english="Cannot open %s description file."
+  french="Impossible d'ouvrir le fichier de '%s'."
+}
+BadImage(const char*)
+{
+  english="The image '%s' does not exist."
+  french="L'image '%s' n'existe pas."
+}
+BadInstance(const char*)
+{
+  english="The instance of class '%s' canno't be created."
+  french="L'instance de classe '%s' ne peut être créee."
+}
+BadLayer(const char*)
+{
+  english="The layer '%s' does not exist."
+  french="Le calque '%s' n'existe pas."
+}
+BadLevel(const char*)
+{
+  english="The level '%s' does not exist."
+  french="Le niveau d'enrichissement '%s' n'existe pas."
+}
+BadGraphic(const char*)
+{
+  english="Error on writing a %s object."
+  french="Erreur d'ecriture sur un %s."
+}
+OpenFile(const char*)
+{
+  english="The file %s canno't be opened."
+  french="Le fichier %s ne peut etre ouvert."
+}
+IncompatibleVersion(int)
+{
+  english="Incompatible version : %d."
+  french="Version incompatible : %d."
+}
+ImageNested(const char*)
+{
+  english="Sub-image includes nested too deeply. Sub-image : %s (possibly recursive includes)."
+  french="Niveaux d'inclusion de sous-images trop importants. Sous-image : %s (possibilités de récursivité)."
+}

@@ -1,0 +1,30 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="CAB__Symbol_Alarm_Blink"><g id="_C1166B_SYMBOLS_LV__C1166B_LV__CAB__4_ALARM_SVG" transform="translate(-98.80788 -99.5213)scale(1.0 1.0)"><rect x="50.0" fill="red" width="100.0" height="62.0" y="69.0" opacity="0"/><g id="LV_/C1166B_LV__CAB__4_Alarm" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-29,0 -49,23 -5,23 " stroke="#FF0000"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="27,0 48,23 4,23 " stroke="#FF0000"/>
+
+  
+  <line fill="none" x1="-18px" x2="-29px" y1="0px" y2="-10px" class="AnLine" stroke="#FF0000" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-24px" x2="-34px" y1="5px" y2="-5px" class="AnLine" stroke="#FF0000" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="22px" x2="32px" y1="5px" y2="-5px" class="AnLine" stroke="#FF0000" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="17px" x2="27px" y1="0px" y2="-10px" class="AnLine" stroke="#FF0000" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-5px" x2="-5px" y1="16px" y2="31px" class="AnLine" stroke="#FF0000" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="4px" x2="4px" y1="16px" y2="31px" class="AnLine" stroke="#FF0000" stroke-width="2px"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-24,-5 0,-30 22,-5 " stroke="#FF0000"/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

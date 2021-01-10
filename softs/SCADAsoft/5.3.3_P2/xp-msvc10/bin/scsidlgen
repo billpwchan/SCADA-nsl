@@ -1,0 +1,168 @@
+#!/bin/sh
+
+print_usage () {
+	echo "Usage:"
+	echo "scsidlgen [options] idl_file \n"
+	echo "Options:"
+	echo "  -i DIR:      Write generated IDL files to directory DIR."
+	echo "  -j DIR:      Write generated Input Manager C++ files to directory DIR." 
+	echo "  -k DIR:      Write generated Proxy C++ files to directory DIR."
+	echo "  -l DIR:      Write generated Reply C++ files to directory DIR."
+	echo "  -a           Only generate Input Manager IDL file."
+	echo "  -b           Only generate Input Manager C++ (header + code) files."
+	echo "  -c           Only generate Proxy C++ (header + code) files."
+	echo "  -d           Only generate Reply C++ (header + code) files."
+	echo "  -e           Only generate Reply IDL file."
+	echo "  -IDIR:        Put DIR in the include file search path."
+	echo ""
+	echo "  By default, all IDL and C++ files are generated with the following paths:"
+	echo "   - IDL files are generated in the current path (./)."
+	echo "   - Input Manager C++ files are generated in \"../libimg\""
+	echo "   - Proxy C++ files are generated in \"../lib\""
+	echo "   - Reply C++ files are generated in \"../lib\""
+}
+
+if [ $# -lt 1 ]; then
+	print_usage
+	exit 1
+fi
+	
+######## Parse command options #######
+iFlag=.
+jFlag=../libimg/
+kFlag=../lib/
+lFlag=../lib/
+aFlag=0
+bFlag=0
+cFlag=0
+dFlag=0
+eFlag=0
+IFlag=0
+allFlag=1
+
+while getopts i:j:k:l:I:abcde name 
+do
+    case $name in
+	i)
+	    iFlag=$OPTARG;;
+
+	j)
+	    jFlag=$OPTARG;;
+
+	k)
+	    kFlag=$OPTARG;;
+
+	l)
+	    lFlag=$OPTARG;;
+
+	a)
+	    allFlag=0
+	    aFlag=1;;
+
+	b)
+	    allFlag=0
+	    bFlag=1;;
+
+	c)
+	    allFlag=0
+	    cFlag=1;;
+
+	d)
+	    allFlag=0
+	    dFlag=1;;
+
+	e)
+	    allFlag=0
+	    eFlag=1;;
+
+	I)
+	    IFlags="$IFlags -I$OPTARG";;
+
+	?)
+	print_usage
+	exit 2;;
+    esac
+done
+
+shift $(($OPTIND -1))
+
+if [ $# -lt 1 ]; then
+    echo "No idl file specified."
+    exit 2
+fi
+
+File=$1
+BaseName=`basename $File .idl`
+
+# Create directories if they don't exist
+if [ ! -d $iFlag ]; then
+    mkdir -p $iFlag
+fi
+
+if [ ! -d $jFlag ]; then
+    mkdir -p $jFlag
+fi
+
+if [ ! -d $kFlag ]; then
+    mkdir -p $kFlag
+fi
+
+if [ ! -d $lFlag ]; then
+    mkdir -p $lFlag
+fi
+
+
+###### launch generation ######
+if [ $allFlag != 0 ]; then
+    
+    echo "Generating Input Manager IDL:           "$iFlag/inputmgr_"$BaseName".idl
+    echo "Generating Input Manager C++ header:    "$jFlag/img"$BaseName"_i.hh
+    echo "Generating Input Manager C++ code:      "$jFlag/img"$BaseName"_i.cpp
+    echo "Generating C++ Proxy header             "$kFlag/"$BaseName"proxy.hh
+    echo "Generating C++ Proxy code               "$kFlag/"$BaseName"proxy.cpp
+    echo "Generating C++ reply header             "$lFlag/"$BaseName"reply_i.hh
+    echo "Generating C++ reply code               "$lFlag/"$BaseName"reply_i.cpp
+    echo "Generating reply IDL                    "$iFlag/"$BaseName"reply.idl
+
+    $TCLHOME/bin/tclsh $SCSHOME/dat/gentcl/proxygen.tcl "-i$iFlag" "-j$jFlag" "-k$kFlag" "-l$lFlag" $IFlags $File
+
+else
+    # Generate Input Manager IDL file
+    if [ $aFlag != 0 ]; then
+	echo "Generating Input Manager IDL:           "$iFlag/inputmgr_"$BaseName".idl
+	
+	$TCLHOME/bin/tclsh $SCSHOME/dat/gentcl/proxygen.tcl -a "-i$iFlag" $IFlags $File
+    fi
+
+    # Generate Input Manager C++ header and code
+    if [ $bFlag != 0 ]; then
+	echo "Generating Input Manager C++ header:    "$jFlag/img"$BaseName"_i.hh
+	echo "Generating Input Manager C++ code:      "$jFlag/img"$BaseName"_i.cpp
+
+	$TCLHOME/bin/tclsh $SCSHOME/dat/gentcl/proxygen.tcl -b "-j$jFlag" $IFlags $File
+    fi
+
+    # Generate Proxy C++ header and code
+    if [ $cFlag != 0 ]; then
+	echo "Generating C++ Proxy header             "$kFlag/"$BaseName"proxy.hh
+	echo "Generating C++ Proxy code               "$kFlag/"$BaseName"proxy.cpp
+
+	$TCLHOME/bin/tclsh $SCSHOME/dat/gentcl/proxygen.tcl -c "-k$kFlag" $IFlags $File
+    fi
+
+    # Generate Reply C++ header and code
+    if [ $dFlag != 0 ]; then
+	echo "Generating C++ reply header             "$lFlag/"$BaseName"reply_i.hh
+	echo "Generating C++ reply code               "$lFlag/"$BaseName"reply_i.cpp
+
+	$TCLHOME/bin/tclsh $SCSHOME/dat/gentcl/proxygen.tcl -d "-l$lFlag" $IFlags $File
+    fi
+
+    # Generate Reply IDL
+    if [ $eFlag != 0 ]; then
+	echo "Generating reply IDL                    "$iFlag/"$BaseName"reply.idl
+
+	$TCLHOME/bin/tclsh $SCSHOME/dat/gentcl/proxygen.tcl -e "-i$iFlag" $IFlags $File
+    fi
+
+fi

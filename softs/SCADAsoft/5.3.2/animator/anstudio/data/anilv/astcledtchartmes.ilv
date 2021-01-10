@@ -1,0 +1,210 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:23:08 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcledtchartmes"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcledtchartmes.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 27
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 6 103 367 187 F268435468 0 { IlvMessageItem 262169 4 16 4 "&charts"  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 6 11 173 87 F131 2 N N 0 0 0 0 0 1 0 0 V0 2 0 } 544 "ChartList"
+1
+1 "__ilvSCallback" "chartListCB"
+20480 "Range"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 64 121 113 22 F6 2 1 -1 0 "" } 32 "ChartName"
+6144 "Color" "XMax"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 250 182 113 22 F6 2 2 -1 0 "" } 32 "ChartFormat"
+6144 "ChartSteps" "Type"
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 250 214 113 22 F6 2 2 -1 0 "0" . , 2 2 0 2147483647 } 32 "ChartSteps"
+6144 "AddChart" "ChartFormat"
+1 { 5 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 64 153 113 22 F34904 2 N N 0 0 0 0 0 0 108 17 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "Color"
+1
+1 "__ilvCallback" "colorCB"
+6144 "ChartMin" "ChartName"
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 232 118 98 20 F1 2 5
+{ IlvMenuItem 65 2 4 "&polyline"  } 
+{ IlvMenuItem 1 2 4 "&polygon"  } 
+{ IlvMenuItem 1 2 4 "&stair"  } 
+{ IlvMenuItem 1 2 4 "&bar"  } 
+{ IlvMenuItem 1 2 4 "&scatter"  }  0  } 32 "Type"
+6144 "ChartFormat" "ChartMax"
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 64 183 113 22 F6 2 2 -1 0 "0" . , 2 16 -3.4e+038 3.4e+038 } 32 "ChartMin"
+6144 "ChartMax" "Color"
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 64 214 113 22 F6 2 2 -1 0 "0" . , 2 16 -3.4e+038 3.4e+038 } 32 "ChartMax"
+6144 "Type" "ChartMin"
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 273 260 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&remove"  }   } 544 "RemoveChart"
+1
+1 "__ilvCallback" "removeChartCB"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 9 153 41 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&color"  }   } 0
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 8 121 42 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&Name"  }   } 0
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 192 117 27 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "Type"  }   } 0
+0
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 16 184 34 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "Min"  }   } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 16 214 34 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "Max"  }   } 0
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 203 182 41 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "Format"  }   } 0
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 200 214 44 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&ticks"  }   } 0
+0
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 27 260 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&add"  }   } 544 "AddChart"
+1
+1 "__ilvCallback" "addChartCB"
+4096 "ChartSteps"
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 149 260 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&replace"  }   } 544 "ReplaceChart"
+1
+1 "__ilvCallback" "replaceChartCB"
+0
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 187 140 181 108 F268435468 0 { IlvMessageItem 262169 4 16 4 "&verticalAxis"  }   } 0
+0
+1 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 187 2 186 101 F268435468 0 { IlvMessageItem 262169 4 16 4 "&colorrep"  }   } 0
+0
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 195 21 136 72 F34906 2 A N 0 0 0 0 1 0 131 30 0 1 0 0 1 1 1 1 V0 2 131 
+0 0 N 0 0 0 0 0  } 544 "MatrixColor"
+1
+1 "__ilvCallback" "matrixColorCB"
+16384
+1 { 22 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&resetrep" 4 4 ]
+0 IlvButton 339 17 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcnew.png"  }   } 544 "ResetColor"
+1
+1 "__ilvCallback" "resetColorCB"
+2048 "Button_1"
+1 { 23 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&deleterep" 4 4 ]
+0 IlvButton 339 73 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcdel.png"  }   } 544 "RemoveColor"
+1
+1 "__ilvCallback" "removeColorCB"
+0
+1 { 24 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&addrep" 4 4 ]
+0 IlvButton 339 45 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astres2.png"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "addColorCB"
+4096 "ResetColor"
+1 { 25 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&style" 4 4 ]
+0 IlvButton 339 117 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edt.png"  }   } 512
+1
+1 "__ilvCallback" "styleCB"
+0
+1 { 26 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 199 158 64 16 F1073741825 2 1 1 0 0 0 Y "&legend" } 32 "ChartLegend"
+0
+Size 378 295
+GeometryHandlers
+2 50 183 183 0 183 0
+ 50 195 195 183 195 183
+14 3 0 0 6  367 0 367 0  0 0 5 1
+ 3 0 0 9  0 0 41 10  328 0 328 1
+ 3 0 0 16  0 0 34 13  328 0 328 1
+ 3 0 0 16  0 0 34 14  328 0 328 1
+ 3 0 0 27  0 0 80 17  271 0 271 1
+ 3 149 0 149  0 0 80 18  149 0 149 1
+ 3 273 0 273  0 0 80 9  0 0 25 1
+ 3 339 0 339  0 0 23 25  0 0 16 1
+ 3 0 0 6  173 0 173 1  0 0 4 0
+ 3 0 0 64  113 0 113 2  0 0 6 0
+ 3 0 0 64  113 0 113 5  0 0 6 0
+ 3 0 0 64  113 0 113 7  0 0 6 0
+ 3 0 0 64  113 0 113 8  0 0 6 0
+ 3 0 0 8  0 0 42 11  133 0 133 0
+13 3 0 0 12  136 0 136 21  0 0 47 1
+ 3 0 0 4  186 0 186 20  0 0 5 1
+ 3 0 0 16  0 0 64 26  115 0 115 1
+ 3 0 0 9  0 0 27 12  0 0 159 1
+ 3 0 0 49  98 0 98 6  0 0 48 1
+ 3 0 0 67  113 0 113 3  0 0 15 1
+ 3 0 0 67  113 0 113 4  0 0 15 1
+ 3 0 0 4  181 0 181 19  0 0 10 1
+ 3 0 0 17  0 0 44 16  134 0 134 1
+ 3 0 0 20  0 0 41 15  134 0 134 1
+ 3 156 0 156  0 0 23 23  0 0 16 1
+ 3 156 0 156  0 0 23 24  0 0 16 1
+ 3 156 0 156  0 0 23 22  0 0 16 1
+3 100 108 108 0 108 0
+ 0 144 144 108 144 108
+ 0 0 43 252 43 252
+6 3 0 0 17  0 0 23 22  68 0 68 0
+ 3 0 0 45  0 0 23 24  40 0 40 0
+ 3 0 0 73  0 0 23 23  12 0 12 0
+ 3 0 0 11  87 0 87 1  0 0 10 0
+ 3 0 0 2  101 0 101 20  0 0 5 0
+ 3 0 0 21  72 0 72 21  0 0 15 0
+21 3 0 -1 -5  0 0 187 0  0 0 5 2
+ 3 0 0 13  0 0 22 11  0 0 109 1
+ 3 0 0 45  0 0 22 10  0 0 77 1
+ 3 0 0 76  0 0 22 13  0 0 46 1
+ 3 0 0 106  0 0 22 14  0 0 16 1
+ 3 0 0 13  0 0 22 2  0 0 152 2
+ 3 0 0 75  0 0 22 7  0 0 90 2
+ 3 0 0 106  0 0 22 8  0 0 59 2
+ 3 0 0 45  0 0 22 5  0 0 120 2
+ 3 0 0 152  0 0 23 17  0 0 12 2
+ 3 0 0 152  0 0 23 18  0 0 12 2
+ 3 0 0 152  0 0 23 9  0 0 12 2
+ 3 0 0 10  0 0 20 6  0 0 157 2
+ 3 0 0 74  0 0 22 3  0 0 91 2
+ 3 0 0 9  0 0 23 25  0 0 155 2
+ 3 0 0 50  0 0 16 26  0 0 121 2
+ 3 0 0 9  0 0 22 12  0 0 156 2
+ 3 0 0 32  0 0 108 19  0 0 47 2
+ 3 0 0 106  0 0 22 4  0 0 59 2
+ 3 0 0 74  0 0 22 15  0 0 91 2
+ 3 0 0 106  0 0 22 16  0 0 59 2
+0
+EOF

@@ -1,0 +1,28 @@
+// Ilv Version: 2.21
+// File generated: Wed Mar 13 19:25:08 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 2
+"default" 1 "defaultBg" "defaultFg" "default" 6x13 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "menu" %helvetica-12-B 0 solid solid 0 0 0
+IlvObjects 7
+2 { 0 0 IlvMenuBar 0 0 700 29 F2 2 4
+258 "File" 0 IlvPopupMenu 0 0 78 61 F2 2 3
+130 "File Infos" "fileinfo"
+130 "Run" "run"
+130 "Quit" "quit" 
+258 "Edit" 0 IlvPopupMenu 0 0 108 61 F2 2 3
+130 "Select All  ^A" "selectall"
+130 "UnSelect    ^B" "unselect"
+130 "New Directory ^C" "newdir" 
+258 "Sort" 0 IlvPopupMenu 0 0 60 61 F2 2 3
+130 "By Name" "byname"
+130 "By Date" "bydate"
+130 "By Size" "bysize" 
+2 "Help" } 32 "FmgrMenuBar" 368 1 0 1 0 1 0 2
+2 { 1 1 IlvRectangle 10 88 72 39 } 32 "trash" 0
+2 { 2 1 IlvRectangle 10 186 72 39 } 32 "fd" 0
+2 { 3 1 IlvRectangle 10 284 72 39 } 32 "tape" 0
+2 { 4 1 IlvReliefLine 98 30 98 400 2 } 0 640 1 0 2
+2 { 5 1 IlvSCManagerRectangle 99 28 283 356 YY } 96 "graph" "SCManager" 640 1 0 2
+2 { 6 1 IlvSCManagerRectangle 398 28 286 356 YY } 96 "mgr" "SCManager" 960 1 0 1 0 2 2
+Size 700 400

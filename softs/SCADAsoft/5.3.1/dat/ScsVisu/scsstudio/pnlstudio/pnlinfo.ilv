@@ -1,0 +1,51 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:07:46 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "pnlinfo"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\pnlinfo.ilv"
+Palettes 5
+"defaultGadget" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+4 F 48640 48640 48640 "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+2 F "gray" "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+3 F 48640 48640 48640 "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+"default" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 9
+1 { 0 0 IlvReliefLine -2 179 301 180 1 } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 210 193 73 25 F13 2 { IlvMessageItem 262145 4 16 4 "&ok"  }   } 512
+1
+1 "__ilvCallback" "cancel"
+0
+1 { 2 0 IlvTransparentIcon 2 1 "pnlstudio/icons/toupie3.png" "" } 0
+0
+1 { 3 0 IlvTransparentIcon 145 86 "pnlstudio/icons/animator2.png" "" } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 101 19 200 27 F268435468 0 { IlvMessageItem 262145 4 16 4 "&PnlEditionName"  }   } 32 "editionName"
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 101 35 200 47 F268435468 0 { IlvMessageItem 262145 4 16 4 "&PnlExtensions"  }   } 0
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 10 124 100 24 F268435468 0 { IlvMessageItem 262145 4 16 4 "&ScsStudioVersion"  }   } 32 "studioName"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+4 IlvMessageLabel 10 108 100 27 F268435468 0 { IlvMessageItem 262145 4 16 4 "ScsStudio"  }   } 0
+0
+1 { 8 0 IlvZoomableTransparentIcon 0 0 "pnlstudio/icons/ThalesIS.png" F0.199239 0 0 0.19863 24 192 } 0
+0
+Size 304 230
+GeometryHandlers
+1 100 0 304 0 304 0
+2 3 0 -1 -2  303 0 303 0  0 0 3 0
+ 3 210 0 210  0 0 73 1  0 0 21 0
+1 100 0 230 0 230 0
+2 3 178 0 178  0 0 2 0  0 0 50 0
+ 3 193 0 193  0 0 25 1  0 0 12 0
+EOF

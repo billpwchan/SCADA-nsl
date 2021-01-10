@@ -1,0 +1,38 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:31:52 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astilayerlevel"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astilayerlevel.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 3
+1 { 0 P 2
+[ IlvPanelObjectReference IlvPanelObjectReference  "971359163.0" ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNotebook 11 8 528 274 F1 2 0 2  2
+" { IlvNotebookPageItem 1 2 4 "&layer"  }  "gray" ""
+" { IlvNotebookPageItem 1 2 4 "&level"  }  "gray" ""
+0 0 4 5 2 10 10 10 10  } 544 "NoteBook"
+1
+1 "__ilvCallback" "noteBookCB"
+16384
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 237 303 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "closeCB"
+8192
+1 { 2 1 IlvReliefLine 0 293 550 293 1 } 0
+0
+Size 550 332
+GeometryHandlers
+1 100 548 550 0 550 0
+3 3 0 0 11  528 0 528 0  0 0 11 0
+ 3 237 0 237  0 0 73 1  240 0 240 0
+ 3 0 0 0  550 0 550 2  0 0 0 0
+1 100 330 332 0 332 0
+3 3 0 0 8  274 0 274 0  0 0 50 0
+ 3 292 0 292  0 0 2 2  0 0 38 0
+ 3 303 0 303  0 0 23 1  0 0 6 0
+EOF

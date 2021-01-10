@@ -1,0 +1,18 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.938,ou=attributeTypes,cn=adsconfig,ou=schema
+m-length: 0
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.938
+m-name: ads-delegateTlsTrustManager
+m-description: FQCN of the TrustManager to use to validate the startTls communic
+ ation
+m-equality: caseExactMatch
+entryParentId: c11acc1c-02ea-42e3-b600-cc0ca6feff74
+m-singlevalue: TRUE
+createTimestamp: 20140513151220.395Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+entryUUID: 579ed1ec-ccae-424e-a51d-e21e4d9ca083
+creatorsname: 0.9.2342.19200300.100.1.1=admin,2.5.4.11=system
+entryCSN: 20140513151214.536000Z#000000#000#000000

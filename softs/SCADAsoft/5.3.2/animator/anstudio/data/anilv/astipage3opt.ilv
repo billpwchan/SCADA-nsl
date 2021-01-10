@@ -1,0 +1,40 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 16:30:10 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "astipage3opt"
+PathName "D:\\SOFTS\\animator4\\anstudio\\data\\anilv\\astipage3opt.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 6
+3 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 9 2 225 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&EditMode"  }   } 0
+0
+3 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+0 IlvMatrix 17 22 210 23 F34904 2 N N 0 0 0 0 1 1 205 18 1 1 0 0 1 1 1 1 V0 2 0 1 N 0 0 0 0 0  } 544 "edColor"
+1
+1 "__ilvCallback" "selectColorCB"
+4096 "topoColor"
+3 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 9 55 225 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&DesignateMode"  }   } 0
+0
+3 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+0 IlvMatrix 17 74 210 23 F34904 2 N N 0 0 0 0 1 1 205 18 1 1 0 0 1 1 1 1 V0 2 0 1 N 0 0 0 0 0  } 544 "deColor"
+1
+1 "__ilvCallback" "selectColorCB"
+0
+3 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 9 110 225 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&TopoMode"  }   } 0
+0
+3 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+0 IlvMatrix 17 129 210 23 F34904 2 N N 0 0 0 0 1 1 205 18 1 1 0 0 1 1 1 1 V0 2 0 1 N 0 0 0 0 0  } 544 "topoColor"
+1
+1 "__ilvCallback" "selectColorCB"
+2048 "edColor"
+Size 241 164
+EOF

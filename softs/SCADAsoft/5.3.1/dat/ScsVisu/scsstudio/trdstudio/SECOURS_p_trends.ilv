@@ -1,0 +1,110 @@
+// Ilv Version: 4.0
+// File generated: Thu Feb 15 15:59:00 2001
+// Creator class: IlvGadgetManagerOutput
+FileName "p_trends"
+PathName "Y:\\scadasoft\\dat\\ScsVisu\\scsstudio\\trdstudio\\p_trends.ilv"
+Palettes 2
+1 65025 65025 65025 "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+"default" 0 "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+IlvObjects 3
+1 { 0 0 ScsSingleTrend 2 10 50 180 180
+[ IlvMemoryChartData -1 1
+[ IlvChartPointSet -1 N
+0 4 2 3.6 "Curve" 5
+0.000000 3.600000 1.000000 2.600000 2.000000 2.000000 3.000000 3.000000 4.000000 2.400000  ] ]
+IlvCartesianProjector 0
+IlvRectangularScaleDisplayer "" 1 1 0 0 0 N 0 0 241
+"gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+ "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+ "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+[ IlvCoordinateInfo 0 0 4 1 0 4 0 4 0 4  N ]
+ "%.0f" 8  2 2 4 2 4 1 8 8 1 "X"
+G IlvRectangularGridDisplayer 1
+P "gray" "dimgray" "default" "StockedDefaultGui" 0 solid dash 0 0 0
+
+P "gray" "dimgray" "default" "StockedDefaultGui" 0 solid dash 0 0 0
+ 0 1 0
+# 1
+[ IlvConstantScaleStepsUpdater _ilvScaleUpdater  8 5 0 1 1 0 0 ]
+
+1
+IlvRectangularScaleDisplayer "" 1 1 0 0 0 N 0 0 241
+"gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+ "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+ "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+[ IlvCoordinateInfo 1 2 3.6 0 0 4 0 4 0 4  N ]
+ "%.1f" 8  2 2 4 2 4 1 8 8 1 "f(X)"
+G IlvRectangularGridDisplayer 1
+P "gray" "dimgray" "default" "StockedDefaultGui" 0 solid dash 0 0 0
+
+P "gray" "dimgray" "default" "StockedDefaultGui" 0 solid dash 0 0 0
+ 0 1 0
+# 1
+[ IlvConstantScaleStepsUpdater _ilvScaleUpdater  8 5 1 1 0.5 0 0 ]
+
+ 0 0.25 0 0 0 0 0 1
+ N
+1
+IlvStairChartDisplayer 1 F 0 @4
+1 1
+@1
+-1 0
+"" Y "limegreen" "forestgreen" "default" "StockedDefaultGui" 0 solid solid 1 0 0
+ 1 0 Y "Curve" 0
+IlvChartLayout 0 0 0 0 1 1 10 50 180 180 0 0 0 0 0 34 86 130 122 24 26 36 22 0 1
+ N N 0 "gray" 1 0 "Curve" "" "" "" "" 1 0  } 0
+0
+1 { 1 1 ScsTrendLegend 10 10 180 30 2 10
+1 1 20 10 4 4 1 0  P "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+ } 384
+0
+1 { 2 0 ScsMultipleTrend 2 10 240 182 180
+[ IlvMemoryChartData -1 1
+[ IlvChartPointSet -1 N
+1 5 1.8 2.6 "Curve 1" 5
+1.000000 1.800000 2.000000 2.600000 3.000000 2.200000 4.000000 2.200000 5.000000 1.900000  ] ]
+IlvCartesianProjector 0
+IlvRectangularScaleDisplayer "" 1 1 0 0 0 N 0 0 241
+"gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+ "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+ "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+[ IlvCoordinateInfo 0 1 5 0 1 5 1 5 1 5  N ]
+ "%S\"" 8  2 2 4 2 4 1 8 8 1 "t"
+G IlvRectangularGridDisplayer 1
+P "dimgray" "dimgray" "default" "StockedDefaultGui" 0 solid dash 0 0 0
+
+P "gray" "dimgray" "default" "StockedDefaultGui" 0 solid dash 0 0 0
+ 0 1 0
+# 1
+[ IlvConstantScaleStepsUpdater _ilvScaleUpdater  8 5 1 1 0.5 0 0 ]
+
+1
+IlvRectangularScaleDisplayer "" 1 1 0 0 0 N 0 0 241
+"gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+ "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+ "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+[ IlvCoordinateInfo 1 1.8 2.6 0 0 4 0 4 0 4  N ]
+ "%.1f" 8  2 2 4 2 4 1 8 8 1 "f(t)"
+G IlvRectangularGridDisplayer 1
+P "gray" "dimgray" "default" "StockedDefaultGui" 0 solid dash 0 0 0
+
+P "gray" "dimgray" "default" "StockedDefaultGui" 0 solid dash 0 0 0
+ 0 1 0
+# 1
+[ IlvConstantScaleStepsUpdater _ilvScaleUpdater  8 5 4 1 0.2 0 0 ]
+
+ 0 0.25 0 0 0 0 0 1
+ N
+1
+IlvPolygonChartDisplayer 1 F 0 @10
+1 1
+@7
+-1 0
+"" Y "cornflowerblue" "blue" "default" "StockedDefaultGui" 0 solid solid 1 0 0
+ 1 0 Y "Curve 1" 0 P  N
+IlvChartLayout 0 0 0 0 1 1 10 240 182 180 0 0 0 0 0 34 276 130 122 24 28 36 22 0 1
+ N N 0 "gray" 1 0 "Curve 1" "" "" "" "" 1 0 1 15 "%S\"" } 0
+0
+Size 200 430
+Background "gray"
+EOF

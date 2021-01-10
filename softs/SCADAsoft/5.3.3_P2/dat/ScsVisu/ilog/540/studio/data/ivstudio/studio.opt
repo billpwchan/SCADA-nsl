@@ -1,0 +1,119 @@
+// 
+//	    IBM ILOG Views Studio configuration
+// 
+studio {
+    defaultBufferName 		unnamed;
+    dataFileExtension		".ilv";
+    alignmentSpacing		5;
+    playerSpeed			500;
+    language			"fr_FR" "&french" "&frenchPrompt";
+    language			"en_US" "&english" "&englishPrompt";
+    toolTip			True;
+    movingPointer		True;
+    startUpCommand		DoubleBuffering;
+    startUpCommand		OpaqueMoving;
+    objectInteractor		None;
+    objectInteractor		Default;
+    objectInteractor		Button;
+    objectInteractor		Toggle;
+    objectInteractor		Reshape;
+    objectInteractor		Move;
+    objectInteractor		RButton;
+    filter                      "standard.xml";
+    filter                      "transparency.xml";
+    filter                      "colors.xml";
+    filter                      "textures.xml";
+    filter                      "convolutions.xml";
+    fileBrowserType		"(*.ilv|*.iva)" "&commonFilesFilter";
+    fileBrowserType		"*.ilv" "&dataFilesFilter";
+    fileBrowserType		"*.iva" "&appliFilesFilter";
+    fileBrowserType		"*.dbm" "&messageFilesFilter";
+    fileLoader			"ilv" "OpenBuffer";
+    fileLoader			"dbm" "LoadMessageDatabase";
+    userSubClassPrefix		"My";
+    version			540;
+    bufferSize			380 x 300;
+    gridSize			8 x 8;
+    documentWindowSize		400 x 320;
+    defaultGroupCommand		GroupIntoGraphicSet;
+    nudgeIncrement 		1;
+    useQuadtree 		False;
+	
+    dragDropPalette "Graphics" {
+	dataFileName "ivstudio/p_grphic.ilv";
+	label "&Graphics";
+	bitmap "ivstudio/icons/icgraphic.png";
+    }
+    dragDropPalette "Icons" {
+	dataFileName "ivstudio/p_icon.ilv";
+	label "&Icons";
+	path "Graphics";
+	bitmap "ivstudio/icons/icicon.png";
+    }
+    dragDropPalette "Gauges" {
+	dataFileName "ivstudio/p_gauge.ilv";
+	label "&Gauges";
+	path "Graphics";
+	bitmap "ivstudio/icons/icgauge.png";
+    }
+    dragDropPalette "More" {
+	dataFileName "ivstudio/p_more.ilv";
+	label "&More";
+	path "Graphics";
+	bitmap "ivstudio/icons/icmoreg.png";
+    }
+    toolBarCommands Main {
+        OpenDocument,
+        SaveDocument,
+	SaveAll
+	-,
+	UnDo,
+	Redo,
+	-,
+	ClipboardCut,
+	ClipboardCopy,
+	ClipboardPaste,
+	Duplicate,
+	Delete,
+	-,
+        MakeFilteredGraphic,
+        -,
+	ShowAlignPanel,
+        ShowCommandPanel,
+	ShowInspector,
+	ShowGenericInspector,
+	ShowPropertiesPanel
+    }
+    toolBarCommands IlvStBuffer {
+	SelectSelectionMode,
+	SelectPolySelectionMode,
+	SelectRotateMode,
+ 	SelectActiveMode,
+	-,
+    	SelectZoomMode,
+	SelectPanZoomMode,
+	-,
+	ZoomLevel,
+	ZoomIn,
+	ZoomOut,
+	FitViewToContents,
+	ResetView
+    }
+    toolBarCommands IlvStGroupEditionBuffer {
+	SelectSelectionMode,
+	SelectPolySelectionMode,
+	SelectRotateMode,
+ 	SelectActiveMode,
+	-,
+    	SelectZoomMode,
+	SelectPanZoomMode,
+	-,
+	ZoomLevel,
+	ZoomIn,
+	ZoomOut,
+	FitViewToContents,
+	ResetView,
+	-,
+	SaveDocument
+    }
+}

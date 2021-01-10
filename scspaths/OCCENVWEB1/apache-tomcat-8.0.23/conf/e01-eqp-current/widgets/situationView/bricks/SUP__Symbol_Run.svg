@@ -1,0 +1,14 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="SUP__Symbol_Run"><g id="_C1166B_SYMBOLS_DRA_C1166B_DRA_SUP__1_RUN_SVG" transform="translate(-99.0 -99.0)scale(1.0 1.0)"><rect x="29.0" fill="red" width="142.0" height="110.0" y="45.0" opacity="0"/><g id="DRA/C1166B_DRA_SUP__1_Run" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-71,-17 -39,-17 -39,15 -71,15 -71,-17 " stroke="#218A21"/>
+
+  
+  <path fill="none" stroke-width="2px" d="M-65,1 C-64,-5 -59,-4 -59,-4 -55,-3 -55,1 -52,2 -51,2 -51,2 -51,2 -46,1 -46,-4 -46,-4 " class="AnSpline" stroke="#218A21"/>
+  
+  <circle fill="none" r="55.00px" cx="16px" class="AnCircle" cy="0px" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <polygon fill="#218A21" class="AnPolygon" fill-rule="evenodd" points="-10,-48 -10,48 70,1 -10,-48 "/>
+
+</g></g></g></svg>

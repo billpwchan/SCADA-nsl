@@ -1,0 +1,49 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:30:17 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcledttest"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcledttest.ilv"
+Palettes 2
+"defaultGadget" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 5
+1 { 0 0 IlvReliefLine 0 299 343 299 1 } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "SCManager" ]
+0 IlvSCManagerRectangle 6 5 317 270 YY } 32 "MgrRectangle"
+4096 "Close"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 263 309 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Close"
+1
+1 "__ilvCallback" "closeTestCB"
+10240 "MgrRectangle"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 6 309 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&runAnim"  }   } 512
+1
+1 "__ilvCallback" "runTimerCB"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 86 309 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&stopAnim"  }   } 512
+1
+1 "__ilvCallback" "stopTimerCB"
+0
+Size 343 338
+GeometryHandlers
+1 100 200 343 0 343 0
+5 3 0 0 6  333 0 333 1  0 0 4 0
+ 3 0 0 86  0 0 73 4  184 0 184 0
+ 3 263 0 263  0 0 73 2  0 0 7 0
+ 3 0 0 6  0 0 73 3  264 0 264 0
+ 3 0 0 0  343 0 343 0  0 0 0 0
+2 100 200 286 0 286 0
+ 0 0 52 286 52 286
+3 3 0 0 5  286 0 286 1  0 -1 -5 0
+ 3 309 0 309  0 0 23 4  0 -1 -46 0
+ 3 309 0 309  0 0 23 3  0 -1 -46 0
+2 3 23 0 23  0 0 23 2  0 0 6 1
+ 3 0 0 12  0 0 2 0  0 0 38 1
+EOF

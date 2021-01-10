@@ -1,0 +1,30 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="TTVF_R_Symbol_Alarm_Blink"><g id="_C1166B_SYMBOLS_ECT_C1166B_ECT_TTVF_5_ALARM_RIGHT_SVG" transform="translate(-100.0 -100.0)scale(1.0 1.0)"><rect x="25.0" fill="red" width="150.0" height="128.0" y="36.0" opacity="0"/><g id="ECT/C1166B_ECT_TTVF_5_Alarm_Right" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <text x="0px" font-size="11" y="11px" transform="matrix(2.700000,0.000000,0.000000,2.700000,-74.800003,-64.019997)" text-decoration="none" fill="#000000" class="AnText" font-style="normal" font-weight="normal">Ex</text>
+
+  
+  <text x="0px" font-size="11" y="11px" transform="matrix(2.700000,0.000000,0.000000,2.700000,42.200001,-64.019997)" text-decoration="none" fill="#000000" class="AnText" font-style="normal" font-weight="normal">In</text>
+
+  
+  <line fill="none" x1="30px" x2="30px" y1="40px" y2="-39px" class="AnLine" stroke="#FF0000" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-31px" x2="-31px" y1="40px" y2="-39px" class="AnLine" stroke="#FF0000" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-31px" x2="30px" y1="-29px" y2="-29px" class="AnLine" stroke="#FF0000" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-31px" x2="30px" y1="32px" y2="32px" class="AnLine" stroke="#FF0000" stroke-width="2px"/>
+
+  
+  <polygon fill="#FF0000" class="AnPolygon" fill-rule="evenodd" points="20,-27 -21,-27 20,28 -21,28 20,-27 "/>
+
+  
+  <polygon fill="#FF0000" class="AnPolygon" fill-rule="evenodd" points="-35,-29 -35,32 -56,1 -35,-29 "/>
+
+  
+  <polygon fill="#FF0000" class="AnPolygon" fill-rule="evenodd" points="33,32 33,-29 54,1 33,32 "/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

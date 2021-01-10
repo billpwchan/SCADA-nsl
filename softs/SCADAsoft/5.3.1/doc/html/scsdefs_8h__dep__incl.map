@@ -1,0 +1,40 @@
+<map id="G" name="G">
+<area shape="rect" href="$scs_8h.html" title="General Purpose ScadaSoft Utilities." alt="scs.h" coords="837,167,874,193" />
+<area shape="rect" href="$fts_8h.html" title="Access to the FTS component Server." alt="fts.h" coords="169,316,206,343" />
+<area shape="rect" href="$lst_8h.html" title="Access to the LstServer component." alt="lst.h" coords="57,241,94,268" />
+<area shape="rect" href="$scsrpl_8h.html" title="Access to the Replay (RPL) component." alt="scsrpl.h" coords="1969,241,2025,268" />
+<area shape="rect" href="$scsdata_8h.html" title="General Purpose Scadasoft datatype definitions." alt="scsdata.h" coords="949,92,1016,119" />
+<area shape="rect" href="$scsutils_8h.html" title="Various utility functions." alt="scsutils.h" coords="1040,92,1104,119" />
+<area shape="rect" href="$scstimezone_8h.html" title="Timezone management." alt="scstimezone.h" coords="1128,92,1226,119" />
+<area shape="rect" href="$dbksession_8h.html" title="Access to the Calculation Engine interface module (part of DBM module)." alt="dbk/dbksession.h" coords="1518,241,1638,268" />
+<area shape="rect" href="$agent_8h.html" title="Supervision of the processes of the current physical environment." alt="agent.h" coords="1662,241,1718,268" />
+<area shape="rect" href="$asc_8h.html" title="Supervision of the processes of the current environment, when no redundancy is used." alt="asc.h" coords="1742,241,1782,268" />
+<area shape="rect" href="$ctlcmd_8h.html" title="Supplies ORB client access to the CTLCMD component server." alt="ctlcmd.h" coords="230,316,294,343" />
+<area shape="rect" href="$tsc_8h.html" title="Access to the Task Scheduler (TSC) component." alt="tsc.h" coords="178,465,216,492" />
+<area shape="rect" href="$manager_8h.html" title="Access to the AscManager component." alt="manager.h" coords="321,241,398,268" />
+<area shape="rect" href="$ctlgrc_8h.html" title="CTL Grouped Remote Control Server structure for the CTLGRC component." alt="ctlgrc.h" coords="542,316,598,343" />
+<area shape="rect" href="$dac_8h.html" title="DacServer Classes definition providing ORB client access to the DAC component server (daccontrol proc..." alt="dac.h" coords="318,316,361,343" />
+<area shape="rect" href="$dpc_8h.html" title="ORB client access to the DPC component servers." alt="dpc.h" coords="385,316,428,343" />
+<area shape="rect" href="$scswdg_8h.html" title="Access to the the SCADAsoft watchdog component." alt="scswdg.h" coords="452,316,518,343" />
+<area shape="rect" href="$dacsim_8h.html" title="DacSimulator definition, providing ORB client access to the DACSIM component server (daccomsim proces..." alt="dacsim.h" coords="524,241,590,268" />
+<area shape="rect" href="$dbmdirect_8h.html" title="Encapsulate direct access to database points." alt="dbmdirect.h" coords="1857,241,1945,268" />
+<area shape="rect" href="$his_8h.html" title="Access to the History server for archive management." alt="his.h" coords="930,540,968,567" />
+<area shape="rect" href="$trd_8h.html" title="Access to the the Trend server (TRD)" alt="trd.h" coords="798,764,838,791" />
+<area shape="rect" href="$ols_8h.html" title="Remote access to OlsList objects." alt="ols.h" coords="920,391,957,417" />
+<area shape="rect" href="$histypes_8h.html" title="Various utility classes used in the History server context." alt="histypes.h" coords="766,465,838,492" />
+<area shape="rect" href="$trddata_8h.html" title="Data used in Trend server context." alt="trddata.h" coords="698,540,765,567" />
+<area shape="rect" href="$scsalm_8h.html" title="Access to the Alarm Server component." alt="scsalm.h" coords="1044,465,1108,492" />
+<area shape="rect" href="$scstimer_8h.html" title="Timer management." alt="scstimer.h" coords="918,241,990,268" />
+<area shape="rect" href="$olstypes_8h.html" title="Various classes, typedefs and functions used in OlsList context." alt="olstypes.h" coords="969,316,1041,343" />
+<area shape="rect" href="$olsactivation_8h.html" title="OlsList enabling/disabling functions." alt="olsactivation.h" coords="1116,241,1217,268" />
+<area shape="rect" href="$opmapi_8h.html" title="Access to the OPM component." alt="opmapi.h" coords="1241,241,1310,268" />
+<area shape="rect" href="$sec_8h.html" title="Access to the the SCADAsoft security server." alt="sec.h" coords="1057,391,1097,417" />
+<area shape="rect" href="$Types_8h.html" title="Various basic type definitions common to all scadasoft components." alt="Types.h" coords="1334,241,1393,268" />
+<area shape="rect" href="$scadaorb_8h.html" title="Various utility macros and class for wrappring ORB access." alt="scadaorb.h" coords="1417,241,1494,268" />
+<area shape="rect" href="$tsctypes_8h.html" title="classes, typedefs and functions used in Tsc context" alt="tsctypes.h" coords="226,391,298,417" />
+<area shape="rect" href="$dbm_8h.html" title="Access to the Database Manager (DBM) module." alt="dbm.h" coords="1956,316,2006,343" />
+<area shape="rect" href="$hisreadfilemgr_8h.html" title="Utility class used to read periodic archive files without any running SCADASoft envrionment." alt="hisreadfilemgr.h" coords="789,540,906,567" />
+<area shape="rect" href="$trddataset_8h.html" title="Data used in Trend server context." alt="trddataset.h" coords="725,615,808,641" />
+<area shape="rect" href="$trdhissubscription_8h.html" title="Management of archives of the Trend server (TRD)" alt="trdhissubscription.h" coords="698,689,834,716" />
+<area shape="rect" href="$scsalmext_8h.html" title="Remote Access to the Alarm Server." alt="scsalmext.h" coords="1014,540,1097,567" />
+</map>

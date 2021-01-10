@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" href="$scsdata_8h.html" title="General Purpose Scadasoft datatype definitions." alt="scsdata.h" coords="268,241,334,268" />
+<area shape="rect" href="$dbmdirect_8h.html" title="Encapsulate direct access to database points." alt="dbmdirect.h" coords="525,92,613,119" />
+<area shape="rect" href="$dbmhistory_8h.html" title="Callback typedefs related to the History server for DBM access." alt="dbmhistory.h" coords="738,92,834,119" />
+<area shape="rect" href="$scsdefs_8h.html" title="Definition of priority levels." alt="scsdefs.h" coords="470,316,537,343" />
+<area shape="rect" href="$scs_8h.html" title="General Purpose ScadaSoft Utilities." alt="scs.h" coords="504,167,541,193" />
+</map>

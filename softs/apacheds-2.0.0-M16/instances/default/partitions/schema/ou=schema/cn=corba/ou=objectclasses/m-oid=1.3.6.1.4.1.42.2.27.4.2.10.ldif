@@ -1,0 +1,15 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.4.2.10,ou=objectClasses,cn=corba,ou=schema
+m-supobjectclass: top
+m-must: cn
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+m-oid: 1.3.6.1.4.1.42.2.27.4.2.10
+m-name: corbaContainer
+m-description: Container for a CORBA object
+entryParentId: 7b75a810-7aa6-414c-b91b-67dd84e0da31
+entryUUID: 3ab0c2d3-a626-444e-82b9-cc3740af8cef
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.270Z
+entryCSN: 20140513151214.708000Z#000018#000#000000

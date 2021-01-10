@@ -1,0 +1,68 @@
+// Ilv Version: 2.4
+// File generated: Wed Oct 15 10:06:48 1997
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+0 44544 45568 49920 0 0 0 "bold" "%helvetica-12-B" 0 solid solid 0 0 0
+"IlvStText" 2 44544 45568 49920 0 0 0 "normal" "%helvetica-12-" 0 solid solid 0 0 0
+1 44544 45568 49920 0 0 0 "button" "%helvetica-12-B" 0 solid solid 0 0 0
+IlvObjects 18
+1 { 0 0 IlvLabel 18 66 "Class CWP" } 0
+0
+1 { 1 1 IlvButton 292 48 23 20 F1 2 16 Y "..." } 608 "CWPButton" "Button"
+1
+1 "__ilvCallback" "CWPButtonCb"
+0
+1 { 2 2 IlvTextField 93 48 199 22 F6 2 1 -1 0 "" } 608 "ClassCWP" "TextField"
+1
+1 "__ilvCallback" "ClassCWPCb"
+0
+1 { 3 2 IlvScrolledComboBox 93 89 177 20 F7 2 0 "" 4 } 608 "Animation" "SComboBox"
+1
+1 "__ilvCallback" "AnimationCb"
+0
+1 { 4 0 IlvLabel 18 106 "Animation" } 0
+0
+1 { 5 2 IlvScrolledComboBox 93 126 222 20 F7 2 0 "" 4 } 608 "Parameter" "SComboBox"
+1
+1 "__ilvCallback" "ParameterCb"
+0
+1 { 6 0 IlvLabel 18 143 "Parameter" } 0
+0
+1 { 7 0 IlvLabel 18 181 "Value" } 0
+0
+1 { 8 2 IlvTextField 93 163 222 22 F6 2 1 -1 0 "" } 608 "Value" "TextField"
+1
+1 "__ilvCallback" "ValueCb"
+0
+1 { 9 0 IlvLabel 18 221 "Attr Path" } 0
+0
+1 { 10 1 IlvButton 261 203 23 20 F1 2 16 Y "..." } 608 "PointButton" "Button"
+1
+1 "__ilvCallback" "PointButtonCb"
+0
+1 { 11 1 IlvButton 292 203 23 20 F1 2 16 Y "..." } 608 "AttributeButton" "Button"
+1
+1 "__ilvCallback" "AttributeButtonCb"
+0
+1 { 12 0 IlvLabel 286 216 "." } 0
+0
+1 { 13 2 IlvTextField 93 203 169 22 F6 2 1 -1 0 "" } 608 "AttributePath" "TextField"
+1
+1 "__ilvCallback" "AttributePathCb"
+0
+1 { 14 0 IlvLabel 18 27 "Server" } 0
+0
+1 { 15 2 IlvTextField 93 9 222 22 F6 2 1 -1 0 "" } 608 "Server" "TextField"
+1
+1 "__ilvCallback" "ServerCb"
+0
+1 { 16 1 IlvButton 270 89 23 20 F1 2 16 N icaddbuf.gif "" } 608 "AddAnimation" "Button"
+1
+1 "__ilvCallback" "AddAnimationCb"
+0
+1 { 17 1 IlvButton 292 89 23 20 F1 2 16 N iccut.gif "" } 608 "CutAnimation" "Button"
+1
+1 "__ilvCallback" "CutAnimationCb"
+0
+Size 335 235
+Background 44544 45568 49920

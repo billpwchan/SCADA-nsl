@@ -1,0 +1,50 @@
+// 
+//	    ILOG Views Studio configuration
+//		Grapher Extension
+// 
+studio {
+    panelFile		"ivstudio/grapher/studio.pnl";
+    commandFile		"ivstudio/grapher/studio.cmd";
+
+    toolBarCommands IlvStGrapherBuffer {
+	SelectSelectionMode,
+	SelectPolySelectionMode,
+	SelectRotateMode,
+ 	SelectActiveMode,
+	-,
+    	SelectZoomMode,
+	SelectPanZoomMode,
+	-,
+	ZoomLevel,
+	ZoomIn,
+	ZoomOut,
+	FitViewToContents,
+	ResetView,
+	-,
+	MakeNode,
+	SelectPinEditorMode
+    }
+  
+    dragDropPalette "Grapher" {
+	label "&Grapher";
+	bitmap "ivstudio/grapher/icgrapher.png"
+    }
+    dragDropPalette "GrapherLinks" {
+	dataFileName "ivstudio/grapher/palette.ilv";
+	label "&GrapherLinks";
+	bitmap "ivstudio/grapher/iclink.png"
+	path Grapher;
+    }
+    
+    dragDropPalette "GrapherViews" {
+	dataFileName "ivstudio/grapher/viewpal.ilv";
+	label "&GrapherViews";
+	bitmap "ivstudio/grapher/icgraphv.png"
+	path Grapher;
+    }
+ 
+    viewsClass "IlvSCGrapherRectangle" {
+	headerFile "<ilviews/gadgraph/rectscgr.h>";
+	library "ilvgadgraph";
+    }
+}

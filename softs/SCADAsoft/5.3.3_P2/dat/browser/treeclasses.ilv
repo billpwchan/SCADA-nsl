@@ -1,0 +1,24 @@
+// Ilv Version: 5.0
+// File generated: Mon Nov 08 11:13:58 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "treeclasses"
+PathName "M:\\devsrc_dla\\scs_source\\src\\dat\\browser\\treeclasses.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 1
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTreeGadget 0 0 190 450 F32 2 A A 0 0 0 0 20 0 1 1 1 1 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 0
+ }  } 544 "treeclasses"
+2
+1 "__ilvTreeItemSelected" "selectInTreeClassesCB"
+1 "__ilvTreeItemExpanded" "expandInTreeClassesCB"
+24576
+Size 190 450
+GeometryHandlers
+1 100 0 190 0 190 0
+1 3 0 0 0  190 0 190 0  0 -2 0 0
+1 100 0 450 0 450 0
+1 3 0 0 0  450 0 450 0  0 -1 0 0
+EOF

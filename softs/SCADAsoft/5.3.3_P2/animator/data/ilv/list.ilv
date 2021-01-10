@@ -1,0 +1,26 @@
+// Ilv Version: 2.3
+// File generated: Wed Nov 20 18:53:57 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+0 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 2 "defaultFg" "black" "default" "fixed" 0 solid solid 0 0 0
+1 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 16
+1 { 0 0 IlvFrame 5 5 203 199 0 "&items" 1 } 32 "Frame_1" 1008 1 5 1 5 1 172 1 44 2 2
+2 { 1 1 IlvScrolledStringList 99 30 97 109 F1 2 0 1 0 0 1
+"item" A N } 96 "list" "ScrolledStringList" 8180 "select" "select" "Button_1" "excl" 1 99 1 30 1 184 1 109 2 2
+2 { 2 1 IlvButton 14 119 78 23 F1 2 16 Y "&add" } 64 "Button" 20 "add" 1 14
+2 { 3 1 IlvButton 14 89 78 23 F1 2 16 Y "&replace" } 64 "Button" 20 "replace" 1 14
+2 { 4 0 IlvButton 5 220 60 23 F1 2 16 Y "&apply" } 64 "Button" 148 "apply" 1 5 1 5
+2 { 5 0 IlvButton 315 220 60 23 F1 2 16 Y "&close" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 6 1 IlvButton 14 59 78 23 F1 2 16 Y "&remove" } 96 "Button_2" "Button" 4116 "remove" "Button_1" 1 14
+2 { 7 1 IlvTextField 15 152 181 23 F6 2 1 -1 0 "" } 96 "text" "TextField" 468 "add" 1 15 1 184 1 73 2
+2 { 8 1 IlvToggle 224 33 134 17 F1 2 1 2 0 0 0 Y "&exclusive" } 96 "excl" "Toggle" 6212 "resetModes" "list" "selectcb" 1 22
+2 { 9 1 IlvTextField 234 142 125 23 F6 2 1 -1 0 "" } 96 "selectcb" "TextField" 2144 "excl" 1 148 1 21
+2 { 10 1 IlvButton 14 29 78 23 F1 2 16 Y "&clean" } 96 "Button_1" "Button" 6164 "clean" "Button_2" "list" 1 14
+3 { 11 2 IlvReliefLine 0 212 380 212 1 } 32 "line" 464 1 0 1 0 1 35 2
+3 { 12 1 IlvMessageLabel 225 115 133 26 0 "&selectCallback" 1 } 0 64 1 22
+3 { 13 0 IlvFrame 213 5 157 199 0 "&selection" 1 } 0 736 1 5 1 10 1 44 2
+3 { 14 1 IlvScrolledComboBox 235 86 125 20 F7 2 0 "" 3 } 32 "selectionMode" 64 1 16
+3 { 15 1 IlvMessageLabel 224 59 133 22 0 "&listSelectionMode" 1 } 0 64 1 23
+Size 380 248

@@ -1,0 +1,239 @@
+## -------------------------------------------------------------- -*- MSG -*-
+##     SYSECA                                 Animator
+##                                            [DATA]
+## --------------------------------------------------------------------------
+## The information contained in this document is proprietary to Animator's
+##   group of SYSECA and shall not be disclosed by the recipent to third
+##             persons without the written consent of SYSECA
+## --------------------------------------------------------------------------
+##         file: api.emf
+##  description: ANIMATOR error message file 
+##     creation: 1997/04/24
+##       author: olivier
+## --------------------------------------------------------------------------
+## $Id: api.emf,v 1.5 1997/08/07 09:32:34 olivier Exp $
+##
+## $Log: api.emf,v $
+## Revision 1.5  1997/08/07 09:32:34  olivier
+## .
+##
+## Revision 1.3  1997/07/25 14:49:38  olivier
+## .
+##
+## Revision 1.2  1997/06/24 12:33:13  olivier
+## *** empty log message ***
+##
+## Revision 1.1  1997/05/15 16:32:18  olivier
+## Initial revision
+##
+## --------------------------------------------------------------------------
+COMPONENT=api,Api
+ErrorInMethod(const char*)
+{
+  english="Error detected in method (%s)."
+  french="Erreur détectée dans la méthode (%s)."
+}
+ColorAlreadyRegistered(const char*)
+{
+  english="The color named '%s' is already registered in this workspace."
+  french="La couleur nommée '%s' est déja enregistrée dans ce workspace."
+}
+InvalidColorId(size_t)
+{
+  english="Invalid color identifier : %ld"
+  french="Identificateur de couleur invalide: %ld"
+}
+FontAlreadyRegistered(const char*)
+{
+  english="The font named '%s' is already registered in this workspace."
+  french="La police nommée '%s' est déja enregistrée dans ce workspace"
+}
+InvalidFontId(size_t)
+{
+  english="Invalid font identifier : %ld"
+  french="Identificateur de police invalide: %ld"
+}
+InvalidColorName(const char*)
+{
+  english="Invalid color name : %s"
+  french="Nom de couleur invalide: %s "
+}
+InvalidFontName(const char*)
+{
+  english="Invalid font name : %s"
+  french="Nom de police invalide: %s"
+}
+
+ObjectNotMoveable()
+{
+  english="Invalid operation : object is not moveable"
+  french="Opération invalide : l'objet n'est pas deplaçable"
+}
+ObjectNotResizeable()
+{
+  english="Invalid operation : object is not resizeable"
+  french="Opération invalide : la taille de l'objet ne peut être modifiée"
+}
+ObjectNotRotatable()
+{
+  english="Invalid operation : object is not rotatable"
+  french="Opération invalide : l'objet ne peut être tourné"
+}
+ObjectNotTransformable()
+{
+  english="Invalid operation : object is not transformable"
+  french="Opération invalide : l'objet ne peut être cible d'une transformation affine"
+}
+InvalidSharedGroupOperation(const char*, const char*)
+{
+  english="Invalid operation (%s) on the shared group '%s'"
+  french="Opération invalide (%s) sur le groupe partagé '%s'"
+}
+InvalidManagedGroupOperation(const char*, const char*)
+{
+  english="Invalid operation (%s) on the already managed group '%s'"
+  french="Opération invalide (%s) sur le groupe '%s' déjà inséré dans une image"
+}
+InvalidUnmanagedGroupOperation(const char*, const char*)
+{
+  english="Invalid operation (%s) on the unmanaged group '%s'"
+  french="Opération invalide (%s) sur le groupe '%s' non inséré dans une l'image"
+}
+GraphicNotBelongToGroup(const char*, const char*)
+{
+  english="Invalid operation (%s) : the graphic does not belong to the group '%s'"
+  french="Opération invalide (%s) : l'élément graphique n'appartient pas au groupe '%s'"
+}
+InvalidManagedGraphicOperation(const char*)
+{
+  english="Invalid operation (%s) on a already managed graphic"
+  french="Opération invalide (%s) sur un élément graphique déjà inséré dans une image"
+}
+InvalidUserClassOperation(const char*, const char*)
+{
+  english="Invalid operation (%s) on user class '%s'"
+  french="Opération invalide (%s) sur la classe utilisateur '%s'"
+}
+FirstLevelGraphicOperation(const char*)
+{
+  english="Operation (%s) allowed only on first level graphics"
+  french="Opération (%s) autorisée uniquement sur les éléments graphiques de premier niveau"
+}
+InvalidManagedPrimitiveOperation(const char*, const char*)
+{
+  english="Operation (%s) not allowed on the managed primitive of type '%s'"
+  french="Opération (%s) non autorisée sur la primitive graphique de type '%s', déjà insérée dans l'image"
+}
+InvalidGroupingMultiLayer()
+{
+  english="Trying to add a graphic to a group belonging to a different layer (ignored)"
+  french="Tentative d'ajout d'un élément graphique dans un groupe appartenant à un calque différent (ignoré)"
+}
+InvalidObjectName(const char*)
+{
+  english="Invalid object name '%s'"
+  french="Nom d'objet invalide '%s'"
+}
+InvalidObjectId(size_t)
+{
+  english="Invalid object identifier : %ld"
+  french="Identificateur d'objet invalide: %ld "
+}
+LevelIgnoredInOperation(const char*, const char*)
+{
+  english="Decluttering level '%s' is ignored in operation (%s) on a composite object"
+  french="Le niveau d'enrichissement '%s' est ignoré dans l'opération (%s) concernant un objet composite"
+}
+InvalidLevelId(size_t)
+{
+  english="Invalid decluttering level identifier : %ld"
+  french="Identificateur de niveau d'enrichissement invalide: %ld "
+}
+LevelAlreadyExists(const char*)
+{
+  english="A decluttering level named '%s' already exists in the work space : cannot create"
+  french="Un niveau d'enrichissement nommé '%s' existe déjà dans le work space : impossible de le créer"
+}
+InvalidLayerId(size_t)
+{
+  english="Invalid layer identifier : %ld"
+  french="Identificateur de calque invalide: %ld "
+}
+LayerAlreadyExists(const char*)
+{
+  english="A layer named '%s' already exists in the work space : cannot create"
+  french="Un calque nommé '%s' existe déjà dans le work space : impossible de le créer"
+}
+InvalidUserClassLayer(const char*, const char*) {
+  english="The layer '%s' does not belong to the user class '%s'"
+  french="Le calque '%s' n'appartient pas à la classe utilisateur '%s'"
+}
+InvalidMultiLayerOperation(const char*) {
+  english="Trying to add the multi-layer user class '%s' to a group."
+  french="Tentative d'ajout de la classe utilisateur multi-calques '%s' à un groupe."
+}
+BadProperty(const char*) {
+  english="Unable to restore property (type is '%s')."
+  french="Impossible de restaurer la propriété (le type est '%s')."
+}
+UnknownProperty(const char*) {
+  english="Unable to restore unknown property (unknown type is '%s')."
+  french="Impossible de restaurer la propriété inconnue (le type inconnu est '%s')."
+}
+UnregisteredClassName(const char*) {
+  english="Unable to instanciate the unregistered C++ class '%s'."
+  french="Impossible d'instancier la classe C++ '%s' non enregistrée."
+}
+UnregisteredBitmapFormat(const char*) {
+  english="Unable to read the unregistered bitmap format '%s'."
+  french="Impossible de lire le format de bitmap '%s' non enregistrée."
+}
+UnknownBitmap(const char*) {
+  english="Unable to restore unknown bitmap '%s'."
+  french="Impossible de restaurer la bitmap inconnue '%s'."
+}
+OpenFile(const char*)
+{
+  english="The file %s canno't be opened."
+  french="Le fichier %s ne peut etre ouvert."
+}
+Parse(const char*, int, const char*, const char*)
+{
+  english="%s line %d: %s on '%s'."
+  french="%s ligne %d: %s on '%s'."
+}
+InvalidFileName(const char*)
+{
+  english="The file %s is not a valid image file."
+  french="Le fichier %s n'est pas un fichier image valide."
+}
+InvalidGraphic()
+{
+  english="The graphic item is invalid, it can't be added in the image."
+  french="L'element graphique est invalide, il ne peut etre ajoute dans l'image."
+}
+InvalidNode(const char*)
+{
+  english="The node %s doesn't exist."
+  french="Le noeud %s n'existe pas."
+}
+InvalidLink()
+{
+  english="The link can't be added in the image."
+  french="Le lien ne peut etre ajoute dans l'image."
+}
+InvalideNodeName()
+{
+  english="One of the nodes'link doesn't have a name. The link can't be created."
+  french="Un des noeuds de ce lien n'a pas de nom. Le lien ne peut etre cree."
+}
+InvalidLineStyleName(const char*)
+{
+  english="Invalid line Style name : %s"
+  french="Nom de style de ligne invalide: %s "
+}
+AnimatorInternalError(const char*, const char*, const char*)
+{
+  english="%s : The image '%s' already owns a view named '%s'"
+  french="%s : L'image '%s' possede deja une vue de nom '%s'"
+}

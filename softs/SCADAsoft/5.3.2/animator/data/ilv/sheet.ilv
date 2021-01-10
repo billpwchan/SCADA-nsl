@@ -1,0 +1,39 @@
+// Ilv Version: 2.21
+// File generated: Mon Mar 04 16:26:34 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+0 "defaultBg" "defaultFg" "normal" %helvetica-8- 0 solid solid 0 0 0
+"default" 2 "defaultBg" "defaultFg" "default" StockedSystem 0 solid solid 0 0 0
+1 "defaultBg" "defaultFg" "button" StockedDefaultGui 0 solid solid 0 0 0
+IlvObjects 30
+1 { 0 0 IlvFrame 6 118 259 134 0 "&state" 1 } 32 "Frame_1" 0
+1 { 1 0 IlvFrame 6 255 259 70 0 "&scrollbars" 1 } 0 0
+2 { 2 0 IlvToggle 138 140 101 19 F1 2 1 2 0 0 0 Y "&exclusive" } 96 "excl" "Toggle" 0
+2 { 3 0 IlvToggle 138 184 101 19 F1 2 1 2 0 0 0 Y "&sensitive" } 96 "sens" "Toggle" 0
+2 { 4 0 IlvToggle 138 206 101 19 F1 2 1 2 0 0 0 Y "&shadow" } 96 "shadow" "Toggle" 0
+2 { 5 0 IlvTextField 80 5 46 23 F6 2 1 -1 0 "" } 96 "columns" "TextField" 0
+2 { 6 0 IlvTextField 80 34 46 23 F6 2 1 -1 0 "" } 96 "xsize" "TextField" 0
+2 { 7 0 IlvTextField 80 63 46 23 F6 2 1 -1 0 "" } 96 "frow" "TextField" 0
+2 { 8 0 IlvTextField 80 92 46 23 F6 2 1 -1 0 "" } 96 "spacing" "TextField" 0
+2 { 9 0 IlvToggle 19 140 111 19 F1 2 1 2 0 0 0 Y "&background" } 96 "bg" "Toggle" 0
+2 { 10 0 IlvToggle 19 162 117 19 F1 2 1 2 0 0 0 Y "&fitToSize" } 96 "fito" "Toggle" 4 "CallFitToSize"
+2 { 11 0 IlvToggle 19 184 101 19 F1 2 1 2 0 0 0 Y "&grid" } 96 "grid" "Toggle" 0
+2 { 12 0 IlvToggle 19 206 101 19 F1 2 1 2 0 0 0 Y "&editable" } 96 "allowEdit" "Toggle" 0
+2 { 13 0 IlvTextField 223 5 46 23 F6 2 1 -1 0 "" } 96 "rows" "TextField" 0
+2 { 14 0 IlvTextField 222 34 46 23 F6 2 1 -1 0 "" } 96 "ysize" "TextField" 0
+2 { 15 0 IlvTextField 222 63 46 23 F6 2 1 -1 0 "" } 96 "fcol" "TextField" 0
+2 { 16 1 IlvButton 5 340 60 23 F1 2 16 Y "&apply" } 64 "Button" 132 "apply" 1 5
+2 { 17 1 IlvButton 207 340 60 23 F1 2 16 Y "&close" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 18 0 IlvToggle 19 275 163 19 F1 2 1 2 0 0 0 Y "&verticalScrollBar" } 96 "vsbar" "Toggle" 0
+2 { 19 0 IlvToggle 19 298 163 19 F1 2 1 2 0 0 0 Y "&horizontalScrollBar" } 96 "hsbar" "Toggle" 0
+2 { 20 0 IlvToggle 138 162 124 19 F1 2 1 2 0 0 0 Y "&adjustLast" } 96 "alast" "Toggle" 4 "CallAdjustLast"
+3 { 21 2 IlvReliefLine 0 332 272 332 1 } 32 "line" 464 1 0 1 0 1 35 2
+3 { 22 0 IlvMessageLabel 10 4 59 26 0 "&column" 1 } 0 0
+3 { 23 0 IlvMessageLabel 137 5 55 26 0 "&row" 1 } 0 0
+3 { 24 0 IlvMessageLabel 10 91 62 26 0 "&spacing" 1 } 0 0
+3 { 25 0 IlvMessageLabel 10 62 62 26 0 "&firstRow" 1 } 0 0
+3 { 26 0 IlvMessageLabel 137 62 83 26 0 "&firstColumn" 1 } 0 0
+3 { 27 0 IlvMessageLabel 10 33 58 26 0 "&width" 1 } 0 0
+3 { 28 0 IlvMessageLabel 137 33 75 26 0 "&height" 1 } 0 0
+3 { 29 0 IlvToggle 19 228 78 19 F1 2 1 2 0 0 0 Y "&Browse" } 32 "browse" 0
+Size 272 368

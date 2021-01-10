@@ -1,0 +1,48 @@
+.project-UIWidgetSocAutoManuControl-root {
+    height: 4em;
+	float: left;
+}
+.project-UIWidgetSocAutoManuControl-container-skipfailedsteplabel {
+	padding-left: 29em;
+}
+.project-UIWidgetSocAutoManuControl-container-skipfailedsteplabel,
+.project-UIWidgetSocAutoManuControl-container-auto,
+.project-UIWidgetSocAutoManuControl-container-manu{
+	vertical-align: middle !important;
+}
+.project-UIWidgetSocAutoManuControl-label-skipfailedsteplabel {
+	color: black;
+	font-weight: bold;
+	font-size: larger;
+	cursor: default;
+}
+
+.project-UIWidgetSocAutoManuControl-container-auto {
+}
+.project-UIWidgetSocAutoManuControl-container-manu {
+}
+
+.project-UIWidgetSocAutoManuControl-button-auto,
+.project-UIWidgetSocAutoManuControl-button-manu {
+	color: black;
+	font-weight: bold;
+    font-size: large;
+}
+
+.project-UIWidgetSocAutoManuControl-button-auto-up,
+.project-UIWidgetSocAutoManuControl-button-manu-up {
+}
+
+.project-UIWidgetSocAutoManuControl-button-auto-down,
+.project-UIWidgetSocAutoManuControl-button-manu-down {
+}
+
+.project-UIWidgetSocAutoManuControl-button-auto-disable,
+.project-UIWidgetSocAutoManuControl-button-manu-disable {
+}
+
+/* cursor styles */
+.project-UIWidgetSocAutoManuControl-button-auto label,
+.project-UIWidgetSocAutoManuControl-button-manu label {
+	cursor: pointer;
+}

@@ -1,0 +1,31 @@
+COMPONENT=Vis,Vis
+
+Init() {
+   english="Vis Initialization"
+   french="Initialisation du serveur Vis"
+}
+
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+
+HostServer(const char *) {
+   english="Server %s is not registered at the host server"
+   french="Le server %s n'est pas enregistre aupres du serveur de nom"
+}
+
+NoServer(const char *) {
+   english="Unable to connect to the %s server"
+   french="Impossibilité de se connecter au server %s"
+}
+
+ScadasoftFunction(const char *, int) {
+   english="SCADAsoft function %s error (minor=%d)"
+   french="Erreur fonction SCADAsoft %s (minor=%d)"
+}
+
+Internal(const char *) {
+   english="Internal error: %s"
+   french="Erreur interne: %s"
+}

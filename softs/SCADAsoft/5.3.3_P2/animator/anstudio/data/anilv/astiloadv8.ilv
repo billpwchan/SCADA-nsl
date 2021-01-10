@@ -1,0 +1,38 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astiloadv8"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astiloadv8.ilv"
+Palettes 2
+"defaultGadget" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+0 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 3
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 8 236 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&ok"  }   } 544 "apply"
+1
+1 "__ilvCallback" "applyCB"
+8192
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 172 237 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Cancel"  }   } 544 "cancel"
+1
+1 "__ilvCallback" "cancelCB"
+2048 "ListV8"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvStringList 8 9 237 217 F131 2 A A 0 0 0 0 0 1 0 0 V0 2 0 } 544 "ListV8"
+1
+1 "__ilvCallback" "selectListV8"
+4096 "cancel"
+Size 253 268
+GeometryHandlers
+1 100 253 253 0 253 0
+3 3 0 0 8  0 0 73 0  172 0 172 0
+ 3 172 0 172  0 0 73 1  0 0 8 0
+ 3 0 0 8  237 0 237 2  0 0 8 0
+1 100 268 268 0 268 0
+3 3 236 0 236  0 0 23 0  0 0 9 0
+ 3 237 0 237  0 0 23 1  0 0 8 0
+ 3 0 0 9  217 0 217 2  0 0 42 0
+EOF

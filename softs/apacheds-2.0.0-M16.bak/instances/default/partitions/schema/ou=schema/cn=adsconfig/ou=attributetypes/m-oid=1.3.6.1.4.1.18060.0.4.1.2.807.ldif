@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.807,ou=attributeTypes,cn=adsconfig,ou=schema
+m-length: 0
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.807
+m-name: ads-jdbmPartitionOptimizerEnabled
+m-description: Enables JDBM partition optimizer
+m-equality: booleanMatch
+entryParentId: c11acc1c-02ea-42e3-b600-cc0ca6feff74
+m-singlevalue: TRUE
+createTimestamp: 20140513151220.363Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+entryUUID: 5e085366-7789-4025-a4ba-86a5b5303732
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.426000Z#00000a#000#000000

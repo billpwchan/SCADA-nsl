@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_TLG_LSWT_graphic">
+        <root>
+            <svgGroup id="C1166B_TLG_LSWT_LSWT_Symbol_Undefined_LSWT_Symbol_Off_LSWT_Symbol_On">
+                <svgRef brickId="LSWT_Symbol_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_TLG_LSWT_LSWT_State_Selected_MO_LSWT_State_MO_LSWT_State_Empty_LSWT_State_Invalid_LSWT_State_Selected">
+                <svgRef brickId="LSWT_State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

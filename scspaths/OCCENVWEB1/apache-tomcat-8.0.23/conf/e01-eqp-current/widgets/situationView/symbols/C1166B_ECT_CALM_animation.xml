@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<animationConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/animation">
+    <animationRules id="C1166B_ECT_CALM_animation">
+        <animationRule>
+            <source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:computedStatusDataSourceType" statusComputerName="com.thalesgroup.scadasoft.stresstest.calculated.widget.C1166B_ECS_State" name="C1166B_ECS_State"></source>
+            <sourceType>STRING</sourceType>
+            <svgRefAnimation defaultValue="CALM_State_Empty" nodeId="C1166B_ECS_State_node">
+                <enumerationBinding>
+                    <item inputValue="0" value="CALM_State_Empty"></item>
+                    <item inputValue="2" value="CALM_State_Selected"></item>
+                    <item inputValue="4" value="CALM_State_Selected_MO"></item>
+                    <item inputValue="3" value="CALM_State_MO"></item>
+                    <item inputValue="1" value="CALM_State_Invalid"></item>
+                </enumerationBinding>
+            </svgRefAnimation>
+        </animationRule>
+        <animationRule>
+            <source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:statusDataSourceType" name="symbol1"></source>
+            <sourceType>INT</sourceType>
+            <svgRefAnimation defaultValue="CALM_Symbol_Undefined" nodeId="symbol1.value_node">
+                <enumerationBinding>
+                    <item inputValue="2" value="CALM_Symbol_Off"></item>
+                    <item inputValue="101" value="CALM_Symbol_On_Blink"></item>
+                    <item inputValue="102" value="CALM_Symbol_Off_Blink"></item>
+                    <item inputValue="0" value="CALM_Symbol_Undefined"></item>
+                    <item inputValue="1" value="CALM_Symbol_On"></item>
+                    <item inputValue="3" value="CALM_Symbol_Alarm"></item>
+                    <item inputValue="103" value="CALM_Symbol_Alarm_Blink"></item>
+                </enumerationBinding>
+            </svgRefAnimation>
+        </animationRule>
+    </animationRules>
+</animationConfiguration>

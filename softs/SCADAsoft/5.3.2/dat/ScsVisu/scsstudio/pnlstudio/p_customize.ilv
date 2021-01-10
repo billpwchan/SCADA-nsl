@@ -1,0 +1,14 @@
+// Ilv Version: 5.0
+// File generated: Thu Sep 02 15:32:50 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "p_customize"
+PathName "D:\\SCADASOFT\\SCSHOME\\dat\\ScsVisu\\scsstudio\\pnlstudio\\p_customize.ilv"
+Palettes 1
+0 F "gray" "steelblue4" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 1
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 8 7 184 217 F268435468 0 { IlvMessageItem 262169 4 16 4 "&CustomizeInstructions"  }   } 0
+0
+Size 200 347
+EOF

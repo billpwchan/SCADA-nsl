@@ -1,0 +1,12 @@
+// ILOG Views Studio Options for Dynamic ActiveX Generation (Windows platforms)
+
+studio {
+
+    panelFile			"ivstudio/dynactivex/studio.pnl";
+
+    command SaveAsActiveX {
+	label "&saveAsActiveXC";
+	prompt "&saveAsActiveXP";
+	category component;
+    }
+}

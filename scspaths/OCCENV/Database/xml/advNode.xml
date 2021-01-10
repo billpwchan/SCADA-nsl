@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="advNode" numAttributes="21" numInstances="0" numPeriod_MT="" numPeriod_ST="" period_MT="" period_ST="">
+<AttributeDescription attrType="VOLATILE" name="LISTIMAG" replicated="0">
+<StructVector numElementsList="10" numElementsStruct="2">
+<StructFieldDescription name="name">
+<Scalar size="257" valueType="CHARN"/>
+</StructFieldDescription>
+<StructFieldDescription name="type">
+<Scalar size="4" valueType="INT32"/>
+</StructFieldDescription>
+</StructVector>
+<StructVectorDefaultValue numElementsList="10">
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+</StructVectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="DX" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="DY" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="DZ" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ImageEast" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ImageNorth" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ImageSouth" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ImageUp" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ImageWest" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="X" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="Y" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="Z" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="alarmSynthesis" replicated="0">
+<Vector numElements="4">
+<Scalar size="4" valueType="INT32"/>
+</Vector>
+<VectorDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</VectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="functionalCat" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="geographicalCat" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="label" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="name" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="prevAlarmSynthesis" replicated="0">
+<Vector numElements="4">
+<Scalar size="4" valueType="INT32"/>
+</Vector>
+<VectorDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</VectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="type" replicated="0">
+<Scalar size="21" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+</Class>

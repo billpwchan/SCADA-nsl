@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="ScadaSoft">
+<InstanceDescription alias="ScadaSoft" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="ScadaSoft"/>
+</AttributDescription>
+<AttributDescription attrId="dbvDate">
+<ScalarValue value="05/05/2017 14:19:28"/>
+</AttributDescription>
+<AttributDescription attrId="dbvName">
+<ScalarValue value="SCL_666"/>
+</AttributDescription>
+<AttributDescription attrId="dpcTrigger" position="0" formula="{.dpcTrigger}" activation="ENABLE">
+<ScalarValue value="0"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ScadaSoft"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

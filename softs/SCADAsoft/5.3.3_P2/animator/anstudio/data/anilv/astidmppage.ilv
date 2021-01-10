@@ -1,0 +1,63 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:30:17 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astidmppage"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astidmppage.ilv"
+Palettes 3
+"defaultGadget" 2 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"AstInputPalette" 1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 11
+2 { 0 P 1
+[ IlvAttachments _IlvAttachments 464  1 0 1 0 1 35 2 ]
+0 IlvReliefLine 0 101 200 101 1 } 0
+0
+2 { 1 P 2
+[ IlvAttachments _IlvAttachments 128  1 5 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 5 109 62 23 F13 2 { IlvMessageItem 262145 4 16 4 "&apply"  }   } 512
+1
+1 "__ilvCallback" "applyB"
+0
+2 { 2 P 2
+[ IlvAttachments _IlvAttachments 192  1 5 1 5 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 131 109 64 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "cancelB"
+10240 "x"
+2 { 3 P 2
+[ IlvAttachments _IlvAttachments 48  1 10 1 5 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 10 5 79 23 F268435469 0 { IlvMessageItem 262169 4 16 4 "&upperLeftX"  }   } 0
+0
+2 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 9 28 79 23 F268435469 0 { IlvMessageItem 262169 4 16 4 "&upperLeftY"  }   } 0
+0
+2 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 9 51 79 23 F268435469 0 { IlvMessageItem 262169 4 16 4 "&width"  }   } 0
+0
+2 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 9 74 79 23 F268435469 0 { IlvMessageItem 262169 4 16 4 "&height"  }   } 0
+0
+2 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvNumberField 113 5 81 22 F6 2 2 6 0 "0" . , 6 0 0 2147483647 } 32 "x"
+4096 "Button_1"
+2 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvNumberField 113 28 81 22 F6 2 2 6 0 "0" . , 6 0 0 2147483647 } 32 "y"
+0
+2 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvNumberField 113 51 81 22 F6 2 2 6 0 "1" . , 6 0 1 2147483647 } 32 "w"
+0
+2 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvNumberField 113 74 81 22 F6 2 2 6 0 "1" . , 6 0 1 2147483647 } 32 "h"
+0
+Size 200 137
+EOF

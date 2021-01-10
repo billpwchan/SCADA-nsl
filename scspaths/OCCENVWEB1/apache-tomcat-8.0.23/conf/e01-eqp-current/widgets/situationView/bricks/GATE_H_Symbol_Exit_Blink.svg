@@ -1,0 +1,21 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="GATE_H_Symbol_Exit_Blink"><g id="_C1166B_SYMBOLS_AFC_C1166B_AFC_GATE_1_IN_SERVICE_ENTRY_EXIT_SVG" transform="translate(-100.0 -100.0)scale(1.0 1.0)rotate(180.0 100.0 100.0)"><rect x="30.0" fill="red" width="140.0" height="40.0" y="80.0" opacity="0"/><g id="AFC/C1166B_AFC_GATE_1_In_Service_Entry_Exit" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polygon fill="#000000" class="AnPolygon" fill-rule="evenodd" points="-34,-20 -34,19 -70,19 -70,-20 "/>
+
+  
+  <polygon fill="#218A21" class="AnPolygon" fill-rule="evenodd" points="33,-20 33,19 -34,19 -34,-20 "/>
+
+  
+  <polygon fill="#000000" class="AnPolygon" fill-rule="evenodd" points="69,-20 69,19 33,19 33,-20 "/>
+
+  
+  <polygon fill="#FFFFFF" class="AnPolygon" fill-rule="evenodd" points="21,0 -10,0 "/>
+
+  
+  <polygon fill="#FFFFFF" class="AnPolygon" fill-rule="evenodd" points="-10,-8 -10,7 -22,0 "/>
+
+  
+  <rect x="-11px" y="-1px" fill="#FFFFFF" width="32px" fill-rule="evenodd" class="AnRectangle" height="2px"/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

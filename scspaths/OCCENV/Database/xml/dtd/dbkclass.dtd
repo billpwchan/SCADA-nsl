@@ -1,0 +1,50 @@
+<!-- DtdVersion='2.3' -->
+<!ELEMENT Class (ClassDescription|AttributeDescription*)>
+<!ATTLIST Class
+	name CDATA #REQUIRED
+	numInstances CDATA #REQUIRED
+	numAttributes CDATA #REQUIRED
+	period_ST CDATA #REQUIRED
+	numPeriod_ST CDATA #REQUIRED
+	period_MT CDATA #REQUIRED
+	numPeriod_MT CDATA #REQUIRED
+	capacity CDATA #IMPLIED
+>
+<!ELEMENT ClassDescription (AttributeDescription*)>
+<!ELEMENT AttributeDescription ((Scalar, ScalarDefaultValue?) | (Vector, VectorDefaultValue?) | (StructVector, StructVectorDefaultValue?))>
+<!ATTLIST AttributeDescription
+	name CDATA #REQUIRED
+	attrType (STATIC | VOLATILE | HISTORIC_ST | HISTORIC_MT | HISTORIC_CHB) #REQUIRED
+	replicated (0 | 1) #REQUIRED
+>
+<!ELEMENT Scalar EMPTY>
+<!ATTLIST Scalar
+	size CDATA #REQUIRED
+	valueType (BOOLEAN | INT8 | UINT8 | INT16 | UINT16 | INT32 | UINT32 | INT64 | UINT64 | FLOAT | DOUBLE | COMPLEX | CHARN | REFERENCE | DATE | SHORTDATE | BITFIELD) #REQUIRED
+>
+<!ELEMENT ScalarDefaultValue EMPTY>
+<!ATTLIST ScalarDefaultValue
+	defaultValue CDATA #REQUIRED
+>
+<!ELEMENT Vector (Scalar)>
+<!ATTLIST Vector
+	numElements CDATA #REQUIRED
+>
+<!ELEMENT VectorDefaultValue (ScalarDefaultValue+)>
+<!ATTLIST VectorDefaultValue
+	numElements CDATA #REQUIRED
+>
+<!ELEMENT StructVector (StructFieldDescription+)>
+<!ATTLIST StructVector
+	numElementsList CDATA #REQUIRED
+	numElementsStruct CDATA #REQUIRED
+>
+<!ELEMENT StructFieldDescription (Scalar)>
+<!ATTLIST StructFieldDescription
+	name CDATA #REQUIRED
+>
+<!ELEMENT StructVectorDefaultValue (StructFieldDefaultValue+)>
+<!ATTLIST StructVectorDefaultValue
+	numElementsList CDATA #REQUIRED
+>
+<!ELEMENT StructFieldDefaultValue (ScalarDefaultValue+)>

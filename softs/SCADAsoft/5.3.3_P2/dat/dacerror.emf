@@ -1,0 +1,384 @@
+COMPONENT=DAC,Dac
+
+Init() {
+   english="Dac Initialization"
+   french="Initialisation du serveur Dac"
+}
+
+ORB( const char* ) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+
+FileNotFound( const char* ) {
+   english="The file %s does not exist"
+   french="Le fichier %s n'existe pas"
+}
+
+FileAlreadyOpen( const char* ) {
+   english="The file %s is already opened"
+   french="le fichier %s est deja ouvert"
+}
+
+FileAlreadyClosed( const char* ) {
+   english="The file %s is already closed"
+   french="le fichier %s est deja ferme"
+}
+
+ShallOpenFile( const char* ) {
+   english="The file %s shall already been opened"
+   french="Le fichier %s devrait etre deja ouvert"
+}
+
+VarEnv( const char* ) {
+   english="Environment variable '%s' not defined"
+   french="La variable d'environnement '%s' n'est pas definie"
+}
+
+EmptyNameFromEnvVar( const char* ) {
+   english="The environment variable '%s' defines an empty name"
+   french="La variable d'environnement '%s' definit un nom vide"
+}
+
+Parse( const char* ) {
+   english="Error parsing file '%s'"
+   french="Erreur de lecture dans le fichier '%s'"
+}
+
+ComDeviceList( const char*, int ) {
+   english="Incoherence in the device list between the name '%s' and its id %d"
+   french="Incoherence entre le nom '%s' et l'idf %u"
+}
+
+DeviceAlreadyDefined( const char* ) {
+   english="DacControl can not define again the %s device"
+   french="DacControl ne peut pas redefinir le composant %s"
+}
+
+DeviceAlreadyConfigured( const char* ) {
+   english="Device '%s' already configured, so delete and rebuild"
+   french="Composant '%s' deja configure: le detruire et le reconfigurer"
+}
+
+VariableAlreadyDefined( const char*, const char* ) {
+   english="'%s' can not define again the %s variable"
+   french="'%s' ne peut pas redefinir la %s variable"
+}
+
+LinkAlreadyDefined( const char*, const char* ) {
+   english="'%s' can not define again the link variable for address '%s'"
+   french="'%s' ne peut pas redefinir l'etat du lien pour l'adresse '%s'"
+}
+
+AddList( const char*, const char* ) {
+   english="Fail to add the element '%s' to the '%s'"
+   french="Element '%s' impossible a ajouter a la '%s'"
+}
+
+FindList( const char*, const char* ) {
+   english="Fail to find the element '%s' in the '%s'"
+   french="Element '%s' impossible a trouver dans la '%s'"
+}
+
+RemoveList( const char*, const char* ) {
+   english="Fail to delete the element '%s' from the '%s'"
+   french="Element '%s' impossible a retirer de la '%s'"
+}
+
+RemoveIntList( int, const char* ) {
+   english="Fail to delete the element %d from the '%s'"
+   french="Element '%s' impossible a retirer de la '%s'"
+}
+
+DeviceNotFound( const char* ) {
+   english="device bloc for '%s' not found, device not in list"
+   french="Composant '%s' non trouve: il n'est pas dans la liste"
+}
+
+UndefinedDevice( const char* ) {
+   english="undefined device for variable '%s'"
+   french="composant non defini pour la variable '%s'"
+}
+
+VariableNotFound( const char*, const char* ) {
+   english="Variable '%s' not found in the %s"
+   french="Variable '%s' non trouvee: elle n'est pas dans la %s"
+}
+
+ProcessNotFound( const char*, const char* ) {
+   english="'%s' process : %s"
+   french="process '%s' : %s"
+} 
+
+InFunction( const char* ) {
+   english="'%s' function returns an error"
+   french="La fonction '%s' retourne une erreur"
+}
+
+UnknownType( const char* ) {
+   english="unknown type for variable '%s'"
+   french="type inconnu pour la variable '%s'"
+}
+
+BadType( const char*, const char*, const char* ) {
+   english="the type of the %s variable '%s' shall be '%s'"
+   french="Le type de la %s variable '%s' doit etre '%s'"
+}
+
+IncompatibleType( const char*, const char* ) {
+   english="try to set a %s variable with a %s value"
+   french="on ne peut affecter a une variable de type %s une valeur de type %s"
+}
+
+NoStateEiv( const char* ) {
+   english="No state EIV for device '%s'"
+   french="Le composant '%s' n'a pas de pseudo-variable d'etat"
+}
+
+NoSpyEiv( const char* ) {
+   english="No spy EIV for device '%s'"
+   french="Le composant '%s' n'a pas de pseudo-variable de trace"
+}
+
+NoLinkEiv( const char* ) {
+   english="No link EIV for address '%s'"
+   french="L'adresse '%s' n'a pas de pseudo-variable d'etat du lien"
+}
+
+BadValue( int, const char*, const char * ) {
+   english="Unknown value %d received for %s variable '%s'"
+   french="Valeur inconnue %d recue pour la %s variable '%s'"
+}
+
+BadAddress( const char*, const char* ) {
+   english="EOV %s : bad address '%s'"
+   french="EOV %s : mauvaise adresse '%s'"
+}
+
+Connect( const char* ) {
+   english="can not connect to the address '%s'"
+   french=" impossible de se connecter a l'adresse '%s'"
+}
+
+ClientConnect( const char*, int, int ) {
+   english="device %s line %d port %d : connection failed"
+   french="equipement %s ligne %d port %d : echec de la connection"
+}
+
+ReadFileDescriptor( int ) {
+   english="Nothing read on fileDescriptor %d"
+   french="rien a lire sur le descripteur %d"
+}
+
+FileDescriptor( int ) {
+   english="Unknown file descriptor %d"
+   french="descripteur de fichier numero %d inconnu"
+}
+
+CloseFileDescriptor( int ) {
+   english="close file descriptor %d failed"
+   french="echec sur fermeture du descripteur %d"
+}
+
+Acknowledge() {
+   english="unable to acknowledge"
+   french="impossible d'accuser reception"
+}
+
+WrongAck() {
+   english="received message not recognised so send ack for wrong answer"
+   french="message recu non reconnu donc envoi ack de message inconnu"
+}
+
+AckReceived() {
+   english="the received message is an acknowledgment"
+   french="le message recu est un accuse de reception"
+}
+
+AckMissing( int ) {
+   english="%d messages sent without receiving any acknowledgement : disconnect"
+   french="%d mesage recus sans accuse de reception : deconnecter"
+}
+
+CutMessage() {
+   english="the received message is not complete"
+   french="le message recu n'est pas entier"
+}
+
+NoConnected() {
+   english="Can not decrement nbConnected, it is already nul"
+   french="On ne peut decrementer nbConnected, il vaut deja zero"
+}
+
+NoComLine() {
+   english="there is no line connected"
+   french="il n'y a pas de ligne de communication disponible"
+}
+
+DownloadDisable() {
+   english="the download bit is set but the server is not allowed to download the RTU"
+   french="le bit de chargement est a 1 mais le serveur n'est pas autorise a charger le RTU"
+}
+
+ConnectionCoherence( int ) {
+   english="The _currentComLine pointer is not coherent with nbConnected (%d)"
+   french="Le pointer _currentComLine n'est pas coherent avec le nombre de lignes connectees (%d)"
+}
+
+CommLine( const char*, int ) {
+   english="device %s : no current communication line defined ( %d connected )"
+   french="equipement %s : pas de ligne de communication ouverte ( %d connecte(s) )"
+}
+
+NoBuffer( const char* ) {
+   english="The buffer to write is empty at address %s"
+   french="La buffer a ecrire est vide, adresse %s"
+}
+
+NoDacComLaunched( const char* ) {
+   english="No state variable so DacCom can not be launched for device '%s'"
+   french="Le composant '%s' n'a pas de variable d'etat, on ne peut pas lancer le DacCom"
+}
+
+NoFork() {
+   english="process can not fork"
+   french="le process ne peut pas effectuer fork"
+}
+
+CreatingSocket() {
+   english="Error in creating a new socket"
+   french="impossible de creer une nouvelle socket"
+}
+
+Communication( const char*, int ) {
+   english="Can not communicate with line:%s on the file descriptor %d"
+   french="Impossible d'etablir la communication avec la ligne:%s sur le file descriptor %d"
+}
+
+AlreadyConnected( int ) {
+   english="The communication line %d is already IN_SERVICE"
+   french="la ligne %d est deja en service"
+}
+
+InvalidatingVariable( const char* ) {
+   english="invalidating variable '%s' not found"
+   french="variable d'invalidation '%s' inconnue"
+}
+
+Subscribe( int ) {
+   english="Some variables are missing for the subscriber %d"
+   french="Des variables sont manquantes pour l'abonnement %d"
+}
+
+Notification( int ) {
+   english="the subscriber %d can not be notified"
+   french="l'abonne %d ne peut etre notifie"
+}
+
+NoNotification() {
+   english="value lower than dedband, no notification needed"
+   french="value inferieure au deadband: pas de notification"
+}
+
+AppliFunction( const char*, const char*, const char* ) {
+   english="The function '%s' needs the variable '%s' to be of type %s"
+   french="La fonction '%s' oblige la variable '%s' a etre de type %s"
+}
+
+Parameters( const char*, int ) {
+   english="Function '%s' uses %d parameter(s)"
+   french="La function '%s' utilise %d parametre(s)"
+}
+
+TypeParameters( const char*, const char*, const char* ) {
+   english="Function '%s' for variable '%s' uses parameters of type '%s'"
+   french="La function '%s' pour la variable '%s' utilise des parametres de type '%s'"
+}
+
+CheckFunction( const char*, const char* ) {
+   english="variable '%s' : check function '%s' unknown"
+   french="variable'%s' : fonction de verification '%s' inconnue"
+}
+
+TransfoFunction( const char*, const char* ) {
+   english="variable '%s' : transformation function '%s' unknown"
+   french="variable'%s' : fonction de transformation '%s' inconnue"
+}
+
+SimServer( int, int ) {
+   english="An error was detected by the server: major = %d, minor = %d (see the server log)"
+   french="Une erreur a ete detectee par le serveur : majeur = %d, mineur = %d (voir les traces du serveur)"
+}
+
+SimNoNotifCb() {
+   english="Notification callback is not defined"
+   french="La callback de notification n'est pas definie"
+}
+
+SimSubscrLock() {
+   english="Subscriptions currently used by another client"
+   french="Les abonnements sont deja utilises par un autre client"
+}
+
+SimBadSpecLine( const char*, const char* ) {
+   english="Bad line format '%s' in file '%s'"
+   french="Mauvais format dans la ligne '%s' du fichier '%s'"
+}
+
+SimAppendSpec() {
+   english="Cannot append a reaction specification to the list"
+   french="Impossible d'ajouter une specification de reaction a la liste"
+}
+
+SimMatchSpec( const char* ) {
+   english="Variable '%s' does not match any specification"
+   french="La variable '%s' ne correspond a aucune specification de reaction"
+}
+
+SimVarNotFound( const char* ) {
+   english="No variables found for name specification '%s'"
+   french="Aucune variable trouvee pour la specification de nom '%s'"
+}
+
+MaxReached( long, const char* ) {
+   english="Maximum value %d for %s is reached"
+   french="Valeur maximum %d atteinte pour %s"
+}
+
+Generic( const char* ) {
+   english="Error: %s"
+   french="Erreur: %s"
+}
+
+Implementation(const char *) {
+   english="Server %s is not registered at the host server or is unavailable"
+   french="Le server %s n'est pas enregistre aupres du server de nom ou n'est pas disponible"
+}
+Callback() {
+   english="Error when callback invoked"
+   french="Erreur lors de la callback"
+}
+DisConnect( const char* ) {
+   english="Cannot disconnect to the address '%s'"
+   french=" Impossible de se déconnecter de l'adresse '%s'"
+}
+ThreadStartFailed() {
+   english="Cannot create the thread."
+   french=" Impossible de créer la thread."
+}
+ThreadStopFailed() {
+   english="Cannot stop the thread."
+   french=" Impossible d'arréter la thread."
+}
+ThreadPostFailed() {
+   english="Cannot post message to the thread."
+   french=" Impossible de poster un message à la thread."
+}
+CommunicationFailed( const char* ) {
+   english="Can not communicate to the address %s"
+   french="Impossible de communiquer avec l'adresse %s"
+}
+WdgFailed( const char* , int ) {
+   english="Line '%s' : The maximum of Watchdog retries (%d) has been reached"
+   french="Ligne '%s' : Le nombre maximum de tentative du controle du chien de garde (%d) a été atteint"
+}

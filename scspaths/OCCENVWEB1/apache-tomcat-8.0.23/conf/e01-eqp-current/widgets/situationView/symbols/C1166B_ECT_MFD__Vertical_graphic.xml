@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_ECT_MFD__Vertical_graphic">
+        <root>
+            <svgGroup id="C1166B_ECT_MFD__Vertical_MFD__V_Decor_Trip_MFD__V_Decor_Empty_MFD__V_Decor_MO_MFD__V_Decor_PTW_MFD__V_Decor_NotInService">
+                <svgRef brickId="MFD__V_Decor_Empty" id="tag2.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_MFD__Vertical_MFD__V_State_Selected_MFD__V_State_Empty_MFD__V_State_Selected_MO_MFD__V_State_MO_MFD__V_State_Invalid">
+                <svgRef brickId="MFD__V_State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_MFD__Vertical_MFD__V_Symbol_Alarm_MFD__V_Symbol_Closed_MFD__V_Symbol_Opened_MFD__V_Symbol_Transit_MFD__V_Symbol_Undefined_MFD__V_Symbol_Blinking_MFD__V_Symbol_Transit_Blink_MFD__V_Symbol_Opened_Blink_MFD__V_Symbol_Closed_Blink">
+                <svgRef brickId="MFD__V_Symbol_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_MFD__Vertical_MFD__V_Decor_Empty_L_MFD__V_Decor_Local">
+                <svgRef brickId="MFD__V_Decor_Empty_L" id="tag3.value_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

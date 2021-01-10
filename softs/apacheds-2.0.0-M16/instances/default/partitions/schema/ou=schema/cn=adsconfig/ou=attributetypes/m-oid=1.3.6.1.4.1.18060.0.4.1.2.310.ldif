@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.310,ou=attributeTypes,cn=adsconfig,ou=schema
+m-length: 0
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.310
+m-name: ads-replConsumerImpl
+m-description: The FQCN of the replication consumer/client handler
+m-equality: caseExactMatch
+entryParentId: c11acc1c-02ea-42e3-b600-cc0ca6feff74
+m-substr: caseExactSubstringsMatch
+m-ordering: caseExactOrderingMatch
+m-singlevalue: TRUE
+createTimestamp: 20140513151220.066Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.44
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+entryUUID: 7f854ca4-f41b-44ae-899e-7ccfd013d68a
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.411000Z#000006#000#000000

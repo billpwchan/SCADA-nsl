@@ -1,0 +1,48 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="ESC_MOWS_Outbound_Blink"><g id="_C1166B_SYMBOLS_ESC_C1166B_ESC_MOWS_OUTBOUND_SVG" transform="translate(-100.0 -100.0)scale(1.0 1.0)"><rect x="50.0" fill="red" width="100.0" height="26.0" y="87.0" opacity="0"/><g id="ESC/C1166B_ESC_MOWS_Outbound" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <line fill="none" x1="-44px" x2="-44px" y1="-11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-39px" x2="-39px" y1="-11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-34px" x2="-34px" y1="-11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-29px" x2="-29px" y1="-11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-24px" x2="-24px" y1="-11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="25px" x2="25px" y1="-11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="30px" x2="30px" y1="-11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="35px" x2="35px" y1="-11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="40px" x2="40px" y1="-11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="45px" x2="45px" y1="-11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <polygon fill="#218A21" class="AnPolygon" fill-rule="evenodd" points="-24,11 -24,-11 25,-11 25,11 -24,11 "/>
+
+  
+  <line fill="none" x1="-49px" x2="50px" y1="-11px" y2="-11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="-49px" x2="50px" y1="11px" y2="11px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="34px" x2="-33px" y1="0px" y2="0px" class="AnLine" stroke="#000000" stroke-width="2px"/>
+
+  
+  <polygon fill="#000000" class="AnPolygon" fill-rule="evenodd" points="30,4 30,-5 37,0 "/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_POW_L03SCHBATT" resolution="2.62468671679 2.18723893066 1.82269910888 1.51891592407 1.26576327006 1.05480272505 0.879002270874 0.732501892395 0.610418243662 0.508681869718" maxExtent="0.0 0.0 4189.0 2139.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_POW_L03SCHBATT.svg" width="4189.0" height="2139.0" bounds="0.0 0.0 4189.0 2139.0" name="C1166B_POW_L03SCHBATT" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="2087.0" y="1341.0" symbolId="C1166B_LV__BC__" entityId="OCC_CTVLV_BC__0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

@@ -1,0 +1,757 @@
+// IlvMessageDatabase 2.2 Thu Jul 13 14:56:44 1995
+"&everywhere" 2
+"english" "Everywhere"
+"french" "Partout"
+"&Name" 2
+"english" "Name"
+"french" "Nom"
+"&Interactor" 2
+"english" "Interactor"
+"french" "Interacteur"
+"&Thickness" 2
+"english" "Thickness"
+"french" "Epaisseur"
+"&SelectByName" 2
+"french" "Sélection par nom"
+"english" "Select by name"
+"&SelectSmartSet" 2
+"french" "Sélection de SmartSet"
+"english" "Select SmartSet"
+"&PrinterSetup" 2
+"french" "Imprimante..."
+"english" "Printer Setup"
+"&accelerators..." 2
+"french" "Accélérateurs..."
+"english" "Accelerators..."
+"&add" 2
+"french" "Ajouter"
+"english" "Add"
+"&align" 2
+"french" "Aligner"
+"english" "Align"
+"&alignment" 2
+"english" "Alignment"
+"french" "Alignement"
+"&append" 2
+"french" "Ajouter"
+"english" "Append"
+"&apply" 2
+"french" "Valider"
+"english" "Apply"
+"&applyResize" 2
+"french" "Appliquer le retaillage"
+"english" "Apply resize"
+"&attachments" 2
+"english" "Attachments"
+"french" "Attachements"
+"&autoResize" 2
+"french" "Retaillage au chargement"
+"english" "Auto resize"
+"&bitmap" 2
+"french" "Bitmap"
+"english" "Bitmap"
+"&bottomMargin" 2
+"english" "Bottom Margin"
+"french" "Marge en bas"
+"&callback" 2
+"english" "Callback"
+"french" "Callback"
+"&callback..." 2
+"french" "Callback..."
+"english" "Callback..."
+"&cancel" 2
+"french" "Annuler"
+"english" "Cancel"
+"&center" 2
+"english" "Center"
+"french" "Centre"
+"&changeDelay" 2
+"french" "Vitesse..."
+"english" "Change Delay..."
+"&check" 2
+"french" "Vérifier"
+"english" "Check"
+"&chooseLanguage" 2
+"french" "Langage courant"
+"english" "Choose language"
+"&clear" 2
+"english" "Clear"
+"french" "Effacer"
+"&close" 2
+"french" "Fermer"
+"english" "Close"
+"&copy" 2
+"english" "Copy"
+"french" "Copier"
+"&cut" 2
+"english" "Cut"
+"french" "Couper"
+"&definitions" 2
+"english" "Definitions"
+"french" "Définitions"
+"&display" 2
+"french" "Affichage"
+"english" "Display"
+"&doubleBuffering" 2
+"french" "Double Buffering"
+"english" "Double Buffering"
+"&edit" 2
+"french" "Edition"
+"english" "Edit"
+"&editable" 2
+"english" "Editable"
+"french" "Editable"
+"&exclusiveInspector" 2
+"french" "Inspecteur exclusif"
+"english" "Exclusive Inspector"
+"&file" 2
+"french" "Fichier"
+"english" "File"
+"&fileType" 2
+"english" "File type"
+"french" "Type de fichier"
+"&fitToContents" 2
+"french" "Ajuster la taille..."
+"english" "Fit to contents..."
+"&flushright" 2
+"english" "Flush right"
+"french" "Coller à droite"
+"&graphicset" 2
+"english" "Graphic set"
+"french" "Groupe Graphique"
+"&group" 2
+"french" "Groupe"
+"english" "Group"
+"&help" 2
+"french" "Aide"
+"english" "Help"
+"&horizontalScrollBar" 2
+"french" "Défileur horizontal"
+"english" "Horizontal ScrollBar"
+"&insert" 2
+"english" "Insert"
+"french" "Insérer"
+"&insert..." 2
+"english" "Insert..."
+"french" "Insérer..."
+"&inspector" 2
+"french" "Inspecteur"
+"english" "Inspector"
+"&itemprops" 2
+"english" "Item properties"
+"french" "Propriétés d'items"
+"&label" 2
+"french" "Libellé"
+"english" "Label"
+"&language" 2
+"english" "Language"
+"french" "Langue"
+"&languages" 2
+"english" "Languages"
+"french" "Langues"
+"&layer..." 2
+"french" "Couche..."
+"english" "Layer..."
+"&layer?" 2
+"french" "Couche ?"
+"english" "Layer?"
+"&left" 2
+"english" "Left"
+"french" "Gauche"
+"&leftMargin" 2
+"english" "Left Margin"
+"french" "Marge à gauche"
+"&margin?" 2
+"french" "Marge ?"
+"english" "Margin?"
+"&matrix" 2
+"french" "Matrice"
+"english" "Matrix"
+"&menu" 2
+"french" "Menu"
+"english" "Menu"
+"&menu_C++..." 2
+"french" "^C++..."
+"english" "^C++..."
+"&menu_Gadgets" 2
+"english" "^Gadgets"
+"french" "^Gadgets"
+"&menu_Graphics" 2
+"english" "Grap^hics"
+"french" "Grap^hics"
+"&menu_Redo" 2
+"french" "^Répéter"
+"english" "^Redo"
+"&menu_Version" 2
+"english" "On ^Version"
+"french" "^Version"
+"&menu_accelerators..." 2
+"french" "^Accélérateurs..."
+"english" "On ^Accelerators..."
+"&menu_alignment" 2
+"english" "^Alignment"
+"french" "^Alignement"
+"&menu_editLayers" 2
+"english" "La^yers..."
+"french" "La^yers..."
+"&menu_applyResize" 2
+"french" "A^ppliquer le retaillage"
+"english" "^Apply resize"
+"&menu_attachments" 2
+"english" "A^ttachments"
+"french" "A^ttachements"
+"&menu_autoResize" 2
+"french" "R^etaillage au chargement"
+"english" "A^uto resize"
+"&menu_changeDelay" 2
+"french" "^Vitesse..."
+"english" "^Change Delay..."
+"&menu_clear" 2
+"english" "C^lear"
+"french" "E^ffacer"
+"&menu_copy" 2
+"french" "Copi^er"
+"english" "^Copy"
+"&menu_cut" 2
+"french" "C^ouper"
+"english" "Cu^t"
+"&menu_display" 2
+"french" "^Affichage"
+"english" "^Display"
+"&menu_display_append" 2
+"french" "^Ajouter"
+"english" "^Append"
+"&menu_display_chooseLanguage" 2
+"french" "^Langage courant"
+"english" "^Choose language"
+"&menu_display_reset" 2
+"french" "^Rafraîchir"
+"english" "^Reset"
+"&menu_doubleBuffering" 2
+"french" "Double ^Buffering"
+"english" "^Double Buffering"
+"&menu_exclusiveInspector" 2
+"french" "Inspecteur e^xclusif"
+"english" "^Exclusive Inspector"
+"&menu_fitToContents" 2
+"french" "^Ajuster la taille..."
+"english" "^Fit to contents..."
+"&menu_graphicset" 2
+"english" "^Graphic set"
+"french" "^Groupe Graphique"
+"&menu_group" 2
+"english" "^Group"
+"french" "^Grouper"
+"&menu_insert..." 2
+"french" "In^sérer..."
+"english" "^Insert..."
+"&menu_inspector" 2
+"french" "^Inspecteur"
+"english" "^Inspector"
+"&menu_language" 2
+"english" "^Language"
+"french" "^Langue"
+"&menu_language_new..." 2
+"french" "^Nouveau langage..."
+"english" "^New language..."
+"&menu_language_remove" 2
+"french" "^Supprimer langage"
+"english" "^Remove language"
+"&menu_menu" 2
+"french" "^Menu"
+"english" "^Menu"
+"&menu_message" 2
+"french" "^Message"
+"english" "^Message"
+"&menu_messages" 2
+"french" "^Messages"
+"english" "^Messages"
+"&menu_new" 2
+"french" "^Nouveau"
+"english" "^New"
+"&menu_new_message" 2
+"french" "^Nouveau message"
+"english" "^New message"
+"&menu_new_message..." 2
+"french" "Nouveaux ^messages..."
+"english" "New ^messages..."
+"&menu_opaqueMove" 2
+"french" "^Déplacement opaque"
+"english" "^Opaque Move"
+"&menu_paste" 2
+"english" "^Paste"
+"french" "^Coller"
+"&menu_play" 2
+"french" "^Jouer"
+"english" "^Play"
+"&menu_print" 2
+"french" "^Imprimer"
+"english" "^Print"
+"&menu_prop_callback..." 2
+"french" "^Callback..."
+"english" "^Callback..."
+"&menu_prop_layer..." 2
+"french" "C^ouche..."
+"english" "^Layer..."
+"&menu_prop_tooltip..." 2
+"english" "Tool Tip..."
+"french"  "Bulle d'aide..."
+"&menu_prop_name..." 2
+"french" "^Nom..."
+"english" "^Name..."
+"&menu_prop_smartset_name..." 2
+"french" "No^m du SmartSet..."
+"english" "S^martSet name..."
+"&menu_prop_sensitivity" 2
+"french" "^Sensibilité"
+"english" "^Sensitivity"
+"&menu_prop_thickness..." 2
+"french" "E^paisseur..."
+"english" "^Thickness..."
+"&menu_prop_language" 2
+"french" "^Langue"
+"english" "L^anguage"
+"&menu_prop_lookandfeel" 2
+"french" "S^tyle"
+"english" "L^ook & feel"
+"&menu_properties" 2
+"french" "^Propriétés"
+"english" "^Properties"
+"&menu_ps..." 2
+"french" "Pos^tScript..."
+"english" "Pos^tScript..."
+"&menu_quit" 2
+"french" "^Quitter"
+"english" "^Quit"
+"&menu_recorder" 2
+"english" "^Recorder"
+"french" "E^nregistreur"
+"&menu_remove_message" 2
+"french" "^Supprimer"
+"english" "^Remove"
+"&menu_resources" 2
+"english" "^Resources"
+"french" "^Ressources"
+"&menu_save..." 2
+"french" "^Enregistrer..."
+"english" "^Save..."
+"&menu_saveAs..." 2
+"french" "En^registrer sous..."
+"english" "Save ^As..."
+"&menu_search_message..." 2
+"french" "^Chercher..."
+"english" "^Search..."
+"&menu_selectAll" 2
+"english" "^Select all"
+"french" "^Sélectionner tout"
+"&menu_selectByName..." 2
+"french" "Sélection par ^nom..."
+"english" "Select by ^name..."
+"&menu_selectSmartSet..." 2
+"french" "Sélection de S^martSet..."
+"english" "Select S^martSet..."
+"&menu_selector" 2
+"french" "^Sélectionneur"
+"english" "^Selector"
+"&menu_viewrectcontents" 2
+"french" "^Contenu des vues rectangle"
+"english" "View rectangle ^contents"
+"&menu_sortName_message" 2
+"english" "Sor^t by name"
+"french" "^Trier par nom"
+"&menu_sortlabel_message" 2
+"english" "Sort by ^definition"
+"french" "Trier par ^définition"
+"&menu_start" 2
+"french" "^Commencer"
+"english" "St^art"
+"&menu_stop" 2
+"english" "S^top"
+"french" "^Arrêter"
+"&menu_tools" 2
+"english" "^Tools"
+"french" "^Outils"
+"&menu_undo" 2
+"french" "^Annuler"
+"english" "^Undo"
+"&menu_ungroup" 2
+"english" "^Ungroup"
+"french" "^Dégrouper"
+"&menu_view" 2
+"english" "^View"
+"french" "^Vue"
+"&message" 2
+"french" "Message"
+"english" "Message"
+"&messages" 2
+"french" "Messages"
+"english" "Messages"
+"&name..." 2
+"french" "Nom..."
+"english" "Name..."
+"&name?" 2
+"french" "Nom ?"
+"english" "Name?"
+"&smartSetName?" 2
+"french" "Nom de SmartSet ?"
+"english" "SmartSet name?"
+"&new" 2
+"french" "Nouveau"
+"english" "New"
+"&new..." 2
+"french" "Nouveau..."
+"english" "New..."
+"&ok" 2
+"french" "Ok"
+"english" "Ok"
+"&one" 2
+"french" "Un"
+"english" "One"
+"&opaqueMove" 2
+"french" "Déplacement opaque"
+"english" "Opaque Move"
+"&open..." 2
+"english" "Open..."
+"french" "Ouvrir..."
+"&paste" 2
+"english" "Paste"
+"french" "Coller"
+"&play" 2
+"french" "Jouer"
+"english" "Play"
+"&position" 2
+"french" "Position"
+"english" "Position"
+"&print" 2
+"english" "Print"
+"french" "Imprimer"
+"&properties" 2
+"french" "Propriétés"
+"english" "Properties"
+"&ps..." 2
+"english" "PostScript..."
+"french" "PostScript..."
+"&quit" 2
+"french" "Quitter"
+"english" "Quit"
+"&readonly" 2
+"english" "Read only"
+"french" "Lecture"
+"&recorder" 2
+"french" "Enregistreur"
+"english" "Recorder"
+"&remove" 2
+"french" "Retirer"
+"english" "Remove"
+"&reset" 2
+"french" "Rafraîchir"
+"english" "Reset"
+"&resources" 2
+"english" "Resources"
+"french" "Ressources"
+"&right" 2
+"english" "Right"
+"french" "Droite"
+"&rightMargin" 2
+"english" "Right Margin"
+"french" "Marge à droite"
+"&run" 2
+"french" "Exécuter"
+"english" "Run"
+"&save" 2
+"french" "Enregistrer"
+"english" "Save"
+"&save..." 2
+"english" "Save..."
+"french" "Enregistrer..."
+"&saveAs..." 2
+"english" "Save As..."
+"french" "Enregistrer sous..."
+"&scrolledMatrix" 2
+"french" "Matrice défilée"
+"english" "Scrolled Matrix"
+"&search" 2
+"french" "Chercher"
+"english" "Search"
+"&search." 2
+"french" "Chercher..."
+"english" "Search..."
+"&selectAll" 2
+"english" "Select all"
+"french" "Tout sélectionner"
+"&selector" 2
+"french" "Sélectionneur"
+"english" "Selector"
+"&selectviewrect" 2
+"french" "Vue rectangle sélectionnable"
+"english" "Selectable view rectangle"
+"&Sensitive" 2
+"english" "Sensitive"
+"french" "Sensible"
+"&sensitive" 2
+"english" "Sensitive"
+"french" "Sensible"
+"&sheet" 2
+"french" "Tableur"
+"english" "Sheet"
+"&sortName" 2
+"english" "Sort by name"
+"french" "Trier par nom"
+"&sortlabel" 2
+"english" "Sort by definition"
+"french" "Trier par définition"
+"&start" 2
+"french" "Commencer"
+"english" "Start"
+"&state" 2
+"french" "Etat"
+"english" "State"
+"&stop" 2
+"english" "Stop"
+"french" "Arrêter"
+"&string" 2
+"english" "String"
+"french" "Chaîne"
+"&thickness..." 2
+"french" "Epaisseur..."
+"english" "Thickness..."
+"&thickness?" 2
+"french" "Epaisseur ?"
+"english" "Thickness?"
+"&three" 2
+"french" "Trois"
+"english" "three"
+"&tools" 2
+"english" "Tools"
+"french" "Outils"
+"&topMargin" 2
+"english" "Top Margin"
+"french" "Marge en haut"
+"&two" 2
+"french" "Deux"
+"english" "two"
+"&undo" 2
+"english" "Undo"
+"french" "Défaire"
+"&ungroup" 2
+"english" "Ungroup"
+"french" "Dégrouper"
+"&validate" 2
+"french" "Valider"
+"english" "Validate"
+"&version" 2
+"english" "Version"
+"french" "Version"
+"&verticalScrollBar" 2
+"french" "Défileur vertical"
+"english" "Vertical ScrollBar"
+"&view" 2
+"english" "View"
+"french" "Vue"
+"&what" 2
+"french" "Quoi?"
+"english" "What"
+"&where" 2
+"french" "Où ?"
+"english" "Where?"
+"english" 2
+"english" "English"
+"french" "Anglais"
+"french" 2
+"english" "French"
+"french" "Français"
+"&menu_loadIcon" 2
+"french" "^Charger une icône"
+"english" "^Load icon"
+"&menu_loadIcon_regular" 2
+"french" "^Opaque"
+"english" "^Opaque"
+"&menu_loadIcon_transparent" 2
+"french" "^Transparente"
+"english" "^Transparent"
+"&menu_loadIcon_zoomable" 2
+"french" "^Zoomable"
+"english" "^Zoomable"
+"&menu_loadIcon_zoomableTransparent" 2
+"french" "Zoo^mable et transparente"
+"english" "Zoo^mable & transparent"
+"&decPoint" 2
+"french" "Séparateur décimal"
+"english" "Decimal point"
+"&thousandSep" 2
+"french" "Séparateur milliers"
+"english" "Thousand separator"
+"&precision" 2
+"french" "Précision"
+"english" "Precision"
+"&float" 2
+"french" "Flottant"
+"english" "Floating"
+"&scientific" 2
+"french" "Scientifique"
+"english" "Scientific"
+"&padright" 2
+"english" "Padright"
+"french"  "Remplissage"
+"&showpoint" 2
+"english" "Show point"
+"french"  "Montrer le point"
+"&thousands" 2
+"french" "Milliers"
+"english" "Thousands"
+"&day" 2
+"french" "Jour"
+"english" "Day"
+"&month" 2
+"french" "Mois"
+"english" "Month"
+"&year" 2
+"french" "Année"
+"english" "Year"
+"&value" 2
+"french" "Valeur"
+"english" "Value"
+"&separator" 2
+"french" "Séparateur"
+"english" "Separator"
+"&first" 2
+"english" "First"
+"french"  "Premier"
+"&middle" 2
+"english" "Middle"
+"french"  "Milieu"
+"&last" 2
+"english" "Last"
+"french"  "Dernier"
+"&EvPlayerSpeed" 2
+"english" "Event Player Setting"
+"french"  "Réglage de l'Event Player"
+"&delay" 2
+"english" "Delay"
+"french"  "Période"
+"&fast" 2
+"english" "Fast"
+"french"  "Rapide"
+"&slow" 2
+"english" "Slow"
+"french"  "Lent"
+"&DumpType" 2
+"english" "Dump type"
+"french"  "Type de dump"
+"&DumpArea" 2
+"english" "Dump area"
+"french"  "Zone de dump"
+"&DumpAreaV" 2
+"english" "Visible area"
+"french"  "Zone visible"
+"&DumpAreaA" 2
+"english" "All"
+"french"  "Tout"
+"&DumpAreaS" 2
+"english" "Selection"
+"french"  "Sélection"
+"&PaperFormat" 2
+"english" "Paper format"
+"french"  "Format de papier"
+"&PaperFormatDefault" 2
+"english" "Default"
+"french"  "Par défaut"
+"&OutputSize" 2
+"english" "Output size"
+"french"  "Zone de sortie"
+"&OutputSizeKSF" 2
+"english" "Keep scaling factor"
+"french"  "Pas de retaillage"
+"&OutputSizeWP" 2
+"english" "Whole page"
+"french"  "Toute la page"
+"&OutputSizePA" 2
+"english" "Page Area"
+"french"  "Zone de la page"
+"&ColorPS" 2
+"english" "Full color"
+"french"  "En couleurs"
+"&upperLeftX" 2
+"english" "Upper Left X"
+"french"  "X haut/gauche"
+"&upperLeftY" 2
+"english" "Upper Left Y"
+"french"  "Y haut/gauche"
+"&Portrait" 2
+"english" "Portrait"
+"french"  "Portrait"
+"&Landscape" 2
+"english" "Landscape"
+"french"  "Paysage"
+"&NoProjectName" 2
+"english" "The project has no name."
+"french"  "Le projet n'a pas de nom."
+"&notebook" 2
+"english" "Notebook"
+"french"  "Notebook"
+"&pads" 2
+"english" "Tabs"
+"french"  "Pages"
+"&verticalLabels" 2
+"english" "Vertical Labels"
+"french"  "Libellés verticaux"
+"&padmargin" 2
+"english" "Tab margin"
+"french"  "Marge en-tete"
+"&pageMargins" 2
+"english" "Page Margins"
+"french"  "Marges de page"
+"&fliplabels" 2
+"english" "Flip labels"
+"french"  "Libellés inversés"
+"&notebookShouldHaveAPage" 2
+"english" "Notebook should have at least one page."
+"french"  "Le notebook doit avoir une page."
+"&mmargins" 2
+"english" "^Margins"
+"french"  "^Marges"
+"&tabGroup" 2
+"english" "Tab Group"
+"french"  "Groupe Tab"
+"&in" 2
+"english" "In"
+"french"  "Entrant"
+"&out" 2
+"english" "Out"
+"french"  "Sortant"
+"&etchedIn" 2
+"english" "Etched In"
+"french"  "Contour entrant"
+"&etchedOut" 2
+"english" "Etched Out"
+"french"  "Contour sortant"
+"&ignoreSize" 2
+"english" "Ignore Size"
+"french"  "Ignorer la taille"
+"&ignoreBG" 2
+"english" "Ignore Background"
+"french"  "Ignorer couleur"
+"&compositeEmptyConfirm" 2 
+"english" "Empty the selected composite?"
+"french"  "Vider le composite sélectionné ?"
+"&import..." 2
+"english" "Import..."
+"french"  "Importer..."
+"&listSelectionMode" 2
+"english" "Selection Mode"
+"french"  "Mode de Sélection"
+"&Extended" 2
+"english" "Extended"
+"french"  "Etendu"
+"&Single" 2
+"english" "Single"
+"french"  "Simple"
+"&Multiple" 2
+"english" "Multiple"
+"french"  "Multiple"
+"&Browse" 2
+"english" "Browse"
+"french"  "Browse"
+"&SingleBrowse" 2
+"english" "Browse Single"
+"french"  "Browse Simple"

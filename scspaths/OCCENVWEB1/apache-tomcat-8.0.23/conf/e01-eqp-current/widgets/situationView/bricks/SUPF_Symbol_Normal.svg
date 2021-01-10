@@ -1,0 +1,16 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="SUPF_Symbol_Normal"><g id="_C1166B_SYMBOLS_LV__C1166B_LV__SUPF_2_NORMAL_SVG" transform="translate(-100.0 -98.585785)scale(1.0 1.0)"><rect x="50.0" fill="red" width="100.0" height="100.0" y="50.0" opacity="0"/><g id="LV_/C1166B_LV__SUPF_2_Normal" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-49,48 48,-49 48,48 -49,48 -49,-49 48,-49 " stroke="#218A21"/>
+
+  
+  <line fill="none" x1="31px" x2="3px" y1="25px" y2="25px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <line fill="none" x1="40px" x2="-3px" y1="40px" y2="40px" class="AnLine" stroke="#218A21" stroke-width="2px"/>
+
+  
+  <path fill="none" stroke-width="2px" d="M-45,-30 C-40,-42 -20,-42 -14,-32 " class="AnSpline" stroke="#218A21"/>
+  
+  <path fill="none" stroke-width="2px" d="M-14,-32 C-6,-23 12,-17 19,-35 " class="AnSpline" stroke="#218A21"/>
+</g></g></g></svg>

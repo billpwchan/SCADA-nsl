@@ -1,0 +1,14 @@
+LOG:  database system was shut down at 2017-02-17 11:44:32 HKT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "syau" does not exist
+FATAL:  database "syau" does not exist
+FATAL:  database "syau" does not exist
+FATAL:  role "postgres" does not exist
+LOG:  statistics collector process (PID 7564) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  autovacuum launcher process (PID 1292) was terminated by exception 0xC000013A
+HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+LOG:  terminating any other active server processes
+^C

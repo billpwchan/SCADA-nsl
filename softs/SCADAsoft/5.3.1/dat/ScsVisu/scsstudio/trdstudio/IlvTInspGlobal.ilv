@@ -1,0 +1,191 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 17:29:35 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "IlvTInspGlobal"
+PathName "D:\\SCADASOFT\\SCSHOME\\dat\\ScsVisu\\scsstudio\\trdstudio\\IlvTInspGlobal.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 25
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 30 21 75 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Directions"  }   } 0
+0
+1 { 1 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttDirections" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 110 21 110 22 F815 2 1 -1 0 "&XRightYTop" 8
+{ IlvGadgetItem 1 2 4 "&XRightYTop"  } 
+{ IlvGadgetItem 1 2 4 "&XRightYBottom"  } 
+{ IlvGadgetItem 1 2 4 "&XTopYRight"  } 
+{ IlvGadgetItem 1 2 4 "&XBottomYRight"  } 
+{ IlvGadgetItem 1 2 4 "&XLeftYTop"  } 
+{ IlvGadgetItem 1 2 4 "&XLeftYBottom"  } 
+{ IlvGadgetItem 1 2 4 "&XTopYLeft"  } 
+{ IlvGadgetItem 1 2 4 "&XBottomYLeft"  }  8 0 } 544 "Directions"
+1
+1 "__ilvCallback" "Directions"
+6144 "XGrid" "Above"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 15 1 390 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Axes_options"  }   } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 15 51 390 140 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Grid_options"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 30 162 110 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Grid_style"  }   } 0
+0
+1 { 5 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttStyle" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 168 162 102 22 F815 2 1 -1 0 "" 8
+{ IlvGadgetItem 1 2 4 "solid"  } 
+{ IlvGadgetItem 1 2 4 "dash"  } 
+{ IlvGadgetItem 1 2 4 "dot"  } 
+{ IlvGadgetItem 1 2 4 "dashdot"  } 
+{ IlvGadgetItem 1 2 4 "doubledot"  } 
+{ IlvGadgetItem 1 2 4 "dashdoubledot"  } 
+{ IlvGadgetItem 1 2 4 "longdash"  } 
+{ IlvGadgetItem 1 2 4 "alternate"  }  8 0 } 544 "XStyle"
+1
+1 "__ilvCallback" "Grid"
+6144 "YGrid" "XGrid"
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 15 191 390 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Legend_options"  }   } 0
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 30 211 75 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Use"  }   } 0
+0
+1 { 8 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttLegends" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 110 211 110 22 F815 2 1 -1 0 "" 0 8 0 } 544 "Legends"
+1
+1 "__ilvCallback" "Legends"
+6144 "Above" "YStyle"
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 186 64 65 15 F268435468 0 { IlvMessageItem 262145 4 16 4 "&XGrid"  }   } 0
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 308 64 65 15 F268435468 0 { IlvMessageItem 262145 4 16 4 "&YGrid"  }   } 32 "Text1"
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 30 135 110 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Complete_grid"  }   } 0
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 30 108 110 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Primary_only"  }   } 0
+0
+1 { 13 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttStyle" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 290 162 102 22 F815 2 1 -1 0 "" 8
+{ IlvGadgetItem 1 2 4 "solid"  } 
+{ IlvGadgetItem 1 2 4 "dash"  } 
+{ IlvGadgetItem 1 2 4 "dot"  } 
+{ IlvGadgetItem 1 2 4 "dashdot"  } 
+{ IlvGadgetItem 1 2 4 "doubledot"  } 
+{ IlvGadgetItem 1 2 4 "dashdoubledot"  } 
+{ IlvGadgetItem 1 2 4 "longdash"  } 
+{ IlvGadgetItem 1 2 4 "alternate"  }  8 0 } 544 "YStyle"
+1
+1 "__ilvCallback" "Grid"
+6144 "Legends" "YGrid"
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 279 66 2 118 F268435468 0 { IlvMessageItem 262168 4 16 4  }   } 0
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 156 66 2 118 F268435468 0 { IlvMessageItem 262168 4 16 4  }   } 0
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 30 81 110 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&No_grid"  }   } 0
+0
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector 1 3
+0 IlvToggle 209 83 20 16 F1 2 1 2 1 16 0 B "noname" 
+0 IlvToggle 209 110 20 16 F1 2 1 2 1 16 0 B "noname" 
+0 IlvToggle 209 137 20 16 F1 2 1 2 1 16 0 B "noname" 
+ } 544 "XGrid"
+1
+1 "__ilvCallback" "Grid"
+6144 "XStyle" "Directions"
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector 1 3
+0 IlvToggle 331 83 20 16 F1 2 1 2 1 16 0 B "noname" 
+0 IlvToggle 331 110 20 16 F1 2 1 2 1 16 0 B "noname" 
+0 IlvToggle 331 137 20 16 F1 2 1 2 1 16 0 B "noname" 
+ } 544 "YGrid"
+1
+1 "__ilvCallback" "Grid"
+6144 "YStyle" "XStyle"
+1 { 19 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttAbove" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 240 24 155 16 F1073741825 2 1 2 0 16 0 Y "&Grid_below_curves" } 544 "Above"
+1
+1 "__ilvCallback" "Grid"
+6144 "Directions" "Legends"
+1 { 20 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttAutoResize" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 240 214 155 16 F1073741825 2 1 2 0 16 0 Y "&Auto_resize_legend" } 544 "AutoResize"
+1
+1 "__ilvCallback" "Legends"
+0
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 15 241 390 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Fluctuating"  }   } 0
+0
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector 0 2
+0 IlvToggle 66 264 140 16 F1 2 1 2 1 16 0 Y "&FMove" 
+0 IlvToggle 214 264 140 16 F1 2 1 2 1 16 0 Y "&FAdd" 
+ } 544 "Fluctuating"
+1
+1 "__ilvCallback" "Fluctuating"
+0
+1 { 23 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 15 303 80 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Global_font"  }   } 0
+0
+1 { 24 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 99 303 306 22 F6 2 1 -1 0 "" } 544 "TrendFont"
+1
+1 "__ilvCallback" "TrendFont"
+0
+Size 420 333
+GeometryHandlers
+1 100 0 420 0 420 0
+8 3 0 0 15  390 0 390 2  0 0 15 0
+ 3 0 0 15  390 0 390 3  0 15 15 0
+ 3 0 0 30  0 0 75 0  315 0 315 0
+ 3 0 0 110  0 0 110 1  200 0 200 0
+ 3 0 0 30  0 0 110 4  280 0 280 0
+ 3 0 0 168  0 0 102 5  150 0 150 0
+ 3 0 0 15  390 0 390 6  0 0 15 0
+ 3 0 0 15  390 0 390 21  0 0 15 0
+1 100 0 333 0 333 0
+8 3 0 0 1  0 0 50 2  0 0 282 0
+ 3 0 0 51  0 0 140 3  0 0 142 0
+ 3 0 0 21  0 0 22 0  290 0 290 0
+ 3 0 0 21  0 0 22 1  290 0 290 0
+ 3 0 0 162  0 0 22 4  149 0 149 0
+ 3 0 0 162  0 0 22 5  149 0 149 0
+ 3 0 0 191  0 0 50 6  0 0 92 0
+ 3 0 0 241  0 0 50 21  0 0 42 0
+EOF

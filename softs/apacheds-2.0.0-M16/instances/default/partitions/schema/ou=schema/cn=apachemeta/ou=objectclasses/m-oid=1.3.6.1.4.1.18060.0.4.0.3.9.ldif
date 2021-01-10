@@ -1,0 +1,22 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.3.9,ou=objectClasses,cn=apachemeta,ou=schema
+m-supobjectclass: metaTop
+m-may: m-name
+m-may: m-obsolete
+m-may: m-aux
+m-may: m-must
+m-may: m-may
+m-may: m-not
+m-typeobjectclass: STRUCTURAL
+m-oid: 1.3.6.1.4.1.18060.0.4.0.3.9
+m-name: metaDITContentRule
+m-description: meta definition of the DITContentRule object
+m-obsolete: FALSE
+entryParentId: 9cdaa799-befc-4c3a-bc01-a8882d6b846d
+createTimestamp: 20140513151220.441Z
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+entryUUID: 8dd55232-17d2-42b5-b5c4-76cfabf7b8b3
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.676000Z#000019#000#000000

@@ -1,0 +1,9 @@
+commit fd79a271aa1d831a912bb13dc8bf7b616fc23e09
+Merge: 96cdb07 085d297
+Author: Terry TO <terry.to@thalesgroup.com>
+Date:   Tue Mar 13 17:26:45 2018 +0800
+
+    Merge pull request #317 in SCADAGEN/appli from release/SCADAGEN-1249-appli-scadagen-appli-release to master
+    
+    * commit '085d2973059b61dfee977c12ad447499e595a5d9':
+      SCADAGEN-1237 bugfix

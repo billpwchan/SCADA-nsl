@@ -1,0 +1,41 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:23:08 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcledtcfco"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcledtcfco.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 4
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 65 285 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&ok"  }   } 512
+1
+1 "__ilvCallback" "cancelECB"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 6 4 200 271 F268435468 0 { IlvMessageItem 262169 4 16 4 "&numcolors"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 16 24 180 197 F34910 2 A A 0 0 0 0 1 1 25 25 1 1 0 0 1 0 16 16 V0 2 0 0 N 0 0 0 0 0  } 544 "MatrixColor"
+1
+1 "__ilvCallback" "cellSelectCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+0 IlvMatrix 16 231 180 34 F34904 2 N N 0 0 0 0 0 1 175 29 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 32 "rectColor"
+0
+Size 211 315
+GeometryHandlers
+1 100 209 211 0 211 0
+4 3 0 0 16  180 0 180 2  0 0 15 0
+ 3 0 0 16  180 0 180 3  0 0 15 0
+ 3 0 0 6  200 0 200 1  0 0 5 0
+ 3 65 0 65  0 0 80 0  0 0 66 0
+1 100 245 315 0 315 0
+4 3 0 0 24  197 0 197 2  0 0 94 0
+ 3 231 0 231  0 0 34 3  0 0 50 0
+ 3 4 0 4  271 0 271 1  0 0 40 0
+ 3 285 0 285  0 0 23 0  0 0 7 0
+EOF

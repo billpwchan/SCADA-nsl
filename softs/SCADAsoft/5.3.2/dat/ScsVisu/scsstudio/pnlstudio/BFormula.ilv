@@ -1,0 +1,189 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:23 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "BFormula"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\BFormula.ilv"
+Palettes 3
+"defaultGadget" 2 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+0 F "gray" "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 31
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 18 26 348 22 F6 2 1 -1 0 "" } 544 "FormulaName"
+1
+1 "__ilvCallback" "FormulaNameCB"
+4096 "Button_1"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 18 55 73 25 F13 2 { IlvMessageItem 262145 4 16 4 "Load..."  }   } 512
+1
+1 "__ilvCallback" "LoadCB"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 107 55 74 25 F13 2 { IlvMessageItem 262145 4 16 4 "Save..."  }   } 544 "saveBtn"
+1
+1 "__ilvCallback" "SaveCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 7 4 371 85 F268435468 0 { IlvMessageItem 262169 4 16 4 "Formula"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 7 249 371 154 F268435468 0 { IlvMessageItem 262169 4 16 4 "Variable List"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvStringList 18 272 244 121 F131 2 Y A 0 0 0 0 0 4 0 0 V0 2 0 } 544 "List"
+1
+1 "__ilvSCallback" "ListCB"
+4096 "Button_7"
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 278 368 88 25 F13 2 { IlvMessageItem 262147 4 2 4 "Add" 1 0 "icons/scs_add.png"  }   } 544 "Button_4"
+1
+1 "__ilvCallback" "AddCB"
+6144 "VarName" "Button_3"
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 278 304 88 25 F13 2 { IlvMessageItem 262147 4 2 4 "Remove" 1 0 "icons/scs_remove.png"  }   } 544 "Button_2"
+1
+1 "__ilvCallback" "RemoveCB"
+6144 "Button_3" "Mode"
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 7 155 371 90 F268435468 0 { IlvMessageItem 262169 4 16 4 "Formula Properties"  }   } 0
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvTextField 86 211 176 25 F6 2 1 -1 0 "" } 544 "ScriptName"
+1
+1 "__ilvCallback" "ScriptNameCB"
+6144 "Button_7" "Button_5"
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 278 211 88 25 F13 2 { IlvMessageItem 262147 4 2 4 "Select..." 1 0 "icons/browse_file.png"  }   } 544 "Button_7"
+1
+1 "__ilvCallback" "ScriptBrowseCB"
+6144 "List" "ScriptName"
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 278 272 88 25 F13 2 { IlvMessageItem 262147 4 2 4 "Clear" 1 0 "icons/scs_clean.png"  }   } 512
+1
+1 "__ilvCallback" "ClearCB"
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvComboBox 278 434 88 22 F39 2 1 -1 0 "(Refresh)" 3
+{ IlvMenuItem 1 2 4 "Read"  } 
+{ IlvMenuItem 1 2 4 "Polled"  } 
+{ IlvMenuItem 1 2 4 "Constant"  }  } 544 "Mode"
+1
+1 "__ilvCallback" "ModeCB"
+6144 "Node" "Type"
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 278 336 88 25 F13 2 { IlvMessageItem 262147 4 2 4 "Replace" 1 0 "icons/scs_replace.png"  }   } 544 "Button_3"
+1
+1 "__ilvCallback" "ReplaceCB"
+6144 "Button_4" "Button_2"
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvTextField 86 178 176 25 F6 2 1 -1 0 "" } 544 "Root"
+1
+1 "__ilvCallback" "RootCB"
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 278 178 88 25 F13 2 { IlvMessageItem 262147 4 2 4 "Browse..." 1 0 "icons/browse_db.png"  }   } 512
+1
+1 "__ilvCallback" "RootBrowseCB"
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 7 410 371 121 F268435468 0 { IlvMessageItem 262169 4 16 4 "Variable Properties"  }   } 0
+0
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvTextField 70 464 184 25 F6 2 1 -1 0 "" } 544 "Node"
+1
+1 "__ilvCallback" "NodeCB"
+6144 "Button_5" "Mode"
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvTextField 70 495 184 25 F6 2 1 -1 0 "" } 544 "Attribute"
+1
+1 "__ilvCallback" "AttributeCB"
+6144 "Button_6" "Button_5"
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 266 464 100 25 F13 2 { IlvMessageItem 262147 4 2 4 "Browse..." 1 0 "icons/browse_db.png"  }   } 544 "Button_5"
+1
+1 "__ilvCallback" "NodeBrowseCB"
+6144 "Attribute" "Node"
+1 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 266 495 100 25 F13 2 { IlvMessageItem 262147 4 2 4 "Select..." 1 0 "icons/browse_select.png"  }   } 544 "Button_6"
+1
+1 "__ilvCallback" "SelectBrowseCB"
+20480 "Attribute"
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvScrolledComboBox 18 111 348 25 F806 2 1 -1 0 "" 0 4 0 } 544 "Environment"
+1
+1 "__ilvCallback" "EnvironmentCB"
+0
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvFrame 7 89 371 62 F268435468 0 { IlvMessageItem 262169 4 16 4 "Environment"  }   } 0
+0
+1 { 23 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvComboBox 158 434 112 22 F39 2 1 -1 0 "(Type)" 6
+{ IlvMenuItem 1 2 4 "Integer"  } 
+{ IlvMenuItem 1 2 4 "Float"  } 
+{ IlvMenuItem 1 2 4 "String"  } 
+{ IlvMenuItem 1 2 4 "Vector of integers"  } 
+{ IlvMenuItem 1 2 4 "Vector of floats"  } 
+{ IlvMenuItem 1 2 4 "Vector of strings"  }  } 544 "Type"
+1
+1 "__ilvCallback" "TypeCB"
+6144 "Mode" "VarName"
+1 { 24 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvTextField 18 434 132 22 F6 2 1 -1 0 "(Name)" } 544 "VarName"
+1
+1 "__ilvCallback" "VarNameCB"
+6144 "Type" "Button_4"
+1 { 25 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 303 539 73 25 F13 2 { IlvMessageItem 262145 4 16 4 "Close"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "CloseCB"
+10240 "FormulaName"
+1 { 26 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 18 501 50 13 F268435468 0 { IlvMessageItem 262169 4 16 4 "Attribute"  }   } 0
+0
+1 { 27 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 18 470 50 13 F268435468 0 { IlvMessageItem 262169 4 16 4 "Node"  }   } 0
+0
+1 { 28 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 18 182 60 13 F268435468 0 { IlvMessageItem 262169 4 16 4 "Root"  }   } 0
+0
+1 { 29 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 18 215 60 13 F268435468 0 { IlvMessageItem 262169 4 16 4 "Script"  }   } 0
+0
+1 { 30 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 197 55 74 25 F13 2 { IlvMessageItem 262145 4 16 4 "Save as..."  }   } 544 "saveAsBtn"
+1
+1 "__ilvCallback" "SaveCB"
+0
+Size 383 570
+EOF

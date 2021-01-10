@@ -1,0 +1,76 @@
+COMPONENT=PROXY,Proxy
+
+Init() {
+   english="Proxy Initialization"
+   french="Initialisation du proxy"
+}
+
+Exception(const char *) {
+   english="Error: %s"
+   spanish="Error: %s"
+}
+
+ORB(const char *) {
+   english="Orb error: %s"
+   spanish="Error Orb: %s"
+}
+
+HostServer(const char *) {
+   english="Server %s is not registered at the host server"
+   french="Le server %s n'est pas enregistre aupres du serveur de nom"
+   spanish="Servidor %s no esta registrado por el servidor de host"
+}
+
+ServerNotRegistered(const char *) {
+   english="Server %s is not registered at the host server"
+   spanish="Servidor %s no esta registrado por el servidor de host"
+}
+
+ScadasoftFunction(const char *, int) {
+   english="SCADAsoft function error: %s (minor=%d)"
+   spanish="Error en la funcion SCADAsoft: %s (minor=%d)"
+}
+
+AppliFunction(const char *, int) {
+   english="%s error (minor=%d)"
+   spanish="%s error (minor=%d)"
+}
+
+SystemFunction(const char *) {
+   english="System function %s error"
+   spanish="Error en la funcion sistema %s"
+}
+
+Environment(const char *) {
+   english="Environment variable %s not defined"
+   spanish="Variable de entorno %s no definida"
+}
+
+GetClient() {
+   english="Client Orb inaccessible"
+   spanish="No se puede acceder al cliente Orb"
+}
+
+Timeout(const char *) {
+   english="Timeout in reply function %s"
+}
+
+Implementation(const char *) {
+   english="Server %s is not registered at the host server or is unavailable"
+   french="Le serveur %s n'est pas enregistre aupres du server de nom ou n'est pas disponible"
+}
+
+MissingEnvironment(const char *) {
+   english="Missing logical environment for server %s"
+   french="Environnment logique manquant pour le serveur %s"
+}
+
+StandbyInactive(const char *) {
+   english="Standby server %s is currently inactive - no processing done"
+   french="Le serveur %s Standby est inactif - aucun traitement effectué"
+}
+
+NotConnected() {
+   english="Proxy is not connected"
+   french="Le proxy n'est pas connecté"
+}

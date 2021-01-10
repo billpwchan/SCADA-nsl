@@ -1,0 +1,49 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astilinkinsp"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astilinkinsp.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 8
+2 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+0 IlvButton 7 160 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Apply"  }   } 544 "apply"
+1
+1 "__ilvCallback" "applyCB"
+0
+2 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+0 IlvButton 299 160 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "cancel"
+1
+1 "__ilvCallback" "cancelCB"
+10240 "name"
+2 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 20 76 103 20 F268435468 0 { IlvMessageItem 262169 4 16 4 "&name"  }   } 0
+0
+2 { 3 P 2
+[ IlvToolTip __ilvToolTip 2 "&linkInspector" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFileSelectorField 100 75 217 23 F6 2 1 -1 0 "" } 32 "activebackdrop"
+6144 "callb" "cancel"
+2 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 20 8 103 20 F268435468 0 { IlvMessageItem 262169 4 16 4 "&name"  }   } 0
+0
+2 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 100 7 197 23 F6 2 1 -1 0 "" } 32 "name"
+4096 "cancel"
+2 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 18 110 342 16 F1073741825 2 1 2 0 0 0 Y "&AutoApplyBackdrop" } 544 "AutoApply"
+1
+1 "__ilvCallback" "autoApplyCB"
+0
+2 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 6 40 366 107 F268435468 0 { IlvMessageItem 262169 4 16 4 "&AssociatedActiveBackdrop"  }   } 0
+0
+Size 380 193
+EOF

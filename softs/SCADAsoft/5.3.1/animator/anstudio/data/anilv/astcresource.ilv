@@ -1,0 +1,89 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:30:17 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcresource"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcresource.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 10
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvText 5 65 420 199 F131 2 A A 1 1 1 1 0 1
+""
+0 0 0 0 } 544 "Text"
+1
+1 "__ilvCallback" "TextCB"
+6144 "Workspace" "SearchDown"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 260 275 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&save"  }   } 544 "Save"
+1
+1 "__ilvCallback" "saveCB"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 345 275 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "cancelECB"
+10240 "SearchText"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 5 275 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&WorkSpace"  }   } 544 "Workspace"
+1
+1 "__ilvCallback" "workspaceCB"
+4096 "Text"
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 90 275 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&errors"  }   } 544 "Errors"
+1
+1 "__ilvCallback" "errorsCB"
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 175 275 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&reset"  }   } 544 "Reset"
+1
+1 "__ilvCallback" "resetCB"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvArrowButton 390 21 23 23 F13 2 { IlvMessageItem 262145 4 16 4 ""  }   2 0 } 544 "SearchDown"
+1
+1 "__ilvCallback" "searchCB"
+6144 "Text" "SearchUp"
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvArrowButton 360 21 23 23 F13 2 { IlvMessageItem 262145 4 16 4 ""  }   1 0 } 544 "SearchUp"
+1
+1 "__ilvCallback" "searchCB"
+6144 "SearchDown" "SearchText"
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 0 420 55 F268435468 0 { IlvMessageItem 262169 4 16 4 "&search"  }   } 0
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 15 20 335 25 F806 2 1 -1 0 "" 0 4 0 } 544 "SearchText"
+1
+1 "__ilvCallback" "searchTextCB"
+6144 "SearchUp" "Button_1"
+Size 433 305
+GeometryHandlers
+1 100 0 433 0 433 0
+6 3 0 0 15  335 0 335 9  0 0 83 0
+ 3 360 0 360  0 0 23 7  0 0 50 0
+ 3 390 0 390  0 0 23 6  0 0 20 0
+ 3 0 0 5  420 0 420 8  0 0 8 0
+ 3 0 0 5  420 0 420 0  0 0 8 0
+ 3 345 0 345  0 0 80 2  0 0 8 0
+3 100 0 60 0 60 0
+ 0 0 210 60 210 60
+ 0 0 35 270 35 270
+2 3 0 0 0  0 0 55 8  0 0 5 0
+ 3 0 0 65  199 0 199 0  0 0 6 1
+0
+5 3 0 0 5  23 0 23 3  0 0 7 2
+ 3 0 0 5  23 0 23 4  0 0 7 2
+ 3 0 0 5  23 0 23 5  0 0 7 2
+ 3 0 0 5  23 0 23 1  0 0 7 2
+ 3 0 0 5  23 0 23 2  0 0 7 2
+EOF

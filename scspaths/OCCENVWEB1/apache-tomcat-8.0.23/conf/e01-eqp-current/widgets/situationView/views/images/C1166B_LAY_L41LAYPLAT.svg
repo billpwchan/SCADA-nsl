@@ -1,0 +1,1324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="1000" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 11968 1000" width="11968">
+
+  
+  <g class="AnLayer" id="AnDefaultLayer">
+
+    
+    <polygon class="AnPolygon" fill="#E3DBCC" fill-rule="evenodd" points="424,160 424,186 39,186 39,322 386,322 386,344 462,344 462,389 654,404 920,423 1090,433 1111,435 1193,442 1343,456 1478,467 1634,478 1786,489 2009,504 2051,507 2186,514 2189,525 2240,716 2240,805 2240,886 2427,886 2427,717 2480,516 2556,516 6541,516 6541,917 6765,917 6766,577 6766,516 10064,516 10064,749 10289,749 10289,515 11907,516 11907,290 11937,290 11937,242 11963,242 11963,212 11907,212 11907,160 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="425,160 500,160 500,186 425,186 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="387,322 463,322 463,344 387,344 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="391,316 400,281 475,281 475,316 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="1314,251 1336,251 1336,267 1392,267 1392,251 1400,251 1414,350 1314,350 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="3216,406 3302,406 3302,267 3279,267 3279,251 3230,251 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="5839,272 5839,408 5972,408 5954,272 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="7366,272 7356,408 7455,408 7455,272 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="9381,387 9272,387 9272,267 9306,267 9306,251 9365,251 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="10987,267 11034,267 11034,251 11090,251 11090,387 10974,387 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="11908,212 11964,212 11964,242 11908,242 " />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <polyline class="AnPolyline" fill="none" points="7000,270 6772,270 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7006,265 6767,265 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7000,270 6772,270 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7006,392 6767,392 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7000,386 6772,386 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6767,414 7201,414 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6136,265 7200,265 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="8760,160 4399,160 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="4399,516 8760,516 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="4399,160 500,160 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2509,413 3002,413 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2230,516 4399,516 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1664,245 3003,245 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="824,417 1093,433 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="45,316 45,192 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="40,322 40,186 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="45,316 526,316 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="442,316 442,281 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="450,316 450,281 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="458,316 458,281 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="399,316 399,281 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="408,316 408,281 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="416,316 416,281 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="425,316 425,281 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="433,316 433,281 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="467,316 467,281 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="475,316 475,281 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="530,306 530,322 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="526,306 526,316 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="391,316 395,300 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="379,192 525,192 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="379,186 531,186 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="483,186 483,160 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="425,160 500,160 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="40,186 379,186 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="45,192 276,192 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="354,281 475,281 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="348,275 475,275 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="294,192 379,192 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="294,207 276,207 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="294,207 294,192 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="276,207 276,192 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="450,186 450,160 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="441,186 441,160 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="433,186 433,160 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="425,186 425,160 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="475,186 475,160 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="467,186 467,160 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="458,186 458,160 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="348,275 348,286 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="354,281 354,286 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="354,286 348,286 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="263,246 263,261 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="263,261 265,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="265,263 306,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="306,263 307,261 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="307,261 307,246 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="307,246 306,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="306,245 265,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="265,245 263,246 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="475,275 475,281 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="475,299 399,299 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="403,295 399,299 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="399,299 403,302 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="395,300 393,300 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="393,300 397,299 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="397,299 395,298 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="395,298 400,281 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="525,265 525,192 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="531,265 531,186 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="642,188 642,281 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="644,281 644,188 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="598,284 643,284 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="643,286 598,286 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="500,160 500,186 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="492,186 492,160 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="642,188 644,188 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="525,265 531,265 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="578,260 580,260 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="579,284 579,286 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="578,281 580,281 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="532,246 532,261 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="532,261 534,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="534,263 575,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="575,263 577,261 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="577,261 577,246 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="577,246 575,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="575,245 534,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="534,245 532,246 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="526,302 526,306 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="526,306 530,306 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="530,306 530,302 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="530,302 526,302 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="580,281 580,260 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="578,260 578,281 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="598,286 579,286 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="579,284 598,284 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="598,284 598,286 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="598,286 598,284 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="642,281 644,281 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="643,284 643,286 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="446,344 446,322 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="454,344 454,322 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="421,344 421,322 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="429,344 429,322 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="438,344 438,322 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="387,344 387,322 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="396,344 396,322 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="404,344 404,322 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="412,344 412,322 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="387,344 463,344 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="530,322 40,322 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="463,389 555,396 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="555,396 824,417 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="463,322 463,389 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1408,310 1416,365 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1602,357 1602,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1598,353 1598,248 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1617,357 2145,357 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1336,267 1336,350 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1325,251 1325,350 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1314,245 1314,357 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1347,267 1347,350 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1359,267 1359,350 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1370,267 1370,350 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1381,267 1381,350 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1392,267 1392,350 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1403,309 1403,350 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1901,497 2036,506 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1314,245 1336,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1398,240 1406,294 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1424,248 1598,248 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1336,267 1392,267 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1424,245 1602,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1314,251 1336,251 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1403,277 1403,303 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1392,251 1400,251 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1392,245 1399,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1424,248 1424,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1408,310 1391,306 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1391,306 1423,296 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1423,296 1406,294 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1340,245 1340,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1340,263 1385,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1385,263 1385,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1385,245 1340,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1609,245 1609,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1609,263 1654,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1654,263 1654,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1654,245 1609,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1424,357 1602,357 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1424,353 1598,353 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1314,357 1415,357 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1314,350 1414,350 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1424,357 1424,353 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1093,433 1362,458 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1362,458 1632,478 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1632,478 1901,497 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2339,886 2457,886 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2428,886 2428,716 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2428,716 2509,413 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2145,357 2241,716 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2241,716 2241,886 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2213,886 2323,886 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2323,886 2328,869 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2328,869 2334,902 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2334,902 2339,886 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2036,506 2230,516 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3232,232 3223,331 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3019,269 3019,409 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3015,269 3015,413 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3279,267 3279,406 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3290,267 3290,406 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3302,267 3302,413 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3268,251 3268,406 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3257,251 3257,406 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3245,251 3245,406 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3234,251 3234,406 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3191,248 3114,248 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3191,245 3114,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3279,245 3231,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3279,267 3302,267 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3279,251 3230,251 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3114,248 3114,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3191,245 3191,248 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3015,269 3019,269 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3015,245 3015,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3015,263 3060,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3060,263 3060,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3060,245 3015,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3285,245 3285,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3285,263 3330,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3330,263 3330,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3330,245 3285,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3109,245 3060,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3060,245 3060,267 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3060,267 3109,267 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3109,267 3109,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3015,413 3191,413 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3019,409 3191,409 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3222,347 3215,423 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3216,413 3302,413 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3217,406 3302,406 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3223,339 3223,406 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3191,409 3191,413 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3222,347 3206,340 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3206,340 3239,337 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3239,337 3223,331 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5952,257 5961,329 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6114,265 6114,415 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6110,269 6110,411 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5839,408 5839,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5953,265 5828,265 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5972,414 5828,414 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5954,272 5828,272 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5972,408 5828,408 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5850,408 5850,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5862,408 5862,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5873,408 5873,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5884,408 5884,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5895,408 5895,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5906,408 5906,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5918,408 5918,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5929,408 5929,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5940,408 5940,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5951,408 5951,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5828,272 5828,265 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6772,311 6772,270 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6767,311 6767,265 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6772,311 6767,311 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6772,309 6767,309 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6843,311 6843,270 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6840,311 6840,270 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6843,309 6840,309 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6843,311 6840,311 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5986,269 6110,269 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5986,265 6114,265 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5828,414 5828,408 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6110,411 5986,411 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5963,345 5973,418 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6772,345 6767,345 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6772,347 6767,347 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6767,392 6767,345 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6772,386 6772,345 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6843,347 6840,347 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6843,345 6840,345 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6843,386 6843,345 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6840,386 6840,345 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6767,414 6766,917 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6766,917 6662,917 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6136,414 6542,414 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6542,414 6542,917 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6542,917 6646,917 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6114,415 5986,415 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5963,408 5963,345 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6646,917 6651,901 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6651,901 6657,934 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="6657,934 6662,917 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5963,345 5946,342 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5946,342 5978,332 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5978,332 5961,329 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10290,394 10796,394 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9579,245 10796,245 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="8760,516 11908,516 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11908,160 8760,160 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7006,392 7006,265 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7000,386 7000,270 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7367,262 7362,333 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7212,265 7212,414 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7215,269 7215,411 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7455,408 7455,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7444,408 7444,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7432,408 7432,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7421,408 7421,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7410,408 7410,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7399,408 7399,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7387,408 7387,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7376,408 7376,272 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7365,408 7365,292 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7345,269 7215,269 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7367,265 7466,265 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7367,272 7466,272 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7466,265 7466,272 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7345,265 7212,265 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7345,265 7345,269 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7215,411 7345,411 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7212,414 7345,414 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7361,349 7355,418 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7356,414 7466,414 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7356,408 7466,408 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7466,408 7466,414 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7345,414 7345,411 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7361,349 7344,344 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7344,344 7377,338 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="7377,338 7362,333 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9554,266 9554,394 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9550,266 9550,390 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9564,394 10065,394 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9272,267 9272,394 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9284,267 9284,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9295,267 9295,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9306,267 9306,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9317,251 9317,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9329,251 9329,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9340,251 9340,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9351,251 9351,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9362,251 9362,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9272,317 9373,317 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9364,238 9374,328 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9390,245 9519,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9390,248 9519,248 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9306,267 9272,267 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9306,245 9364,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9306,251 9364,251 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9390,248 9390,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9519,245 9519,248 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9554,266 9550,266 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9254,245 9254,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9254,263 9299,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9299,263 9299,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9299,245 9254,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9523,245 9523,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9523,263 9568,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9568,263 9568,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9568,245 9523,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9550,390 9390,390 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9554,394 9390,394 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9373,322 9373,337 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9272,394 9382,394 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9272,387 9381,387 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9373,345 9373,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9272,321 9373,321 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9390,390 9390,394 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9376,344 9362,348 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9362,348 9385,325 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9385,325 9374,328 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9376,344 9383,417 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10186,749 10321,749 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10290,749 10290,394 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10065,394 10065,749 " stroke="#000000" stroke-dasharray=" 0 0" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10039,749 10170,749 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10170,749 10175,732 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10175,732 10181,765 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10181,765 10186,749 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10987,263 10980,326 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11903,288 11903,500 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11899,288 11899,500 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10802,244 10802,394 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10806,248 10806,390 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11090,245 11090,394 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11079,251 11079,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11068,251 11068,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11056,251 11056,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11045,251 11045,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11023,267 11023,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10989,267 10989,330 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11034,267 11034,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11012,267 11012,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11000,267 11000,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10981,317 11090,317 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11908,516 11908,160 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10967,248 10806,248 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10967,244 10802,244 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11034,245 11090,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11034,251 11090,251 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11034,267 10987,267 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10967,244 10967,248 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10974,245 10974,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10974,263 11019,263 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11019,263 11019,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11019,245 10974,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11938,242 11964,242 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11908,212 11964,212 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11918,242 11918,212 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11927,242 11927,212 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11936,242 11936,212 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11946,242 11946,212 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11955,242 11955,212 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11964,242 11964,212 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11899,205 11899,244 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11903,205 11903,244 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11903,244 11899,244 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11903,288 11899,288 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11899,205 11903,205 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11908,242 11938,242 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11938,242 11938,290 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11938,290 11908,290 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11908,290 11908,242 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10802,394 10967,394 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10806,390 10967,390 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10979,342 10971,419 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10973,394 11090,394 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10974,387 11090,387 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10978,350 10978,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10989,333 10989,387 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10981,321 11090,321 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10967,394 10967,390 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10980,326 10997,333 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10997,333 10963,335 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="10963,335 10979,342 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11899,500 11903,500 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5986,269 5986,265 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="5986,415 5986,411 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1336,267 1336,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1392,245 1392,267 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="3279,267 3279,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="9306,267 9306,245 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="11034,267 11034,245 " stroke="#000000" stroke-width="1px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Layout_Room_Label">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,117.339996,240.440002)" x="0px" y="12px">Control</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,132.339996,266.440002)" x="0px" y="12px">Rm.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,354.339996,222.440002)" x="0px" y="12px">Office Area</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,118.339996,213.440002)" x="0px" y="12px">Station</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.938460,0.000000,0.000000,3.938460,4405.680176,428.880005)" x="0px" y="12px">Platform 2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.938460,0.000000,0.000000,3.938460,4403.680176,192.880005)" x="0px" y="12px">Platform 1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,6882.339844,293.440002)" x="0px" y="12px">Station</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,6884.339844,318.440002)" x="0px" y="12px">Switch</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,6898.339844,345.440002)" x="0px" y="12px">Rm.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,1259.339966,292.440002)" x="0px" y="12px">S01</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,3153.340088,319.440002)" x="0px" y="12px">S02</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,5785.339844,329.440002)" x="0px" y="12px">S03</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,7288.339844,324.440002)" x="0px" y="12px">S04</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,9218.339844,313.440002)" x="0px" y="12px">S05</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,10908.299805,310.440002)" x="0px" y="12px">S06</text>
+
+  
+  </g>
+
+</svg>

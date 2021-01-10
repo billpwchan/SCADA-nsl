@@ -1,0 +1,156 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astimvrot"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astimvrot.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "%MS Sans Serif-16-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 26
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 159 128 56 23 F13 2 { IlvMessageItem 262145 4 16 4 "&ResetRotate"  }   } 544 "resetRotate"
+1
+1 "__ilvCallback" "resetRotateCB"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 3 108 138 52 F268435468 0 { IlvMessageItem 262169 4 16 4 "&RotateLabel"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 56 128 35 23 F6 2 16 -1 0 "15" . , 2 16 -360 360 } 544 "rotateText"
+1
+1 "__ilvCallback" "rotateTextCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 3 0 138 107 F268435468 0 { IlvMessageItem 262169 4 16 4 "&MoveLabel"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 212 166 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "close"
+1
+1 "__ilvCallback" "closeCB"
+10240 "moveLeftUp"
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 56 46 35 23 F6 2 16 -1 0 "5" . , 2 0 0 10000 } 544 "step"
+1
+1 "__ilvCallback" "stepCB"
+6144 "moveRight" "moveLeft"
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 147 0 138 107 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ZoomObject"  }   } 0
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSlider 159 18 57 22 F5 2 1 100 1 5 1 10 } 544 "SliderZoom"
+1
+1 "__ilvCallback" "sliderZoomCB"
+6144 "ZoomFactorSymbol" "moveRightDown"
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 241 18 35 22 F6 2 16 -1 0 "1.1" . , 6 16 0.1 1000 } 544 "ZoomFactorSymbol"
+1
+1 "__ilvCallback" "zoomFactorSymbolCB"
+6144 "ScaleUp" "SliderZoom"
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 15 128 35 23 F15 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "icrotmr.png"  }   200 } 544 "rotateLeft"
+1
+1 "__ilvCallback" "rotateCB"
+4096 "moveLeft"
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 97 128 35 23 F15 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "icrotml.png"  }   200 } 544 "rotateRight"
+1
+1 "__ilvCallback" "rotateCB"
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 15 46 35 23 F15 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "arrowl.png"  }   200 } 544 "moveLeft"
+1
+1 "__ilvCallback" "moveCB"
+6144 "step" "moveRightUp"
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 56 17 35 23 F15 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "arrowu.png"  }   200 } 544 "moveTop"
+1
+1 "__ilvCallback" "moveCB"
+6144 "moveRightUp" "moveLeftUp"
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 97 46 35 23 F15 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "arrowr.png"  }   200 } 544 "moveRight"
+1
+1 "__ilvCallback" "moveCB"
+6144 "moveLeftDown" "step"
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 56 75 35 23 F15 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "arrowd.png"  }   200 } 544 "moveBottom"
+1
+1 "__ilvCallback" "moveCB"
+6144 "moveRightDown" "moveLeftDown"
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 159 75 35 23 F15 2 { IlvMessageItem 262145 4 16 4 "-"  }   200 } 544 "ScaleDown"
+1
+1 "__ilvCallback" "scaleCB"
+6144 "StateH" "ScaleUp"
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 159 47 35 23 F15 2 { IlvMessageItem 262145 4 16 4 "+"  }   200 } 544 "ScaleUp"
+1
+1 "__ilvCallback" "scaleCB"
+6144 "ScaleDown" "ZoomFactorSymbol"
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 202 50 78 16 F1073741825 2 1 2 0 0 0 Y "&horizontal" } 32 "StateH"
+6144 "StateV" "ScaleDown"
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 202 78 78 16 F1073741825 2 1 2 0 0 0 Y "&vertical" } 32 "StateV"
+4096 "StateH"
+1 { 19 P 2
+[ IlvToolTip __ilvToolTip 2 "&ResetNotes" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 147 108 138 52 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Reset"  }   } 0
+0
+1 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 220 128 56 23 F13 2 { IlvMessageItem 262145 4 16 4 "&ResetScale"  }   } 544 "resetScale"
+1
+1 "__ilvCallback" "resetScaleCB"
+0
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 3 166 73 23 F13 2 { IlvMessageItem 262147 4 2 0 "&CenterLabel" 1 0 "astctest.png"  }   } 544 "resetAll"
+1
+1 "__ilvCallback" "resetAllCB"
+0
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 97 17 35 23 F15 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "arrowru.png"  }   200 } 544 "moveRightUp"
+1
+1 "__ilvCallback" "moveCB"
+6144 "moveLeft" "moveTop"
+1 { 23 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 15 17 35 23 F15 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "arrowlu.png"  }   200 } 544 "moveLeftUp"
+1
+1 "__ilvCallback" "moveCB"
+6144 "moveTop" "close"
+1 { 24 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 15 75 35 23 F15 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "arrowld.png"  }   200 } 544 "moveLeftDown"
+1
+1 "__ilvCallback" "moveCB"
+6144 "moveBottom" "moveRight"
+1 { 25 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 97 75 35 23 F15 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "arrowrd.png"  }   200 } 544 "moveRightDown"
+1
+1 "__ilvCallback" "moveCB"
+6144 "SliderZoom" "moveBottom"
+Size 288 192
+EOF

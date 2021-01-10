@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="aac_type" numAttributes="9" numInstances="232" numPeriod_MT="0" numPeriod_ST="0" period_MT="0" period_ST="0">
+<AttributeDescription attrType="STATIC" name="veTable" replicated="0">
+<StructVector numElementsList="4" numElementsStruct="5">
+<StructFieldDescription name="date">
+<Scalar size="8" valueType="DATE"/>
+</StructFieldDescription>
+<StructFieldDescription name="status">
+<Scalar size="4" valueType="INT32"/>
+</StructFieldDescription>
+<StructFieldDescription name="value">
+<Scalar size="4" valueType="FLOAT"/>
+</StructFieldDescription>
+<StructFieldDescription name="vename">
+<Scalar size="49" valueType="CHARN"/>
+</StructFieldDescription>
+<StructFieldDescription name="vepole">
+<Scalar size="31" valueType="CHARN"/>
+</StructFieldDescription>
+</StructVector>
+<StructVectorDefaultValue numElementsList="4">
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+</StructVectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="acqDate" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="acqStatus" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="1024"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="acqValue" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="class_id" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="206"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="equipmentDate" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="period" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+</Class>

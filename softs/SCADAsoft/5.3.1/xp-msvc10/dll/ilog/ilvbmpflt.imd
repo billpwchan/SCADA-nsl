@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- IMD file for module ilvbmpflt -->
+<module name="ilvbmpflt" version="5.4">
+<class name="IlvBlendFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvColorMatrixFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvComposeFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvComponentTransferFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvConvolutionFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvDiffuseLightingFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvDisplaceFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvFloodFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvGaussianBlurFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvHueRotateFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvImageFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvLuminanceToAlphaFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvSpecularLightingFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvMergeFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvMorphologyFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvOffsetFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvSaturationFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvTileFilter" rootClass="IlvBitmapFilter"/>
+<class name="IlvTurbulenceFilter" rootClass="IlvBitmapFilter"/>
+</module>
+

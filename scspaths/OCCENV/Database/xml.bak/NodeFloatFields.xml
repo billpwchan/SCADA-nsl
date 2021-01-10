@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="NodeFloatFields" numAttributes="24" numInstances="0" numPeriod_MT="" numPeriod_ST="" period_MT="" period_ST="">
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="description" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf1" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf10" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf2" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf3" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf4" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf5" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf6" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf7" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf8" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf9" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="label" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf1" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf10" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf2" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf3" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf4" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf5" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf6" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf7" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf8" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf9" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+</Class>

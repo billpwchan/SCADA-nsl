@@ -1,0 +1,236 @@
+COMPONENT=ScsAlm,ScsAlm
+
+Init() {
+   english="Alarm Initialization"
+   french="Initialisation du serveur d'alarme"
+}
+
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+
+HostServer(const char *) {
+   english="Server %s is not registered at the host server"
+   french="Le server %s n'est pas enregistre aupres du serveur de nom"
+}
+
+SystemFunction(const char *) {
+   english="System function %s error"
+   french="Erreur fonction system %s"
+}
+
+ListAction(const char *) {
+   english="Error on alarm list action: %s"
+   french="Erreur d'action sur la liste d'alarmes: %s"
+}
+
+RtapEnv() {
+   english="RTAPENV environment variable is not set"
+   french="la variable d'environnement RTAPENV n'est pas positionnée"
+}
+
+ResetDatabase() {
+   english="Cannot reset Synthesis in the database"
+   french="Impossible de reinitialiser la synthese dans la base"
+}
+
+DataBaseConnection(const char *) {
+   english="Cannot connect to database [env=%s]"
+   french="Impossible de se connecter a la base [env=%s]"
+}
+
+DbmServerNotReachable(const char *) {
+   english="DbmServer not reachable in the environment %s"
+   french="Impossible de se connecter au DbmServer de l'environnement %s"
+}
+
+UndefinedValueAutomaton(const char *,int,int) {
+   english="Undefined Value automaton %s for point (%d,%d)"
+   french="Automate de valeur %s inconnu référencé par le point (%d,%d)"
+}
+
+UndefinedValueAutomatonExt(const char *,int) {
+   english="Undefined Value automaton %s for alarmId %d"
+   french="Automate de valeur %s inconnu référencé par l'identifiant %d"
+}
+
+UndefinedAckAutomaton(const char *,int,int) {
+   english="Undefined Ack automaton %s for point (%d,%d)"
+   french="Automate d'acquittement %s inconnu référencé par le point (%d,%d)"
+}
+
+UndefinedAckAutomatonExt(const char *,int) {
+   english="Undefined Ack automaton %s for alarmId %d"
+   french="Automate d'acquittement %s inconnu référencé par l'identifiant %d"
+}
+
+NullPointerAutomaton(const char *,int,int) {
+   english="Null Pointer in the list for automaton %s for point (%d,%d)"
+   french="Le Pointeur de l'automate %s est nul. Référencé par le point (%d,%d)"
+}
+
+NullPointerAutomatonExt(const char *,int) {
+   english="Null Pointer in the list for automaton %s for alarmId %d"
+   french="Le Pointeur de l'automate %s est nul. Référencé par l'identifiant %d"
+}
+
+NullAckPointerAutomaton(int) {
+   english="Null Pointer in the list for Ack automaton for Id %d"
+   french="Le Pointeur de l'automate d'acquitement est nul. Référencé par l'identifiant %d"
+}
+
+UnknownAlarmDbRef(int) {
+   english="The alarm (%d) does not exist in the list"
+   french="L'alarme (%d) n'est pas référencée dans la liste"
+}
+
+ReadEquipment(const char *) {
+   english="Error during read of equipment field address %s"
+   french="Erreur lors de la lecture de l'attribut d'équipement %s"
+}
+
+BadExtAlarmId(int) {
+   english="Error incorrect alarmId %d. It shall be negative."
+   french="Erreur identifiant d'alarm %d incorrect. Il doit etre négatif."
+}
+
+ExtShmFull() {
+   english="ERROR : the shared memory is full : cannot update Synthesis"
+   french="Erreur la memoire partagée des alarmes externes est pleine : impossible de mettre a jour la synthèse."
+}
+
+TimerInProgress(int,int) {
+   english="the alarm at attribute (%d,%d) has already a timer in progress : could not arm another transition timer"
+   french="l'alarme déclarée à l'attribut (%d,%d) a déjà un timer en cours : impossible d'armer une nouvelle temporisation."
+}
+
+ExtTimerInProgress(int) {
+   english="the alarm (%d) has already a timer in progress : could not arm another transition timer"
+   french="l'alarme d'identifiant (%d) a déjà un timer en cours : impossible d'armer une nouvelle temporisation."
+}
+
+BadListSize(int,int) {
+   english="the event list, that had %d elements, has been resized up to the capacity value : %d."
+   french="la taille de la liste d'événements, qui comportait %d éléments, a été augmentée pour valoir la valeur de la capacité : %d."
+}
+
+BadParam(const char *) {
+   english="Bad parameter: %s"
+   french="Parametre incorrect: %s"
+}
+
+RtapFunction(const char *) {
+   english="Rtap function error: %s"
+   french="Erreur Rtap fonction: %s"
+}
+
+ScadasoftFunction(const char *, int) {
+   english="SCADAsoft function error: %s (minor=%d)"
+   french="Erreur SCADAsoft fonction: %s (minor=%d)"
+}
+
+Internal(const char *) {
+   english="Internal error: %s"
+   french="Erreur interne: %s"
+}
+
+NullPointerAutomatonCreation(const char*, long) {
+   english="Unable to create a value %s automaton for %d alarmId"
+   french="Impossible de créer un nouvel automate de valeurs (%s) pour l'alarme référencé par %d"
+}
+
+NullPointerAckCreation(const char*, int) {
+   english="Unable to create an Ack %s automaton for %d alarmId"
+   french="Impossible de créer un nouvel automate d'acquittement (%s) pour l'alarme référencé par %d"
+}
+
+Timeout(const char *,const char *) {
+   english="Timeout received while sending %s request to %s environment"
+   french="Délai expiré durant l'envoi de la requête %s vers l'environnement %s"
+}
+
+DuplicateExtAlarmId(int) {
+   english="Error duplicate alarmId %d"
+   french="Erreur identifiant d'alarm %d redondant"
+}
+
+OpenConfigFile(const char*) {
+   english="Cannot open config. file %s"
+   french="Impossible d'ouvrir le fichier de config. %s"
+}
+
+ReadConfigFile(const char*) {
+   english="Read user defined fields from: %s" 
+   french="Lecture des champs utilisateurs de: %s"
+}
+
+InvalidFieldType(int, const char*) {
+   english=" Invalid Type (%d) for USER field: %s (not: ScsINTEGER, ScsFLOAT, ScsSTRING)" 
+   french="Type Invalide pour champs UTILISATEUR: %s (not: ScsINTEGER, ScsFLOAT, ScsSTRING)"
+}
+
+InvalidFieldCount(int) {
+   english=" Bad reloaded Fields count (%d) - With USER defined fields: Remove Eventlist.cat" 
+   french=" Mauvais Nombre de champs recharge (%d) - Nouveau Champs UTILISATEURS: Supprimer Eventlist.cat"   
+}
+
+InvalidFieldList() {
+   english=" Bad reloaded fields list - With new USER defined fields: Remove Eventlist.cat" 
+   french=" Mauvaise liste de champs recharge - Nouveau Champs UTILISATEURS: Supprimer Eventlist.cat"
+}
+
+NoAlarmFound(int, const char *) {
+   english=" No Alarm Id:(%d) found in List: %s"
+   french=" Alarm Id:(%d) non trouvee dans la liste: %s" 
+}
+
+OpenReadFile(const char*) {
+   english="Cannot open to file [%] in reading"
+   french="Impossible de lire le fichier %s"
+}
+
+OpenWriteFile(const char*) {
+   english="Cannot open to file [%] in writing"
+   french="Impossible d'ecrire dans le fichier %s"
+}
+
+CreateDirectory(const char *) {
+   english="Error creating directory [%s]"
+   french="Erreur de creation du repertoire [%s]"
+}
+
+CreateFile(const char *) {
+  english="Cannot create file [%s]"
+  french="Impossible de creer le fichier [%s]"
+}
+
+SnapshotSave(const char*, const long) {
+  english="Cannot save automaton [%s,%i] to snapshot stream"
+  french="Impossible de sauvegarder l'etat de l'automate [%s,%i]"
+}
+
+SnapshotRestore(const char*, const long) {
+  english="Cannot restore automaton [%s,%i] from snapshot stream"
+  french="Impossible de recuperer l'etat de l'automate [%s,%i]"
+}
+
+UnknownKey(const long) {
+  english="Cannot found the key (%i)"
+  french="Impossible de trouver la cle (%i)"
+}
+
+UnknownState(const long, const char *) {
+  english="Unknown state %d for alias %s"
+  french="Etat %d inconnu pour l'alias %s"
+}
+
+NullPointerForAutomaton(const char *, const char *) {
+   english="Null pointer for alias %s in automaton %s"
+   french="Pointeur null pour l'alias %s dans l'automate %s"
+}
+
+DatabaseAccess(const char *) {
+   english="Access to %s denied"
+   french="Accès à %s impossible"
+}

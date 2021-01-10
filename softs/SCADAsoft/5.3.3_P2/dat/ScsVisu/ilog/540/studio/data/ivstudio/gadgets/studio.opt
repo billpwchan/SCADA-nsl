@@ -1,0 +1,72 @@
+// 
+//	    ILOG Views Studio configuration
+//		Gadgets Extension
+// 
+studio {
+
+    PropertySetDefinition studio {
+	fields {
+	    useGridOnGadgetBuffers	Boolean;
+	}
+    }	 
+
+    messageDB		"ivstudio/gadgets/studio.dbm";
+    panelFile		"ivstudio/gadgets/studio.pnl";
+    commandFile		"ivstudio/gadgets/studio.cmd";
+    defaultGroupCommand	GroupIntoSelector;
+    useGridOnGadgetBuffers	true;
+
+    toolBarCommands IlvStGadgetBuffer {
+	SelectSelectionMode,
+	SelectPolySelectionMode,
+	SelectRotateMode,
+ 	SelectActiveMode,
+	-,
+    	SelectZoomMode,
+	SelectPanZoomMode,
+	-,
+	ZoomLevel,
+	ZoomIn,
+	ZoomOut,
+	FitViewToContents,
+	ResetView,
+	-,
+	SelectFocusMode,
+	SelectAttachmentsMode,
+ 	SelectMenuMode,
+ 	SelectMatrixMode,
+	SelectSpinBoxMode
+    }
+
+    dragDropPalette "Gadgets" {
+	dataFileName "ivstudio/gadgets/p_gadget.ilv";
+	label "&Gadgets";
+	bitmap "ivstudio/gadgets/icfocus.png";
+	path -before "Graphics";
+    }
+    defaultDragDropPalette "Gadgets";
+    dragDropPalette "Menus" {
+	dataFileName "ivstudio/gadgets/p_menu.ilv";
+	label "&Menus";
+	path "Gadgets";
+	bitmap "ivstudio/gadgets/icmenu.png";
+    }
+    dragDropPalette "Matrix" {
+	dataFileName "ivstudio/gadgets/p_matrix.ilv";
+	label "&matrix";
+	bitmap "ivstudio/gadgets/icmatrix.png";
+	path "Gadgets";
+    }
+    dragDropPalette "Miscellaneous" {
+	dataFileName "ivstudio/gadgets/p_misc.ilv";
+	label "&Miscellaneous";
+    	bitmap "ivstudio/gadgets/icspinb.png";
+	path "Gadgets";
+    }
+    dragDropPalette "ViewRectangles" {
+	dataFileName "ivstudio/gadgets/p_vrect.ilv";
+	label "&ViewRectangles";
+	bitmap "ivstudio/gadgets/icgdgcnt.png";
+	path "Gadgets";
+    }
+}

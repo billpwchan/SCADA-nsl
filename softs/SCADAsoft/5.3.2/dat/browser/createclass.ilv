@@ -1,0 +1,106 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 13:44:00 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "createclass"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\browser\\createclass.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 19
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 30 220 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ClassName :"  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 270 30 230 22 F6 2 1 -1 0 "" } 32 "ClassNameTextField"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 100 220 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ShortTermPeriodicity :"  }   } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 140 220 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ShortTermDuration :"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 210 220 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&MiddleTermPeriodicity :"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 150 310 80 25 F13 2 { IlvMessageItem 262145 4 16 4 "&Create"  }   } 544 "OkButton"
+1
+1 "__ilvCallback" "okCB"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 300 310 80 25 F13 2 { IlvMessageItem 262145 4 16 4 "&cancel"  }   } 544 "CancelButton"
+1
+1 "__ilvCallback" "CancelCB"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 250 220 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&MiddleTermDuration :"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 270 100 50 22 F6 2 2 6 0 "0" . , 0 0 -2147483648 2147483647 } 32 "PeriodSTNumber"
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 270 210 50 22 F6 2 2 6 0 "0" . , 0 0 -2147483648 2147483647 } 32 "PeriodMTNumber"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 270 140 50 22 F6 2 2 6 0 "0" . , 0 0 -2147483648 2147483647 } 32 "DurationSTNumber"
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 270 250 50 22 F6 2 2 6 0 "0" . , 0 0 -2147483648 2147483647 } 32 "DurationMTNumber"
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 330 100 170 22 F1 2 4
+{ IlvMenuItem 65 2 4 "&second(s)"  } 
+{ IlvMenuItem 1 2 4 "&minute(s)"  } 
+{ IlvMenuItem 1 2 4 "&hour(s)"  } 
+{ IlvMenuItem 1 2 4 "&day(s)"  }  0  } 32 "PeriodSTUnit"
+0
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 330 140 170 22 F1 2 4
+{ IlvMenuItem 65 2 4 "&second(s)"  } 
+{ IlvMenuItem 1 2 4 "&minute(s)"  } 
+{ IlvMenuItem 1 2 4 "&hour(s)"  } 
+{ IlvMenuItem 1 2 4 "&day(s)"  }  0  } 32 "DurationSTUnit"
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 330 210 170 22 F1 2 4
+{ IlvMenuItem 65 2 4 "&second(s)"  } 
+{ IlvMenuItem 1 2 4 "&minute(s)"  } 
+{ IlvMenuItem 1 2 4 "&hour(s)"  } 
+{ IlvMenuItem 1 2 4 "&day(s)"  }  0  } 32 "PeriodMTUnit"
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 330 250 170 22 F1 2 4
+{ IlvMenuItem 65 2 4 "&second(s)"  } 
+{ IlvMenuItem 1 2 4 "&minute(s)"  } 
+{ IlvMenuItem 1 2 4 "&hour(s)"  } 
+{ IlvMenuItem 1 2 4 "&day(s)"  }  0  } 32 "DurationMTUnit"
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 20 10 490 55 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Name"  }   } 0
+0
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 20 80 490 95 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ShortTerm"  }   } 0
+0
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 20 190 490 95 F268435468 0 { IlvMessageItem 262169 4 16 4 "&MiddleTerm"  }   } 0
+0
+Size 522 359
+EOF

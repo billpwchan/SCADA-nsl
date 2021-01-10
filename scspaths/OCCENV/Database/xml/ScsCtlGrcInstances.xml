@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="ScsCtlGrc">
+<InstanceDescription alias="ScsCtlGrc" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="ScsCtlGrc"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ScsCtlGrc"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

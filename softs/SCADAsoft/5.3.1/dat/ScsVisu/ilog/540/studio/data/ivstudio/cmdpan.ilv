@@ -1,0 +1,132 @@
+// Ilv Version: 5.2
+// File generated: Thu Apr 10 15:27:33 2008
+// Creator class: IlvGadgetManagerOutput
+FileName "cmdpan"
+PathName "cmdpan.ilv"
+Palettes 2
+1 F "defaultBg" "black" "button" "%MS Sans Serif-11-" 0 solid solid 0 0 0 65535 1
+"IlvStToolBar" 0 F "defaultBg" "black" "normal" "%MS Sans Serif-11-" 0 solid solid 0 0 0 65535 1
+IlvObjects 18
+2 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 296 10 199 22 F6 2 1 -1 0 "" } 544 "cmdField"
+1
+1 "__ilvCallback" "executeCommand"
+6144 "Button_2" "cmdList"
+2 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+1 IlvButton 320 202 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&apply"  }   } 544 "apply"
+1
+1 "__ilvCallback" "apply"
+6144 "Button_1" "cmdHelpButton"
+2 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+1 IlvButton 10 202 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&help"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "help"
+6144 "category" "apply"
+2 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 296 35 199 22 F7 2 1 -1 0 "" } 32 "cmdLabel"
+6144 "acctext" "state"
+2 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 100 202 210 23 F7 2 1 -1 0 "" } 32 "cmdPrompt"
+0
+2 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 100 5 132 22 F815 2 1 -1 0 "" 0 9 0 } 544 "category"
+1
+1 "__ilvCallback" "categoryCB"
+6144 "cmdList" "Button_1"
+2 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+0 IlvButton 426 111 70 70 F13 1 { IlvMessageItem 262145 4 16 4 ""  }   } 544 "BitmapButton"
+1
+1 "__ilvCallback" "apply"
+4096 "accdef"
+2 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 296 60 199 22 F7 2 1 -1 0 "" } 32 "acctext"
+6144 "accdef" "cmdLabel"
+2 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 296 85 199 22 F7 2 1 -1 0 "" } 32 "accdef"
+6144 "BitmapButton" "acctext"
+2 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+1 IlvButton 410 202 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 512
+1
+1 "__ilvCallback" "cancel"
+0
+3 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 239 34 52 25 F268435468 0 { IlvMessageItem 262169 4 16 4 "&label"  }   } 0
+0
+3 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 239 59 52 25 F268435468 0 { IlvMessageItem 262169 4 16 4 "&acc."  }   } 0
+0
+3 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 239 9 52 25 F268435468 0 { IlvMessageItem 262169 4 16 4 "&name"  }   } 0
+0
+3 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 239 84 55 25 F268435468 0 { IlvMessageItem 262169 4 16 4 "&key"  }   } 0
+0
+3 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 4 80 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&category"  }   } 0
+0
+3 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Toggle" ]
+0 IlvToggle 296 131 90 16 F1 2 1 2 0 0 0 Y "&state" } 32 "state"
+6144 "cmdHelpButton" "accdef"
+3 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 10 35 222 157 F131 2 A A 0 0 0 0 0 4 0 0 V0 2 0 } 544 "cmdList"
+2
+1 "__ilvCallback" "executeCommand"
+1 "__ilvSCallback" "cmdSelected"
+0
+3 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 243 168 28 23 F13 2 { IlvMessageItem 262146 4 16 4 1 0 "ivstudio/icons/ichelp.png"  }   } 544 "cmdHelpButton"
+1
+1 "__ilvCallback" "cmdHelp"
+6144 "apply" "state"
+Size 500 235
+GeometryHandlers
+2 100 200 237 0 237 0
+ 150 200 263 237 263 237
+7 3 0 0 100  210 0 210 4  0 0 190 1
+ 3 0 0 10  0 0 80 2  410 0 410 1
+ 3 426 0 426  0 0 70 6  0 0 4 1
+ 3 100 0 100  0 0 132 5  0 0 5 0
+ 3 410 0 410  0 0 80 9  0 0 10 1
+ 3 0 0 10  222 0 222 16  0 0 5 0
+ 3 320 0 320  0 0 80 1  0 0 100 1
+10 3 0 0 59  0 0 90 15  114 0 114 1
+ 3 0 0 59  199 0 199 0  0 0 5 1
+ 3 0 0 59  199 0 199 3  0 0 5 1
+ 3 0 0 59  199 0 199 7  0 0 5 1
+ 3 0 0 59  199 0 199 8  0 0 5 1
+ 3 0 0 2  0 0 52 10  209 0 209 1
+ 3 0 0 2  0 0 52 12  209 0 209 1
+ 3 0 0 2  0 0 52 11  209 0 209 1
+ 3 0 0 2  0 0 55 13  206 0 206 1
+ 3 0 0 6  0 0 28 17  229 0 229 1
+1 100 235 235 0 235 0
+6 3 202 0 202  0 0 23 4  0 0 10 0
+ 3 202 0 202  0 0 23 1  0 4 10 0
+ 3 202 0 202  0 0 23 2  0 0 10 0
+ 3 202 0 202  0 0 23 9  0 0 10 0
+ 3 0 0 35  157 0 157 16  0 0 43 0
+ 3 168 0 168  0 0 23 17  0 0 44 0
+Layers 4
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

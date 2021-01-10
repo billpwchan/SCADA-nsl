@@ -1,0 +1,81 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:19 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "IlvTInspTest"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\trdstudio\\IlvTInspTest.ilv"
+Palettes 4
+"defaultGadget" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+0 F "gray" "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+3 F "gray" 65025 0 0 "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+"default" 2 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 16
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 10 5 415 273 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Test_interactors"  }   } 32 "Text11"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 20 36 69 18 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Interactor"  }   } 32 "Text8"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvScrolledComboBox 95 34 120 22 F815 2 1 -1 0 "&zoom" 4
+{ IlvGadgetItem 1 2 4 "&zoom"  } 
+{ IlvGadgetItem 1 2 4 "&pan"  } 
+{ IlvGadgetItem 1 2 4 "&crosshair"  } 
+{ IlvGadgetItem 1 2 4 "&infoview"  }  4 2 } 32 "IntList"
+10240 "LocateRight"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 343 34 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Remove"  }   } 544 "Remove"
+1
+1 "__ilvCallback" "Remove"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 264 34 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Set"  }   } 544 "Set"
+1
+1 "__ilvCallback" "Set"
+0
+1 { 5 2 IlvTransparentIcon 22 204 "icplug.png" "" } 0
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 52 204 361 67 F268435468 0 { IlvMessageItem 262169 4 4 4 "&Instructions"  }   } 0
+0
+1 { 7 2 IlvReliefLine 32 117 401 117 1 } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 36 86 132 18 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Steps"  }   } 0
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvNumberField 171 84 44 22 F6 2 16 2 0 "0" . , 2 0 0 10 } 32 "Steps"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 22 61 388 134 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Parameters"  }   } 0
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 36 124 132 18 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Cross"  }   } 0
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvToggle 245 153 150 16 F1073741825 2 1 2 0 16 0 Y "&Abs" } 32 "ShowAbs"
+0
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 36 143 132 36 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Ord"  }   } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvNumberField 171 150 44 22 F6 2 16 2 0 "0" . , 2 0 -1 16 } 32 "ShowOrd"
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 10 284 415 39 F268435468 0 { IlvMessageItem 262145 4 4 4 "&Warnings"  }   } 0
+0
+Size 436 333
+EOF

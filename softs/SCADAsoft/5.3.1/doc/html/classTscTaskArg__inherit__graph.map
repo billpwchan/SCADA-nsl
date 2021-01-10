@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$classTscTaskCmdArg.html" title="This class describe a task argument for a CMD task." alt="TscTaskCmdArg" coords="7,92,129,119" />
+<area shape="rect" href="$classTscTaskEvtArg.html" title="This class describe a task argument for a EVT task." alt="TscTaskEvtArg" coords="153,92,265,119" />
+<area shape="rect" href="$classTscTaskExecArg.html" title="This class describe a task argument for a EXEC task." alt="TscTaskExecArg" coords="289,92,412,119" />
+<area shape="rect" href="$classTscTaskGrcArg.html" title="This class describe a task argument for a GRC task." alt="TscTaskGrcArg" coords="436,92,551,119" />
+</map>

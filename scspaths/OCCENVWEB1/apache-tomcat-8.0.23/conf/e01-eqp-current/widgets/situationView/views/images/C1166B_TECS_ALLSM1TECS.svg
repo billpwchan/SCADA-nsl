@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="1222" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 2394 1222" width="2394">
+
+  
+  <g class="AnLayer" id="AnDefaultLayer">
+
+    
+    <polygon class="AnPolygon" fill="#989898" fill-rule="evenodd" points="778,323 1073,323 1073,1100 778,1100 " />
+
+    
+    <polygon class="AnPolygon" fill="#989898" fill-rule="evenodd" points="1074,623 1718,623 1718,774 1074,774 " />
+
+    
+    <polygon class="AnPolygon" fill="#989898" fill-rule="evenodd" points="1073,923 1717,923 1717,1099 1073,1099 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="1075,324 1719,324 1719,623 1075,623 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="1074,774 1718,774 1718,924 1074,924 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="1719,324 2363,324 2363,1099 1719,1099 " />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="30px" x2="2362px" y1="774px" y2="774px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="30px" x2="2362px" y1="624px" y2="624px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="30px" x2="2362px" y1="474px" y2="474px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="30px" x2="2362px" y1="324px" y2="324px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="30px" x2="2362px" y1="924px" y2="924px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1718px" x2="1718px" y1="226px" y2="1101px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="779,225 2363,225 2363,1100 779,1100 779,225 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="30,323 779,323 779,1100 30,1100 30,323 " stroke="#000000" stroke-width="2px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1074px" x2="1074px" y1="226px" y2="1101px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.120000,0.000000,0.000000,5.120000,975.880005,86.599998)" x="0px" y="12px">TECS Summary</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.096000,0.000000,0.000000,4.096000,1897.939941,250.695999)" x="0px" y="12px">LMC/SSV/CTV </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.096000,0.000000,0.000000,4.096000,868.231995,246.695999)" x="0px" y="12px">CHS</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.096000,0.000000,0.000000,4.096000,1346.229980,246.695999)" x="0px" y="12px">KOT</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.096000,0.000000,0.000000,4.096000,195.231995,371.696014)" x="0px" y="12px">Control Location</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.096000,0.000000,0.000000,4.096000,66.232002,518.695984)" x="0px" y="12px">Emergency Mode(s) Activated</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.096000,0.000000,0.000000,4.096000,66.232002,673.695984)" x="0px" y="12px">Congestion Mode(s) Activated</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.096000,0.000000,0.000000,4.096000,197.231995,818.695984)" x="0px" y="12px">Demand Signal</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.096000,0.000000,0.000000,4.096000,77.232002,984.695984)" x="0px" y="12px">Automatic Congestion Mode</text>
+
+  
+  </g>
+
+</svg>

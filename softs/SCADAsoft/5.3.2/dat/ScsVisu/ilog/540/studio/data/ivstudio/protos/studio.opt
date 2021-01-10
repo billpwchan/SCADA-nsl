@@ -1,0 +1,130 @@
+studio {
+
+    PropertySetDefinition studio {
+        fields {
+   	    protoLibrary		String repeatable;
+            realSizeProtoIcons		Boolean;
+            protoIconWidth		Int;
+            protoIconHeight		Int;
+            protoIconSpacing		Int;
+            protoLabelSpacing		Int;
+			singleFileProtoLibraries	Boolean;
+			sharedAnimationTimers	Boolean;
+    	    useProtoGraphics 		Boolean;
+    	    realSizeProtoPalette 	Boolean;
+        }
+    }
+    
+    panelFile "ivstudio/protos/studio.pnl";
+    
+    protoLibrary "samples";
+    protoLibrary "sources";
+    protoLibrary "output";
+    protoLibrary "lcd";
+    protoLibrary "operations";
+    protoLibrary "script";
+    
+    dragDropPalette "_IlvPrototypes" {
+		label "&IlvMsgStProto181";
+		bitmap "ivstudio/protos/png/protopal.png"
+    }
+    defaultDragDropPalette "_IlvPrototypes";
+    defaultGroupCommand GroupIntoGraphicSet;
+
+    singleFileProtoLibraries true;
+    sharedAnimationTimers true;
+    useProtoGraphics true;
+    realSizeProtoPalette false;
+    
+    bitmapAlias "icgrpsel" "ivstudio/protos/png/icgrpsel.png";
+    bitmapAlias "icgrpcon" "ivstudio/protos/png/icgrpcon.png";
+    
+    bitmapAlias "group" "ivstudio/protos/png/group.png";
+    bitmapAlias "proto" "ivstudio/protos/png/proto.png";
+    bitmapAlias "instance" "ivstudio/protos/png/instance.png";
+    bitmapAlias "node" "ivstudio/protos/png/node.png";
+    bitmapAlias "subgroup" "ivstudio/protos/png/subgroup.png";
+    bitmapAlias "graphic" "ivstudio/protos/png/graphic.png";
+    bitmapAlias "valuesrc" "ivstudio/protos/png/valuesrc.png";
+    bitmapAlias "inacc" "ivstudio/protos/png/inacc.png";
+    bitmapAlias "outacc" "ivstudio/protos/png/outacc.png";
+    bitmapAlias "inoutacc" "ivstudio/protos/png/inoutacc.png";
+    
+    bitmapAlias "defltacc" "ivstudio/protos/png/defltacc.png";
+    bitmapAlias "defloacc" "ivstudio/protos/png/defloacc.png";
+    bitmapAlias "IlvAttributeAccessor" "ivstudio/protos/png/attracc.png";
+    bitmapAlias "IlvConditionAccessor" "ivstudio/protos/png/condacc.png";
+    bitmapAlias "IlvMinMaxAccessor" "ivstudio/protos/png/mimaxacc.png";
+    bitmapAlias "IlvMultiRepAccessor" "ivstudio/protos/png/mrepacc.png";
+    bitmapAlias "IlvConnectionAccessor" "ivstudio/protos/png/connacc.png";
+    bitmapAlias "IlvExpressionAccessor" "ivstudio/protos/png/expracc.png";
+    bitmapAlias "IlvValueAccessor" "ivstudio/protos/png/valueacc.png";
+    bitmapAlias "IlvToggleAccessor" "ivstudio/protos/png/togglacc.png";
+    bitmapAlias "IlvDebugAccessor" "ivstudio/protos/png/debugacc.png";
+    bitmapAlias "IlvNodeAccessor" "ivstudio/protos/png/nodeacc.png";
+    bitmapAlias "IlvFormatAccessor" "ivstudio/protos/png/formtacc.png";
+    bitmapAlias "IlvCompositeAccessor" "ivstudio/protos/png/compacc.png";
+    bitmapAlias "IlvGroupUserAccessor" "ivstudio/protos/png/grpacc.png";
+    bitmapAlias "IlvInvertAccessor" "ivstudio/protos/png/invacc.png";
+    bitmapAlias "IlvBlinkAccessor" "ivstudio/protos/png/blnkacc.png";
+    bitmapAlias "IlvRotateAccessor" "ivstudio/protos/png/rotacc.png";
+    bitmapAlias "IlvRotationAccessor" "ivstudio/protos/png/rotnacc.png";
+ 	bitmapAlias "IlvSwitchAccessor" "ivstudio/protos/png/mrepacc.png";
+    bitmapAlias "IlvGraphicAccessor" "ivstudio/protos/png/grphacc.png";
+    bitmapAlias "IlvCallbackAccessor" "ivstudio/protos/png/callbacc.png";
+    bitmapAlias "IlvLoopbackAccessor" "ivstudio/protos/png/loopbacc.png";
+    bitmapAlias "IlvExportOutputAccessor" "ivstudio/protos/png/expoacc.png";
+    bitmapAlias "IlvOutputAccessor" "ivstudio/protos/png/outpacc.png";
+    bitmapAlias "IlvTriggerAccessor" "ivstudio/protos/png/trigacc.png";
+    bitmapAlias "IlvCounterAccessor" "ivstudio/protos/png/countacc.png";
+    bitmapAlias "IlvPrototypeAccessor" "ivstudio/protos/png/protoacc.png";
+    bitmapAlias "IlvZoomXAccessor" "ivstudio/protos/png/zoomxacc.png";
+    bitmapAlias "IlvZoomYAccessor" "ivstudio/protos/png/zoomyacc.png";
+    bitmapAlias "IlvSlideXAccessor" "ivstudio/protos/png/slidxacc.png";
+    bitmapAlias "IlvSlideYAccessor" "ivstudio/protos/png/slidyacc.png";
+    bitmapAlias "IlvJavaScriptAccessor" "ivstudio/protos/png/jsacc.png";
+    bitmapAlias "IlvFillAccessor" "ivstudio/protos/png/fillacc.png";
+    bitmapAlias "IlvEventAccessor" "ivstudio/protos/png/eventacc.png";
+    
+    fileBrowserType		"*.ivp" "&IlvMsgStProto184";
+    fileBrowserType		"*.ipl" "&IlvMsgStProto185";
+    fileLoader			"ivp" "OpenPrototypeBuffer";
+    fileLoader			"ipl" "OpenProtoLibrary";
+    
+    objectInteractor		ProtoGraphic;
+
+    toolBarCommands IlvStBuffer {
+	-,
+	SelectGroupConnectionMode
+    }
+    
+    toolBarCommands IlvStGadgetBuffer {
+	-,
+	SelectGroupConnectionMode
+    }
+    
+    toolBarCommands IlvStPrototypeEditionBuffer {
+	SelectSelectionMode,
+	SelectPolySelectionMode,
+	SelectLabelMode,
+	SelectLabelListMode,
+	SelectRotateMode,
+ 	SelectActiveMode,
+	-,
+    	SelectZoomMode,
+	SelectPanZoomMode,
+	-,
+	ZoomLevel,
+	ZoomIn,
+	ZoomOut,
+	FitViewToContents,
+	ResetView,
+	-,
+ 	SelectGroupConnectionMode
+    }
+    
+   toolBarCommands IlvStGrapherBuffer {
+	-,
+	SelectGroupConnectionMode
+    }
+}

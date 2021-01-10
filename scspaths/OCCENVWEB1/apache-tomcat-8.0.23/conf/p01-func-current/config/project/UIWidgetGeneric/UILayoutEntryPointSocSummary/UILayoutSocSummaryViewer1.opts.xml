@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE xml>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<header key="header">
+		<EventBusName>socsummary</EventBusName>
+		<EventBusScope>local</EventBusScope>
+		<DataGrid>UIDataGridFormatterSOC</DataGrid>
+		<DataGridColumnsType>String,String,String,String</DataGridColumnsType>
+		<DataGridColumnsHeaderString>&amp;SCADAGEN_SOC_UILayoutSocSummaryViewer1_SOCCARD,&amp;SCADAGEN_SOC_UILayoutSocSummaryViewer1_SCSENVID,&amp;SCADAGEN_SOC_UILayoutSocSummaryViewer1_ALIAS,&amp;SCADAGEN_SOC_UILayoutSocSummaryViewer1_DESCRIPTION</DataGridColumnsHeaderString>
+		<DataGridColumnsHeaderTranslation>1,1,1,1</DataGridColumnsHeaderTranslation>
+		<DataGridColumnsLabel>SOCCard,ScsEnvID,Alias,Description</DataGridColumnsLabel>
+		<DataGridColumnsWidth>70,70,0,200</DataGridColumnsWidth>
+		<DataGridColumnsSort>1,1,0,0</DataGridColumnsSort>
+		<DataGridOptsXMLFile>UILayoutEntryPointSocSummary/SocCardList.xml</DataGridOptsXMLFile>
+		<DataGridPagerName>SCADAgenPager</DataGridPagerName>
+		<DataGridPageSize>10</DataGridPageSize>
+		<DataGridFastForwardRows>30</DataGridFastForwardRows>
+		<DataGridEmptyLabel>&amp;SCADAGEN_SOC_UILayoutSocSummaryViewer1_EmptyLabel</DataGridEmptyLabel>
+	</header>
+	
+	<actionset key="set_default_action">
+		<OperationType>actionsetkey</OperationType>
+	</actionset>	
+	
+	<actionset key="init">
+		<OperationType>actionsetkey</OperationType>
+	</actionset>
+
+	<actionset key="RowSelected">
+		<OperationString1>RowSelected</OperationString1>
+	</actionset>
+	
+	<action key="RowSelected">
+		<SenderOperation>event</SenderOperation>
+		<OperationString1>RowSelected</OperationString1>
+	</action>
+	
+	<!-- Update Pager Value -->
+	<actionset key="PagerValueChanged_PageStart">
+		<OperationString1>PagerValueChanged_PageStart</OperationString1>
+	</actionset>
+	
+	<action key="PagerValueChanged_PageStart">
+		<SenderOperation>event</SenderOperation>
+		<OperationElement>UIWidgetSocSummaryPager1</OperationElement>
+	</action>
+	
+	<actionset key="PagerValueChanged_EndIndex">
+		<OperationString1>PagerValueChanged_EndIndex</OperationString1>
+	</actionset>
+	
+	<action key="PagerValueChanged_EndIndex">
+		<SenderOperation>event</SenderOperation>
+		<OperationElement>UIWidgetSocSummaryPager1</OperationElement>
+	</action>
+	
+	<actionset key="PagerValueChanged_Exact">
+		<OperationString1>PagerValueChanged_Exact</OperationString1>
+	</actionset>
+	
+	<action key="PagerValueChanged_Exact">
+		<SenderOperation>event</SenderOperation>
+		<OperationElement>UIWidgetSocSummaryPager1</OperationElement>
+	</action>
+	
+	<!-- Update Pager Button -->
+	<actionset key="PagerButtonChanged_HasPreviousPage">
+		<OperationString1>PagerButtonChanged_HasPreviousPage</OperationString1>
+	</actionset>
+	
+	<action key="PagerButtonChanged_HasPreviousPage">
+		<SenderOperation>event</SenderOperation>
+		<OperationElement>UIWidgetSocSummaryPager1</OperationElement>
+		<OperationString1>PagerButtonChanged_HasPreviousPage</OperationString1>
+		<OperationString2>false</OperationString2>
+	</action>
+	
+	<actionset key="PagerButtonChanged_HasNextPage">
+		<OperationString1>PagerButtonChanged_HasNextPage</OperationString1>
+	</actionset>
+	
+	<action key="PagerButtonChanged_HasNextPage">
+		<SenderOperation>event</SenderOperation>
+		<OperationElement>UIWidgetSocSummaryPager1</OperationElement>
+		<OperationString1>PagerButtonChanged_HasNextPage</OperationString1>
+		<OperationString2>false</OperationString2>
+	</action>
+	
+	<actionset key="PagerButtonChanged_HasFastForwardPage">
+		<OperationString1>PagerButtonChanged_HasFastForwardPage</OperationString1>
+	</actionset>
+	
+	<action key="PagerButtonChanged_HasFastForwardPage">
+		<SenderOperation>event</SenderOperation>
+		<OperationElement>UIWidgetSocSummaryPager1</OperationElement>
+		<OperationString1>PagerButtonChanged_HasFastForwardPage</OperationString1>
+		<OperationString2>false</OperationString2>
+	</action>
+	
+</data-set>

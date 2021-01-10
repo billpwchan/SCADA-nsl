@@ -1,0 +1,26 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astioptions"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astioptions.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 2
+1 { 0 P 2
+[ IlvPanelObjectReference IlvPanelObjectReference  "971360487.0" ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNotebook 8 5 264 210 F1 2 0 2  4
+" { IlvNotebookPageItem 1 2 4 "&DBase"  }  "gray" ""
+" { IlvNotebookPageItem 1 2 4 "Dxf"  }  "gray" ""
+" { IlvNotebookPageItem 1 2 4 "&Colors"  }  "gray" ""
+" { IlvNotebookPageItem 1 2 4 "&Selection"  }  "gray" ""
+0 0 4 5 2 10 10 10 10  } 32 "NoteBook"
+16384
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 103 224 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "closeCB"
+8192
+Size 279 254
+EOF

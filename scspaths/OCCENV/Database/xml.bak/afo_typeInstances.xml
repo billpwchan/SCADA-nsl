@@ -1,0 +1,3020 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="afo_type">
+<InstanceDescription alias="CTVECTTES_0001aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0001aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0002aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0002aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0003aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0003aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0004aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0004aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0005aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0005aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0006aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0006aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0007aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0007aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0008aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0008aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0009aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0009aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0010aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0010aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0011aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0011aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0012aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0012aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0013aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0013aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0014aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0014aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0015aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0015aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0016aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0016aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0017aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0017aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0018aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0018aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0019aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0019aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0020aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0020aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0021aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0021aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0022aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0022aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0023aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0023aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0024aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0024aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_BC__0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_BC__0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0001aciPOW-ENERGYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0001aciPOW-ENERGYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0001aciPOW-POWFACTORafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0001aciPOW-POWFACTORafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0002aciPOW-ENERGYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0002aciPOW-ENERGYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0002aciPOW-POWFACTORafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0002aciPOW-POWFACTORafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_BSC_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_BSC_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_BSC_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_BSC_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_BSV_0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_BSV_0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_BSV_0002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_BSV_0002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_BSV_0003aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_BSV_0003aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0001aciPOW-MAXDMDafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0001aciPOW-MAXDMDafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0001aciPOW-MVARafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0001aciPOW-MVARafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0001aciPOW-MWafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0001aciPOW-MWafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0001aciPOW-POWFCTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0001aciPOW-POWFCTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0001aciPOW-SUMKVARH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0001aciPOW-SUMKVARH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0001aciPOW-SUMKVARHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0001aciPOW-SUMKVARHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0001aciPOW-SUMKWH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0001aciPOW-SUMKWH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0001aciPOW-SUMKWHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0001aciPOW-SUMKWHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0002aciPOW-MAXDMDafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0002aciPOW-MAXDMDafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0002aciPOW-MVARafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0002aciPOW-MVARafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0002aciPOW-MWafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0002aciPOW-MWafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0002aciPOW-POWFCTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0002aciPOW-POWFCTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0002aciPOW-SUMKVARH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0002aciPOW-SUMKVARH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0002aciPOW-SUMKVARHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0002aciPOW-SUMKVARHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0002aciPOW-SUMKWH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0002aciPOW-SUMKWH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0002aciPOW-SUMKWHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0002aciPOW-SUMKWHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0003aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0003aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0003aciPOW-MAXDMDafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0003aciPOW-MAXDMDafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0003aciPOW-MVARafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0003aciPOW-MVARafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0003aciPOW-MWafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0003aciPOW-MWafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0003aciPOW-POWFCTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0003aciPOW-POWFCTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0003aciPOW-SUMKVARH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0003aciPOW-SUMKVARH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0003aciPOW-SUMKVARHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0003aciPOW-SUMKVARHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0003aciPOW-SUMKWH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0003aciPOW-SUMKWH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0003aciPOW-SUMKWHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0003aciPOW-SUMKWHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_IFM_0003aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_IFM_0003aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_PFCM0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_PFCM0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_PFCM0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_PFCM0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_PFCM0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_PFCM0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_PFCM0002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_PFCM0002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_TFC_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_TFC_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_TFC_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_TFC_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_TFC_0003aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_TFC_0003aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FAFHV_TFC_0004aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FAFHV_TFC_0004aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0001aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0001aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0002aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0002aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0003aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0003aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0004aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0004aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0005aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0005aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0006aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0006aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0007aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0007aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0008aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0008aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0009aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0009aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0010aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0010aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0011aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0011aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0012aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0012aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0013aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0013aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="FTRHV_LINE0014aciPOW-STATUSafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="FTRHV_LINE0014aciPOW-STATUSafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_BSC_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_BSC_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_BSC_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_BSC_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_BSC_0003aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_BSC_0003aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_BSM_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_BSM_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_BSM_0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_BSM_0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_BSM_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_BSM_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_BSM_0002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_BSM_0002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_BSV_0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_BSV_0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_BSV_0002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_BSV_0002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_BSV_0003aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_BSV_0003aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20001aciPOW-MAXDMDafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20001aciPOW-MAXDMDafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20001aciPOW-MVARafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20001aciPOW-MVARafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20001aciPOW-MWafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20001aciPOW-MWafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20001aciPOW-POWFCTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20001aciPOW-POWFCTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20002aciPOW-MAXDMDafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20002aciPOW-MAXDMDafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20002aciPOW-MVARafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20002aciPOW-MVARafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20002aciPOW-MWafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20002aciPOW-MWafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20002aciPOW-POWFCTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20002aciPOW-POWFCTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_IFM20002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_IFM20002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFC_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFC_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFC_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFC_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFC_0003aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFC_0003aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFC_0004aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFC_0004aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFC_0005aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFC_0005aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFC_0006aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFC_0006aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFC_0007aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFC_0007aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFC_0008aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFC_0008aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFC_0009aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFC_0009aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFC_0010aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFC_0010aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFFL0001aciPOW-TFFLafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFFL0001aciPOW-TFFLafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFFL0002aciPOW-TFFLafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFFL0002aciPOW-TFFLafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFFL0003aciPOW-TFFLafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFFL0003aciPOW-TFFLafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFFL0004aciPOW-TFFLafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFFL0004aciPOW-TFFLafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFFL0005aciPOW-TFFLafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFFL0005aciPOW-TFFLafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="HMFHV_TFFL0006aciPOW-TFFLafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="HMFHV_TFFL0006aciPOW-TFFLafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0001aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0001aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0002aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0002aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0003aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0003aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0004aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0004aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0005aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0005aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0006aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0006aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0007aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0007aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0008aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0008aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0009aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0009aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0010aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0010aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0011aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0011aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0012aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0012aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMTHV_BSV_0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMTHV_BSV_0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMTHV_TFC_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMTHV_TFC_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMTHV_TFC_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMTHV_TFC_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0001aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0001aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0002aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0002aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0003aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0003aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0004aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0004aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0005aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0005aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0006aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0006aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0007aciECT-TEMPafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0007aciECT-TEMPafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_BC__0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_BC__0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0001aciPOW-ENERGYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0001aciPOW-ENERGYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0001aciPOW-POWFACTORafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0001aciPOW-POWFACTORafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0002aciPOW-ENERGYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0002aciPOW-ENERGYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0002aciPOW-POWFACTORafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0002aciPOW-POWFACTORafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TPKHV_TFC_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TPKHV_TFC_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TPKHV_TFC_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TPKHV_TFC_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_BSC_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_BSC_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_BSC_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_BSC_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_BSC_0003aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_BSC_0003aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_BSM_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_BSM_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_BSM_0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_BSM_0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_BSM_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_BSM_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_BSM_0002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_BSM_0002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_BSV_0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_BSV_0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_BSV_0002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_BSV_0002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10001aciPOW-MAXDMDafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10001aciPOW-MAXDMDafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10001aciPOW-MVARafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10001aciPOW-MVARafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10001aciPOW-MWafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10001aciPOW-MWafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10001aciPOW-POWFCTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10001aciPOW-POWFCTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10001aciPOW-SUMKVARHafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10001aciPOW-SUMKVARHafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10001aciPOW-SUMKWHafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10001aciPOW-SUMKWHafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10002aciPOW-MAXDMDafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10002aciPOW-MAXDMDafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10002aciPOW-MVARafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10002aciPOW-MVARafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10002aciPOW-MWafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10002aciPOW-MWafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10002aciPOW-POWFCTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10002aciPOW-POWFCTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10002aciPOW-SUMKVARHafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10002aciPOW-SUMKVARHafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10002aciPOW-SUMKWHafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10002aciPOW-SUMKWHafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM10002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM10002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0001aciPOW-MAXDMDafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0001aciPOW-MAXDMDafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0001aciPOW-MVARafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0001aciPOW-MVARafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0001aciPOW-MWafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0001aciPOW-MWafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0001aciPOW-POWFCTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0001aciPOW-POWFCTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0001aciPOW-SUMKVARH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0001aciPOW-SUMKVARH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0001aciPOW-SUMKVARHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0001aciPOW-SUMKVARHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0001aciPOW-SUMKWH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0001aciPOW-SUMKWH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0001aciPOW-SUMKWHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0001aciPOW-SUMKWHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0001aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0001aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0002aciPOW-MAXDMDafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0002aciPOW-MAXDMDafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0002aciPOW-MVARafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0002aciPOW-MVARafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0002aciPOW-MWafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0002aciPOW-MWafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0002aciPOW-POWFCTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0002aciPOW-POWFCTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0002aciPOW-SUMKVARH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0002aciPOW-SUMKVARH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0002aciPOW-SUMKVARHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0002aciPOW-SUMKVARHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0002aciPOW-SUMKWH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0002aciPOW-SUMKWH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0002aciPOW-SUMKWHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0002aciPOW-SUMKWHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0002aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0002aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0003aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0003aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0003aciPOW-MAXDMDafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0003aciPOW-MAXDMDafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0003aciPOW-MVARafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0003aciPOW-MVARafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0003aciPOW-MWafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0003aciPOW-MWafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0003aciPOW-POWFCTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0003aciPOW-POWFCTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0003aciPOW-SUMKVARH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0003aciPOW-SUMKVARH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0003aciPOW-SUMKVARHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0003aciPOW-SUMKVARHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0003aciPOW-SUMKWH30afo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0003aciPOW-SUMKWH30afo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0003aciPOW-SUMKWHDYafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0003aciPOW-SUMKWHDYafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_IFM_0003aciPOW-VOLTAGEafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_IFM_0003aciPOW-VOLTAGEafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0001aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0001aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0002aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0002aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0003aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0003aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0004aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0004aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0005aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0005aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0006aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0006aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0007aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0007aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0008aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0008aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0009aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0009aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0010aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0010aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0011aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0011aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0012aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0012aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0013aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0013aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFC_0014aciPOW-CURRENTafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFC_0014aciPOW-CURRENTafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFFL0001aciPOW-TFFLafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFFL0001aciPOW-TFFLafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="TWFHV_TFFL0002aciPOW-TFFLafo" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="TWFHV_TFFL0002aciPOW-TFFLafo"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="406"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="afo"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

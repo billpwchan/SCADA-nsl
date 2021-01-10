@@ -1,0 +1,137 @@
+#!/bin/sh
+
+if [ `uname` = "AIX" ]; then
+  export LIBPATH=${ACE_ROOT}/lib
+fi
+ 
+print_usage () {
+	echo "Usage:"
+	echo "scsidlsoap [options] idl_file \n"
+	echo "Options:"
+	echo "  -o DIR:       Write generated files to directory DIR."
+	echo "  -A:           Generate type codes and insertion and"
+	echo "                extraction functions for the any type."
+	echo "  -IDIR:        Put DIR in the include file search path."
+	echo "  -DNAME:       Predefine the macro NAME to be 1 within the IDL file."
+	echo "  -DNAME=DEF:   Predefine the macro NAME to be DEF."
+
+}
+
+if [ $# -lt 1 ]; then
+	print_usage
+	exit 1
+fi
+
+
+if [  x$ORB_NAME = x ]; then
+	echo Environment variable \$ORB_NAME not defined.;
+
+else
+
+	######## Parse command options #######
+	AFlag=
+	oFlag=
+	IFlags=
+	DFlags=
+
+	while getopts AI:D:o: name 
+	do
+		case $name in
+		A)
+			AFlag=1;;
+
+		I)
+			IFlags="$IFlags -I$OPTARG";;
+
+		D)
+			DFlags="$DFlags -D$OPTARG";;
+
+		o)
+			oFlag=1
+			OutDir="$OPTARG";;
+
+		?)
+			print_usage
+			exit 2;;
+		esac
+	done
+
+	shift $(($OPTIND -1))
+	
+	if [ $# -lt 1 ]; then
+		echo "No idl file specified."
+		exit 2
+	fi
+
+	File=$1
+	BaseName=`basename $File .idl`
+	OutDir=${OutDir:-.}
+
+	###### ORBIX compilation ######
+	if [ $ORB_NAME = orbix ]; then
+		IDLflags="-B -s _skel.cpp -c .cpp -h .hh $IFlags $DFlags"
+		if [ $AFlag ]; then
+			IDLflags="$IDLflags -A"
+		fi
+		IDLflags="$IDLflags -out $OutDir"
+
+		# lauch ORBIX idl compiler
+		$ORBIXHOME/bin/idl $IDLflags $File
+		if [ $? != 0 ]; then
+		    exit 1
+		fi
+
+		# copy .hh to _skel.hh
+		cp $OutDir/"$BaseName".hh $OutDir/"$BaseName"_skel.hh
+
+	###### ORBacus compilation ######
+	elif [ $ORB_NAME = orbacus ]; then
+		IDLflags="--tie --h-suffix .hh $IFlags $DFlags"
+		if [  x$AFlag = x ]; then
+			IDLflags="$IDLflags --no-type-codes"
+		fi
+		IDLflags="$IDLflags --output-dir $OutDir"
+
+		# launch ORBacus idl compiler
+		echo "IDL compiler: $File"
+		$ORBACUSHOME/bin/idl $IDLflags $File
+		if [ $? != 0 ]; then
+		    exit 1
+		fi
+		
+        ###### TAO compilation ######
+	elif [ $ORB_NAME = TAO ]; then
+	    # option 1.5.8 à ajouter -GT , à retirer -st _skel_tie.inl 
+	        TAO_IDL_FLAGS="-D_SCS_TAO_ -Cw -hc .hh -cs .cpp -ci .inl"
+		TAO_IDL_FLAGS="$TAO_IDL_FLAGS -hs _skel.hh -ss _skel.cpp -si _skel.inl"
+		TAO_IDL_FLAGS="$TAO_IDL_FLAGS -hT _skel_tie.hh -sT _skel_tie.cpp"
+		
+                # TAO VERSION is greater than 1.5.6
+                TAO_IDL_FLAGS="$TAO_IDL_FLAGS -GT -Gd"
+		
+		IDLflags="$TAO_IDL_FLAGS $IFlags $DFlags"
+		
+		#
+		# ToDo : TAO PORT --no-type-codes -Sa -St
+		# 
+		if [  x$AFlag = x ]; then
+			IDLflags="$IDLflags "
+		fi
+
+		# launch TAO idl compiler
+		echo "IDL compiler: $File"
+		tao_idl $IDLflags -o $OutDir $File
+		if [ $? != 0 ]; then
+		    exit 1
+		fi
+	
+	###### Unknown ORB ######
+	else
+		echo ORB defined by \$ORB_NAME not supported.;
+		exit 1
+	fi
+
+	###### SOAP generation ######
+	$TCLHOME/bin/tclsh $SCSHOME/dat/gentcl/soapgen.tcl "-o$OutDir" $IFlags $DFlags $File
+
+fi

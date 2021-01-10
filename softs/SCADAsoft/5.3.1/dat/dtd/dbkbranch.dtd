@@ -1,0 +1,15 @@
+<!-- DtdVersion='2.3' -->
+
+<!ELEMENT Branch (ChildDescription+)>
+<!ELEMENT ChildDescription (ChildDescription,AttributeDescription*)>
+<!ATTLIST ChildDescription
+ InstanceName CDATA #REQUIRED
+ ClassName CDATA #REQUIRED
+>
+
+<!ELEMENT AttributeDescription EMPTY>
+<!ATTLIST AttributeDescription
+ name CDATA #REQUIRED
+ value CDATA #REQUIRED
+ formula CDATA #IMPLIED
+>

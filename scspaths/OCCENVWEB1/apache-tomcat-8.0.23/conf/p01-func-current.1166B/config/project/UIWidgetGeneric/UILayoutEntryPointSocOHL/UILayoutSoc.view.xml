@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE xml>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header key="header">
+		<rows>7</rows>
+		<cols>1</cols>
+		<rootPanel>AbsolutePanel</rootPanel>
+		<rootCSS>project-UILayoutSocSummary-root</rootCSS>
+	</header>
+	
+	<option key="0|0">
+		<uiCtrl>UIWidgetSocTitle</uiCtrl>
+		<uiView>UILayoutEntryPointSocSummary/UIWidgetSocTitle.view.xml</uiView>
+		<uiOpts>UILayoutEntryPointSocSummary/UIWidgetSocTitle.opts.xml</uiOpts>
+		<element>UIWidgetSocTitle</element>
+	</option>
+	
+	<option key="0|1">
+		<uiCtrl>UILayoutConfiguration</uiCtrl>
+		<uiView>UILayoutEntryPointSocOHL/UILayoutSocSummaryViewerPager1.view.xml</uiView>
+	</option>
+	
+	<option key="0|2">
+		<uiCtrl>UILayoutConfiguration</uiCtrl>
+		<uiView>UILayoutEntryPointSocSummary/UILayoutSocSummaryViewerPager2.view.xml</uiView>
+	</option>
+
+	<option key="0|3">
+		<uiCtrl>UIWidgetSocGrcPoint</uiCtrl>
+		<uiView>UILayoutEntryPointSocSummary/UIWidgetSocGrcPoint.view.xml</uiView>
+		<uiOpts>UILayoutEntryPointSocSummary/UIWidgetSocGrcPoint.opts.xml</uiOpts>
+		<element>UIWidgetSocGrcPoint</element>
+	</option>
+	
+	<option key="0|4">
+		<uiCtrl>UIWidgetSocDelayControl</uiCtrl>
+		<uiView>UILayoutEntryPointSocSummary/UIWidgetSocDelayControl.view.xml</uiView>
+		<uiOpts>UILayoutEntryPointSocSummary/UIWidgetSocDelayControl.opts.xml</uiOpts>
+		<element>UIWidgetSocDelayControl</element>
+	</option>
+	
+	<option key="0|5">
+		<uiCtrl>UIWidgetSocAutoManuControl</uiCtrl>
+		<uiView>UILayoutEntryPointSocSummary/UIWidgetSocAutoManuControl.view.xml</uiView>
+		<uiOpts>UILayoutEntryPointSocSummary/UIWidgetSocAutoManuControl.opts.xml</uiOpts>
+		<element>UIWidgetSocAutoManuControl</element>
+	</option>
+
+	<option key="0|6">
+		<uiCtrl>UIWidgetSocControl</uiCtrl>
+		<uiView>UILayoutEntryPointSocSummary/UIWidgetSocControl.view.xml</uiView>
+		<uiOpts>UILayoutEntryPointSocSummary/UIWidgetSocControl.opts.xml</uiOpts>
+		<element>UIWidgetSocControl</element>
+	</option>
+
+</data-set>

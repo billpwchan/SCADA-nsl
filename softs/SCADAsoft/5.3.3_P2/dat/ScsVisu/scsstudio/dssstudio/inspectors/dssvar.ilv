@@ -1,0 +1,106 @@
+// Ilv Version: 3.1
+// File generated: Mon Apr 03 17:34:44 2000
+// Creator class: IlvGadgetManagerOutput
+FileName "dssvar"
+PathName "D:\\Scadaref\\scadasoft\\dat\\ScsVisu\\scsstudio\\dssstudio\\inspectors\\dssvar.ilv"
+Palettes 2
+1 "gray" "black" "button" "StockedDefaultGui" 0 solid solid 0 0 0
+"default" 0 "gray" "black" "normal" "StockedDefaultGui" 0 solid solid 0 0 0
+IlvObjects 19
+0 { 0 0 IlvTextField 150 144 136 22 F6 2 1 128 0 "" } 32 "VarFormat"
+0
+0 { 1 0 IlvMessageLabel 150 120 136 22 F8 0 25 16 4 "&varFormat"   } 0
+0
+0 { 2 0 IlvMessageLabel 150 168 136 22 F8 0 25 16 4 "&varValCt"   } 0
+0
+0 { 3 0 IlvMessageLabel 150 216 136 22 F8 0 25 16 4 "&varValProc"   } 0
+0
+0 { 4 0 IlvMessageLabel 150 72 136 22 F8 0 25 16 4 "&varModel"   } 0
+0
+0 { 5 0 IlvFileSelectorField 150 96 136 22 F6 2 1 128 0 "" } 96 "VarModel" "TextField"
+6144 "ArgFormat" "ArgId"
+1 { 6 0 IlvMessageLabel 4 -2 136 22 F8 0 25 16 4 "&newVars"   } 0
+0
+1 { 7 0 IlvStringList 5 24 136 224 F131 2 A A 0 0 0 0 0 4 0 0 2 0 } 544 "VarList"
+1
+1 "__ilvCallback" "_VarList"
+6144 "VarId" "VarCt"
+1 { 8 P 1
+[ IlvToolTip __ilvToolTip 2 "&insert" 4 4 ]
+1 IlvButton 4 253 19 23 F25 1 3 16 4 "" 1 0 "ivstudio/icons/insert.png"   } 544 "InsertVar"
+1
+1 "__ilvCallback" "_InsertVar"
+0
+1 { 9 P 1
+[ IlvToolTip __ilvToolTip 2 "&add" 4 4 ]
+1 IlvButton 28 253 19 23 F25 1 3 16 4 "" 1 0 "ivstudio/icons/add.png"   } 544 "AddVar"
+1
+1 "__ilvCallback" "_AddVar"
+0
+1 { 10 P 1
+[ IlvToolTip __ilvToolTip 2 "&remove" 4 4 ]
+1 IlvButton 52 253 19 23 F25 1 3 16 4 "" 1 0 "ivstudio/icons/removitm.png"   } 544 "RemoveVar"
+1
+1 "__ilvCallback" "_RemoveVar"
+0
+1 { 11 P 1
+[ IlvToolTip __ilvToolTip 2 "&clean" 4 4 ]
+1 IlvButton 76 253 19 23 F25 1 3 16 4 "" 1 0 "ivstudio/icons/clean.png"   } 544 "CleanVar"
+1
+1 "__ilvCallback" "_CleanVar"
+0
+1 { 12 P 1
+[ IlvToolTip __ilvToolTip 2 "&MoveUp" 4 4 ]
+0 IlvButton 100 253 17 23 F27 0 3 16 4 "" 1 0 "ivstudio/icons/up.png"   200 } 544 "UpVar"
+1
+1 "__ilvCallback" "_UpVar"
+0
+1 { 13 P 1
+[ IlvToolTip __ilvToolTip 2 "&MoveDown" 4 4 ]
+0 IlvButton 122 253 17 23 F27 1 3 16 4 "" 1 0 "ivstudio/icons/down.png"   200 } 544 "DownVar"
+1
+1 "__ilvCallback" "_DownVar"
+0
+1 { 14 0 IlvMessageLabel 150 24 136 22 F8 0 25 16 4 "&varId"   } 0
+0
+1 { 15 0 IlvTextField 150 48 136 22 F6 2 1 32 0 "" } 32 "VarId"
+4096 "VarList"
+1 { 16 0 IlvTextField 150 192 136 22 F6 2 1 128 0 "" } 32 "VarCt"
+2048 "VarUser"
+1 { 17 0 IlvMessageLabel 150 -2 136 22 F8 0 25 16 4 "&varData"   } 0
+0
+1 { 18 0 IlvTextField 150 241 136 22 F6 2 1 128 0 "" } 32 "VarUser"
+6144 "VarList" "VarCt"
+Size 293 281
+Background "gray"
+GeometryHandlers
+2 100 0 144 0 144 0
+ 0 0 149 144 149 144
+8 3 0 0 5  136 0 136 7  0 0 3 0
+ 3 0 0 4  0 0 19 8  121 0 121 0
+ 3 0 0 28  0 0 19 9  97 0 97 0
+ 3 0 0 52  0 0 19 10  73 0 73 0
+ 3 0 0 76  0 0 19 11  49 0 49 0
+ 3 100 0 100  0 0 17 12  0 0 27 0
+ 3 122 0 122  0 0 17 13  0 0 5 0
+ 3 0 0 4  136 0 136 6  0 0 4 0
+11 3 0 0 6  136 0 136 17  0 0 7 1
+ 3 0 0 6  136 0 136 14  0 0 7 1
+ 3 0 0 6  136 0 136 15  0 0 7 1
+ 3 0 0 6  136 0 136 1  0 0 7 1
+ 3 0 0 6  136 0 136 0  0 0 7 1
+ 3 0 0 6  136 0 136 2  0 0 7 1
+ 3 0 0 6  136 0 136 16  0 0 7 1
+ 3 0 0 6  136 0 136 3  0 0 7 1
+ 3 0 0 6  136 0 136 18  0 0 7 1
+ 3 0 0 6  136 0 136 5  0 0 7 1
+ 3 0 0 6  136 0 136 4  0 0 7 1
+1 100 0 281 0 281 0
+7 3 253 0 253  0 0 23 8  0 0 5 0
+ 3 253 0 253  0 0 23 9  0 0 5 0
+ 3 253 0 253  0 0 23 10  0 0 5 0
+ 3 253 0 253  0 0 23 11  0 0 5 0
+ 3 253 0 253  0 0 23 12  0 0 5 0
+ 3 253 0 253  0 0 23 13  0 0 5 0
+ 3 0 0 24  224 0 224 7  0 0 33 0
+EOF

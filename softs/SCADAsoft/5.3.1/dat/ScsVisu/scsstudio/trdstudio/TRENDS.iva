@@ -1,0 +1,124 @@
+application "TRENDS" {
+    creator      "ILOG Views Studio"; 
+    version      4; 
+    iref         4.01; 
+    ViewsVersion 4; 
+    system       "msvc6"; 
+    date         "Fri Mar 09 10:57:32 2001"; 
+    fileBase     "TRENDS"; 
+    class        Testapp; 
+    baseClass    IlvApplication; 
+    dataDir      "Z:\\scs_source\\dat\\ScsVisu\\scsstudio\\trdstudio\\"; 
+    JvScript     true; 
+    panelClass "IlvTInspGlobal" {
+        class     IlvTInspGlobal; 
+        fileBase  "IlvTInspGlobal"; 
+        dataDir   "./"; 
+        baseClass IlvGadgetContainer; 
+        headerDir "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        srcDir    "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        data      false; 
+    }
+    panelClass "IlvTrendInspector" {
+        class     IlvTrendInspector; 
+        fileBase  "IlvTrendInspector"; 
+        dataDir   "./"; 
+        baseClass IlvGadgetContainer; 
+        headerDir "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        srcDir    "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        data      false; 
+    }
+    panelClass "IlvTInspVertical" {
+        class     IlvTInspVertical; 
+        fileBase  "IlvTInspVertical"; 
+        dataDir   "./"; 
+        baseClass IlvGadgetContainer; 
+        headerDir "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        srcDir    "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        data      false; 
+    }
+    panelClass "IlvTInspHorizontal" {
+        class     IlvTInspHorizontal; 
+        fileBase  "IlvTInspHorizontal"; 
+        dataDir   "./"; 
+        baseClass IlvGadgetContainer; 
+        headerDir "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        srcDir    "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        data      false; 
+    }
+    panelClass "IlvTInspPen" {
+        class     IlvTInspPen; 
+        fileBase  "IlvTInspPen"; 
+        dataDir   "./"; 
+        baseClass IlvGadgetContainer; 
+        headerDir "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        srcDir    "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        data      false; 
+    }
+    panelClass "IlvTInspData" {
+        class     IlvTInspData; 
+        fileBase  "IlvTInspData"; 
+        dataDir   "./"; 
+        baseClass IlvGadgetContainer; 
+        headerDir "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        srcDir    "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        data      false; 
+    }
+    panelClass "IlvTInspTest" {
+        class     IlvTInspTest; 
+        fileBase  "IlvTInspTest"; 
+        dataDir   "./"; 
+        baseClass IlvGadgetContainer; 
+        headerDir "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        srcDir    "Z:\\scs_source\\src\\visu\\trdstudio\\trdstudiolib"; 
+        data      false; 
+    }
+    panel "IlvTInspData" {
+        class  IlvTInspData; 
+        title  "IlvTInspData"; 
+        x      11; 
+        y      10; 
+        width  435; 
+        height 333; 
+    }
+    panel "IlvTInspGlobal" {
+        class  IlvTInspGlobal; 
+        title  "IlvTInspGlobal"; 
+        x      85; 
+        y      159; 
+        width  420; 
+        height 333; 
+    }
+    panel "IlvTInspHorizontal" {
+        class  IlvTInspHorizontal; 
+        title  "IlvTInspHorizontal"; 
+        x      264; 
+        y      81; 
+        width  435; 
+        height 333; 
+    }
+    panel "IlvTInspPen" {
+        class  IlvTInspPen; 
+        title  "IlvTInspPen"; 
+        x      133; 
+        y      86; 
+        width  440; 
+        height 333; 
+    }
+    panel "IlvTrendInspector" {
+        class  IlvTrendInspector; 
+        title  "IlvTrendInspector"; 
+        x      -54; 
+        y      172; 
+        width  664; 
+        height 420; 
+    }
+    panel "IlvTInspVertical" {
+        class  IlvTInspVertical; 
+        title  "IlvTInspVertical"; 
+        x      5; 
+        y      86; 
+        width  436; 
+        height 333; 
+    }
+}

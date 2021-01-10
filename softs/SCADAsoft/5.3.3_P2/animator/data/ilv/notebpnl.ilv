@@ -1,0 +1,13 @@
+// Ilv Version: 2.21
+// File generated: Mon Mar 25 13:35:56 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 1
+0 "defaultBg" "defaultFg" "button" %helvetica-12-B 0 solid solid 0 0 0
+IlvObjects 3
+2 { 0 0 IlvNotebook 5 5 377 320 2 2
+"&notebook" "" 1 "defaultBg" "book.ilv"
+"&pads" "" 1 "defaultBg" "pads.ilv"
+0 0 4 0 0 5 2 0 0 0 0  } 32 "book" 1008 1 5 1 5 1 5 1 35 2 2
+2 { 1 0 IlvButton 5 332 73 23 F1 2 16 Y "&apply" } 0 148 "apply" 1 5 1 5
+2 { 2 0 IlvButton 309 332 73 23 F1 2 16 Y "&close" } 0 196 "cancel" 1 5 1 5
+Size 387 360

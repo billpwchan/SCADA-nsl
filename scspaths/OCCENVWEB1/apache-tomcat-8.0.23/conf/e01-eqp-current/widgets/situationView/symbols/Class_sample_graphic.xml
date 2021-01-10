@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="Class_sample_graphic">
+        <root>
+            <svgGroup id="Class_sample__Symbol_Undefined__Symbol___Symbol___Symbol_Blinking__Symbol_Alarm_Copy of _Symbol_Undefined_Copy (1) of _Symbol_Undefined_Copy of _Symbol__Copy (1) of _Symbol__Copy of _Symbol_Blinking_Copy of _Symbol_Alarm">
+                <svgRef brickId="_Symbol_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="Class_sample__Decor_Empty__Decor_Trip__Decor_MO__Decor_NotInService__Decor_PTW">
+                <svgRef brickId="_Decor_Empty" id="tag2.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="Class_sample__Decor_Empty_L__Decor_Local">
+                <svgRef brickId="_Decor_Empty_L" id="tag3.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="Class_sample__State_Empty__State_Invalid__State_Selected__State_MO__State_Selected_MO">
+                <svgRef brickId="_State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

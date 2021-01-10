@@ -1,0 +1,952 @@
+// IlvMessageDatabase 2.2 Fri Oct  6 15:38:08 1995
+"&Anywhere" 2
+"french" "Partout"
+"english" "Anywhere"
+"&Background" 2
+"french" "Arrière-Plan"
+"english" "Background"
+"&ColorChooserTitle" 2
+"french" "Couleur"
+"english" "Color chooser"
+"&Font" 2
+"french" "Police"
+"english" "Font"
+"&Foreground" 2
+"french" "Avant-Plan"
+"english" "Foreground"
+"&Insert Separator" 2
+"english" "Insert Separator"
+"french" "Séparateur"
+"&LineStyle" 2
+"french" "Style de Ligne"
+"english" "Line Style"
+"&ResourcesTitle" 2
+"french" "Ressources"
+"english" "Resources"
+"&LineWidth" 2
+"french" "Epaisseur"
+"english" "Line Width"
+"&Name" 2
+"french" "Nom"
+"english" "Name"
+"&New" 2
+"french" "Autre"
+"english" "New"
+"&Pattern" 2
+"french" "Motif"
+"english" "Pattern"
+"&PrinterSetup" 2
+"english" "Printer Setup"
+"french" "Imprimante..."
+"&accelerator" 2
+"english" "Accelerator"
+"french" "Accelérateur"
+"&acceleratorKey" 2
+"english" "Accelerator Key"
+"french" "Touche Acc."
+"&accelerators..." 2
+"english" "Accelerators..."
+"french" "Accelérateurs..."
+"&active" 2
+"french" "Active"
+"english" "Active"
+"&add" 2
+"english" "Add"
+"french" "Ajouter"
+"&adjustLast" 2
+"english" "Adjust Last"
+"french" "Ajuster dernier"
+"&align" 2
+"english" "Align"
+"french" "Aligner"
+"&alignment" 2
+"french" "Alignement"
+"english" "Alignment"
+"&angle" 2
+"french" "Angle"
+"english" "Angle"
+"&angleRange" 2
+"english" "Range"
+"french" "Ouverture"
+"&append" 2
+"english" "Append"
+"french" "Ajouter"
+"&apply" 2
+"english" "Apply"
+"french" "Valider"
+"&applyResize" 2
+"english" "Apply resize"
+"french" "Appliquer le retaillage"
+"&asNeeded" 2
+"french" "Si nécessaire"
+"english" "As Needed"
+"&attachments" 2
+"french" "Attachements"
+"english" "Attachments"
+"&autoResize" 2
+"english" "Auto resize"
+"french" "Retaillage au chargement"
+"&background" 2
+"english" "Background"
+"french" "Fond"
+"&background" 2
+"english" "Background"
+"french" "Fond"
+"&background color" 2
+"french" "Coul. Fond"
+"english" "Background"
+"&backgroundBitmap" 2
+"french" "Bitmap de fond"
+"english" "Background Bitmap"
+"&bar" 2
+"french" "Barre"
+"english" "Bar"
+"&bitmap" 2
+"english" "Bitmap"
+"french" "Bitmap"
+"&bold" 2
+"english" "Bold"
+"french" "Gras"
+"&bottom" 2
+"french" "Bas"
+"english" "Bottom"
+"&bottom to Top" 2
+"french" "Bas en Haut"
+"english" "Bottom to Top"
+"&bottomMargin" 2
+"french" "Marge en bas"
+"english" "Bottom Margin"
+"&callback" 2
+"french" "Callback"
+"english" "Callback"
+"&callback..." 2
+"english" "Callback..."
+"french" "Callback..."
+"&cancel" 2
+"english" "Cancel"
+"french" "Annuler"
+"&^cancel" 2
+"english" "^Cancel"
+"french" "^Annuler"
+"&center" 2
+"french" "Centre"
+"english" "Center"
+"&changeDelay" 2
+"english" "Change Delay..."
+"french" "Vitesse..."
+"&check" 2
+"english" "Check"
+"french" "Vérifier"
+"&checkbox" 2
+"french" "CheckBox"
+"english" "CheckBox"
+"&checked" 2
+"english" "Checked"
+"french" "Coché"
+"&choice" 2
+"french" "Choix"
+"english" "Choice"
+"&mchoice" 2
+"french" "^Choix"
+"english" "^Choice"
+"&chooseLanguage" 2
+"english" "Choose language"
+"french" "Langage courant"
+"&clean" 2
+"english" "Clean"
+"french" "Vider"
+"&clear" 2
+"french" "Effacer"
+"english" "Clear"
+"&close" 2
+"english" "Close"
+"french" "Fermer"
+"&color" 2
+"french" "Couleur"
+"english" "Color"
+"&colorNames" 2
+"english" "Color Names"
+"french" "Noms Couleurs"
+"&colorPicker" 2
+"english" "Color Disk"
+"french" "Sélectionneur"
+"&column" 2
+"english" "Column"
+"french" "Colonne"
+"&copy" 2
+"french" "Copier"
+"english" "Copy"
+"&cut" 2
+"french" "Couper"
+"english" "Cut"
+"&data" 2
+"english" "Data"
+"french" "Données"
+"&defaultSize" 2
+"english" "Default Size"
+"french" "Taille par défaut"
+"&definitions" 2
+"french" "Définitions"
+"english" "Definitions"
+"&depth" 2
+"french" "Profondeur"
+"english" "Depth"
+"&direction" 2
+"french" "Direction"
+"english" "Direction"
+"&display" 2
+"english" "Display"
+"french" "Affichage"
+"&divisionStyle" 2
+"english" "Division Style"
+"french" "Type"
+"&divisions" 2
+"french" "Divisions"
+"english" "Divisions"
+"&doubleBuffering" 2
+"english" "Double Buffering"
+"french" "Double Buffering"
+"&edit" 2
+"english" "Edit"
+"french" "Edition"
+"&editable" 2
+"french" "Editable"
+"english" "Editable"
+"&empty" 2
+"french" "Vide"
+"english" "Empty"
+"&exclusive" 2
+"french" "Exclusif"
+"english" "Exclusive"
+"&exclusiveInspector" 2
+"english" "Exclusive Inspector"
+"french" "Inspecteur exclusif"
+"&file" 2
+"english" "File"
+"french" "Fichier"
+"&fileName" 2
+"english" "File Name"
+"french" "Fichier"
+"&fileType" 2
+"french" "Type de fichier"
+"english" "File type"
+"&mfilter" 2
+"french" "^Filtre"
+"english" "^Filter"
+"&filter" 2
+"french" "Filtre"
+"english" "Filter"
+"&firstColumn" 2
+"english" "First Column"
+"french" "1er Colonne"
+"&firstRow" 2
+"english" "First Row"
+"french" "1er Ligne"
+"&fit" 2
+"french" "Ajuster"
+"english" "Fit"
+"&fitToContents" 2
+"english" "Fit to contents..."
+"french" "Ajuster la taille..."
+"&FitToContents" 2
+"english" "Fit to contents"
+"french" "Ajuster la taille"
+"&fitToSize" 2
+"english" "Fit To Size"
+"french" "Ajuster Taille"
+"&flushright" 2
+"french" "Coller à droite"
+"english" "Flush right"
+"&font" 2
+"french" "Police"
+"english" "Font"
+"&foreground color" 2
+"french" "Coul. Ecrit."
+"english" "Foreground"
+"&format" 2
+"french" "Format"
+"english" "Format"
+"&foundry" 2
+"french" "Foundry"
+"english" "Foundry"
+"&graphicset" 2
+"french" "Groupe Graphique"
+"english" "Graphic set"
+"&grid" 2
+"french" "Grille"
+"english" "Grid"
+"&group" 2
+"english" "Group"
+"french" "Groupe"
+"&height" 2
+"french" "Hauteur"
+"english" "Height"
+"&help" 2
+"english" "Help"
+"french" "Aide"
+"&hide" 2
+"french" "Cacher"
+"english" "Hide"
+"&horizontal" 2
+"french" "Horizontal"
+"english" "Horizontal"
+"&horizontalScrollBar" 2
+"english" "Horizontal ScrollBar"
+"french" "Défileur horizontal"
+"&increment" 2
+"french" "Increment"
+"english" "Increment"
+"&increments" 2
+"french" "Increments"
+"english" "Increments"
+"&decrement" 2
+"french" "Decrement"
+"english" "Decrement"
+"&insert" 2
+"french" "Insérer"
+"english" "Insert"
+"&insert..." 2
+"french" "Insérer..."
+"english" "Insert..."
+"&inspector" 2
+"english" "Inspector"
+"french" "Inspecteur"
+"&interactive" 2
+"french" "Interactif"
+"english" "Interactive"
+"&italic" 2
+"english" "Italic"
+"french" "Italique"
+"&itemprops" 2
+"french" "Propriétés d'items"
+"english" "Item properties"
+"&items" 2
+"english" "Items"
+"french" "Eléments"
+"&label" 2
+"english" "Label"
+"french" "Libellé"
+"&labels" 2
+"english" "Labels"
+"french" "Libellés"
+"&language" 2
+"french" "Langue"
+"english" "Language"
+"&languages" 2
+"french" "Langues"
+"english" "Languages"
+"&layer..." 2
+"english" "Layer..."
+"french" "Couche..."
+"&layer?" 2
+"english" "Layer ?"
+"french" "Couche ?"
+"&left" 2
+"french" "Gauche"
+"english" "Left"
+"&left to Right" 2
+"french" "Gauche à droite"
+"english" "Left to Right"
+"&leftMargin" 2
+"french" "Marge à gauche"
+"english" "Left Margin"
+"&margin?" 2
+"english" "Margin ?"
+"french" "Marge ?"
+"&marker" 2
+"french" "Marqueur"
+"english" "Marker"
+"&matrix" 2
+"english" "Matrix"
+"french" "Matrice"
+"&max" 2
+"french" "Max"
+"english" "Max"
+"&menu" 2
+"english" "Menu"
+"french" "Menu"
+"&message" 2
+"english" "Message"
+"french" "Message"
+"&messages" 2
+"english" "Messages"
+"french" "Messages"
+"&min" 2
+"french" "Min"
+"english" "Min"
+"&modes" 2
+"french" "Modes"
+"english" "Modes"
+"&name..." 2
+"english" "Name..."
+"french" "Nom..."
+"&name?" 2
+"english" "Name ?"
+"french" "Nom ?"
+"&nb chars" 2
+"french" "Nb Cara."
+"english" "No. Chars"
+"&new" 2
+"english" "New"
+"french" "Nouveau"
+"&new..." 2
+"english" "New..."
+"french" "Nouveau..."
+"&normal" 2
+"english" "Normal"
+"french" "Normal"
+"&ok" 2
+"english" "Ok"
+"french" "Ok"
+"&^ok" 2
+"english" "^Ok"
+"french" "^Ok"
+"&one" 2
+"english" "One"
+"french" "Un"
+"&opaque" 2
+"french" "Opaque"
+"english" "Opaque"
+"&opaqueMove" 2
+"english" "Opaque Move"
+"french" "Déplacement opaque"
+"&open..." 2
+"french" "Ouvrir..."
+"english" "Open..."
+"&orientation" 2
+"french" "Orientation"
+"english" "Orientation"
+"&origin" 2
+"french" "Origine"
+"english" "Origin"
+"&pageIncrement" 2
+"english" "Page Increment"
+"french" "Increment page"
+"&pageDecrement" 2
+"english" "Page Decrement"
+"french" "Decrement page"
+"&paletteName" 2
+"french" "Nom de palette"
+"english" "Palette name"
+"&paste" 2
+"french" "Coller"
+"english" "Paste"
+"&play" 2
+"english" "Play"
+"french" "Jouer"
+"&position" 2
+"english" "Position"
+"french" "Position"
+"&print" 2
+"french" "Imprimer"
+"english" "Print"
+"&properties" 2
+"english" "Properties"
+"french" "Propriétés"
+"&ps..." 2
+"french" "PostScript..."
+"english" "PostScript..."
+"&quit" 2
+"english" "Quit"
+"french" "Quitter"
+"&radio" 2
+"french" "Radio"
+"english" "Radio"
+"&range" 2
+"english" "Range"
+"french" "Portée"
+"&readonly" 2
+"french" "Lecture"
+"english" "Read only"
+"&recorder" 2
+"english" "Recorder"
+"french" "Enregistreur"
+"&relief" 2
+"french" "Relief"
+"english" "Relief"
+"&remove" 2
+"english" "Remove"
+"french" "Retirer"
+"&reset" 2
+"english" "Reset"
+"french" "Rafraîchir"
+"&resources" 2
+"french" "Ressources"
+"english" "Resources"
+"&right" 2
+"french" "Droite"
+"english" "Right"
+"&right to Left" 2
+"french" "Droite à gauche"
+"english" "Right to Left"
+"&rightMargin" 2
+"french" "Marge à droite"
+"english" "Right Margin"
+"&row" 2
+"english" "Row"
+"french" "Ligne"
+"&run" 2
+"english" "Run"
+"french" "Exécuter"
+"&save" 2
+"english" "Save"
+"french" "Sauver"
+"&save..." 2
+"french" "Sauver..."
+"english" "Save..."
+"&saveAs..." 2
+"french" "Sauver sous..."
+"english" "Save as..."
+"&scale" 2
+"english" "Scale"
+"french" "Echelle"
+"&scrollbars" 2
+"french" "Scrollbars"
+"english" "Scrollbars"
+"&scrolledMatrix" 2
+"english" "Scrolled Matrix"
+"french" "Matrice défilee"
+"&search" 2
+"english" "Search"
+"french" "Chercher"
+"&search." 2
+"english" "Search..."
+"french" "Chercher..."
+"&select" 2
+"french" "Sélectionner"
+"english" "Select"
+"&select1obj" 2
+"french" "Sélectionner un objet"
+"english" "Select an object"
+"&selectAll" 2
+"french" "Tout sélectionner"
+"english" "Select all"
+"&selectCallback" 2
+"french" "Callback sélection"
+"english" "Select Callback"
+"&selection" 2
+"french" "Sélection"
+"english" "Selection"
+"&selector" 2
+"english" "Selector"
+"french" "Sélectionneur"
+"&selectviewrect" 2
+"english" "Selectable view rectangle"
+"french" "Vue rectangle sélectionnable"
+"&sensitive" 2
+"french" "Réactif"
+"english" "Sensitive"
+"&shadow" 2
+"english" "Shadow"
+"french" "Ombre"
+"&shape" 2
+"english" "Shape"
+"french" "Forme"
+"&sheet" 2
+"english" "Sheet"
+"french" "Tableur"
+"&show" 2
+"french" "Montrer"
+"english" "Show"
+"&showBox" 2
+"french" "Contour visible"
+"english" "Show Box"
+"&sliderSize" 2
+"english" "Slider Size"
+"french" "Taille slider"
+"&sortName" 2
+"french" "Trier par nom"
+"english" "Sort by name"
+"&sortlabel" 2
+"french" "Trier par définition"
+"english" "Sort by definition"
+"&spacing" 2
+"french" "Espace"
+"english" "Spacing"
+"&start" 2
+"english" "Start"
+"french" "Commencer"
+"&startAngle" 2
+"english" "Start Angle"
+"french" "Angle départ"
+"&state" 2
+"english" "State"
+"french" "Etat"
+"&stepSize" 2
+"english" "Step Size"
+"french" "Taille pas"
+"&steps" 2
+"english" "Steps"
+"french" "Pas"
+"&stop" 2
+"french" "Arrêter"
+"english" "Stop"
+"&string" 2
+"french" "Chaine"
+"english" "String"
+"&sub" 2
+"english" "Sub."
+"french" "Sub."
+"&subSize" 2
+"english" "Sub. Size"
+"french" "Taille"
+"&thickness" 2
+"english" "Thickness"
+"french" "Epaisseur"
+"&thickness..." 2
+"english" "Thickness..."
+"french" "Epaisseur..."
+"&thickness?" 2
+"english" "Thickness ?"
+"french" "Epaisseur ?"
+"&three" 2
+"english" "three"
+"french" "Trois"
+"&tools" 2
+"french" "Outils"
+"english" "Tools"
+"&top" 2
+"french" "Haut"
+"english" "Top"
+"&top to Bottom" 2
+"french" "Haut en bas"
+"english" "Top to Bottom"
+"&topMargin" 2
+"french" "Marge en haut"
+"english" "Top Margin"
+"&two" 2
+"english" "two"
+"french" "Deux"
+"&type" 2
+"french" "Type"
+"english" "Type"
+"&underline" 2
+"english" "Underline"
+"french" "Souligné"
+"&undo" 2
+"french" "Défaire"
+"english" "Undo"
+"&ungroup" 2
+"french" "Dégrouper"
+"english" "Ungroup"
+"&validate" 2
+"english" "Validate"
+"french" "Valider"
+"&version" 2
+"french" "Version"
+"english" "Version"
+"&vertical" 2
+"french" "Vertical"
+"english" "Vertical"
+"&verticalScrollBar" 2
+"english" "Vertical ScrollBar"
+"french" "Défileur vertical"
+"&view" 2
+"french" "Vue"
+"english" "View"
+"&visible" 2
+"french" "Visible"
+"english" "Visible"
+"&visibleItems" 2
+"french" "Eléments visibles"
+"english" "Visible Items"
+"&what" 2
+"english" "What"
+"french" "Quoi?"
+"&where" 2
+"english" "Where?"
+"french" "Où ?"
+"&width" 2
+"french" "Largeur"
+"english" "Width"
+"&window" 2
+"french" "Fenêtre"
+"english" "Window"
+"english" 2
+"french" "Anglais"
+"english" "English"
+"french" 2
+"french" "Francais"
+"english" "French"
+"&set" 2
+"english" "Set"
+"french"  "Affecter"
+"&PaletteNames" 2
+"english" "Palette Names"
+"french"  "Noms Palettes"
+"&Lock" 2
+"english" "Lock"
+"french"  "Verrou"
+"&nameUsed" 2
+"english" "Name already used"
+"french"  "Nom déjà utilisé"
+"&InformationTitle" 2
+"english" "Information"
+"french"  "Information"
+"&IlvDPCNoWindow" 2
+"english" "IlvDisplay::putClipboard: no available window"
+"french"  "IlvDisplay::putClipboard : pas de fenêtre disponible"
+"&IlvDGCNoWindow" 2
+"english" "IlvDisplay::getClipboard: no available window"
+"french"  "IlvDisplay::getClipboard : pas de fenêtre disponible"
+"&IlvDMPFDNotAPixmap" 2
+"english" "IlvDisplay::makePixmapFromData: not a Pixmap"
+"french"  "IlvDisplay::makePixmapFromData : pas un Pixmap"
+"&IlvDMBFDNotABitmap" 2
+"english" "IlvDisplay::makeBitmapFromData: not a bitmap"
+"french" "IlvDisplay::makeBitmapFromData : pas un bitmap"
+"&IlvDMCBitmapsMustBeMono" 2
+"english" "IlvCursor::IlvCursor: bitmaps must be monochrome"
+"french" "IlvCursor::IlvCursor : les bitmaps doivent être monochromes"
+"&IlvDMCCouldntCreate" 2
+"english" "IlvCursor::IlvCursor: couldn't create cursor"
+"french" "IlvCursor::IlvCursor : création du curseur impossible"
+"&IlvSTDNoBitmapError" 2
+"english" "Standard Dialogs: cannot find bitmap file %s"
+"french"  "Dialogues standard: bitmap %s introuvable"
+"&PromptStringTitle" 2
+"english" "Prompt String"
+"french"  "Saisie de chaîne"
+"&IlvPSBadResultError" 2
+"english" "IlvIPromptString::setResult: invalid result"
+"french"  "IlvIPromptString::setResult: choix invalid"
+"&IlvIFSRBadDirectory" 2
+"english" "IlvIFileSelector::reset: Bad Directory (%s)."
+"french"  "IlvIFileSelector::reset: (%s) répertoire incorrect."
+"&MessageTitle" 2
+"english" "Message"
+"french"  "Message"
+"&WarnerTitle" 2
+"english" "Warning"
+"french"  "Attention"
+"&QuestionTitle" 2
+"english" "Question"
+"french"  "Question"
+"&ErrorTitle" 2
+"english" "Error"
+"french"  "Erreur"
+"&IlvDGOLFHBadCurrentLookWarning" 2
+"english" "%s look not found for object %s. Using %s default look."
+"french" "Look %s introuvable pour l'objet %s. Le look par défaut (%s) est utilisé."
+"&IlvCannotGetDataBlock" 2
+"english" "%s: couldn't read data block %s."
+"french" "%s: bloc de données %s introuvable."
+"&IlvCannotLoadWindowsResource" 2
+"english" "%s: couldn't load resource (%s)."
+"french" "%s: Impossible de charger la ressource : %s."
+"&IlvCannotLockWindowsResource" 2
+"english" "%s: couldn't lock resource (%s)."
+"french" "%s: Impossible de verrouiller la ressource : %s."
+"&IlvCRFCannotOpenFileError" 2
+"english" "%s: Couldn't open file '%s' (check ILVHOME and ILVPATH)."
+"french" "%s: fichier %s introuvable (Vérifier ILVHOME et ILVPATH)."
+"&IlvCRCannotReadFileError" 2
+"english" "%s::read: Badly formatted file."
+"french" "%s: mauvais format de fichier."
+"&IlvDRBCannotOpenFileError" 2
+"english" ": couldn't open file %s."
+"french" ": fichier %s introuvable."
+"&IlvDRBUnknownFmtError" 2
+"english" "IlvDisplay::readBitmap: unknown format %s."
+"french" "IlvDisplay::readBitmap: %s a un format inconnu."
+"&IlvBRCannotOpenError" 2
+"english" "IlvBitmap::read: couldn't open file %s."
+"french" "IlvBitmap::read: fichier %s introuvable."
+"&IlvBRUnknownFmtError" 2
+"english" "IlvBitmap::read: unknown format %s."
+"french" "IlvBitmap::read: %s a un format inconnu."
+"&IlvBRFmtError" 2
+"english" "IlvBitmap::read: format error in %s."
+"french" "IlvBitmap::read: %s a une erreur de format."
+"&IlvBRUnColIdxError" 2
+"english" "IlvBitmap::read: unknown color index %d."
+"french" "IlvBitmap::read: index de couleur %d invalide."
+"&IlvRACBCannotOpenError" 2
+"english" "IlvDisplay::readAsciiBitmap: couldn't open file %s."
+"french" "IlvDisplay::readAsciiBitmap: fichier %s introuvable."
+"&IlvRACBNotXPMError" 2
+"english" "IlvDisplay::readAsciiBitmap: not a XPM format."
+"french" "IlvDisplay::readAsciiBitmap: pas au format XPM."
+"&IlvRACBXPMBadHeaderError" 2
+"english" "IlvDisplay::readAsciiBitmap: bad XPM header."
+"french" "IlvDisplay::readAsciiBitmap: erreur dans le format XPM."
+"&IlvRACBXPMBadColDescError" 2
+"english" "IlvDisplay::readAsciiBitmap: bad XPM image colors description."
+"french" "IlvDisplay::readAsciiBitmap: erreur dans la description des couleurs XPM."
+"&IlvRMBBadFormatError" 2
+"english" "IlvDisplay::readAsciiBitmap: error in format."
+"french" "IlvDisplay::readAsciiBitmap: erreur dans le format."
+"&IlvRMBBadTypeError" 2
+"english" "IlvDisplay::readAsciiBitmap: unknown bitmap type %s."
+"french" "IlvDisplay::readAsciiBitmap: type d'image inconnu %s."
+"&IlvBSNoDataError" 2
+"english" "IlvBitmap::save: couldn't get image data."
+"french" "IlvBitmap::save: données de l'image inaccessibles."
+"&IlvBSCannotOpenError" 2
+"english" "IlvBitmap::save: couldn't open file %s for writing."
+"french" "IlvBitmap::save: impossible de créer le fichier %s."
+"&IlvBSATooManyColsError" 2
+"english" "IlvBitmap::saveAscii: Too many colors. Using %d different colors."
+"french" "IlvBitmap::saveAscii: Trop de couleurs. Reduction à %d differentes."
+"&IlvMPinitBaseModified" 2
+"english" "Base modified. Do you want to save?"
+"french" "La base est modifiée. Voulez-vous sauvegarder ?"
+"&IlvMPTitle" 2
+"english" "New messages"
+"french" "Nouveaux messages"
+"&IlvMPNofM" 2
+"english" "Number of message(s):"
+"french" "Nombre de messages(s) :"
+"&IlvMPM" 2
+"english" "Number of message(s):"
+"french" "Nombre de messages(s) :"
+"&IlvMPsetFNTitle" 2
+"english" "MessageEditor: "
+"french" "Editeur de messages : "
+"&IlvMPNMTitle" 2
+"english" "New messages"
+"french" "Nouveaux messages"
+"&IlvSMPTitle" 2
+"english" "Message Search"
+"french" "Recherche de messages"
+"&IlvMPRemMesError" 2
+"english" "Select the message to delete"
+"french" "Sélectionner le message à effacer"
+"&IlvCSDBCouldntAllBm" 2
+"english" "IlvContainer::setDoubleBuffering: Couldn't allocate double buffering bitmap"
+"french" "IlvContainer::setDoubleBuffering: Allocation du double buffer impossible"
+"&IlvMSDBCouldntAllBm" 2
+"english" "IlvManager::setDoubleBuffering: Couldn't allocate double buffering bitmap"
+"french" "IlvManager::setDoubleBuffering: Allocation du double buffer impossible"
+"&IlvMAVAlrConn" 2
+"english" "IlvManager::addView: View is already connected"
+"french" "IlvManager::addView: View déjà connectée"
+"&IlvMAVIsCont" 2
+"english" "IlvManager::addView: View is a container!"
+"french" "IlvManager::addView: View de type container !"
+"&IlvMAVConToOther" 2
+"english" "IlvManager::addView: View connected to another manager!"
+"french" "IlvManager::addView: View connectée à un autre manager !"
+"&IlvMRVNoView" 2
+"english" "IlvManager::removeView: View not connected to this manager"
+"french" "IlvManager::removeView: View non connectée à ce manager"
+"&IlvMIRTooMany" 2
+"english" "IlvManager::initReDraws: Too many nested levels"
+"french" "IlvManager::initReDraws: Trop de niveaux imbriqués"
+"&IlvMRVTooMany" 2
+"english" "IlvManager::reDrawViews: Too many nested levels"
+"french" "IlvManager::reDrawViews: Trop de niveaux imbriqués"
+"&IlvMATOAlrIn" 2
+"english" "IlvManager::applyToObjects: Already in an 'apply' call"
+"french" "IlvManager::applyToObjects: Déjà dans un 'apply'"
+"&IlvMAIAlrIn" 2
+"english" "IlvManager::applyInside: Already in an 'apply' call"
+"french" "IlvManager::applyInside: Déjà dans un 'apply'"
+"&IlvMAIntAlrIn" 2
+"english" "IlvManager::applyIntersects: Already in an 'apply' call"
+"french" "IlvManager::applyIntersects: Déjà dans un 'apply'"
+"&IlvMDread" 2
+"english" "%s: Couldn't open message database file '%s'"
+"french" "%s: Base de messages '%s' introuvable"
+"&IlvMDreadHeader" 2
+"english" "%s: Not a valid ILOG Views message database file"
+"french" "%s: Pas une base de messages ILOG Views"
+"&size" 2
+"french" "Taille"
+"english" "Size"
+"&replace" 2
+"french" "Remplacer"
+"english" "Replace"
+"&fields" 2
+"french" "Champs"
+"english" "Fields"
+"&fieldinfo" 2
+"french" "Informations du champ"
+"english" "Field information"
+"&arrows" 2
+"french" "Flèches"
+"english" "Arrows"
+"&arrow" 2
+"french" "Flèche"
+"english" "Arrow"
+"&values" 2
+"french" "Valeurs"
+"english" "Values"
+"&loop" 2
+"french" "Boucle"
+"english" "Loop"
+"&split" 2
+"french" "Eclatées"
+"english" "Splitted"
+"&period" 2
+"french" "Période"
+"english" "Period"
+"&autorepeat" 2
+"french" "Répétition"
+"english" "Auto Repeat"
+"&ToolTip" 2
+"english" "Tool Tip"
+"french"  "Bulle d'aide"
+"&ObjectLoaded" 2
+"english" "Object loaded"
+"french"  "Objet chargé"
+"&Palette..." 2
+"english" "Palette..."
+"french"  "Palette..."
+"&Browse" 2
+"english" "Browse"
+"french"  "Browse"
+"&menu_file" 2
+"english" "^File"
+"french" "^Fichier"
+"&menu_edit" 2
+"english" "^Edit"
+"french" "^Edition"
+"&menu_help" 2
+"french" "^Aide"
+"english" "^Help"
+"&menu_open..." 2
+"french" "^Ouvrir..."
+"english" "^Open..."
+"&menu_save" 2
+"french" "^Enregistrer"
+"english" "^Save"
+"&menu_exit" 2
+"french" "^Terminer"
+"english" "E^xit"
+"&setTearOff" 2
+"french" "Détachable"
+"english" "Tear Off"
+"&fixedRow" 2
+"french" "Lignes fixes"
+"english" "Fixed rows"
+"&fixedColumn" 2
+"french" "Colonnes fixes"
+"english" "Fixed Columns"
+"&grayed" 2
+"french" "Grisé"
+"english" "Grayed"
+"&fillbackground" 2
+"french" "Fond coloré"
+"english" "Fill Background"
+"&directEdit" 2
+"french" "Edition Directe"
+"english" "Direct Edit"
+"&editDirection" 2
+"french" "Sens de l'édition"
+"english" "Edit Direction"
+"&indeterminateMode" 2
+"french" "Mode 3 états"
+"english" "3 states mode"
+"&focusable" 2
+"french" "Focusable"
+"english" "Focusable"
+"&transparent" 2
+"english" "Transparent"
+"french"  "Transparent"
+"&none" 2
+"french" "Aucune"
+"english" "None"
+"&IlvWDSBPatDeviceError" 2
+"english" "Can't use patterns that are not predefined in Windows with this device. Use a cross pattern instead."
+"french" "Ce device ne peut pas utiliser les motifs de dessin non predéfinis par Windows. Un motif en croix est appliqué par défaut."

@@ -1,0 +1,196 @@
+##############################################################################
+# IDENTIFICATION:
+# $Id: scserror.emf,v 1.2 1997/11/27 11:32:48 jpu Exp $
+#
+# HISTORY:
+# $Log: scserror.emf,v $
+# Revision 1.2  1997/11/27 11:32:48  jpu
+# Add Unix()
+#
+##############################################################################
+COMPONENT=Scadasoft,Scs
+
+Init() {
+   english="Reading error files"
+   french="Lecture des fichiers d'erreurs"
+}
+
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+
+Environment(const char *) {
+   english="Environment variable %s not set"
+   french="Variable d'environment %s non positionnee"
+}
+
+Unix(const char *, int) {
+   english="Error returned by function %s: errno=%d"
+   french="Erreur retournee par la fonction %s: errno=%d"
+}
+
+ExceptionUnknown() {
+   english="CORBA::UNKNOWN"
+   french="CORBA::UNKNOWN"
+}
+ExceptionBadParam() {
+   english="CORBA::BAD_PARAM"
+   french="CORBA::BAD_PARAM"
+}
+ExceptionNoMemory() {
+   english="CORBA::NO_MEMORY"
+   french="CORBA::NO_MEMORY"
+}
+ExceptionImpLimit() {
+   english="CORBA::IMP_LIMIT"
+   french="CORBA::IMP_LIMIT"
+}
+ExceptionCommFailure() {
+   english="CORBA::COMM_FAILURE"
+   french="CORBA::COMM_FAILURE"
+}
+ExceptionInvObjRef() {
+   english="CORBA::INV_OBJREF"
+   french="CORBA::INV_OBJREF"
+}
+ExceptionNoPermission() {
+   english="CORBA::NO_PERMISSION"
+   french="CORBA::NO_PERMISSION"
+}
+ExceptionInternal() {
+   english="CORBA::INTERNAL"
+   french="CORBA::INTERNAL"
+}
+ExceptionMarshal() {
+   english="CORBA::MARSHAL"
+   french="CORBA::MARSHAL"
+}
+ExceptionInitialize() {
+   english="CORBA::INITIALIZE"
+   french="CORBA::INITIALIZE"
+}
+ExceptionNoImplement() {
+   english="CORBA::NO_IMPLEMENT"
+   french="CORBA::NO_IMPLEMENT"
+}
+ExceptionBadTypeCode() {
+   english="CORBA::BAD_TYPECODE"
+   french="CORBA::BAD_TYPECODE"
+}
+ExceptionBadOperation() {
+   english="CORBA::BAD_OPERATION"
+   french="CORBA::BAD_OPERATION"
+}
+ExceptionNoRessources() {
+   english="CORBA::NO_RESOURCES"
+   french="CORBA::NO_RESOURCES"
+}
+ExceptionNoResponse() {
+   english="CORBA::NO_RESPONSE"
+   french="CORBA::NO_RESPONSE"
+}
+ExceptionPersistStore() {
+   english="CORBA::PERSIST_STORE"
+   french="CORBA::PERSIST_STORE"
+}
+ExceptionBadInvOrder() {
+   english="CORBA::BAD_INV_ORDER"
+   french="CORBA::BAD_INV_ORDER"
+}
+ExceptionTransient() {
+   english="CORBA::TRANSIENT"
+   french="CORBA::TRANSIENT"
+}
+ExceptionFreeMem() {
+   english="CORBA::FREE_MEM"
+   french="CORBA::FREE_MEM"
+}
+ExceptionInvIdent() {
+   english="CORBA::INV_IDENT"
+   french="CORBA::INV_IDENT"
+}
+ExceptionInvFlag() {
+   english="CORBA::INV_FLAG"
+   french="CORBA::INV_FLAG"
+}
+ExceptionIntfRepos() {
+   english="CORBA::INTF_REPOS"
+   french="CORBA::INTF_REPOS"
+}
+ExceptionBadContext() {
+   english="CORBA::BAD_CONTEXT"
+   french="CORBA::BAD_CONTEXT"
+}
+ExceptionObjAdapter() {
+   english="CORBA::OBJ_ADAPTER"
+   french="CORBA::OBJ_ADAPTER"
+}
+ExceptionDataConversion() {
+   english="CORBA::DATA_CONVERSION"
+   french="CORBA::DATA_CONVERSION"
+}
+ExceptionObjectNotExist() {
+   english="CORBA::OBJECT_NOT_EXIST"
+   french="CORBA::OBJECT_NOT_EXIST"
+}
+ExceptionTransactionRequired() {
+   english="CORBA::TRANSACTION_REQUIRED"
+   french="CORBA::TRANSACTION_REQUIRED"
+}
+ExceptionTransactionRolledback() {
+   english="CORBA::TRANSACTION_ROLLEDBACK"
+   french="CORBA::TRANSACTION_ROLLEDBACK"
+}
+ExceptionInvalidTransaction() {
+   english="CORBA::INVALID_TRANSACTION"
+   french="CORBA::INVALID_TRANSACTION"
+}
+ExceptionInvPolicy() {
+   english="CORBA::INV_POLICY"
+   french="CORBA::INV_POLICY"
+}
+ExceptionCodeIncompatible() {
+   english="CORBA::CODESET_INCOMPATIBLE"
+   french="CORBA::CODESET_INCOMPATIBLE"
+}
+ExceptionRebind() {
+   english="CORBA::REBIND"
+   french="CORBA::REBIND"
+}
+ExceptionTimeout() {
+   english="CORBA::TIMEOUT"
+   french="CORBA::TIMEOUT"
+}
+ExceptionTransactionUnavailable() {
+   english="CORBA::TRANSACTION_UNAVAILABLE"
+   french="CORBA::TRANSACTION_UNAVAILABLE"
+}
+ExceptionTransactionMode() {
+   english="CORBA::TRANSACTION_MODE"
+   french="CORBA::TRANSACTION_MODE"
+}
+ExceptionBadQos() {
+   english="CORBA::BAD_QOS"
+   french="CORBA::BAD_QOS"
+}
+Callback(const char *) {
+   english="Error processing callback (%s)"
+   french="Erreur dans l'execution de la callback (%s)"
+}
+FileNotFound(const char*) {
+   english="%s not found"
+   french="Le fichier %s est introuvable"
+}
+FileBadFormat(const char*) {
+   english="The file %s has a bad format"
+   french="Le format du fichier %s est incorrect"
+}
+FileSyntaxError(const char*, int) {
+   english="Syntax error in %s at line %d"
+   french="Erreur de syntaxe dans le fihier %s à la ligne %d"
+}
+FileBadValue(const char*, int, const char*) {
+   english="Bad value in %s at line %d (%s required)"
+   french="Mauvaise valeur dans le fihier %s à la ligne %d (entrer %s)"
+}

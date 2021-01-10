@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$scs_8h.html" title="General Purpose ScadaSoft Utilities." alt="scs.h" coords="427,391,464,417" />
+<area shape="rect" href="$ols_8h.html" title="Remote access to OlsList objects." alt="ols.h" coords="311,167,348,193" />
+<area shape="rect" href="$histypes_8h.html" title="Various utility classes used in the History server context." alt="histypes.h" coords="257,92,329,119" />
+<area shape="rect" href="$scsdefs_8h.html" title="Definition of priority levels." alt="scsdefs.h" coords="605,540,672,567" />
+<area shape="rect" href="$scsdata_8h.html" title="General Purpose Scadasoft datatype definitions." alt="scsdata.h" coords="123,465,189,492" />
+<area shape="rect" href="$scstimer_8h.html" title="Timer management." alt="scstimer.h" coords="137,316,209,343" />
+<area shape="rect" href="$olstypes_8h.html" title="Various classes, typedefs and functions used in OlsList context." alt="olstypes.h" coords="293,241,365,268" />
+</map>

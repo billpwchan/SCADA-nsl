@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_ECT_TTVF_Left_graphic">
+        <root>
+            <svgGroup id="C1166B_ECT_TTVF_Left_TTVF_L_Decor_Local_TTVF_L_Decor_Empty_L">
+                <svgRef brickId="TTVF_L_Decor_Empty_L" id="tag3.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_TTVF_Left_TTVF_L_Decor_PTW_TTVF_L_Decor_Empty_TTVF_L_Decor_NotInService_TTVF_L_Decor_MO_TTVF_L_Decor_Trip">
+                <svgRef brickId="TTVF_L_Decor_Empty" id="tag2.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_TTVF_Left_TTVF_L_Symbol_Intake_TTVF_L_Symbol_Undefined_TTVF_L_Symbol_Exhaust_Blink_TTVF_L_Symbol_Alarm_TTVF_L_Symbol_Exhaust_TTVF_L_Symbol_Intake_Blink_TTVF_L_Symbol_Alarm_Blink">
+                <svgRef brickId="TTVF_L_Symbol_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_TTVF_Left_TTVF_L_State_Invalid_TTVF_L_State_Selected_MO_TTVF_L_State_Empty_TTVF_L_State_MO_TTVF_L_State_Selected">
+                <svgRef brickId="TTVF_L_State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

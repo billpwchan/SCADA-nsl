@@ -1,0 +1,52 @@
+studio {
+  toolBarItemWidth 34
+  toolBarItemHeight 34;
+
+  bitmapAlias "icquit" "ivstudio/icons/ivicn6.png";
+  bitmapAlias "icopen" "ivstudio/icons/ivicn3.png";
+  bitmapAlias "icsave" "ivstudio/icons/ivicn4.png";
+  bitmapAlias "ictest" "ivstudio/icons/ivicn9.png";
+  bitmapAlias "iccode" "ivstudio/icons/ivicn37.png";
+  bitmapAlias "icinsp" "ivstudio/icons/ivicn33.png";
+  bitmapAlias "icrun" "ivstudio/icons/ivicn10.png";
+  bitmapAlias "icfocus" "ivstudio/icons/ivicn30.png";
+  bitmapAlias "icghmode" "ivstudio/icons/ivicn7.png";
+  bitmapAlias "icselect" "ivstudio/icons/ivicn8.png";
+  bitmapAlias "icline" "ivstudio/icons/ivicn17.png";
+  bitmapAlias "icrline" "ivstudio/icons/ivicn16.png";
+  bitmapAlias "icarrow" "ivstudio/icons/ivicn18.png";
+  bitmapAlias "icarc" "ivstudio/icons/ivicn19.png";
+  bitmapAlias "icfarc" "ivstudio/icons/ivicn20.png";
+  bitmapAlias "icpline" "ivstudio/icons/ivicn21.png";
+  bitmapAlias "icpgon" "ivstudio/icons/ivicn22.png";
+  bitmapAlias "icspline" "ivstudio/icons/ivicn23.png";
+  bitmapAlias "icfspline" "ivstudio/icons/ivicn24.png";
+  bitmapAlias "iccspline" "ivstudio/icons/ivicn25.png";
+  bitmapAlias "icedpoly" "ivstudio/icons/ivicn13.png";
+  bitmapAlias "iclabel" "ivstudio/icons/ivicn14.png";
+  bitmapAlias "icllabel" "ivstudio/icons/ivicn15.png";
+  bitmapAlias "icgadcont" "ivstudio/icons/ivicn26.png";
+  bitmapAlias "icscgadcont" "ivstudio/icons/ivicn27.png";
+  bitmapAlias "icscmgr" "ivstudio/icons/ivicn28.png";
+  bitmapAlias "icscgr" "ivstudio/icons/ivicn29.png";
+  bitmapAlias "icmatrix" "ivstudio/icons/ivicn11.png";
+  bitmapAlias "icmenu" "ivstudio/icons/ivicn12.png";
+
+  bitmapAlias "iccopy" "ivstudio/icons/ivicn40.png";
+  bitmapAlias "iccut" "ivstudio/icons/ivicn41.png";
+  bitmapAlias "icpaste" "ivstudio/icons/ivicn42.png";
+  bitmapAlias "icdup" "ivstudio/icons/ivicn43.png";
+  bitmapAlias "icundo" "ivstudio/icons/ivicn44.png";
+  bitmapAlias "icredo" "ivstudio/icons/ivicn45.png";
+  bitmapAlias "icdel" "ivstudio/icons/ivicn46.png";
+  bitmapAlias "icapped" "ivstudio/icons/ivicn47.png";
+  bitmapAlias "icrespan" "ivstudio/icons/ivicn51.png";
+  bitmapAlias "iccmdpan" "ivstudio/icons/ivicn53.png";
+  bitmapAlias "icalign" "ivstudio/icons/ivicn54.png";
+
+  bitmapAlias "iczoomm" "ivstudio/icons/iczoomm.png";
+  bitmapAlias "icuzoomm" "ivstudio/icons/icuzoomm.png";
+  bitmapAlias "ictransm" "ivstudio/icons/ictransm.png";
+  bitmapAlias "icrotm"   "ivstudio/icons/icrotm.png";
+}
+

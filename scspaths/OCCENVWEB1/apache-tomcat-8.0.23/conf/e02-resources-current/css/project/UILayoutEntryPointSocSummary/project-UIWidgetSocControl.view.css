@@ -1,0 +1,40 @@
+.project-UIWidgetSocControl-root{
+	height: 4em;
+}
+
+.project-UIWidgetSocControl-container-start{
+	padding-left: 5em;
+}
+
+.project-UIWidgetSocControl-container-start,
+.project-UIWidgetSocControl-container-stop,
+.project-UIWidgetSocControl-container-skip,
+.project-UIWidgetSocControl-container-retry{
+	vertical-align: middle !important;
+}
+
+.gwt-Button.project-UIWidgetSocControl-button-start,
+.gwt-Button.project-UIWidgetSocControl-button-stop,
+.gwt-Button.project-UIWidgetSocControl-button-skip,
+.gwt-Button.project-UIWidgetSocControl-button-retry{
+    width: 15ch;
+    height: 90%;
+    font-weight: bold;
+    font-size: larger;
+    white-space: nowrap;
+    margin-left: 0.5em;
+}
+
+.gwt-Button.project-UIWidgetSocControl-button-start-down,
+.gwt-Button.project-UIWidgetSocControl-button-stop-down,
+.gwt-Button.project-UIWidgetSocControl-button-skip-down,
+.gwt-Button.project-UIWidgetSocControl-button-retry-down{
+	background-image: none !important;
+	background-color: rgb(246, 230, 139) !important;
+}
+
+.project-UIWidgetSocControl-button-start-disable,
+.project-UIWidgetSocControl-button-stop-disable,
+.project-UIWidgetSocControl-button-skip-disable,
+.project-UIWidgetSocControl-button-retry-disable{
+}

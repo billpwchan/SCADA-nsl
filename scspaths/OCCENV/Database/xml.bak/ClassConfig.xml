@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="ClassConfig" numAttributes="2" numInstances="1" numPeriod_MT="0" numPeriod_ST="0" period_MT="0" period_ST="0">
+<AttributeDescription name="index" attrType="STATIC" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription name="names" attrType="STATIC" replicated="0">
+<StructVector numElementsList="19" numElementsStruct="3">
+<StructFieldDescription name="class name">
+<Scalar size="129" valueType="CHARN"/>
+</StructFieldDescription>
+<StructFieldDescription name="class id">
+<Scalar size="4" valueType="INT32"/>
+</StructFieldDescription>
+<StructFieldDescription name="class label">
+<Scalar size="129" valueType="CHARN"/>
+</StructFieldDescription>
+</StructVector>
+<StructVectorDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+</StructFieldDefaultValue>
+</StructVectorDefaultValue>
+</AttributeDescription>
+</Class>

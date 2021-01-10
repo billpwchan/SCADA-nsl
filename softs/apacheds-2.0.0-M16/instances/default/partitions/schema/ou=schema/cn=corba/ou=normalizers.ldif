@@ -1,0 +1,10 @@
+version: 1
+dn: ou=normalizers,cn=corba,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 29245e65-cf56-4c10-8574-d57545af80e0
+ou: normalizers
+entryUUID: 17d5d780-cc4e-4efd-abb9-ad4d2e8a8dd2
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.379Z
+entryCSN: 20140513151214.708000Z#000012#000#000000

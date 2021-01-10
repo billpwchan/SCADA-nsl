@@ -1,0 +1,78 @@
+###############################################################################
+# IDENTIFICATION:
+# $Id: $
+#
+# HISTORY:
+# $Log: $
+##############################################################################
+COMPONENT=Dbk,Dbk
+
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+
+Unix(const char *, int) {
+   english="Error returned by function %s: errno=%d"
+   french="Erreur retournee par la fonction %s: errno=%d"
+}
+
+FormulaSyntax(const char *) {
+   english="Syntax error in formula: %s"
+   french="Erreur de syntaxe dans la formule: %s"
+}
+
+AddressId(const char *) {
+   english="Syntax error in adressId: %s"
+   french="Erreur de syntaxe dans l'adressId: %s"
+}
+
+DtdAbsent(const char *) {
+   english="the DTD %s doesn't exist"
+   french="La DTD %s n'existe pas"
+}
+
+FatherUnknown(const char*) {
+   english="Father %s was not found in hierarchy."
+   french="Le chemin pere %s n'existe pas dans la hierarchie."
+}
+
+AliasAlreadyExist(const char*) {
+   english="Alias %s already exist. An alias must be unique."
+   french="L'alias %s existe déjà. Un alias doit être unique."
+}
+
+NameAlreadyExist(const char*) {
+   english="This name %s already exist. Each son must have a unique name."
+   french="Le nom %s existe déjà. Chaque fils doit avoir un nom unique."
+}
+
+PointUnknown(const char*) {
+   english="The point %s is unknown."
+   french="Le point %s est inconnu."
+}
+
+PathCreation(const char*){
+   english="Problem in %s directory creation."
+   french="Erreur dans la creation du repertoire %s."
+}
+
+FileOpen(const char*){
+   english="Could not open file %s."
+   french="Impossible d'ouvrir le fichier %s."
+}
+
+WrongArgNumber(const char*, int, int){
+   english="Wrong argument in CE %s: expected %d instead of %d"
+   french="Nombre d'arguments invalides dans la CE %s: %d attendus, %d passés"
+}
+
+WrongArgType(const char*, int, const char*){
+   english="%s:Wrong argument type:%d for CE evaluation on attribute:%s"
+   french="%s:Type d'argument invalide:%d pour évaluer la CE sur l'attribut:%s"
+}
+
+CannotEvaluateArg(const char*, const char*){
+   english="%s:Cannot evaluate CE argument on attribute:%s"
+   french="%s:Impossible d'évaluer un argument de la CE de l'attribut:%s"
+}

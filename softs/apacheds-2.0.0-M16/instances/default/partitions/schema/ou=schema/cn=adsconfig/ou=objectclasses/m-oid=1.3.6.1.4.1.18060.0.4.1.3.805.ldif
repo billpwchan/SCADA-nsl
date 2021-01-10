@@ -1,0 +1,24 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.3.805,ou=objectClasses,cn=adsconfig,ou=schema
+m-supobjectclass: ads-base
+m-must: ads-dsReplicaId
+m-must: ads-replAliasDerefMode
+m-must: ads-searchBaseDN
+m-must: ads-replSearchScope
+m-must: ads-replSearchFilter
+m-must: ads-replRefreshNPersist
+m-must: ads-replLogMaxIdle
+m-must: ads-replLogPurgeThresholdCount
+m-may: ads-replLastSentCsn
+m-may: ads-replCookie
+m-oid: 1.3.6.1.4.1.18060.0.4.1.3.805
+m-name: ads-replEventLog
+m-description: class to hold a replication consumer event log details
+entryParentId: be5aca8f-d139-43bf-a3f8-0c7fd61660f2
+createTimestamp: 20140513151220.020Z
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+entryUUID: 06fc997c-7e2e-447a-a52d-5ed5e4ad173e
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.551000Z#000014#000#000000

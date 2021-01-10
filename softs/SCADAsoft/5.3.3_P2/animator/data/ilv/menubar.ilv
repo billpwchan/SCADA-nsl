@@ -1,0 +1,29 @@
+// Ilv Version: 2.3
+// File generated: Wed Nov 13 09:57:32 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 4
+1 "defaultBg" "defaultFg" "menu" "%helvetica-12-B" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+2 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+3 "defaultBg" "defaultFg" "%times-12-" 0 solid solid 0 0 0
+IlvObjects 16
+1 { 0 0 IlvFrame 5 68 288 190 0 "&itemprops" 1 } 32 "Frame_1" 336 1 5 1 5 2
+2 { 1 1 IlvMenuBar 5 32 288 29 F2 2 3
+2 "item1"
+2 "item2"
+2 "item3" } 96 "menubar" "MenuBar" 336 1 5 1 5 2
+2 { 2 2 IlvTextField 79 95 204 23 F6 2 1 -1 0 "" } 96 "label" "TextField" 340 "setLabel" 1 79 1 15 2
+2 { 3 2 IlvFileSelectorField 79 125 204 23 F6 2 1 -1 0 "" } 96 "bitmap" "TextField" 340 "setBitmap" 1 79 1 15 2
+2 { 4 2 IlvTextField 79 155 204 23 F6 2 1 -1 0 "" } 96 "callb" "TextField" 340 "setCallback" 1 79 1 15 2
+2 { 5 2 IlvToggle 15 195 97 17 F1073741825 2 1 2 0 14 0 Y "&readonly" } 96 "ro" "Toggle" 20 "setReadOnly" 1 15
+2 { 6 2 IlvToggle 15 222 95 17 F1073741825 2 1 2 0 14 0 Y "&sensitive" } 96 "sens" "Toggle" 20 "setSensitive" 1 15
+2 { 7 3 IlvReliefLine 0 268 298 268 1 } 32 "line" 464 1 0 1 0 1 35 2
+2 { 8 0 IlvButton 5 276 62 23 F1 2 16 Y "&apply" } 64 "Button" 148 "apply" 1 5 1 5
+2 { 9 0 IlvButton 231 276 62 23 F1 2 16 Y "&close" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 10 2 IlvButton 165 191 118 23 F1 2 16 Y "&insert" } 64 "Button" 68 "add" 1 15
+2 { 11 2 IlvButton 165 222 118 23 F1 2 16 Y "&remove" } 96 "remove" "Button" 68 "remove" 1 15
+2 { 12 2 IlvToggle 6 5 119 17 F1 2 1 2 0 0 0 Y "&flushright" } 96 "flushright" "Toggle" 52 "setflushright" 1 6 1 5
+2 { 13 2 IlvMessageLabel 15 95 51 26 0 "&label" 1 } 0 16 1 15
+2 { 14 2 IlvMessageLabel 15 125 56 26 0 "&bitmap" 1 } 0 16 1 15
+2 { 15 2 IlvMessageLabel 15 155 59 26 0 "&callback" 1 } 0 16 1 15
+Size 298 304

@@ -1,0 +1,133 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astitrcl"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astitrcl.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 14
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+0 IlvMatrix 13 214 135 135 F34904 2 N N 0 0 0 0 1 1 130 130 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 32 "matrixView"
+6144 "ShowPreview" "TreeFile"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 3 0 296 356 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Classlist"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 12 18 278 23 F1 2 0 -1  } 544 "SelectModel"
+1
+1 "__ilvCallback" "selectModelCB"
+6144 "FilterDir" "cancel"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 302 0 264 356 F268435468 0 { IlvMessageItem 262169 4 16 4 "&TransformToClass"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 474 317 80 27 F13 2 { IlvMessageItem 262145 4 16 4 "&Transform"  }   } 544 "ok"
+1
+1 "__ilvCallback" "okCB"
+4096 "noteBook"
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 314 311 155 16 F1610612737 2 1 2 0 0 0 Y "&ApplyAll2" } 544 "applyAll"
+1
+1 "__ilvCallback" "applyAllCB"
+2
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 245 365 80 27 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "cancel"
+1
+1 "__ilvCallback" "cancelCB"
+10240 "SelectModel"
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 166 273 111 16 F1 2 1 2 0 0 0 Y "&Show" } 544 "ShowPreview"
+1
+1 "__ilvCallback" "showPreviewCB"
+6144 "noteBook" "matrixView"
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 12 46 137 22 F6 2 2 -1 0 "*" } 544 "FilterDir"
+1
+1 "__ilvCallback" "filterCB"
+6144 "FilterFile" "SelectModel"
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 153 46 137 22 F6 2 2 -1 0 "*" } 544 "FilterFile"
+1
+1 "__ilvCallback" "filterCB"
+6144 "TreeDir" "FilterDir"
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTreeGadget 12 73 137 136 F32 2 A A 0 0 0 0 20 1 1 1 1 1 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 2
+{ IlvTreeGadgetItem 1 2 4 "First Root" 2
+{ IlvTreeGadgetItem 1 2 4 "Leaf 1" 0
+ } { IlvTreeGadgetItem 1 2 4 "Leaf 2" 0
+ }  } { IlvTreeGadgetItem 1 2 4 "Second Root" 0
+ }  }  } 544 "TreeDir"
+1
+1 "__ilvCallback" "treeDirCB"
+6144 "TreeFile" "FilterFile"
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTreeGadget 153 74 137 136 F32 2 A A 0 0 0 0 20 1 1 1 1 1 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 2
+{ IlvTreeGadgetItem 1 2 4 "First Root" 2
+{ IlvTreeGadgetItem 1 2 4 "Leaf 1" 0
+ } { IlvTreeGadgetItem 1 2 4 "Leaf 2" 0
+ }  } { IlvTreeGadgetItem 1 2 4 "Second Root" 0
+ }  }  } 544 "TreeFile"
+1
+1 "__ilvCallback" "treeFileCB"
+6144 "matrixView" "TreeDir"
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 314 332 155 16 F1610612737 2 1 2 0 0 0 Y "&ApplyInstanceTransformer" } 32 "ApplyInstanceTransformer"
+2
+1 { 13 P 2
+[ IlvPanelObjectReference IlvPanelObjectReference  "971786907.0" ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNotebook 314 18 240 283 F1 2 0 2  2
+" { IlvNotebookPageItem 1 2 4 "&Uniform"  }  B ""
+" { IlvNotebookPageItem 1 2 4 "&Composite"  }  B ""
+0 0 4 5 2 10 10 10 10  } 544 "noteBook"
+1
+1 "__ilvCallback" "noteBookCB"
+6144 "ok" "ShowPreview"
+Size 571 397
+GeometryHandlers
+3 100 150 150 0 150 0
+ 100 150 150 150 150 150
+ 0 244 271 300 271 300
+5 3 0 0 12  278 0 278 2  0 0 10 1
+ 3 0 0 12  137 0 137 8  0 0 1 0
+ 3 0 0 12  137 0 137 10  0 0 1 0
+ 3 0 0 3  296 0 296 1  0 0 1 1
+ 3 245 0 245  0 0 80 6  246 0 246 2
+2 3 0 0 3  137 0 137 9  0 0 10 1
+ 3 0 0 3  137 0 137 11  0 0 10 1
+5 3 0 0 2  264 0 264 3  0 0 5 2
+ 3 174 0 174  0 0 80 4  17 0 17 2
+ 3 14 0 14  0 0 155 5  102 0 102 2
+ 3 14 0 14  0 0 155 12  102 0 102 2
+ 3 0 0 14  240 0 240 13  0 0 17 2
+4 0 67 67 0 67 0
+ 100 50 149 67 149 67
+ 0 70 148 216 148 216
+ 0 0 33 364 33 364
+6 3 0 0 0  356 0 356 3  0 0 8 2
+ 3 317 0 317  0 0 27 4  0 0 20 2
+ 3 311 0 311  0 0 16 5  0 0 37 2
+ 3 0 0 0  356 0 356 1  0 0 8 2
+ 3 332 0 332  0 0 16 12  0 0 49 3
+ 3 0 0 18  283 0 283 13  0 0 63 2
+2 3 0 0 6  136 0 136 10  0 0 7 1
+ 3 0 0 7  136 0 136 11  0 0 6 1
+2 3 0 -1 -2  0 0 135 0  0 0 15 2
+ 3 57 0 57  0 0 16 7  0 0 75 2
+1 3 1 0 1  0 0 27 6  0 0 5 3
+EOF

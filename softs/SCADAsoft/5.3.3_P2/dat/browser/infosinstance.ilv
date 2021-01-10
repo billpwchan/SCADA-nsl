@@ -1,0 +1,105 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 13:44:00 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "infosinstance"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\browser\\infosinstance.ilv"
+Palettes 1
+"IlvStToolBar" 0 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 15
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 10 100 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&FullPath:"  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 150 11 500 20 F7 2 16 -1 0 "toto" } 32 "FullPathTxt"
+6144 "NameTxt" "okBtn"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 40 100 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Name:"  }   } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 70 100 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Alias:"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 100 100 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ClassName :"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 130 100 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Optimized?"  }   } 0
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 160 100 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&NbAttributes:"  }   } 0
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 190 100 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&NbChildren:"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 150 41 200 20 F7 2 16 -1 0 "toto" } 32 "NameTxt"
+4096 "FullPathTxt"
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 150 71 200 20 F7 2 16 -1 0 "toto" } 32 "AliasTxt"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 150 101 200 20 F7 2 16 -1 0 "toto" } 32 "ClassNameTxt"
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 145 131 20 16 F536870913 2 16 16 0 13 0 B "noname" } 32 "OptimizedToggle"
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 293 234 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Back"  }   } 544 "okBtn"
+1
+1 "__ilvCallback" "okCB"
+10240 "FullPathTxt"
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 150 161 100 22 F7 2 16 -1 0 "123" . , 2 0 -2147483648 2147483647 } 32 "NbAttributesTxt"
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 150 191 100 22 F7 2 16 -1 0 "123" . , 2 0 -2147483648 2147483647 } 32 "NbChildrenTxt"
+2048 "okBtn"
+Size 660 267
+GeometryHandlers
+1 100 0 660 0 660 0
+15 3 0 0 150  500 0 500 1  0 0 10 0
+ 3 0 0 150  200 0 200 8  0 0 310 0
+ 3 0 0 150  200 0 200 9  0 0 310 0
+ 3 0 0 150  200 0 200 10  0 0 310 0
+ 3 0 0 150  0 0 100 13  410 0 410 0
+ 3 0 0 145  0 0 20 11  495 0 495 0
+ 3 0 0 150  0 0 100 14  410 0 410 0
+ 3 293 0 293  0 0 73 12  294 0 294 0
+ 3 0 0 10  0 0 100 7  550 0 550 0
+ 3 0 0 10  0 0 100 6  550 0 550 0
+ 3 0 0 10  0 0 100 5  550 0 550 0
+ 3 0 0 10  0 0 100 4  550 0 550 0
+ 3 0 0 10  0 0 100 3  550 0 550 0
+ 3 0 0 10  0 0 100 2  550 0 550 0
+ 3 0 0 10  0 0 100 0  550 0 550 0
+1 100 0 267 0 267 0
+15 3 0 0 11  0 0 20 1  0 0 236 0
+ 3 0 0 41  0 0 20 8  0 0 206 0
+ 3 0 0 71  0 0 20 9  0 0 176 0
+ 3 0 0 101  0 0 20 10  0 0 146 0
+ 3 0 0 131  0 0 16 11  120 0 120 0
+ 3 0 0 161  0 0 22 13  84 0 84 0
+ 3 0 0 191  0 0 22 14  54 0 54 0
+ 3 234 0 234  0 0 23 12  0 0 10 0
+ 3 0 0 190  0 0 22 7  55 0 55 0
+ 3 0 0 160  0 0 22 6  85 0 85 0
+ 3 0 0 130  0 0 22 5  115 0 115 0
+ 3 0 0 100  0 0 22 4  145 0 145 0
+ 3 0 0 70  0 0 22 3  175 0 175 0
+ 3 0 0 40  0 0 22 2  205 0 205 0
+ 3 0 0 10  0 0 22 0  235 0 235 0
+EOF

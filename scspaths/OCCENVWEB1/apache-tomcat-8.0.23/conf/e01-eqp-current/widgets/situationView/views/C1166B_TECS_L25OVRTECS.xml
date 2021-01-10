@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_TECS_L25OVRTECS" resolution="2.99874686717 2.49895572264 2.0824631022 1.7353859185 1.44615493208 1.20512911007 1.00427425839 0.836895215326 0.697412679438 0.581177232865" maxExtent="0.0 0.0 4786.0 2443.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_TECS_L25OVRTECS.svg" width="4786.0" height="2443.0" bounds="0.0 0.0 4786.0 2443.0" name="C1166B_TECS_L25OVRTECS" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="L25OVRTECS_shapes" type="OVERLAY">
+            <entitiesShapesEntry shapesResourcePath="views/images/L25OVRTECS_shapes.svg">
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0001" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0001_32"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0002" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0002_33"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0003" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0003_34"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0004" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0004_35"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0005" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0005_36"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0006" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0006_37"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0007" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0007_38"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0008" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0008_39"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0009" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0009_40"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0010" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0010_41"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0011" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0011_42"></entityShapeEntry>
+                <entityShapeEntry entityId="OCC_KOTECTTEMP0012" animationId="C1166B_ECT_TEMP_ActiveBackdrop_animation" elementId=":KOT:ECT:TEMP0012_43"></entityShapeEntry>
+            </entitiesShapesEntry>
+        </symbolLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="4341.0" y="2049.0" symbolId="C1166B_ECT_TVF1_Left" entityId="OCC_KOTECTTVF10006" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="4341.0" y="1686.0" symbolId="C1166B_ECT_TVF1_Left" entityId="OCC_KOTECTTVF10005" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="4341.0" y="1321.0" symbolId="C1166B_ECT_TVF1_Left" entityId="OCC_KOTECTTVF10004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="415.0" y="1321.0" symbolId="C1166B_ECT_TVF1_Right" entityId="OCC_KOTECTTVF10001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="415.0" y="1685.0" symbolId="C1166B_ECT_TVF1_Right" entityId="OCC_KOTECTTVF10002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="415.0" y="2051.0" symbolId="C1166B_ECT_TVF1_Right" entityId="OCC_KOTECTTVF10003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="626.0" y="2051.0" symbolId="C1166B_ECT_MFD1_Vertical" entityId="OCC_KOTECTMFD10003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="626.0" y="1685.0" symbolId="C1166B_ECT_MFD1_Vertical" entityId="OCC_KOTECTMFD10002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="626.0" y="1321.0" symbolId="C1166B_ECT_MFD1_Vertical" entityId="OCC_KOTECTMFD10001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="4348.0" y="193.0" symbolId="C1166B_ECT_GASA" entityId="OCC_KOTECTGASA0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="4032.0" y="193.0" symbolId="C1166B_ECT_PLCA" entityId="OCC_KOTECTPLCA0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="3735.0" y="193.0" symbolId="C1166B_ECT_PLCA" entityId="OCC_KOTECTPLCA0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1006.0" y="193.0" symbolId="C1166B_ECT_GASA" entityId="OCC_KOTECTGASA0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="690.0" y="193.0" symbolId="C1166B_ECT_PLCA" entityId="OCC_KOTECTPLCA0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="393.0" y="193.0" symbolId="C1166B_ECT_PLCA" entityId="OCC_KOTECTPLCA0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="458.0" y="656.0" symbolId="C1166B_ECT_DCB_" entityId="OCC_KOTECTDCB_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1211.0" y="1953.0" symbolId="C1166B_ECT_EMO1" entityId="OCC_KOTECTEMO10001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1211.0" y="1543.0" symbolId="C1166B_ECT_CMO1" entityId="OCC_KOTECTCMO10004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1211.0" y="1247.0" symbolId="C1166B_ECT_CMO1" entityId="OCC_KOTECTCMO10003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="3467.0" y="1247.0" symbolId="C1166B_ECT_CMO1" entityId="OCC_KOTECTCMO10001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="3467.0" y="1545.0" symbolId="C1166B_ECT_CMO1" entityId="OCC_KOTECTCMO10002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="3467.0" y="1953.0" symbolId="C1166B_ECT_EMO1" entityId="OCC_KOTECTEMO10002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="4140.0" y="1321.0" symbolId="C1166B_ECT_MFD1_Vertical" entityId="OCC_KOTECTMFD10004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="4140.0" y="1686.0" symbolId="C1166B_ECT_MFD1_Vertical" entityId="OCC_KOTECTMFD10005" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="4140.0" y="2049.0" symbolId="C1166B_ECT_MFD1_Vertical" entityId="OCC_KOTECTMFD10006" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1293.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1487.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1681.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1875.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2069.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0005" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2263.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0006" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2457.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0007" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2651.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0008" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2845.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0009" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="3039.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0010" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="3233.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0011" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="3427.0" y="276.0" symbolId="C1166B_ECT_TEMP_ActiveNumber" entityId="OCC_KOTECTTEMP0012" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="4265.0" y="2287.0" symbolId="C1166B_ECT_HOVR" entityId="OCC_KOTECTHOVR0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

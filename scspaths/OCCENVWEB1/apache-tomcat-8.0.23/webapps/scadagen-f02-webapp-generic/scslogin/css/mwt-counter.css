@@ -1,0 +1,93 @@
+/*****************/
+/* Counter panel */
+/*****************/
+.counterPanel {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.counterPanel-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+.counterPanel-title {
+/*   font-family: "Roboto-medium"; */
+  font-size: 18px;
+  font-weight: inherit;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+}
+.counterPanel-value-red {
+  fill: #f00;
+}
+.counterPanel-value-orange {
+  fill: #f80;
+}
+.counterPanel-value-green {
+  fill: #0f0;
+}
+
+/* Counter widget */
+.counterWidget-container {
+  position: absolute;
+  top: 30px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+.counterWidget-svgRoot {
+  max-height: inherit;
+}
+.counterWidget-svgValue {
+  fill: #ffffff;
+  text-anchor: middle;
+  alignment-baseline: middle;
+  font-size: 500%;
+}
+
+/* Counter configuration panel */
+.counterConfiguration {
+  flex-grow: 1;
+  margin: 8px;
+}
+.counterConfiguration-descContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.counterConfiguration-label {
+  color: #999999;
+/*   font-family: "Roboto-medium"; */
+  font-size: 13px;
+  margin: 4px 8px;
+}
+.counterConfiguration-descValue {
+/*   font-family: "Roboto-medium"; */
+  font-size: 13px;
+  margin: 4px 8px;
+  padding: 4px 8px;
+}
+.counterConfiguration-descValue-invalid {
+  -webkit-animation: invalidBlink 0.2s ease-in-out 3 alternate;
+  animation: invalidBlink 0.2s ease-in-out 3 alternate;
+  box-shadow: inset 0px 0px 5px #ffae00;
+}
+.counterConfiguration-displayConfTitle {
+  margin-top: 8px;
+/*   font-family: "Roboto-regular"; */
+  font-size: 15px;
+}
+

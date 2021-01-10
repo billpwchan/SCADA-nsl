@@ -1,0 +1,27 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="AICC_State_Selected_MO"><g id="_C1166B_SYMBOLS_C1166B_SYMBOLHIGHLIGHT100_4_SELECTED_MO_BLINKING_SVG" transform="translate(-80.0 -80.0)scale(0.8 0.8)"><rect x="0.0" fill="red" width="200.0" height="100.0" y="50.0" opacity="0"/><g id="C1166B_SymbolHighlight100_4_Selected_MO_Blinking" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polygon fill="#0000FF" class="AnPolygon" fill-rule="evenodd" points="-100,-50 -91,-50 -91,-11 -100,-11 "/>
+
+  
+  <polygon fill="#0000FF" class="AnPolygon" fill-rule="evenodd" points="-100,-50 -61,-50 -61,-41 -100,-41 "/>
+
+  
+  <polygon fill="#0000FF" class="AnPolygon" fill-rule="evenodd" points="99,-11 99,-50 90,-50 90,-11 "/>
+
+  
+  <polygon fill="#0000FF" class="AnPolygon" fill-rule="evenodd" points="-61,49 -100,49 -100,40 -61,40 "/>
+
+  
+  <polygon fill="#0000FF" class="AnPolygon" fill-rule="evenodd" points="99,49 60,49 60,40 99,40 "/>
+
+  
+  <polygon fill="#0000FF" class="AnPolygon" fill-rule="evenodd" points="-100,10 -91,10 -91,49 -100,49 "/>
+
+  
+  <polygon fill="#0000FF" class="AnPolygon" fill-rule="evenodd" points="60,-50 99,-50 99,-41 60,-41 "/>
+
+  
+  <polygon fill="#0000FF" class="AnPolygon" fill-rule="evenodd" points="90,10 99,10 99,49 90,49 "/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

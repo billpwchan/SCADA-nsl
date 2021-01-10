@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="dal_type12">
+<InstanceDescription alias="OCCENVSERV0001dciMCS-STATUSdal" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVSERV0001dciMCS-STATUSdal"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="604"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="dal"/>
+</AttributDescription>
+<AttributDescription attrId="theme">
+<ScalarValue value="0"/>
+</AttributDescription>
+<AttributDescription attrId="valueAlarmVector" position="0" formula="SCS_ALARM_DI([^.value],0,&quot;DIBasic2StateLog&quot;,&quot;Ack&quot;,{^.valueDate},[^.valueDate],2,IF(NOT(BITAND([^:dfo.forcedStatus],12)),[^.validity],0))" activation="ENABLE">
+<VectorValue>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</VectorValue>
+</AttributDescription>
+<AttributDescription attrId="valueTable">
+<StructVectorValue>
+<StructFieldValue>
+<ScalarValue value="0"/>
+<ScalarValue value="Down"/>
+<ScalarValue value="A"/>
+<ScalarValue value="2"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="1"/>
+<ScalarValue value="Init"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="2"/>
+<ScalarValue value="Online"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="3"/>
+<ScalarValue value="Online Init"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="4"/>
+<ScalarValue value="Online Isolated"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="5"/>
+<ScalarValue value="Online No Standby"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="6"/>
+<ScalarValue value="Online Snapshot"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="7"/>
+<ScalarValue value="Standby"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="8"/>
+<ScalarValue value="Standby Init"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="9"/>
+<ScalarValue value="Standby Isolated"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="10"/>
+<ScalarValue value="Standby Sync"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="11"/>
+<ScalarValue value="Up"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+</StructVectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCENVSERV0002dciMCS-STATUSdal" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVSERV0002dciMCS-STATUSdal"/>
+</AttributDescription>
+<AttributDescription attrId="class_id">
+<ScalarValue value="604"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="dal"/>
+</AttributDescription>
+<AttributDescription attrId="theme">
+<ScalarValue value="0"/>
+</AttributDescription>
+<AttributDescription attrId="valueAlarmVector" position="0" formula="SCS_ALARM_DI([^.value],0,&quot;DIBasic2StateLog&quot;,&quot;Ack&quot;,{^.valueDate},[^.valueDate],2,IF(NOT(BITAND([^:dfo.forcedStatus],12)),[^.validity],0))" activation="ENABLE">
+<VectorValue>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</VectorValue>
+</AttributDescription>
+<AttributDescription attrId="valueTable">
+<StructVectorValue>
+<StructFieldValue>
+<ScalarValue value="0"/>
+<ScalarValue value="Down"/>
+<ScalarValue value="A"/>
+<ScalarValue value="2"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="1"/>
+<ScalarValue value="Init"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="2"/>
+<ScalarValue value="Online"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="3"/>
+<ScalarValue value="Online Init"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="4"/>
+<ScalarValue value="Online Isolated"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="5"/>
+<ScalarValue value="Online No Standby"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="6"/>
+<ScalarValue value="Online Snapshot"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="7"/>
+<ScalarValue value="Standby"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="8"/>
+<ScalarValue value="Standby Init"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="9"/>
+<ScalarValue value="Standby Isolated"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="10"/>
+<ScalarValue value="Standby Sync"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="11"/>
+<ScalarValue value="Up"/>
+<ScalarValue value="N"/>
+<ScalarValue value="0"/>
+<ScalarValue value="0"/>
+</StructFieldValue>
+</StructVectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

@@ -1,0 +1,51 @@
+COMPONENT=Ala,Ala
+
+Init() {
+   english="Alarm Initialization"
+   french="Initialisation du serveur d'alarme"
+}
+
+ORB(const char *) {
+   english="Orb Error %s"
+   spanish="Error Orb %s"
+}
+
+ServerNotRegistered(const char *) {
+   english="Server %s is not registered at the host server"
+   spanish=""
+}
+
+ScadasoftFunction(const char *, int) {
+   english="SCADAsoft function error: %s (minor=%d)"
+   spanish=""
+}
+
+SystemFunction(const char *, int) {
+   english="System function error: %s (errno=%d)"
+   spanish=""
+}
+
+Environment(const char *) {
+   english="Environment variable %s not defined"
+   spanish="Variable de entorno %s no definida"
+}
+
+BadParam(const char *) {
+   english="Bad parameter: %s"
+   spanish=""
+}
+
+Internal(const char *) {
+   english="Internal error: %s"
+   spanish=""
+}
+
+UnknownPrinter(const char *) {
+   english="Unknown printer: %s"
+   spanish=""
+}
+
+TclFunction(const char *, const char *) {
+   english="Tcl function %s error: %s"
+   spanish=""
+}

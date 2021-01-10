@@ -1,0 +1,10 @@
+version: 1
+dn: ou=matchingRules,cn=corba,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 29245e65-cf56-4c10-8574-d57545af80e0
+ou: matchingrules
+entryUUID: 21df782c-3207-4285-98b3-77802fcb42a8
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.285Z
+entryCSN: 20140513151214.708000Z#00000f#000#000000

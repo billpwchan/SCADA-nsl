@@ -1,0 +1,438 @@
+// -------------------------------------------------------------- -*- C++ -*-
+// Studio property set definitions
+// 
+
+PropertySetDefinition BasicStructure {
+    structured	    true;
+    declarative	    false;
+    bracketed	    false;
+    separator	    "";
+    stopCharacter   ";";
+}
+
+PropertySetDefinition TwoStringsStructure {
+    inheritFrom	    BasicStructure
+    fields {
+	string1 String;
+	string2 String;
+    }
+}
+
+PropertySetDefinition ThreeStringsStructure {
+    inheritFrom	    TwoStringsStructure;
+    fields {
+	string3 String;
+    }
+}
+
+PropertySetDefinition IdentifierAndStringStructure {
+    inheritFrom	    BasicStructure;
+    fields {
+	identifier Identifier;
+	string     String;
+    }
+}
+
+PropertySetDefinition StringAndIdentifierStructure {
+    inheritFrom	    BasicStructure;
+    fields {
+	string	    String;
+	identifier  Identifier;
+    }
+}
+
+PropertySetDefinition Dimensions {
+    inheritFrom	    BasicStructure;
+    separator	    "x";
+    fields {
+	width	Int;
+	height	Int;
+    }
+}
+
+PropertySetDefinition Rectangle {
+    inheritFrom	 BasicStructure;
+    fields {
+	x	Int;
+	y	Int;
+	width	Int;
+	height	Int;
+    }
+}
+
+PropertySetDefinition ToolBarCommands {
+    structured true;
+    declarative false;
+    bracketed false;
+    separator "";
+    fields {
+	name Identifier;
+	commands BracketedList;
+    }
+}
+
+PropertySetDefinition MenuPath1 {
+    declarative false;
+    bracketed false;
+    separator ",";
+    stopCharacter "{";    
+}
+
+PropertySetDefinition MenuDescription {
+    structured true;
+    declarative false;
+    bracketed false;
+    separator "";
+    fields {
+	path MenuPath1;
+	commands BracketedList;
+    }
+}
+
+PropertySetDefinition MenuPath2 {
+    inheritFrom MenuPath1;
+    stopCharacter ";";    
+}
+
+PropertySetDefinition MenuItemDescription {
+    structured true;
+    declarative false;
+    bracketed false;
+    separator ":";
+    fields {
+	item String;
+	path MenuPath2;
+    }
+}
+
+PropertySetDefinition DragDropPalette {
+    fields {
+	dataFileName	String;
+	label		String;
+	bitmap		String;
+	path		SimpleList;
+	containerClass	String default "IlvGadgetContainer";
+	containerWidth	Int;
+	containerHeight Int;
+    }
+}
+
+PropertySetDefinition panel {
+    structured false;
+    fields {
+	title String;
+	visible Boolean;
+	menu MenuDescription repeatable;
+	menuItem MenuItemDescription repeatable;
+	removeMenuItem MenuItemDescription repeatable;
+	toolbar ToolBarCommands repeatable;
+	x Int;
+	y Int;
+	width Int;
+	height Int;
+	command StringAndIdentifierStructure repeatable;
+	filename String;
+	helpFile String;
+	htmlHelpFile String;
+	compiledHtmlHelpFile String;
+	helpDirectory String;
+	commandName Identifier;
+	topView Boolean;
+
+	PropertySetDefinition	PropertySetDefinition;
+    }
+}
+
+PropertySetDefinition CommandMessages {
+    declarative		false;
+    bracketed		false;
+    separator		",";
+    stopCharacter	";";
+} // CommandMessges
+
+PropertySetDefinition command {
+    fields {
+	label			String;
+	toggleLabel		String;
+	tooltip			String;
+	toggleTooltip		String;
+	acceleratorText		String;
+	acceleratorDefinition	String;
+	bitmap			String;
+	prompt			String;
+	togglePrompt		String;
+	messages		CommandMessages;
+	interactive		Boolean;
+	category		Symbol repeatable;
+	selector		Symbol;
+	htmlHelpFile		String;
+	compiledHtmlHelpFile	String;
+	helpDirectory		String;
+	comboLabels		String;
+	width			String;
+    }
+} // command
+
+PropertySetDefinition ClassDescriptor {
+    fields {
+	class			Identifier;
+	baseClass		Identifier;
+	fileBase		String;
+	dataDir			PathName;
+	headerDir		PathName;
+	srcDir			PathName;
+	objDir			PathName;
+	data			Boolean default true;
+	accessors		Boolean default true;
+	callbacks		Boolean default true;
+	main			Boolean default true;
+	make			Boolean default true;
+	headerCode		String repeatable;
+	sourceCode		String repeatable;
+    }
+} // ClassDescriptor
+
+PropertySetDefinition PanelClass {
+    inheritFrom ClassDescriptor;
+    fields {
+	useAccelerators		    Boolean;
+	systemViewConstructor	    Boolean;
+	systemViewChildConstructor  Boolean;
+	callbackDeclarations	    Boolean default true;
+	folder			    String default "/";
+    }
+} // PanelClass
+
+PropertySetDefinition PanelInstance {
+    indentLevelIncrement	1;
+    fields {
+	class			Identifier;
+	userClass		Identifier;
+	title			String;
+	transientFor		String;
+	x			Int;
+	y			Int;
+	width			Int default 300;
+	height			Int default 300;
+	dims			Boolean;
+	visible			Boolean default true;
+	useAccelerators		Boolean;
+	doubleBuffering		Boolean;
+	destroyCallback		Identifier;
+	backgroundBitmap	String;
+	noBorder		Boolean;
+	noResizeBorder		Boolean;
+	noTitleBar		Boolean;
+	noSysMenu		Boolean;
+	noMinBox		Boolean;
+	noMaxBox		Boolean;
+	saveUnder		Boolean;
+	iconified		Boolean;
+	maximized		Boolean;
+	MDIChild		Boolean;
+	minWidth		Int;
+	minHeight		Int;
+	maxWidth		Int;
+	maxHeight		Int;
+	// Subpanels
+	panel			PanelInstance repeatable;
+	parentObjectReference	String;
+	parentObjectType	String;
+	parentNotebookPageIndex	Int default -1;
+	parentNotebookNewPage	Boolean;
+	parentNotebookPageLabel	String;
+    }
+} // PanelInstance
+
+PropertySetDefinition SystemInfo {
+    fields {
+	systemName		String;
+	libDir			String;
+	compiler		String;
+	compilerOptions		String;
+	linker			String;
+	linkerOptions		String;
+	libraries		String;
+	JvScriptLibraries	String;
+	systemLibraries		String;
+	motif			Boolean;
+	sourceFileExtension	String;
+    }
+} // SystemInfo
+
+PropertySetDefinition application {
+    inheritFrom ClassDescriptor;
+    fields {
+	creator			String;
+	version			Double;
+	iref			Double;
+	ViewsVersion		Double;
+	system			String;
+	targetPlatform		String;
+	date			String;
+	panelClass		PanelClass repeatable;
+	panel			PanelInstance repeatable;
+	exitPanel		Boolean;
+	panelAccessors		Boolean default true;
+	includeInHeader		Boolean default true;
+	bmpBitmapReader		Boolean;
+	dibBitmapReader		Boolean;
+	gifBitmapReader		Boolean;
+	pngBitmapReader		Boolean;
+	jpgBitmapReader		Boolean;
+	pbmBitmapReader		Boolean;
+	pgmBitmapReader		Boolean;
+	ppmBitmapReader		Boolean;
+	JvScript		Boolean;
+	auxiliaryLibrary	Boolean;
+	scriptFile		String;
+	userClass		Identifier;
+	stateDir		String;
+	headerFileScope		String;
+	absolutePath		Boolean;
+	JvScript		Boolean;
+	refDir			String;
+    }
+} // application
+
+PropertySetDefinition ViewsClass {
+    fields {
+	headerFile	String;
+	library		String;
+    }
+} // ViewsClass
+
+PropertySetDefinition viewsLibrary {
+    fields {
+	dependencies	String;
+	path		String;
+    }
+} // viewsLibrary
+
+PropertySetDefinition ViewsInteractor {
+    fields {
+	headerFile	String;
+	library		String;
+    }
+} // ViewsInteractor
+
+PropertySetDefinition studio {
+    fields {
+	absolutePath		Boolean;
+	additionalLibraries	String repeatable;
+	alignmentSpacing	Int;
+	applicationBaseClass	Identifier default IlvApplication;
+	applicationBufferBackground String default "Cadet Blue";
+	applicationFileExtension String default ".iva";
+	applicationHeaderFile	String default "<ilviews/appli.h>";
+	applyPanelProperties	Boolean default true;
+	baseClassHeader		IdentifierAndStringStructure repeatable;
+	bitmapAlias		TwoStringsStructure repeatable;
+	bufferBackground	String;
+	bufferSize		Dimensions;
+	checkCIdentifier	Boolean default true;
+	command			command repeatable;
+	commandFile		String repeatable;
+	compat31include		Boolean default true;
+	dataFileExtension	String default ".ilv";
+	defaultApplicationName	Identifier default testapp;
+	defaultBufferName	Identifier default noname;
+	defaultCallbackLanguage	Symbol;
+	defaultDataDir		String;
+	defaultGroupCommand 	String default "GroupIntoGraphicSet";
+	defaultHeaderDir	String;
+	defaultHeaderFileScope	String;
+	defaultObjDir		String;
+	defaultSrcDir		String;
+	defaultSystemName	String;
+	documentWindowSize	Dimensions;
+	dragDropPalette		DragDropPalette repeatable;
+	defaultDragDropPalette	String default "Graphics";
+	editionName		String;
+	modulePath		String repeatable;
+	fileBrowserType		TwoStringsStructure repeatable;
+	fileLoader		TwoStringsStructure repeatable;
+	finalizeInit		Boolean default true;
+	fontNames		BracketedList;
+	fontFoundries		BracketedList;
+	gadgetPaletteFileName	String default "gadgets.ilv";
+	graphicPaletteFileName	String default "graphs.ilv";
+	gridSize		Dimensions;
+	headerFileExtension	String default ".h";
+	helpDir			String default "ivstudio/help";
+	hideApplicationBuffer	Boolean;
+	hideBufferMenu		Boolean;
+	hideGenericInspector	Boolean;
+	ignoringSize		Boolean;
+	ignoringBackground	Boolean;
+	include 		String repeatable;
+	infoPanelTitle		String;
+	infoPanelDuration	Int default 5;
+	JvScriptApplication	Boolean;
+	language		ThreeStringsStructure repeatable;
+	makeFileExtension	String default ".mak";
+	messageDB		String repeatable;
+	movingPointer		Boolean;
+	noPanelContents		Boolean;
+	nudgeIncrement		Int default 1;
+	objectInteractor	Identifier repeatable;
+	filter           	Identifier repeatable;
+	panel			panel repeatable;
+	panelBaseClass		Identifier;
+	panelHeaderFile 	String default "<ilviews/gadcont.h>";
+	panelFile		String repeatable;
+	playerSpeed		Int;
+	recentFileListLength	Int default 6;
+	removeDragDropPalette	String repeatable;
+	removeToolBarItem	SimpleList repeatable;
+	sortingRequirements	Boolean;
+	sourceFileExtension	String default ".cc";
+	startUpCommand		SimpleList repeatable;
+	startUpCommandString	IdentifierAndStringStructure;
+	stateFileExtension	String default default ".ivs";
+	studioName		String default "IBM ILOG Views Studio";
+	studioShortName		String default "ivstudio";
+	system			SystemInfo repeatable;
+	toolBarItem		SimpleList repeatable;
+	toolBarCommands		ToolBarCommands repeatable;
+	toolBarItemHeight	Int;
+	toolBarItemWidth	Int;
+	toolTip			Boolean;
+	useDefaultBackground	Boolean;
+	useIlvMenuBar		Boolean;
+	userSubClassPrefix	String;
+	userSubClassSuffix	String;
+	useQuadtree		Boolean default False;
+	version			Int;
+	viewsClass		ViewsClass repeatable;
+	viewsInteractor		ViewsInteractor repeatable;
+
+	PropertySetDefinition	PropertySetDefinition;
+    }
+}
+
+PropertySetDefinition StudioSession {
+    fields {
+	currentDirectory	String;
+	fileDialogDirectory	String;
+	iref			Double;
+	language		String;
+	mainPanelRectangle	Rectangle;
+	maximized		Boolean;
+	plugIns			BracketedList;
+	recentFiles		RecentFileList;
+	version			Double;
+    }
+}
+
+PropertySetDefinition StudioPlugIn {
+    fields {
+	description		String;
+	extensions		BracketedList;
+	library			String;
+	dependency		String;
+	directory		String;
+	path			String;
+    }
+}
+

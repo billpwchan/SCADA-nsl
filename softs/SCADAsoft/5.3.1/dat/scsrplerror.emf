@@ -1,0 +1,112 @@
+##############################################################################
+# IDENTIFICATION:
+# $Id: scsrplerror.emf,v 1.2 1997/11/27 11:32:48 jpu Exp $
+#
+# HISTORY:
+# $Log: scserror.emf,v $
+# Revision 1.2  1997/11/27 11:32:48  jpu
+# Add Unix()
+#
+##############################################################################
+COMPONENT=Scadasoft,ScsRpl
+
+ScadasoftFunction(const char *, int) {
+   english="SCADAsoft error returned by %s minor %d"
+   french="Error SCADAsoft renvoyée par %s minor %d"
+}
+
+BadParam(const char *, int) {
+   english="Parameter %s is invalid"
+   french="Le parametre %s n'est pas valide"
+}
+
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+
+Environment(const char *) {
+   english="Environment variable %s not set"
+   french="Variable d'environment %s non positionnee"
+}
+
+Unix(const char *, int) {
+   english="Error returned by function %s: errno=%d"
+   french="Erreur retournee par la fonction %s: errno=%d"
+}
+
+InconsistentObject(const char *) {
+   english="Inconsustent object %s"
+   french="Objet inconsistent %s"
+}
+
+WritingFile(const char *) {
+   english="Error writing file %s"
+   french="Erreur pendant l'écriture du fichier %s"
+}
+
+NoMoreRecordToRead() {
+   english="No more records to read"
+   french="Plus d'enregistrements a lire"
+}
+
+ForbiddenLoad() {
+   english="Forbidden load, please stop the replay"
+   french="Chargement interdit, veuillez arretez le rejeu"
+}
+
+ForbiddenUnfreeze() {
+   english="Forbidden Unfreeze, please freeze first the replay"
+   french="Dégel interdit, veuillez geler d'abord le rejeu"
+}
+
+ForbiddenFreeze() {
+   english="Forbidden Freeze, please start first the replay"
+   french="Gel interdit, veuillez démarrer d'abord le rejeu"
+}
+
+ForbiddenStep() {
+   english="Forbidden Step, please freeze first the replay"
+   french="Pas à pas interdit, veuillez geler d'abord le rejeu"
+}
+
+ForbiddenStop() {
+   english="Forbidden Stop, please start first the replay"
+   french="Stop interdit, veuillez démarrer d'abord le rejeu"
+}
+
+ForbiddenStart() {
+   english="Forbidden Start, please load first the replay"
+   french="Démarrage interdit, veuillez charger d'abord le rejeu"
+}
+
+LoadingSnapshot(const char *) {
+  english="Error loading snapshot file '%s'" 
+  french="Erreur de lecture du fichier de snapshot '%s'"
+}
+
+ForbiddenSnapshotNotTraining() {
+   english="Forbidden Snapshot, Replay manager not in training mode"
+   french="Sauvegarde interdite, le replay manager n'est pas en mode Formation"
+}
+
+ForbiddenSnapshotNotFrozen() {
+   english="Forbidden Snapshot, Replay manager not in frozen state"
+   french="Sauvegarde interdite, le replay manager n'est pas etat gele"
+}
+
+ForbiddenSetTimeNotTraining() {
+   english="Forbidden time setting, Replay manager not in training mode"
+   french="Mise a jour de l'heure interdite, le replay manager n'est pas en mode Formation"
+}
+
+
+Generic(const char *) {
+  english="Error: %s" 
+  french="Erreur: %s"
+}
+
+RecordInactive(const char*) {
+  english="Record for '%s' is inactive"
+  french="L'enregistrement de '%s' est desactivé"
+}

@@ -1,0 +1,56 @@
+// Ilv Version: 5.0
+// File generated: Fri Mar 29 17:10:03 2002
+// Creator class: IlvGadgetManagerOutput
+FileName "p_more"
+Palettes 2
+"default" 0 F "defaultBg" "defaultFg" "default" "%helvetica-12" 0 solid solid 0 0 0 65535 0
+1 F "black" "gray50" "default" "%helvetica-12" 0 solid solid 0 0 0 65535 0
+IlvObjects 19
+0 { 0 0 IlvArrowPolyline 0 1 5
+19 240 30 280 50 240 70 280 80 240 } 0
+0
+0 { 1 0 IlvShadowLabel 16 136 154 35 4 10 "Label with a Shadow" } 0
+0
+0 { 2 0 IlvLabel 31 28 "A label" } 0
+0
+0 { 3 0 IlvListLabel 104 7 1 3
+"This is "
+"an"
+"IlvListLabel" } 0
+0
+0 { 4 0 IlvReliefRectangle 83 76 87 35 2 } 0
+0
+0 { 5 0 IlvReliefDiamond 15 75 50 35 2 } 0
+0
+0 { 6 0 IlvReliefLabel 16 186 154 35 2 "Relief Label" } 32 "button"
+0
+0 { 7 0 IlvGridRectangle 10 300 160 50 f 10 5 } 0
+0
+0 { 8 0 IlvMarker 12 372 1 4 } 0
+0
+0 { 9 0 IlvMarker 31 372 2 4 } 0
+0
+0 { 10 0 IlvMarker 50 372 4 4 } 0
+0
+0 { 11 0 IlvMarker 69 372 8 4 } 0
+0
+0 { 12 0 IlvMarker 88 372 16 4 } 0
+0
+0 { 13 0 IlvMarker 107 372 32 4 } 0
+0
+0 { 14 0 IlvMarker 126 372 64 4 } 0
+0
+0 { 15 0 IlvMarker 145 372 256 4 } 0
+0
+0 { 16 0 IlvMarker 164 372 512 4 } 0
+0
+1 { 17 0 IlvZoomableLabel "Zoomable Label" 1 0 0 1 14 46 } 0
+0
+1 { 18 1 IlvOutlinePolygon 6
+140 240 150 260 140 280 110 280 100 260 110 240 } 0
+0
+Size 179 394
+Layers 2
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

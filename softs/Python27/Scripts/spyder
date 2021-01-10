@@ -1,0 +1,3 @@
+#!C:\Miniconda\python.exe
+from spyderlib import start_app
+start_app.main()

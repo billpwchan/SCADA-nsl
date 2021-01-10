@@ -1,0 +1,52 @@
+// Ilv Version: 5.0
+// File generated: Tue Apr 30 13:07:49 2002
+// Creator class: IlvGadgetManagerOutput
+FileName "p_vrect"
+Palettes 1
+"default" 0 F "defaultBg" "defaultFg" "default" "%helvetica-12" 0 solid solid 0 0 0 65535 0
+IlvObjects 8
+7 { 0 P 1
+[ IlvPanelObjectReference IlvPanelObjectReference  "961163720.0" ]
+0 IlvGadgetContainerRectangle 5 5 170 71 "" } 0
+0
+7 { 1 P 1
+[ IlvPanelObjectReference IlvPanelObjectReference  "961163720.1" ]
+0 IlvSCGadgetContainerRectangle 5 87 170 75 "" 3 } 0
+0
+7 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "SCManager" ]
+0 IlvSCManagerRectangle 5 502 151 59 YY } 0
+0
+7 { 3 P 1
+[ IlvPanelObjectReference IlvPanelObjectReference  "961163720.0" ]
+0 IlvContainerRectangle 5 174 170 71 "" } 0
+0
+7 { 4 P 1
+[ IlvPanelObjectReference IlvPanelObjectReference  "961163720.0" ]
+0 IlvViewRectangle 5 256 170 71 } 0
+0
+7 { 5 P 1
+[ IlvPanelObjectReference IlvPanelObjectReference  "961163720.0" ]
+0 IlvSCViewRectangle 5 338 170 71 } 0
+0
+7 { 6 P 1
+[ IlvPanelObjectReference IlvPanelObjectReference  "1020164542.0" ]
+0 IlvViewRectangle 80 380 1 1 } 0
+0
+7 { 7 P 1
+[ IlvPanelObjectReference IlvPanelObjectReference  "961163720.0" ]
+0 IlvManagerRectangle 5 420 170 71 } 0
+0
+Size 180 588
+GeometryHandlers
+1 100 0 180 0 180 0
+7 3 0 0 5  170 0 170 0  0 0 5 0
+ 3 0 0 5  170 0 170 1  0 0 5 0
+ 3 0 0 5  170 0 170 2  0 0 5 0
+ 3 0 0 5  170 0 170 3  0 0 5 0
+ 3 0 0 5  170 0 170 4  0 0 5 0
+ 3 0 0 5  170 0 170 5  0 0 5 0
+ 3 0 0 5  170 0 170 7  0 0 5 0
+1 100 0 588 0 588 0
+0
+EOF

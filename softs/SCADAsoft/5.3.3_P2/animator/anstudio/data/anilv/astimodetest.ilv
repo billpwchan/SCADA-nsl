@@ -1,0 +1,512 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 18:29:47 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astimodetest"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astimodetest.ilv"
+Palettes 3
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+2 F 0 0 65025 0 0 65025 "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+"AstInputPalette" 1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 57
+1 { 0 P 2
+[ IlvToolTip __ilvToolTip 2 "&NewSelectionTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 352 500 100 23 F13 2 { IlvMessageItem 262145 4 16 4 "&NewSelection"  }   } 544 "NewSelection"
+1
+1 "__ilvCallback" "makeSelection"
+4096 "Reset"
+1 { 1 P 2
+[ IlvToolTip __ilvToolTip 2 "&ApplyTestTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 144 500 100 23 F13 2 { IlvMessageItem 262147 4 2 4 "&Apply" 1 0 "astctest.png"  }   } 544 "Apply"
+1
+1 "__ilvCallback" "apply"
+6144 "Reset" "Val2ActionSelector"
+1 { 2 P 2
+[ IlvToolTip __ilvToolTip 2 "&BlinkRateTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 376 25 70 22 F39 2 16 -1 0 "1 s" 8
+{ IlvMenuItem 1 2 4 "250 ms"  } 
+{ IlvMenuItem 1 2 4 "500 ms"  } 
+{ IlvMenuItem 1 2 4 "750 ms"  } 
+{ IlvMenuItem 1 16 4 "    1 s"  } 
+{ IlvMenuItem 1 2 4 "    2 s"  } 
+{ IlvMenuItem 1 2 4 "    3 s"  } 
+{ IlvMenuItem 1 2 4 "    4 s"  } 
+{ IlvMenuItem 1 2 4 "    5 s"  }  } 32 "BlinkRate"
+6144 "AlarmState" "BlinkState"
+1 { 3 P 2
+[ IlvToolTip __ilvToolTip 2 "&ForegroundColorNumberChoiceTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 376 105 70 22 F38 2 16 -1 0 "&default" 7
+{ IlvMenuItem 1 2 4 "&Default"  } 
+{ IlvMenuItem 1 2 4 "0"  } 
+{ IlvMenuItem 1 2 4 "1"  } 
+{ IlvMenuItem 1 2 4 "2"  } 
+{ IlvMenuItem 1 2 4 "3"  } 
+{ IlvMenuItem 1 2 4 "4"  } 
+{ IlvMenuItem 1 2 4 "5"  }  } 32 "ForegroundColorNumber"
+6144 "SymbolAnimationRate" "ForegroundState"
+1 { 4 P 2
+[ IlvToolTip __ilvToolTip 2 "&ResetTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 248 500 100 23 F13 2 { IlvMessageItem 262147 4 2 4 "&Reset" 1 0 "astcdel2.png"  }   } 544 "Reset"
+1
+1 "__ilvCallback" "reset"
+6144 "NewSelection" "Apply"
+1 { 5 P 2
+[ IlvToolTip __ilvToolTip 2 "&ScaleFactorTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 376 52 70 22 F39 2 16 -1 0 "100%" 8
+{ IlvMenuItem 1 2 4 "&Default"  } 
+{ IlvMenuItem 1 2 4 "1200%"  } 
+{ IlvMenuItem 1 2 4 "800%"  } 
+{ IlvMenuItem 1 2 4 "400%"  } 
+{ IlvMenuItem 1 2 4 "200%"  } 
+{ IlvMenuItem 1 2 4 "100%"  } 
+{ IlvMenuItem 1 2 4 "50%"  } 
+{ IlvMenuItem 1 2 4 "10%"  }  } 32 "ScaleFactor"
+6144 "HighLightState" "ScaleState"
+1 { 6 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 134 105 36 22 F34904 1 N N 0 0 0 0 0 1 31 17 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "ForceColor"
+1
+1 "__ilvCallback" "selectForceColor"
+6144 "ForegroundState" "ForceColorState"
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 0 -1 450 169 F268435468 0 { IlvMessageItem 262169 4 16 4 "&GeneralProperties"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 1 209 450 125 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ActiveTextProps"  }   } 0
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 1 334 450 159 F268435468 0 { IlvMessageItem 262169 4 16 4 "&NumericValuesProps"  }   } 0
+0
+1 { 10 P 2
+[ IlvToolTip __ilvToolTip 2 "&SymbolNumberChoiceTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 298 181 70 22 F38 2 16 -1 0 "&default" 7
+{ IlvMenuItem 1 2 4 "&Default"  } 
+{ IlvMenuItem 1 2 4 "0"  } 
+{ IlvMenuItem 1 2 4 "1"  } 
+{ IlvMenuItem 1 2 4 "2"  } 
+{ IlvMenuItem 1 2 4 "3"  } 
+{ IlvMenuItem 1 2 4 "4"  } 
+{ IlvMenuItem 1 2 4 "5"  }  } 32 "SymbolNumber"
+6144 "AddTextBtn" "SymbolActionSelector"
+1 { 11 P 2
+[ IlvToolTip __ilvToolTip 2 "&BackgroundColorNumberChoiceTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 376 77 70 22 F38 2 16 -1 0 "&default" 7
+{ IlvMenuItem 1 2 4 "&Default"  } 
+{ IlvMenuItem 1 2 4 "0"  } 
+{ IlvMenuItem 1 2 4 "1"  } 
+{ IlvMenuItem 1 2 4 "2"  } 
+{ IlvMenuItem 1 2 4 "3"  } 
+{ IlvMenuItem 1 2 4 "4"  } 
+{ IlvMenuItem 1 2 4 "5"  }  } 32 "BackgroundColorNumber"
+6144 "ForceColorState" "BackgroundState"
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 0 166 450 45 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ActiveSymbolProps"  }   } 0
+0
+1 { 13 P 2
+[ IlvToolTip __ilvToolTip 2 "&AnimationRateTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 134 137 70 22 F39 2 16 -1 0 "250 ms" 8
+{ IlvMenuItem 1 2 4 "250 ms"  } 
+{ IlvMenuItem 1 2 4 "500 ms"  } 
+{ IlvMenuItem 1 2 4 "750 ms"  } 
+{ IlvMenuItem 1 16 4 "    1 s"  } 
+{ IlvMenuItem 1 2 4 "    2 s"  } 
+{ IlvMenuItem 1 2 4 "    3 s"  } 
+{ IlvMenuItem 1 2 4 "    4 s"  } 
+{ IlvMenuItem 1 2 4 "    5 s"  }  } 32 "SymbolAnimationRate"
+6144 "SymbolAnimationDirectionArrows" "ForegroundColorNumber"
+1 { 14 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&AddTextBtnTT" 4 4 ]
+0 IlvButton 65 230 20 20 F15 1 { IlvMessageItem 262146 4 16 4 1 0 "astcbuild.png"  }   200 } 544 "AddTextBtn"
+1
+1 "__ilvCallback" "addText"
+6144 "RemoveTextBtn" "SymbolNumber"
+1 { 15 P 2
+[ IlvToolTip __ilvToolTip 2 "&RemoveTextBtnTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 65 255 20 20 F15 1 { IlvMessageItem 262146 4 16 4 1 0 "astcdel.png"  }   200 } 544 "RemoveTextBtn"
+1
+1 "__ilvCallback" "removeText"
+6144 "ClearTextBtn" "AddTextBtn"
+1 { 16 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ClearTextBtnTT" 4 4 ]
+0 IlvButton 65 280 20 20 F13 1 { IlvMessageItem 262146 4 16 4 1 0 "astcnew.png"  }   } 544 "ClearTextBtn"
+1
+1 "__ilvCallback" "clearText"
+6144 "TextsList" "RemoveTextBtn"
+1 { 17 P 2
+[ IlvToolTip __ilvToolTip 2 "&AddVal1BtnTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 65 357 20 20 F15 1 { IlvMessageItem 262146 4 16 4 1 0 "astcbuild.png"  }   200 } 544 "AddVal1Btn"
+1
+1 "__ilvCallback" "addVal1"
+6144 "RemoveVal1Btn" "TextPropsSelector"
+1 { 18 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&RemoveVal1BtnTT" 4 4 ]
+0 IlvButton 65 382 20 20 F15 1 { IlvMessageItem 262146 4 16 4 1 0 "astcdel.png"  }   200 } 544 "RemoveVal1Btn"
+1
+1 "__ilvCallback" "removeVal1"
+6144 "ClearVal1Btn" "AddVal1Btn"
+1 { 19 P 2
+[ IlvToolTip __ilvToolTip 2 "&ClearVal1BtnTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 65 407 20 20 F13 1 { IlvMessageItem 262146 4 16 4 1 0 "astcnew.png"  }   } 544 "ClearVal1Btn"
+1
+1 "__ilvCallback" "clearVal1"
+6144 "Val1List" "RemoveVal1Btn"
+1 { 20 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&AddVal2BtnTT" 4 4 ]
+0 IlvButton 315 357 20 20 F15 1 { IlvMessageItem 262146 4 16 4 1 0 "astcbuild.png"  }   200 } 544 "AddVal2Btn"
+1
+1 "__ilvCallback" "addVal2"
+6144 "RemoveVal2Btn" "Val1ActionSelector"
+1 { 21 P 2
+[ IlvToolTip __ilvToolTip 2 "&RemoveVal2BtnTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 315 382 20 20 F15 1 { IlvMessageItem 262146 4 16 4 1 0 "astcdel.png"  }   200 } 544 "RemoveVal2Btn"
+1
+1 "__ilvCallback" "removeVal2"
+6144 "ClearVal2Btn" "AddVal2Btn"
+1 { 22 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ClearVal2BtnTT" 4 4 ]
+0 IlvButton 315 407 20 20 F13 1 { IlvMessageItem 262146 4 16 4 1 0 "astcnew.png"  }   } 544 "ClearVal2Btn"
+1
+1 "__ilvCallback" "clearVal2"
+6144 "Val2List" "RemoveVal2Btn"
+1 { 23 P 2
+[ IlvToolTip __ilvToolTip 2 "&QuickSVG" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 1 500 60 23 F13 1 { IlvMessageItem 262147 4 2 4 "&SVG" 1 0 "icnudgeright.png"  }   } 544 "QuickSVG"
+1
+1 "__ilvCallback" "quickSVGCB"
+6144 "RemoveVal1Btn" "TextPropsSelector"
+1 { 24 P 2
+[ IlvToolTip __ilvToolTip 2 "&QuickPS" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 65 500 60 23 F13 1 { IlvMessageItem 262147 4 2 4 "&PS" 1 0 "icnudgeright.png"  }   } 544 "QuickPS"
+1
+1 "__ilvCallback" "quickPSCB"
+6144 "RemoveVal1Btn" "TextPropsSelector"
+34 { 25 P 2
+[ IlvToolTip __ilvToolTip 2 "&VisibilityTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 20 30 90 16 F1073741825 2 1 2 0 0 0 Y "&Visibility" } 32 "VisibilityState"
+10240 "BlinkState"
+34 { 26 P 2
+[ IlvToolTip __ilvToolTip 2 "&BackgroundColorNumTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 180 80 193 16 F1 2 1 2 0 0 0 Y "&BackgroundColorNum" } 544 "BackgroundState"
+1
+1 "__ilvCallback" "toggleBackgroundState"
+6144 "BackgroundColorNumber" "HighLightState"
+34 { 27 P 2
+[ IlvToolTip __ilvToolTip 2 "&AlarmTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 20 55 90 16 F1 2 1 2 0 0 0 Y "&Alarm" } 32 "AlarmState"
+6144 "ScaleState" "BlinkRate"
+34 { 28 P 2
+[ IlvToolTip __ilvToolTip 2 "&HighLightTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 20 80 90 16 F1 2 1 2 0 0 0 Y "&HighLight" } 32 "HighLightState"
+6144 "BackgroundState" "ScaleFactor"
+34 { 29 P 2
+[ IlvToolTip __ilvToolTip 2 "&BlinkingTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 180 30 193 16 F1 2 1 2 0 0 0 Y "&Blinking" } 544 "BlinkState"
+1
+1 "__ilvCallback" "toggleBlinkState"
+6144 "BlinkRate" "VisibilityState"
+34 { 30 P 2
+[ IlvToolTip __ilvToolTip 2 "&ScalingTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 180 55 193 16 F1 2 1 2 0 0 0 Y "&Scaling" } 544 "ScaleState"
+1
+1 "__ilvCallback" "toggleScaleState"
+6144 "ScaleFactor" "AlarmState"
+34 { 31 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 21 233 36 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Text"  }   } 0
+0
+34 { 32 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 21 356 42 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "V1"  }   } 0
+0
+34 { 33 P 2
+[ IlvToolTip __ilvToolTip 2 "&ForceColorTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 20 111 114 16 F1 2 1 2 0 0 0 Y "&ForceColor" } 544 "ForceColorState"
+1
+1 "__ilvCallback" "toggleForceColorState"
+6144 "ForceColor" "BackgroundColorNumber"
+34 { 34 P 2
+[ IlvToolTip __ilvToolTip 2 "&ForegroundColorNumTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 180 108 192 16 F1 2 1 2 0 0 0 Y "&ForegroundColorNum" } 544 "ForegroundState"
+1
+1 "__ilvCallback" "toggleForegroundState"
+6144 "ForegroundColorNumber" "ForceColor"
+34 { 35 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 110 9 155 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&NumberOfSelections"  }   } 0
+0
+34 { 36 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ValueTT" 4 4 ]
+2 IlvNumberField 274 9 60 22 F268435471 0 1 -1 0 "0" . , 2 8 -2147483648 2147483647 } 416 "NumberOfSelections"
+0
+34 { 37 P 2
+[ IlvToolTip __ilvToolTip 2 "&SymbolAnimationDirectionArrowsTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector -1 2
+0 IlvArrowButton 309 135 16 13 F13 1 { IlvMessageItem 262145 4 16 4 ""  }   4 0 
+0 IlvArrowButton 309 148 16 13 F13 1 { IlvMessageItem 262145 4 16 4 ""  }   8 0 
+ } 32 "SymbolAnimationDirectionArrows"
+6144 "SymbolActionSelector" "SymbolAnimationRate"
+34 { 38 P 2
+[ IlvToolTip __ilvToolTip 2 "&AnimationDirectionTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 244 137 50 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&AnimationDirection"  }   } 0
+0
+34 { 39 P 2
+[ IlvToolTip __ilvToolTip 2 "&TextsListTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 94 230 349 69 F67143800 2 A N 0 0 0 0 1 0 348 17 0 0 0 0 1 1 1 4 V0 2 348 
+17 
+34 
+51 
+68 
+0 1 L N 0 0 0 0 0  } 32 "TextsList"
+6144 "TextPropsSelector" "ClearTextBtn"
+34 { 40 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 22 137 89 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "Animation :"  }   } 0
+0
+34 { 41 P 2
+[ IlvToolTip __ilvToolTip 2 "&Val1ListTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 94 357 96 69 F67143800 2 A N 0 0 0 0 1 0 348 17 0 0 0 0 1 1 1 4 V0 2 95 
+17 
+34 
+51 
+68 
+0 1 L N 0 0 0 0 0  } 32 "Val1List"
+6144 "Val1ActionSelector" "ClearVal1Btn"
+34 { 42 P 2
+[ IlvToolTip __ilvToolTip 2 "&TextListCardTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 24 254 30 22 F335544327 2 16 -1 0 "1" . , 2 0 1 1000 } 416 "TextValuesCount"
+0
+34 { 43 P 2
+[ IlvToolTip __ilvToolTip 2 "&Val1CardTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 27 381 30 22 F335544327 2 16 -1 0 "1" . , 2 0 1 1000 } 416 "Val1Count"
+0
+34 { 44 P 2
+[ IlvToolTip __ilvToolTip 2 "&Val2ListTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 346 357 96 69 F67143800 2 A N 0 0 0 0 1 0 348 17 0 0 0 0 1 1 1 4 V0 2 95 
+17 
+34 
+51 
+68 
+0 1 L N 0 0 0 0 0  } 32 "Val2List"
+6144 "Val2ActionSelector" "ClearVal2Btn"
+34 { 45 P 2
+[ IlvToolTip __ilvToolTip 2 "&Val2CardTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 277 381 30 22 F335544327 2 16 -1 0 "1" . , 2 0 1 1000 } 416 "Val2Count"
+0
+34 { 46 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 271 356 42 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "V2"  }   } 0
+0
+34 { 47 P 2
+[ IlvToolTip __ilvToolTip 2 "&Val1ActionSelectorTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector -1 3
+0 IlvToggle 35 471 159 16 F1 2 1 2 1 0 0 Y "&Animate" 
+0 IlvToggle 35 429 159 16 F1 2 1 2 1 0 0 Y "&ForceValue" 
+0 IlvToggle 35 450 159 16 F1 2 1 2 1 0 0 Y "&ForceDefaultValue" 
+ } 544 "Val1ActionSelector"
+1
+1 "__ilvCallback" "toggleVal1Action"
+6144 "AddVal2Btn" "Val1List"
+34 { 48 P 2
+[ IlvToolTip __ilvToolTip 2 "&Val2ActionSelectorTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector -1 2
+0 IlvToggle 284 429 159 16 F1 2 1 2 1 0 0 Y "&ForceValue" 
+0 IlvToggle 284 450 159 16 F1 2 1 2 1 0 0 Y "&ForceDefaultValue" 
+ } 544 "Val2ActionSelector"
+1
+1 "__ilvCallback" "toggleVal2Action"
+6144 "Apply" "Val2List"
+34 { 49 P 2
+[ IlvToolTip __ilvToolTip 2 "&TextPropsSelectorTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector -1 3
+0 IlvToggle 20 311 97 16 F1 2 1 2 1 0 0 Y "&Animate" 
+0 IlvToggle 161 311 104 16 F1 2 1 2 1 0 0 Y "&ForceValue" 
+0 IlvToggle 297 311 145 16 F1 2 1 2 1 0 0 Y "&ForceDefaultValue" 
+ } 544 "TextPropsSelector"
+1
+1 "__ilvCallback" "setTextProps"
+6144 "AddVal1Btn" "TextsList"
+34 { 50 P 2
+[ IlvToolTip __ilvToolTip 2 "&SymbolActionSelectorTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector -1 2
+0 IlvToggle 20 184 114 16 F1 2 1 2 1 0 0 Y "&Animate" 
+0 IlvToggle 161 184 140 16 F1 2 1 2 1 0 0 Y "&SymbolNumber" 
+ } 544 "SymbolActionSelector"
+1
+1 "__ilvCallback" "toggleSymbolAction"
+6144 "SymbolNumber" "SymbolAnimationDirectionArrows"
+34 { 51 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 24 254 6 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "["  }   } 0
+0
+34 { 52 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 27 381 6 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "["  }   } 0
+0
+34 { 53 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 277 381 6 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "["  }   } 0
+0
+34 { 54 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 48 254 6 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "]"  }   } 0
+0
+34 { 55 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 51 381 6 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "]"  }   } 0
+0
+34 { 56 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 301 381 6 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "]"  }   } 0
+0
+Size 455 526
+GeometryHandlers
+6 100 0 86 0 86 0
+ 100 0 44 86 44 86
+ 100 0 44 130 44 130
+ 100 0 57 174 57 174
+ 100 0 87 231 87 231
+ 100 0 137 318 137 318
+23 3 0 0 0  450 0 450 7  0 0 5 5
+ 3 0 0 0  450 0 450 12  0 0 5 5
+ 3 0 0 20  0 0 90 25  0 0 20 1
+ 3 0 0 20  0 0 90 27  0 0 20 1
+ 3 0 0 20  0 0 90 28  0 0 20 1
+ 3 0 0 20  0 0 114 33  0 -4 -4 1
+ 3 134 0 134  0 0 36 6  0 0 4 2
+ 3 0 0 21  0 0 36 31  0 0 29 0
+ 3 0 0 21  0 0 42 32  0 0 23 0
+ 3 0 0 1  450 0 450 9  0 4 4 5
+ 3 0 0 1  450 0 450 8  0 0 4 5
+ 3 110 0 110  0 0 155 35  53 0 53 4
+ 3 274 0 274  0 0 60 36  121 0 121 5
+ 3 134 0 134  0 0 70 13  0 1 27 3
+ 3 0 0 94  96 0 96 41  0 0 41 3
+ 3 0 0 65  0 0 20 15  0 0 1 0
+ 3 0 0 65  0 0 20 16  0 0 1 0
+ 3 0 0 65  0 0 20 14  0 0 1 0
+ 3 0 0 35  0 0 159 47  0 0 37 3
+ 3 301 0 301  0 0 6 56  148 0 148 5
+ 3 352 0 352  0 0 100 0  0 0 3 5
+ 3 248 0 248  0 0 100 4  0 0 107 5
+ 3 144 0 144  0 0 100 1  0 0 211 5
+1 3 0 0 8  349 0 349 39  0 0 12 5
+0
+4 3 0 0 6  0 0 193 29  0 -15 -55 4
+ 3 0 0 6  0 0 193 30  0 -15 -55 4
+ 3 0 0 6  192 0 192 34  -54 -54 -54 4
+ 3 0 0 6  0 0 193 26  0 -15 -55 4
+8 3 0 0 40  0 0 42 46  0 0 142 5
+ 3 0 0 115  96 0 96 44  0 0 13 5
+ 3 0 0 84  0 0 20 20  0 0 120 5
+ 3 0 0 84  0 0 20 21  0 0 120 5
+ 3 0 0 84  0 0 20 22  0 0 120 5
+ 3 0 0 46  0 0 30 45  0 0 148 5
+ 3 0 0 53  0 0 159 48  0 0 12 5
+ 3 0 0 46  6 0 6 53  0 0 172 5
+7 3 0 0 58  0 0 70 2  0 0 9 5
+ 3 0 0 58  0 0 70 5  0 0 9 5
+ 3 0 0 58  0 0 70 11  0 0 9 5
+ 3 0 0 58  0 0 70 3  0 0 9 5
+ 3 0 -11 -74  50 0 50 38  0 4 161 5
+ 3 0 -9 -9  0 0 16 37  0 17 130 5
+ 3 0 -9 -20  70 0 70 10  0 0 87 5
+1 100 0 526 0 526 0
+17 3 0 0 30  0 0 16 25  480 0 480 0
+ 3 0 0 111  0 0 16 33  399 0 399 0
+ 3 0 0 80  0 0 16 28  430 0 430 0
+ 3 0 0 55  0 0 16 27  455 0 455 0
+ 3 0 0 30  0 0 16 29  0 0 480 0
+ 3 0 0 55  0 0 16 30  0 0 455 0
+ 3 0 0 80  0 0 16 26  0 0 430 0
+ 3 0 0 108  0 0 16 34  0 0 402 0
+ 3 0 0 25  0 0 22 2  0 0 479 0
+ 3 0 0 52  0 0 22 5  0 0 452 0
+ 3 0 0 77  0 0 22 11  0 0 427 0
+ 3 0 0 105  0 0 22 3  0 0 399 0
+ 3 0 0 9  0 0 22 35  0 0 495 0
+ 3 0 0 9  0 0 22 36  0 0 495 0
+ 3 0 0 181  0 0 22 10  323 0 323 0
+ 3 0 0 233  0 0 22 31  271 0 271 0
+ 3 0 0 356  0 0 22 32  148 0 148 0
+Layers 35
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="NodeUserFields" numAttributes="24" numInstances="0" numPeriod_MT="" numPeriod_ST="" period_MT="" period_ST="">
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef1" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef2" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf1" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="floatf2" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf1" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="intf2" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="lstrf1" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="lstrf2" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="strf1" replicated="0">
+<Scalar size="41" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="strf2" replicated="0">
+<Scalar size="41" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef1" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef2" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf1" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_floatf2" replicated="0">
+<Scalar size="4" valueType="FLOAT"/>
+<ScalarDefaultValue defaultValue="0.0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf1" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf2" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf3" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_lstrf1" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_intf4" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_lstrf2" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_strf1" replicated="0">
+<Scalar size="41" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_strf2" replicated="0">
+<Scalar size="41" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+</Class>

@@ -1,0 +1,115 @@
+//
+// Declaration of predefined ILOG Views Studio Plug-Ins
+//
+
+StudioPlugIn "guiapp" {
+    description	"GUI Application";
+    library	"smguiapp";
+}
+
+StudioPlugIn "guigen" {
+    description "GUI Generation";
+    library     "smguigen";
+}
+
+StudioPlugIn "grapher" {
+    description	"Grapher";
+    library	"smgrapher";
+}
+
+StudioPlugIn "protos" {
+    description	"Prototypes";
+    library	"smprotos";
+}
+
+StudioPlugIn "oldproto" {
+    description	"Prototypes Compatibility";
+    library	"smoldpro";
+}
+
+StudioPlugIn "dynactivex" {
+    description	"ActiveX Generation";
+    library	"ilvstdynact";
+}
+
+StudioPlugIn "activexadapter" {
+    description	"ActiveX Adapter";
+    library	"ilvstaxadapter";
+}
+
+// Charts Plug-Ins
+
+StudioPlugIn "ilvstcharts" {
+    description	"Charts";
+    library	"ilvstcharts";
+}
+
+StudioPlugIn "ilvstoldcharts31" {
+    description "Old Charts";
+    library     "ilvstoldcharts31";
+}
+
+// Appframe Plug-Ins
+StudioPlugIn "ilvstappframe" {
+    description "Appframe";
+    library     "ilvstappframe";
+}
+
+// Layout Plug-Ins
+
+StudioPlugIn "ilvstbus" {
+    description	"Bus layout";
+    library	"ilvstbus";
+}
+
+StudioPlugIn "ilvsthierarchical" {
+    description	"Hierarchical layout";
+    library	"ilvsthierarchical";
+}
+
+StudioPlugIn "ilvstorthlink" {
+    description	"Orthogonal Link layout";
+    library	"ilvstorthlink";
+}
+
+StudioPlugIn "ilvsttree" {
+    description	"Tree layout";
+    library	"ilvsttree";
+}
+
+StudioPlugIn "ilvstrandom" {
+    description	"Random layout";
+    library	"ilvstrandom";
+}
+
+// Data Access Plug-Ins
+
+StudioPlugIn "dbmdstud" {
+    description	"Data Access Gadgets";
+    library	"dbmdstud";
+}
+
+StudioPlugIn "dbmdsql" {
+    description	"Data Access SQL";
+    library	"dbmdsql";
+}
+
+StudioPlugIn "dbmdgrap" {
+    description	"Data Access Grapher";
+    library	"dbmdgrap";
+}
+
+StudioPlugIn "dbmdgant" {
+    description	"Data Access Gantt";
+    library	"dbmdgant";
+}
+
+StudioPlugIn "dbmdchart" {
+    description	"Data Access Charts";
+    library	"dbmdchart";
+}
+
+StudioPlugIn "dbmdchart30" {
+    description	"Data Access Old Charts";
+    library	"dbmdchart30";
+}

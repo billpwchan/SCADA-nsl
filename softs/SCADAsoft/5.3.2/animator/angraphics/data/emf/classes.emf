@@ -1,0 +1,132 @@
+## -------------------------------------------------------------- -*- MSG -*-
+##     SYSECA                                 Animator
+##                                            [TOOLS]
+## --------------------------------------------------------------------------
+## The information contained in this document is proprietary to Animator's
+##   group of SYSECA and shall not be disclosed by the recipent to third
+##             persons without the written consent of SYSECA
+## --------------------------------------------------------------------------
+##         file: kernel.msg
+##  description: ANIMATOR error message file 
+##     creation: 1997/04/24
+##       author: olivier
+## --------------------------------------------------------------------------
+## $Id: 
+##
+## $Log: 
+##
+## --------------------------------------------------------------------------
+COMPONENT=Classes,Cls
+
+ClassNotFound(const char*) {
+  english="The class '%s' doesn't exist."
+  french="La classe '%s' n'existe pas."
+}
+
+BadClassFamily(const char*) {
+  english="The class family '%s' doesn't exist."
+  french="La famille de classe '%s' n'existe pas."
+}
+
+ClassAlreadyExists(const char*) {
+  english="The class '%s' already exists."
+  french="La classe '%s' existe deja."
+}
+
+ClassFamilyAlreadyExists(const char*) {
+  english="The class family '%s' already exists."
+  french="La famille de classe '%s' existe deja."
+}
+
+ModelNotFound(const char*) {
+  english="The model '%s' doesn't exist."
+  french="Le modele '%s' n'existe pas."
+}
+
+BadModelFamily(const char*) {
+  english="The model family '%s' doesn't exist."
+  french="La famille de modele '%s' n'existe pas."
+}
+
+ModelAlreadyExists(const char*) {
+  english="The model '%s' already exists."
+  french="Le modele '%s' existe deja."
+}
+
+ModelFamilyAlreadyExists(const char*) {
+  english="The model family '%s' already exists."
+  french="La famille de modele '%s' existe deja."
+}
+
+SymbolNotFound(const char*) {
+  english="The symbol '%s' doesn't exist."
+  french="Le symbole '%s' n'existe pas."
+}
+
+SymbolAlreadyExists(const char*) {
+  english="The symbol '%s' already exists."
+  french="Le symbole '%s' existe deja."
+}
+
+LayerNotFound(const char*) {
+  english="The layer named '%s' is not available."
+  french="Le calque nomme '%s' n'est pas disponible."
+}
+
+LayerUsed(const char*) {
+  english="The layer named '%s' already exists."
+  french="Le calque nomme '%s' existe deja."
+}
+
+MultiLayer(const char*) {
+  english="The user class '%s' is multi-layer."
+  french="La classe utilisateur '%s' est multi-calque."
+}
+
+UserClassFailed(const char*) {
+  english="The user class '%s' canno't be instanciated."
+  french="La classe utilisateur '%s' ne peut etre instanciee."
+}
+
+BadColorNumber(size_t, const char*)
+{
+  english="Bad color number : %d for class '%s'"
+  french="Numero de couleur incorrect (%d) pour la classe '%s'"
+}
+
+BadSymbolNumber(size_t, const char*)
+{
+  english="Bad symbol number : %d for class '%s'"
+  french="Numero de symbole incorrect (%d) pour la classe '%s'"
+}
+
+NoWorkSpace(const char*)
+{
+  english="The model '%s' does not belong to a workspace."
+  french="Le modele '%s' n'a pas de base."
+}
+
+InvalidGraphic()
+{
+  english="The graphic element is not valid."
+  french="L'objet graphique est invalide."
+}
+
+BadLineStyleNumber(size_t, const char*)
+{
+  english="Bad line style number : %d for class '%s'"
+  french="Numero de style de ligne incorrect (%d) pour la classe '%s'"
+}
+
+ChangeDefaultColorNumber(size_t, const char*, size_t)
+{
+  english="Default color (%d) for class '%s' is incorrect and will be set to %d"
+  french="La couleur par defaut (%d) pour la classe '%s' est incorrecte et sera positionnee sur %d"
+}
+
+ChangeDefaultLineStyleNumber(size_t, const char*, size_t)
+{
+  english="Default line style (%d) for class '%s' is incorrect and will be set to %d"
+  french="Le style de ligne par defaut (%d) pour la classe '%s' est incorrect et sera positionne sur %d"
+}
+

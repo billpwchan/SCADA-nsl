@@ -1,0 +1,178 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:23:08 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcledtbackd"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcledtbackd.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 20
+1 { 0 P 2
+[ IlvAttachments _IlvAttachments 368  1 0 1 0 1 0 2 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMenuBar 0 0 311 29 F268435750 2 V0 2 2
+{ IlvMenuItem 67108865 1 4 "&menu_file"  0 IlvPopupMenu 0 28 120 167 F166 2 V0 2 10
+{ IlvMenuItem 33554435 2 4 "&mnew" 1 0 "astnew2.png"  "mnewCB" } 
+{ IlvMenuItem 33554435 2 4 "&menu_open..." 1 0 "astopen2.png"  "mopenCB" } 
+{ IlvMenuItem 33554435 2 4 "&menu_save" 1 0 "astsave2.png"  "msaveCB" } 
+{ IlvMenuItem 33554435 2 4 "&saveAs" 1 0 "astsaveas.png"  "msaveasCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554435 2 4 "&showpanelWorkSpace" 1 0 "ws2.png"  "workspaceCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554435 2 4 "&showpanelErrors" 1 0 "error.png"  "errorsCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554435 2 4 "&quit" 1 0 "icquit.png"  "cancelECB" }  22   } 
+{ IlvMenuItem 33554433 2 4 "&menu_help"  "HelpCB" }  0 } 32 "Menu"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 66 148 244 F268435468 0 { IlvMessageItem 262169 4 16 4 "&colorrep"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 13 119 130 184 F34906 2 A N 0 0 0 0 1 0 125 32 0 1 0 0 1 1 1 1 V0 2 125 
+0 0 N 0 0 0 0 0  } 544 "MatrixColor"
+1
+1 "__ilvCallback" "matrixColorCB"
+0
+1 { 3 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&resetrep" 4 4 ]
+0 IlvButton 14 91 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcnew.png"  }   } 544 "ResetColor"
+1
+1 "__ilvCallback" "resetColorCB"
+0
+1 { 4 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&deleterep" 4 4 ]
+0 IlvButton 77 91 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcdel.png"  }   } 544 "RemoveColor"
+1
+1 "__ilvCallback" "removeColorCB"
+0
+1 { 5 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&colordef" 4 4 ]
+0 IlvButton 110 91 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcdefault.png"  }   } 544 "DefaultColor"
+1
+1 "__ilvCallback" "defaultColorCB"
+0
+1 { 6 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ImportPortableFormatTip" 4 4 ]
+0 IlvButton 43 35 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astopen.png"  }   } 544 "Open"
+1
+1 "__ilvCallback" "mopenCB"
+4096 "SymbolList"
+1 { 7 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ExportPortableFormatTip" 4 4 ]
+0 IlvButton 81 35 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astsave.png"  }   } 544 "Save"
+1
+1 "__ilvCallback" "msaveCB"
+0
+1 { 8 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&QuitTip" 4 4 ]
+0 IlvButton 277 35 30 30 F268435469 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "ivicn6.png"  }   } 512
+1
+1 "__ilvCallback" "cancelECB"
+0
+1 { 9 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&DesignateTip" 4 4 ]
+0 IlvButton 119 35 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astdesignate.png"  }   } 544 "Designate"
+1
+1 "__ilvCallback" "designateCB"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 5 316 301 22 F7 2 1 -1 0 "" } 32 "Message"
+0
+1 { 11 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&NewTip" 4 4 ]
+0 IlvButton 5 35 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astnew.png"  }   } 544 "New"
+1
+1 "__ilvCallback" "mnewCB"
+0
+1 { 12 P 2
+[ IlvToolTip __ilvToolTip 2 "&addrep" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 45 91 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astres2.png"  }   } 544 "addColor"
+1
+1 "__ilvCallback" "addColorCB"
+0
+1 { 13 1 IlvReliefLine 0 28 311 28 1 } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 159 66 148 243 F268435468 0 { IlvMessageItem 262169 4 16 4 "&linestylerep"  }   } 0
+0
+1 { 15 P 2
+[ IlvToolTip __ilvToolTip 2 "&resetrep" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 169 91 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcnew.png"  }   } 544 "resetLineStyle"
+1
+1 "__ilvCallback" "resetLineStyleCB"
+0
+1 { 16 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&deleterep" 4 4 ]
+0 IlvButton 231 91 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcdel.png"  }   } 544 "RemoveLineStyle"
+1
+1 "__ilvCallback" "removeLineStyleCB"
+0
+1 { 17 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&colordef" 4 4 ]
+0 IlvButton 262 91 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcdefault.png"  }   } 544 "defaultLineStyle"
+1
+1 "__ilvCallback" "defaultLineStyleCB"
+0
+1 { 18 P 2
+[ IlvToolTip __ilvToolTip 2 "&addrep" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 200 91 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astres2.png"  }   } 512
+1
+1 "__ilvCallback" "addLineStyleCB"
+0
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 168 119 130 184 F34906 2 A N 0 0 0 0 1 0 125 32 0 1 0 0 1 1 1 1 V0 2 125 
+0 0 N 0 0 0 0 0  } 544 "MatrixLineStyle"
+1
+1 "__ilvCallback" "matrixLineStyleCB"
+0
+Size 311 343
+GeometryHandlers
+2 50 155 155 0 155 0
+ 50 155 156 155 156 155
+5 3 0 0 0  311 0 311 13  0 0 0 1
+ 3 277 0 277  0 0 30 8  0 0 4 1
+ 3 0 0 5  301 0 301 10  0 0 5 1
+ 3 0 0 13  130 0 130 2  0 0 12 0
+ 3 0 0 5  148 0 148 1  0 0 2 0
+6 3 0 0 14  0 0 23 15  119 0 119 1
+ 3 0 0 45  0 0 23 18  88 0 88 1
+ 3 0 0 76  0 0 23 16  57 0 57 1
+ 3 0 0 107  0 0 23 17  26 0 26 1
+ 3 0 0 4  148 0 148 14  0 0 4 1
+ 3 0 0 13  130 0 130 19  0 0 13 1
+3 0 73 73 0 73 0
+ 100 0 234 73 234 73
+ 0 0 36 307 36 307
+12 3 0 0 91  0 0 23 5  0 0 229 2
+ 3 0 0 91  0 0 23 4  229 0 229 2
+ 3 0 0 91  0 0 23 3  229 0 229 2
+ 3 316 0 316  0 0 22 10  0 0 5 2
+ 3 0 0 119  184 0 184 2  0 0 40 2
+ 3 0 0 66  244 0 244 1  0 0 33 2
+ 3 0 0 66  243 0 243 14  0 0 34 2
+ 3 0 0 91  0 0 23 15  229 0 229 2
+ 3 0 0 91  0 0 23 18  229 0 229 2
+ 3 0 0 91  0 0 23 16  229 0 229 2
+ 3 0 0 91  0 0 23 17  229 0 229 2
+ 3 0 0 119  184 0 184 19  0 0 40 2
+0
+0
+EOF

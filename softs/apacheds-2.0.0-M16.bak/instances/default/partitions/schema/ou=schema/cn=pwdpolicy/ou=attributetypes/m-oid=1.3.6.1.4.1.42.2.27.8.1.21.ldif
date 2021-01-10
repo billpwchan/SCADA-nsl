@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.8.1.21,ou=attributeTypes,cn=pwdpolicy,ou=schema
+m-usage: directoryOperation
+m-length: 0
+m-oid: 1.3.6.1.4.1.42.2.27.8.1.21
+m-name: pwdGraceUseTime
+m-description: The timestamps of the grace authentication after the password has
+  expired
+m-equality: generalizedTimeMatch
+entryParentId: dc6c9a44-db1d-4855-8018-e052b5ffe61f
+createTimestamp: 20140513151220.223Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.24
+m-nousermodification: TRUE
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+entryUUID: cd7e77dc-eb24-4e7d-82f9-4f9d7ffa789d
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.942000Z#00001a#000#000000

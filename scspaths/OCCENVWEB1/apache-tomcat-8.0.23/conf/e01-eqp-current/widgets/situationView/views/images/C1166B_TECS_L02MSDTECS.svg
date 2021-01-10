@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="2037" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 3989 2037" width="3989">
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <polyline class="AnPolyline" fill="none" points="1980,201 3783,201 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1980,582 3783,582 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="792,102 792,2006 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1207,99 1207,2003 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1004,102 1004,2006 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1422,99 1422,2003 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1636,99 1636,2003 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="229,200 1937,200 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="229,957 1937,957 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="229,304 1937,304 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="228,101 1937,101 1937,2006 228,2006 228,101 " stroke="#000000" stroke-width="2px" />
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="2493,103 2493,1660 " stroke="#000000" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="2982,100 2982,1657 " stroke="#000000" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="2735,103 2735,1660 " stroke="#000000" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="3223,100 3223,1657 " stroke="#000000" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="3477,100 3477,1657 " stroke="#000000" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1979,102 3783,102 3783,1660 1979,1660 1979,102 " stroke="#000000" stroke-width="2px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <rect class="AnRectangle" fill="#218A21" fill-rule="evenodd" height="50px" width="50px" x="2008px" y="1787px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="50px" stroke="#000000" stroke-width="2px" width="50px" x="2008px" y="1787px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <rect class="AnRectangle" fill="#FFFF00" fill-rule="evenodd" height="50px" width="50px" x="2008px" y="1861px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="50px" stroke="#000000" stroke-width="2px" width="50px" x="2008px" y="1862px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <rect class="AnRectangle" fill="#FF0000" fill-rule="evenodd" height="50px" width="50px" x="2009px" y="1931px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="50px" stroke="#000000" stroke-width="2px" width="50px" x="2009px" y="1931px" />
+
+    
+    </g>
+
+    
+    <polyline class="AnPolyline" fill="none" points="1981,1688 2492,1688 2492,2006 1981,2006 1981,1688 " stroke="#000000" stroke-width="2px" />
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2004.300049,1707.300049)" x="0px" y="12px">Legend for Mode:</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2087.300049,1785.300049)" x="0px" y="12px">On</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2087.300049,1859.300049)" x="0px" y="12px">Off</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2087.300049,1929.300049)" x="0px" y="12px">Failed</text>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement">
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,224.300003)" x="0px" y="12px">1. Normal Mode N1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,328.299988)" x="0px" y="12px">2. Congestion Mode C1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,406.299988)" x="0px" y="12px">3. Congestion Mode C2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,486.299988)" x="0px" y="12px">4. Congestion Mode C3</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,564.299988)" x="0px" y="12px">5. Congestion Mode C4</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,643.299988)" x="0px" y="12px">6. Congestion Mode C5</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,721.299988)" x="0px" y="12px">7. Congestion Mode C6</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,800.299988)" x="0px" y="12px">8. Congestion Mode C7</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,879.299988)" x="0px" y="12px">9. Congestion Mode C8</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,983.299988)" x="0px" y="12px">10. Emergency Mode F1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,484.299988)" x="0px" y="12px">25. Backup Mode</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1062.300049)" x="0px" y="12px">11. Emergency Mode F2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1141.300049)" x="0px" y="12px">12. Emergency Mode F3</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1219.300049)" x="0px" y="12px">13. Emergency Mode F4</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1298.300049)" x="0px" y="12px">14. Emergency Mode F5</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1376.300049)" x="0px" y="12px">15. Emergency Mode F6</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1455.300049)" x="0px" y="12px">16. Emergency Mode F7</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1534.300049)" x="0px" y="12px">17. Emergency Mode F7X</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1613.300049)" x="0px" y="12px">18. Emergency Mode F8</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1691.300049)" x="0px" y="12px">19. Emergency Mode F9</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1770.300049)" x="0px" y="12px">20. Emergency Mode F10</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1849.300049)" x="0px" y="12px">21. Emergency Mode F11</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,254.300003,1927.300049)" x="0px" y="12px">22. Emergency Mode F12</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,848.299988,124.300003)" x="0px" y="12px">SSV </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1060.300049,124.300003)" x="0px" y="12px">CTV </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1266.300049,124.300003)" x="0px" y="12px">LMC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1479.300049,124.300003)" x="0px" y="12px">Calc.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1670.300049,124.300003)" x="0px" y="12px">Discrepancy</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2563.300049,124.300003)" x="0px" y="12px">SSV </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2812.300049,124.300003)" x="0px" y="12px">CTV </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,3050.300049,124.300003)" x="0px" y="12px">LMC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,3305.300049,124.300003)" x="0px" y="12px">Calc.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,3508.300049,124.300003)" x="0px" y="12px">Discrepancy</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,1545.300049)" x="0px" y="12px">34. POT #2 </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2066.300049,1593.300049)" x="0px" y="12px">Enabled / Disabled</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,219.300003)" x="0px" y="12px">23. Mode Failure </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2065.300049,265.299988)" x="0px" y="12px">Location at SSV</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,954.299988)" x="0px" y="12px">29. CTV LCP Local </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2065.300049,1000.299988)" x="0px" y="12px">/ Remote</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,342.299988)" x="0px" y="12px">24. Mode Failure </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2065.300049,388.299988)" x="0px" y="12px">Location at CTV</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,599.299988)" x="0px" y="12px">26. ILCP Local / Remote</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2065.300049,645.299988)" x="0px" y="12px">/ Remote</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,715.299988)" x="0px" y="12px">27. LMC MLCP Local </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2065.300049,761.299988)" x="0px" y="12px">/ Remote</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,835.299988)" x="0px" y="12px">28. SSV LCP Local </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2065.300049,881.299988)" x="0px" y="12px">/ Remote</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,1073.300049)" x="0px" y="12px">30. Main Terminal LMC </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2065.300049,1119.300049)" x="0px" y="12px">Enabled / Disabled</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,1196.300049)" x="0px" y="12px">31. Main Terminal CTV </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2065.300049,1242.300049)" x="0px" y="12px">Enabled / Disabled</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,1312.300049)" x="0px" y="12px">32. Main Terminal IECC </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2065.300049,1358.300049)" x="0px" y="12px">Enabled / Disabled</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1997.300049,1428.300049)" x="0px" y="12px">33. POT #1 </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,2065.300049,1474.300049)" x="0px" y="12px">Enabled / Disabled</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.320000,0.000000,0.000000,4.320000,228.160004,23.959999)" x="0px" y="12px">LMC MCS All Multiple Sourced Data</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.320000,0.000000,0.000000,4.320000,1979.160034,23.959999)" x="0px" y="12px">LMC MCS All Multiple Sourced Data</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1227.300049,561.299988)" x="0px" y="12px">No input </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1270.300049,612.299988)" x="0px" y="12px">from</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1270.300049,663.299988)" x="0px" y="12px">LMC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1227.300049,1433.300049)" x="0px" y="12px">No input </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1270.300049,1484.300049)" x="0px" y="12px">from</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,1270.300049,1535.300049)" x="0px" y="12px">LMC</text>
+
+  
+  </g>
+
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_ECT_TESS_graphic">
+        <root>
+            <svgGroup id="C1166B_ECT_TESS_TESS_Symbol_Alarm_TESS_Symbol_Alarm_Blink_TESS_Symbol_Normal_TESS_Symbol_Undefined_TESS_Symbol_Normal_Blink">
+                <svgRef brickId="TESS_Symbol_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_TESS_TESS_State_MO_TESS_State_Invalid_TESS_State_Selected_TESS_State_Empty_TESS_State_Selected_MO">
+                <svgRef brickId="TESS_State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

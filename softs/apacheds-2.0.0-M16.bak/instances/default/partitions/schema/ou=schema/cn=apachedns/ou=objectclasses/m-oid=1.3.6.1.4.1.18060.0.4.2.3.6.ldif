@@ -1,0 +1,15 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.2.3.6,ou=objectClasses,cn=apachedns,ou=schema
+m-supobjectclass: apacheDnsAbstractRecord
+m-must: apacheDnsDomainName
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+m-oid: 1.3.6.1.4.1.18060.0.4.2.3.6
+m-name: apacheDnsCanonicalNameRecord
+m-description: A canonical name CNAME record
+entryParentId: 369e9d04-3636-4609-8879-68bb26ae194c
+entryUUID: 8010f569-37a1-4e6a-9ade-89d3a494f091
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.410Z
+entryCSN: 20140513151214.645000Z#000008#000#000000

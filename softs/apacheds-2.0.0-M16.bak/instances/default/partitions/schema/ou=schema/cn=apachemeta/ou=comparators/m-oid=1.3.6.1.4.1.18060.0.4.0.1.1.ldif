@@ -1,0 +1,13 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.1.1,ou=comparators,cn=apachemeta,ou=schema
+objectclass: metaComparator
+objectclass: metaTop
+objectclass: top
+m-fqcn: org.apache.directory.api.ldap.model.schema.comparators.ObjectClassTypeCo
+ mparator
+m-oid: 1.3.6.1.4.1.18060.0.4.0.1.1
+entryParentId: 2c32f3f4-ec42-4ba3-b49e-3b8987cf71d5
+entryUUID: 18134b37-177e-4e6e-8137-d46afe28798c
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.066Z
+entryCSN: 20140513151214.661000Z#000020#000#000000

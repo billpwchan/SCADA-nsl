@@ -1,0 +1,55 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:30:17 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astiasksave"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astiasksave.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 6
+2 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+0 IlvButton 225 59 70 23 F13 2 { IlvMessageItem 262145 4 16 4 "&cancel"  }   } 544 "cancel"
+1
+1 "__ilvCallback" "cancelButton"
+2048 "yes"
+2 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+0 IlvButton 120 59 70 23 F13 2 { IlvMessageItem 262145 4 16 4 "&No"  }   } 544 "no"
+1
+1 "__ilvCallback" "noButton"
+0
+2 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+0 IlvButton 10 59 70 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Yes"  }   } 544 "yes"
+1
+1 "__ilvCallback" "yesButton"
+4096 "cancel"
+3 { 3 1 IlvReliefLine 1 49 307 49 1 } 32 "line"
+0
+3 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 31 8 270 28 F268435468 0 { IlvMessageItem 262145 4 16 4 "&SaveED"  }   } 32 "Message"
+0
+3 { 5 1 IlvTransparentIcon 3 5 "astquestion.png" "" } 0
+0
+Size 306 97
+GeometryHandlers
+1 100 277 306 0 306 0
+5 3 10 0 10  0 0 70 2  226 0 226 0
+ 3 120 0 120  0 0 70 1  116 0 116 0
+ 3 225 0 225  0 0 70 0  11 10 11 0
+ 3 0 0 1  306 0 306 3  0 -1 -1 0
+ 3 0 0 31  270 0 270 4  0 0 5 0
+1 100 93 97 0 97 0
+5 3 48 0 48  0 0 2 3  0 0 47 0
+ 3 59 0 59  0 0 23 2  0 0 15 0
+ 3 59 0 59  0 0 23 1  0 0 15 0
+ 3 59 0 59  0 0 23 0  0 0 15 0
+ 3 0 0 8  28 0 28 4  0 0 61 0
+Layers 4
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

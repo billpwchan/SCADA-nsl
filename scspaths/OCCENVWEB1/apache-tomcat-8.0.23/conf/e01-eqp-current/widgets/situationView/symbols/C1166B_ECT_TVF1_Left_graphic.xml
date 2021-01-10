@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_ECT_TVF1_Left_graphic">
+        <root>
+            <svgGroup id="C1166B_ECT_TVF1_Left_TVF1_L_Decor_Trip_TVF1_L_Decor_PTW_TVF1_L_Decor_Empty_TVF1_L_Decor_NotInService_TVF1_L_Decor_MO">
+                <svgRef brickId="TVF1_L_Decor_Empty" id="tag2.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_TVF1_Left_TVF1_L_State_Selected_MO_TVF1_L_State_Invalid_TVF1_L_State_Empty_TVF1_L_State_Selected_TVF1_L_State_MO">
+                <svgRef brickId="TVF1_L_State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_TVF1_Left_TVF1_L_Symbol_Undefined_TVF1_L_Symbol_On_TVF1_L_Symbol_Alarm_TVF1_L_Symbol_Alarm_Blink_TVF1_L_Symbol_On_Blink">
+                <svgRef brickId="TVF1_L_Symbol_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

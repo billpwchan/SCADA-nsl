@@ -1,0 +1,12 @@
+version: 1
+dn: cn=krb5kdc,ou=schema
+m-dependencies: system
+m-dependencies: core
+objectclass: metaSchema
+objectclass: top
+cn: krb5kdc
+entryParentId: 55e0eb77-3053-4771-b486-0562162fc99e
+entryUUID: 0c7c1fdf-ece2-450a-934b-bd5f29059a32
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151219.863Z
+entryCSN: 20140513151214.348000Z#00000d#000#000000

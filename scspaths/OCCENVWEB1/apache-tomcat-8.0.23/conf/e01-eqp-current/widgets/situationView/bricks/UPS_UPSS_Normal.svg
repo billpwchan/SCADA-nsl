@@ -1,0 +1,12 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="UPS_UPSS_Normal"><g id="_C1166B_SYMBOLS_UPS_C1166B_UPS_UPSS_1_NORMAL_SVG" transform="translate(-99.0 -99.0)scale(1.0 1.0)"><rect x="50.0" fill="red" width="100.0" height="54.0" y="73.0" opacity="0"/><g id="UPS/C1166B_UPS_UPSS_1_Normal" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <rect x="-50px" y="-27px" fill="#0000FF" width="100px" fill-rule="evenodd" class="AnRectangle" height="50px"/>
+
+  
+  <text x="0px" font-size="12" y="12px" transform="matrix(3.029770,0.000000,0.000000,3.169930,-38.000000,-24.150900)" text-decoration="none" fill="#FFFFFF" font-family="Arial" class="AnText" font-style="normal" font-weight="normal">UPS</text>
+
+  
+  <rect x="-50px" y="-27px" fill="none" width="100px" class="AnRectangle" height="50px" stroke="#000000" stroke-width="2px"/>
+
+</g></g></g></svg>

@@ -1,0 +1,33 @@
+// Ilv Version: 2.3
+// File generated: Wed Nov 13 11:16:02 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+0 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 2 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+1 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 17
+2 { 0 0 IlvButton 5 264 60 23 F1 2 16 Y "&apply" } 0 148 "apply" 1 5 1 5
+2 { 1 1 IlvTextField 91 5 122 22 F6 2 1 -1 0 "0" } 32 "label" 336 1 91 1 5 2
+2 { 2 1 IlvFileSelectorField 91 37 122 22 F6 2 1 -1 0 "0" } 32 "bitmap" 336 1 91 1 5 2
+2 { 3 1 IlvOptionMenu 91 68 122 20 2 2 1
+"&left"
+"&right" } 32 "position" 340 "PrintType" 1 91 1 5 2
+2 { 4 1 IlvTextField 91 99 122 22 F6 2 1 -1 0 "0" } 96 "size" "TextField" 340 "PrintType" 1 91 1 5 2
+2 { 5 1 IlvToggle 10 193 83 17 F5 2 1 2 0 0 0 Y "&state" } 32 "state" 20 "PrintType" 1 10
+2 { 6 0 IlvButton 153 264 60 23 F1 2 16 Y "&close" } 0 196 "cancel" 1 5 1 5
+2 { 7 1 IlvOptionMenu 91 130 122 20 2 2 0
+"&radio"
+"&checkbox" } 32 "type" 340 "setShape" 1 91 1 5 2
+2 { 8 1 IlvOptionMenu 91 161 122 20 2 3 2
+"&left"
+"&right"
+"&center" } 32 "text position" 336 1 91 1 5 2
+2 { 9 1 IlvMessageLabel 10 161 76 23 0 "&alignment" 1 } 0 16 1 10
+3 { 10 2 IlvReliefLine 0 256 218 256 1 } 32 "line" 464 1 0 1 0 1 35 2
+3 { 11 1 IlvMessageLabel 10 5 71 23 0 "&label" 1 } 0 48 1 10 1 5
+3 { 12 1 IlvMessageLabel 10 37 70 23 0 "&bitmap" 1 } 0 16 1 10
+3 { 13 1 IlvMessageLabel 10 68 73 23 0 "&position" 1 } 0 16 1 10
+3 { 14 1 IlvMessageLabel 10 99 73 23 0 "&size" 1 } 0 16 1 10
+3 { 15 1 IlvMessageLabel 10 130 72 23 0 "&shape" 1 } 0 16 1 10
+3 { 16 1 IlvToggle 10 217 196 17 F1 2 1 2 0 0 0 Y "&indeterminateMode" } 32 "indeterminate" 20 "SetIndeterminate" 1 10
+Size 218 292

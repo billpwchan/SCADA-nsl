@@ -1,0 +1,15 @@
+// ILOG Views Studio Options for Windows platforms
+
+studio {
+
+    messageDB			"ivstudio/windows/studio.dbm";
+    panelFile			"ivstudio/windows/studio.pnl";
+
+    command WindowsXPLook {
+    	label "&wxplook";
+	prompt "&wxplookPrompt";
+    	category studio;
+    	category look;
+    	selector look;
+    }
+}

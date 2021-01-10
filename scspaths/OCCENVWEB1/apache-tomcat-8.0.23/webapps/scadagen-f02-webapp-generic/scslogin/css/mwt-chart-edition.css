@@ -1,0 +1,84 @@
+/************************************************/
+/*      chart edition components                */
+/************************************************/
+
+/* graph configuration panel */
+.graphConfiguration {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-grow: 1;
+  margin: 8px 8px;
+}
+.graphConfiguration-graphRepConfigContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.graphConfiguration-graphRepConfigLabel {
+/*   font-family: "Roboto-regular"; */
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.graphConfiguration-timeConfigContainer {
+  color: #FFFFFF;
+  width: 470px;
+}
+.graphConfiguration-timeConfigLabel {
+/*   font-family: "Roboto-regular"; */
+  font-size: 15px;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+/*************************************/
+
+/* graphConfiguration panel */
+.kpiConf {
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background: #232323;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+.kpiConf-grid {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.kpiConf-grid table {
+  border-spacing: 0px 2px;
+}
+
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.kpiConf-grid table {
+  border-spacing: 0px 2px;
+}
+
+.graphConfiguration-panel {
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background: #232323;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+.graphConfiguration-grid {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.graphConfiguration-grid table {
+  border-spacing: 0px 2px;
+}

@@ -1,0 +1,12 @@
+studio {
+    dragDropPalette "ScsCharts" {
+        dataFileName "trdstudio/p_trends.ilv";
+        label "SCS trends";
+        bitmap "trdstudio/global.png";
+        path "ScadaSoft";
+    }
+
+    panelFile       "trdstudio/trdstudio.pnl";
+    commandFile     "trdstudio/trdstudio.cmd";
+    messageDB       "trdstudio/trdstudio.dbm";
+}

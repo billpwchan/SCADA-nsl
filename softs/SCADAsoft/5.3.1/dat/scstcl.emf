@@ -1,0 +1,152 @@
+
+COMPONENT=ScsTcl,ScsTcl
+
+Init() {
+   english="Tcl Initialization"
+   french="Initialisation du serveur Tcl"
+}
+ 
+EvalCommand(char *) {
+   english="Error during eval cmd '%s'"
+   french="Erreur pendant la commande eval '%s'"
+}
+
+EnvVariableNotFound(const char *) {
+   english="Environment variable %s not found"
+   french="Variable d'environnement %s introuvable"
+}
+
+BadParameterCount(char *) {
+   english="Bad parameter count in %s"
+   french="Nombre d'arguments erroné dans %s"
+}
+
+InvalidCallbackName() {
+   english="Invalid callback name"
+   french="Nom de la callback invalide"
+}
+
+Exception() {
+   english="Exception occured"
+   french="Exception reçue"
+}
+
+CorbaExceptionPNE(int, char *, char *) {
+   english="Corba exception occured during processNextEvent (minor %d, op %s, int %s)"
+   french="Exception Corba reçue durant processNextEvent (minor %d, op %s, int %s)"
+}
+
+CorbaExceptionisEv(int, char *, char *) {
+   english="Corba exception occured during isEventPending (minor %d, op %s, int %s)"
+   french="Exception Corba reçue durant isEventPending (minor %d, op %s, int %s)"
+}
+
+ExceptionPNE(char *, char *) {
+   english="Exception occured (op %s, int %s)"
+   french="Exception reçue (op %s, int %s)"
+}
+
+ExceptionisEv(char *, char *) {
+   english="Corba exception occured (op %s, int %s)"
+   french="Exception reçue (op %s, int %s)"
+}
+
+NullServer() {
+   english="NULL pointer returned for server"
+   french="Pointeur NULL sur création de serveur"
+}
+
+MaxServerReached() {
+   english="Max server count reached"
+   french="Nombre max de serveur atteint"
+}
+
+MaxGroupReached(char * ) {
+   english="Max group count reached for the %s server"
+   french="Nombre max de groupe atteint pour le serveur %s"
+}
+
+GroupAlreadySubscribe(char *, char *) {
+   english="Group %s already subscribe for  %s server"
+   french="Groupe %s déja existant pour le serveur %s"
+}
+
+GroupUnknown(char *, char *) {
+   english="Group %s unknown for %s server"
+   french="Groupe %s inconnu pour le serveur %s"
+}
+
+GroupUnknownCb(char *) {
+   english="Group %s unknown in change state callback"
+   french="Groupe %s inconnu dans la callback de changement d'état"
+}
+
+ServerNotAvailable(const char *, const char *) {
+   english="Server %s not available at %s"
+   french="Serveur %s non disponible sur %s"
+}
+
+InvalidEnv(const char *) {
+   english="Invalid environment name %s"
+   french="Nom d'environnement invalide %s"
+}
+
+InvalidServerName(const char *) {
+   english="Invalid server name%s"
+   french="Nom de serveur invalide %s"
+}
+
+InvalidOnErrorType(int) {
+   english="Invalid OnErrorType parameter %d"
+   french="Paramètre OnErrorType invalide %d"
+}
+
+InvalidCommandType(int) {
+   english="Invalid command type %d"
+   french="Type de commande invalide %d"
+}
+
+InvalidByPassMode(int) {
+   english="Invalid by-pass mode %d"
+   french="By-pass mode invalide %d"
+}
+
+InvalidSendB(int) {
+   english="Invalid Send is behaviour %d"
+   french="Send behaviour est invalide %d"
+}
+
+InvalidEqpStatus(int) {
+   english="Invalid equipment status %d"
+   french="Status equipement invalide %d"
+}
+
+InvalidVarStatus(int) {
+   english="Invalid variable status %d"
+   french="Status variable invalide %d"
+}
+
+InvalidVarForce(int) {
+   english="Invalid variable force %d"
+   french="Force variable invalide %d"
+}
+
+InvalidDataType(int) {
+   english="Invalid datatype %d"
+   french="Type de données invalide %d"
+}
+
+BadParameterLength() {
+   english="Invalid parameter length"
+   french="Longueur d'un parametre incorrect"
+}
+
+MaxTimerReached() {
+   english="Max timers count reached"
+   french="Nombre max de timers atteint"
+}
+
+TimerNotFound(const char*) {
+   english="Timer '%s' not found"
+   french="Le timer '%s' n'existe pas"
+}

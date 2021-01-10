@@ -1,0 +1,58 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 13:44:00 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "instanciateclass"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\browser\\instanciateclass.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 11
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 25 30 150 200 F131 2 A A 0 0 0 0 0 4 0 0 V0 2 0 } 32 "ClassesList"
+2048 "NameTextField"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 300 25 150 22 F6 2 1 -1 0 "" } 32 "NameTextField"
+6144 "AliasTextField" "ClassesList"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 300 65 150 22 F6 2 1 -1 0 "" } 32 "AliasTextField"
+6144 "InstanciateButton" "NameTextField"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 215 25 80 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Name"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 215 65 80 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Alias"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 10 5 180 240 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ClassToInstanciate"  }   } 0
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 200 5 260 100 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Instance"  }   } 0
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 200 110 260 60 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Parent"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 215 135 235 22 F536870927 2 1 -1 0 "" } 416 "ParentPathTextField"
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 100 270 80 25 F13 2 { IlvMessageItem 262145 4 16 4 "&Instanciate"  }   } 544 "InstanciateButton"
+1
+1 "__ilvCallback" "instanciateCB"
+6144 "CancelButton" "AliasTextField"
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 250 270 80 25 F13 2 { IlvMessageItem 262145 4 16 4 "&cancel"  }   } 544 "CancelButton"
+1
+1 "__ilvCallback" "cancelCB"
+4096 "InstanciateButton"
+Size 467 317
+EOF

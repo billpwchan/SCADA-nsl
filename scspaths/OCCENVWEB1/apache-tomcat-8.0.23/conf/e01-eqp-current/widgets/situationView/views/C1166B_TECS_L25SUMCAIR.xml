@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_TECS_L25SUMCAIR" resolution="2.06625766871 1.72188139059 1.43490115883 1.19575096569 0.996459138075 0.830382615062 0.691985512552 0.576654593793 0.480545494828 0.400454579023" maxExtent="0.0 0.0 3024.0 1684.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_TECS_L25SUMCAIR.svg" width="3024.0" height="1684.0" bounds="0.0 0.0 3024.0 1684.0" name="C1166B_TECS_L25SUMCAIR" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="1178.0" y="1176.0" symbolId="C1166B_ECT_AIR1" entityId="OCC_KOTECTAIR10001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1636.0" y="1176.0" symbolId="C1166B_ECT_AIR1" entityId="OCC_KOTECTAIR10002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="2096.0" y="1176.0" symbolId="C1166B_ECT_AIR1" entityId="OCC_KOTECTAIR10003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="2562.0" y="1176.0" symbolId="C1166B_ECT_AIR1" entityId="OCC_KOTECTAIR10004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1180.0" y="630.0" symbolId="C1166B_ECT_AIC_" entityId="OCC_KOTECTAIC_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1638.0" y="630.0" symbolId="C1166B_ECT_AIC_" entityId="OCC_KOTECTAIC_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="2098.0" y="630.0" symbolId="C1166B_ECT_AIC_" entityId="OCC_KOTECTAIC_0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="2564.0" y="630.0" symbolId="C1166B_ECT_AIC_" entityId="OCC_KOTECTAIC_0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1180.0" y="312.0" symbolId="C1166B_ECT_AICC" entityId="OCC_KOTECTAICC0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1638.0" y="312.0" symbolId="C1166B_ECT_AICC" entityId="OCC_KOTECTAICC0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

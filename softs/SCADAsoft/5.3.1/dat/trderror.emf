@@ -1,0 +1,18 @@
+COMPONENT=Trd,Trd
+
+Init() {
+   english="Trd Initialization"
+   french="Initialisation du serveur Trd"
+}
+SubscriptionNotFound(const char*, const int) {
+   english="Subscription not found for [%s,%d]"
+   french="Abonnement non trouve pour [%s,%d]"
+}
+NullFieldCount() {
+   english="Field count is null"
+   french="Le nombre de champ est nul"
+}
+BadAttribute(const char *, const char *) {
+   english="Attribute %s does not exist in archive %s"
+   french="L'attribut %s n'existe pas dans l'archive %s"
+}

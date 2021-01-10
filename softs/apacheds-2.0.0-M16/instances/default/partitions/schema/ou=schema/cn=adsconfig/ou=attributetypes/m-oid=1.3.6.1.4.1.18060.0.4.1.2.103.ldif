@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.103,ou=attributeTypes,cn=adsconfig,ou=schema
+m-length: 0
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.103
+m-name: ads-dsDenormalizeOpAttrsEnabled
+m-description: Tells if the operational attributes are denormalized or not
+m-equality: booleanMatch
+entryParentId: c11acc1c-02ea-42e3-b600-cc0ca6feff74
+m-singlevalue: TRUE
+createTimestamp: 20140513151220.098Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+entryUUID: ee8fb48e-8b37-4474-a570-d4cc9027c3e1
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.379000Z#000003#000#000000

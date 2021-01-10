@@ -1,0 +1,116 @@
+/***************/
+/* GAUGE Panel */
+/***************/
+.gaugePanel {
+  flex-grow: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+.gaugePanel-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  position: relative;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  flex-grow: 1;
+}
+.gaugePanel-title {
+/*   font-family: "Roboto-medium"; */
+  font-size: 18px;
+  font-weight: inherit;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+}
+/* GAUGE WIDGET */
+.gaugeWidget {
+  position: absolute;
+  top: 30px;
+  bottom: 0px;
+  width: 100%;
+}
+
+/***********************/
+/* Gauge configuration */
+.gaugeConfiguration {
+  flex-grow: 1;
+  margin: 8px;
+}
+.gaugeConfiguration-descContainer-columns {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: baseline;
+  align-items: baseline;
+}
+.gaugeConfiguration-descContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.gaugeConfiguration-label {
+  color: #999999;
+/*   font-family: "Roboto-medium"; */
+  font-size: 13px;
+  margin: 4px 8px;
+}
+.gaugeConfiguration-descValue {
+/*   font-family: "Roboto-medium"; */
+  font-size: 13px;
+  margin: 4px 8px;
+  padding: 4px 8px;
+}
+.gaugeConfiguration-descValue-invalid {
+  -webkit-animation: invalidBlink 0.2s ease-in-out 3 alternate;
+  animation: invalidBlink 0.2s ease-in-out 3 alternate;
+  box-shadow: inset 0px 0px 5px #ffae00;
+}
+.gaugeConfiguration-displayConfTitle {
+  margin-top: 8px;
+/*   font-family: "Roboto-regular"; */
+  font-size: 15px;
+}
+.gaugeConfiguration-displayConfContainer {
+/*   border-right-style: solid; */
+/*   border-right-width: 1px; */
+/*   border-right-color: #999999; */
+  padding: 4px 8px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.gaugeConfiguration-donutCheckBox {
+}
+.gaugeConfiguration-minMaxContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-top: 8px;
+}
+.gaugeConfiguration-input {
+}
+.gaugeConfiguration-input-invalid {
+    -webkit-animation: invalidBlink 0.2s ease-in-out 3 alternate;
+  animation: invalidBlink 0.2s ease-in-out 3 alternate;
+  box-shadow: inset 0px 0px 5px #ffae00;
+}

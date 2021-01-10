@@ -1,0 +1,13 @@
+// Ilv Version: 2.3
+// File generated: Wed Nov 13 09:59:21 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 2
+0 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 1 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+IlvObjects 5
+2 { 0 0 IlvButton 15 58 70 23 F1 2 16 Y "&^ok" } 32 "apply" 10388 "apply" "cancel" 1 15 1 12
+2 { 1 0 IlvButton 110 58 70 23 F1 2 16 Y "&^cancel" } 32 "cancel" 4292 "cancel" "apply" 1 15 1 12
+2 { 2 1 IlvTransparentIcon 8 13 default } 32 "bitmap" 16 1 8
+3 { 3 1 IlvReliefLine 0 45 195 45 1 } 32 "line" 464 1 0 1 0 1 47 2
+3 { 4 0 IlvMessageLabel 43 14 112 22 0 "Title" 1 } 32 "title" 48 1 43 1 14
+Size 195 93

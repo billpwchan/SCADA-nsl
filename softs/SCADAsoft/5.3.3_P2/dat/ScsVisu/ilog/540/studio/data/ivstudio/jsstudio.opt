@@ -1,0 +1,51 @@
+// JsStudio: IBM ILOG Script Edition options.
+
+studio {
+
+    messageDB			"ivstudio/jsstudio.dbm";
+    fileBrowserType		"*.js"	"&scriptFilesFilter";
+    fileLoader			"js"	"LoadScript";
+    JvScriptApplication		true;
+    panelFile "ivstudio/jsstudio.pnl";
+    command ShowScriptDebugger {
+	label "&showScriptDebugger";
+	prompt "&showScriptDebuggerP";
+	acceleratorText "Ctrl+Shift+D";
+    	acceleratorDefinition "<Ctrl><Shift><Key D>";
+	bitmap "ivstudio/icons/icdebug.png";
+	category script;
+    }
+
+    command LoadScript {
+	label   "&loadScript";
+	prompt  "&loadScriptP";
+	bitmap  "icopen";
+	category script;
+    }
+
+    command ShowScriptEditor {
+	label   "&scriptEditor";
+	prompt  "&scriptEditorP";
+	acceleratorText "Ctrl+Shift+S";
+    	acceleratorDefinition "<Ctrl><Shift><Key S>";
+	bitmap  "ivstudio/icons/icsced.png";
+	category script;
+    }
+
+    command ShowScriptErrorList {
+	label   "&JSErrorList";
+	prompt  "&JSErrorListP";
+	bitmap  "ivstudio/icons/icjserr.png";
+	category script;
+    }
+    toolBarItem			"-" Main;
+    toolBarItem			ShowScriptEditor    Main;
+    toolBarItem			ShowScriptErrorList Main;
+    toolBarItem			ShowScriptDebugger  Main;
+
+    // 3.1 options
+    // editionName "&jsEdition";
+    // studioName  "IBM ILOG Views Studio, IBM ILOG Script Edition";
+    // studioShortName		"jsstudio";
+    // defaultCallbackLanguage	JvScript;
+}

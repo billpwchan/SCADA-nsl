@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_TECS_L02SUMCAIR" resolution="2.94969325153 2.45807770961 2.04839809134 1.70699840945 1.42249867454 1.18541556212 0.987846301766 0.823205251472 0.686004376227 0.571670313522" maxExtent="0.0 0.0 4320.0 2404.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_TECS_L02SUMCAIR.svg" width="4467.0" height="2281.0" bounds="0.0 0.0 4467.0 2281.0" name="C1166B_TECS_L02SUMCAIR" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="2904.0" y="1835.0" symbolId="C1166B_ECT_AIR_" entityId="OCC_SSVECTAIR_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="2900.0" y="1517.0" symbolId="C1166B_ECT_AIR_" entityId="OCC_SSVECTAIR_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="2905.0" y="607.0" symbolId="C1166B_ECT_AIR_" entityId="OCC_CTVECTAIR_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="2901.0" y="289.0" symbolId="C1166B_ECT_AIR_" entityId="OCC_CTVECTAIR_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1395.0" y="1461.0" symbolId="C1166B_ECT_CMP_" entityId="OCC_SSVECTCMP_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1394.0" y="1861.0" symbolId="C1166B_ECT_CMP_" entityId="OCC_SSVECTCMP_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1396.0" y="233.0" symbolId="C1166B_ECT_CMP_" entityId="OCC_CTVECTCMP_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1395.0" y="633.0" symbolId="C1166B_ECT_CMP_" entityId="OCC_CTVECTCMP_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

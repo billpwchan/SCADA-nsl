@@ -1,0 +1,14 @@
+// Ilv Version: 2.21
+// File generated: Mon Mar 04 15:33:39 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 2
+"default" 1 "defaultBg" "defaultFg" "default" StockedSystem 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "button" StockedDefaultGui 0 solid solid 0 0 0
+IlvObjects 3
+2 { 0 0 IlvButton 143 115 66 23 F1 2 16 Y "&close" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 1 0 IlvMatrix 2 2 210 98 2 0 0 1 42 49 1 1 0 0 1 1 1 5 2 10 0 0 64 1 "Label"
+0 1 64 1 "Label" 1 0 64 1 "Label" 1 1 64 1 "Label" 2 0 64 1 "Label"
+2 1 64 1 "Label" 3 0 64 1 "Label" 3 1 64 1 "Label" 4 0 64 1 "Label"
+4 1 64 1 "Label" 1 N 0 0 } 96 "matrix" "MatrixSelector" 1012 "matrixCallback" 1 2 1 2 1 2 1 43 2 2
+3 { 2 1 IlvReliefLine 0 107 214 107 1 } 32 "line" 464 1 0 1 0 1 35 2
+Size 214 143

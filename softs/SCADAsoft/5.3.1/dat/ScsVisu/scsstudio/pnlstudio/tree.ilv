@@ -1,0 +1,51 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:10:47 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "tree"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\tree.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 8
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTreeGadget 10 81 280 310 F32 2 A A 0 0 0 0 20 1 1 1 1 1 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 0
+ }  } 32 "tree"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 70 13 220 22 F6 2 1 -1 0 "" } 544 "CWP"
+1
+1 "__ilvCallback" "CWP"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 71 47 220 22 F6 2 1 -1 0 "" } 544 "Path"
+1
+1 "__ilvCallback" "Path"
+0
+1 { 3 1 IlvLabel 17 31 "CWP :" } 0
+0
+1 { 4 1 IlvLabel 18 64 "Path :" } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 11 405 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "OK"  }   } 512
+1
+1 "__ilvCallback" "OK"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 113 406 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "CWP"  }   } 544 "ButtonCWP"
+1
+1 "__ilvCallback" "CWP"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 216 406 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "Cancel"  }   } 512
+1
+1 "__ilvCallback" "Cancel"
+0
+Size 300 440
+EOF

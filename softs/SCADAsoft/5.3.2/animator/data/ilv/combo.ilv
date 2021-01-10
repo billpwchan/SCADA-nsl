@@ -1,0 +1,25 @@
+// Ilv Version: 2.3
+// File generated: Tue Nov 12 20:02:54 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+0 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 2 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+1 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 15
+1 { 0 0 IlvFrame 5 81 214 165 0 "&items" 1 } 32 "Frame_1" 1008 1 5 1 81 1 5 1 47 2 2
+2 { 1 1 IlvScrolledStringList 108 105 99 75 F1 2 0 1 0 0 1
+"item" A N } 96 "list" "ScrolledStringList" 8148 "select" "select" "Button_1" "vitems" 1 108 1 17 1 113 2 2
+2 { 2 1 IlvButton 15 184 84 22 F1 2 16 Y "&add" } 64 "Button" 20 "add" 1 15
+2 { 3 1 IlvButton 15 158 84 22 F1 2 16 Y "&replace" } 64 "Button" 20 "replace" 1 15
+2 { 4 0 IlvButton 5 265 60 23 F1 2 16 Y "&apply" } 64 "Button" 148 "apply" 1 5 1 5
+2 { 5 0 IlvButton 159 265 60 23 F1 2 16 Y "&close" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 6 1 IlvButton 15 131 84 22 F1 2 16 Y "&remove" } 96 "Button_2" "Button" 4116 "remove" "Button_1" 1 15
+2 { 7 1 IlvTextField 15 217 194 22 F6 2 1 -1 0 "" } 96 "text" "TextField" 468 "add" 1 15 1 15 1 54 2
+2 { 8 1 IlvTextField 81 5 138 22 F6 2 1 -1 0 "" } 96 "string" "TextField" 368 1 81 1 5 1 5 2
+2 { 9 1 IlvButton 15 102 84 22 F1 2 16 Y "&clean" } 96 "Button_1" "Button" 6164 "clean" "Button_2" "list" 1 15
+2 { 10 1 IlvTextField 151 53 66 22 F6 2 2 -1 0 "" } 32 "vitems" 2388 "ChangeVItems" "list" 1 151 1 7 2
+2 { 11 1 IlvMessageLabel 10 53 127 23 0 "&visibleItems" 1 } 32 "vitemsLabel" 16 1 10
+2 { 12 1 IlvToggle 10 33 96 17 F1 2 1 2 0 0 0 Y "&editable" } 96 "editable" "Toggle" 16 1 10
+3 { 13 2 IlvReliefLine 0 257 224 257 1 } 32 "line" 464 1 0 1 0 1 35 2
+3 { 14 1 IlvMessageLabel 10 4 65 26 0 "&string" 1 } 0 16 1 10
+Size 224 293

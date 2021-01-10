@@ -1,0 +1,43 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:23 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "ScsSelector"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\ScsSelector.ilv"
+Palettes 2
+1 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+"default" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 4
+2 { 0 0 IlvReliefLine 0 385 360 385 1 } 32 "line"
+0
+2 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 224 393 62 23 F536870925 2 { IlvMessageItem 262273 4 16 4 "&apply"  }   } 544 "BtnApply"
+1
+1 "__ilvCallback" "apply"
+6146 "BtnClose" "period"
+2 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 290 393 64 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "BtnClose"
+1
+1 "__ilvCallback" "cancel"
+4096 "BtnApply"
+3 { 3 P 1
+[ IlvPanelObjectReference IlvPanelObjectReference  "956232479.0" ]
+0 IlvGadgetContainerRectangle 0 0 360 384 "" } 32 "contents"
+0
+Size 360 421
+GeometryHandlers
+1 100 0 360 0 360 0
+3 3 290 0 290  0 0 64 2  0 0 6 0
+ 3 224 0 224  0 0 62 1  0 0 74 0
+ 3 0 0 0  360 0 360 0  0 0 0 0
+1 100 0 421 0 421 0
+3 3 393 0 393  0 0 23 2  0 0 5 0
+ 3 392 0 392  0 0 23 1  0 0 6 0
+ 3 384 0 384  0 0 2 0  0 0 35 0
+Layers 4
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

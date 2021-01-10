@@ -1,0 +1,24 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.2.3.5,ou=objectClasses,cn=apachedns,ou=schema
+m-supobjectclass: apacheDnsAbstractRecord
+m-must: apacheDnsSoaMName
+m-must: apacheDnsSoaRName
+m-must: apacheDnsSoaMinimum
+m-may: apacheDnsClass
+m-may: apacheDnsSoaSerial
+m-may: apacheDnsSoaRefresh
+m-may: apacheDnsSoaRetry
+m-may: apacheDnsSoaExpire
+m-typeobjectclass: STRUCTURAL
+m-oid: 1.3.6.1.4.1.18060.0.4.2.3.5
+m-name: apacheDnsStartOfAuthorityRecord
+m-description: A start of authority SOA record
+m-obsolete: FALSE
+entryParentId: 369e9d04-3636-4609-8879-68bb26ae194c
+createTimestamp: 20140513151220.504Z
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+entryUUID: 975dca10-262b-4e6c-9f8a-00f423981030
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.645000Z#000007#000#000000

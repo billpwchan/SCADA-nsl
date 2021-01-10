@@ -1,0 +1,6 @@
+# sample for DpcEqpServer
+
+Define fields {
+        Field variable = "label" "NomInstance" 3 1 1 ""
+        Field = "type" "EqpType" 3 1 1 ""
+}

@@ -1,0 +1,82 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astilevels"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astilevels.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 9
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 5 21 329 196 F34904 2 Y N 0 0 0 0 1 1 102 20 1 1 1 1 0 1 3 2 V0 2 6 0 0 226 IlvGadgetMatrixItem P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 27 95 13 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Name"  }   1 
+0 1 130 IlvLabelMatrixItem ""  1 0 226 IlvGadgetMatrixItem P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 113 27 95 13 F268435468 0 { IlvMessageItem 262145 4 16 4 "&state"  }   1  1 1 130 IlvLabelMatrixItem ""  2 0 226 IlvGadgetMatrixItem P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 215 27 95 13 F268435468 0 { IlvMessageItem 262145 4 16 4 "&comment"  }   1 
+2 1 130 IlvLabelMatrixItem ""  0 N 0 0 1 1 0  } 544 "Matrix"
+1
+1 "__ilvCallback" "matrixCB"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 5 -2 151 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&CurrentLevel"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 98 -1 152 20 F268435468 0 { IlvMessageItem 262169 4 16 4 "CurrentName"  }   } 32 "CurrentName"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 341 134 72 23 F13 2 { IlvMessageItem 262145 4 16 4 "&addppp"  }   } 544 "Add"
+1
+1 "__ilvCallback" "addCB"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 420 134 72 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Current"  }   } 544 "Current"
+1
+1 "__ilvCallback" "currentCB"
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 341 164 151 23 F13 2 { IlvMessageItem 262145 4 16 4 "&selectAll"  }   } 544 "SelectAll"
+1
+1 "__ilvCallback" "selectAllCB"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 341 194 151 23 F13 2 { IlvMessageItem 262145 4 16 4 "&deselectAll"  }   } 544 "DeselectAll"
+1
+1 "__ilvCallback" "deselectAllCB"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 341 24 151 101 F268435468 0 { IlvMessageItem 262169 4 16 4 "&StateVisible"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector -1 3
+0 IlvToggle 356 44 125 16 F1 2 1 2 1 0 0 Y "&Visible" 
+0 IlvToggle 356 73 125 16 F1 2 1 2 1 0 0 Y "&Invisible" 
+0 IlvToggle 356 102 125 16 F1 2 1 2 1 0 0 Y "&ZoomSensible" 
+ } 544 "Visible"
+1
+1 "__ilvCallback" "visibleCB"
+0
+Size 500 224
+GeometryHandlers
+2 100 150 334 0 334 0
+ 0 0 166 334 166 334
+1 3 5 0 5  329 0 329 0  0 0 0 0
+6 3 0 0 7  151 0 151 7  0 0 8 1
+ 3 0 0 7  0 0 72 3  87 0 87 1
+ 3 0 16 86  72 0 72 4  0 0 8 1
+ 3 0 0 7  151 0 151 5  0 0 8 1
+ 3 0 0 7  151 0 151 6  0 0 8 1
+ 3 0 0 22  125 0 125 8  0 0 19 1
+1 100 220 224 0 224 0
+1 3 0 0 21  196 0 196 0  0 0 7 0
+EOF

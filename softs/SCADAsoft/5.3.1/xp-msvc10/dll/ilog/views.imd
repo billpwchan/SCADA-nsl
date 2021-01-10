@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!-- IMD file for module views -->
+<module name="views" version="5.4">
+<class name="IlvAction"/>
+<class name="IlvContainer" rootClass="IlvAbstractView"/>
+<class name="IlvTimeScale" rootClass="IlvGraphic"/>
+<class name="IlvCalendarScale" rootClass="IlvGraphic"/>
+<class name="IlvSmartSet"/>
+<class name="IlvWindows95LFHandler" rootClass="IlvLookFeelHandler" sharedName="win95"/>
+<class name="IlvVXLFHandler" rootClass="IlvLookFeelHandler" sharedName="vx"/>
+<class name="IlvMotifLFHandler" rootClass="IlvLookFeelHandler" sharedName="motif"/>
+<class name="IlvWindowsLFHandler" rootClass="IlvLookFeelHandler" sharedName="windows"/>
+<class name="IlvIconAnimator" rootClass="IlvNamedProperty"/>
+<class name="IlvNamedPropertyList" rootClass="IlvNamedProperty"/>
+<class name="IlvInteractorProperty" rootClass="IlvNamedProperty"/>
+<class name="IlvAnimator" rootClass="IlvNamedProperty"/>
+<class name="IlvStringProperty" rootClass="IlvNamedProperty"/>
+<class name="IlvGraphicAnimator" rootClass="IlvNamedProperty"/>
+<class name="IlvBlinkGraphicAnimator" rootClass="IlvNamedProperty"/>
+<class name="IlvAttachments" rootClass="IlvNamedProperty"/>
+<class name="IlvToolTip" rootClass="IlvNamedProperty"/>
+<class name="IlvBitmapAnimator" rootClass="IlvNamedProperty"/>
+<class name="IlvPassThroughInteractor" rootClass="IlvInteractor" sharedName="PassThrough"/>
+<class name="IlvNullInteractor" rootClass="IlvInteractor" sharedName="Null"/>
+<class name="IlvButtonInteractor" rootClass="IlvInteractor" sharedName="Button"/>
+<class name="IlvPolyPointsEditionInteractor" rootClass="IlvInteractor" sharedName="PolyPointsEdition"/>
+<class name="IlvMoveInteractor" rootClass="IlvInteractor" sharedName="Move"/>
+<class name="IlvTransformThroughInteractor" rootClass="IlvInteractor" sharedName="PassThroughTransformer"/>
+<class name="IlvLineSelectionInteractor" rootClass="IlvInteractor" sharedName="LineEdit"/>
+<class name="IlvFilterThroughInteractor" rootClass="IlvInteractor" sharedName="PassThroughFilter"/>
+<class name="IlvShapePositionEditor" rootClass="IlvInteractor"/>
+<class name="IlvDragDropInteractor" rootClass="IlvInteractor" sharedName="DragDrop"/>
+<class name="IlvMoveReshapeInteractor" rootClass="IlvInteractor" sharedName="MoveReshape"/>
+<class name="IlvSelectorInteractor" rootClass="IlvInteractor" sharedName="Selector"/>
+<class name="IlvToggleInteractor" rootClass="IlvInteractor" sharedName="Toggle"/>
+<class name="IlvGadgetInteractor" rootClass="IlvInteractor" sharedName="Gadget"/>
+<class name="IlvRepeatButtonInteractor" rootClass="IlvInteractor" sharedName="RButton"/>
+<class name="IlvGaugeInteractor" rootClass="IlvInteractor" sharedName="Gauge"/>
+<class name="IlvReshapeInteractor" rootClass="IlvInteractor" sharedName="Reshape"/>
+<class name="IlvGadget" rootClass="IlvGraphic"/>
+<class name="IlvClosedSpline" rootClass="IlvGraphic"/>
+<class name="IlvFilledArc" rootClass="IlvGraphic"/>
+<class name="IlvFilledEllipse" rootClass="IlvGraphic"/>
+<class name="IlvTransparentIcon" rootClass="IlvGraphic"/>
+<class name="IlvEllipse" rootClass="IlvGraphic"/>
+<class name="IlvPolyPoints" rootClass="IlvGraphic"/>
+<class name="IlvOutlinePolygon" rootClass="IlvGraphic"/>
+<class name="IlvFilledCircularGauge" rootClass="IlvGraphic"/>
+<class name="IlvCircularScale" rootClass="IlvGraphic"/>
+<class name="IlvFixedSizeGraphic" rootClass="IlvGraphic"/>
+<class name="IlvFilledRectangle" rootClass="IlvGraphic"/>
+<class name="IlvFilledLabel" rootClass="IlvGraphic"/>
+<class name="IlvReshapeSelection" rootClass="IlvGraphic"/>
+<class name="IlvSpline" rootClass="IlvGraphic"/>
+<class name="IlvListLabel" rootClass="IlvGraphic"/>
+<class name="IlvPolygon" rootClass="IlvGraphic"/>
+<class name="IlvDrawSelection" rootClass="IlvGraphic"/>
+<class name="IlvGhostGraphic" rootClass="IlvGraphic"/>
+<class name="IlvReliefPolyline" rootClass="IlvGraphic"/>
+<class name="IlvSelector" rootClass="IlvGraphic"/>
+<class name="IlvZoomableLabel" rootClass="IlvGraphic"/>
+<class name="IlvRectangularScale" rootClass="IlvGraphic"/>
+<class name="IlvCircularGauge" rootClass="IlvGraphic"/>
+<class name="IlvGraphicHandle" rootClass="IlvGraphic"/>
+<class name="IlvZoomableMarker" rootClass="IlvGraphic"/>
+<class name="IlvSliderGauge" rootClass="IlvGraphic"/>
+<class name="IlvLineHandle" rootClass="IlvGraphic"/>
+<class name="IlvShadowLabel" rootClass="IlvGraphic"/>
+<class name="IlvReliefRectangle" rootClass="IlvGraphic"/>
+<class name="IlvReliefLabel" rootClass="IlvGraphic"/>
+<class name="IlvReliefPolygon" rootClass="IlvGraphic"/>
+<class name="IlvZoomableTransparentIcon" rootClass="IlvGraphic"/>
+<class name="IlvContainerRectangle" rootClass="IlvGraphic"/>
+<class name="IlvGraphicPath" rootClass="IlvGraphic"/>
+<class name="IlvIcon" rootClass="IlvGraphic"/>
+<class name="IlvArrowLine" rootClass="IlvGraphic"/>
+<class name="IlvPolyline" rootClass="IlvGraphic"/>
+<class name="IlvArrowPolyline" rootClass="IlvGraphic"/>
+<class name="IlvReliefGauge" rootClass="IlvGraphic"/>
+<class name="IlvScale" rootClass="IlvGraphic"/>
+<class name="IlvLine" rootClass="IlvGraphic"/>
+<class name="IlvFilteredGraphic" rootClass="IlvGraphic"/>
+<class name="IlvSimpleGraphic" rootClass="IlvGraphic"/>
+<class name="IlvGraphicInstance" rootClass="IlvGraphic"/>
+<class name="IlvRectangle" rootClass="IlvGraphic"/>
+<class name="IlvZoomableIcon" rootClass="IlvGraphic"/>
+<class name="IlvPolyPointsSelection" rootClass="IlvGraphic"/>
+<class name="IlvGraphicSet" rootClass="IlvGraphic"/>
+<class name="IlvTransformedGraphic" rootClass="IlvGraphic"/>
+<class name="IlvGridRectangle" rootClass="IlvGraphic"/>
+<class name="IlvReliefDiamond" rootClass="IlvGraphic"/>
+<class name="IlvReliefLine" rootClass="IlvGraphic"/>
+<class name="IlvFilledSpline" rootClass="IlvGraphic"/>
+<class name="IlvArc" rootClass="IlvGraphic"/>
+<class name="IlvGauge" rootClass="IlvGraphic"/>
+<class name="IlvMarker" rootClass="IlvGraphic"/>
+<class name="IlvViewRectangle" rootClass="IlvGraphic"/>
+<class name="IlvLabel" rootClass="IlvGraphic"/>
+<class name="IlvRectangularGauge" rootClass="IlvGraphic"/>
+<class name="IlvPolySelection" rootClass="IlvGraphic"/>
+<class name="IlvRoundRectangle" rootClass="IlvGraphic"/>
+<class name="IlvFilledRoundRectangle" rootClass="IlvGraphic"/>
+<class name="IlvShadowRectangle" rootClass="IlvGraphic"/>
+</module>

@@ -1,0 +1,66 @@
+/**************************************/
+/* ContainerWithSlidepanel            */
+/**************************************/
+.mwt-slide {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mwt-slide .mwt-slide-side {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  display: none;
+  background-color: #373737;
+}
+
+.mwt-slide .mwt-slide-button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 21;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #373737 url("../img/chevron-right-40.png") no-repeat 0px 0px;
+  cursor: pointer;
+}
+
+.mwt-slide .mwt-slide-button:hover {
+  background: #373737 url("../img/chevron-right-40.png") no-repeat 0px -40px;
+}
+
+.mwt-slide .mwt-slide-content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+}
+
+.mwt-slide.mwt-slide-isOpen .mwt-slide-side {
+  display: block;
+  width: 200px;
+}
+
+.mwt-slide.mwt-slide-isOpen .mwt-slide-button {
+  left: 200px;
+  border-left: solid #16191A 2px;
+  background: #373737 url("../img/chevron-left-40.png") no-repeat 0px 0px;
+}
+
+.mwt-slide.mwt-slide-isOpen .mwt-slide-button:hover {
+  background: #373737 url("../img/chevron-left-40.png") no-repeat 0px -40px;
+}
+
+.mwt-slide.mwt-slide-isOpen .mwt-slide-content {
+  left: 200px;
+}

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492730</millis>
+  <sequence>218793</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>74</thread>
+  <message>Execute filter. filter=TransportFilter@8a127b context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=EVENT, message=null, address=/127.0.0.1:3375]</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492730</millis>
+  <sequence>218794</sequence>
+  <logger>org.glassfish.grizzly.nio.AbstractNIOAsyncQueueWriter</logger>
+  <level>FINEST</level>
+  <class>org.glassfish.grizzly.nio.AbstractNIOAsyncQueueWriter</class>
+  <method>doFineLog</method>
+  <thread>74</thread>
+  <message>AsyncQueueWriter.write connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, record=org.glassfish.grizzly.asyncqueue.AsyncWriteQueueRecord@67d7ab, directWrite=true, size=0, isUncountable=true, bytesToReserve=1, pendingBytes=1</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492730</millis>
+  <sequence>218795</sequence>
+  <logger>org.glassfish.grizzly.nio.AbstractNIOAsyncQueueWriter</logger>
+  <level>FINEST</level>
+  <class>org.glassfish.grizzly.nio.AbstractNIOAsyncQueueWriter</class>
+  <method>doFineLog</method>
+  <thread>74</thread>
+  <message>AsyncQueueWriter.write directWrite connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, record=org.glassfish.grizzly.asyncqueue.AsyncWriteQueueRecord@67d7ab, isFinished=true, remaining=0, isUncountable=true, bytesToRelease=1, pendingBytesAfterRelease=0</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492730</millis>
+  <sequence>218796</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>74</thread>
+  <message>after execute filter. filter=TransportFilter@8a127b context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=EVENT, message=null, address=/127.0.0.1:3375] nextAction=org.glassfish.grizzly.filterchain.InvokeAction@93cd9</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492730</millis>
+  <sequence>218797</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>74</thread>
+  <message>after execute filter. filter=HttpServerFilter@16862e3 context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=READ, message=org.glassfish.grizzly.http.server.Response@16d47de, address=/127.0.0.1:3375] nextAction=org.glassfish.grizzly.filterchain.StopAction@1d3f9c4</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218798</sequence>
+  <logger>org.glassfish.grizzly.ProcessorExecutor</logger>
+  <level>FINEST</level>
+  <class>org.glassfish.grizzly.ProcessorExecutor</class>
+  <method>execute</method>
+  <thread>72</thread>
+  <message>executing connection (TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}). IOEvent=READ processor=DefaultFilterChain@6156ce {TransportFilter@8a127b &lt;-&gt; HttpServerFilter@c359ed &lt;-&gt; IdleTimeoutFilter@144fbed &lt;-&gt; FileCacheFilter@1f78d76 &lt;-&gt; HttpServerFilter@16862e3}</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218799</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>Execute filter. filter=TransportFilter@8a127b context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=READ, message=null, address=null]</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218800</sequence>
+  <logger>org.glassfish.grizzly.nio.transport.TCPNIOTransport</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.nio.transport.TCPNIOTransport</class>
+  <method>read</method>
+  <thread>72</thread>
+  <message>TCPNIOConnection (TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}) (allocated) read exception</message>
+  <exception>
+    <message>java.io.IOException: An existing connection was forcibly closed by the remote host</message>
+    <frame>
+      <class>sun.nio.ch.SocketDispatcher</class>
+      <method>read0</method>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.SocketDispatcher</class>
+      <method>read</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.IOUtil</class>
+      <method>readIntoNativeBuffer</method>
+      <line>223</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.IOUtil</class>
+      <method>read</method>
+      <line>192</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.SocketChannelImpl</class>
+      <method>read</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.transport.TCPNIOUtils</class>
+      <method>readSimpleByteBuffer</method>
+      <line>344</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.transport.TCPNIOUtils</class>
+      <method>allocateAndReadBuffer</method>
+      <line>237</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.transport.TCPNIOTransport</class>
+      <method>read</method>
+      <line>593</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.transport.TCPNIOTransportFilter</class>
+      <method>handleRead</method>
+      <line>75</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.TransportFilter</class>
+      <method>handleRead</method>
+      <line>173</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.ExecutorResolver$9</class>
+      <method>execute</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+      <method>executeFilter</method>
+      <line>283</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+      <method>executeChainPart</method>
+      <line>200</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+      <method>execute</method>
+      <line>132</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+      <method>process</method>
+      <line>111</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.ProcessorExecutor</class>
+      <method>execute</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.transport.TCPNIOTransport</class>
+      <method>fireIOEvent</method>
+      <line>536</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.strategies.AbstractIOStrategy</class>
+      <method>fireIOEvent</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.strategies.SameThreadIOStrategy</class>
+      <method>executeIoEvent</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.strategies.AbstractIOStrategy</class>
+      <method>executeIoEvent</method>
+      <line>89</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.SelectorRunner</class>
+      <method>iterateKeyEvents</method>
+      <line>415</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.SelectorRunner</class>
+      <method>iterateKeys</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.SelectorRunner</class>
+      <method>doSelect</method>
+      <line>348</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.SelectorRunner</class>
+      <method>run</method>
+      <line>279</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker</class>
+      <method>doWork</method>
+      <line>591</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker</class>
+      <method>run</method>
+      <line>571</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218801</sequence>
+  <logger>org.glassfish.grizzly.ProcessorExecutor</logger>
+  <level>FINEST</level>
+  <class>org.glassfish.grizzly.ProcessorExecutor</class>
+  <method>execute</method>
+  <thread>72</thread>
+  <message>executing connection (TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}). IOEvent=CLOSED processor=DefaultFilterChain@6156ce {TransportFilter@8a127b &lt;-&gt; HttpServerFilter@c359ed &lt;-&gt; IdleTimeoutFilter@144fbed &lt;-&gt; FileCacheFilter@1f78d76 &lt;-&gt; HttpServerFilter@16862e3}</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218802</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>Execute filter. filter=TransportFilter@8a127b context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=CLOSE, message=null, address=null]</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218803</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>after execute filter. filter=TransportFilter@8a127b context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=CLOSE, message=null, address=null] nextAction=org.glassfish.grizzly.filterchain.InvokeAction@93cd9</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218804</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>Execute filter. filter=HttpServerFilter@c359ed context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=CLOSE, message=null, address=null]</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218805</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>after execute filter. filter=HttpServerFilter@c359ed context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=CLOSE, message=null, address=null] nextAction=org.glassfish.grizzly.filterchain.InvokeAction@93cd9</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218806</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>Execute filter. filter=IdleTimeoutFilter@144fbed context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=CLOSE, message=null, address=null]</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218807</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>after execute filter. filter=IdleTimeoutFilter@144fbed context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=CLOSE, message=null, address=null] nextAction=org.glassfish.grizzly.filterchain.InvokeAction@93cd9</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218808</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>Execute filter. filter=FileCacheFilter@1f78d76 context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=CLOSE, message=null, address=null]</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218809</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>after execute filter. filter=FileCacheFilter@1f78d76 context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=CLOSE, message=null, address=null] nextAction=org.glassfish.grizzly.filterchain.InvokeAction@93cd9</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218810</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>Execute filter. filter=HttpServerFilter@16862e3 context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=CLOSE, message=null, address=null]</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218811</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>executeFilter</method>
+  <thread>72</thread>
+  <message>after execute filter. filter=HttpServerFilter@16862e3 context=FilterChainContext [connection=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, closeable=TCPNIOConnection{localSocketAddress={/127.0.0.1:8899}, peerSocketAddress={/127.0.0.1:3375}}, operation=CLOSE, message=null, address=null] nextAction=org.glassfish.grizzly.filterchain.InvokeAction@93cd9</message>
+</record>
+<record>
+  <date>2018-07-10T12:21:32</date>
+  <millis>1531196492964</millis>
+  <sequence>218812</sequence>
+  <logger>org.glassfish.grizzly.filterchain.DefaultFilterChain</logger>
+  <level>FINE</level>
+  <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+  <method>execute</method>
+  <thread>72</thread>
+  <message>GRIZZLY0013: Exception during FilterChain execution</message>
+  <exception>
+    <message>java.io.EOFException</message>
+    <frame>
+      <class>org.glassfish.grizzly.nio.transport.TCPNIOTransport</class>
+      <method>read</method>
+      <line>607</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.transport.TCPNIOTransportFilter</class>
+      <method>handleRead</method>
+      <line>75</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.TransportFilter</class>
+      <method>handleRead</method>
+      <line>173</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.ExecutorResolver$9</class>
+      <method>execute</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+      <method>executeFilter</method>
+      <line>283</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+      <method>executeChainPart</method>
+      <line>200</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+      <method>execute</method>
+      <line>132</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.filterchain.DefaultFilterChain</class>
+      <method>process</method>
+      <line>111</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.ProcessorExecutor</class>
+      <method>execute</method>
+      <line>77</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.transport.TCPNIOTransport</class>
+      <method>fireIOEvent</method>
+      <line>536</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.strategies.AbstractIOStrategy</class>
+      <method>fireIOEvent</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.strategies.SameThreadIOStrategy</class>
+      <method>executeIoEvent</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.strategies.AbstractIOStrategy</class>
+      <method>executeIoEvent</method>
+      <line>89</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.SelectorRunner</class>
+      <method>iterateKeyEvents</method>
+      <line>415</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.SelectorRunner</class>
+      <method>iterateKeys</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.SelectorRunner</class>
+      <method>doSelect</method>
+      <line>348</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.nio.SelectorRunner</class>
+      <method>run</method>
+      <line>279</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker</class>
+      <method>doWork</method>
+      <line>591</line>
+    </frame>
+    <frame>
+      <class>org.glassfish.grizzly.threadpool.AbstractThreadPool$Worker</class>
+      <method>run</method>
+      <line>571</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>745</line>
+    </frame>
+  </exception>
+</record>

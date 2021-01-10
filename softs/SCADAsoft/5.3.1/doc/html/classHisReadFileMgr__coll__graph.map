@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" href="$classHisPointSet.html" title="This class is used to store the info for reading archive points or subscribing to archive points..." alt="HisPointSet" coords="7,17,92,44" />
+<area shape="rect" href="$classHisDbDataSet.html" title="This class is used to store data of reading archive points or subscribing to archive points..." alt="HisDbDataSet" coords="116,17,217,44" />
+</map>

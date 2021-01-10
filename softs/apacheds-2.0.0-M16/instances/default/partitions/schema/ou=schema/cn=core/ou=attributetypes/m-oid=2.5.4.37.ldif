@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=2.5.4.37,ou=attributeTypes,cn=core,ou=schema
+m-usage: USER_APPLICATIONS
+m-oid: 2.5.4.37
+m-name: cACertificate
+m-description: RFC2256: X.509 CA certificate, use ;binary
+m-obsolete: FALSE
+entryParentId: 403c3c39-ecc4-462e-9b10-56b8350aab62
+m-singlevalue: FALSE
+createTimestamp: 20140513151220.238Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.8
+m-nousermodification: FALSE
+m-collective: FALSE
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: e5d9468b-2367-41f7-b7c3-824e635d2d0a
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.739000Z#000001#000#000000

@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=2.16.840.1.113730.3.1.216,ou=attributeTypes,cn=inetorgperson,ou=schema
+m-usage: USER_APPLICATIONS
+m-oid: 2.16.840.1.113730.3.1.216
+m-name: userPKCS12
+m-description: RFC2798: personal identity information, a PKCS #12 PFX
+m-obsolete: FALSE
+entryParentId: cf40f50c-eb91-4e40-879d-04db5b87ba4f
+m-singlevalue: FALSE
+createTimestamp: 20140513151220.254Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.5
+m-nousermodification: FALSE
+m-collective: FALSE
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: 4f6f5b03-9397-4747-a9c5-f58fc678b650
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.833000Z#000014#000#000000

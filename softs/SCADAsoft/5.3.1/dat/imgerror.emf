@@ -1,0 +1,92 @@
+###############################################################################
+# IDENTIFICATION:
+# $Id: imgerror.emf,v 1.1 1999/03/04 16:06:06 ylo Exp $
+#
+# HISTORY:
+# $Log: imgerror.emf,v $
+# Revision 1.1  1999/03/04 16:06:06  ylo
+# Initial revision
+#
+#
+##############################################################################
+COMPONENT=Img,Img
+
+Init() {
+   english="InputManager Initialization"
+   french="Initialisation de l'InputManager"
+}	
+
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+
+Unix(const char *, int) {
+   english="Error returned by function %s: errno=%d"
+   french="Erreur retournee par la fonction %s: errno=%d"
+}
+
+NoManager() {
+   english="No AscManager is running"
+   french="Le processus AscManager ne tourne pas"
+}
+
+EnvironmentDown() {
+   english="Environment is down"
+   french="L'environnement est 'down'"
+}
+
+MsgSend(const char *,const char *) {
+   english="Exception caught while sending '%s' request to '%s' server"
+   french="Erreur émise lors de l'envoi de la requête '%s' au server '%s'"
+}
+
+MsgGetResult(const char *,const char *) {
+   english="Exception caught while trying to get result of the '%s' request to '%s' server"
+   french="Erreur émise lors de la lecture du résultat de la requête '%s' au server '%s'"
+}
+
+MsgTooManyAnswers(const char *,const char *,int,int) {
+   english="Too many clients '%s' ask for a '%s' answer : %d instead of %d"
+   french="Trop de clients '%s' demandent une réponse '%s' : %d au lieu de %d"
+}
+
+WaitQueueNoPrevious() {
+   english="Internal error : unable to process again a message: unable to find the previous one"
+   french="Erreur interne: impossible de traiter à nouveau un message : impossible de trouver le précédent"
+}
+
+MsgQueueDoesNotExist(const char *) {
+   english="Internal error : unable to find the waiting queue for the '%s' environment"
+   french="Erreur interne: impossible de trouver la file d'attente de l'environnement '%s'"
+}
+
+ImgUpdateTime() {
+   english="Unable to update the time on the Standby"
+   french="Impossible d'appeler la mise à jour de l'heure sur le secours"
+}
+
+ImgBadNbPhysEnvRunning() {
+   english="Error : more than one message received with the same tag but only one physical environment is running. Message ignored"
+   french="erreur : plus d'un message a été reçu avec le même tag alors qu'un seul environnement physique fonctionne. Message ignoré"
+}
+
+NoSnapshotFile(const char *) {
+   english="Error : the specified '%s' snapshot file does not exist"
+   french="erreur : le fichier snapshot spécifié '%s' n'existe pas"
+}
+
+ImgStandbyUp() {
+   english="Error : unable to call standbyEnvironmentUp on the online InputManager"
+   french="erreur : impossible d'appeler la méthode standbyEnvironmentUp sur l'inputMgr maitre"
+}
+
+RtapSnapshot() {
+   english="Unable to disable or enable Rtap snapshots"
+   french="Impossible d'activer ou desactiver les snapshots Rtap"
+}
+
+NoReply() {
+   english="Error : no reply received from server"
+   french="Erreur : pas de reponse recue du serveur"
+}

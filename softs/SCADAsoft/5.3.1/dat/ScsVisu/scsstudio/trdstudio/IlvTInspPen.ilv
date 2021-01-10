@@ -1,0 +1,265 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 17:29:52 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "IlvTInspPen"
+PathName "D:\\SCADASOFT\\SCSHOME\\dat\\ScsVisu\\scsstudio\\trdstudio\\IlvTInspPen.ilv"
+Palettes 10
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+8 F "gray" 0 0 65025 "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 0
+4 F 48830 48830 48830 "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+2 F "antiquewhite3" "black" "fixed" 0 solid solid 0 0 0 65535 0
+3 F 48830 48830 48830 65025 65025 65025 "default" "StockedDefaultGui" 0 solid solid 2 0 0 65535 0
+"default" 9 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+7 F "gray" 0 0 65025 "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+5 F 48830 48830 48830 0 0 65025 "default" "StockedDefaultGui" 0 solid solid 2 0 0 65535 0
+6 F 48830 48830 48830 0 0 65025 "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 37
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 264 64 50 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Red"  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 319 64 50 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Green"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 374 64 50 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Blue"  }   } 0
+0
+1 { 3 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttColor" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSlider 276 125 25 124 F5 2 0 255 0 10 4 10 } 928 "SRed"
+1
+1 "__ilvCallback" "SRed"
+6144 "NGreen" "NRed"
+1 { 4 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttColor" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 269 89 40 22 F6 2 16 3 0 "0" . , 0 0 0 255 } 544 "NRed"
+1
+1 "__ilvFocusOut" "NRed"
+6144 "NGreen" "CurveColors"
+1 { 5 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttColor" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 324 89 40 22 F6 2 16 3 0 "0" . , 0 0 0 255 } 544 "NGreen"
+1
+1 "__ilvFocusOut" "NGreen"
+6144 "SGreen" "NRed"
+1 { 6 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttColor" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 379 89 40 22 F6 2 16 3 0 "0" . , 0 0 0 255 } 544 "NBlue"
+1
+1 "__ilvFocusOut" "NBlue"
+6144 "ColorName" "SGreen"
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 259 5 170 320 F268435468 0 { IlvMessageItem 262169 4 16 4 "&RGB_components"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 7 5 245 320 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Curve"  }   } 0
+0
+1 { 9 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttColor" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSlider 331 125 25 124 F5 2 0 255 0 10 4 10 } 928 "SGreen"
+1
+1 "__ilvCallback" "SGreen"
+6144 "NBlue" "NGreen"
+1 { 10 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttColor" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSlider 386 125 25 124 F5 2 0 255 0 10 4 10 } 928 "SBlue"
+1
+1 "__ilvCallback" "SBlue"
+4096 "NBlue"
+1 { 11 P 1
+[ IlvToolTip __ilvToolTip 2 "&ttBackgroundPreview" 4 4 ]
+2 IlvFilledRectangle 375 27 44 20 } 32 "BackgroundPreview"
+0
+1 { 12 P 1
+[ IlvToolTip __ilvToolTip 2 "&ttForegroundPreview" 4 4 ]
+3 IlvRectangle 375 27 44 20 } 32 "ForegroundPreview"
+0
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector 0 5
+0 IlvToggle 22 89 83 16 F1 2 1 2 1 16 0 Y "&Polylines" 
+0 IlvToggle 22 124 83 16 F1 2 1 2 1 16 0 Y "&Polygons" 
+0 IlvToggle 22 159 83 16 F1 2 1 2 1 16 0 Y "&Bars" 
+0 IlvToggle 22 194 83 16 F1 2 1 2 1 16 0 Y "&Stairs" 
+0 IlvToggle 22 229 83 16 F1 2 1 2 1 16 0 Y "&Scatters" 
+ } 544 "CurveStyle"
+1
+1 "__ilvCallback" "CurveStyle"
+6144 "Markers" "Show"
+1 { 14 0 IlvGraphicSet 2
+0 IlvGraphicSet 2
+4 IlvArrowLine 126 178 126 114 1 
+4 IlvArrowLine 122 173 237 173 1  
+5 IlvPolyline 10
+127 149 142 129 152 159 162 139 182 139 192 129 202 139 212 139 222 149 232 149  } 32 "PolylineSample"
+0
+1 { 15 0 IlvGraphicSet 3
+5 IlvPolygon 5
+127 151 127 173 152 173 151 158 142 129 
+6 IlvPolygon 9
+152 174 152 161 163 141 182 141 191 131 210 141 219 150 229 151 228 172 
+0 IlvGraphicSet 2
+4 IlvArrowLine 126 178 126 114 1 
+4 IlvArrowLine 122 173 237 173 1   } 32 "PolygonSample"
+0
+1 { 16 0 IlvGraphicSet 10
+0 IlvGraphicSet 2
+4 IlvArrowLine 126 178 126 114 1 
+4 IlvArrowLine 122 173 237 173 1  
+7 IlvFilledRectangle 129 132 8 41 
+7 IlvFilledRectangle 140 137 8 36 
+7 IlvFilledRectangle 151 129 8 44 
+7 IlvFilledRectangle 162 129 8 44 
+7 IlvFilledRectangle 173 153 8 20 
+7 IlvFilledRectangle 184 148 8 25 
+7 IlvFilledRectangle 195 143 8 30 
+7 IlvFilledRectangle 206 145 8 28 
+7 IlvFilledRectangle 217 132 8 41  } 32 "BarSample"
+0
+1 { 17 0 IlvGraphicSet 5
+0 IlvGraphicSet 2
+4 IlvArrowLine 126 178 126 114 1 
+4 IlvArrowLine 122 173 237 173 1  
+7 IlvFilledRectangle 127 143 22 30 
+7 IlvFilledRectangle 148 119 25 54 
+7 IlvFilledRectangle 171 133 24 40 
+7 IlvFilledRectangle 193 148 28 25  } 32 "StairSample"
+0
+1 { 18 0 IlvGraphicSet 7
+8 IlvFilledEllipse 136 130 7 7 
+8 IlvFilledEllipse 157 140 7 7 
+8 IlvFilledEllipse 172 142 7 7 
+8 IlvFilledEllipse 191 138 7 7 
+8 IlvFilledEllipse 203 152 7 7 
+8 IlvFilledEllipse 218 162 7 7 
+0 IlvGraphicSet 2
+4 IlvArrowLine 126 178 126 114 1 
+4 IlvArrowLine 122 173 237 173 1   } 32 "ScatterSample"
+0
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 22 26 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Curve_name"  }   } 0
+0
+1 { 20 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttCurveName" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 122 26 120 22 F6 2 16 30 0 "Curve 1" } 544 "CurveName"
+1
+1 "__ilvFocusOut" "CurveName"
+6144 "Show" "ColorName"
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 22 64 83 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Curve_style"  }   } 0
+0
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector 0 2
+0 IlvToggle 270 28 45 16 F1 2 1 2 1 16 0 Y "Fgd" 
+0 IlvToggle 320 28 45 16 F1 2 1 2 1 16 0 Y "Bgd" 
+ } 544 "CurveColors"
+1
+1 "__ilvCallback" "CurveColors"
+6144 "NRed" "LineStyle"
+1 { 23 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttMarkers" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 105 227 95 22 F807 2 1 -1 0 "" 10
+{ IlvGadgetItem 1 2 4 "&MarkerSquare"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerFilledSquare"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerCircle"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerFilledCircle"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerTriangle"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerFilledTriangle"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerDiamond"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerFilledDiamond"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerPlus"  } 
+{ IlvGadgetItem 1 2 4 "&MarkerCross"  }  10 0 } 544 "Markers"
+1
+1 "__ilvCallback" "Markers"
+6144 "MarkerSize" "CurveStyle"
+1 { 24 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttMarkerSize" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 205 227 40 22 F6 2 16 3 0 "5" . , 0 0 0 999 } 544 "MarkerSize"
+1
+1 "__ilvFocusOut" "MarkerSize"
+6144 "LineWidth" "Markers"
+1 { 25 0 IlvGraphicSet 2
+0 IlvMessageLabel 105 209 95 17 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Marker_type"  }   
+0 IlvMessageLabel 207 209 35 17 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Size"  }    } 32 "Text"
+0
+1 { 26 9 IlvReliefLine 18 59 240 59 1 } 0
+0
+1 { 27 9 IlvReliefLine 17 256 242 256 1 } 0
+0
+1 { 28 9 IlvReliefLine 269 256 419 256 1 } 0
+0
+1 { 29 9 IlvReliefLine 269 59 419 59 1 } 0
+0
+1 { 30 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 275 265 140 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "&Specify_color_name"  }   } 0
+0
+1 { 31 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttColorName" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 270 296 150 22 F6 2 16 -1 0 "" } 544 "ColorName"
+1
+1 "__ilvFocusOut" "ColorName"
+6144 "CurveName" "NBlue"
+1 { 32 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 20 265 80 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Line_width"  }   } 0
+0
+1 { 33 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttLineWidth" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 105 265 40 22 F6 2 16 3 0 "1" . , 0 0 0 10 } 544 "LineWidth"
+1
+1 "__ilvFocusOut" "LineWidth"
+6144 "LineStyle" "MarkerSize"
+1 { 34 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 20 296 80 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Line_style"  }   } 0
+0
+1 { 35 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttLineStyle" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 105 296 95 22 F815 2 1 -1 0 "" 8
+{ IlvGadgetItem 1 2 4 "solid"  } 
+{ IlvGadgetItem 1 2 4 "dash"  } 
+{ IlvGadgetItem 1 2 4 "dot"  } 
+{ IlvGadgetItem 1 2 4 "dashdot"  } 
+{ IlvGadgetItem 1 2 4 "doubledot"  } 
+{ IlvGadgetItem 1 2 4 "dashdoubledot"  } 
+{ IlvGadgetItem 1 2 4 "longdash"  } 
+{ IlvGadgetItem 1 2 4 "alternate"  }  8 0 } 544 "LineStyle"
+1
+1 "__ilvCallback" "LineWidth"
+6144 "CurveColors" "LineWidth"
+1 { 36 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 122 66 120 16 F1 2 1 2 0 16 0 Y "&Show_at_startup" } 544 "Show"
+1
+1 "__ilvCallback" "Show"
+6144 "CurveStyle" "CurveName"
+Size 440 333
+GeometryHandlers
+1 100 0 440 0 440 0
+2 3 0 0 259  0 0 170 7  0 0 11 0
+ 3 0 0 7  245 0 245 8  0 0 188 0
+1 100 0 333 0 333 0
+2 3 0 0 5  0 0 320 7  0 8 8 0
+ 3 0 0 5  0 0 320 8  0 8 8 0
+EOF

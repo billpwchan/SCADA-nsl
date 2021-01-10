@@ -1,0 +1,113 @@
+// Ilv Version: 5.0
+// File generated: Mon Nov 08 11:18:33 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "mainpanel"
+PathName "M:\\devsrc_dla\\scs_source\\src\\dat\\browser\\mainpanel.ilv"
+Palettes 4
+"default" 2 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+3 F "gray" "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+"IlvStMenu" 1 F "gray" "black" "menu" "%Microsoft Sans Serif-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 10
+0 { 0 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvPanelObjectReference IlvPanelObjectReference  "966930312.0" ]
+0 IlvNotebook 10 65 225 431 F1 2 0 2  2
+" { IlvNotebookPageItem 1 2 4 "&Classes"  }  "gray" "treeclasses.ilv"
+" { IlvNotebookPageItem 1 2 4 "&Instances"  }  "gray" "treeinstances.ilv"
+0 0 4 5 2 10 10 10 10  } 544 "notebookBrowser"
+1
+1 "__ilvCallback" "notebookCB"
+16384
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 497 73 160 22 F806 2 1 -1 0 "" 0 5 0 } 544 "contextName"
+1
+1 "__ilvCallback" "contextName"
+2048 "numContext"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMenuBar 0 0 801 25 F295 2 V0 2 5
+{ IlvMenuItem 67108865 2 4 "&menu_file"  0 IlvPopupMenu 3 22 130 80 F166 2 V0 2 5
+{ IlvMenuItem 33554435 2 2 "&^Connection" 1 0 "connect.png"  "connectionCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554433 2 4 "&M_Preferences"  "preferencesCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554433 2 4 "&menu_exit"  "exitCB" }  20   } 
+{ IlvMenuItem 67108865 2 4 "&Snapshot"  0 IlvPopupMenu 27 22 134 48 F166 2 V0 2 2
+{ IlvMenuItem 33554435 2 4 "&BinarySnapshot" 1 0 "save.png"  "saveAsciiCB" } 
+{ IlvMenuItem 33554435 2 4 "&XMLSnapshot" 1 0 "save.png"  "saveXmlCB" }  22   } 
+{ IlvMenuItem 67108865 2 4 "&Statistics"  0 IlvPopupMenu 0 0 137 46 F166 2 V0 2 2
+{ IlvMenuItem 33554433 2 4 "&ResetStats"  "resetStatCB" } 
+{ IlvMenuItem 33554433 2 4 "&ShowFormulaStat"  "showFormulaStatCB" }  16   } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554433 2 4 "&Parameters"  "parametersCB" }  0 } 544 "menuBrowser"
+1
+1 "__ilvCallback" "MenuCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToolBar 0 28 801 31 F295 2 V0 2 6
+{ IlvMenuItem 1107296258 2 4 1 0 "connect.png"  "connectionCB" "Connection" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554435 2 4 "&BinarySnapshot" 1 0 "save.png"  "saveAsciiCB" } 
+{ IlvMenuItem 33554435 2 4 "&XMLSnapshot" 1 0 "save.png"  "saveXmlCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554434 2 4 1 0 "info.png"  "parametersCB" }  0 } 32 "ToolBarBrowser"
+20480 "tree"
+1 { 4 2 IlvReliefLine -2 502 795 502 1 } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 502 773 22 F268435468 0 { IlvMessageItem 262168 4 16 4  }   } 32 "InfoLabel"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 262 73 58 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Context"  }   } 32 "contextLabel"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 336 73 52 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Number"  }   } 32 "contextNumberLabel"
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 461 73 36 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Name"  }   } 32 "contextNameLabel"
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 389 73 49 22 F6 2 16 -1 0 "0" . , 2 0 0 2147483647 } 544 "numContext"
+1
+1 "__ilvCallback" "numContext"
+8192
+Size 800 530
+GeometryHandlers
+2 0 0 245 0 245 0
+ 100 0 554 245 555 245
+5 3 0 0 0  800 0 800 2  0 0 0 1
+ 3 0 0 0  799 0 800 3  0 0 0 1
+ 3 0 0 10  771 0 772 5  0 0 18 1
+ 3 0 -2 -2  795 0 796 4  0 0 6 1
+ 3 0 0 10  225 0 225 0  0 0 10 0
+5 3 0 0 17  0 0 58 6  0 0 479 1
+ 3 0 0 91  0 0 52 7  0 0 411 1
+ 3 0 0 144  0 0 49 9  0 0 361 1
+ 3 0 0 216  0 0 36 8  0 0 302 1
+ 3 0 0 252  0 0 160 1  142 0 142 1
+3 0 0 65 0 65 0
+ 100 0 431 65 431 65
+ 0 0 34 496 34 496
+4 3 501 0 501  0 0 2 4  0 0 27 2
+ 3 502 0 502  0 0 22 5  0 0 6 2
+ 3 0 0 28  0 0 31 3  0 0 471 2
+ 3 0 0 0  0 0 25 2  505 0 505 2
+6 3 0 0 0  431 0 431 0  0 0 0 1
+ 3 0 0 8  0 0 22 8  435 0 435 2
+ 3 0 0 8  0 0 22 6  401 0 401 1
+ 3 0 0 8  0 0 22 7  401 0 401 1
+ 3 0 0 8  0 0 22 9  401 0 401 1
+ 3 0 0 8  0 0 22 1  0 0 401 1
+0
+Layers 2
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

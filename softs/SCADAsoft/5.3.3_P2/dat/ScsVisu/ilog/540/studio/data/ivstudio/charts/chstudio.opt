@@ -1,0 +1,17 @@
+// 
+//	    ILOG Views Studio configuration
+//		Charts Extension
+// 
+studio {
+    dragDropPalette "Charts" {
+        dataFileName "ivstudio/charts/palette.ilv";
+        label "&Charts";
+        path "Graphics";
+	bitmap "ivstudio/charts/iccharts.png"
+    }
+
+    viewsClass "IlvChartGraphic" {
+	headerFile "<ilviews/charts/chartinc.h>";
+	library "ilvcharts";
+    }
+}

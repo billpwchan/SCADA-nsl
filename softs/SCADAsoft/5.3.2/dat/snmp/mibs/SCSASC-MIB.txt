@@ -1,0 +1,226 @@
+SCSASC-MIB DEFINITIONS ::= BEGIN
+
+IMPORTS
+  enterprises, OBJECT-TYPE    FROM RFC1155-SMI;
+
+--        "1.3.6.1.4.1"
+--internet    OBJECT IDENTIFIER ::= { iso org(3) dod(6) 1 }
+--private     OBJECT IDENTIFIER ::= { internet 4 }
+--enterprises OBJECT IDENTIFIER ::= { private 1 }
+
+-- THALES Information Systems
+thalesIS    OBJECT IDENTIFIER ::= { enterprises 19999 }
+scadasoft   OBJECT IDENTIFIER ::= { thalesIS 1 }
+
+-- textual conventions
+
+DisplayString ::=
+    OCTET STRING
+-- This data type is used to model textual information taken
+-- from the NVT ASCII character set.  By convention, objects
+-- with this syntax are declared as having
+
+--
+--      SIZE (0..255)
+
+-- AscManager Scadasoft states
+
+AscEntry ::= SEQUENCE {
+    ascIndex          Integer32,
+    ascEnvName        DisplayString,
+    ascProcessName    DisplayString,
+    ascHostName       DisplayString,
+    ascProcessStateID Integer32,
+    ascProcessState   DisplayString,
+    ascGlobalStateID  Integer32,
+    ascGlobalState    DisplayString   
+}
+
+ascTable OBJECT-TYPE
+    SYNTAX     SEQUENCE OF AscEntry
+    ACCESS not-accessible
+    STATUS     mandatory
+    DESCRIPTION
+            "The (conceptual) table listing the ProcessList capabilities."
+    ::= { scadasoft 1 }
+
+ascEntry OBJECT-TYPE
+    SYNTAX     AscEntry
+    ACCESS not-accessible
+    STATUS     mandatory
+    DESCRIPTION
+            "An entry (conceptual row) in the ascTable."
+    INDEX      { ascIndex }
+    ::= { ascTable 1 }
+
+ascIndex OBJECT-TYPE
+    SYNTAX     Integer32 (0..65535)
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "The auxiliary variable used for identifying instances of
+            the columnar objects in the ascTable."
+    ::= { ascEntry 1 }
+
+ascEnvName OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascEnvName."
+    ::= { ascEntry 2 }
+
+ascProcessName OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascProcessName."
+    ::= { ascEntry 3 }
+
+ascHostName OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascHostName."
+    ::= { ascEntry 4 }
+
+ascProcessStateID OBJECT-TYPE
+    SYNTAX     Integer32
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A status from Scadasoft ID states."
+    ::= { ascEntry 5 }
+
+ascProcessState OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascProcessState."
+    ::= { ascEntry 6 }
+
+ascGlobalStateID OBJECT-TYPE
+    SYNTAX     Integer32
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A status from Scadasoft ID states."
+    ::= { ascEntry 7 }
+
+ascGlobalState OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascGlobalState."
+    ::= { ascEntry 8 }
+
+-- AscManager External Parameters informations (company specific)
+
+ascExt OBJECT IDENTIFIER ::= { scadasoft 2 }
+
+ascParam1 OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascParam1 ."
+    ::= { ascExt 1 }
+
+ascParam2 OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascParam2 ."
+    ::= { ascExt 2 }
+
+ascParam3 OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascParam3 ."
+    ::= { ascExt 3 }
+
+ascParam4 OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascParam4 ."
+    ::= { ascExt 4 }
+
+ascParam5 OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascParam5 ."
+    ::= { ascExt 5 }
+
+ascParam6 OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascParam6 ."
+    ::= { ascExt 6 }
+
+ascParam7 OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascParam7 ."
+    ::= { ascExt 7 }
+
+ascParam8 OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascParam8 ."
+    ::= { ascExt 8 }
+
+ascParam9 OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascParam9 ."
+    ::= { ascExt 9 }
+
+ascParam10 OBJECT-TYPE
+    SYNTAX     DisplayString
+    ACCESS read-only
+    STATUS     mandatory
+    DESCRIPTION
+            "A textual description of the capabilities identified by the
+            corresponding instance of ascParam10 ."
+    ::= { ascExt 10 }
+
+-- Traps
+
+ascTraps OBJECT IDENTIFIER ::= { scadasoft 3 }
+
+-- This trap is sent when the Scadasoft states have changed
+
+END

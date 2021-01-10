@@ -1,0 +1,13 @@
+// IlvMessageDatabase 5.4 Wed Apr 14 11:25:27 CEST 2010
+// Language: en_US
+// Encoding: US-ASCII
+"&JSErrorList" "Script Error List"
+"&JSErrorListP" "Show the Script Error List"
+"&auxLib" "Auxiliary Library"
+"&is" "IS"
+"&js" "JS"
+"&jsEdition" "IBM ILOG Script Edition"
+"&scriptEditor" "Script Editor"
+"&scriptFile" "Script File"
+"&syntaxErrors" "Syntax errors"
+"&useILOGScript" "Use IBM ILOG Script"

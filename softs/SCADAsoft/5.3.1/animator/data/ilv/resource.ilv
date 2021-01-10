@@ -1,0 +1,70 @@
+// Ilv Version: 2.2
+// File generated: Wed May 24 11:05:53 1995
+//  IlvGadgetManagerOutput
+Palettes 6
+1 52685 49344 45232  0 0 0  fixed 0 solid solid  0 0 0
+5 "defaultBg" "defaultFg"  %helvetica-14-B 0 solid solid  0 0 0
+0 "defaultBg" "defaultFg"  %helvetica-14- 0 solid solid  0 0 0
+4 "defaultBg" "defaultFg"  fixed 0 solid solid  0 0 0
+2 52685 49344 45232  65535 0 0  fixed 0 solid solid  0 0 0
+3 "defaultBg" "defaultFg"  %times-12- 0 solid solid  0 0 0
+IlvObjects 24
+2 { 0 0 IlvButton 9 10 95 26 F1 2 16 Y "Foreground"  } 64 "Button"  4 "SetFg"     
+2 { 1 1 IlvFilledRectangle 115 14 137 17  } 32 "fg"  320     1  60 2  
+2 { 2 0 IlvButton 262 10 45 26 F1 2 16 Y "New"  } 64 "Button"  68 "NFg"    1  5  
+2 { 3 0 IlvButton 9 39 95 26 F1 2 16 Y "Background"  } 64 "Button"  4 "SetBg"     
+2 { 4 2 IlvFilledRectangle 115 43 137 17  } 32 "bg"  320     1  60 2  
+2 { 5 0 IlvButton 262 39 45 26 F1 2 16 Y "New"  } 64 "Button"  68 "NBg"    1  5  
+2 { 6 0 IlvButton 9 68 95 26 F1 2 16 Y "Font"  } 64 "Button"  4 "SetFnt"     
+2 { 7 1 IlvFilledRectangle 111 99 71 21  } 32 "pattern"  0      
+2 { 8 0 IlvButton 9 97 95 26 F1 2 16 Y "Pattern"  } 64 "Button"  4 "SetP"     
+2 { 9 3 IlvComboBox 190 98 117 23 F0 2 12
+"solid""solid"
+"clear"
+"gray"
+"cross"
+"dark1"
+"dark2"
+"dark3"
+"dark4"
+"light1"
+"light2"
+"light3"
+"light4"
+ } 96 "patternc" "ComboBox"  324 "Pattern"    1  5 2  
+2 { 10 0 IlvButton 9 126 95 26 F1 2 16 Y "Line Style"  } 64 "Button"  4 "SetL"     
+2 { 11 1 IlvLine 111 138 182 138  } 32 "ls"  0      
+2 { 12 3 IlvComboBox 190 127 117 23 F0 2 8
+"solid""solid"
+"dash"
+"dot"
+"dashdot"
+"dashdoubledot"
+"alternate"
+"doubledot"
+"longdash"
+ } 96 "lsc" "ComboBox"  324 "LS"    1  5 2  
+2 { 13 0 IlvButton 9 155 95 26 F1 2 16 Y "Line Width"  } 64 "Button"  4 "SetW"     
+2 { 14 1 IlvLine 111 167 182 167  } 32 "lw"  0      
+2 { 15 3 IlvComboBox 190 156 117 23 F0 2 7
+"0""0"
+"1"
+"2"
+"3"
+"4"
+"5"
+"6"
+ } 96 "lwc" "ComboBox"  324 "LW"    1  5 2  
+2 { 16 4 IlvReliefLine 5 187 307 187 2 } 0  448     1  5 1  40 2  
+2 { 17 5 IlvButton 5 194 60 30 F1 2 16 Y "Apply"  } 96 "apply" "Button"  132 "apply"    1  5  
+2 { 18 5 IlvButton 70 194 60 30 F1 2 16 Y "Reset"  } 96 "reset" "Button"  132 "reset"    1  5  
+2 { 19 5 IlvButton 247 194 60 30 F1 2 16 Y "Close"  } 96 "cancel" "Button"  196 "cancel"    1  5 1  5  
+2 { 20 3 IlvRectangle 111 39 146 26  } 0  320     1  55 2  
+2 { 21 3 IlvRectangle 110 10 147 26  } 0  320     1  55 2  
+2 { 22 3 IlvComboBox 111 68 146 26 F0 2 3
+"Default""Default"
+"bold"
+"large"
+ } 96 "fnt" "ComboBox"  324 "selectFont"    1  55 2  
+2 { 23 0 IlvButton 262 67 45 26 F1 2 16 Y "New"  } 64 "Button"  68 "NFnt"    1  5  
+Size 312 229

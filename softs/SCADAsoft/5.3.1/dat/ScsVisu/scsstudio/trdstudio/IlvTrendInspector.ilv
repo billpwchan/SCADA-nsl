@@ -1,0 +1,107 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:11 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "IlvTrendInspector"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\trdstudio\\IlvTrendInspector.ilv"
+Palettes 2
+"defaultGadget" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+0 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 11
+0 { 0 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&add" 4 4 ]
+0 IlvButton 10 387 19 23 F67108893 1 { IlvMessageItem 262147 4 16 4 "" 1 0 "add.png"  }   } 544 "AddCurve"
+1
+1 "__ilvCallback" "AddCurve"
+0
+0 { 1 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&remove" 4 4 ]
+0 IlvButton 58 387 19 23 F67108893 1 { IlvMessageItem 262146 4 16 4 3 0 "removitm.png" "" ""  }   } 544 "RemoveCurve"
+1
+1 "__ilvCallback" "RemoveCurve"
+0
+0 { 2 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&MoveUp" 4 4 ]
+1 IlvButton 154 387 17 23 F67108895 1 { IlvMessageItem 262147 4 16 4 "" 1 0 "up.png"  }   200 } 544 "UpCurve"
+1
+1 "__ilvCallback" "UpCurve"
+0
+0 { 3 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&MoveDown" 4 4 ]
+1 IlvButton 176 387 17 23 F67108895 1 { IlvMessageItem 262147 4 16 4 "" 1 0 "down.png"  }   200 } 544 "DownCurve"
+1
+1 "__ilvCallback" "DownCurve"
+0
+1 { 4 P 2
+[ IlvPanelObjectReference IlvPanelObjectReference  "958124780.0" ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvNotebook 214 10 440 367 F1 2 0 2  6
+" { IlvNotebookPageItem 3 2 4 "&Global" 1 0 "global.png"  }  B ""
+" { IlvNotebookPageItem 3 2 4 "&Pen" 1 0 "pen.png"  }  B ""
+" { IlvNotebookPageItem 3 2 4 "&Data" 1 0 "data.png"  }  B ""
+" { IlvNotebookPageItem 3 2 4 "&Horizontal" 1 0 "horizontal.png"  }  B ""
+" { IlvNotebookPageItem 3 2 4 "&Vertical" 1 0 "vertical.png"  }  B ""
+" { IlvNotebookPageItem 3 2 4 "&Test" 1 0 "icplug.png"  }  B ""
+0 0 4 5 2 0 0 0 0  } 32 "TrendPages"
+6144 "ClearData" "Button_1"
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvStringList 10 30 184 347 F1475 2 Y Y 0 0 0 0 0 4 0 0 V0 2 2 0 } 32 "CurveList"
+6144 "TrendPages" "Close"
+1 { 6 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&insert" 4 4 ]
+0 IlvButton 34 387 19 23 F67108893 1 { IlvMessageItem 262146 4 16 4 3 0 "insert.png" "" ""  }   } 544 "InsertCurve"
+1
+1 "__ilvCallback" "InsertCurve"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 10 10 156 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Defined_curves"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 574 387 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Close"  }   } 544 "Close"
+1
+1 "__ilvCallback" "Close"
+10240 "CurveList"
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 486 387 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Refresh"  }   } 544 "Refresh"
+1
+1 "__ilvCallback" "Refresh"
+4096 "ClearData"
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 398 387 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&ClearData"  }   } 544 "ClearData"
+1
+1 "__ilvCallback" "ClearData"
+6144 "Refresh" "TrendPages"
+Size 664 420
+GeometryHandlers
+2 100 0 204 0 204 0
+ 0 0 460 204 460 204
+6 3 0 0 10  184 0 184 5  0 0 10 0
+ 3 0 0 34  0 0 19 6  611 0 611 1
+ 3 0 0 10  0 0 19 0  635 0 635 1
+ 3 0 0 58  0 0 19 1  587 0 587 1
+ 3 154 0 154  0 0 17 2  0 0 33 0
+ 3 176 0 176  0 0 17 3  0 0 11 0
+2 3 0 0 10  440 0 440 4  0 0 10 1
+ 3 370 0 370  0 0 80 8  0 0 10 1
+1 100 0 420 0 420 0
+8 3 0 0 30  347 0 347 5  0 0 43 0
+ 3 387 0 387  0 0 23 6  0 0 10 0
+ 3 387 0 387  0 0 23 0  0 0 10 0
+ 3 387 0 387  0 0 23 1  0 0 10 0
+ 3 387 0 387  0 0 23 2  0 0 10 0
+ 3 387 0 387  0 0 23 3  0 0 10 0
+ 3 0 0 10  367 0 367 4  0 0 43 0
+ 3 387 0 387  0 0 23 8  0 0 10 0
+Layers 2
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

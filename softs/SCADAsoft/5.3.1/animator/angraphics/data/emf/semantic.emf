@@ -1,0 +1,69 @@
+## -------------------------------------------------------------- -*- MSG -*-
+##     SYSECA                                 Animator
+##                                            [DATA]
+## --------------------------------------------------------------------------
+## The information contained in this document is proprietary to Animator's
+##   group of SYSECA and shall not be disclosed by the recipent to third
+##             persons without the written consent of SYSECA
+## --------------------------------------------------------------------------
+##         file: semantic.emf
+##  description: ANIMATOR error message file 
+##     creation: 1997/04/24
+##       author: olivier
+## --------------------------------------------------------------------------
+## $Id: semantic.emf,v 1.7 1997/07/16 14:54:40 olivier Exp $
+##
+## $Log: semantic.emf,v $
+## Revision 1.7  1997/07/16 14:54:40  olivier
+## *** empty log message ***
+##
+## Revision 1.6  1997/06/19 17:17:52  olivier
+## .
+##
+## Revision 1.5  1997/06/03 15:09:17  olivier
+## *** empty log message ***
+##
+## Revision 1.4  1997/05/29 15:26:14  olivier
+## *** empty log message ***
+##
+## Revision 1.3  1997/05/27 08:03:25  olivier
+## *** empty log message ***
+##
+## Revision 1.2  1997/05/26 09:01:16  olivier
+## *** empty log message ***
+##
+## Revision 1.1  1997/05/20 11:15:41  olivier
+## Initial revision
+##
+##
+## --------------------------------------------------------------------------
+COMPONENT=semantic,Smt
+InvalidSeparator(const char) {
+  english="Invalid path name separator '%c'"
+  french="Separateur de chemin invalide '%c'"
+}
+InvalidObjectName(const char*)
+{
+  english="Invalid object name '%s'"
+  french="Nom d'objet invalide '%s'"
+}
+InvalidObjectId(size_t)
+{
+  english="Invalid object identifier : %ld"
+  french="Identificateur d'objet invalide: %ld "
+}
+DuplicateObjectName(const char*)
+{
+  english="Duplicate object name '%s' or duplicate index not allowed"
+  french="Nom d'objet '%s' ou index deja utilise"
+}
+BadRelativeAddressing(const char*)
+{
+  english="Bad relative hierarchical addressing : object '%s' unknown"
+  french="Adressage hierarchique relatif incorrect : objet '%s' inconnu"
+}
+BadAbsoluteAddressing(const char*)
+{
+  english="Bad absolute hierarchical addressing : object '%s' unknown"
+  french="Adressage hierarchique absolu incorrect : objet '%s' inconnu"
+}

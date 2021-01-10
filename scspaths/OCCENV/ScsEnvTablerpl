@@ -1,0 +1,47 @@
+Define Environment { 
+  Define Server "RplReplayMgr" {
+    Phase = 1
+    Termination = NONE	
+    Snapshot = FOREGROUND
+    Shutdown order = 1
+    Supervision = PUSH
+    Run string = "scsrplreplaymgr"
+    Init timeout = 999
+  }
+  Define Server "DbmServer" { 
+    Phase = 10 
+    Termination = SHUTDOWN 
+    Snapshot = BACKGROUND 
+    Shutdown order = 10 
+    Supervision = PUSH
+    Init timeout = 50000 
+    Run string = "scsrpledbserver" 
+  } 
+  Define Server "DbmPoller" { 
+    Phase = 20 
+    Termination = RETRY 
+    Snapshot = FOREGROUND 
+    Shutdown order = 20 
+    Supervision = PUSH
+    Run string = "dbpoller" 
+    Init timeout = 300 
+  } 
+  Define Server "AlmServer" { 
+    Phase = 20 
+    Termination = SHUTDOWN 
+    Snapshot = FOREGROUND 
+    Shutdown order = 20 
+    Supervision = PUSH
+    Run string = " scsrplealarmserver -p 1000" 
+    Init timeout = 5000 
+  }
+  Define Server "LstServer" {
+    Phase = 64
+    Termination = RETRY
+    Snapshot = FOREGROUND
+    Shutdown order = LAST - 3
+    Supervision = PUSH
+    Init timeout = 600
+    Run string = "lstserver -a"
+  }
+} 

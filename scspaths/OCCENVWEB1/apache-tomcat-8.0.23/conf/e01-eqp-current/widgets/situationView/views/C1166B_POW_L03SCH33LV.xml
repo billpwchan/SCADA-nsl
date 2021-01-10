@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_POW_L03SCH33LV" resolution="2.99874686717 2.49895572264 2.0824631022 1.7353859185 1.44615493208 1.20512911007 1.00427425839 0.836895215326 0.697412679438 0.581177232865" maxExtent="0.0 0.0 4786.0 2443.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_POW_L03SCH33LV.svg" width="4786.0" height="2443.0" bounds="0.0 0.0 4786.0 2443.0" name="C1166B_POW_L03SCH33LV" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Background" type="OVERLAY">
+            <entityEntry x="3163.0" y="200.0" symbolId="C1166B_LV__CAB_" entityId="OCC_CTVLV_CAB_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+        </symbolLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="2299.0" y="604.0" symbolId="C1166B_LV__ACB_" entityId="OCC_CTVLV_ACB_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1367.0" y="201.0" symbolId="C1166B_LV__CAB_" entityId="OCC_CTVLV_CAB_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+        </symbolLayer>
+        <symbolLayer name="Pscada_Line" type="OVERLAY">
+            <entityEntry x="1944.0" y="1248.0" symbolId="C1166B_LV__CLP_" entityId="OCC_CTVLV_CLP_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="2652.0" y="1248.0" symbolId="C1166B_LV__CLP_" entityId="OCC_CTVLV_CLP_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

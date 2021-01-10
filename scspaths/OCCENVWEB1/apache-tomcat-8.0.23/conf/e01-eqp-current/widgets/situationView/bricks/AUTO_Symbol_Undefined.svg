@@ -1,0 +1,12 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="AUTO_Symbol_Undefined"><g id="_C1166B_SYMBOLS_ECT_C1166B_ECT_AUTO_0_UNDEFINED_SVG" transform="translate(-100.0 -100.0)scale(1.0 1.0)"><rect x="22.0" fill="red" width="156.0" height="56.0" y="72.0" opacity="0"/><g id="ECT/C1166B_ECT_AUTO_0_Undefined" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <rect x="-75px" y="-25px" fill="#E5E5E5" width="150px" fill-rule="evenodd" class="AnRectangle" height="50px"/>
+
+  
+  <polyline fill="none" stroke-width="3px" class="AnPolyline" points="75,-25 -75,-25 -75,25 " stroke="#D2D2D2"/>
+
+  
+  <polyline fill="none" stroke-width="3px" class="AnPolyline" points="-75,25 75,25 75,-25 " stroke="#989898"/>
+
+</g></g></g></svg>

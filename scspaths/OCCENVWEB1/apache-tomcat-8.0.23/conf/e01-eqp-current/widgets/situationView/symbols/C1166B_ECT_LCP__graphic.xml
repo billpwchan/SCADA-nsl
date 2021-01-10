@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_ECT_LCP__graphic">
+        <root>
+            <svgGroup id="C1166B_ECT_LCP__LCP__State_Selected_LCP__State_Selected_MO_LCP__State_Empty_LCP__State_Invalid_LCP__State_MO">
+                <svgRef brickId="LCP__State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_LCP__LCP__Symbol_Local_LCP__Symbol_Remote_LCP__Symbol_Undefined_LCP__Symbol_Local_Blink_LCP__Symbol_Remote_Blink">
+                <svgRef brickId="LCP__Symbol_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

@@ -1,0 +1,6 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="ECS_MSFC_V_Alarm_Blink"><g id="_C1166B_SYMBOLS_ECS_C1166B_ECS_MSFC_4_ALARM_SVG" transform="translate(-100.0 -100.0)scale(1.0 1.0)"><rect x="55.0" fill="red" width="90.0" height="90.0" y="55.0" opacity="0"/><g id="ECS/C1166B_ECS_MSFC_4_Alarm" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polygon fill="#FF0000" class="AnPolygon" fill-rule="evenodd" points="-45,36 36,-45 44,-36 -36,44 "/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

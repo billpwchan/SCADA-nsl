@@ -1,0 +1,43 @@
+// --------------------------------------------------------------------------
+//
+//      SYSECA Dss Studio 1.0 configuration
+//
+// --------------------------------------------------------------------------
+
+studio {
+
+  bufferSize            400 x 400;
+  documentWindowSize    420 x 350;
+
+  dragDropPalette "DssSteps" {
+    dataFileName "dssstudio/p_steps.ilv";
+    label "&DssSteps";
+    bitmap "dssstudio/icons/dssmainw.png";
+    path "ScadaSoft";
+  }
+
+  defaultDragDropPalette "Gadgets";
+
+  toolBarItem - Main;
+  toolBarItem CheckScenarioConsistency Main;
+  toolBarItem GenerateAnimatorFiles Main;
+  toolBarItem - Main;
+
+  toolBarCommands DssScenarioBuffer {
+    SelectSelectionMode,
+    -,
+    SelectTranslateMode,
+    -,
+    SelectZoomMode,
+    SelectUnZoomMode,
+    -,
+    SelectOrientedLinkMode,
+    SelectPolylineLinkMode,
+    -
+  }
+
+  // Inlude other configuration files
+  panelFile   "dssstudio/dssstudio.pnl";
+  commandFile "dssstudio/dssstudio.cmd";
+  messageDB   "dssstudio/dssstudio.dbm";
+}

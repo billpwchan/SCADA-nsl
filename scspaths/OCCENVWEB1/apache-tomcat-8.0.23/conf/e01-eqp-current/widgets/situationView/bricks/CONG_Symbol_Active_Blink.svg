@@ -1,0 +1,9 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="CONG_Symbol_Active_Blink"><g id="_C1166B_SYMBOLS_SIG_C1166B_SIG_CONG_2_ACTIVE_SVG" transform="translate(-99.0 -99.0)scale(1.0 1.0)"><rect x="40.0" fill="red" width="120.0" height="120.0" y="40.0" opacity="0"/><g id="SIG/C1166B_SIG_CONG_2_Active" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <circle fill="#FF0000" r="60.00px" cx="0px" class="AnCircle" fill-rule="evenodd" cy="0px"/>
+
+  
+  <circle fill="none" r="60.00px" cx="0px" class="AnCircle" cy="0px" stroke="#000000" stroke-width="2px"/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

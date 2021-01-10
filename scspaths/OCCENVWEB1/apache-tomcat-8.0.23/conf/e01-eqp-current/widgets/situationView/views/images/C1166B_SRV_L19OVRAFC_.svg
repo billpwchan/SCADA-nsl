@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="1043" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 2043 1043" width="2043">
+
+  
+  <g class="AnLayer" id="AnDefaultLayer">
+
+    
+    <polyline class="AnPolyline" fill="none" points="52,81 1844,81 1844,930 52,930 52,81 " stroke="#000000" stroke-width="3px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <polyline class="AnPolyline" fill="none" points="1628,155 1794,155 1794,281 1628,281 1628,155 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1479,155 1628,155 1628,281 1479,281 1479,155 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1499,761 1765,761 1765,882 1499,882 1499,761 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="92,132 292,132 292,388 92,388 92,132 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="142,388 402,388 402,440 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="405,578 405,598 313,641 313,652 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="316,761 316,857 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1687,448 1687,469 1500,535 1500,549 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="316,857 1399,857 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="292,185 1379,185 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1499,657 1499,763 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1399,761 1499,761 1499,857 1399,857 1399,761 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1379,185 1479,185 1479,281 1379,281 1379,185 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1686,341 1686,281 " stroke="#000000" stroke-width="2px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1906.510010,67.777000)" x="0px" y="12px">Station</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1896.510010,88.777000)" x="0px" y="12px">Computer</text>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Layout_AFC">
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Layout_AFC_Label">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,451.511993,438.777008)" x="0px" y="12px">GAT-121</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,451.511993,468.777008)" x="0px" y="12px">GAT-041</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,451.511993,496.777008)" x="0px" y="12px">GAT-040</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,451.511993,526.776978)" x="0px" y="12px">GAT-039</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,451.511993,557.776978)" x="0px" y="12px">GAT-038</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,360.511993,651.776978)" x="0px" y="12px">GAT-036</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,360.511993,681.776978)" x="0px" y="12px">GAT-035</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,360.511993,709.776978)" x="0px" y="12px">GAT-034</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,360.511993,739.776978)" x="0px" y="12px">GAT-033</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1732.510010,338.777008)" x="0px" y="12px">GAT-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1732.510010,368.777008)" x="0px" y="12px">GAT-002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1732.510010,396.777008)" x="0px" y="12px">GAT-003</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1732.510010,426.777008)" x="0px" y="12px">GAT-004</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1543.510010,547.776978)" x="0px" y="12px">GAT-007</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1543.510010,577.776978)" x="0px" y="12px">GAT-006</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1543.510010,605.776978)" x="0px" y="12px">GAT-005</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1543.510010,635.776978)" x="0px" y="12px">GAT-101</text>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Layout_Room_Label">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,110.342003,518.442017)" x="0px" y="12px">(Unpaid Area)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.512370,0.000000,0.000000,1.512370,1614.250000,807.818970)" x="0px" y="12px">Shop</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.512370,0.000000,0.000000,1.512370,1513.050049,208.819000)" x="0px" y="12px">F.Change</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.512370,0.000000,0.000000,1.512370,1668.339966,208.819000)" x="0px" y="12px">M. Change</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,1670.339966,570.442017)" x="0px" y="12px">(Unpaid Area)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,891.924988,530.442017)" x="0px" y="12px">(Paid Area)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.512370,0.000000,0.000000,1.512370,170.326004,251.819000)" x="0px" y="12px">CUC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.835700,0.000000,0.000000,2.835700,844.903992,964.179993)" x="0px" y="12px">FOT Concourse</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,894.924988,503.441986)" x="0px" y="12px">Concourse</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,123.925003,492.441986)" x="0px" y="12px">Concourse</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.969230,0.000000,0.000000,1.969230,1683.920044,543.442017)" x="0px" y="12px">Concourse</text>
+
+  
+  </g>
+
+</svg>

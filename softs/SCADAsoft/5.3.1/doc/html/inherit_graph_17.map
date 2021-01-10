@@ -1,0 +1,3 @@
+<map id="G" name="G">
+<area shape="rect" href="$classDbmDirectData.html" title="This class is used to store the address of a database point attribute, and, eventually, its value and its type and, if you are on a local machine, DbmDataDirect have a pointer on share memory allowing direct read in memory." alt="DbmDirectData" coords="19,7,133,33" />
+</map>

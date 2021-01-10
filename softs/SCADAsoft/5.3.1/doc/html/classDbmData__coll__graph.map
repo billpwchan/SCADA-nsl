@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" href="$classScsAddress.html" title="This class represents a database address." alt="ScsAddress" coords="7,17,89,44" />
+<area shape="rect" href="$classScsData.html" title="This class represents a database value." alt="ScsData" coords="123,17,184,44" />
+</map>

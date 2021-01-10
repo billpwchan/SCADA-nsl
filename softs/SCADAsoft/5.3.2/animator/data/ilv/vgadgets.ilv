@@ -1,0 +1,76 @@
+// Ilv Version: 2.1
+// File generated: Mon Sep 26 15:34:25 1994
+//  IlvVariableGadgetManagerOutput
+Palettes 3
+0 48830 48830 48830  0 0 0  %helvetica-14- 0 solid solid  0 0 0
+1 48830 48830 48830  0 0 0  %helvetica-14-B 0 solid solid  0 0 0
+2 48830 48830 48830  0 0 0  %times-12- 0 solid solid  0 0 0
+IlvObjects 26
+2 { 0 0 IlvToggle 85 331 75 16 2 1 0 14 0 Y "Toggle"  } 0 0
+2 { 1 0 IlvTextField 7 34 154 23 2 0 "Text Field" } 0 0
+2 { 2 0 IlvLabel 7 341 "Label" } 0  0
+2 { 3 1 IlvMenuBar 7 3 154 29 F0 2 3
+"item1"
+"item2"
+"item3"
+N Y 2 IlvPopupMenu 0 0 8 4 2 0
+  Y 2 IlvPopupMenu 0 0 8 4 2 0
+   } 64 "MenuBar"  0    
+2 { 4 0 IlvComboBox 7 171 154 21 F0 2 3
+"ComboBox""item1"
+"item2"
+"item3"
+ } 64 "ComboBox"  0    
+2 { 5 0 IlvOptionMenu 7 145 154 22 2 3 0
+"item1"
+"item2"
+"item3"
+ } 64 "OptionMenu"  0    
+2 { 6 1 IlvButton 7 62 73 27 2 Y "button"  } 0 0    
+2 { 7 0 IlvScrolledStringList 70 244 72 58 2 0 1  0 4
+"item1"
+"item2"
+"item3"
+"item10 very long item must use scrollbar"
+ Y  Y  } 64 "ScrolledStringList"  0    
+2 { 8 0 IlvStringList 7 244 49 76 2 0 1  0 3
+"item1"
+"item2"
+"item3"
+ } 64 "StringList"  0    
+2 { 9 0 IlvText 7 195 154 42 2 0 2
+"Text"
+"multi lines"
+ } 64 "Text"  0    
+2 { 10 2 IlvSlider  116 389 18 120 2  0 100 50 10 64  } 0 0    
+2 { 11 2 IlvScrollBar  142 387 19 122 2 0 100 50 10 1 10 64  } 0 0    
+2 { 12 2 IlvSlider  7 388 96 19 2  0 100 50 10 32  } 0 0    
+2 { 13 2 IlvScrollBar  7 414 98 17 2 0 100 50 10 1 10 32  } 0 0    
+2 { 14 0 IlvGadget 90 61 70 26 2  } 0  0    
+2 { 15 0 IlvScrolledComboBox 7 121 154 21 F0 2 8
+"SCCombo""A"
+"B"
+"C"
+"D"
+"E"
+"F"
+"G"
+"H"
+ } 64 "SComboBox"  0    
+2 { 16 0 IlvMessageLabel 7 94 154 21 0 "MessageLabel" 1  } 0  0    
+4 { 17 0 IlvColoredToggle 82 360 78 16 2 1 0 14 0 Y "Colored"  0 0 0  } 0 0
+6 { 18 1 IlvPopupMenu 7 436 49 80 2 4
+2 "item1" 2 "item2" 0  2 "item3"  } 64 "Popup"  0    
+6 { 19 0 IlvListLabel 7 350 1 2
+"Multi lines"
+"label" } 0  0    
+6 { 20 0 IlvLabel 65 458 "Edit" } 0  0    
+6 { 21 0 IlvLabel 65 484 "File" } 0  0    
+6 { 22 0 IlvLabel 65 508 "Quit" } 0  0    
+7 { 23 2 IlvMatrix 7 519 67 72 2 1 1 1 21 34 1 1 0 0 1 1 1 3 2 0 1  N 0 0  } 64 "MatrixSelector"  0    
+7 { 24 2 IlvScrolledMatrix 77 519 71 57 2 1 1 1 22 31 1 1 0 0 1 0 1 3 2 0 1  N 0 0  1  1  } 64 "ScrolledMatrix"  0    
+7 { 25 2 IlvSheet 7 598 136 60 2 1 1 1 40 20 1 1 1 1 0 0 1 4 4 6 0 1 64 2 1 0 2 64 2 2 0 3 64 2 3 1 0 64 2 1 
+2 0 64 2 2 
+3 0 64 2 3 
+1  N 0 0  1  1  } 0 0
+Variables 0

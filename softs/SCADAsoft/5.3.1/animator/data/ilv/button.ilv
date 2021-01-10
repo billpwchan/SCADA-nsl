@@ -1,0 +1,26 @@
+// Ilv Version: 2.3
+// File generated: Tue Nov 12 19:22:36 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 2
+1 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 14
+2 { 0 0 IlvTextField 27 51 105 22 F6 2 1 -1 0 "" } 32 "label" 10576 "bitmap" 1 27 1 168 2
+2 { 1 0 IlvFileSelectorField 27 102 105 22 F6 2 1 -1 0 "" } 32 "bitmap" 6480 "position" "label" 1 27 1 168 2
+2 { 2 0 IlvReliefLine 0 190 300 190 1 } 32 "line" 464 1 0 1 0 1 35 2
+2 { 3 1 IlvButton 5 198 62 23 F1 2 16 Y "&apply" } 32 "Button_1" 6292 "apply" "Button_2" "period" 1 5 1 5
+2 { 4 1 IlvButton 231 198 64 23 F1 2 16 Y "&close" } 32 "Button_2" 4292 "cancel" "Button_1" 1 5 1 5
+2 { 5 0 IlvMessageLabel 15 26 55 23 F1 0 "&label" 1 } 0 16 1 15
+2 { 6 0 IlvMessageLabel 15 76 56 24 F1 0 "&bitmap" 1 } 0 16 1 15
+2 { 7 0 IlvMessageLabel 15 128 56 23 F1 0 "&position" 1 } 0 16 1 15
+2 { 8 0 IlvComboBox 27 154 105 20 F1 2 3 "&left"
+"&left"
+"&center"
+"&right" } 32 "position" 6480 "repeat" "bitmap" 1 27 1 168 2
+3 { 9 1 IlvFrame 5 5 143 178 0 "&label" 1 } 32 "Frame_1" 3056 "label" 1 5 1 5 1 152 1 43 2 2
+3 { 10 1 IlvFrame 153 5 142 178 0 "&autorepeat" 1 } 0 736 1 5 1 5 1 43 2
+3 { 11 0 IlvToggle 172 51 102 17 F1 2 1 2 0 0 0 Y "&autorepeat" } 32 "repeat" 6208 "period" "position" 1 26
+3 { 12 0 IlvSpinBox 172 102 108 22 2 0 200 32 2 1
+0 IlvNumberField 172 102 66 22 F6 2 2 -1 0 "200" . , 6 0 50 10000  f 1 0 10 200 } 32 "period" 6208 "Button_1" "repeat" 1 20
+3 { 13 0 IlvMessageLabel 172 76 111 22 0 "&period" 1 } 0 64 1 17
+Size 300 226

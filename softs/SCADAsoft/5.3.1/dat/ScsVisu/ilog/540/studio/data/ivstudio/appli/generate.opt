@@ -1,0 +1,13 @@
+// 
+//	    ILOG Views Studio 4.0 configuration
+//		Application Generation Extension
+// 
+studio {
+
+    commandFile			"ivstudio/appli/generate.cmd";
+    panelFile			"ivstudio/appli/generate.pnl";
+
+    toolBarCommands IlvStApplicationBuffer {
+	Generate
+    }
+}

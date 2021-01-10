@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="2404" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 4320 2404" width="4320">
+
+  
+  <g class="AnLayer" id="AnDefaultLayer">
+
+    
+    <polyline class="AnPolyline" fill="none" points="934,1919 1142,1919 1142,2062 934,2062 934,1919 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2123,1919 2331,1919 2331,2062 2123,2062 2123,1919 " stroke="#000000" stroke-width="2px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-dasharray=" 6 8" stroke-dashoffset="0" stroke-width="2px" x1="63px" x2="3151px" y1="946px" y2="946px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3763px" x2="3763px" y1="22px" y2="2377px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3488px" x2="3488px" y1="127px" y2="2377px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3208px" x2="4295px" y1="1292px" y2="1292px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3208px" x2="4295px" y1="127px" y2="127px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3208px" x2="4295px" y1="22px" y2="22px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="4295px" x2="4295px" y1="22px" y2="2377px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="4295px" x2="3208px" y1="2377px" y2="2377px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3208px" x2="3208px" y1="2377px" y2="22px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="809px" x2="2454px" y1="2215px" y2="2215px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2454px" x2="2454px" y1="2215px" y2="2331px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2454px" x2="809px" y1="2331px" y2="2331px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="809px" x2="809px" y1="2331px" y2="2215px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement">
+
+    
+    <g class="ECT_static_wkst Symbol" id="TECS_static_wkst_1_1">
+
+      
+      <rect class="AnRectangle" fill="#B2B2B2" fill-rule="evenodd" height="105px" width="130px" x="1558px" y="334px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="15px" width="100px" x="1573px" y="439px" />
+
+      
+      <polygon class="AnPolygon" fill="#B2B2B2" fill-rule="evenodd" points="1573,454 1558,454 1538,494 1708,494 1688,454 1573,454 " />
+
+      
+      <rect class="AnRectangle" fill="none" height="85px" stroke="#000000" stroke-width="1px" width="100px" x="1573px" y="344px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1573px" x2="1673px" y1="439px" y2="439px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1573px" x2="1673px" y1="454px" y2="454px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1558,334 1558,439 1573,439 1573,454 1558,454 1538,494 1708,494 1688,454 1673,454 1673,439 1688,439 1688,334 1558,334 " stroke="#000000" stroke-width="2px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1573px" x2="1673px" y1="464px" y2="464px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1563px" x2="1683px" y1="474px" y2="474px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1568px" x2="1678px" y1="484px" y2="484px" />
+
+    
+    </g>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.166650,0.000000,0.000000,5.400000,3280.959961,688.400024)" x="0px" y="12px">SSV</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.166650,0.000000,0.000000,5.400000,3280.709961,1788.400024)" x="0px" y="12px">CTV</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1858.119995)" x="0px" y="12px">MFD008</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,843.119995)" x="0px" y="12px">MFD010</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,168.119995)" x="0px" y="12px">MFD001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,243.119995)" x="0px" y="12px">MFD002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,318.119995)" x="0px" y="12px">MFD003</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,393.119995)" x="0px" y="12px">MFD004</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,468.119995)" x="0px" y="12px">MFD005</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,543.119995)" x="0px" y="12px">MFD006</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,618.119995)" x="0px" y="12px">MFD007</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,693.119995)" x="0px" y="12px">MFD008</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,768.119995)" x="0px" y="12px">MFD009</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.166650,0.000000,0.000000,5.400000,3366.790039,33.400002)" x="0px" y="12px">Equipment</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.166650,0.000000,0.000000,5.400000,3778.790039,33.400002)" x="0px" y="12px">Control Location</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1333.119995)" x="0px" y="12px">MFD001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,968.119995)" x="0px" y="12px">TVF001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1043.119995)" x="0px" y="12px">TVF002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1118.119995)" x="0px" y="12px">TVF003</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1193.119995)" x="0px" y="12px">TVF004</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1408.119995)" x="0px" y="12px">MFD002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1483.119995)" x="0px" y="12px">MFD003</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1558.119995)" x="0px" y="12px">MFD004</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1633.119995)" x="0px" y="12px">MFD005</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1708.119995)" x="0px" y="12px">MFD006</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1783.119995)" x="0px" y="12px">MFD007</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,1933.119995)" x="0px" y="12px">MFD009</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,2058.120117)" x="0px" y="12px">TVF001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,2133.120117)" x="0px" y="12px">TVF002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,2208.120117)" x="0px" y="12px">TVF003</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,3523.300049,2283.120117)" x="0px" y="12px">TVF004</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,1478.300049,256.119995)" x="0px" y="12px">MCS Terminal</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(7.749950,0.000000,0.000000,8.100000,1112.819946,64.099998)" x="0px" y="12px">LMC TVS Control Hierarchy</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.166650,0.000000,0.000000,5.400000,73.540001,861.400024)" x="0px" y="12px">MCS</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.166650,0.000000,0.000000,5.400000,65.959999,956.400024)" x="0px" y="12px">TVCS</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,2156.300049,1934.119995)" x="0px" y="12px">CTVB</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.927270,0.000000,0.000000,4.320000,2167.020020,1994.119995)" x="0px" y="12px">MCC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.166650,0.000000,0.000000,5.400000,1490.959961,2236.399902)" x="0px" y="12px">Equipment</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.927270,0.000000,0.000000,4.320000,978.030029,1994.119995)" x="0px" y="12px">MCC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.133340,0.000000,0.000000,4.320000,967.299988,1934.119995)" x="0px" y="12px">SSVB</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.356660,0.000000,0.000000,4.356660,1493.069946,1300.329956)" x="0px" y="12px">LMC MLCP</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.356660,0.000000,0.000000,4.356660,904.961975,1540.319946)" x="0px" y="12px">SSVB LCP </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.356660,0.000000,0.000000,4.356660,2092.909912,1540.319946)" x="0px" y="12px">CTVB LCP </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.356660,0.000000,0.000000,4.356660,340.589996,1013.330017)" x="0px" y="12px">MT LMC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.356660,0.000000,0.000000,4.356660,922.330994,1013.330017)" x="0px" y="12px">MT CTVB</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.356660,0.000000,0.000000,4.356660,1521.920044,1013.330017)" x="0px" y="12px">MT IECC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.356660,0.000000,0.000000,4.356660,2159.239990,1013.330017)" x="0px" y="12px">POT1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.356660,0.000000,0.000000,4.356660,2751.850098,1013.330017)" x="0px" y="12px">POT2 </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.356660,0.000000,0.000000,4.356660,1560.599976,582.325989)" x="0px" y="12px">ILCP </text>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Emcs_Sch_Line">
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3171px" x2="1037px" y1="1850px" y2="1850px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1037px" x2="1037px" y1="1850px" y2="1915px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1038px" x2="3171px" y1="1770px" y2="1770px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2226px" x2="2226px" y1="1850px" y2="1915px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1038px" x2="1038px" y1="1720px" y2="1770px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2226px" x2="2226px" y1="1720px" y2="1770px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="436px" x2="3171px" y1="1240px" y2="1240px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1031px" x2="1031px" y1="1190px" y2="1240px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="436px" x2="436px" y1="1190px" y2="1240px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1626px" x2="1626px" y1="1190px" y2="1240px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2226px" x2="2226px" y1="1190px" y2="1240px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2826px" x2="2826px" y1="1190px" y2="1240px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1626px" x2="1626px" y1="1480px" y2="1530px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3171px" x2="3171px" y1="540px" y2="1850px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1626px" x2="1626px" y1="755px" y2="800px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1626px" x2="3169px" y1="1530px" y2="1530px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1626px" x2="3169px" y1="800px" y2="800px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1038px" x2="1038px" y1="2065px" y2="2215px" />
+
+    
+    <polygon class="AnPolygon" fill="#000000" fill-rule="evenodd" points="1038,2065 1023,2095 1053,2095 1038,2065 " />
+
+    
+    <polygon class="AnPolygon" fill="#000000" fill-rule="evenodd" points="1038,2215 1053,2185 1023,2185 1038,2215 " />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2227px" x2="2227px" y1="2065px" y2="2215px" />
+
+    
+    <polygon class="AnPolygon" fill="#000000" fill-rule="evenodd" points="2227,2065 2212,2095 2242,2095 2227,2065 " />
+
+    
+    <polygon class="AnPolygon" fill="#000000" fill-rule="evenodd" points="2227,2215 2242,2185 2212,2185 2227,2215 " />
+
+    
+    <g>
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1622px" x2="1622px" y1="495px" y2="540px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1621px" x2="3170px" y1="540px" y2="540px" />
+
+    
+    </g>
+
+  
+  </g>
+
+</svg>

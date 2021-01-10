@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=2.5.6.13,ou=objectClasses,cn=core,ou=schema
+m-supobjectclass: applicationEntity
+m-may: knowledgeInformation
+m-typeobjectclass: STRUCTURAL
+m-oid: 2.5.6.13
+m-name: dSA
+m-description: RFC2256: a directory system agent (a server)
+m-obsolete: FALSE
+entryParentId: f11785cd-45c2-4372-a455-9f5df1817369
+createTimestamp: 20140513151220.332Z
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+entryUUID: 5e1f8675-ad82-4a48-91c0-31dda7d4c41d
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.754000Z#000000#000#000000

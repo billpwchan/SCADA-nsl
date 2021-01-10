@@ -1,0 +1,175 @@
+// -------------------------------------------------------------- -*- C++ -*-
+//         Emmanuel Bonnet 19/11/99
+//     SYSECA Pnl Studio 1.0 configuration
+//
+
+studio {
+
+  defaultApplicationName    ScsApplication;
+  defaultBufferName         ScsBuffer;
+
+  panelHeaderFile           "<ilviews/gadgets/gadcont.h>";
+  applicationBaseClass      ScsApplication;
+  applicationFileExtension  ".iva";
+  dataFileExtension         ".ilv";
+
+  alignmentSpacing          5;
+
+  toolTip                   True;
+
+  movingPointer             True;
+//  startUpCommand            DoubleBuffering;
+ // startUpCommand            OpaqueMoving;
+
+  objectInteractor          None;
+  recentFileListLength      10;
+
+  fileBrowserType           "(*.ilv|*.iva)" "&commonFilesFilter";
+  fileBrowserType           "*.ilv" "&dataFilesFilter";
+  fileBrowserType           "*.iva" "&appliFilesFilter";
+
+  fileLoader                "ilv" "OpenBuffer";
+  fileLoader                "iva" "OpenApplication";
+
+  userSubClassPrefix        "MyScs";
+  version                   10;
+  studioShortName           "ScsStudio";
+  editionName               "THALES Information Systems\nSCADAsoft's Panel Builder";
+
+  bufferSize                400 x 600;
+  documentWindowSize        420 x 350;
+  infoPanelDuration         1;
+
+  // ILOG Charts are not managed (see TrdStudio)
+  removeDragDropPalette     "Charts";
+  
+  // Grapher
+  removeDragDropPalette     "Grapher";
+  removeDragDropPalette     "GrapherLinks";
+  removeDragDropPalette     "GrapherViews";
+  
+  // ActiveXAdapter
+  removeDragDropPalette     "ActiveXAdapter";
+  removeDragDropPalette     "Appframe";
+  
+  // Graphics
+  removeDragDropPalette     "Old Charts";
+    
+  // Prototypes Ilv
+  removeDragDropPalette     "_IlvPrototypes";
+  
+  dragDropPalette "ScadaSoft" {
+    label "SCADAsoft";
+    bitmap "pnlstudio/icons/toupiew.png";
+  }
+  dragDropPalette "Scada1" {
+    dataFileName "pnlstudio/p_scada_root.ilv";
+    label "&ScadaTools";
+    bitmap "pnlstudio/icons/tools.png";
+    path "ScadaSoft";
+  }
+  dragDropPalette "Scada2" {
+    dataFileName "pnlstudio/p_scada.ilv";
+    label "&ScadaGadgets";
+    bitmap "pnlstudio/icons/toupiew.png";
+    path "ScadaSoft";
+  }
+
+  dragDropPalette "Customize" {
+    dataFileName "pnlstudio/p_customize.ilv";
+    label "&Project_specific";
+    bitmap "pnlstudio/icons/paneledt.png";
+  }
+  dragDropPalette "Customize1" {
+    dataFileName "scs_resources.ilv";
+    label "&ResourcesPal";
+    bitmap "pnlstudio/icons/icrespan.png";
+    path "Customize";
+  }
+  dragDropPalette "Customize2" {
+    dataFileName "scs_graphics.ilv";
+    label "&GraphicsPal";
+    bitmap "pnlstudio/icons/icgraphic.png";
+    path "Customize";
+  }
+  dragDropPalette "Customize3" {
+    dataFileName "scs_gadgets.ilv";
+    label "&GadgetsPal";
+    bitmap "pnlstudio/icons/icfocus.png";
+    path "Customize";
+  }
+
+  removeToolBarItem TestDocument Main;
+  
+  removeToolBarItem - Main;
+  removeToolBarItem - Main;
+  removeToolBarItem - Main;
+  removeToolBarItem - Main;
+  removeToolBarItem - Main;
+  removeToolBarItem - Main;
+
+  toolBarItem SetDialoguePath Main -before SaveDocument;
+
+  toolBarItem TestDocument Main;
+
+  toolBarItem ScriptEditor Main;
+  toolBarItem - Main -before ScriptEditor;
+  toolBarItem FormulaEditor Main;
+  toolBarItem SCADACommand Main;
+
+  removeToolBarItem ShowInspector Main;
+  removeToolBarItem ShowCommandPanel Main;
+  removeToolBarItem ShowClassPalette Main;
+  removeToolBarItem EditApplication Main;
+  removeToolBarItem ShowApplicationInspector Main;
+  // IV5
+  removeToolBarItem MakeFilteredGraphic Main;
+  
+  removeToolBarItem ShowScriptEditor Main;
+  removeToolBarItem ShowScriptErrorList Main;
+  removeToolBarItem ShowScriptDebugger Main;
+  toolBarItem - Main -before ClipboardCut;
+  toolBarItem - Main -before Delete;
+  
+  removeToolBarItem SelectActiveMode IlvStGrapherBuffer;
+  removeToolBarItem SelectLabelMode IlvStGrapherBuffer;
+  removeToolBarItem SelectLabelListMode IlvStGrapherBuffer;
+  removeToolBarItem - IlvStGrapherBuffer;
+  removeToolBarItem SelectPolySelectionMode IlvStGrapherBuffer;
+
+  removeToolBarItem MakeNode IlvStGrapherBuffer;
+  removeToolBarItem SelectLinkImageMode IlvStGrapherBuffer;
+  removeToolBarItem SelectOneLinkImageMode IlvStGrapherBuffer;
+  removeToolBarItem SelectOneSplineLinkImageMode IlvStGrapherBuffer;
+  removeToolBarItem SelectDoubleLinkImageMode IlvStGrapherBuffer;
+  removeToolBarItem SelectDoubleSplineLinkImageMode IlvStGrapherBuffer;
+
+  removeToolBarItem - IlvStGrapherBuffer;
+  removeToolBarItem SelectReliefLineMode IlvStGrapherBuffer;
+  removeToolBarItem SelectLineMode IlvStGrapherBuffer;
+  removeToolBarItem SelectArrowLineMode IlvStGrapherBuffer;
+  removeToolBarItem SelectArcMode IlvStGrapherBuffer;
+  removeToolBarItem SelectFilledArcMode IlvStGrapherBuffer;
+  removeToolBarItem SelectPolylineMode IlvStGrapherBuffer;
+  removeToolBarItem SelectPolygonMode IlvStGrapherBuffer;
+  removeToolBarItem SelectSplineMode IlvStGrapherBuffer;
+  removeToolBarItem SelectFilledSplineMode IlvStGrapherBuffer;
+  removeToolBarItem SelectClosedSplineMode IlvStGrapherBuffer;
+
+  removeToolBarItem Generate IlvStApplicationBuffer;
+
+  panelFile   "pnlstudio/pnlstudio.pnl";
+  commandFile "pnlstudio/pnlstudio.cmd";
+  messageDB   "pnlstudio/pnlstudio.dbm";
+
+  fontFoundries {
+  	"arial",
+  	"times"
+  }
+
+  fontNames {
+  	"arial",
+  	"times"
+  }
+  	
+}

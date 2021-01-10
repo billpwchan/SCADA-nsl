@@ -1,0 +1,13 @@
+version: 1
+dn: cn=corba,ou=schema
+m-disabled: TRUE
+m-dependencies: system
+m-dependencies: core
+objectclass: metaSchema
+objectclass: top
+cn: corba
+entryParentId: 55e0eb77-3053-4771-b486-0562162fc99e
+entryUUID: 29245e65-cf56-4c10-8574-d57545af80e0
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.395Z
+entryCSN: 20140513151214.348000Z#000007#000#000000

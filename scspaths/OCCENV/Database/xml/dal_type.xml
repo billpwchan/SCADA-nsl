@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="dal_type" numAttributes="9" numInstances="3960" numPeriod_MT="0" numPeriod_ST="0" period_MT="0" period_ST="0">
+<AttributeDescription attrType="STATIC" name="valueTable" replicated="0">
+<StructVector numElementsList="8" numElementsStruct="5">
+<StructFieldDescription name="value">
+<Scalar size="4" valueType="INT32"/>
+</StructFieldDescription>
+<StructFieldDescription name="label">
+<Scalar size="37" valueType="CHARN"/>
+</StructFieldDescription>
+<StructFieldDescription name="state">
+<Scalar size="5" valueType="CHARN"/>
+</StructFieldDescription>
+<StructFieldDescription name="severity">
+<Scalar size="4" valueType="INT32"/>
+</StructFieldDescription>
+<StructFieldDescription name="format">
+<Scalar size="4" valueType="INT32"/>
+</StructFieldDescription>
+</StructVector>
+<StructVectorDefaultValue numElementsList="8">
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+</StructVectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="class_id" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="604"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="dssEventType" replicated="0">
+<Scalar size="21" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="hidden" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="inhibit" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="theme" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="valueAlarmVector" replicated="0">
+<Vector numElements="6">
+<Scalar size="4" valueType="INT32"/>
+</Vector>
+<VectorDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</VectorDefaultValue>
+</AttributeDescription>
+</Class>

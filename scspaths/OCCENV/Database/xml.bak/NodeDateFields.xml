@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="NodeDateFields" numAttributes="24" numInstances="0" numPeriod_MT="" numPeriod_ST="" period_MT="" period_ST="">
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef1" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef10" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef2" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef3" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef4" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef5" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef6" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef7" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef8" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="datef9" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="description" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="label" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef1" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef10" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef2" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef3" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef4" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef5" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef6" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef7" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef8" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="ce_datef9" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+</Class>

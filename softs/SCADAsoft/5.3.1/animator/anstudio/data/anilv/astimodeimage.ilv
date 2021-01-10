@@ -1,0 +1,152 @@
+// Ilv Version: 5.0
+// File generated: Tue Jun 14 10:07:44 2005
+// Creator class: IlvGadgetManagerOutput
+FileName "astimodeimage"
+PathName "D:\\SCADASOFT\\SCSHOME\\animator\\anstudio\\data\\anilv\\astimodeimage.ilv"
+Palettes 2
+"AstInputPalette" 1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 19
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 190 8 110 16 F1 2 1 2 0 0 0 Y "&DBuffering" } 544 "DBuffering"
+1
+1 "__ilvCallback" "doubleBufferingCB"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 5 90 86 18 F268435468 0 { IlvMessageItem 262169 4 16 4 "&comment"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvTextField 93 90 221 44 F6 2 1 -1 0 "" } 544 "ObjectCommentText"
+1
+1 "__ilvCallback" "objectCommentCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 50 5 106 22 F7 2 1 -1 0 "" } 32 "ClassName"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 6 5 43 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Name"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 171 55 134 20 F38 2 1 -1 0 "" 8
+{ IlvMenuItem 1 2 4 "1200%"  } 
+{ IlvMenuItem 1 2 4 "800%"  } 
+{ IlvMenuItem 1 2 4 "400%"  } 
+{ IlvMenuItem 1 2 4 "200%"  } 
+{ IlvMenuItem 1 2 4 "100%"  } 
+{ IlvMenuItem 1 2 4 "50%"  } 
+{ IlvMenuItem 1 2 4 "10%"  } 
+{ IlvMenuItem 1 2 4 "&FitImage"  }  } 544 "ZoomFactor"
+1
+1 "__ilvCallback" "zoomFactorCB"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 13 55 134 20 F1 2 3
+{ IlvMenuItem 65 2 4 "&PanAndZoom"  } 
+{ IlvMenuItem 1 2 4 "&Rectangle"  } 
+{ IlvMenuItem 1 2 4 "&Nims"  }  0  } 544 "PZMode"
+1
+1 "__ilvCallback" "pzModeCB"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 139 309 157 F268435468 0 { IlvMessageItem 262169 4 16 4 "&AnSubImageObjectInfo"  }   } 32 "AnSubImageObjectInfoFrame"
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 128 274 177 16 F1 2 1 2 0 0 0 Y "&SubImagePropagate" } 544 "SubImagePropagate"
+1
+1 "__ilvCallback" "subImagePropagateCB"
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 128 159 177 22 F6 2 1 -1 0 "" } 544 "SubImageGeneratedName"
+1
+1 "__ilvCallback" "subImageGeneratedNameCB"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 159 114 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&AnSubImageGeneratedClass"  }   } 32 "SubImageGeneratedNameLabel"
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 36 151 47 F268435468 0 { IlvMessageItem 262169 4 16 4 "&CurrentPZ"  }   } 0
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 163 36 151 47 F268435468 0 { IlvMessageItem 262169 4 16 4 "&CurrentPZFactor"  }   } 0
+0
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 188 114 21 F268435468 0 { IlvMessageItem 262169 4 16 4 "&DesignateOAP"  }   } 32 "DesignateLabel"
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 128 188 177 22 F39 2 1 -1 0 "" 3
+{ IlvMenuItem 1 2 4 "&InheritedDesignation"  } 
+{ IlvMenuItem 1 2 4 "&YesDesignation"  } 
+{ IlvMenuItem 1 2 4 "&NoDesignation"  }  } 544 "Designate"
+1
+1 "__ilvCallback" "designateCB"
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 128 217 177 22 F39 2 1 -1 0 "" 4
+{ IlvMenuItem 1 2 4 "&DefaultProcessing"  } 
+{ IlvMenuItem 1 2 4 "&ImageCall"  } 
+{ IlvMenuItem 1 2 4 "&ProcedureCall"  } 
+{ IlvMenuItem 1 2 4 "&PopupMenuCall"  }  } 544 "Processing"
+1
+1 "__ilvCallback" "processingCB"
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 217 114 21 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ProcessingLabel"  }   } 32 "ProcessingLabel"
+0
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 246 114 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&CommentOAP"  }   } 32 "DesignateCommentLabel"
+0
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvTextField 128 246 177 22 F6 2 1 -1 0 "" } 544 "DesignateComment"
+1
+1 "__ilvCallback" "designateCommentCB"
+0
+Size 320 300
+GeometryHandlers
+2 100 157 159 0 159 0
+ 100 154 161 159 161 159
+10 3 0 0 5  151 0 151 11  0 0 3 0
+ 3 0 0 13  134 0 134 6  0 0 12 0
+ 3 0 0 93  221 0 221 2  0 0 6 1
+ 3 0 0 5  309 0 309 7  0 0 6 1
+ 3 0 0 128  177 0 177 9  0 0 15 1
+ 3 0 0 128  177 0 177 14  0 0 15 1
+ 3 0 0 128  177 0 177 15  0 0 15 1
+ 3 0 0 128  177 0 177 18  0 0 15 1
+ 3 0 0 50  106 0 106 3  0 0 3 0
+ 3 0 0 128  177 0 177 8  0 0 15 1
+3 3 0 0 12  134 0 134 5  0 0 15 1
+ 3 0 0 4  151 0 151 12  0 0 6 1
+ 3 31 0 31  0 0 110 0  20 0 20 1
+2 100 140 140 0 140 0
+ 0 160 160 140 160 140
+1 3 0 0 90  44 0 44 2  0 0 6 0
+10 3 0 0 134  0 0 16 8  10 0 10 1
+ 3 0 0 19  0 0 22 9  119 0 119 1
+ 3 0 0 48  0 0 22 14  90 0 90 1
+ 3 0 0 77  0 0 22 15  61 0 61 1
+ 3 0 0 106  0 0 22 18  32 0 32 1
+ 3 0 -1 -1  157 0 157 7  0 0 4 1
+ 3 0 0 19  0 0 22 10  119 0 119 1
+ 3 0 0 48  0 0 21 13  91 0 91 1
+ 3 0 0 77  0 0 21 16  62 0 62 1
+ 3 0 0 106  0 0 22 17  32 0 32 1
+EOF

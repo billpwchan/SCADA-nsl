@@ -1,0 +1,40 @@
+//-*-c++-*-
+/******************************************************************************/
+/*                                                                            */
+/*  FILE             : timeclient.idl                                         */
+/*  FULL NAME                :                                                */
+/*----------------------------------------------------------------------------*/
+/*  AUTHOR           : Y. Lozinguez                                           */
+/*  COMPANY          : SYSECA                                                 */
+/*  CREATION DATE    : Mon Dec  7 10:15:00 1998                               */
+/*  LANGUAGE         : C++                                                    */
+/*............................................................................*/
+/*  OVERVIEW                                                                  */
+/*                                                                            */
+/*............................................................................*/
+/*  CONTENTS                                                                  */
+/*                                                                            */
+/******************************************************************************/
+// IDENTIFICATION:
+// $Id: timeclient.idl,v 1.3 1998/12/14 14:22:22 ylo Exp $
+//
+// HISTORY:
+// $Log: timeclient.idl,v $
+// Revision 1.3  1998/12/14 14:22:22  ylo
+// Add ScsProcess inheritance for redundancy.
+//
+
+#ifndef _TIMECLIENT_IDL_
+#define _TIMECLIENT_IDL_
+
+
+#include <scsredtype.idl>
+
+interface TimeClientIdl : ScsProcessIdl {
+  oneway void wakeUp(in ScsTimeValIdl wakeupTime, in long kindOfTime);
+  void syncWakeUpSync(in ScsTimeValIdl wakeupTime);
+  oneway void syncWakeUp(in ScsTimeValIdl wakeupTime);
+};
+
+
+#endif

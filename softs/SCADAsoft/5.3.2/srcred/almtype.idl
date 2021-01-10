@@ -1,0 +1,40 @@
+//-*-c++-*-
+/******************************************************************************/
+/*                                                                            */
+/*  FILE             : almtype.idl                                            */
+/*  FULL NAME                :                                                */
+/*----------------------------------------------------------------------------*/
+/*  AUTHOR           : Y. Lozinguez                                           */
+/*  COMPANY          : SYSECA                                                 */
+/*  CREATION DATE    : Mon Jan 11 12:34:00 1999                               */
+/*  LANGUAGE         : C++                                                    */
+/*............................................................................*/
+/*  OVERVIEW                                                                  */
+/*                                                                            */
+/*............................................................................*/
+/*  CONTENTS                                                                  */
+/*                                                                            */
+/******************************************************************************/
+// IDENTIFICATION:
+// $Id: almtype.idl,v 1.1 1999/02/15 14:04:54 ylo Exp $
+//
+// HISTORY:
+// $Log: almtype.idl,v $
+// Revision 1.1  1999/02/15 14:04:54  ylo
+// Initial revision
+//
+//
+
+#ifndef _ALMTYPE_IDL_
+#define _ALMTYPE_IDL_
+
+
+struct PlinAin {
+  long  plin;
+  long  ain;
+};
+
+typedef sequence<PlinAin>  PlinAinList;
+
+
+#endif

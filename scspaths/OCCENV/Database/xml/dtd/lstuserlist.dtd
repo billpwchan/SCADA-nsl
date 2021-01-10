@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- UserList XML save document type definition -->
+<!ELEMENT UserList (Entry*)>
+<!ATTLIST UserList
+ mode (MANDATORY | CONFIGURED | OPERATOR) #REQUIRED
+ name CDATA #REQUIRED
+ creatorId CDATA #REQUIRED
+ description CDATA #REQUIRED
+ activate (YES | NO) #IMPLIED
+  xml:space (default|preserve) 'preserve'
+>
+<!ELEMENT Entry (Address*)>
+<!ATTLIST Entry
+ index CDATA #REQUIRED
+>
+<!ELEMENT Address EMPTY>
+<!ATTLIST Address
+ value CDATA #REQUIRED
+>

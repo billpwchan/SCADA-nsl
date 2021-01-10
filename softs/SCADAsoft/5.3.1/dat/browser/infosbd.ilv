@@ -1,0 +1,146 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 13:42:27 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "infosbd"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\browser\\infosbd.ilv"
+Palettes 7
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+5 F "yellow" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+4 F 65025 65025 65025 "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+1 F "gray" "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+"default" 3 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+"IlvStToolBar" 2 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+6 F "red" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 34
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 240 30 100 22 F536870919 2 16 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "NbContextField"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 240 60 100 22 F536870919 2 16 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "NbRestitSTField"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 240 90 100 22 F536870919 2 16 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "NbRestitMTField"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 20 140 350 180 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Environment :"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 20 30 200 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ContextNumber :"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 20 60 220 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ShortTermRestitutionNumber :"  }   } 0
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 20 90 220 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&MiddleTermRestitutionNumber :"  }   } 0
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 160 300 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&DirSnapshotBinary"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 260 300 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ServerId"  }   } 0
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 313 530 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Back"  }   } 544 "okbutton"
+1
+1 "__ilvCallback" "okCB"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 210 300 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&DirSnapshotXML"  }   } 0
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 20 325 350 180 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Database"  }   } 0
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 348 150 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&sizeDbk"  }   } 0
+0
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 378 150 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ClassNumber"  }   } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 408 150 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&InstanceNumber"  }   } 0
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 438 150 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&FormulaNumber"  }   } 0
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 240 348 100 22 F536870919 2 16 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "BdSizeField"
+0
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 240 378 100 22 F536870919 2 16 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "BdNbClassesField"
+0
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 240 408 100 22 F536870919 2 16 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "BdNbInstancesField"
+0
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 240 438 100 22 F536870919 2 16 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "BdNbFormulasField"
+0
+1 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 40 180 300 22 F7 2 1 -1 0 "Text Field" } 32 "ScsPathASCIILabel"
+0
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 40 230 300 22 F7 2 1 -1 0 "Text Field" } 32 "ScsPathXMLLabel"
+0
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 40 280 300 22 F7 2 1 -1 0 "Text Field" } 32 "ServerIdLabel"
+0
+1 { 23 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 468 150 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Optimized?"  }   } 0
+0
+1 { 24 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 240 468 100 22 F268435468 0 { IlvMessageItem 262145 4 16 4 "Optimized Text"  }   } 32 "BdOptimizedText"
+0
+1 { 25 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 380 235 300 160 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Legend"  }   } 0
+0
+1 { 26 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 450 256 200 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&DisabledAttribute"  }   } 0
+0
+1 { 27 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 450 288 200 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&EnabledAttribute"  }   } 0
+0
+1 { 28 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 450 320 200 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&EnabledOptimizedAttribute"  }   } 0
+0
+1 { 29 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvMessageLabel 450 352 200 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&UnknownStateAttribute"  }   } 0
+0
+1 { 30 3 IlvReliefRectangle 400 256 40 22 2 } 0
+0
+1 { 31 4 IlvReliefRectangle 400 288 40 22 2 } 0
+0
+1 { 32 5 IlvReliefRectangle 400 320 40 22 2 } 0
+0
+1 { 33 6 IlvReliefRectangle 400 352 40 22 2 } 0
+0
+Size 700 573
+EOF

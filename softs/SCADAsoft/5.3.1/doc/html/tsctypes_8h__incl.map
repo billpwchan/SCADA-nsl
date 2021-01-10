@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$ctlcmd_8h.html" title="Supplies ORB client access to the CTLCMD component server." alt="ctlcmd.h" coords="211,92,275,118" />
+<area shape="rect" href="$ctlgrc_8h.html" title="CTL Grouped Remote Control Server structure for the CTLGRC component." alt="ctlgrc.h" coords="299,92,355,118" />
+<area shape="rect" href="$scs_8h.html" title="General Purpose ScadaSoft Utilities." alt="scs.h" coords="267,241,304,268" />
+<area shape="rect" href="$manager_8h.html" title="Access to the AscManager component." alt="manager.h" coords="247,166,324,193" />
+<area shape="rect" href="$scsdefs_8h.html" title="Definition of priority levels." alt="scsdefs.h" coords="125,390,192,417" />
+<area shape="rect" href="$scsdata_8h.html" title="General Purpose Scadasoft datatype definitions." alt="scsdata.h" coords="292,316,359,342" />
+</map>

@@ -1,0 +1,43 @@
+##################################################################
+#                                                                #                                                                #
+# logging.prop : fichier de configuration du serveur pour le log #
+#                                                                #                                                                #
+##################################################################
+
+
+######################################
+# Common logging properties
+######################################
+
+# Console output settings
+log4j.appender.A1=org.apache.log4j.ConsoleAppender
+
+# Format pattern
+log4j.appender.A1.layout=org.apache.log4j.PatternLayout
+log4j.appender.A1.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p - %c{1} - [%t] - %m - %l%n
+
+# Output on rolling files
+# log4j.appender.A2=org.apache.log4j.RollingFileAppender
+# log4j.appender.A2.File=D:/Temp/hearts.log
+# log4j.appender.A2.MaxFileSize=1000KB
+# log4j.appender.A2.MaxBackupIndex=1
+
+# Format pattern
+# log4j.appender.A2.layout=org.apache.log4j.PatternLayout
+# log4j.appender.A2.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p - %c{1} - [%t] - %m - %l%n
+
+# Appender for root category
+log4j.rootCategory=FATAL, A1
+
+
+######################################
+# Category properties
+######################################
+
+# Severity for each category : DEBUG < INFO < WARN < ERROR < FATAL
+log4j.category.CORE        = INFO
+log4j.category.UTIL        = INFO
+log4j.category.DATABASE    = INFO
+log4j.category.BUSINESS    = INFO
+log4j.category.COMMS       = INFO
+log4j.category.USER_PARSER = INFO

@@ -1,0 +1,11 @@
+{
+	"OpmApi": "UIOpmSCADAgen"
+	
+	, "GwsIdentityType": "IpAddress"
+	, "UsrIdentityType": "Operator"
+	
+	, "DbAttrResrvReserveReqID": ".resrvReserveReqID"
+	, "DbAttrResrvUnreserveReqID": ".resrvUnreserveReqID"
+	
+	, "RecordThreshold": 1
+}

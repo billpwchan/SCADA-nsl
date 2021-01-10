@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" threshold="all" debug="false">
+	<!-- List of appenders -->
+	<!-- log into console -->
+<!--
+	<appender name="ConsoleAppender" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} - %p %t %C{1} - %X{OPERATOR_ID} - %X{HOST_IP} - %m%n"/>
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+			<param name="levelMin" value="WARN"/>
+			<param name="levelMax" value="ERROR"/>
+			<param name="AcceptOnMatch" value="true"/>
+		</filter>
+	</appender>
+-->
+
+	<!-- log in a rolling file -->
+	<appender name="RollingFileAppender" class="org.apache.log4j.RollingFileAppender">
+		<param name="File" value="${catalina.home}/logs/HypShowcase.log"/>
+		<param name="Append" value="false"/>
+		<param name="MaxFileSize" value="50MB"/>
+		<param name="MaxBackupIndex" value="10"/>
+		<layout class="org.apache.log4j.EnhancedPatternLayout">
+			<param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} - %p %t %c - %X{OPERATOR_ID} - %X{HOST_IP} - %m%n"/>
+		</layout>
+	</appender>
+
+	<!-- async appender to use a separate thread for the rolling file appender -->
+	<appender name="DefaultAppender" class="org.apache.log4j.AsyncAppender">
+		<param name="bufferSize" value="128"/> <!-- max. no. of event in event buffer -->
+		<param name="blocking" value="true"/> <!-- block appender thread if event buffer is full -->
+		<!--<appender-ref ref="ConsoleAppender"/>-->
+		<appender-ref ref="RollingFileAppender"/>
+	</appender>
+
+	<!-- List of Loggers -->
+	<logger name="com.thalesgroup" additivity="false">
+		<level value="INFO"/>
+		<appender-ref ref="DefaultAppender"/>
+	</logger>
+	<!-- log for SCADAgen -->
+	<logger name="com.thalesgroup.scadagen" additivity="false">
+		<level value="WARN"/>
+		<appender-ref ref="DefaultAppender"/>
+	</logger>
+	<!-- log for SCADAgen StatusComputer -->
+	<logger name="com.thalesgroup.scadagen.calculated" additivity="false">
+		<level value="WARN"/>
+		<appender-ref ref="DefaultAppender"/>
+	</logger>
+	<!-- log for SCADAgen OPM Manager -->
+	<logger name="com.thalesgroup.scadagen.wrapper.wrapper.server.OpmMgr" additivity="false">
+		<level value="WARN"/>
+		<appender-ref ref="DefaultAppender"/>
+	</logger>
+	<!-- log for SCADAsoft -->
+	<logger name="com.thalesgroup.scadasoft" additivity="false">
+		<level value="DEBUG"/>
+		<appender-ref ref="DefaultAppender"/>
+	</logger>
+	<!-- log for HV -->
+	<logger name="com.thalesgroup.hv.sdk.connector" additivity="false">
+		<level value="INFO"/>
+		<appender-ref ref="DefaultAppender"/>
+	</logger>
+	<!-- log for HV OPM AuthorizationChecker -->
+	<logger name="com.thalesgroup.hypervisor.mwt.core.webapp.core.opm.server.checker.AuthorizationChecker" additivity="false">
+		<level value="WARN"/>
+		<appender-ref ref="DefaultAppender"/>
+	</logger>
+	<!-- log for HV Subscription Manager -->
+	<logger name="com.thalesgroup.hv.subscriptionmanager" additivity="false">
+		<level value="WARN"/>
+		<appender-ref ref="DefaultAppender"/>
+	</logger>
+	<!-- log for HV Data Manager -->
+	<logger name="com.thalesgroup.hv.data.manager" additivity="false">
+		<level value="WARN"/>
+		<appender-ref ref="DefaultAppender"/>
+	</logger>
+	<!-- log for Spring -->
+	<logger name="org.springframework" additivity="false">
+		<level value="ERROR"/>
+		<appender-ref ref="DefaultAppender"/>
+	</logger>
+
+	<!-- log all in console and rolling file if level higher or equals to DEBUG -->
+	<root>
+		<level value="WARN"/>
+		<appender-ref ref="DefaultAppender"/>
+	</root>
+</log4j:configuration>
+
+<!--
+Log4J Configuration Quick Reference:
+====================================
+
+Priority order is DEBUG < INFO < WARN < ERROR < FATAL
+
+PatternLayout conversion characters:
+
+%c   Category of the logging event
+%C   Fully qualified class name of the caller
+%d   Date of the logging event  (example: %d{HH:mm:ss,SSS} )
+%F   File name where the logging request was issued (caution: extremely slow)
+%l   Location information of the caller (caution: extremely slow)
+%L   Line number from where the logging request was issued (caution: extremely slow)
+%m   Application-supplied message
+%M   Method name from where the logging request was issued (caution: extremely slow)
+%n   Line separator
+%p   Priority of the logging event
+%r   Number of milliseconds since the start of the application
+%t   Name of the thread that generated the logging event
+%x   Nested diagnotic context associated with the thread
+%%   A single percent sign
+
+Format modifiers examples:
+
+%20c     Left pad with spaces if category is less than 20 characters long
+%-20c    Right pad with spaces if category is less than 20 characters long
+%.30c    Truncate from the beginning if category is more than 30 chars long
+%20.30c  Left pad 20 chars + truncate from beginning if more than 30 chars
+%-20.30c Right pad 20 chars + truncate from beginning if more than 30 chars
+
+Examples:  "%r [%t] %-5p %c %x - %m\n"
+"%-6r [%15.15t] %-5p %30.30c %x - %m\n"
+-->

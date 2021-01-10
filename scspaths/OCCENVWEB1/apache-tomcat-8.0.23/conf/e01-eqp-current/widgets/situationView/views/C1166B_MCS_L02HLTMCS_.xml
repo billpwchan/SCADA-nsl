@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_MCS_L02HLTMCS_" resolution="1.0773006135 0.897750511247 0.74812542604 0.623437855033 0.519531545861 0.432942954884 0.360785795737 0.300654829781 0.250545691484 0.208788076236" maxExtent="0.0 0.0 1576.0 878.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_MCS_L02HLTMCS_.svg" width="1596.0" height="815.0" bounds="0.0 0.0 1596.0 815.0" name="C1166B_MCS_L02HLTMCS_" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="1237.0" y="384.0" symbolId="C1166B_COM_WKST" entityId="OCC_LMCENVWKST0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1391.0" y="384.0" symbolId="C1166B_COM_WKST" entityId="OCC_LMCENVWKST0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="739.0" y="302.0" symbolId="C1166B_COM_WKST" entityId="OCC_LMCENVWKST0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="528.0" y="305.0" symbolId="C1166B_COM_FEP_" entityId="OCC_LMCSYSFEP_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

@@ -1,0 +1,147 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 13:39:52 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "formulaeditor"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\browser\\formulaeditor.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"IlvStToolBar" 1 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 13
+4 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 5 259 214 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Function"  }   } 32 "CEFrameFonc"
+0
+4 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 491 336 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&^ok"  }   } 544 "OK"
+1
+1 "__ilvCallback" "CBok"
+20480 "CEformula"
+4 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 399 336 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&^cancel"  }   } 544 "CBannuler"
+1
+1 "__ilvCallback" "CBannuler"
+6144 "OK" "forwardtext"
+4 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvText 8 252 558 63 F129 2 A A 1 1 1 1 0 2
+"Text"
+"multi lines"
+0 0 0 0 } 544 "CEformula"
+1
+1 "__ilvCurMoved" "formulaCB"
+6144 "ClearBtn" "forwardtext"
+4 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 15 20 127 188 F131 2 A A 0 0 0 0 0 4 0 0 V0 2 10
+{ IlvGadgetItem 1 2 4 "Mathematical"  } 
+{ IlvGadgetItem 1 2 4 "Trigonometric"  } 
+{ IlvGadgetItem 1 2 4 "Logical"  } 
+{ IlvGadgetItem 1 2 4 "Bit Manipulation"  } 
+{ IlvGadgetItem 1 2 4 "Statistical"  } 
+{ IlvGadgetItem 1 2 4 "Time"  } 
+{ IlvGadgetItem 1 2 4 "Addressing"  } 
+{ IlvGadgetItem 1 2 4 "Data Movement"  } 
+{ IlvGadgetItem 1 2 4 "OS Interface"  } 
+{ IlvGadgetItem 1 2 4 "Real-time"  }  } 544 "CEcategories"
+1
+1 "__ilvSCallback" "categoriesCB"
+10240 "CEfunction"
+4 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTreeGadget 291 20 106 188 F32 2 A A 0 0 0 0 20 1 1 1 1 0 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 2
+{ IlvTreeGadgetItem 1 2 4 "First Root" 2
+{ IlvTreeGadgetItem 1 2 4 "Leaf 1" 0
+ } { IlvTreeGadgetItem 1 2 4 "Leaf 2" 0
+ }  } { IlvTreeGadgetItem 1 2 4 "Second Root" 0
+ }  }  } 544 "CEarguments"
+2
+1 "__ilvTreeItemSelected" "argumentsCB"
+1 "__ilvTreeItemExpanded" "argumentsexpandedCB"
+2048 "CEattribut"
+4 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 160 20 91 188 F131 2 A A 0 0 0 0 0 4 0 0 V0 2 3
+{ IlvGadgetItem 0 2 4  } 
+{ IlvGadgetItem 0 2 4  } 
+{ IlvGadgetItem 0 2 4  }  } 544 "CEfunction"
+1
+1 "__ilvCallback" "functionCB"
+6144 "CEarguments" "CEcategories"
+4 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 281 5 285 214 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Argument"  }   } 32 "CEFrameArgument"
+0
+4 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 425 20 126 188 F131 2 A A 0 0 0 0 0 4 0 0 V0 2 3
+{ IlvGadgetItem 1 2 4 "item1"  } 
+{ IlvGadgetItem 1 2 4 "item2"  } 
+{ IlvGadgetItem 1 2 4 "item3"  }  } 544 "CEattribut"
+1
+1 "__ilvCallback" "attributCB"
+2048 "dependance"
+4 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 40 224 31 23 F13 2 { IlvMessageItem 262145 4 16 4 "<<"  }   } 544 "rewindtext"
+1
+1 "__ilvCallback" "rewindtextCB"
+6144 "forwardtext" "dependance"
+4 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 75 224 31 23 F13 2 { IlvMessageItem 262145 4 16 4 ">>"  }   } 544 "forwardtext"
+1
+1 "__ilvCallback" "forwardtextCB"
+6144 "CEformula" "rewindtext"
+4 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Selector" ]
+0 IlvSelector -1 2
+0 IlvToggle 432 224 50 16 F1 2 1 2 1 0 0 Y "[ ]" 
+0 IlvToggle 504 224 50 16 F1 2 1 2 1 0 0 Y "{ }" 
+ } 544 "dependance"
+1
+1 "__ilvCallback" "dependanceCB"
+6144 "rewindtext" "CEattribut"
+4 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 8 336 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&clear"  }   } 544 "ClearBtn"
+1
+1 "__ilvCallback" "clearCB"
+4096 "CEformula"
+Size 575 371
+GeometryHandlers
+4 100 0 152 0 152 0
+ 100 0 121 152 121 152
+ 100 0 138 273 138 273
+ 100 0 164 411 164 411
+8 3 0 0 8  558 0 558 3  0 0 9 3
+ 3 491 0 491  0 0 73 1  0 0 11 3
+ 3 399 0 399  0 0 73 2  0 0 103 3
+ 3 0 0 75  0 0 31 10  167 0 167 1
+ 3 0 0 40  0 0 31 9  202 0 202 1
+ 3 0 0 5  259 0 259 0  0 9 9 1
+ 3 0 0 8  0 0 73 12  192 0 192 1
+ 3 0 0 15  127 0 127 4  0 0 10 0
+1 3 0 0 8  91 0 91 6  0 0 22 1
+2 3 0 0 8  285 0 285 7  0 0 9 3
+ 3 0 0 18  106 0 106 5  0 0 14 2
+2 3 0 0 14  126 0 126 8  0 0 24 3
+ 3 21 0 21  0 0 122 11  0 0 21 3
+2 100 0 237 0 237 0
+ 100 0 134 237 134 237
+7 3 0 0 20  188 0 188 6  0 0 29 0
+ 3 0 0 20  188 0 188 4  0 0 29 0
+ 3 0 0 5  214 0 214 0  0 0 18 0
+ 3 0 0 20  188 0 188 5  0 0 29 0
+ 3 0 0 20  188 0 188 8  0 0 29 0
+ 3 0 0 5  214 0 214 7  0 0 18 0
+ 3 224 0 224  0 0 16 11  0 -3 -3 0
+6 3 0 0 15  63 0 63 3  0 0 56 1
+ 3 99 0 99  0 0 23 12  0 0 12 1
+ 3 99 0 99  0 0 23 2  0 0 12 1
+ 3 99 0 99  0 0 23 1  0 0 12 1
+ 3 -13 -13 -13  0 0 23 9  -10 -10 -10 0
+ 3 -13 -13 -13  0 0 23 10  -10 -10 -10 0
+EOF

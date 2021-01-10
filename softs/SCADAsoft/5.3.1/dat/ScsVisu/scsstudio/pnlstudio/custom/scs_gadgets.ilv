@@ -1,0 +1,14 @@
+// Ilv Version: 5.0
+// File generated: Thu Sep 02 15:33:49 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "scs_gadgets"
+PathName "D:\\SCADASOFT\\SCSHOME\\dat\\ScsVisu\\scsstudio\\pnlstudio\\custom\\scs_gadgets.ilv"
+Palettes 1
+0 F "gray" 32640 0 0 "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 1
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 8 7 184 56 F268435468 0 { IlvMessageItem 262169 4 16 4 "&CustGadgets"  }   } 0
+0
+Size 202 347
+EOF

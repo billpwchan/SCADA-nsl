@@ -1,0 +1,16 @@
+// Ilv Version: 3.0
+// File generated: Fri Feb 18 10:22:41 2000
+// Creator class: IlvGadgetManagerOutput
+FileName "list"
+PathName "D:\\Utilis\\Menier\\traces\\Ilv30\\list.ilv"
+Palettes 1
+"IlvStText" 0 "gray" "black" "normal" "%MS Sans Serif-8-" 0 solid solid 0 0 0
+IlvObjects 1
+1 { 0 0 IlvStringList 7 6 320 295 F1 2 0 1 0 0 0 } 544 "List"
+2
+1 "__ilvSCallback" "List"
+1 "__ilvCallback" "ListCB"
+0
+Size 335 305
+Background "gray"
+EOF

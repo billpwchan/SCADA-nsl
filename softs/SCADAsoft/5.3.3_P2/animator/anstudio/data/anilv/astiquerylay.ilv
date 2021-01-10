@@ -1,0 +1,60 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 16:31:59 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "astiquerylay"
+PathName "D:\\SOFTS\\animator4\\anstudio\\data\\anilv\\astiquerylay.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 6
+1 { 0 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&LayerOptionTT" 4 4 ]
+0 IlvOptionMenu 14 21 181 20 F1 2 0 -1  } 544 "Layer"
+1
+1 "__ilvCallback" "layerCB"
+4096 "ButLevel"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 208 23 92 16 F1 2 1 2 0 0 0 Y "&Allbut" } 544 "ButLayer"
+1
+1 "__ilvCallback" "butLayerCB"
+0
+1 { 2 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&LayerOptionTT" 4 4 ]
+0 IlvOptionMenu 14 82 181 20 F1 2 0 -1  } 544 "Level"
+1
+1 "__ilvCallback" "levelCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 208 84 92 16 F1 2 1 2 0 0 0 Y "&Allbut" } 544 "ButLevel"
+1
+1 "__ilvCallback" "butLevelCB"
+2048 "Layer"
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 4 63 297 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&level"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 4 2 297 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&layer"  }   } 0
+0
+Size 311 123
+GeometryHandlers
+1 100 0 311 0 311 0
+6 3 0 0 4  297 0 297 5  0 0 10 0
+ 3 0 0 14  181 0 181 0  0 0 116 0
+ 3 208 0 208  0 0 92 1  0 0 11 0
+ 3 0 0 14  181 0 181 2  0 0 116 0
+ 3 0 0 4  297 0 297 4  0 0 10 0
+ 3 208 0 208  0 0 92 3  0 0 11 0
+2 100 61 61 0 61 0
+ 100 61 61 61 61 61
+3 3 0 0 2  50 0 50 5  0 0 9 0
+ 3 21 0 21  0 0 20 0  20 0 20 0
+ 3 23 0 23  0 0 16 1  22 0 22 0
+3 3 0 0 2  50 0 50 4  0 0 9 1
+ 3 21 0 21  0 0 20 2  20 0 20 1
+ 3 23 0 23  0 0 16 3  22 0 22 1
+EOF

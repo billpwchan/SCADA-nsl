@@ -1,0 +1,23 @@
+// Ilv Version: 2.4
+// File generated: Fri Dec 12 15:09:53 1997
+// Creator class: IlvManagerOutput
+Palettes 1
+"default" 0 "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+IlvObjects 7
+1 { 0 0 IlvRectangle 200 -120 420 700 } 32 "AnReferenceBox"
+1 { 1 0 IlvLine 200 400 620 400 } 32 "AnBaseLine"
+1 { 2 0 IlvPolyline 17
+380 -20 320 0 280 60 260 160 260 220 280 320 320 380 380 400 420 400 480 380
+520 320 540 220 540 160 520 60 480 0 420 -20 380 -20 } 0
+1 { 3 0 IlvPolyline 6
+340 0 300 60 280 160 280 220 300 320 340 380 } 0
+1 { 4 0 IlvPolyline 4
+320 360 380 380 420 380 480 360 } 0
+1 { 5 0 IlvPolyline 6
+460 380 500 320 520 220 520 160 500 60 460 0 } 0
+1 { 6 0 IlvPolyline 4
+480 20 420 0 380 0 320 20 } 0
+Layers 2
+0
+0
+Views 0

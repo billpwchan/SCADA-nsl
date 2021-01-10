@@ -1,0 +1,309 @@
+// Ilv Version: 5.1
+// File generated: Thu Jan 19 17:09:19 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "respanel"
+PathName "C:\\ilog\\views\\work\\data\\ilviews\\respanel.ilv"
+Palettes 7
+2 F "antiquewhite3" "black" "fixed" 0 solid solid 0 0 0 65535 0
+1 F "gray" "black" "%helvetica-12-[Charset:0]" 0 solid solid 0 0 0 65535 0
+"defaultGadget" 3 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+5 F "black" "white" "fixed" 0 solid solid 0 0 0 65535 0
+0 F "antiquewhite3" 65025 65025 65025 "fixed" 0 solid solid 0 0 0 65535 0
+"default" 6 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+4 F "gray" "black" "fixed" 0 solid solid 0 0 0 65535 0
+IlvObjects 42
+1 { 0 0 IlvFilledRectangle 118 267 115 14 } 32 "alphaBg"
+0
+1 { 1 P 1
+[ IlvAttachments _IlvAttachments 336  1 108 1 107 2 ]
+1 IlvRectangle 108 43 151 19 } 0
+0
+1 { 2 P 1
+[ IlvAttachments _IlvAttachments 336  1 108 1 107 2 ]
+1 IlvRectangle 108 70 151 19 } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+1 IlvPolygon 6
+133 233 216 233 215 251 110 238 237 238 133 252 } 544 "fm"
+1
+1 "__ilvCallback" "FR"
+0
+1 { 4 2 IlvFilledRectangle 110 262 115 14 } 32 "alphaFg"
+0
+2 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvButton 269 41 93 23 F13 2 { IlvMessageItem 262145 4 16 4 "&select"  }   } 544 "Button_3"
+1
+1 "__ilvCallback" "NFg"
+6144 "Button_2" "Button_4"
+2 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvButton 269 68 93 23 F13 2 { IlvMessageItem 262145 4 16 4 "&select"  }   } 544 "Button_2"
+1
+1 "__ilvCallback" "NBg"
+6144 "fnt" "Button_3"
+2 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvComboBox 242 122 120 22 F38 2 1 -1 0 "solid" 12
+{ IlvMenuItem 1 2 4 "solid"  } 
+{ IlvMenuItem 1 2 4 "clear"  } 
+{ IlvMenuItem 1 2 4 "gray"  } 
+{ IlvMenuItem 1 2 4 "cross"  } 
+{ IlvMenuItem 1 2 4 "dark1"  } 
+{ IlvMenuItem 1 2 4 "dark2"  } 
+{ IlvMenuItem 1 2 4 "dark3"  } 
+{ IlvMenuItem 1 2 4 "dark4"  } 
+{ IlvMenuItem 1 2 4 "light1"  } 
+{ IlvMenuItem 1 2 4 "light2"  } 
+{ IlvMenuItem 1 2 4 "light3"  } 
+{ IlvMenuItem 1 2 4 "light4"  }  } 544 "patternc"
+1
+1 "__ilvCallback" "Pattern"
+6144 "lsc" "Button_1"
+2 { 8 4 IlvLine 110 159 237 159 } 32 "ls"
+0
+2 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvComboBox 242 149 120 22 F38 2 1 -1 0 "solid" 8
+{ IlvMenuItem 1 2 4 "solid"  } 
+{ IlvMenuItem 1 2 4 "dash"  } 
+{ IlvMenuItem 1 2 4 "dot"  } 
+{ IlvMenuItem 1 2 4 "dashdot"  } 
+{ IlvMenuItem 1 2 4 "dashdoubledot"  } 
+{ IlvMenuItem 1 2 4 "alternate"  } 
+{ IlvMenuItem 1 2 4 "doubledot"  } 
+{ IlvMenuItem 1 2 4 "longdash"  }  } 544 "lsc"
+1
+1 "__ilvCallback" "LS"
+6144 "lwc" "patternc"
+2 { 10 4 IlvLine 110 186 237 186 } 32 "lw"
+0
+2 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvComboBox 242 176 120 22 F38 2 1 -1 0 "0" 7
+{ IlvMenuItem 1 2 4 "0"  } 
+{ IlvMenuItem 1 2 4 "1"  } 
+{ IlvMenuItem 1 2 4 "2"  } 
+{ IlvMenuItem 1 2 4 "3"  } 
+{ IlvMenuItem 1 2 4 "4"  } 
+{ IlvMenuItem 1 2 4 "5"  } 
+{ IlvMenuItem 1 2 4 "6"  }  } 544 "lwc"
+1
+1 "__ilvCallback" "LW"
+6144 "apply" "lsc"
+2 { 12 3 IlvReliefLine 0 321 366 321 1 } 0
+0
+2 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvButton 5 331 75 23 F13 2 { IlvMessageItem 262145 4 16 4 "&apply"  }   } 544 "apply"
+1
+1 "__ilvCallback" "apply"
+6144 "reset" "lwc"
+2 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvButton 85 331 75 23 F13 2 { IlvMessageItem 262145 4 16 4 "&reset"  }   } 544 "reset"
+1
+1 "__ilvCallback" "reset"
+6144 "cancel" "apply"
+2 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvButton 287 331 75 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "cancel"
+1
+1 "__ilvCallback" "cancel"
+6144 "name" "reset"
+2 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvButton 269 95 93 23 F13 2 { IlvMessageItem 262145 4 16 4 "&select"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "NFnt"
+6144 "patternc" "fnt"
+2 { 17 3 IlvReliefLine 0 34 366 34 1 } 32 "line"
+0
+2 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvButton 269 5 93 23 F13 2 { IlvMessageItem 262145 4 16 4 "&select"  }   } 544 "Button_4"
+1
+1 "__ilvCallback" "NName"
+6144 "Button_3" "name"
+2 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvComboBox 242 204 119 22 F39 2 1 -1 0 "&ArcPie" 2
+{ IlvMenuItem 1 2 4 "&ArcPie"  } 
+{ IlvMenuItem 1 2 4 "&ArcChord"  }  } 544 "at"
+1
+1 "__ilvCallback" "AM"
+0
+2 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvComboBox 242 232 119 22 F39 2 1 -1 0 "&FillRule" 2
+{ IlvMenuItem 1 2 4 "&EvenOdd"  } 
+{ IlvMenuItem 1 2 4 "&WindingRule"  }  } 544 "ft"
+1
+1 "__ilvCallback" "FR"
+0
+3 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 10 41 78 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Foreground"  }   } 0
+0
+3 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 9 68 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Background"  }   } 0
+0
+3 { 23 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 10 95 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Font"  }   } 0
+0
+3 { 24 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 10 122 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Pattern"  }   } 0
+0
+3 { 25 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 10 149 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&LineStyle"  }   } 0
+0
+3 { 26 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 10 176 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&LineWidth"  }   } 0
+0
+3 { 27 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvTextField 109 5 156 22 F6 2 1 -1 0 "" } 544 "name"
+1
+1 "__ilvCallback" "SetName"
+10240 "Button_4"
+3 { 28 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 9 5 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Name"  }   } 0
+0
+3 { 29 2 IlvFilledRectangle 110 123 128 20 } 32 "pattern"
+0
+3 { 30 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvToggle 172 334 105 16 F1 2 1 2 0 0 0 Y "&Lock" } 544 "lock"
+1
+1 "__ilvCallback" "LockCB"
+6144 "cancel" "reset"
+3 { 31 P 1
+[ IlvAttachments _IlvAttachments 336  1 109 1 108 2 ]
+5 IlvFilledRectangle 109 44 149 17 } 32 "fg"
+2
+3 { 32 P 1
+[ IlvAttachments _IlvAttachments 336  1 109 1 108 2 ]
+5 IlvFilledRectangle 109 71 149 17 } 32 "bg"
+0
+3 { 33 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvScrolledComboBox 109 96 156 20 F806 2 1 -1 0 "normal" 8
+{ IlvGadgetItem 1 2 4 "default"  } 
+{ IlvGadgetItem 1 2 4 "normal"  } 
+{ IlvGadgetItem 1 2 4 "bold"  } 
+{ IlvGadgetItem 1 2 4 "large"  } 
+{ IlvGadgetItem 1 2 4 "italic"  } 
+{ IlvGadgetItem 1 2 4 "monospace"  } 
+{ IlvGadgetItem 1 2 4 "button"  } 
+{ IlvGadgetItem 1 2 4 "menu"  }  8 0 } 544 "fnt"
+1
+1 "__ilvCallback" "selectFont"
+0
+3 { 34 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 9 203 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ArcMode"  }   } 0
+0
+3 { 35 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+1 IlvFilledArc 139 203 70 24 43.0251 269.485 } 544 "am"
+1
+1 "__ilvCallback" "AM"
+0
+3 { 36 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 9 232 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&FillRule"  }   } 0
+0
+3 { 37 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 9 259 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&alpha"  }   } 0
+0
+3 { 38 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 9 286 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&antialiasing"  }   } 0
+0
+3 { 39 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvSlider 242 262 119 19 F7 2 0 65535 65535 10 1 10 } 544 "alphaSlider"
+1
+1 "__ilvCallback" S"JvScript" "ChangeAlpha"
+0
+3 { 40 6 IlvPolyline 4
+110 288 161 303 183 288 232 305 } 32 "antialiasLine"
+0
+3 { 41 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvComboBox 242 287 119 20 F39 2 1 -1 0 "&useDefaultAntialiasing" 3
+{ IlvMenuItem 1 2 4 "&useDefaultAntialiasing"  } 
+{ IlvMenuItem 1 2 4 "&useAntialiasing"  } 
+{ IlvMenuItem 1 2 4 "&noAntialiasing"  }  } 544 "antialiasCombo"
+1
+1 "__ilvCallback" "ChangeAntialias"
+0
+Size 366 359
+GeometryHandlers
+1 100 330 366 0 366 0
+38 3 287 0 287  0 0 75 15  0 0 4 0
+ 3 0 0 0  366 0 366 12  0 0 0 0
+ 3 0 0 0  366 0 366 17  0 0 0 0
+ 3 0 0 110  128 0 128 8  0 0 128 0
+ 3 0 0 109  156 0 156 27  0 0 101 0
+ 3 0 0 110  128 0 128 29  0 0 128 0
+ 3 0 0 110  128 0 128 10  0 0 128 0
+ 3 242 0 242  0 0 120 11  0 0 4 0
+ 3 242 0 242  0 0 120 9  0 0 4 0
+ 3 242 0 242  0 0 120 7  0 0 4 0
+ 3 269 0 269  0 0 93 16  0 0 4 0
+ 3 269 0 269  0 0 93 6  0 0 4 0
+ 3 269 0 269  0 0 93 5  0 0 4 0
+ 3 269 0 269  0 0 93 18  0 0 4 0
+ 3 0 0 109  156 0 156 33  0 0 101 0
+ 3 0 0 9  0 0 95 28  262 0 262 0
+ 3 0 0 10  0 0 78 21  278 0 278 0
+ 3 0 0 9  0 0 95 22  262 0 262 0
+ 3 0 0 10  0 0 95 23  261 0 261 0
+ 3 0 0 10  0 0 95 24  261 0 261 0
+ 3 0 0 10  0 0 95 25  261 0 261 0
+ 3 0 0 10  0 0 95 26  261 0 261 0
+ 3 0 0 5  0 0 75 13  286 0 286 0
+ 3 0 0 85  0 0 75 14  206 0 206 0
+ 3 0 0 172  0 0 105 30  89 0 89 0
+ 3 0 0 139  61 0 61 35  0 0 166 0
+ 3 0 0 9  0 0 95 34  262 0 262 0
+ 3 242 0 242  0 0 119 19  0 0 5 0
+ 3 242 0 242  0 0 119 20  0 0 5 0
+ 3 0 0 110  128 0 128 3  0 0 128 0
+ 3 0 0 9  0 0 95 36  262 0 262 0
+ 3 0 0 9  0 0 95 37  262 0 262 0
+ 3 0 0 9  0 0 95 38  262 0 262 0
+ 3 242 0 242  0 0 119 39  0 0 5 0
+ 3 242 0 242  0 0 119 41  0 0 5 0
+ 3 0 0 110  123 0 123 40  0 0 133 0
+ 3 0 0 110  115 0 115 4  0 0 141 0
+ 3 0 0 118  115 0 115 0  0 0 133 0
+1 100 243 359 0 359 0
+5 3 331 0 331  0 0 23 15  0 0 5 0
+ 3 331 0 331  0 0 23 14  0 0 5 0
+ 3 331 0 331  0 0 23 13  0 0 5 0
+ 3 320 0 320  0 0 2 12  0 0 37 0
+ 3 334 0 334  0 0 16 30  0 0 9 0
+Layers 4
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+Script "JvScript" Inline ""
+
+static function ChangeAlpha(obj)
+{
+  obj.container.alphaFg.alpha = obj.value;
+}
+
+ScriptEnd
+EOF

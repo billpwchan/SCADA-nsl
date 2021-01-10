@@ -1,0 +1,110 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 17:28:56 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "IlvPInspShape"
+PathName "D:\\SCADASOFT\\SCSHOME\\dat\\ScsVisu\\scsstudio\\trdstudio\\IlvPInspShape.ilv"
+Palettes 1
+"IlvStToolBar" 0 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 14
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 25 35 244 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ScsStartingAngle"  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 25 65 244 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ScsRange"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 25 95 244 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ScsHighlightedPortionSpace"  }   } 0
+0
+1 { 3 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieStartAngle" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSpinBox 275 35 54 22 2 0 200 64 2 1
+0 IlvNumberField 275 35 42 22 F6 2 16 3 0 "0" . , 0 0 0 359  f 1 1 5 0 } 544 "StartAngle"
+2
+1 "__ilvCallback" "StartAngle"
+1 "__ilvFocusOut" "StartAngle"
+4096 "PieVisible"
+1 { 4 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieRange" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSpinBox 275 65 54 22 2 0 200 64 2 1
+0 IlvNumberField 275 65 42 22 F6 2 16 3 0 "360" . , 0 0 1 360  f 1 1 5 360 } 544 "Range"
+2
+1 "__ilvCallback" "Range"
+1 "__ilvFocusOut" "Range"
+0
+1 { 5 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieSpace" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSpinBox 275 95 54 22 2 0 200 64 2 1
+0 IlvNumberField 275 95 42 22 F6 2 16 3 0 "15" . , 0 0 0 500  f 1 1 5 15 } 544 "Space"
+2
+1 "__ilvCallback" "Space"
+1 "__ilvFocusOut" "Space"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 25 192 168 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ScsLegendObject"  }   } 0
+0
+1 { 7 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieLegendAuto" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 25 222 296 16 F1 2 1 2 0 13 0 Y "&ScsLegendAuto" } 544 "LegendAuto"
+1
+1 "__ilvCallback" "LegendAuto"
+0
+1 { 8 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieLegend" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 197 192 132 22 F807 2 1 -1 0 "** None **" 1
+{ IlvGadgetItem 1 2 4 "** None **"  }  5 0 } 544 "Legend"
+2
+1 "__ilvCallback" "Legend"
+1 "__ilvFocusOut" "Legend"
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 10 10 330 149 F268435468 0 { IlvMessageItem 262169 4 16 4 "&PieFeatures"  }   } 0
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 10 167 330 86 F268435468 0 { IlvMessageItem 262169 4 16 4 "&PieLegend"  }   } 0
+0
+1 { 11 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieVisible" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 10 268 168 16 F1 2 1 2 0 13 0 Y "&ScsPieVisible" } 544 "PieVisible"
+1
+1 "__ilvCallback" "PieVisible"
+2048 "StartAngle"
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 25 125 244 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ScsInternalMargins"  }   } 0
+0
+1 { 13 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttMargins" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSpinBox 275 125 54 22 2 0 200 64 2 1
+0 IlvNumberField 275 125 42 22 F6 2 16 3 0 "0" . , 0 0 0 500  f 1 1 1 0 } 544 "Margins"
+2
+1 "__ilvCallback" "Margins"
+1 "__ilvFocusOut" "Margins"
+0
+Size 345 297
+GeometryHandlers
+1 100 0 345 0 345 0
+9 3 0 0 10  330 0 330 9  0 0 5 0
+ 3 275 0 275  0 0 54 3  0 0 16 0
+ 3 275 0 275  0 0 54 4  0 0 16 0
+ 3 275 0 275  0 0 54 5  0 0 16 0
+ 3 0 0 10  330 0 330 10  0 0 5 0
+ 3 0 0 25  296 0 296 7  0 0 24 0
+ 3 0 0 25  168 0 168 6  0 0 152 0
+ 3 197 0 197  0 0 132 8  0 0 16 0
+ 3 275 0 275  0 0 54 13  0 0 16 0
+1 100 0 297 0 297 0
+0
+EOF

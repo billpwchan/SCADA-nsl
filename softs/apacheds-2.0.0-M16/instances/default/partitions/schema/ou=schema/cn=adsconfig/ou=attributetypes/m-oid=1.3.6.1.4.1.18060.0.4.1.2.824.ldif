@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.824,ou=attributeTypes,cn=adsconfig,ou=schema
+m-length: 0
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.824
+m-name: ads-replProvPort
+m-description: replication provider port number
+m-equality: integerMatch
+m-supattributetype: ads-transportId
+entryParentId: c11acc1c-02ea-42e3-b600-cc0ca6feff74
+m-ordering: integerOrderingMatch
+m-singlevalue: TRUE
+createTimestamp: 20140513151219.942Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: 1e2845e1-af6f-46f1-831b-76c9926a302a
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.442000Z#000001#000#000000

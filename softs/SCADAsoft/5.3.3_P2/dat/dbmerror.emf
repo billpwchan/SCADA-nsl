@@ -1,0 +1,182 @@
+COMPONENT=Dbm,Dbm
+
+Init() {
+   english="Dbm Initialization"
+   french="Initialisation du serveur Dbm"
+}
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+HostServer(const char *) {
+   english="Server %s is not registered at the host server"
+   french="Le server %s n'est pas enregistre aupres du server de nom"
+}
+DataBaseConnection(const char *) {
+   english="Cannot connect to database %s"
+   french="Impossible de se connecter a la base %s"
+}
+PermissionDenied(const char *, const char *) {
+   english="User [%s] has not access rights for application %s"
+   french="L'utilisateur [%s] n'a pas les droits d'acces pour l'application %s"
+}
+ProfileNotFound(const char *) {
+   english="Profile not found for user [%s]"
+   french="Profile non trouve pour l'utilisateur [%s]"
+}
+Parameter(const char *) {
+   english="Parameter error: %s"
+   french="Erreur de parametre: %s"
+}
+BadReference() {
+   english="Reference error"
+   french="Erreur de reference"
+}
+ReadError() {
+   english="Reading error"
+   french="Erreur de lecture"
+}
+WriteError() {
+   english="Write error"
+   french="Erreur d'ecriture"
+}
+DataConversion(const int) {
+   english="Cannot convert data types [%d]"
+   french="Erreur de conversion de type [%d]"
+}
+GroupUnknown(const char *) {
+   english="Server do not know the group [%s]"
+   french="Le server ne connait pas le groupe [%s]"
+}
+GroupAlreadyExist(const char *) {
+   english="Group [%s] already exist"
+   french="Le groupe [%s] existe deja"
+}
+GroupCreation(const char *) {
+  english="Cannot create group [%s]"
+  french="Impossible de creer le groupe [%s]"
+}
+GroupDeletion(const char *) {
+  english="Cannot delete description for group [%s]"
+  french="Impossible de detruire la description du groupe [%s]"
+}
+GroupDescription(const char *) {
+  english="Description of group [%s] is incorrect"
+  french="La description du groupe [%s] est incorrect"
+}
+GroupSubscription(const char *) {
+  english="Cannot subscribe to the group [%s]"
+  french="Impossible de s'abonner au groupe [%s]"
+}
+GroupUnsubscription(const char *) {
+  english="Cannot unsubscribe from group [%s]"
+  french="Impossible de se desabonner du groupe [%s]"
+}
+SubscriptionNotFound(const char *) {
+  english="Subscription not found for group [%s]"
+  french="Abonnement inexistant pour le groupe [%s]"
+}	
+FileCreation(const char *) {
+  english="Cannot create file [%s]"
+  french="Impossible de creer le fichier [%s]"
+}
+FileDeletion(const char *) {
+  english="Cannot remove file [%s]"
+  french="Impossible de detruire le fichier [%s]"
+}
+FileNotFound(const char *) {
+  english="File [%s] not found or unreadable"
+  french="Le fichier [%s] n'existe pas ou n'est pas lisible"
+}
+RtapFunction(const char *) {
+   english="Rtap function %s error"
+   french="Erreur fonction Rtap %s"
+}
+RtapCommunication() {
+   english="RTAP Communication Error"
+   french="Erreur de communication RTAP"
+}
+Function(const char *) {
+   english="Function %s error"
+   french="Erreur fonction %s"
+}
+WriteSecurity(const char *) {
+   english="The data %s cannont be written"
+   french="Impossible d'ecrire la donnee %s"
+}
+Timeout(const char *,const char *) {
+   english="Timeout received while sending %s request to %s environment"
+   french="Délai expiré durant l'envoi de la requête %s vers l'environnement %s"
+}
+FormulaSyntax(const char *) {
+   english="Syntax error in formula: %s"
+   french="Erreur de syntaxe dans la formule: %s"
+}
+ValueSyntax(const char *){
+  english="Syntax error in default value. The correct syntax is : %s"
+  french="Erreur de syntaxe dans la valeur par défaut. La syntaxe correcte est : %s"
+}
+DtdAbsent(const char *) {
+   english="the DTD %s doesn't exist"
+   french="La DTD %s n'existe pas"
+}
+SnapshotInvalid(const char *) {
+   english="The snapshot is incorrect in %s"
+   french="Le snapshot est corrompu dans %s"
+}
+NoMoreClientForThisGroup(const char *) {
+   english="No more Client for this group %s"
+   french="Plus de client pour ce groupe %s"
+}
+ClientNotification(const char *, const char *, const char *) {
+   english="Notification error for client %s (group %s): %s"
+   french="Erreur de notification pour le client %s (groupe %s): %s"
+}
+Callback() {
+   english="Error when callback invoked"
+   french="Erreur lors de la callback"
+}
+Internal() {
+   english="Internal error"
+   french="Erreur interne"
+}
+NotSynchronousWriting(int, const char *) {
+   english="Writing is not synchronous nb:%d first alias:%s"
+   french="Ecriture non synchrone nb:%d premier alias:%s"
+}
+StackOverflow() {
+   english="Stack overflow"
+   french="Débordement de pile"
+}
+XMLLoadingFatal() {
+   english="Fatal error in XML files. Aborting..."
+   french="Erreur fatale dans les fichiers XML. Abandon..."
+}
+DependencyCycle(const char*) {
+   english="%s is part of a CE dependency cycle"
+   french="%s appartient à un cycle de dépendances du MC"
+}
+NbDependencyCycles(int) {
+   english="%d CE dependency cycles have been detected"
+   french="%d cycle de dépendances du MC ont été détectés"
+}
+BadContext(int) {
+   english="Bad context, Id : %d"
+   french="Mauvais contexte, Id : %d"
+}
+BadAlarmSynthesis(const char*) {
+   english="Unable to perform alarm synthesis for: %s"
+   french="Impossible d'effectuer la synthèse d'alarme pour: %s"
+}
+IncorrectAlarmSynthesis(const char*) {
+   english="Value of alarmSynthesis vector is incorrect: %s"
+   french="Valeur incorrecte de vecteur de synthèse d'alarme: %s"
+}
+UnknownUserClassId(const char*) {
+   english="Unknown user class Id for %s, check for $SCSPATH/Database/dbmserver.cfg"
+   french="Class Id inconnu pour %s, vérifier $SCSPATH/Database/dbmserver.cfg"
+}
+CreateDirectory(const char *) {
+   english="Error creating directory [%s]"
+   french="Erreur de creation du repertoire [%s]"
+}

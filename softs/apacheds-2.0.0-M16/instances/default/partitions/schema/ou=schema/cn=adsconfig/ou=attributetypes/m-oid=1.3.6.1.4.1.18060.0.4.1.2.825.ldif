@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.825,ou=attributeTypes,cn=adsconfig,ou=schema
+m-length: 0
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.825
+m-name: ads-replUserDn
+m-description: user DN used for authenticating with replication provider
+m-equality: distinguishedNameMatch
+entryParentId: c11acc1c-02ea-42e3-b600-cc0ca6feff74
+m-singlevalue: TRUE
+createTimestamp: 20140513151220.254Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.12
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: f9cfb49b-015a-4087-ab9e-b3a470483c68
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.442000Z#000002#000#000000

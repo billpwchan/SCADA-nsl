@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- IMD file for module ilvgantt -->
+<module name="ilvgantt" version="5.4">
+<class name="IlvGanttDragDropInteractor"/>
+<class name="IlvGanttScaleInteractor" rootClass="IlvInteractor" sharedName="GanttScale"/>
+<class name="IlvGanttResourceLine" rootClass="IlvGraphic"/>
+<class name="IlvGanttChart" rootClass="IlvGraphic"/>
+<class name="IlvGanttResourceHeader" rootClass="IlvGraphic"/>
+<class name="IlvAttachedGraphicSet" rootClass="IlvGraphic"/>
+<class name="IlvGanttChartForm" rootClass="IlvGraphic"/>
+<class name="IlvGanttHandleInteractor"/>
+<class name="IlvGanttLine" rootClass="IlvGanttAbstractObject"/>
+<class name="IlvGanttNode" rootClass="IlvGanttAbstractObject"/>
+<class name="IlvGanttLink" rootClass="IlvGanttAbstractObject"/>
+<class name="IlvGanttSubNode" rootClass="IlvGanttAbstractObject"/>
+</module>

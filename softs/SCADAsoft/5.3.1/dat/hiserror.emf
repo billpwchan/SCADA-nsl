@@ -1,0 +1,333 @@
+###############################################################################
+# IDENTIFICATION:
+# $Id: hiserror.emf,v 1.3 1999/01/26 15:47:09 jpu Exp $
+#
+# HISTORY:
+# $Log: hiserror.emf,v $
+# Revision 1.3  1999/01/26 15:47:09  jpu
+# Add PropertiesConflict()
+#
+##############################################################################
+#
+# Revision 4.3.0  11/08/2004 KLL
+# FFT SRC-773 - Pb de retour lors d'un queryArchive
+#
+
+COMPONENT=His,His
+
+Init() {
+   english="His Initialization"
+   french="Initialisation du serveur His"
+}
+
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+HostServer(const char *) {
+   english="Server %s is not registered at the host server"
+   french="Le server %s n'est pas enregistre aupres du serveur de nom"
+}
+RtapFunction(const char *) {
+   english="Rtap function %s error"
+   french="Erreur fonction Rtap %s"
+}
+Function(const char *) {
+   english="Function %s error"
+   french="Erreur fonction %s"
+}
+SystemFunction(const char *) {
+   english="System function %s error"
+   french="Erreur fonction system %s"
+}
+DataBaseConnection(const char *) {
+   english="Cannot connect to database [env=%s]"
+   french="Impossible de se connecter a la base [env=%s]"
+}
+ArchiveCreation(const char *) {
+   english="Archive creation error: %s already exists"
+   french="Erreur de creation d'archive: %s existe deja"
+}
+PropertiesConflict(const char *, const char *) {
+   english="Properties conflict for attribute %s of archive %s"
+   french="Conflit de proprietes pour l'attribut %s de l'archive %s"
+}
+ArchiveNotFound(const char *) {
+   english="Archive %s not found"
+   french="Archive %s inexistante"
+}
+PermissionDenied(const char *, const char *) {
+   english="User [%s] has not access rights for application %s"
+   french="L'utilisateur [%s] n'a pas les droits d'acces pour l'application %s"
+}
+ProfileNotFound(const char *) {
+   english="Profile not found for user [%s]"
+   french="Profile non trouve pour l'utilisateur [%s]"
+}
+InvalidPathname(const char *) {
+   english="Invalid pathname [%s]"
+   french="Chemin d'acces invalide [%s]"
+}
+CreateDirectory(const char *) {
+   english="Error creating directory [%s]"
+   french="Erreur de creation du repertoire [%s]"
+}
+RemoveDirectory(const char *) {
+   english="Error removing directory [%s]"
+   french="Erreur de destruction du repertoire [%s]"
+}
+RenameFile(const char *, const char *) {
+   english="Error renaming file [%s] to [%s]"
+   french="Erreur de renommage du fichier [%s] en [%s]"
+}
+CreateFile(const char *) {
+   english="Error creating file [%s]"
+   french="Erreur de creation du fichier [%s]"
+}
+CopyFile(const char *, const char *) {
+   english="Error copying file [%s] to [%s]"
+   french="Erreur de copy du fichier [%s] vers [%s]"
+}
+OpenFile(const char *) {
+   english="Error opening file [%s]"
+   french="Erreur d'ouverture du fichier [%s]"
+}
+OpenDir(const char *) {
+   english="Error opening Directory [%s]"
+   french="Erreur d'ouverture du Repertoire [%s]"
+}
+ParseFile(const char *) {
+   english="Error parsing file [%s]"
+   french="Erreur d'analyse syntaxique du fichier [%s]"
+}
+
+NoAddressesInList() {
+   english="Address List is empty"
+   french="La liste d'adresses est vide"
+}
+
+InvalidType(const char *) {
+   english="Attribute %s has invalid type for archiving"
+   french="Le type de'l'attribut %s n'est pas valable pour l'archivage"
+}
+
+TypeUndefined(const char *, const char *) {
+   english="Type for attribute %s of external archive %s is undefined"
+   french="Le type de l'attribut %s de l'archive externe %s est inconnu"
+}
+
+TypeIncorrect(const char *, const char *) {
+   english="Default value for attribute %s of archive %s is of incorrect type"
+   french="Le type de la valeur par defaut de l'attribut %s de l'archive %s est incorrect"
+}
+
+Timeout(const char *,const char *) {
+   english="Timeout received while sending %s request to %s environment"
+   french="Délai expiré durant l'envoi de la requête %s vers l'environnement %s"
+}
+
+FunctionNotImplemented(const char *) {
+   english="Function %s not implemented"
+   french="Fonction %s non implémentée"
+}
+
+ArchiveNameIncorrect(const char*) {
+   english="Archive name %s not correct"
+   french="Nom de l'archive %s incorrect"
+}
+ArchiveIncorrect(const char*) {
+   english="Archive %s not correct !!! "
+   french="Archive %s incorrect !!! "
+}
+ArchiveNotImplemented(const char *) {
+   english="Type of archive %s not implemented"
+   french="Type de l'archive %s non implémenté"
+}
+PropertyNotImplemented(int, const char*) {
+   english="Line %d : Property %s not implemented"
+   french="Ligne %d : Propriété %s non implémentée"
+}
+NoBufferAvailable() {
+   english="No restitution buffer available"
+   french="Aucun buffer de restitution disponible"
+}
+NoSubscriptionDefined() {
+   english="No subscription defined"
+   french="La liste d'abonnement est vide"
+}
+SubscriptionAlreadyDefined() {
+  english="Subscription already defined"
+  french="Abonnement déjà défini"
+}
+InvalidQualityType(const char *) {
+   english="Quality of attribute %s has invalid type for archiving"
+   french="Le type de la qualité de l'attribut %s n'est pas valable pour l'archivage"
+}
+InvalidTimestampType(const char *) {
+   english="Timestamp of attribute %s has invalid type for archiving"
+   french="Le type de la date de l'attribut %s n'est pas valable pour l'archivage"
+}
+InvalidPeriod (const char*, const char*) {
+   english="Period of attribute %s of archive %s is invalid"
+   french="La période de l'atrribut %s de l'archive %s n'est pas correct"
+}
+AttributeNotFound(const char*, const char*) {
+   english="Attribute %s of archive %s not found"
+   french="L'attribut %s de l'archive %s n'existe pas"
+}
+TooMuchDBVs(int,int,int) {
+   english="Request on more than one DBV (%d) Interval: [%d,%d]"
+   french="La demande concerne plus (%d) d'une seule DBV Interval: [%d,%d]"
+}
+BadFile(const char *) {
+   english="Bad File: [%s] "
+   french="Mauvais Fichier: [%s] " 
+}
+TransfertLT( const char *) {
+   english="No Files Transfert toward LT directory: [%s]"
+   french="Erreur de transfert des fichiers vers le LT: [%s]"
+}
+DeleteFile(const char *) {
+   english="Error in suppressing file [%s] "
+   french="Erreur Suppression du fichier [%s] " 
+}
+NoLTServeur() {
+   english="No Long Term serveur !!"
+   french="Pas de Serveur Long Terme !!"
+}
+ConnexionLT() {
+   english="Historian LT  server connection error."
+   french="Erreur connection au serveur LT"
+}
+PointSet( int, const char *) {
+   english=" Error Creation HisDbPointSet [%d] for archive [%s]"
+   french="Erreur Creation HisDbPointSet [%d] pour l'archive [%s]"
+}
+PointSetNotFound( int) {
+   english=" Point Set [%d] subscribed without historization !!!"
+   french=" Point Set [%d] abonné sans historisation !!!"
+}
+BadSub( int, int) {
+   english=" Bad received subscription Id [%d] - Real Id [%d]"
+   french="Incoherence entre Abonnement Id recu [%d] - Id reel [%d]"
+}
+BadParam( long, long) {
+   english=" Bad interval for the request [%d - %d]"
+   french=" Intervalle de temps pour la requête incorrect [%d - %d]"
+}
+StaticSaveArchive( const char *) {
+   english="Error in archive saving [%s] - Static Snapshot"
+   french=" Sauvegarde Archive [%s] - Static Snapshot"
+}
+DescSaveArchive( const char *) {
+   english="Error in archive saving [%s] - Save archive description "
+   french=" Sauvegarde Archive [%s] - Sauvegarde de la description de l'archive"
+}
+WrongAttribut ( const char *) {
+   english=" Attribut [%s] unknown in Database"
+   french=" Attribut non trouve [%s] en Bd"
+}
+WrongOperator( int ) {
+   english="Wrong Operator [%s] "
+   french=" Mauvaise operation [%] " 
+}
+TypeFieldCriteria( int, int, int, int ) {
+   english=" Instance: %d Time: %d - data types are differents [left : %d] [right: %d]"
+   french=" Instance: %d Temps: %d - Incoherences de types des champs du critère [gauche : %d] [right : %d]"
+}
+NoInstances( int ) {
+   english=" No Instances for Query Request [%d]"
+   french=" Pas d'instances selectionnees pour la requete : [%d]"
+}
+StatusCallback() {
+   english="Error in return Callback" 
+   french="Erreur en retour Callback" 
+}
+NoHistorisationFound(int, int) {
+   english="No Historisation found with period: %d Type: %d" 
+   french="Pas d'historisation trouvee de periode: %d et de type: %d"
+}
+GetDBVIds() {
+   english="Error in HisLTServer::getDBVIds()"
+   french=" Erreur de HisLTServer::getDBVIds()"
+}
+NoStaticAttr( const char *) {
+   english=" Point [%s] not archived and not Static"
+   french=" Le Point [%s] n'est pas archive, ni Statique"
+}
+ReadStaticAttr( const char *) {
+   english=" Error in reading Static Attribut [%s] "
+   french=" Erreur de lecture de l'attribut Statique [%s] "
+}
+ParseQuery( int , const char * ) {
+   english=" Parsing error for query (%d): [%s]"
+   french=" Err. Parsing de la requete (%d): [%s]"
+}
+WrongCriteria( int , const char * ) {
+   english=" Parsing error for query (%d): [%s]"
+   french=" Err. Parsing de la requete (%d): [%s]"
+}
+ConfigFile( const char * ) {
+   english=" No Configuration File for HIS: [%s]"
+   french=" Pas de fichier de configuration HIS: [%s]"
+}
+MoveDir( const char * , const char *) {
+   english=" No Move of [%s] toward [%s]"
+   french=" Impossible de transferer [%s] vers [%s]"
+}
+NoLocalServer( const char * , const char *) {
+   english=" No Local Server for %s [%s]"
+   french=" Server non Local pour [%s] [%s]"
+}
+GetFileLT( int , int, int, int) {
+   english=" Can't get LT Files in [%d,%d] Histo: Period:%d Type:%d"
+   french=" Impossible de récuperer les fichiers LT de [%d,%d] Historisation: Periode:%d Type:%d"
+}
+LoadNotFound( int ) {
+   english=" No loading archive known [num: %d] "
+   french=" Pas de chargement d'archive [no: %d] connu"
+}
+NoServerForOldDbv( int, int, int ) {
+   english="No Optional HIS for Old Dbv Loading [%d; %d] Current Dbv time:[%d] "
+   french="Pas de Server Optionel pour chargement d'une ancienne DBV [%d; %d]  Debut de Dbv Courante:[%d]"
+}
+NoProxy( int , int , int) {
+   english=" No Proxy Found  for LoadId [%d] Interval [%d:%d] "
+   french=" Pas de Proxy trouve pour LoadId [%d] Interval [%d:%d] "
+}
+NoDBV( int , int) {
+   english=" No DBV Found  for Interval [%d:%d] "
+   french=" Pas de DBV trouve pour l'Interval [%d:%d] "
+}
+NumPeriod( int , int, const char *) {
+   english=" No configured _NumPeriod [Type:%d, Period:%d] ==> %s "
+   french=" Pas de _NumPeriod configure [Type:%d, Periode:%d] ==> %s"
+}
+DBVreloading( const char *, int, int) {
+   english=" DBV: %s is already being reloaded for Interval [%d;%d] ..."
+   french=" DBV: %s deja en cours de rechargement pour l'Interval [%d;%d] ..."
+}
+DBVreload( const char *) {
+   english=" Error in reload DBV Structure : %s  ..."
+   french=" Erreur de rechargement (Structure de la base) de la DBV: %s  ..."
+}
+DBVStructure( const char * ) {
+   english=" Error in putting in LT  DBV Structure ...(path: %s)"
+   french=" Erreur de sauvegarde au LT (Structure de la base) de la DBV ...(acces: %s)"
+}
+RemovePath( const char * ) {
+   english=" No remove of path: %s"
+   french=" Directory pas supprime : %s"
+}
+NoElementsToRead() {
+   english=" No elements to read in the memory, in the disk and in the LT"
+   french=" Pas d'éléments à lire ni en mémoire, ni sur le disque et ni sur le LT"
+}
+InvalidColumnInList(const char *, const char *) {
+   english=" Column %s doesn't exist in the list %s"
+   french=" La colonne %s n'existe pas dans la liste %s"
+}
+UnReadArchive( const char*, int, int) {
+   english=" Can't execute unreadArchive for archive %s in the interval [%d - %d]"
+   french=" La colonne %s n'existe pas dans la liste %s"
+}

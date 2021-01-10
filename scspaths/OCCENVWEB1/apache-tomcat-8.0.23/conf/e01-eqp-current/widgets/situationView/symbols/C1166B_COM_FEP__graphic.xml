@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_COM_FEP__graphic">
+        <root>
+            <svgGroup id="C1166B_COM_FEP__FEP__State_Invalid_FEP__State_MO_FEP__State_Empty_FEP__State_Selected_MO_FEP__State_Selected">
+                <svgRef brickId="FEP__State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_COM_FEP__FEP__A_Symbol_Undefined_FEP__A_Symbol_InService_FEP__A_Symbol_OutofService">
+                <svgRef brickId="FEP__A_Symbol_OutofService" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_COM_FEP__FEP__B_Symbol_Undefined_FEP__B_Symbol_InService_FEP__B_Symbol_OutofService">
+                <svgRef brickId="FEP__B_Symbol_OutofService" id="symbol2.value_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

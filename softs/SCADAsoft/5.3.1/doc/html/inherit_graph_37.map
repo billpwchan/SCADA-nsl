@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" href="$classOlsCriteria.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsCriteria" coords="17,83,97,109" />
+<area shape="rect" href="$classOlsAndCriteria.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsAndCriteria" coords="146,7,256,33" />
+<area shape="rect" href="$classOlsFieldCriteria.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsFieldCriteria" coords="145,57,257,84" />
+<area shape="rect" href="$classOlsNotCriteria.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsNotCriteria" coords="149,108,253,135" />
+<area shape="rect" href="$classOlsOrCriteria.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsOrCriteria" coords="152,159,250,185" />
+</map>

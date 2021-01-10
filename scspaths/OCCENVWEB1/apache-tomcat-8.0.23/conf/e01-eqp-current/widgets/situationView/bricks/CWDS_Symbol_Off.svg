@@ -1,0 +1,15 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="CWDS_Symbol_Off"><g id="_C1166B_SYMBOLS_CES_C1166B_CES_CWDS_2_OFF_SVG" transform="translate(-99.0 -99.0)scale(1.0 1.0)"><rect x="50.0" fill="red" width="100.0" height="120.0" y="40.0" opacity="0"/><g id="CES/C1166B_CES_CWDS_2_Off" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polygon fill="#FFFFFF" class="AnPolygon" fill-rule="evenodd" points="25,-60 25,59 49,59 49,-60 "/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="25,-60 25,59 49,59 49,-60 25,-60 " stroke="#000000"/>
+
+  
+  <polygon fill="#000000" class="AnPolygon" fill-rule="evenodd" points="10,-1 -14,-25 -14,-7 -50,-7 -50,5 -14,5 -14,23 "/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="10,-1 -14,-25 -14,-7 -50,-7 -50,5 -14,5 -14,23 10,-1 " stroke="#000000"/>
+
+</g></g></g></svg>

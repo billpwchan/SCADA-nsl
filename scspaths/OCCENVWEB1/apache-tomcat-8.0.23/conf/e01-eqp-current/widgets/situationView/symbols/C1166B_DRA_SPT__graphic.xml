@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_DRA_SPT__graphic">
+        <root>
+            <svgGroup id="C1166B_DRA_SPT__SPT__State_Selected_MO_SPT__State_MO_SPT__State_Empty_SPT__State_Invalid_SPT__State_Selected">
+                <svgRef brickId="SPT__State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_DRA_SPT__SPT__Symbol_Alarm_Blink_SPT__Symbol_Normal_Blink_SPT__Symbol_Alarm_SPT__Symbol_Normal_SPT__Symbol_Undefined">
+                <svgRef brickId="SPT__Symbol_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

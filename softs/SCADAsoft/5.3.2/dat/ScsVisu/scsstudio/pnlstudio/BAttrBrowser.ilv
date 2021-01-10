@@ -1,0 +1,47 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:23 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "BAttrBrowser"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\BAttrBrowser.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 4
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 10 219 186 22 F6 2 1 -1 0 "" } 544 "Text"
+1
+1 "__ilvCallback" "okCB"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 10 258 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&apply"  }   } 544 "Ok"
+1
+1 "__ilvCallback" "okCB"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 123 258 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 512
+1
+1 "__ilvCallback" "closeCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSheet 10 8 186 196 F34910 2 A A 0 0 0 0 1 1 80 25 1 1 1 1 1 0 2 1 V0 2 2 0 0 224 IlvLabelMatrixItem "Attribute Name" 
+1 0 224 IlvLabelMatrixItem "Type"  0 N 0 0 1 1 0  } 544 "Matrix"
+1
+1 "__ilvCallback" "matrixCB"
+0
+Size 205 290
+GeometryHandlers
+1 100 160 205 0 205 0
+3 3 123 0 123  0 0 73 2  0 0 9 0
+ 3 0 0 10  186 0 186 0  0 0 9 0
+ 3 0 0 10  186 0 186 3  0 0 9 0
+2 100 150 249 0 249 0
+ 0 0 41 249 41 249
+2 3 219 0 219  0 0 22 0  0 0 8 0
+ 3 0 0 8  196 0 196 3  0 0 45 0
+2 3 0 0 9  0 0 23 1  0 0 9 1
+ 3 0 0 9  23 0 23 2  0 0 9 1
+EOF

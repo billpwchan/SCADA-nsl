@@ -1,0 +1,10 @@
+version: 1
+dn: ou=syntaxCheckers,cn=apachedns,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 327c6d9e-6ecd-414c-8300-3cebd843bab4
+ou: syntaxcheckers
+entryUUID: 7fd069d3-73af-402f-a82e-efc11818f067
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.223Z
+entryCSN: 20140513151214.629000Z#000009#000#000000

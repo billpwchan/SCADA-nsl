@@ -1,0 +1,70 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:30:17 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcwslist"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcwslist.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 7
+2 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 290 148 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Ok"
+1
+1 "__ilvCallback" "okCB"
+10240 "text"
+2 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 13 78 90 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "cancel"
+1
+1 "__ilvCallback" "cancelCB"
+4096 "apply"
+3 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 13 18 347 113 F131 2 A A 0 0 0 0 0 1 0 0 V0 2 0 } 544 "text"
+2
+1 "__ilvCallback" "okCB"
+1 "__ilvSCallback" "selectItemCB"
+6144 "AddWS" "Ok"
+3 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 5 148 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&AddWorkSpace"  }   } 544 "AddWS"
+1
+1 "__ilvCallback" "addWSCB"
+6144 "BroadcastWS" "text"
+3 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 95 148 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&BroadcastWS"  }   } 544 "BroadcastWS"
+1
+1 "__ilvCallback" "broadcastWSCB"
+4096 "AddWS"
+3 { 5 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&addVersionControlTT" 4 4 ]
+1 IlvButton 14 107 90 23 F268435469 2 { IlvMessageItem 262145 4 16 4 "&addVersionControl"  }   } 544 "AddVersionControl"
+1
+1 "__ilvCallback" "addVersionControlCB"
+16384
+3 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 1 365 138 F268435468 0 { IlvMessageItem 262169 4 16 4 "&WorkSpace"  }   } 0
+0
+Size 375 176
+GeometryHandlers
+1 100 0 375 0 375 0
+3 3 0 0 13  347 0 347 2  0 0 15 0
+ 3 0 0 5  365 0 365 6  0 0 5 0
+ 3 290 0 290  0 0 80 0  0 0 5 0
+2 100 0 143 0 143 0
+ 0 0 33 143 33 143
+2 3 0 0 18  113 0 113 2  0 0 12 0
+ 3 0 0 1  138 0 138 6  0 0 4 0
+3 3 5 0 5  0 0 23 3  0 0 5 1
+ 3 0 0 5  0 0 23 4  0 0 5 1
+ 3 0 0 5  0 0 23 0  0 0 5 1
+Layers 4
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

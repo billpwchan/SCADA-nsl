@@ -1,0 +1,94 @@
+COMPONENT=Ols,Ols
+
+Init() {
+   english="Ols Initialization"
+   french="Initialisation du serveur de liste"
+}
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+HostServer(const char *) {
+   english="Server %s is not registered at the host server"
+   french="Le server %s n'est pas enregistre aupres du server de nom"
+}
+BadFilter() {
+   english="Bad filter definition"
+   french="Mauvaise definition de filtre"
+}
+AlreadyDefinedFilter(const char*) {
+   english="Filter %s is already defined"
+   french="Le filtre %s est deja defini"
+}
+UnknownFilter(const char*) {
+   english="Filter %s is unknown"
+   french="Le filtre %s est inconnu"
+}
+BadSubscriptionId(int) {
+   english="Bad subscription id %d"
+   french="Indice d'abonnement %d incorrect"
+}
+BadDataKey(int) {
+   english="Key %d is unknown"
+   french="La cle %d est inconnue"
+}
+BadListName(const char *) {
+   english="The list %s is unknown"
+   french="La liste %s est inconnue"
+}
+DataModeUndefined() {
+   english="The data mode is undefined for a list modification"
+   french="Le mode d'une data est indefini lors d'une modification de liste"
+}
+BadDataMode() {
+   english="Bad data mode"
+   french="Le mode d'une data est incorrect"
+}
+NoTimeField() {
+   english="List has no time field"
+   french="La liste ne comporte aucun champ time"
+}
+BadPathname(const char *) {
+   english="Pathname [%s] is incorrect"
+   french="Le chemin d'acces [%s] est incorrect"
+}
+CreateDirectory(const char *) {
+   english="Error creating directory [%s]"
+   french="Erreur de creation du repertoire [%s]"
+}
+CreateFile(const char *) {
+  english="Cannot create file [%s]"
+  french="Impossible de creer le fichier [%s]"
+}
+OpenFile(const char *) {
+  english="Cannot open file [%s]"
+  french="Impossible d'ouvrir le fichier [%s]"
+}
+DeleteFile(const char *) {
+  english="Cannot remove file [%s]"
+  french="Impossible de detruire le fichier [%s]"
+}
+WarningRemoveFile(const char *, const char *) {
+  english="Warning! File [%s] will be removed at next saving of archive [%s]"
+  french="Attention! Le fichier [%s] sera detruit a la prochaine sauvegarde de l'archive [%s]"
+}
+Timeout(const char *,const char *) {
+   english="Timeout received while sending %s request to %s environment"
+   french="Délai expiré durant l'envoi de la requête %s vers l'environnement %s"
+}
+NoClient(const char*, const char*, const char*) {
+   english="Internal error : Unable to find any passed subscription from %s %s to list %s"
+   french="Erreur interne : impossible de trouver la souscription en provenance de %s %s pour la liste %s"
+}
+NoMoreClient(const char*, int) {
+   english="Internal error : You reached the max numer of clients for the OlsListWithClientVisibility %s (%d)"
+   french="Erreur interne : Vous avez atteind le nombre max de clients pour la OlsListWithClientVisibility %s (%d)"
+}
+Callback() {
+   english="Error when callback invoked"
+   french="Erreur lors de la callback"
+}
+CannotLink(const char*, const char*) {
+   english="Cannot link '%s' to '%s'"
+   french="Impossible de créer un lien de '%s' vers '%s'"
+}

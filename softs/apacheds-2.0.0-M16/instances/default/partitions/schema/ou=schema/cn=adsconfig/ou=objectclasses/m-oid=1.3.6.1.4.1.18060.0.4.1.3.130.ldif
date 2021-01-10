@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.3.130,ou=objectClasses,cn=adsconfig,ou=schema
+m-supobjectclass: ads-base
+m-must: ads-interceptorId
+m-must: ads-interceptorOrder
+m-must: ads-interceptorClassName
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+m-oid: 1.3.6.1.4.1.18060.0.4.1.3.130
+m-name: ads-interceptor
+m-description: The Interceptor ObjectClass
+entryParentId: be5aca8f-d139-43bf-a3f8-0c7fd61660f2
+entryUUID: 01860357-88ab-44e5-b65a-924967fa7cff
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.441Z
+entryCSN: 20140513151214.536000Z#000004#000#000000

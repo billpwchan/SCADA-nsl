@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="GEN_LogicalEnv">
+<InstanceDescription alias="OCCENVSERV0001ENV" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVSERV0001ENV"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ENV"/>
+</AttributDescription>
+<AttributDescription attrId="stateVector">
+<VectorValue>
+<ScalarValue value="Down"/>
+<ScalarValue value="Init"/>
+<ScalarValue value="Online"/>
+<ScalarValue value="OnlineInit"/>
+<ScalarValue value="OnlineIsolated"/>
+<ScalarValue value="OnlineNoStandby"/>
+<ScalarValue value="OnlineSnapshot"/>
+<ScalarValue value="Standby"/>
+<ScalarValue value="StandbyInit"/>
+<ScalarValue value="StandbyIsolated"/>
+<ScalarValue value="StandbySync"/>
+<ScalarValue value="Up"/>
+</VectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCENVSERV0002ENV" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVSERV0002ENV"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ENV"/>
+</AttributDescription>
+<AttributDescription attrId="stateVector">
+<VectorValue>
+<ScalarValue value="Down"/>
+<ScalarValue value="Init"/>
+<ScalarValue value="Online"/>
+<ScalarValue value="OnlineInit"/>
+<ScalarValue value="OnlineIsolated"/>
+<ScalarValue value="OnlineNoStandby"/>
+<ScalarValue value="OnlineSnapshot"/>
+<ScalarValue value="Standby"/>
+<ScalarValue value="StandbyInit"/>
+<ScalarValue value="StandbyIsolated"/>
+<ScalarValue value="StandbySync"/>
+<ScalarValue value="Up"/>
+</VectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCENVWKST0001ENV" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVWKST0001ENV"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ENV"/>
+</AttributDescription>
+<AttributDescription attrId="stateVector">
+<VectorValue>
+<ScalarValue value="Down"/>
+<ScalarValue value="Init"/>
+<ScalarValue value="Online"/>
+<ScalarValue value="OnlineInit"/>
+<ScalarValue value="OnlineIsolated"/>
+<ScalarValue value="OnlineNoStandby"/>
+<ScalarValue value="OnlineSnapshot"/>
+<ScalarValue value="Standby"/>
+<ScalarValue value="StandbyInit"/>
+<ScalarValue value="StandbyIsolated"/>
+<ScalarValue value="StandbySync"/>
+<ScalarValue value="Up"/>
+</VectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCENVWKST0002ENV" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVWKST0002ENV"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ENV"/>
+</AttributDescription>
+<AttributDescription attrId="stateVector">
+<VectorValue>
+<ScalarValue value="Down"/>
+<ScalarValue value="Init"/>
+<ScalarValue value="Online"/>
+<ScalarValue value="OnlineInit"/>
+<ScalarValue value="OnlineIsolated"/>
+<ScalarValue value="OnlineNoStandby"/>
+<ScalarValue value="OnlineSnapshot"/>
+<ScalarValue value="Standby"/>
+<ScalarValue value="StandbyInit"/>
+<ScalarValue value="StandbyIsolated"/>
+<ScalarValue value="StandbySync"/>
+<ScalarValue value="Up"/>
+</VectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCENVWKST0003ENV" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVWKST0003ENV"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ENV"/>
+</AttributDescription>
+<AttributDescription attrId="stateVector">
+<VectorValue>
+<ScalarValue value="Down"/>
+<ScalarValue value="Init"/>
+<ScalarValue value="Online"/>
+<ScalarValue value="OnlineInit"/>
+<ScalarValue value="OnlineIsolated"/>
+<ScalarValue value="OnlineNoStandby"/>
+<ScalarValue value="OnlineSnapshot"/>
+<ScalarValue value="Standby"/>
+<ScalarValue value="StandbyInit"/>
+<ScalarValue value="StandbyIsolated"/>
+<ScalarValue value="StandbySync"/>
+<ScalarValue value="Up"/>
+</VectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCENVWKST0004ENV" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVWKST0004ENV"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ENV"/>
+</AttributDescription>
+<AttributDescription attrId="stateVector">
+<VectorValue>
+<ScalarValue value="Down"/>
+<ScalarValue value="Init"/>
+<ScalarValue value="Online"/>
+<ScalarValue value="OnlineInit"/>
+<ScalarValue value="OnlineIsolated"/>
+<ScalarValue value="OnlineNoStandby"/>
+<ScalarValue value="OnlineSnapshot"/>
+<ScalarValue value="Standby"/>
+<ScalarValue value="StandbyInit"/>
+<ScalarValue value="StandbyIsolated"/>
+<ScalarValue value="StandbySync"/>
+<ScalarValue value="Up"/>
+</VectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCENVWKST0005ENV" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVWKST0005ENV"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ENV"/>
+</AttributDescription>
+<AttributDescription attrId="stateVector">
+<VectorValue>
+<ScalarValue value="Down"/>
+<ScalarValue value="Init"/>
+<ScalarValue value="Online"/>
+<ScalarValue value="OnlineInit"/>
+<ScalarValue value="OnlineIsolated"/>
+<ScalarValue value="OnlineNoStandby"/>
+<ScalarValue value="OnlineSnapshot"/>
+<ScalarValue value="Standby"/>
+<ScalarValue value="StandbyInit"/>
+<ScalarValue value="StandbyIsolated"/>
+<ScalarValue value="StandbySync"/>
+<ScalarValue value="Up"/>
+</VectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCENVWKST0006ENV" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVWKST0006ENV"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ENV"/>
+</AttributDescription>
+<AttributDescription attrId="stateVector">
+<VectorValue>
+<ScalarValue value="Down"/>
+<ScalarValue value="Init"/>
+<ScalarValue value="Online"/>
+<ScalarValue value="OnlineInit"/>
+<ScalarValue value="OnlineIsolated"/>
+<ScalarValue value="OnlineNoStandby"/>
+<ScalarValue value="OnlineSnapshot"/>
+<ScalarValue value="Standby"/>
+<ScalarValue value="StandbyInit"/>
+<ScalarValue value="StandbyIsolated"/>
+<ScalarValue value="StandbySync"/>
+<ScalarValue value="Up"/>
+</VectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

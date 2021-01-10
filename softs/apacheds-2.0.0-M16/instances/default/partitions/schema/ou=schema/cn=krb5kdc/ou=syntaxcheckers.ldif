@@ -1,0 +1,10 @@
+version: 1
+dn: ou=syntaxCheckers,cn=krb5kdc,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 0c7c1fdf-ece2-450a-934b-bd5f29059a32
+ou: syntaxcheckers
+entryUUID: 5219cefa-446f-4a9c-a2e8-f3c6ab434a03
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.129Z
+entryCSN: 20140513151214.879000Z#000021#000#000000

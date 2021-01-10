@@ -1,0 +1,17 @@
+// ILOG Views Studio Options for ActiveX Adapter (Windows platforms)
+
+studio {
+
+    messageDB			"ivstudio/axadapter/studio.dbm";
+
+    dragDropPalette "ActiveXAdapter" {
+	dataFileName "ivstudio/axadapter/palette.ilv";
+	label "&ActiveXAdapter";
+    }
+
+    command SelectCOMGraphicAdapterMode {
+	label "&sCOMGraphicAdapter";
+	prompt "&sCOMGraphicAdapter";
+	category mode;
+    }
+}

@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" href="$classHisValue.html" title="This class is used to store the value of an archive point, and, eventually, its quality at a specific..." alt="HisValue" coords="17,7,89,33" />
+<area shape="rect" href="$classTrdData.html" title="This class is one of the class of the TRD SCADAsoft component." alt="TrdData" coords="139,7,203,33" />
+</map>

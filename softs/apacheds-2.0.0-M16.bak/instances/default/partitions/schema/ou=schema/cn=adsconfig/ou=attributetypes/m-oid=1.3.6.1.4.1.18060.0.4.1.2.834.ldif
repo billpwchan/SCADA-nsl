@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.834,ou=attributeTypes,cn=adsconfig,ou=schema
+m-length: 0
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.834
+m-name: ads-replStrictCertValidation
+m-description: flag to indicate strict certificate validation
+m-equality: booleanMatch
+entryParentId: c11acc1c-02ea-42e3-b600-cc0ca6feff74
+m-singlevalue: TRUE
+createTimestamp: 20140513151219.895Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: 87db56e4-999c-454b-a578-da26357ab6af
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.442000Z#00000b#000#000000

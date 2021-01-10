@@ -1,0 +1,57 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:23:08 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astccolors"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astccolors.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 6
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 6 282 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&select"  }   } 544 "applyButton"
+1
+1 "__ilvCallback" "applyCB"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 6 4 200 268 F268435468 0 { IlvMessageItem 262169 4 16 4 "&numcolors"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 16 24 180 163 F34910 2 A A 0 0 0 0 1 1 25 25 1 1 0 0 1 0 16 16 V0 2 0 0 N 0 0 0 0 0  } 544 "MatrixColor"
+1
+1 "__ilvCallback" "cellSelectCB"
+4096 "applyButton"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+0 IlvMatrix 16 197 180 34 F34904 2 N N 0 0 0 0 0 1 175 29 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 32 "rectColor"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 126 282 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "cancelCB"
+10240 "MatrixColor"
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 16 240 180 22 F536870919 2 16 -1 0 "" } 544 "colorName"
+1
+1 "__ilvCallback" "nameSelectedCB"
+0
+Size 212 313
+GeometryHandlers
+1 100 212 212 0 212 0
+6 3 0 0 16  180 0 180 2  0 0 16 0
+ 3 0 0 6  200 0 200 1  0 0 6 0
+ 3 0 0 16  180 0 180 3  0 0 16 0
+ 3 0 0 16  180 0 180 5  0 0 16 0
+ 3 0 0 6  0 0 80 0  126 0 126 0
+ 3 126 0 126  0 0 80 4  0 6 6 0
+1 100 303 313 0 313 0
+6 3 0 0 24  163 0 163 2  0 0 126 0
+ 3 0 0 4  268 0 268 1  0 0 41 0
+ 3 197 0 197  0 0 34 3  0 0 82 0
+ 3 240 0 240  0 0 22 5  0 0 51 0
+ 3 282 0 282  0 0 23 0  0 0 8 0
+ 3 282 0 282  0 0 23 4  0 0 8 0
+EOF

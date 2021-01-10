@@ -1,0 +1,54 @@
+#
+# Concentrateur PI001
+# External variables configuration file
+# this file has been automatically build by ScsConf
+#
+# Wed May 13 15:35:53 CEST 2015
+#
+#
+# Discrete External Input Variables
+#
+DEIV= rtu09b; deiSITE1B009F000SYSTEMRT09Bping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu09a; deiSITE1B009F000SYSTEMRT09Aping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu10a; deiSITE1B010F000SYSTEMRT10Aping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu07b; deiSITE1B007F000SYSTEMRT07Bping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu05a; deiSITE1B005F000SYSTEMRT05Aping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu02a; deiSITE1B002F000SYSTEMRT02Aping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu03a; deiSITE1B003F000SYSTEMRT03Aping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu04a; deiSITE1B004F000SYSTEMRT04Aping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu05b; deiSITE1B005F000SYSTEMRT05Bping; 4; ; ; 0; , , ; # state EIV
+DEIV= $GetState-PI001; deiSITE1B001F000SYSTEMPI001comsta; 4; ; ; 0; , , ; # state EIV
+DEIV= $GetSpy-PI001; deiSITE1B001F000SYSTEMPI001spy; 4; ; ; 0; , , ; # Spy state
+DEIV= rtu02b; deiSITE1B002F000SYSTEMRT02Bping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu08a; deiSITE1B008F000SYSTEMRT08Aping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu01b; deiSITE1B001F000SYSTEMRT01Bping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu01a; deiSITE1B001F000SYSTEMRT01Aping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu06a; deiSITE1B006F000SYSTEMRT06Aping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu07a; deiSITE1B007F000SYSTEMRT07Aping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu10b; deiSITE1B010F000SYSTEMRT10Bping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu08b; deiSITE1B008F000SYSTEMRT08Bping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu04b; deiSITE1B004F000SYSTEMRT04Bping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu06b; deiSITE1B006F000SYSTEMRT06Bping; 4; ; ; 0; , , ; # state EIV
+DEIV= rtu03b; deiSITE1B003F000SYSTEMRT03Bping; 4; ; ; 0; , , ; # state EIV
+#
+#
+# Discrete External Output Variables
+#
+DEOV= $SetState-PI001; deoSITE1B001F000SYSTEMPI001comsta; 4; ; ; 0; , , ; # change state
+DEOV= $SetSpy-PI001; deoSITE1B001F000SYSTEMPI001spy; 4; ; ; 0; , , ; # change spy mode
+#
+#
+# Analogue External Input Variables
+#
+#
+#
+# Analogue External Output Variables
+#
+#
+#
+# Structured External Input Variables
+#
+#
+#
+# Structured External Output Variables
+#

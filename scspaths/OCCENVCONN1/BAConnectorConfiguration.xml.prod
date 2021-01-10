@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:connectorConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xmlns:p="http://www.thalesgroup.com/hv/sdk/configuration-v1"
+                          xsi:schemaLocation="http://www.thalesgroup.com/hv/sdk/configuration-v1 ConnectorConfiguration.xsd">
+  
+  <!-- The point-to-point URL of the historian service -->
+  <p:historianServiceAddress>http://127.0.0.1:8805/operation/responder</p:historianServiceAddress>
+    <p:sharedCacheConfigurationFile>ehcache.xml.prod</p:sharedCacheConfigurationFile>
+  <p:quartzConfigurationFile>quartz.properties.prod</p:quartzConfigurationFile>
+  <p:operationConfiguration>
+    <!-- Value can be one of: REQUESTER, RESPONDER, REQUESTER_AND_RESPONDER -->
+    <p:operationRuntimeMode>REQUESTER_AND_RESPONDER</p:operationRuntimeMode>
+    <!-- The URL where the operation request/response messages are received -->
+    <p:operationReplyToAddress>http://127.0.0.1:8801/scada1/operation/responder</p:operationReplyToAddress>
+    <p:operationServerAddress>http://127.0.0.1:8801/scada1/operation/responder</p:operationServerAddress>
+  </p:operationConfiguration>
+  
+  
+  <p:notificationConfiguration>
+    <!-- Value can be one of: CONSUMER, PRODUCER, CONSUMER_AND_PRODUCER -->
+    <p:notificationRuntimeMode>CONSUMER_AND_PRODUCER</p:notificationRuntimeMode>
+    
+    <!-- default mode -->
+    <p:notificationCleanUpMode>SUBSCRIPTION_FAILURE</p:notificationCleanUpMode>
+    <!--<p:notificationCleanUpMode>SCHEDULED_TIMER</p:notificationCleanUpMode>-->
+    <!--<p:notificationCleanUpMode>SUBSCRIPTION_REMOVAL</p:notificationCleanUpMode>-->
+	
+	<p:internalSubscriptionWorkers>50</p:internalSubscriptionWorkers>
+    
+    <p:subscriptionReplyToAddress>http://127.0.0.1:8801/scada1/notification/reception</p:subscriptionReplyToAddress>
+    <!-- The URL where the subscription/notification messages are received -->
+    <p:notificationServerAddress>http://127.0.0.1:8801/scada1/notification/producer</p:notificationServerAddress>
+   
+  </p:notificationConfiguration>
+  
+   <!--
+   <p:monitoringSettings>
+      <p:monitoringXmlFilename>monitoring-configuration.xml</p:monitoringXmlFilename>
+      <p:localFilename>monitoring-local.properties</p:localFilename>
+   </p:monitoringSettings>
+   -->
+   
+   
+</p:connectorConfiguration>

@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="2138" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 4189 2138" width="4189">
+
+  
+  <g class="AnLayer" id="AnDefaultLayer">
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="628,736 857,736 857,855 628,855 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="1142,829 1361,829 1361,948 1142,948 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="1907,1399 2336,1399 2336,1518 1907,1518 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="2328,1051 2577,1051 2577,1210 2328,1210 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="2760,1026 2979,1026 2979,1145 2760,1145 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="2779,369 2978,369 2978,438 2779,438 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="2470,131 2949,131 2949,250 2470,250 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFFF" fill-rule="evenodd" points="2309,1953 2718,1953 2718,2022 2309,2022 " />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <g>
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2673px" x2="2757px" y1="891px" y2="891px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2757px" x2="2757px" y1="891px" y2="921px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2757px" x2="2673px" y1="921px" y2="921px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2673px" x2="2673px" y1="921px" y2="891px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2673px" x2="2757px" y1="591px" y2="591px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2757px" x2="2757px" y1="591px" y2="621px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2757px" x2="2673px" y1="621px" y2="621px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2673px" x2="2673px" y1="621px" y2="591px" />
+
+    
+    </g>
+
+    
+    <polyline class="AnPolyline" fill="none" points="1892,977 3121,977 3121,1532 1892,1532 1892,977 " stroke="#000000" stroke-dasharray=" 3 3" stroke-dashoffset="0" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1440,649 3226,649 3226,2078 1440,2078 1440,649 " stroke="#FFFFCF" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2006,52 3231,52 3231,559 2006,559 2006,52 " stroke="#FFFFCF" stroke-width="2px" />
+
+    
+  <path class="AnSpline" d="M893,723 C872,740 871,740 870,749 869,759 870,755 877,774 878,775 885,786 888,789 888,790 893,801 893,801 893,801 902,815 902,816 902,817 903,829 903,829 903,829 900,839 900,839 900,840 893,849 892,849 892,850 886,857 884,857 884,857 878,860 878,860 " fill="none" stroke="#8902AB" stroke-width="2px" />
+    
+    <polyline class="AnPolyline" fill="none" points="2290,1647 3089,1647 3089,2046 2290,2046 2290,1647 " stroke="#000000" stroke-dasharray=" 3 3" stroke-dashoffset="0" stroke-width="1px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement">
+
+    
+    <g>
+
+      
+      <circle class="AnCircle" cx="1718px" cy="796px" fill="none" r="52.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+      <circle class="AnCircle" cx="1640px" cy="796px" fill="none" r="52.00px" stroke="#8902AB" stroke-width="2px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2453px" x2="2553px" y1="1712px" y2="1712px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2477px" x2="2525px" y1="1732px" y2="1732px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2453px" x2="2553px" y1="1752px" y2="1752px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2477px" x2="2525px" y1="1776px" y2="1776px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2453px" x2="2553px" y1="1796px" y2="1796px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2477px" x2="2525px" y1="1820px" y2="1820px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2453px" x2="2553px" y1="1836px" y2="1836px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2477px" x2="2525px" y1="1860px" y2="1860px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2853px" x2="2957px" y1="1711px" y2="1711px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2881px" x2="2929px" y1="1731px" y2="1731px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2853px" x2="2957px" y1="1751px" y2="1751px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2881px" x2="2929px" y1="1775px" y2="1775px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2853px" x2="2957px" y1="1795px" y2="1795px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2881px" x2="2929px" y1="1819px" y2="1819px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2853px" x2="2957px" y1="1835px" y2="1835px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2881px" x2="2929px" y1="1859px" y2="1859px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <circle class="AnCircle" cx="1191px" cy="795px" fill="none" r="20.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+      <circle class="AnCircle" cx="1271px" cy="795px" fill="none" r="20.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1275,775 1200,732 " stroke="#8902AB" stroke-width="2px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <circle class="AnCircle" cx="2501px" cy="1360px" fill="none" r="20.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+      <circle class="AnCircle" cx="2501px" cy="1440px" fill="none" r="20.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+    <path class="AnSpline" d="M2521,1361 C2535,1366 2546,1377 2546,1377 2546,1377 2553,1393 2553,1393 2553,1393 2552,1412 2552,1412 2552,1412 2543,1430 2543,1430 2543,1430 2530,1440 2530,1440 2530,1440 2520,1443 2520,1443 " fill="none" stroke="#8902AB" stroke-width="2px" />
+    
+    </g>
+
+    
+    <g>
+
+      
+      <circle class="AnCircle" cx="2904px" cy="1360px" fill="none" r="20.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+      <circle class="AnCircle" cx="2904px" cy="1440px" fill="none" r="20.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+    <path class="AnSpline" d="M2924,1361 C2938,1366 2949,1377 2949,1377 2949,1377 2956,1393 2956,1393 2956,1393 2955,1412 2955,1412 2955,1412 2946,1430 2946,1430 2946,1430 2933,1440 2933,1440 2933,1440 2923,1443 2923,1443 " fill="none" stroke="#8902AB" stroke-width="2px" />
+    
+    </g>
+
+    
+    <g>
+
+      
+      <circle class="AnCircle" cx="2718px" cy="362px" fill="none" r="20.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+      <circle class="AnCircle" cx="2718px" cy="442px" fill="none" r="20.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+    <path class="AnSpline" d="M2738,363 C2752,368 2763,379 2763,379 2763,379 2770,395 2770,395 2770,395 2769,414 2769,414 2769,414 2760,432 2760,432 2760,432 2747,442 2747,442 2747,442 2737,445 2737,445 " fill="none" stroke="#8902AB" stroke-width="2px" />
+    
+    </g>
+
+    
+    <g>
+
+      
+      <circle class="AnCircle" cx="2718px" cy="1123px" fill="none" r="20.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+      <circle class="AnCircle" cx="2718px" cy="1043px" fill="none" r="20.00px" stroke="#8902AB" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="2698,1039 2655,1114 " stroke="#8902AB" stroke-width="2px" />
+
+    
+    </g>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2487.000000,141.000000)" x="0px" y="12px">FOR MCC-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2486.000000,194.000000)" x="0px" y="12px">CONTROL CIRCUIT</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2796.000000,382.000000)" x="0px" y="12px">20A DP</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2029.000000,492.000000)" x="0px" y="12px">SSVB-MCC-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,1472.000000,1959.000000)" x="0px" y="12px">110V DC BATTERY CHARGER</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,1473.000000,2013.000000)" x="0px" y="12px">&amp; CHARGER PANEL</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2323.000000,1967.000000)" x="0px" y="12px">BATTERY BANK</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,1919.000000,1409.000000)" x="0px" y="12px">DC CIRCUIT</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,1917.000000,1463.000000)" x="0px" y="12px">BREAKER PANEL</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2340.000000,1054.000000)" x="0px" y="12px">110V DC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2337.000000,1108.000000)" x="0px" y="12px">100A SPN</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2342.000000,1161.000000)" x="0px" y="12px">BUSBAR</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2774.000000,1037.000000)" x="0px" y="12px">20A DP</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2772.000000,1091.000000)" x="0px" y="12px">SWITCH</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,642.000000,746.000000)" x="0px" y="12px">FROM</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,640.000000,800.000000)" x="0px" y="12px">MCC-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,1160.000000,841.000000)" x="0px" y="12px">20A DP</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,1160.000000,895.000000)" x="0px" y="12px">SWITCH</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2112.000000,894.000000)" x="0px" y="12px">BC</text>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Pscada_Line">
+
+    
+    <polygon class="AnPolygon" fill="#8902AB" fill-rule="evenodd" points="2327,1224 3076,1224 3076,1232 2327,1232 2327,1224 " />
+
+    
+    <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2067px" x2="1768px" y1="795px" y2="795px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2719px" x2="2215px" y1="795px" y2="795px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2717px" x2="2717px" y1="621px" y2="891px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2717px" x2="2717px" y1="462px" y2="591px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2717px" x2="2717px" y1="263px" y2="342px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2717px" x2="2717px" y1="921px" y2="1023px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2717px" x2="2717px" y1="1143px" y2="1227px" />
+
+    
+    <g>
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2903px" x2="2903px" y1="1460px" y2="1709px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2501px" x2="2501px" y1="1460px" y2="1709px" />
+
+    
+    </g>
+
+    
+    <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="1171px" x2="892px" y1="795px" y2="795px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="1590px" x2="1291px" y1="795px" y2="795px" />
+
+    
+    <g>
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2501px" x2="2501px" y1="1227px" y2="1340px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#8902AB" stroke-width="2px" x1="2903px" x2="2903px" y1="1227px" y2="1340px" />
+
+    
+    </g>
+
+  
+  </g>
+
+</svg>

@@ -1,0 +1,22 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.4.28,ou=attributeTypes,cn=dhcp,ou=schema
+m-usage: USER_APPLICATIONS
+m-oid: 2.16.840.1.113719.1.203.4.28
+m-name: dhcpDnsStatus
+m-description: This indicates the status of updating DNS resource records on beh
+ alf of the client by the DHCP server for this address.  The value is a 16-bit b
+ itmask.
+m-obsolete: FALSE
+m-equality: integerMatch
+entryParentId: 5fc28934-904a-496b-90d3-4bcffeb59039
+m-singlevalue: TRUE
+createTimestamp: 20140513151219.957Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.27
+m-nousermodification: FALSE
+m-collective: FALSE
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: 7e850d2b-4588-4d9e-bdc4-001402c0ac30
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.801000Z#00001c#000#000000

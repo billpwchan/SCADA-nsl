@@ -1,0 +1,122 @@
+COMPONENT=Dss,Dss
+
+Init() {
+   english="Dss Initialization"
+   french="Initialisation du serveur Dss"
+}
+
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+
+HostServer(const char *) {
+   english="Server %s is not registered at the host server"
+   french="Le server %s n'est pas enregistre aupres du serveur de nom"
+}
+
+NoServer(const char *) {
+   english="Unable to connect to the %s server"
+   french="Impossibilité de se connecter au server %s"
+}
+
+NoScenarioPoint() {
+   english="Unable to locate the <alias>dssscenarios point in the database"
+   french="Impossibilité de localiser le point <alias>dssscenarios dans la dase de données"
+}
+
+NoScenario() {
+   english="Unable to locate the <alias>dssscenarios point in the database"
+   french="Impossibilité de localiser le point <alias>dssscenarios dans la dase de données"
+}
+
+UnknownEventType(const char *) {
+   english="getProcedures : The EventType name %s is not defined in the configuration file"
+   french="getProcedures : Le type d'événement %s n'est pas défini dans le fichier de configuration"
+}
+
+UnknownEventId(const char *, int) {
+   english="%s : The given eventId %d is not referenced in the EventList"
+   french="%s : L'identifiant d'événement %d n'est pas référencé dans la liste des événements"
+}
+
+UnknownScenarioId(const char *, int) {
+   english="%s : The given scenarioId %d is not referenced Scenario"
+   french="%s : L'identifiant de Scenario %d ne correspond pas à un Scenario référencé"
+}
+
+UnknownProcedureName(const char *) {
+   english="createScenario : The given procedure name %s is not referenced in the configuration file"
+   french="createScenario : La procédure %s n'est pas définie dans le fichier de configuration"
+}
+
+NoMoreFreeScenario(const char *) {
+   english="createScenario : The maximum concurrent scenario limit has been reached : %s"
+   french="createScenario : Le nombre maximum de scenario tournant en parallèle est atteint: %s"
+}
+
+ListAction(const char *) {
+   english="Error on DssEvent list action: %s"
+   french="Erreur d'action sur la liste de DssEvent: %s"
+}
+
+UnknownArgument(const char *) {
+   english="Scenario::init : The argument name %s does not exist"
+   french="Scenario::init : L'argument %s n'existe pas"
+}
+
+DatabaseWrite(const char *) {
+   english="%s : Error during database write"
+   french="%s : Erreur durant l'écriture en base de données"
+}
+
+UnknownAlarmId(const char *, int) {
+   english="%s : The alarmId %d defined in the EventList is not referenced in the AlarmList"
+   french="%s : L'identifiant d'alarme %d défini dans la liste des événements n'est pas référencé dans la liste des alarmes"
+}
+
+ScenarioNotLocked(const char*, int) {
+   english="Unable to unlock the Scenario in %s referenced by the id %d. It is not locked"
+   french="Impossible de dévérouiller le Scenario dans %s référencé par l'identifiant %d. Il n'est pas vérouillé"
+}
+
+ScenarioAlreadyLocked(int, const char *) {
+   english="Unable to lock the Scenario referenced by the id %d. It is already locked by %s"
+   french="Impossible de vérouiller le Scenario référencé par l'identifiant %d. Il est déjà vérouillé par %s"
+}
+
+NoDssEvent(int) {
+   english="There is no DssEvent referenced by the alarm id %d."
+   french="Il n'y a pas de DssEvent référencé par l'identifiant d'alarme %d."
+}
+
+DssEventIsRunning (int ) {
+   english="the DssEvent referenced by the eventId  %d is running: don't remove it"
+   french="le DssEvent référencé par l'identifiant %d est en cours: impossible de le supprimer"
+}
+
+UnknownDssEventId(int) {
+   english="Unknown DssEvent referenced by the eventId  %d."
+   french="le DssEvent référencé par l'identifiant %d n'est pas connu."
+}
+
+BadResourceFile(const char *) {
+   english="Error in the configuration file : %s."
+   french="Erreur dans le fichier de configuration %s."
+}
+
+NoFatherScenario(int) {
+   english="Unable to setResult on scenario id %d :it has no father."
+   french="Impossible d'appeler setResult, le scenario %d n'a pas de père."
+}
+
+ScadasoftFunction(const char *, int) {
+   english="SCADAsoft function %s error (minor=%d)"
+   french="Erreur fonction SCADAsoft %s (minor=%d)"
+}
+
+Internal(const char *) {
+   english="Internal error: %s"
+   french="Erreur interne: %s"
+}
+

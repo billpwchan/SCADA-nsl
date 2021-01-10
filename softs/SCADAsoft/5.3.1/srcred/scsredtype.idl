@@ -1,0 +1,51 @@
+//-*-C++-*-
+/******************************************************************************/
+/*                                                                            */
+/*  FILE             : scsredtype.idl                                         */
+/*  FULL NAME                :                                                */
+/*----------------------------------------------------------------------------*/
+/*  AUTHOR           : Y. Lozinguez                                           */
+/*  COMPANY          : SYSECA                                                 */
+/*  CREATION DATE    : Thu Sep  3 16:23:09 1998                               */
+/*  LANGUAGE         : C++                                                    */
+/*............................................................................*/
+/*  OVERVIEW                                                                  */
+/*                                                                            */
+/*............................................................................*/
+/*  CONTENTS                                                                  */
+/*                                                                            */
+/******************************************************************************/
+// IDENTIFICATION:
+// $Id: scsredtype.idl,v 1.4 2000/02/09 07:31:42 jmb Exp $
+//
+// HISTORY:
+// $Log: scsredtype.idl,v $
+// Revision 1.4  2000/02/09 07:31:42  jmb
+// Add nbPhysEnvRunning to message tag
+//
+// Revision 1.3  1999/02/18 08:48:42  ylo
+// Change the IDL type Scstime to ScsTimeValIdl.
+//
+// Revision 1.2  1998/12/07 16:42:12  ylo
+// Add name attribute to the ScsMessageTag (for internal messages and messages from a redundant environment).
+//
+// Revision 1.1  1998/09/03 14:23:21  ylo
+// Initial revision
+//
+
+#ifndef _SCSREDTYPE_IDL_
+#define _SCSREDTYPE_IDL_
+
+#include <scsprocess.idl>
+#include <scstype.idl>
+
+struct ScsMessageTag {
+  string environment;
+  string name;
+  unsigned long pid;
+  unsigned long time;
+  unsigned long index;
+  unsigned long nbPhysEnvRunning;
+};
+
+#endif

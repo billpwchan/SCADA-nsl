@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$scs_8h.html" title="General Purpose ScadaSoft Utilities." alt="scs.h" coords="267,167,304,193" />
+<area shape="rect" href="$manager_8h.html" title="Access to the AscManager component." alt="manager.h" coords="285,92,363,119" />
+<area shape="rect" href="$scsdefs_8h.html" title="Definition of priority levels." alt="scsdefs.h" coords="125,316,192,343" />
+<area shape="rect" href="$scsdata_8h.html" title="General Purpose Scadasoft datatype definitions." alt="scsdata.h" coords="292,241,359,268" />
+</map>

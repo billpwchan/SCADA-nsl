@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=2.16.840.1.113730.3.1.241,ou=attributeTypes,cn=inetorgperson,ou=schema
+m-usage: USER_APPLICATIONS
+m-oid: 2.16.840.1.113730.3.1.241
+m-name: displayName
+m-description: RFC2798: preferred name to be used when displaying entries
+m-obsolete: FALSE
+m-equality: caseIgnoreMatch
+entryParentId: cf40f50c-eb91-4e40-879d-04db5b87ba4f
+m-substr: caseIgnoreSubstringsMatch
+m-singlevalue: TRUE
+createTimestamp: 20140513151219.942Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.15
+m-nousermodification: FALSE
+m-collective: FALSE
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: af577594-b800-4c4f-b29d-9ab4954ddb98
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.833000Z#000015#000#000000

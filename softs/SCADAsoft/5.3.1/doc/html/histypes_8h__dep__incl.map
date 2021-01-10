@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$his_8h.html" title="Access to the History server for archive management." alt="his.h" coords="29,167,66,193" />
+<area shape="rect" href="$hisreadfilemgr_8h.html" title="Utility class used to read periodic archive files without any running SCADASoft envrionment." alt="hisreadfilemgr.h" coords="57,92,174,119" />
+<area shape="rect" href="$trddata_8h.html" title="Data used in Trend server context." alt="trddata.h" coords="198,92,265,119" />
+<area shape="rect" href="$trd_8h.html" title="Access to the the Trend server (TRD)" alt="trd.h" coords="98,316,138,343" />
+<area shape="rect" href="$trddataset_8h.html" title="Data used in Trend server context." alt="trddataset.h" coords="182,167,265,193" />
+<area shape="rect" href="$trdhissubscription_8h.html" title="Management of archives of the Trend server (TRD)" alt="trdhissubscription.h" coords="156,241,292,268" />
+</map>

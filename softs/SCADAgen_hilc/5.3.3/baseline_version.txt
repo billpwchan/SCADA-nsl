@@ -1,0 +1,9 @@
+commit e56aa77392cdd824a4c9c7a3ea9b4d88a39740d2
+Merge: 0f334f6 c048970
+Author: Terry TO <terry.to@thalesgroup.com>
+Date:   Mon Mar 12 15:44:29 2018 +0800
+
+    Merge pull request #5 in SCADAGEN/appli2_hilc from release/SCADAGEN-1250-appli-scadagen-appli2_hilc to master
+    
+    * commit 'c04897044be3e20b4a75f77130d0ce400c5deadb':
+      SCADAGEN-1250 - added sample HILC configuration files

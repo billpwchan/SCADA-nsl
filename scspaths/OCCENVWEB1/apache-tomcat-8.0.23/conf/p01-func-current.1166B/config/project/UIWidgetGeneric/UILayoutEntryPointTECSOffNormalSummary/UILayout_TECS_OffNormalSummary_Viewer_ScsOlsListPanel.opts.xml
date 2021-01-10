@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE xml>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header key="header">
+		<ListConfigId>tecs_offnormal</ListConfigId>
+		<MenuEnableCallImage>false</MenuEnableCallImage>
+		<SelectionMode>Single</SelectionMode>
+		<MwtEventBusName>tecs_offnormalsummary_eventbus</MwtEventBusName>
+		<MwtEventBusScope>local</MwtEventBusScope>
+		<rootCSS>project-gwt-panel-tecs-offnormalsummary-viewer-scsolslistpanel</rootCSS>
+	</header>
+</data-set>

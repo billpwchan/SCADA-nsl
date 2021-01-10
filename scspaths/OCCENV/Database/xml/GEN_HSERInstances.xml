@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="GEN_HSER">
+<InstanceDescription alias="OCCENVSERV0001ENVSERVER" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVSERV0001ENVSERVER"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="SERVER"/>
+</AttributDescription>
+<AttributDescription attrId="stateVal" position="0" formula="DPC_INDEX([.state],{^.stateVector})" activation="ENABLE">
+<ScalarValue value="0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCENVSERV0002ENVSERVER" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCENVSERV0002ENVSERVER"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="SERVER"/>
+</AttributDescription>
+<AttributDescription attrId="stateVal" position="0" formula="DPC_INDEX([.state],{^.stateVector})" activation="ENABLE">
+<ScalarValue value="0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

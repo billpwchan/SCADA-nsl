@@ -1,0 +1,42 @@
+#ifndef _SCSTYPE_IDL_
+#define _SCSTYPE_IDL_
+
+struct ScsStatusIdl {
+  short major;
+  short minor;
+};
+typedef sequence<ScsStatusIdl> StatusIdlList;
+
+struct ScsTimeValIdl {
+  unsigned long sec;
+  unsigned long usec;  
+};
+
+typedef string ScsObjectIdl;
+
+#ifndef _SCS_TAO_
+typedef sequence<long>	 LongList;
+typedef sequence<unsigned long>	 ULongList;
+typedef sequence<long long>	 LongLongList;
+typedef sequence<unsigned long long>	 ULongLongList;
+typedef sequence<float>	 FloatList;
+typedef sequence<double> DoubleList;
+typedef sequence<string> StringList;
+typedef sequence<octet>  OctetList;
+#else
+#include <tao/orb.idl>
+//
+// VC 7.1 BUG see TAO FAQ at OCI dot com.
+// 
+typedef CORBA::LongSeq      LongList; 
+typedef CORBA::ULongSeq     ULongList;
+typedef CORBA::LongLongSeq  LongLongList;
+typedef CORBA::ULongLongSeq ULongLongList;
+typedef CORBA::FloatSeq     FloatList;
+typedef CORBA::DoubleSeq    DoubleList;
+typedef CORBA::StringSeq    StringList;
+typedef CORBA::OctetSeq     OctetList;
+#endif
+
+
+#endif

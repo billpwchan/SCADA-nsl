@@ -1,0 +1,123 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:30:17 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcledtli"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcledtli.ilv"
+Palettes 4
+"defaultGadget" 2 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"AstInputPalette" 0 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+3 F "gray" "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 18
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 180 31 198 198 F268435468 0 { IlvMessageItem 262169 4 16 4 "&color"  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 208 179 139 23 F13 2 { IlvMessageItem 262145 4 16 4 "Default Bacground"  }   } 544 "DefaultBackground"
+1
+1 "__ilvCallback" "defaultBackgroundCB"
+0
+1 { 2 P 2
+[ IlvAttachments _IlvAttachments 144  1 27 1 10 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 27 255 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&save"  }   } 512
+1
+1 "__ilvCallback" "applyECB"
+0
+1 { 3 P 2
+[ IlvAttachments _IlvAttachments 192  1 36 1 10 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 291 255 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 512
+1
+1 "__ilvCallback" "cancelECB"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 10 37 160 49 F268435468 0 { IlvMessageItem 262169 4 16 4 "&visiblelines"  }   } 0
+0
+1 { 5 P 1
+[ IlvAttachments _IlvAttachments 464  1 0 1 0 1 40 2 ]
+1 IlvReliefLine 0 246 400 246 2 } 0
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvNumberField 20 54 140 23 F6 2 2 -1 0 "1" . , 2 2 1 132 } 544 "VisibleLines"
+1
+1 "__ilvCallback" "visibleLinesCB"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 10 87 160 56 F268435468 0 { IlvMessageItem 262169 4 16 4 "&polchar"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvOptionMenu 20 110 140 23 F1 2 0 -1  } 544 "PoliceChar"
+1
+1 "__ilvCallback" "policeCharCB"
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 10 149 160 87 F268435468 0 { IlvMessageItem 262169 4 16 4 "&sizechar"  }   } 0
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvOptionMenu 20 168 140 23 F1 2 0 -1  } 544 "SizeChar"
+1
+1 "__ilvCallback" "sizeCharCB"
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvNumberField 20 203 45 23 F6 2 2 -1 0 "1" . , 2 2 1 99 } 544 "NumberVect"
+1
+1 "__ilvCallback" "numberVectCB"
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvSlider 80 203 80 23 F5 2 1 99 1 10 1 10 } 544 "SliderVect"
+1
+1 "__ilvCallback" "sliderVectCB"
+0
+1 { 13 P 2
+[ IlvAttachments _IlvAttachments 368  1 0 1 0 1 0 2 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMenuBar 0 0 400 29 F295 2 V0 2 1
+{ IlvMenuItem 67108865 2 4 "&menu_file"  0 IlvPopupMenu 3 26 114 162 F166 2 V0 2 10
+{ IlvMenuItem 33554433 2 4 "&mnew"  "mnewCB" } 
+{ IlvMenuItem 33554433 2 4 "&menu_open..."  "mopenCB" } 
+{ IlvMenuItem 33554433 2 4 "&menu_save"  "msaveCB" } 
+{ IlvMenuItem 33554433 2 4 "&saveAs"  "msaveasCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554433 2 4 "&showpanelWorkSpace"  "workspaceCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554433 2 4 "&showpanelErrors"  "errorsCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554433 2 4 "&quit"  "cancelECB" }  16   }  0 } 0
+0
+2 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+2 IlvMatrix 207 94 57 58 F34904 2 N N 0 0 0 0 0 1 52 53 1 1 0 0 1 1 1 1 V0 2 0 1 N 0 0 0 0 0  } 544 "Foreground"
+1
+1 "__ilvCallback" "foregroundCB"
+0
+2 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+2 IlvMatrix 295 93 57 58 F34904 2 N N 0 0 0 0 0 1 52 53 1 1 0 0 1 1 1 1 V0 2 0 1 N 0 0 0 0 0  } 544 "Background"
+1
+1 "__ilvCallback" "backgroundCB"
+0
+2 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 203 67 78 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "Foreground"  }   } 0
+0
+2 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 290 67 73 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "Background"  }   } 0
+0
+Size 400 288
+Layers 3
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+git-SHA-1: 
+Implementation-Title: SCADAsoft HMI Web Application
+Implementation-Version: 1.2.5
+Built-By: salau
+Specification-Vendor: Thales Communication & Security
+Created-By: Apache Maven 3.3.9
+Build-date: 2017-07-24-0231
+Implementation-Vendor: Thales Communication & Security
+Implementation-Vendor-Id: com.thalesgroup.scadasoft.myproject
+Build-Jdk: 1.7.0_79
+Specification-Title: SCADAsoft HMI Web Application
+Specification-Version: 1.2.5
+Archiver-Version: Plexus Archiver
+

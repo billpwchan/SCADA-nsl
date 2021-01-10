@@ -1,0 +1,50 @@
+// Ilv Version: 3.1
+// File generated: Mon Dec 07 15:43:27 1998
+// Creator class: IlvGadgetManagerOutput
+Palettes 4
+1 "red" "blue" "default" "%helvetica-12" 0 solid solid 0 0 0
+2 "wheat" "darksalmon" "default" "%helvetica-12" 0 solid solid 0 0 0
+3 "gray" "black" "%times-12-" 0 solid solid 0 0 0
+0 "gray" "black" "default" "%helvetica-12" 0 solid solid 0 0 0
+IlvObjects 11
+3 { 0 0 IlvRectangularScale 29 40 10 106 5 2 10 5 M 0 100 "%4.f"
+"   0" "  25" "  50" "  75" " 100"  39 146 106 8 1  } 0
+0
+3 { 1 0 IlvRectangularScale 62 39 99 10 3 0 10 5 M 0 100 "%4.f"
+"0" "50" "100"  62 49 99 1 4  } 0
+0
+3 { 2 1 IlvReliefGauge 52 65 120 22 0 100 20 1 4 1 } 64 "Gauge"
+0
+3 { 3 1 IlvRectangularGauge 52 100 120 22 0 100 20 1 1 } 64 "Gauge"
+0
+3 { 4 1 IlvSliderGauge 52 135 120 21 0 100 20 1 1 0 } 64 "Gauge"
+0
+3 { 5 2 IlvRectangularGauge 39 173 22 93 0 100 20 8 1 } 64 "Gauge"
+0
+3 { 6 2 IlvSliderGauge 84 173 21 93 0 100 20 8 1 0 } 64 "Gauge"
+0
+3 { 7 2 IlvReliefGauge 128 173 21 93 0 100 20 8 2 1 } 64 "Gauge"
+0
+3 { 8 0 IlvFilledCircularGauge 20 287 149 180 0 100 75 180 -180 } 64 "Gauge"
+0
+3 { 9 0 IlvCircularGauge 21 420 121 92 0 100 20 0 270 } 64 "Gauge"
+0
+3 { 10 3 IlvCircularScale 15 393 142 136 11 5 10 5 M 0 100 "%4.f"
+"0" "10" "20" "30" "40" "50" "60" "70" "80" "90" "100"  1 0 270 } 0
+0
+Size 180 556
+GeometryHandlers
+1 100 0 180 0 180 0
+10 3 0 1 1  0 0 39 0  140 0 140 0
+ 3 0 0 54  120 0 120 1  0 0 6 0
+ 3 0 0 52  120 0 120 2  0 0 8 0
+ 3 0 0 52  120 0 120 3  0 0 8 0
+ 3 0 0 52  120 0 120 4  0 0 8 0
+ 3 0 0 39  0 0 22 5  119 0 119 0
+ 3 0 0 84  0 0 21 6  75 0 75 0
+ 3 0 0 128  0 0 21 7  31 0 31 0
+ 3 0 0 20  149 0 149 8  0 0 11 0
+ 3 0 2 21  121 0 121 9  0 0 38 0
+1 100 0 556 0 556 0
+0
+EOF

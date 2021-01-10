@@ -1,0 +1,42 @@
+// Ilv Version: 2.21
+// File generated: Mon Mar 04 15:37:29 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 6
+2 "defaultBg" "defaultFg" "normal" %helvetica-8- 0 solid solid 0 0 0
+3 "defaultBg" "defaultFg" "menu" StockedDefaultGui 0 solid solid 0 0 0
+"default" 5 "defaultBg" "defaultFg" "default" StockedSystem 0 solid solid 0 0 0
+4 "defaultBg" "defaultFg" "button" StockedDefaultGui 0 solid solid 0 0 0
+1 "defaultBg" "defaultFg" %times-12- 0 solid solid 2 0 0
+0 "defaultBg" "defaultFg" %times-12- 0 solid solid 0 0 0
+IlvObjects 20
+2 { 0 0 IlvRectangle 47 30 161 104 } 32 "Rect" 0
+2 { 1 1 IlvRectangle 83 58 89 48 } 32 "rect" 0
+2 { 2 0 IlvRectangle 83 74 89 16 } 32 "width" 0
+2 { 3 0 IlvRectangle 120 30 15 28 } 32 "top" 0
+2 { 4 0 IlvRectangle 120 105 15 29 } 32 "bottom" 0
+2 { 5 0 IlvRectangle 120 58 15 48 } 32 "height" 0
+2 { 6 0 IlvRectangle 171 74 37 16 } 32 "right" 0
+2 { 7 0 IlvRectangle 47 74 36 16 } 32 "left" 0
+2 { 8 2 IlvTextField 107 5 40 22 F6 2 1 -1 0 "0" } 96 "ttop" "TextField" 2
+2 { 9 2 IlvTextField 107 136 40 22 F6 2 1 -1 0 "0" } 96 "tbottom" "TextField" 2
+2 { 10 2 IlvTextField 4 71 40 22 F6 2 1 -1 0 "0" } 96 "tleft" "TextField" 2
+2 { 11 0 IlvTextField 211 71 40 22 F6 2 1 -1 0 "0" } 96 "tright" "TextField" 2
+2 { 12 3 IlvPopupMenu 143 34 98 84 F2 2 4
+2 "None"
+2 "Elastic"
+2 "Fix"
+2 "Fix and Elastic" } 96 "menu" "Popup" 0
+2 { 13 3 IlvPopupMenu 59 49 57 48 F2 2 2
+2 "None"
+2 "Elastic" } 96 "smenu" "Popup" 0
+2 { 14 0 IlvPolyline 14
+23 17 31 7 38 27 44 7 47 27 53 7 60 27 60 7 68 27 75 7
+78 27 84 7 91 27 99 7 } 32 "elhor" 0
+2 { 15 0 IlvPolyline 13
+21 8 10 13 31 18 10 22 31 26 10 31 31 35 10 38 31 43 10 47
+31 51 10 56 21 61 } 32 "elvert" 0
+2 { 16 4 IlvButton 190 174 60 23 F1 2 16 Y "&close" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 17 4 IlvButton 79 174 72 23 F1 2 16 Y "&reset" } 64 "Button" 132 "reset" 1 5
+2 { 18 4 IlvButton 5 174 60 23 F1 2 16 Y "&apply" } 64 "Button" 132 "apply" 1 5
+3 { 19 5 IlvReliefLine 0 166 255 166 1 } 32 "line" 464 1 0 1 0 1 35 2
+Size 255 202

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_LIF_WHCC_graphic">
+        <root>
+            <svgGroup id="C1166B_LIF_WHCC_LIF_WHCC_InService_LIF_WHCC_Fault_LIF_WHCC_OutofService_Blink_LIF_WHCC_OutofService_LIF_WHCC_Fault_Blink_LIF_WHCC_Undefined_LIF_WHCC_InService_Blink">
+                <svgRef brickId="LIF_WHCC_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_LIF_WHCC_LIF_WHCC_State_Invalid_LIF_WHCC_State_Empty_LIF_WHCC_State_Selected_LIF_WHCC_State_Selected_MO_LIF_WHCC_State_MO">
+                <svgRef brickId="LIF_WHCC_State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

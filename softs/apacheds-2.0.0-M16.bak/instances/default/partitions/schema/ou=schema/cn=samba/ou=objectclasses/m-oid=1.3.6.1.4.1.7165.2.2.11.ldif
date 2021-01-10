@@ -1,0 +1,18 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.7165.2.2.11,ou=objectClasses,cn=samba,ou=schema
+m-supobjectclass: top
+m-must: sambaShareName
+m-may: description
+m-typeobjectclass: STRUCTURAL
+m-oid: 1.3.6.1.4.1.7165.2.2.11
+m-name: sambaShare
+m-description: Samba Share Section
+m-obsolete: FALSE
+entryParentId: 967cfeb7-204d-4b4f-9b86-506e59d01735
+createTimestamp: 20140513151219.973Z
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+entryUUID: 37ff6c27-aae9-4c79-a667-12280bb6bc10
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.989000Z#00000c#000#000000

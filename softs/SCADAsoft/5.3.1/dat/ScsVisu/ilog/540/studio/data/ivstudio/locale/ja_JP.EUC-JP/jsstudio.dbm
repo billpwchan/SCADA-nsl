@@ -1,0 +1,14 @@
+// IlvMessageDatabase 5 Wed Jan 19 17:33:56 CET 2011
+// Language: ja_JP
+// Encoding: EUC-JP
+"&JSErrorList" "Script ｴﾗｰ ﾘｽﾄ"
+"&JSErrorListP" "Script ｴﾗｰ ﾘｽﾄの表示"
+"&auxLib" "補助ﾗｲﾌﾞﾗﾘ"
+"&is" "IS"
+"&js" "JS"
+"&jsEdition" "IBM ILOG Script ｴﾃﾞｨｼｮﾝ"
+"&scriptEditor" "Script ｴﾃﾞｨﾀ"
+"&scriptFile" "Script ﾌｧｲﾙ"
+"&syntaxErrors" "構文ｴﾗｰ"
+"&useILOGScript" "IBM ILOG Script を使用"
+

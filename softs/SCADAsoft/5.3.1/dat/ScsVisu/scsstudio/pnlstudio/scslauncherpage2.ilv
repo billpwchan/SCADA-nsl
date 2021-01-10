@@ -1,0 +1,38 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:23 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "scslauncherpage2"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\scslauncherpage2.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 4
+1 { 0 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ScriptEditorTT" 4 4 ]
+0 IlvButton 35 0 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "pnlstudio/icons/script.png"  }   } 544 "Script"
+1
+1 "__ilvCallback" "scriptCB"
+0
+1 { 1 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&FormulaEditorTT" 4 4 ]
+0 IlvButton 0 0 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "pnlstudio/icons/formula.png"  }   } 544 "Formule"
+1
+1 "__ilvCallback" "formuleCB"
+0
+1 { 2 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&PanelsEditorTT" 4 4 ]
+0 IlvButton 0 35 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "pnlstudio/icons/paneledt.png"  }   } 544 "PanelsEditor"
+1
+1 "__ilvCallback" "panelsEditorCB"
+0
+1 { 3 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ConnectOrbixTT" 4 4 ]
+0 IlvButton 35 35 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "pnlstudio/icons/connect.png"  }   } 544 "ConnectOrbix"
+1
+1 "__ilvCallback" "connectOrbixCb"
+0
+Size 68 210
+EOF

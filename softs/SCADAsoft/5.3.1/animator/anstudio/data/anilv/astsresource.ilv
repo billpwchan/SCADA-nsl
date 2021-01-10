@@ -1,0 +1,315 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astsresource"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astsresource.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 38
+1 { 0 P 2
+[ IlvToolTip __ilvToolTip 2 "&ApplyTT" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 8 316 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Apply"  }   } 544 "Apply"
+1
+1 "__ilvCallback" "okCB"
+0
+1 { 1 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 111 17 185 26 F34904 2 N N 0 0 0 0 0 0 180 21 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "FColor"
+1
+1 "__ilvCallback" "FColorCB"
+4096 "Button_1"
+1 { 2 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 111 51 185 26 F34904 2 N N 0 0 0 0 0 0 180 21 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "BColor"
+1
+1 "__ilvCallback" "BColorCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 174 247 122 19 F38 2 1 -1 0 "0" 7
+{ IlvMenuItem 1 2 4 "0"  } 
+{ IlvMenuItem 1 2 4 "1"  } 
+{ IlvMenuItem 1 2 4 "2"  } 
+{ IlvMenuItem 1 2 4 "3"  } 
+{ IlvMenuItem 1 2 4 "4"  } 
+{ IlvMenuItem 1 2 4 "5"  } 
+{ IlvMenuItem 1 2 4 "6"  }  } 544 "LineWidth"
+1
+1 "__ilvCallback" "lineWidthCB"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 175 193 121 19 F38 2 1 -1 0 "solid" 24
+{ IlvMenuItem 1 2 4 "solid"  } 
+{ IlvMenuItem 1 2 4 "clear"  } 
+{ IlvMenuItem 1 2 4 "gray"  } 
+{ IlvMenuItem 1 2 4 "cross"  } 
+{ IlvMenuItem 1 2 4 "dark1"  } 
+{ IlvMenuItem 1 2 4 "dark2"  } 
+{ IlvMenuItem 1 2 4 "dark3"  } 
+{ IlvMenuItem 1 2 4 "dark4"  } 
+{ IlvMenuItem 1 2 4 "light1"  } 
+{ IlvMenuItem 1 2 4 "light2"  } 
+{ IlvMenuItem 1 2 4 "light3"  } 
+{ IlvMenuItem 1 2 4 "light4"  } 
+{ IlvMenuItem 1 2 4 "pattern1"  } 
+{ IlvMenuItem 1 2 4 "pattern2"  } 
+{ IlvMenuItem 1 2 4 "pattern3"  } 
+{ IlvMenuItem 1 2 4 "pattern4"  } 
+{ IlvMenuItem 1 2 4 "pattern5"  } 
+{ IlvMenuItem 1 2 4 "pattern6"  } 
+{ IlvMenuItem 1 2 4 "pattern7"  } 
+{ IlvMenuItem 1 2 4 "pattern8"  } 
+{ IlvMenuItem 1 2 4 "pattern9"  } 
+{ IlvMenuItem 1 2 4 "pattern10"  } 
+{ IlvMenuItem 1 2 4 "pattern11"  } 
+{ IlvMenuItem 1 2 4 "pattern12"  }  } 544 "Pattern"
+1
+1 "__ilvCallback" "patternCB"
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 111 139 185 19 F39 2 1 -1 0 "" 2
+{ IlvMenuItem 1 2 4 "EvenOddRule"  } 
+{ IlvMenuItem 1 2 4 "WindingRule"  }  } 544 "FillRule"
+1
+1 "__ilvCallback" "fillRuleCB"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 111 166 185 19 F39 2 1 -1 0 "" 2
+{ IlvMenuItem 1 2 4 "ArcPie"  } 
+{ IlvMenuItem 1 2 4 "ArcChord"  }  } 544 "ArcMode"
+1
+1 "__ilvCallback" "arcModeCB"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 111 87 185 19 F39 2 1 -1 0 "" 0 } 544 "Font"
+1
+1 "__ilvCallback" "fontCB"
+0
+1 { 8 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&LineOrientationTT" 4 4 ]
+0 IlvNumberField 175 220 28 19 F6 2 16 -1 0 "-1" . , 2 16 -1 1 } 544 "LineOrientation"
+1
+1 "__ilvCallback" "lineOrientationCB"
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 300 196 25 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "PatternToggle"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 2 5 315 298 F268435468 0 { IlvMessageItem 262169 4 16 4 ""  }   } 0
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 111 112 185 19 F39 2 1 -1 0 "" 2
+{ IlvMenuItem 1 2 4 "FillPattern"  } 
+{ IlvMenuItem 1 2 4 "FillMaskPattern"  }  } 544 "FillStyle"
+1
+1 "__ilvCallback" "fillStyleCB"
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 111 275 185 19 F39 2 1 -1 0 "" 2
+{ IlvMenuItem 1 2 4 "&Yes"  } 
+{ IlvMenuItem 1 2 4 "&No"  }  } 544 "Filled"
+1
+1 "__ilvCallback" "filledCB"
+0
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 20 100 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Foreground"  }   } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 54 100 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Background"  }   } 0
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 87 100 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Font"  }   } 0
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 112 100 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&FillStyle"  }   } 0
+0
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 139 100 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&FillRule"  }   } 0
+0
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 166 100 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ArcMode"  }   } 0
+0
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 300 57 25 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "BackgroundToggle"
+0
+1 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 300 169 25 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "ArcModeToggle"
+0
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 300 142 25 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "FillRuleToggle"
+0
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 300 115 25 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "FillStyleToggle"
+0
+1 { 23 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 300 90 25 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "FontToggle"
+0
+1 { 24 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 300 23 25 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "ForegroundToggle"
+0
+1 { 25 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 193 100 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Pattern"  }   } 0
+0
+1 { 26 1 IlvFilledRectangle 111 193 55 19 } 32 "PatternVisu"
+0
+1 { 27 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 220 100 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&LineStyle"  }   } 0
+0
+1 { 28 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 247 100 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&LineWidth"  }   } 0
+0
+1 { 29 1 IlvLine 111 229 165 229 } 32 "LineStyleVisu"
+0
+1 { 30 1 IlvLine 111 256 165 256 } 32 "LineWidthVisu"
+0
+1 { 31 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 11 275 100 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Filled"  }   } 0
+0
+1 { 32 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 240 316 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "closeCB"
+10240 "FColor"
+1 { 33 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 226 220 70 19 F38 2 1 -1 0 "solid" 8
+{ IlvMenuItem 1 2 4 "solid"  } 
+{ IlvMenuItem 1 2 4 "dash"  } 
+{ IlvMenuItem 1 2 4 "dot"  } 
+{ IlvMenuItem 1 2 4 "dashdot"  } 
+{ IlvMenuItem 1 2 4 "dashdoubledot"  } 
+{ IlvMenuItem 1 2 4 "alternate"  } 
+{ IlvMenuItem 1 2 4 "doubledot"  } 
+{ IlvMenuItem 1 2 4 "longdash"  }  } 544 "LineStyle"
+1
+1 "__ilvCallback" "lineStyleCB"
+0
+1 { 34 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 300 278 24 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "FilledToggle"
+0
+1 { 35 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 300 250 25 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "LineWidthToggle"
+0
+1 { 36 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 300 223 25 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "LineStyleToggle"
+0
+1 { 37 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 208 223 18 13 F1073741825 2 1 2 0 0 0 B "noname" } 32 "LineOrientationToggle"
+0
+Size 320 347
+GeometryHandlers
+3 0 107 107 0 107 0
+ 100 61 61 107 61 107
+ 100 152 152 168 152 168
+23 3 0 0 2  315 0 315 10  0 0 3 2
+ 3 240 0 240  0 0 73 32  0 0 7 2
+ 3 0 0 8  0 0 73 0  239 0 239 2
+ 3 11 0 11  0 0 100 13  0 -1 -4 0
+ 3 11 0 11  0 0 100 14  0 -4 -4 0
+ 3 11 0 11  0 0 100 15  0 -4 -4 0
+ 3 11 0 11  0 0 100 16  0 -4 -4 0
+ 3 11 0 11  0 0 100 17  0 -4 -4 0
+ 3 11 0 11  0 0 100 18  0 -4 -4 0
+ 3 11 0 11  0 0 100 25  0 -4 -4 0
+ 3 11 0 11  0 0 100 27  0 -4 -4 0
+ 3 11 0 11  0 0 100 28  0 -4 -4 0
+ 3 11 0 11  0 0 100 31  0 -4 -4 0
+ 3 300 0 300  0 0 25 19  0 -5 -5 2
+ 3 300 0 300  0 0 25 24  0 -5 -5 2
+ 3 300 0 300  0 0 25 23  0 -5 -5 2
+ 3 300 0 300  0 0 25 22  0 -5 -5 2
+ 3 300 0 300  0 0 25 21  0 -5 -5 2
+ 3 300 0 300  0 0 25 20  0 -5 -5 2
+ 3 300 0 300  0 0 25 9  0 -5 -5 2
+ 3 300 0 300  0 0 25 36  0 -5 -5 2
+ 3 300 0 300  0 0 25 35  0 -5 -5 2
+ 3 300 0 300  0 0 24 34  0 -4 -4 2
+10 3 0 4 4  55 0 55 26  0 0 2 1
+ 3 0 4 4  55 0 55 29  0 0 2 1
+ 3 0 4 4  55 0 55 30  0 0 2 1
+ 3 0 0 4  185 0 185 1  0 0 24 2
+ 3 0 4 4  185 0 185 2  0 0 24 2
+ 3 0 4 4  185 0 185 7  0 0 24 2
+ 3 0 4 4  185 0 185 11  0 0 24 2
+ 3 0 4 4  185 0 185 5  0 0 24 2
+ 3 0 4 4  185 0 185 6  0 0 24 2
+ 3 0 4 4  185 0 185 12  0 0 24 2
+5 3 0 7 7  0 0 28 8  117 0 117 2
+ 3 0 0 40  0 0 18 37  0 0 94 2
+ 3 0 0 7  121 0 121 4  0 0 24 2
+ 3 0 0 58  70 0 70 33  0 0 24 2
+ 3 0 0 6  122 0 122 3  0 0 24 2
+1 100 336 347 0 347 0
+38 3 0 0 5  298 0 298 10  0 0 44 0
+ 3 316 0 316  0 0 23 32  0 0 8 0
+ 3 316 0 316  0 0 23 0  0 0 8 0
+ 3 20 0 20  0 0 19 13  308 0 308 0
+ 3 54 0 54  0 0 19 14  274 0 274 0
+ 3 87 0 87  0 0 19 15  241 0 241 0
+ 3 112 0 112  0 0 19 16  216 0 216 0
+ 3 139 0 139  0 0 19 17  189 0 189 0
+ 3 166 0 166  0 0 19 18  162 0 162 0
+ 3 193 0 193  0 0 19 25  135 0 135 0
+ 3 220 0 220  0 0 19 27  108 0 108 0
+ 3 247 0 247  0 0 19 28  81 0 81 0
+ 3 17 0 17  0 0 26 1  304 0 304 0
+ 3 51 0 51  0 0 26 2  270 0 270 0
+ 3 193 0 193  0 0 19 26  135 0 135 0
+ 3 229 0 229  0 0 1 29  117 0 117 0
+ 3 256 0 256  0 0 1 30  90 0 90 0
+ 3 220 0 220  0 0 19 33  108 0 108 0
+ 3 247 0 247  0 0 19 3  81 0 81 0
+ 3 193 0 193  0 0 19 4  135 0 135 0
+ 3 87 0 87  0 0 19 7  241 0 241 0
+ 3 112 0 112  0 0 19 11  216 0 216 0
+ 3 139 0 139  0 0 19 5  189 0 189 0
+ 3 166 0 166  0 0 19 6  162 0 162 0
+ 3 220 0 220  0 0 19 8  108 0 108 0
+ 3 275 0 275  0 0 19 12  53 0 53 0
+ 3 275 0 275  0 0 19 31  53 0 53 0
+ 3 23 0 23  0 0 13 24  311 0 311 0
+ 3 57 0 57  0 0 13 19  277 0 277 0
+ 3 90 0 90  0 0 13 23  244 0 244 0
+ 3 115 0 115  0 0 13 22  219 0 219 0
+ 3 142 0 142  0 0 13 21  192 0 192 0
+ 3 169 0 169  0 0 13 20  165 0 165 0
+ 3 196 0 196  0 0 13 9  138 0 138 0
+ 3 223 0 223  0 0 13 36  111 0 111 0
+ 3 250 0 250  0 0 13 35  84 0 84 0
+ 3 278 0 278  0 0 13 34  56 0 56 0
+ 3 223 0 223  0 0 13 37  111 0 111 0
+EOF

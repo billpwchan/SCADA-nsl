@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE xml>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header key="header">
+		<EventBusName>alarmbanner</EventBusName>
+		<EventBusScope>local</EventBusScope>
+		<EnvUpDelayMS>1000</EnvUpDelayMS>
+		<EnvUpDelay>envUpActionSet</EnvUpDelay>
+	</header>
+
+	<actionset key="envUpActionSet">
+		<OperationType>actionsetkey</OperationType>
+		<OperationString1>envUpAction</OperationString1>
+		<OperationString2>applyOPMFilter</OperationString2>
+	</actionset>
+
+	<action key="envUpAction">
+		<SenderOperation>event</SenderOperation>
+		<OperationType>actionsetkey</OperationType>
+		<OperationElement>UILayoutAlarmBannerViewer</OperationElement>
+		<OperationString1>from_uilayoutsummary_envup</OperationString1>
+	</action>
+
+	<action key="applyOPMFilter">
+		<SenderOperation>event</SenderOperation>
+		<OperationType>action</OperationType>
+		<OperationElement>UILayoutAlarmBannerViewer</OperationElement>
+		<OperationString1>AddIntRangeFilter</OperationString1>
+		<OperationString2>alarmListBanner</OperationString2>
+		<OperationString3>scsalarmList_checkaccess</OperationString3>
+		<OperationString4>1</OperationString4>
+		<OperationString5>2</OperationString5>
+	</action>
+</data-set>

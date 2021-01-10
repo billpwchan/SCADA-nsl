@@ -1,0 +1,42 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:23 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "IlvPieInspector"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\trdstudio\\IlvPieInspector.ilv"
+Palettes 1
+"IlvStToolBar" 0 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 3
+1 { 0 P 2
+[ IlvPanelObjectReference IlvPanelObjectReference  "1034255781.0" ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNotebook 10 10 351 412 F1 2 0 2  3
+" { IlvNotebookPageItem 3 2 4 "&PieShape" 1 0 "pie.png"  }  B ""
+" { IlvNotebookPageItem 3 2 4 "&PieLabels" 1 0 "pen.png"  }  B ""
+" { IlvNotebookPageItem 3 2 4 "&PieData" 1 0 "data.png"  }  B ""
+0 0 4 5 2 10 10 10 10  } 32 "NbkPie"
+0
+1 { 1 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieClose" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 281 431 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Close"  }   } 544 "Close"
+1
+1 "__ilvCallback" "Close"
+10240 "CurveList"
+1 { 2 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieRefresh" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 193 431 80 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Refresh"  }   } 544 "Refresh"
+1
+1 "__ilvCallback" "Refresh"
+4096 "ClearData"
+Size 371 464
+GeometryHandlers
+1 100 0 371 0 371 0
+3 3 0 0 10  351 0 351 0  0 0 10 0
+ 3 193 0 193  0 0 80 2  0 0 98 0
+ 3 281 0 281  0 0 80 1  0 0 10 0
+1 100 0 464 0 464 0
+3 3 0 0 10  412 0 412 0  0 0 42 0
+ 3 431 0 431  0 0 23 2  0 0 10 0
+ 3 431 0 431  0 0 23 1  0 0 10 0
+EOF

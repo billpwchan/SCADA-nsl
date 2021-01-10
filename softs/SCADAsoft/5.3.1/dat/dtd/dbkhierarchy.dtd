@@ -1,0 +1,9 @@
+<!-- DtdVersion='2.3' -->
+
+<!ELEMENT HierarchyDescription (HierarchyItem+)>
+<!ELEMENT HierarchyItem (HierarchyItem*)>
+<!ATTLIST HierarchyItem
+ alias CDATA #REQUIRED
+ name CDATA #REQUIRED
+>
+

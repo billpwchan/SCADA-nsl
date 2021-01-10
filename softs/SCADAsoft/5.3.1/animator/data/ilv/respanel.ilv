@@ -1,0 +1,109 @@
+// Ilv Version: 2.3
+// File generated: Wed Nov 13 10:47:19 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 6
+4 "antiquewhite3" "black" "fixed" 0 solid solid 0 0 0
+3 "defaultBg" "defaultFg" "fixed" 0 solid solid 0 0 0
+1 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 0 "defaultBg" "black" "default" "fixed" 0 solid solid 0 0 0
+5 "black" "white" "fixed" 0 solid solid 0 0 0
+2 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 29
+1 { 0 0 IlvRectangle 108 43 150 19 } 0 336 1 108 1 107 2
+1 { 1 0 IlvRectangle 108 70 150 19 } 0 336 1 108 1 107 2
+2 { 2 1 IlvButton 268 41 93 23 F1 2 16 Y "&select" } 32 "Button_3" 6148 "NFg" "Button_2" "Button_4"
+2 { 3 1 IlvButton 268 68 93 23 F1 2 16 Y "&select" } 32 "Button_2" 6148 "NBg" "fnt" "Button_3"
+2 { 4 2 IlvComboBox 241 122 120 22 2 12 "solid"
+"solid"
+"clear"
+"gray"
+"cross"
+"dark1"
+"dark2"
+"dark3"
+"dark4"
+"light1"
+"light2"
+"light3"
+"light4" } 32 "patternc" 6148 "Pattern" "lsc" "Button_1"
+2 { 5 3 IlvLine 110 159 237 159 } 32 "ls" 0
+2 { 6 2 IlvComboBox 241 149 120 22 2 8 "solid"
+"solid"
+"dash"
+"dot"
+"dashdot"
+"dashdoubledot"
+"alternate"
+"doubledot"
+"longdash" } 32 "lsc" 6148 "LS" "lwc" "patternc"
+2 { 7 3 IlvLine 110 186 237 186 } 32 "lw" 0
+2 { 8 2 IlvComboBox 241 176 120 22 2 7 "0"
+"0"
+"1"
+"2"
+"3"
+"4"
+"5"
+"6" } 32 "lwc" 6148 "LW" "apply" "lsc"
+2 { 9 3 IlvReliefLine 0 207 365 207 1 } 0 0
+2 { 10 1 IlvButton 5 215 75 23 F1 2 16 Y "&apply" } 32 "apply" 6148 "apply" "reset" "lwc"
+2 { 11 1 IlvButton 85 215 75 23 F1 2 16 Y "&reset" } 32 "reset" 6148 "reset" "cancel" "apply"
+2 { 12 1 IlvButton 286 215 75 23 F1 2 16 Y "&close" } 32 "cancel" 6148 "cancel" "name" "reset"
+2 { 13 1 IlvButton 268 95 93 23 F1 2 16 Y "&select" } 32 "Button_1" 6148 "NFnt" "patternc" "fnt"
+2 { 14 3 IlvReliefLine 0 34 365 34 1 } 32 "line" 0
+2 { 15 1 IlvButton 268 5 93 23 F1 2 16 Y "&select" } 32 "Button_4" 6148 "NName" "Button_3" "name"
+3 { 16 2 IlvMessageLabel 10 41 78 22 0 "&Foreground" 1 } 0 0
+3 { 17 2 IlvMessageLabel 9 68 95 22 0 "&Background" 1 } 0 0
+3 { 18 2 IlvMessageLabel 10 95 95 22 0 "&Font" 1 } 0 0
+3 { 19 2 IlvMessageLabel 10 122 95 22 0 "&Pattern" 1 } 0 0
+3 { 20 2 IlvMessageLabel 10 149 95 22 0 "&LineStyle" 1 } 0 0
+3 { 21 2 IlvMessageLabel 10 176 95 22 0 "&LineWidth" 1 } 0 0
+3 { 22 2 IlvTextField 109 5 155 22 F6 2 1 -1 0 "" } 32 "name" 10244 "SetName" "Button_4"
+3 { 23 2 IlvMessageLabel 9 5 95 22 0 "&Name" 1 } 0 0
+3 { 24 4 IlvFilledRectangle 110 123 127 20 } 32 "pattern" 0
+3 { 25 2 IlvToggle 172 218 105 17 F1 2 1 2 0 0 0 Y "&Lock" } 32 "lock" 6148 "LockCB" "cancel" "reset"
+3 { 26 5 IlvFilledRectangle 109 44 148 17 } 32 "fg" 338 1 109 1 108 2
+3 { 27 5 IlvFilledRectangle 109 71 148 17 } 32 "bg" 336 1 109 1 108 2
+3 { 28 2 IlvScrolledComboBox 109 96 155 20 F6 2 8 "normal"
+"default"
+"normal"
+"bold"
+"large"
+"italic"
+"monospace"
+"button"
+"menu" 8 } 32 "fnt" 4 "selectFont"
+Size 365 243
+GeometryHandlers
+1 100 330 365 0 365 0
+25 3 286 0 286  0 0 75 12  0 0 4 0
+ 3 0 0 0  365 0 365 9  0 0 0 0
+ 3 0 0 0  365 0 365 14  0 0 0 0
+ 3 0 0 110  127 0 127 5  0 0 128 0
+ 3 0 0 109  155 0 155 22  0 0 101 0
+ 3 0 0 110  127 0 127 24  0 0 128 0
+ 3 0 0 110  127 0 127 7  0 0 128 0
+ 3 241 0 241  0 0 120 8  0 0 4 0
+ 3 241 0 241  0 0 120 6  0 0 4 0
+ 3 241 0 241  0 0 120 4  0 0 4 0
+ 3 268 0 268  0 0 93 13  0 0 4 0
+ 3 268 0 268  0 0 93 3  0 0 4 0
+ 3 268 0 268  0 0 93 2  0 0 4 0
+ 3 268 0 268  0 0 93 15  0 0 4 0
+ 3 0 0 109  155 0 155 28  0 0 101 0
+ 3 0 0 9  0 0 95 23  261 0 261 0
+ 3 0 0 10  0 0 78 16  277 0 277 0
+ 3 0 0 9  0 0 95 17  261 0 261 0
+ 3 0 0 10  0 0 95 18  260 0 260 0
+ 3 0 0 10  0 0 95 19  260 0 260 0
+ 3 0 0 10  0 0 95 20  260 0 260 0
+ 3 0 0 10  0 0 95 21  260 0 260 0
+ 3 0 0 5  0 0 75 10  285 0 285 0
+ 3 0 0 85  0 0 75 11  205 0 205 0
+ 3 0 0 172  0 0 105 25  88 0 88 0
+1 100 243 243 0 243 0
+5 3 215 0 215  0 0 23 12  0 0 5 0
+ 3 215 0 215  0 0 23 11  0 0 5 0
+ 3 215 0 215  0 0 23 10  0 0 5 0
+ 3 206 0 206  0 0 2 9  0 0 35 0
+ 3 218 0 218  0 0 17 25  0 0 8 0

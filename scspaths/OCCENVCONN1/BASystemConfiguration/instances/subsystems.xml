@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Definition of all the subsystems defined in the system -->
+<hv-conf:entitiesConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                               xmlns:hv-conf="http://www.thalesgroup.com/hv/data-v1/entity/configuration" 
+                               xmlns:hv-sub="http://www.thalesgroup.com/hv/data-v1/service/configuration"
+                               xmlns:myproject-sub="http://www.thalesgroup.com/myproject/scadaphysicalsystem/scada_cluster/configuration">
+    <hv-conf:entity xsi:type="hv-sub:PresentationLayerType" id="OCCENVWEB1" />
+    <hv-conf:entity xsi:type="hv-sub:PresentationLayerType" id="OCCENVWEB2" />
+
+    <hv-conf:entity xsi:type="myproject-sub:SCADAType" id="OCCENVCONN">
+        <hv-sub:notificationProducerEndpoint>http://lxdv16:8801/scada1/notification/producer</hv-sub:notificationProducerEndpoint>
+        <hv-sub:operationResponderEndpoint>http://lxdv16:8801/scada1/operation/responder</hv-sub:operationResponderEndpoint>
+    </hv-conf:entity>
+
+    <hv-conf:entity xsi:type="myproject-sub:SCADAType" id="MICENVCONN">
+        <hv-sub:notificationProducerEndpoint>http://micenvconn:8907/scada1/notification/producer</hv-sub:notificationProducerEndpoint>
+        <hv-sub:operationResponderEndpoint>http://micenvconn:8907/scada1/operation/responder</hv-sub:operationResponderEndpoint>
+    </hv-conf:entity>
+
+    <hv-conf:entity xsi:type="myproject-sub:SCADAType" id="FANENVCONN">
+        <hv-sub:notificationProducerEndpoint>http://fanrtsvr1:8902/scada1/notification/producer</hv-sub:notificationProducerEndpoint>
+        <hv-sub:operationResponderEndpoint>http://fanrtsvr1:8902/scada1/operation/responder</hv-sub:operationResponderEndpoint>
+    </hv-conf:entity>
+
+    <hv-conf:entity xsi:type="myproject-sub:SCADAType" id="SHTENVCONN">
+        <hv-sub:notificationProducerEndpoint>http://shtrtsvr1:8903/scada1/notification/producer</hv-sub:notificationProducerEndpoint>
+        <hv-sub:operationResponderEndpoint>http://shtrtsvr1:8903/scada1/operation/responder</hv-sub:operationResponderEndpoint>
+    </hv-conf:entity>
+
+    <hv-conf:entity xsi:type="myproject-sub:SCADAType" id="HUHENVCONN">
+        <hv-sub:notificationProducerEndpoint>http://huhrtsvr1:8904/scada1/notification/producer</hv-sub:notificationProducerEndpoint>
+        <hv-sub:operationResponderEndpoint>http://huhrtsvr1:8904/scada1/operation/responder</hv-sub:operationResponderEndpoint>
+    </hv-conf:entity>
+	
+	<hv-conf:entity xsi:type="myproject-sub:SCADAType" id="PNM">
+        <hv-sub:notificationProducerEndpoint>http://pnmsrv1:8991/pnm/notification/producer</hv-sub:notificationProducerEndpoint>
+        <hv-sub:operationResponderEndpoint>http://pnmsvr1:8991/pnm/operation/responder</hv-sub:operationResponderEndpoint>
+    </hv-conf:entity>
+	
+	<hv-conf:entity xsi:type="myproject-sub:SCADAType" id="SCADA1">
+        <hv-sub:notificationProducerEndpoint>http://localhost:8801/scada1/notification/producer</hv-sub:notificationProducerEndpoint>
+        <hv-sub:operationResponderEndpoint>http://localhost:8801/scada1/operation/responder</hv-sub:operationResponderEndpoint>
+    </hv-conf:entity>
+
+    <hv-conf:entity xsi:type="myproject-sub:SCADAType" id="SCADA2">
+        <hv-sub:notificationProducerEndpoint>http://localhost:8802/scada2/notification/producer</hv-sub:notificationProducerEndpoint>
+        <hv-sub:operationResponderEndpoint>http://localhost:8802/scada2/operation/responder</hv-sub:operationResponderEndpoint>
+    </hv-conf:entity>
+
+</hv-conf:entitiesConfiguration>

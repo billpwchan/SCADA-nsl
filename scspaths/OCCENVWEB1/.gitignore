@@ -1,0 +1,9 @@
+log/
+ScsEnvList
+scadasoft.cfg
+/data_dir
+*.shp/
+init_data/map/
+init_data/ani/
+*.pid
+apache-tomcat-7.0.62

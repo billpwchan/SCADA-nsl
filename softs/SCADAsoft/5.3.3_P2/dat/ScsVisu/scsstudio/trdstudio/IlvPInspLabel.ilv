@@ -1,0 +1,80 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 17:28:46 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "IlvPInspLabel"
+PathName "D:\\SCADASOFT\\SCSHOME\\dat\\ScsVisu\\scsstudio\\trdstudio\\IlvPInspLabel.ilv"
+Palettes 1
+"IlvStToolBar" 0 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 9
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 10 144 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ScsLabelFont"  }   } 32 "FontText"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 94 174 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ScsLabelOffsetTheta"  }   } 32 "Offset1Text"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 10 40 144 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ScsLabelColour"  }   } 32 "ColourText"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 40 124 174 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ScsLabelOffsetRho"  }   } 32 "Offset2Text"
+0
+1 { 4 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieShowLabels" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 10 73 204 16 F1073741825 2 1 2 0 0 0 Y "&ScsShowLabels" } 544 "ShowLabel"
+1
+1 "__ilvCallback" "ShowLabel"
+4096 "OffsetRho"
+1 { 5 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieLabelFont" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 158 10 171 22 F6 2 1 -1 0 "" } 544 "LabelFont"
+2
+1 "__ilvCallback" "LabelFont"
+1 "__ilvFocusOut" "LabelFont"
+4096 "OffsetRho"
+1 { 6 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieLabelColour" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 158 40 171 22 F6 2 1 -1 0 "" } 544 "LabelColour"
+2
+1 "__ilvCallback" "LabelColour"
+1 "__ilvFocusOut" "LabelColour"
+0
+1 { 7 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieTheta" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSpinBox 275 94 54 22 2 0 200 64 2 1
+0 IlvNumberField 275 94 42 22 F6 2 16 3 0 "0" . , 0 0 0 359  f 1 1 5 0 } 544 "OffsetTheta"
+2
+1 "__ilvCallback" "OffsetTheta"
+1 "__ilvFocusOut" "OffsetTheta"
+0
+1 { 8 P 2
+[ IlvToolTip __ilvToolTip 2 "&ttPieRho" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvSpinBox 275 124 54 22 2 0 200 64 2 1
+0 IlvNumberField 275 124 42 22 F6 2 16 3 0 "0" . , 0 0 -500 500  f 1 1 1 0 } 544 "OffsetRho"
+2
+1 "__ilvCallback" "OffsetRho"
+1 "__ilvFocusOut" "OffsetRho"
+2048 "LabelFont"
+Size 339 156
+GeometryHandlers
+1 100 0 339 0 339 0
+9 3 0 0 10  204 0 204 4  0 0 125 0
+ 3 0 0 10  144 0 144 0  0 0 185 0
+ 3 0 0 10  144 0 144 2  0 0 185 0
+ 3 0 0 40  174 0 174 1  0 0 125 0
+ 3 0 0 40  174 0 174 3  0 0 125 0
+ 3 158 0 158  0 0 171 5  0 0 10 0
+ 3 158 0 158  0 0 171 6  0 10 10 0
+ 3 275 0 275  0 0 54 7  0 0 10 0
+ 3 275 0 275  0 0 54 8  0 0 10 0
+1 100 0 156 0 156 0
+0
+EOF

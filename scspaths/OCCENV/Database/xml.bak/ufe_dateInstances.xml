@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="ufe_date">
+<InstanceDescription alias="LMCECTCALM0002RepeatActioncheckingTime" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0002RepeatActioncheckingTime"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="checking last calculation time"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="checkingTime"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="UpdateTimestamp(1,[^:timerEnable.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0002RepeatActioninDciDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0002RepeatActioninDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dci monitored value date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="01/01/2000 12:00"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="[^:^:dciECT-STATUS.valueDate]" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0002RepeatActionresendDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0002RepeatActionresendDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Next resend date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="resendDate"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="FROM_UNIXTIME([^:resendUnixtime.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0003RepeatActioncheckingTime" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0003RepeatActioncheckingTime"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="checking last calculation time"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="checkingTime"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="UpdateTimestamp(1,[^:timerEnable.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0003RepeatActioninDciDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0003RepeatActioninDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dci monitored value date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="01/01/2000 12:00"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="[^:^:dciECT-STATUS.valueDate]" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0003RepeatActionresendDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0003RepeatActionresendDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Next resend date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="resendDate"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="FROM_UNIXTIME([^:resendUnixtime.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0004RepeatActioncheckingTime" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0004RepeatActioncheckingTime"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="checking last calculation time"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="checkingTime"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="UpdateTimestamp(1,[^:timerEnable.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0004RepeatActioninDciDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0004RepeatActioninDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dci monitored value date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="01/01/2000 12:00"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="[^:^:dciECT-STATUS.valueDate]" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0004RepeatActionresendDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0004RepeatActionresendDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Next resend date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="resendDate"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="FROM_UNIXTIME([^:resendUnixtime.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0005RepeatActioncheckingTime" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0005RepeatActioncheckingTime"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="checking last calculation time"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="checkingTime"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="UpdateTimestamp(1,[^:timerEnable.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0005RepeatActioninDciDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0005RepeatActioninDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dci monitored value date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="01/01/2000 12:00"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="[^:^:dciECT-STATUS.valueDate]" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0005RepeatActionresendDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0005RepeatActionresendDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Next resend date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="resendDate"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="FROM_UNIXTIME([^:resendUnixtime.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0006RepeatActioncheckingTime" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0006RepeatActioncheckingTime"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="checking last calculation time"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="checkingTime"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="UpdateTimestamp(1,[^:timerEnable.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0006RepeatActioninDciDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0006RepeatActioninDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dci monitored value date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="01/01/2000 12:00"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="[^:^:dciECT-STATUS.valueDate]" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0006RepeatActionresendDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0006RepeatActionresendDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Next resend date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="resendDate"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="FROM_UNIXTIME([^:resendUnixtime.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0007RepeatActioncheckingTime" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0007RepeatActioncheckingTime"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="checking last calculation time"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="checkingTime"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="UpdateTimestamp(1,[^:timerEnable.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0007RepeatActioninDciDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0007RepeatActioninDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dci monitored value date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="01/01/2000 12:00"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="[^:^:dciECT-STATUS.valueDate]" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0007RepeatActionresendDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0007RepeatActionresendDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Next resend date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="resendDate"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="FROM_UNIXTIME([^:resendUnixtime.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0008RepeatActioncheckingTime" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0008RepeatActioncheckingTime"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="checking last calculation time"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="checkingTime"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="UpdateTimestamp(1,[^:timerEnable.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0008RepeatActioninDciDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0008RepeatActioninDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dci monitored value date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="01/01/2000 12:00"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="[^:^:dciECT-STATUS.valueDate]" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0008RepeatActionresendDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0008RepeatActionresendDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Next resend date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="resendDate"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="FROM_UNIXTIME([^:resendUnixtime.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0009RepeatActioncheckingTime" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0009RepeatActioncheckingTime"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="checking last calculation time"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="checkingTime"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="UpdateTimestamp(1,[^:timerEnable.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0009RepeatActioninDciDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0009RepeatActioninDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dci monitored value date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDciDate"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="01/01/2000 12:00"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="[^:^:dciECT-STATUS.valueDate]" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0009RepeatActionresendDate" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0009RepeatActionresendDate"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Next resend date"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="resendDate"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="FROM_UNIXTIME([^:resendUnixtime.computedValue])" activation="ENABLE">
+<ScalarValue value="01/01/2000 00:00:00.000"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

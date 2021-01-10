@@ -1,0 +1,56 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 18:35:57 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "ObjPath"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\ObjPath.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 6
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton -1 -1 321 286 F536870925 0 { IlvMessageItem 262144 4 16 4  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 238 252 75 25 F13 2 { IlvMessageItem 262147 4 2 4 "Remove" 1 0 "icons/scs_remove.png"  }   } 544 "OPClear"
+1
+1 "__ilvCallback" "OPClearCB"
+6144 "OPPath" "OPSet"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 150 252 75 25 F13 2 { IlvMessageItem 262147 4 2 4 "Set" 1 0 "icons/scs_set.png"  }   } 544 "OPSet"
+1
+1 "__ilvCallback" "OPSetCB"
+6144 "OPClear" "OPBrowse"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 10 5 300 94 F268435468 0 { IlvMessageItem 262169 4 16 4 "Object Path"  }   } 32 "OPFrameName"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 25 28 273 25 F6 2 1 -1 0 "" } 32 "OPPath"
+6144 "OPBrowse" "OPClear"
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 25 63 103 25 F268435469 2 { IlvMessageItem 262147 4 2 4 "Browse..." 1 0 "icons/browse_db.png"  }   } 544 "OPBrowse"
+1
+1 "__ilvCallback" "OPBrowseCB"
+6144 "OPSet" "OPPath"
+Size 319 286
+GeometryHandlers
+1 100 0 319 0 319 0
+6 3 0 0 10  300 0 300 3  0 0 9 0
+ 3 150 0 150  0 0 75 2  0 0 94 0
+ 3 238 0 238  0 0 75 1  0 0 6 0
+ 3 0 0 25  273 0 273 4  0 0 21 0
+ 3 0 -1 -1  321 0 321 0  0 -1 -1 0
+ 3 0 0 25  0 0 103 5  191 0 191 0
+1 100 0 286 0 286 0
+6 3 0 0 5  0 0 94 3  0 0 187 0
+ 3 0 0 63  0 0 25 5  198 0 198 0
+ 3 252 0 252  0 0 25 2  0 0 9 0
+ 3 252 0 252  0 0 25 1  0 0 9 0
+ 3 0 0 28  0 0 25 4  0 0 233 0
+ 3 0 -1 -1  286 0 286 0  0 0 1 0
+EOF

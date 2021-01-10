@@ -1,0 +1,111 @@
+COMPONENT=DbmWriter,DbmWriter
+
+Init() {
+   english="DbmWriter Initialization"
+   french="Initialisation du serveur DbmWriter"
+}
+
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+HostServer(const char *) {
+   english="Server %s is not registered at the host server"
+   french="Le server %s n'est pas enregistre aupres du server de nom"
+}
+DataBaseConnection(const char *) {
+   english="Cannot connect to database %s"
+   french="Impossible de se connecter a la base %s"
+}
+PermissionDenied(const char *, const char *) {
+   english="User [%s] has not access rights for application %s"
+   french="L'utilisateur [%s] n'a pas les droits d'acces pour l'application %s"
+}
+ProfileNotFound(const char *) {
+   english="Profile not found for user [%s]"
+   french="Profile non trouve pour l'utilisateur [%s]"
+}
+BadReference() {
+   english="Reference error"
+   french="Erreur de reference"
+}
+ReadError() {
+   english="Reading error"
+   french="Erreur de lecture"
+}
+WriteError() {
+   english="Write error"
+   french="Erreur d'ecriture"
+}
+DataConversion(const int) {
+   english="Cannot convert data types [%d]"
+   french="Erreur de conversion de type [%d]"
+}
+GroupUnknown(const char *) {
+   english="Server do not know the group [%s]"
+   french="Le server ne connait pas le groupe [%s]"
+}
+GroupAlreadyExist(const char *) {
+   english="Group [%s] already exist"
+   french="Le groupe [%s] existe deja"
+}
+GroupCreation(const char *) {
+  english="Cannot create group [%s]"
+  french="Impossible de creer le groupe [%s]"
+}
+GroupDeletion(const char *) {
+  english="Cannot delete description for group [%s]"
+  french="Impossible de detruire la description du groupe [%s]"
+}
+GroupDescription(const char *) {
+  english="Description of group [%s] is incorrect"
+  french="La description du groupe [%s] est incorrect"
+}
+GroupSubscription(const char *) {
+  english="Cannot subscribe to the group [%s]"
+  french="Impossible de s'abonner au groupe [%s]"
+}
+GroupUnsubscription(const char *) {
+  english="Cannot unsubscribe from group [%s]"
+  french="Impossible de se desabonner du groupe [%s]"
+}
+SubscriptionNotFound(const char *) {
+  english="Subscription not found for group [%s]"
+  french="Abonnement inexistant pour le groupe [%s]"
+}	
+FileCreation(const char *) {
+  english="Cannot create file [%s]"
+  french="Impossible de creer le fichier [%s]"
+}
+FileDeletion(const char *) {
+  english="Cannot remove file [%s]"
+  french="Impossible de detruire le fichier [%s]"
+}
+FileNotFound(const char *) {
+  english="File [%s] not found or unreadable"
+  french="Le fichier [%s] n'existe pas ou n'est pas lisible"
+}
+RtapFunction(const char *) {
+   english="Rtap function %s error"
+   french="Erreur fonction Rtap %s"
+}
+RtapCommunication() {
+   english="RTAP Communication Error"
+   french="Erreur de communication RTAP"
+}
+Function(const char *) {
+   english="Function %s error"
+   french="Erreur fonction %s"
+}
+WriteSecurity(const char *) {
+   english="The data %s cannont be written"
+   french="Impossible d'ecrire la donnee %s"
+}
+Timeout(const char *,const char *) {
+   english="Timeout received while sending %s request to %s environment"
+   french="Délai expiré durant l'envoi de la requête %s vers l'environnement %s"
+}
+FormulaSyntax(const char *) {
+   english="Syntax error in formula: %s"
+   french="Erreur de syntaxe dans la formule: %s"
+}

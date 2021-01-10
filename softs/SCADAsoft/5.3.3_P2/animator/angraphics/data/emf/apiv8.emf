@@ -1,0 +1,492 @@
+## -------------------------------------------------------------- -*- MSG -*-
+##     SYSECA                                 Animator
+##                                            [DATA]
+## --------------------------------------------------------------------------
+## The information contained in this document is proprietary to Animator's
+##   group of SYSECA and shall not be disclosed by the recipent to third
+##             persons without the written consent of SYSECA
+## --------------------------------------------------------------------------
+##         file: api.emf
+##  description: ANIMATOR error message file 
+##     creation: 1997/10/15
+##       author: jpm
+## --------------------------------------------------------------------------
+## $Id: $
+##
+## $Log: $
+##
+## --------------------------------------------------------------------------
+COMPONENT=apiv8,ApiV8
+
+CompatibilityError()
+{
+  english="Compatibility Error : See the Animator reference manual"
+  french="Erreur de compatibilité : Consulter le manuel de référence Animator"
+}
+
+ApiError(const char*)
+{
+  english="Error in the Api function '%s'"
+  french="Error dans la fonction d'Api '%s'"
+}
+
+BadImage()
+{
+  english="Bad Image : The ANIMAGE struct pointer is NULL"
+  french="Bad Image : Le pointeur sur la structure ANIMAGE est NULL"
+}
+BadImagePtr()
+{
+  english="Bad Image : The AnImage class pointer is NULL"
+  french="Bad Image : Le pointeur sur la classe AnImage est NULL"
+}
+BadModelPtr()
+{
+  english="Bad Model : The AnModel class pointer is NULL"
+  french="Bad Model : Le pointeur sur la classe AnModel est NULL"
+}
+BadObjectPtr()
+{
+  english="Bad Object : The AnObject class pointer is NULL"
+  french="Bad Object : Le pointeur sur la classe AnObject est NULL"
+}
+
+BadParameter()
+{
+  english="Bad Parameter"
+  french="Parametre invalide"
+}
+
+IllegalRequest(const char*)
+{
+  english="Illegal Request : '%s'"
+  french="Requette Illegal : '%s'"
+}
+
+IllegalRequest_d(const char*, int)
+{
+  english="Illegal Request : '%s', %d"
+  french="Requette Illegal : '%s', %d"
+}
+
+IllegalRequest_s(const char*, const char*)
+{
+  english="Illegal Request : '%s', %s"
+  french="Requette Illegal : '%s', %s"
+}
+
+InvalidClassName(const char*)
+{
+  english="Invalid Object Class Name : '%s'"
+  french="Nom de classe d'objet invalide : '%s'"
+}
+
+
+DisplayNull()
+{
+  english="Display Null : The ANINFOX struct pointer must be NULL"
+  french="Display Null : Le pointeur sur la structure ANINFOX doit être NULL"
+}
+
+
+SystemViewNotWindows()
+{
+  english="systemView not supported in windows system"
+  french="On ne peut pas definir un systemView avec le systeme Windows"
+}
+
+T_ANIMAGEMustbeNull()
+{
+  english="T_ANIMAGE* must be NULL"
+  french="T_ANIMAGE* doit etre NULL"
+}
+
+UnknownObject(int)
+{
+  english="The Object #%d is unknown in the image"
+  french="L'objet d'identifiant #%d est inconnu dans l'image"
+}
+
+NullParameter(const char*)
+{
+  english="Bad Parameter : The %s struct pointer is NULL"
+  french="Bad Parameter : Le pointeur sur la structure %s est NULL"
+}
+
+BadObject()
+{
+  english="Bad Object : The Object Id is unknown in the image"
+  french="Bad Object : L'identifiant d'objet est inconnu dans l'image"
+}
+
+BadT_ANIMAINFO()
+{
+  english="Bad Class : The BadT_ANIMAINFO structure is not valid"
+  french="Bad Class : La stucture BadT_ANIMAINFO est invalide"
+}
+BadT_ANOBJINFO()
+{
+  english="Bad Class : The BadT_ANOBJINFO structure is not valid"
+  french="Bad Class : La stucture BadT_ANOBJINFO est invalide"
+}
+BadT_ANCLASSINFO()
+{
+  english="Bad Class : The T_ANCLASSINFO structure is not valid"
+  french="Bad Class : La stucture T_ANCLASSINFO est invalide"
+}
+
+BadDisplay()
+{
+  english="Bad Display : The ANINFOX struct pointer is not NULL"
+  french="Bad Display : Le pointeur sur la structure ANINFOX est NULL"
+}
+
+SessionNull()
+{
+  english="Session Null : The ANSESSION struct pointer must be null"
+  french="Session Null : Le pointeur sur la structure ANSESSION doit être NULL"
+}
+
+BadParameter_s(const char*)
+{
+  english="Bad Parameter : '%s'"
+  french="Parametre invalide : '%s'"
+}
+
+# -------------------------------------------------------
+ColorAlreadyRegistered(const char*)
+{
+  english="The color named '%s' is already registered in this display"
+  french="La couleur nommée '%s' est déja enregistrée dans ce display"
+}
+InvalidColorId(size_t)
+{
+  english="Invalid color identifier : %ld"
+  french="Identificateur de couleur invalide: %ld"
+}
+FontFamilyAlreadyRegistered(const char*)
+{
+  english="The font family named '%s' is already registered in this display"
+  french="La famille de police nommée '%s' est déja enregistrée dans ce display"
+}
+FontAlreadyRegistered(const char*)
+{
+  english="The font family named '%s' is already registered in this family"
+  french="La police nommée '%s' est déja enregistrée dans cette famille"
+}
+InvalidFontFamilyId(size_t)
+{
+  english="Invalid font family identifier : %ld"
+  french="Identificateur de famille de police invalide: %ld"
+}
+InvalidFontId(size_t)
+{
+  english="Invalid font identifier : %ld"
+  french="Identificateur de police invalide: %ld"
+}
+InvalidColorName(const char*)
+{
+  english="Invalid color name : %s"
+  french="Nom de couleur invalide: %s "
+}
+InvalidFontFamilyName(const char*)
+{
+  english="Invalid font family name : %s"
+  french="Nom de famille de police invalide: %s"
+}
+InvalidFontName(const char*)
+{
+  english="Invalid font name : %s"
+  french="Nom de police invalide: %s"
+}
+
+ObjectNotMoveable()
+{
+  english="Invalid operation : object is not moveable"
+  french="Opération invalide : l'objet n'est pas deplaçable"
+}
+ObjectNotResizeable()
+{
+  english="Invalid operation : object is not resizeable"
+  french="Opération invalide : la taille de l'objet ne peut être modifiée"
+}
+ObjectNotRotatable()
+{
+  english="Invalid operation : object is not rotatable"
+  french="Opération invalide : l'objet ne peut être tourné"
+}
+ObjectNotTransformable()
+{
+  english="Invalid operation : object is not transformable"
+  french="Opération invalide : l'objet ne peut être cible d'une transformation affine"
+}
+InvalidSharedGroupOperation(const char*, const char*)
+{
+  english="Invalid operation (%s) on the shared group '%s'"
+  french="Opération invalide (%s) sur le groupe partagé '%s'"
+}
+InvalidManagedGroupOperation(const char*, const char*)
+{
+  english="Invalid operation (%s) on the already managed group '%s'"
+  french="Opération invalide (%s) sur le groupe '%s' déjà inséré dans une image"
+}
+InvalidUnmanagedGroupOperation(const char*, const char*)
+{
+  english="Invalid operation (%s) on the unmanaged group '%s'"
+  french="Opération invalide (%s) sur le groupe '%s' non inséré dans une l'image"
+}
+GraphicNotBelongToGroup(const char*, const char*)
+{
+  english="Invalid operation (%s) : the graphic does not belong to the group '%s'"
+  french="Opération invalide (%s) : l'élément graphique n'appartient pas au groupe '%s'"
+}
+InvalidManagedGraphicOperation(const char*)
+{
+  english="Invalid operation (%s) on a already managed graphic"
+  french="Opération invalide (%s) sur un élément graphique déjà inséré dans une image"
+}
+InvalidUserClassOperation(const char*, const char*)
+{
+  english="Invalid operation (%s) on user class '%s'"
+  french="Opération invalide (%s) sur la classe utilisateur '%s'"
+}
+FirstLevelGraphicOperation(const char*)
+{
+  english="Operation (%s) allowed only on first level graphics"
+  french="Opération (%s) autorisée uniquement sur les éléments graphiques de premier niveau"
+}
+InvalidManagedPrimitiveOperation(const char*, const char*)
+{
+  english="Operation (%s) not allowed on the managed primitive of type '%s'"
+  french="Opération (%s) non autorisée sur la primitive graphique de type '%s', déjà insérée dans l'image"
+}
+InvalidGroupingMultiLayer()
+{
+  english="Trying to add a graphic to a group belonging to a different layer (ignored)"
+  french="Tentative d'ajout d'un élément graphique dans un groupe appartenant à un calque différent (ignoré)"
+}
+InvalidObjectName(const char*)
+{
+  english="Invalid object name '%s'"
+  french="Nom d'objet invalide '%s'"
+}
+InvalidObjectId(size_t)
+{
+  english="Invalid object identifier : %ld"
+  french="Identificateur d'objet invalide: %ld "
+}
+LevelIgnoredInOperation(const char*, const char*)
+{
+  english="Decluttering level '%s' is ignored in operation (%s) on a composite object"
+  french="Le niveau d'enrichissement '%s' est ignoré dans l'opération (%s) concernant un objet composite"
+}
+InvalidLevelId(size_t)
+{
+  english="Invalid decluttering level identifier : %ld"
+  french="Identificateur de niveau d'enrichissement invalide: %ld "
+}
+LevelAlreadyExists(const char*)
+{
+  english="A decluttering level named '%s' already exists in the work space : cannot create"
+  french="Un niveau d'enrichissement nommé '%s' existe déjà dans le work space : impossible de le créer"
+}
+InvalidLayerId(size_t)
+{
+  english="Invalid layer identifier : %ld"
+  french="Identificateur de calque invalide: %ld "
+}
+LayerAlreadyExists(const char*)
+{
+  english="A layer named '%s' already exists in the work space : cannot create"
+  french="Un calque nommé '%s' existe déjà dans le work space : impossible de le créer"
+}
+InvalidUserClassLayer(const char*, const char*) {
+  english="The layer '%s' does not belong to the user class '%s'"
+  french="Le calque '%s' n'appartient pas à la classe utilisateur '%s'"
+}
+InvalidMultiLayerOperation(const char*) {
+  english="Trying to add the multi-layer user class '%s' to a group."
+  french="Tentative d'ajout de la classe utilisateur multi-calques '%s' à un groupe."
+}
+BadProperty(const char*) {
+  english="Unable to restore '%s' type property."
+  french="Impossible de restaurer la propriété de type '%s'."
+}
+UnknownProperty(const char*) {
+  english="Unable to restore  '%s' unknown type property."
+  french="Impossible de restaurer la propriété de type inconnu '%s'."
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######################## NOT USED -> POUBELLE
+ImageNull() {
+  english="Image Null : The ANIMAGE struct pointer must be null"
+  french="Image Null : Le pointeur sur la structure ANIMAGE doit être NULL"
+}
+BadSession() {
+  english="Bad Session : Unable to open session"
+  french="Bad Session : Erreur a l'ouverture de session"
+}
+OnlySAObject(int) {
+  english="The object numbered '%d' is not an active symbol"
+  french="L'objet numéroté '%d' n'est pas un symbole actif"
+}
+OnlyTAObject(int) {
+  english="The object numbered '%d' is not an active text"
+  french="L'objet numéroté '%d' n'est pas un texte actif"
+}
+InactiveObject(int) {
+  english="The object numbered '%d' is not of an active class"
+  french="L'objet numéroté '%d' n'est pas d'une classe active"
+}
+ObjectDeleted(int) {
+  english="The object numbered '%d' has been destroyed"
+  french="L'objet numéroté '%d' a été détruit"
+}
+BadLayer(int) {
+  english="The layer numbered '%d' is not available"
+  french="Le calque numéroté '%d' n'est pas disponible"
+}
+BadVersion(const char*) {
+  english="Invalid Version for file '%s'"
+  french="Version invalide du fichier '%s'"
+}
+SA0RError() {
+  english="Bad definition for an active symbol without representation"
+  french="Définition incorrecte d'un symbole actif sans représentation"
+}
+Trace1(const char*) {
+  english="'%s'"
+}
+File(const char*) {
+  english="File : '%s'"
+  french="Fichier : '%s'"
+}
+ReadError() {
+  english="Read Error"
+  french="Erreur de lecture"
+}
+EOBUnexpected() {
+  english="End of block unexpected"
+  french="Fin de bloc non attendue"
+}
+sNotFound(const char*) {
+  english="'%s' not found"
+  french="'%s' non trouvé"
+}
+Obj_BadColorNumber(const char*, const char*, int) {
+  english="class '%s', name '%s' : Bad color number (%d)"
+  french="classe '%s', nom '%s' : Mauvais numéro de couleur (%d)"
+}
+Obj_BadSymbolNumber(const char*, const char*, int) {
+  english="class '%s', name '%s' : Bad symbol number (%d)"
+  french="classe '%s', nom '%s' : Mauvais numéro de symbole (%d)"
+}
+TraceErrorLine(const char*) {
+  english="Error at  : '%s'"
+  french="Erreur a        : '%s'"
+}
+TraceCurrentLine(const char*) {
+  english="Full Line : '%s'"
+  french="Ligne entière   : '%s'"
+}
+TraceFileName(const char*) {
+  english="In File   : '%s'"
+  french="Dans le fichier : '%s'"
+}
+NoDecLevelFile() {
+  english="Declutter level definitions unavailable"
+  french="Pas de définitions de niveaux d'enrichissement disponibles"
+}
+BadLayersNum(const char*, short) {
+  english="Bad layers number definition in '%s' at line %d"
+  french="Définition du nombre de calques incorrecte dans '%s' à la ligne %d"
+}
+BadLevelsNum(const char*, int) {
+  english="Bad declutter levels number definition in '%s' at line %d"
+  french="Définition du nombre de niveau d'enrichissement incorrecte dans '%s' à la ligne %d"
+}
+NoLayersNumDef(const char*, int) {
+  english="No Layers number defined in '%s', setting to default value (%d)"
+  french="Pas de définition de nombre de calque dans '%s', valeur par défaut (%d)"
+}
+NoLevelsNumDef(const char*, int) {
+  english="No declutter levels number defined in '%s', setting to default value (%d)"
+  french="Pas de définition de  dans '%s', valeur par défaut (%d)"
+}
+BadLevelDef(const char*, int) {
+  english="Bad declutter level definition in '%s' at line %d"
+  french="Définition de niveau d'enrichissement incorrecte dans '%s' à la ligne %d"
+}
+NoIntervalDefs(const char*, short) {
+  english="Missing interval definition in '%s' at line %d"
+  french="Définition d'intervalle manquante dans '%s' à la ligne %d"
+}
+BadIntervalDefs(const char*, short) {
+  english="Bad interval definition in '%s' at line %d"
+  french="Définition d'intervalle incorrecte dans '%s' à la ligne %d"
+}
+IntervalIncompatibility(const char*, short) {
+  english="Incompatible interval definitions in '%s' at line %d"
+  french="Définitions d'intervalle incompatibles dans '%s' à la ligne %d"
+}
+NoConfigFile() {
+  english="User key name definitions unavailable"
+  french="Pas de définitions de touches utilisateur disponibles"
+}
+NoGlobalFile() {
+  english="User key used unavailable"
+  french="Pas de touches utilisateur disponibles"
+}
+BadUserKeyDef(const char*, short) {
+  english="Bad user key definition in '%s' at line %d"
+  french="Définition de touche utilisateur incorrecte dans '%s' à la ligne %d"
+}
+BadKeySymbolDef(const char*, short) {
+  english="Bad symbol key definition in '%s' at line %d"
+  french="Définition de symbole de touche incorrecte dans '%s' à la ligne %d"
+}
+BadKeyModifierDef(const char*, short) {
+  english="Bad modifier key definition in '%s' at line %d"
+  french="Définition de modificateur de touche incorrecte dans '%s' à la ligne %d"
+}
+InvalidImageCalling(const char*) {
+  english="This image cannot be read with this hardware (Image:'%s')"
+  french="Cette image ne peut être lue avec cette architecture matérielle (Image:'%s')"
+}
+InvalidImageFormat(const char*) {
+  english="The image syntax format is incorrect (%s)"
+  french="Le format de l'image est incorrect (%s)"
+}
+ObjectNotLoad(int) {
+  english="The object number %d is not loaded"
+  french="L'objet N°%d n'a pas pu être chargé"
+}
+BitmapsNotFound(const char*) {
+  english="The bitmap '%s' not found"
+  french="La bitmap '%s' non trouvée"
+}
+ReadClassInfo() {
+  english="The reading of the common part has failed"
+  french="La lecture de la partie commune des classes a échoué"
+}
+ClassAlreadyRegister() {
+  english="Class already registered"
+  french="La classe est déjà déclarée"
+}
+#################################################

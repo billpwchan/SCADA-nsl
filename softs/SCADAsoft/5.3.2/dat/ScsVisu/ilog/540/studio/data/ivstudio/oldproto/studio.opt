@@ -1,0 +1,98 @@
+studio {
+    PropertySetDefinition studio {
+        fields {
+	    valueSource			SimpleList repeatable;
+        }
+    }
+    panelFile "ivstudio/oldproto/studio.pnl";
+    valueSource "Clock" "IlvClockValueSource" "&IlvMsgStProto194" "1000" "&IlvMsgStProto195" "0";
+    valueSource "Random" "IlvRandomValueSource" "&IlvMsgStProto194" "1000" "&IlvMsgStProto195" "0" "&IlvMsgStProto196" "random" "&IlvMsgStProto197" "0" "&IlvMsgStProto198" "100";
+    valueSource "File" "IlvFileValueSource" "&IlvMsgStProto199" "ivprotos/values/sinus";
+    valueSource "Application" "IlvValueSource";
+    
+    toolBarCommands IlvStPrototypeEditionBuffer {
+	SelectGroupSelectionMode,
+    }
+
+    toolBarCommands IlvStPrototypeGrapherBuffer {
+        SelectPolySelectionMode,
+        SelectLabelMode,
+        SelectLabelListMode,
+        SelectRotateMode,
+        SelectActiveMode,
+	-,
+	-,
+    	SelectZoomMode,
+	SelectPanZoomMode,
+	-,
+	ZoomLevel,
+	ZoomIn,
+	ZoomOut,
+	FitViewToContents,
+	ResetView,
+	-,
+	MakeNode,
+	SelectPinEditorMode,
+	-,
+	SelectGroupSelectionMode,
+ 	SelectGroupConnectionMode
+    }
+
+    toolBarCommands IlvStPrototypeManagerBuffer {
+	SelectPolySelectionMode,
+        SelectLabelMode,
+        SelectLabelListMode,
+        SelectRotateMode,
+        SelectActiveMode,
+	-,
+	-,
+    	SelectZoomMode,
+	SelectPanZoomMode,
+	-,
+	ZoomLevel,
+	ZoomIn,
+	ZoomOut,
+	FitViewToContents,
+	ResetView,
+	-,
+	SelectGroupSelectionMode,
+ 	SelectGroupConnectionMode
+    }
+
+    toolBarCommands IlvStPrototypeGadgetManagerBuffer {
+        SelectPolySelectionMode,
+        SelectLabelMode,
+        SelectLabelListMode,
+        SelectRotateMode,
+        SelectActiveMode,
+	-,
+	SelectFocusMode,
+	SelectAttachmentsMode,
+ 	SelectMenuMode,
+ 	SelectMatrixMode,
+	SelectSpinBoxMode,
+	-,
+	SelectGroupSelectionMode,
+ 	SelectGroupConnectionMode,
+    } 
+
+
+    viewsClass "IlvSCProtoManagerRectangle" {
+	headerFile "<ilviews/protos/prorect.h>";
+        library "ilvgdpro";
+    }
+    viewsClass "IlvSCProtoGadgetManagerRectangle" {
+	headerFile "<ilviews/protos/prorect.h>";
+        library "ilvgdpro";
+    }
+    viewsClass "IlvSCProtoGrapherRectangle" {
+	headerFile "<ilviews/protos/prorect.h>";
+        library "ilvgdpro";
+    }
+}
+
+
+
+
+
+

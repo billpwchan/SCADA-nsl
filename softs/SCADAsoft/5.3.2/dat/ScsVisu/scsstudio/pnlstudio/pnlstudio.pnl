@@ -1,0 +1,86 @@
+// --------------------------------------------------------------------------
+
+panel "MainPanel" {
+
+  // Menu bar "File"
+  removeMenuItem    NewGrapherBuffer: "&mfile", "&new";
+  removeMenuItem    NewGraphicBuffer: "&mfile", "&new";
+  removeMenuItem    -: "&mfile", "&new";
+  removeMenuItem    NewApplication: "&mfile", "&new";
+  removeMenuItem    MakeDefaultApplication: "&mfile", "&new";
+  removeMenuItem    Quit :  "&mfile";
+  // Added to "File"
+  menuItem SetDialoguePath : "&mfile" -before SaveDocument;
+  menuItem QuitScsStudio :  "&mfile";
+  // Menu bar "Tools"
+  removeMenuItem    -: "&mtools" -before ShowMessagePanel;
+  removeMenuItem    ShowLayerPanel: "&mtools";
+  // Added to "Tools"
+  menuItem ScriptEditor :  "&mtools" -before ShowMessagePanel;
+  menuItem FormulaEditor :  "&mtools"  -before ShowMessagePanel;
+  menuItem SCADACommand :  "&mtools" -before ShowMessagePanel;
+  removeMenuItem    ShowMessagePanel: "&mtools";
+  removeMenuItem    ShowCommandPanel: "&mtools";
+  removeMenuItem    EditOptions: "&mtools";
+  removeMenuItem    SelectPlugIns: "&mtools";
+  
+  // File > new menu
+  removeMenuItem    NewProtoLibrary: "&mfile", "&new";
+  removeMenuItem    NewPrototypeGrapherBuffer: "&mfile", "&new";
+  removeMenuItem    NewPrototypeManagerBuffer: "&mfile", "&new";
+  removeMenuItem    NewPrototypeGadgetManagerBuffer: "&mfile", "&new";
+  removeMenuItem    NewPrototypeEditionBuffer: "&mfile", "&new";
+  
+  // File menu
+  removeMenuItem    SaveAsActiveX: "&mfile";
+  removeMenuItem    -: "&mfile" -before SaveProtoLibraryAs;
+  removeMenuItem    SaveProtoLibraryAs: "&mfile";
+  removeMenuItem    CloseProtoLibrary: "&mfile";
+  
+  // Edit menu
+  removeMenuItem    ConvertProtoBuffer: "&medit";
+  
+  // View menu
+  removeMenuItem    ToggleTimers: "&mview";
+  
+  // Draw menu
+  removeMenuItem    DeletePrototype: "&mdraw";
+  
+  // Tools
+  removeMenuItem    -: "&mtools" -before ShowScriptEditor;
+  removeMenuItem    ShowScriptEditor: "&mtools";
+  removeMenuItem    ShowScriptErrorList: "&mtools";
+  removeMenuItem    ShowScriptDebugger: "&mtools";
+  removeMenuItem    -: "&mtools" -before ShowGroupInspector;
+  removeMenuItem    ShowGroupInspector: "&mtools";
+  removeMenuItem    -: "&mtools" -before ShowLayoutInspector;
+  removeMenuItem    ShowLayoutInspector: "&mtools";
+
+  // IV5
+  removeMenuItem    MakeFilteredGraphic: "&mdraw";
+
+  // Group
+  // removeMenuItem :"&mgroup" ;
+
+  // Properties
+  removeMenuItem :"&mproperties";
+
+  // Code
+  removeMenuItem :"&mcode";
+
+  // Help
+  removeMenuItem ShowInfoPanel : "&mhelp";
+  removeMenuItem HelpMainPanel : "&mhelp";
+
+  // About...
+  menuItem ShowScsInfo :  "&mhelp" ;
+}
+
+panel "ScsInfo" {
+  commandName ShowScsInfo;
+  filename "pnlstudio/pnlinfo.ilv";
+  title "ScsStudio" ;
+  visible False;
+  x 765;
+  y 200;
+}

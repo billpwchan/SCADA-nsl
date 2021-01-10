@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="812" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 1452 812" width="1452">
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <polyline class="AnPolyline" fill="none" points="302,201 302,726 " stroke="#000000" stroke-width="1px" />
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="26,70 1420,70 1420,727 26,727 26,70 " stroke="#000000" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="27,202 1418,202 " stroke="#000000" stroke-width="2px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="27,456 1418,456 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement">
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.649970,0.000000,0.000000,4.860000,174.389999,101.510002)" x="0px" y="12px">LMC/CTV/SSV Smoke Probe Unit Summary</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,446.250000,394.750000)" x="0px" y="12px">SPU-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,127.300003,308.299988)" x="0px" y="12px">SSV </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,122.300003,559.299988)" x="0px" y="12px">CTV </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,671.250000,394.750000)" x="0px" y="12px">SPU-002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,896.250000,394.750000)" x="0px" y="12px">SPU-003</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,1121.250000,394.750000)" x="0px" y="12px">SPU-004</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,448.250000,651.750000)" x="0px" y="12px">SPU-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,673.250000,651.750000)" x="0px" y="12px">SPU-002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,898.250000,651.750000)" x="0px" y="12px">SPU-003</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,1123.250000,651.750000)" x="0px" y="12px">SPU-004</text>
+
+  
+  </g>
+
+</svg>

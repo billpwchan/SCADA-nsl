@@ -1,0 +1,10 @@
+version: 1
+dn: ou=syntaxCheckers,cn=pwdpolicy,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: ecbc5f26-fdb4-4394-ac74-937f1e5a7193
+ou: syntaxcheckers
+entryUUID: 55ca1fdd-bc1d-4caf-9ac9-f2cd89b55c63
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.301Z
+entryCSN: 20140513151214.942000Z#00000c#000#000000

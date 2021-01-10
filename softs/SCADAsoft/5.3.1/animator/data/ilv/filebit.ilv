@@ -1,0 +1,22 @@
+// Ilv Version: 2.3
+// File generated: Tue Nov 12 19:52:18 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+1 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 2 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 11
+2 { 0 0 IlvTextField 8 29 282 22 F6 2 1 -1 0 "" } 96 "dirtext" "TextField" 340 "ChangeDir" 1 8 1 8 2
+2 { 1 0 IlvScrolledStringList 8 65 118 109 F1 2 0 1 0 0 1
+"item" Y Y } 96 "dirlist" "ScrolledStringList" 20 "SelectDir" 1 8
+2 { 2 0 IlvScrolledStringList 154 65 121 109 F1 2 0 1 0 0 1
+"item" Y Y } 96 "filelist" "ScrolledStringList" 1364 "InputFile" "SelectFile" 1 154 1 7 2
+2 { 3 0 IlvTextField 10 235 278 22 F6 2 1 -1 0 "" } 96 "filetext" "TextField" 340 "InputFileFromChoice" 1 10 1 10 2
+2 { 4 1 IlvButton 15 413 70 23 F1 2 16 Y "&apply" } 96 "ok" "Button" 148 "apply" 1 15 1 12
+2 { 5 1 IlvButton 210 413 73 23 F1 2 16 Y "&cancel" } 96 "cancel" "Button" 196 "cancel" 1 15 1 12
+2 { 6 1 IlvButton 108 413 80 23 F1 2 16 Y "&filter" } 96 "reset" "Button" 148 "reset" 1 108 1 12
+2 { 7 0 IlvSCGadgetContainerRectangle 10 266 278 107 "" 0 } 32 "viewer" 1008 1 10 1 266 1 10 1 75 2 2
+2 { 8 0 IlvMessageLabel 8 2 282 22 0 "&filter" 1 } 32 "dirtitle" 336 1 8 1 8 2
+2 { 9 0 IlvMessageLabel 8 208 282 26 0 "&choice" 1 } 32 "title" 336 1 8 1 8 2
+3 { 10 2 IlvReliefLine 1 400 298 399 1 } 32 "line" 464 1 0 1 0 1 47 2
+Size 298 448

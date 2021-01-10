@@ -1,0 +1,48 @@
+/***************************************************/
+/*           DIALOGBOX
+/***************************************************/
+.mwt-dialog-box {
+  text-align: center;
+/*   font-family: "Roboto-medium"; */
+  /*According to chart */
+  background-color: #313131;
+}
+.gwt-DialogBox.mwt-dashboard-dialog {
+  background-color: #313131;
+  z-index: 30;
+}
+.gwt-DialogBox.mwt-dashboard-dialog .dialogTopCenterInner {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  background: #313131;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.gwt-DialogBox.mwt-dashboard-dialog .Caption {
+  margin: 0px 4px;
+/*   font-family: "Roboto-medium"; */
+  font-size: 18px;
+  vertical-align: middle;
+  padding: 8px;
+}
+.gwt-DialogBox.mwt-dashboard-dialog .mwt-dashboard-dialog-content {
+  margin: 4px;
+  padding: 8px;
+  font-size: 15px;
+}
+.gwt-DialogBox.mwt-dashboard-dialog .mwt-dashboard-dialog-buttons {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  padding: 8px;
+}
+.gwt-PopupPanelGlass {
+  background: #16191a;
+  opacity: 0.8;
+  z-index: 29;
+}

@@ -1,0 +1,16 @@
+version: 1
+dn: m-oid=2.5.6.16.2,ou=objectClasses,cn=core,ou=schema
+m-supobjectclass: certificationAuthority
+m-may: deltaRevocationList
+m-typeobjectclass: AUXILIARY
+m-oid: 2.5.6.16.2
+m-name: certificationAuthority-V2
+m-obsolete: FALSE
+entryParentId: f11785cd-45c2-4372-a455-9f5df1817369
+createTimestamp: 20140513151220.301Z
+objectclass: metaObjectClass
+objectclass: metaTop
+objectclass: top
+entryUUID: ec920976-031b-443f-80e5-585bf55e3c93
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.754000Z#000003#000#000000

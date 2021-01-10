@@ -1,0 +1,109 @@
+/******************************************************************************/
+/*									      */
+/*  FILE	: sig_ext_MsgDefToInt.dat                                     */
+/*  FULL NAME	: CSCI SIDL, CSC1 External, define for the message type send  */
+/*                to intern process of CSCI SIDL			      */
+/*									      */
+/*----------------------------------------------------------------------------*/
+/*  AUTHOR		:	Olivier GARCIA                                */
+/*  COMPANY		:	SYSECA					      */
+/*  CREATION DATE	:	1996/07/02				      */
+/*  LANGUAGE		:	C Ansi					      */
+/*............................................................................*/
+/*  OVERVIEW								      */
+/*	Message type send to Intern process                                   */
+/*	Name of the define is limited to 64 characters                        */
+/*............................................................................*/
+/*  CONTENTS								      */
+/*	...								      */
+/******************************************************************************/
+
+#ifndef __SIL_EXT_MSGDEFTOINT__
+#define __SIL_EXT_MSGDEFTOINT__
+
+/*----------------------------------------------------------------------------*/
+/*  IDENTIFICATION							      */
+#       @(#)sig_ext_MsgDefInt.dat	1.3 03/06/97
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  ENVIRONMENT								      */
+/*----------------------------------------------------------------------------*/
+#include "gof_MsgBaseDef.h"
+
+/*----------------------------------------------------------------------------*/
+/*  PROTOTYPES DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  CONSTANTS DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/* List subscription messages */
+/* -------------------------- */
+#define SIG_DBA_D_MSGINT_CREAT_LST_SBS   1001 /* List subscription creation */
+#define SIG_DBA_D_MSGINT_REACT_LST_SBS   1002 /* List subscription reactivation */
+
+#define SIG_DBA_D_MSGINT_CREATE_ITEM     1003 /* List item creation */
+#define SIG_DBA_D_MSGINT_DELETE_ITEM     1004 /* List item deleting */
+#define SIG_DBA_D_MSGINT_MODIFY_ITEM     1005 /* List item modifying */
+
+#define SIG_DBA_D_MSGINT_CREATE_MULTI    1006 /* List item creation */
+#define SIG_DBA_D_MSGINT_DELETE_MULTI    1007 /* List item deleting */
+#define SIG_DBA_D_MSGINT_MODIFY_MULTI    1008 /* List item modifying */
+
+/* Group subscription messages */
+/* --------------------------- */
+#define SIG_DBA_D_MSGINT_CREAT_GRP_SBS   1009 /* Group subscritption creation */
+#define SIG_DBA_D_MSGINT_REACT_GRP_SBS   1010 /* Group subscription reactivation */
+
+/* ====================================== */
+/* type of messages send by treatments to information list manager */
+
+#define SIL_TRT_D_MSG_FAULT_INF_LIS_PUT		1200
+#define SIL_TRT_D_MSG_FAULT_INF_LIS_SUP		1201
+#define SIL_TRT_D_MSG_INHIB_INF_LIS_PUT		1202
+#define SIL_TRT_D_MSG_INHIB_INF_LIS_SUP		1203
+#define SIL_TRT_D_MSG_FORCED_INF_LIS_PUT	1204
+#define SIL_TRT_D_MSG_FORCED_INF_LIS_SUP	1205
+#define SIL_TRT_D_MSG_FORCED_INF_LIS_MOD	1206
+#define SIL_TRT_D_MSG_MANUAL_INF_LIS_PUT	1207
+#define	SIL_TRT_D_MSG_MANUAL_INF_LIS_SUP	1208
+#define	SIL_TRT_D_MSG_MANUAL_INF_LIS_MOD	1209
+#define SIL_TRT_D_MSG_GRAD                      1210
+
+/* ====================================== */
+/* type of messages concerning "history" */
+
+#define SIG_HIS_D_MSG_ALARM_LIS_PUT		1300
+#define SIG_HIS_D_MSG_ACTION_LIS_PUT		1301
+
+/*----------------------------------------------------------------------------*/
+/*  STRUCTURES DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  EXTERNALS DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  RESOURCES DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  VARIABLES DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  OTHER DEFINITIONS							      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*	EXPORTED DATA AND TYPES						      */
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*	EXPORTED SUB-PROGRAMS						      */
+/*----------------------------------------------------------------------------*/
+
+#endif

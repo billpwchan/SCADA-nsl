@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_TECS_ALLSUMTECS" resolution="1.5 1.25 1.04166666667 0.868055555556 0.72337962963 0.602816358025 0.502346965021 0.41862247085 0.348852059042 0.290710049202" maxExtent="0.0 0.0 2394.0 1222.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_TECS_ALLSUMTECS.svg" width="2394.0" height="1222.0" bounds="0.0 0.0 2394.0 1222.0" name="C1166B_TECS_ALLSUMTECS" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="910.0" y="732.0" symbolId="C1166B_ECT_IDCP" entityId="OCC_KOTECTIDCP0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="910.0" y="583.0" symbolId="C1166B_ECT_MTMA" entityId="OCC_KOTECTMTMA0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1193.0" y="583.0" symbolId="C1166B_ECT_POTE" entityId="OCC_KOTECTPOTE0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1193.0" y="436.0" symbolId="C1166B_ECT_MLC1" entityId="OCC_KOTECTMLC10002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="910.0" y="435.0" symbolId="C1166B_ECT_MLC1" entityId="OCC_KOTECTMLC10001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="910.0" y="284.0" symbolId="C1166B_ECT_MCC_" entityId="OCC_KOTECTMCC_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1193.0" y="284.0" symbolId="C1166B_ECT_MCC_" entityId="OCC_KOTECTMCC_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1666.0" y="285.0" symbolId="C1166B_ECT_MLCP" entityId="OCC_LMCECTCALL0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1666.0" y="136.0" symbolId="C1166B_ECT_LCP_" entityId="OCC_LMCECTCALL0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1949.0" y="136.0" symbolId="C1166B_ECT_LCP_" entityId="OCC_LMCECTCALL0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1949.0" y="433.0" symbolId="C1166B_ECT_POT_" entityId="OCC_LMCECTCALC0005" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1666.0" y="433.0" symbolId="C1166B_ECT_POT_" entityId="OCC_LMCECTCALC0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1666.0" y="582.0" symbolId="C1166B_ECT_MT__" entityId="OCC_LMCECTCALC0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1949.0" y="582.0" symbolId="C1166B_ECT_MT__" entityId="OCC_LMCECTCALC0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="2233.0" y="582.0" symbolId="C1166B_ECT_MT__" entityId="OCC_LMCECTCALC0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1666.0" y="731.0" symbolId="C1166B_ECT_ILCP" entityId="OCC_LMCECTCALL0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1666.0" y="877.0" symbolId="C1166B_ECT_HOVR" entityId="OCC_LMCECTHOVR0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="910.0" y="877.0" symbolId="C1166B_ECT_HOVR" entityId="OCC_KOTECTHOVR0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

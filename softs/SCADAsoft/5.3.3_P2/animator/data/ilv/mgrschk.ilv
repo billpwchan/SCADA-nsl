@@ -1,0 +1,10 @@
+// Ilv Version: 2.21
+// File generated: Wed Mar 13 20:09:49 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 1
+"default" 0 "gray" "black" "default" 6x13 0 solid solid 0 0 0
+IlvObjects 2
+2 { 0 0 IlvMatrix 0 0 135 465 2 1 0 1 65 35 1 1 0 0 1 1 1 2 13 2 0 0 64 1 "Save"
+0 1 64 1 "Save" 1 N 0 0 } 96 "matrix" "MatrixSelector" 640 1 0 2
+2 { 1 0 IlvSCManagerRectangle 135 0 357 447 YY } 96 "mgr" "SCManager" 960 1 0 1 0 2 2
+Size 511 465

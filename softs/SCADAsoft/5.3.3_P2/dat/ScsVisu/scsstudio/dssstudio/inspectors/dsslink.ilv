@@ -1,0 +1,59 @@
+// Ilv Version: 3.1
+// File generated: Thu Mar 23 10:20:59 2000
+// Creator class: IlvGadgetManagerOutput
+FileName "dsslink"
+PathName "D:\\Scadaref\\scadasoft\\dat\\ScsVisu\\scsstudio\\dssstudio\\inspectors\\dsslink.ilv"
+Palettes 5
+"default" 4 "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+3 "gray" "red" "default" "StockedDefaultGui" 0 solid dash 3 0 0
+"default" 0 "gray" "black" "normal" "StockedDefaultGui" 0 solid solid 0 0 0
+2 "gray" "black" "default" "StockedDefaultGui" 0 solid solid 3 0 0
+1 "gray" "black" "button" "StockedDefaultGui" 0 solid solid 0 0 0
+IlvObjects 8
+2 { 0 0 IlvReliefLine 0 107 261 107 1 } 32 "line"
+464 1 0 1 0 1 35 2
+2 { 1 1 IlvButton 125 115 62 23 F536870921 2 129 16 4 "&apply"   } 544 "BtnApply"
+1
+1 "__ilvCallback" "apply"
+6290 "BtnClose" "period" 1 5 1 5
+2 { 2 1 IlvButton 191 115 64 23 F9 2 1 16 4 "&close"   } 544 "BtnClose"
+1
+1 "__ilvCallback" "cancel"
+4288 "BtnApply" 1 5 1 5
+3 { 3 1 IlvFrame 6 5 250 90 F8 0 25 16 4 "&LinkFeatures"   } 0
+0
+3 { 4 2 IlvArrowLine 190 43 240 43 1 } 0
+0
+3 { 5 3 IlvArrowLine 190 68 240 68 1 } 0
+0
+3 { 6 0 IlvSelector 0 2
+4 IlvToggle 20 35 164 16 F1 2 1 2 1 14 0 Y "&TrueOutput"
+4 IlvToggle 20 60 164 16 F1 2 1 2 1 14 0 Y "&FalseOutput"
+ } 608 "LinkSelector" "Selector"
+1
+1 "__ilvCallback" "LinkCb"
+0
+3 { 7 4 IlvTransparentIcon 23 5 "dssstudio\\icons\\dss.png" "" } 0
+0
+Size 261 143
+Background "gray"
+GeometryHandlers
+1 100 0 261 0 261 0
+8 3 0 0 20  164 0 164 6  0 0 77 0
+ 3 0 0 190  50 0 50 4  21 0 21 0
+ 3 0 0 190  50 0 50 5  21 0 21 0
+ 3 191 0 191  0 0 64 2  0 0 6 0
+ 3 125 0 125  0 0 62 1  0 0 74 0
+ 3 0 0 0  261 0 261 0  0 0 0 0
+ 3 0 0 6  250 0 250 3  0 0 5 0
+ 3 0 0 23  0 0 16 7  0 0 222 0
+1 100 0 143 0 143 0
+8 3 0 0 35  0 0 41 6  0 0 67 0
+ 3 0 0 39  0 0 8 4  0 0 96 0
+ 3 0 0 64  0 0 8 5  0 0 71 0
+ 3 115 0 115  0 0 23 2  0 0 5 0
+ 3 115 0 115  0 0 23 1  0 0 5 0
+ 3 0 0 5  0 0 90 3  0 0 48 0
+ 3 0 0 5  0 0 16 7  0 0 122 0
+ 3 106 0 106  0 0 2 0  0 0 35 0
+EOF

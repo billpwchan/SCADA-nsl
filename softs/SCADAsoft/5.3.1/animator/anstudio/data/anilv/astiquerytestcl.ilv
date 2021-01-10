@@ -1,0 +1,68 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 16:32:38 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "astiquerytestcl"
+PathName "D:\\SOFTS\\animator4\\anstudio\\data\\anilv\\astiquerytestcl.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 7
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 208 26 92 16 F1 2 1 2 0 0 0 Y "&Allbut" } 544 "ButClassName"
+1
+1 "__ilvCallback" "butClassNameCB"
+0
+1 { 1 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ClassOptionTT" 4 4 ]
+0 IlvOptionMenu 14 135 181 20 F1 2 0 -1  } 544 "ClassType"
+1
+1 "__ilvCallback" "classTypeCB"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 208 137 92 16 F1 2 1 2 0 0 0 Y "&Allbut" } 544 "ButClassType"
+1
+1 "__ilvCallback" "butClassTypeCB"
+2048 "ClassName"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 4 115 297 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&TypeClass"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 4 4 297 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&NameClass"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 14 24 176 20 F6 2 1 -1 0 "" } 544 "ClassName"
+1
+1 "__ilvCallback" "classNameCB"
+4096 "ButBackdropType"
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 121 78 62 20 F807 2 16 -1 0 "&And" 2
+{ IlvGadgetItem 1 2 4 "&And"  } 
+{ IlvGadgetItem 1 2 4 "&Or"  }  4 0 } 32 "Condition"
+6144 "Condition2" "NoteBook"
+Size 311 177
+GeometryHandlers
+1 100 0 311 0 311 0
+7 3 0 0 4  297 0 297 4  0 0 10 0
+ 3 208 0 208  0 0 92 0  0 0 11 0
+ 3 0 0 14  181 0 181 1  0 0 116 0
+ 3 0 0 4  297 0 297 3  0 0 10 0
+ 3 208 0 208  0 0 92 2  0 0 11 0
+ 3 0 0 14  176 0 176 5  0 0 121 0
+ 3 121 0 121  0 0 62 6  128 0 128 0
+3 100 61 66 0 66 0
+ 100 0 44 66 44 66
+ 100 0 66 110 66 110
+3 3 24 0 24  0 0 20 5  22 0 22 0
+ 3 26 0 26  0 0 16 0  24 0 24 0
+ 3 0 0 4  50 0 50 4  0 0 12 0
+1 3 12 0 12  0 0 20 6  12 0 12 1
+3 3 25 0 25  0 0 20 1  21 0 21 2
+ 3 27 0 27  0 0 16 2  23 0 23 2
+ 3 0 0 5  50 0 50 3  0 0 11 2
+EOF

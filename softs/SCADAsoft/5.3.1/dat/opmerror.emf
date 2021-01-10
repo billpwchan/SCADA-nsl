@@ -1,0 +1,218 @@
+##############################################################################
+# IDENTIFICATION:
+# $Id: opmerror.emf,v 1.1 2000/03/20 16:02:26 hot Exp $
+#
+# HISTORY:
+# $Log: opmerror.emf,v $
+# Revision 1.1  2000/03/10 16:02:26  deble
+# Initial revision
+#
+#
+##############################################################################
+COMPONENT=Opm,Opm
+
+Init() {
+   english="Opm Initialization"
+   french="Initialisation du serveur Opm"
+}
+
+ORB( const char* ) {
+   english="Orb Error %s"
+}
+
+ScadasoftInit() {
+  english="Failed to initialize Scadasoft"
+}
+
+ScadasoftFunction(const char *, int) {
+  english="SCADAsoft function %s error (minor=%d)"
+  french="Erreur fonction SCADAsoft %s (minor=%d)"
+}
+
+GetEnv(const char *) {
+  english="Environnement variable '%s' is not defined"
+}
+
+OpenFile(const char *) {
+  english="Could not open file '%s'"
+}
+
+ParseFile(const char *) {
+  english="Error parsing file '%s', exiting !!!"
+}
+
+LoadingSnapshot(const char *) {
+  english="Error loading snapshot file '%s'" 
+}
+
+InitOlsServer() {
+  english="Failed to initialize OlsServer object"
+}
+
+Subscribe(const char *) {
+  english="Failed to subscribe to '%s' list"
+}
+
+SubscribeRemote(const char *, const char *, const char *, int) {
+  english="Failed to subscribe to '%s' remote list (%s@%s): minor=%d"
+}
+
+FieldCount(const char *, int, int) {
+  english="Field count for local list '%s' are different from remote: local=%d remote=%d"
+}
+
+SubscribeState() {
+  english="Failed to subscribe to server state"
+}
+
+Unsubscribe(const char *) {
+  english="Failed to unsubscribe from '%s' list"
+}
+
+UpdateLocalBuffer() {
+  english="Failed to update data in the local profile list!?"
+}
+
+InvStringMask(const char *) {
+  english="Invalid string mask '%s'"
+}
+
+InvStringFlag(const char *) {
+  english="Invalid string flag '%s'"
+}
+
+InvBitFieldMask(int) {
+  english="Invalid bit field mask %d"
+}
+
+InvEnvName(const char *) {
+  english="Invalid environnement name '%s'"
+}
+
+InvFuncCategory(int) {
+  english="Invalid function category %d"
+}
+
+InvFuncName(const char *) {
+  english="Invalid function string name '%s'"
+}
+
+InvLocCategory(int) {
+  english="Invalid location category %d"
+}
+
+InvLocName(const char *) {
+  english="Invalid location string name '%s'"
+}
+
+InvActCategory(int) {
+  english="Invalid action category %d"
+}
+
+InvActName(const char *) {
+  english="Invalid action string name '%s'"
+}
+
+InvProfName(const char *) {
+  english="Invalid profile name '%s'"
+}
+
+InvServerName(const char *) {
+  english="Invalid server name '%s'"
+}
+
+InvAttribute(const char *) {
+  english="Invalid attribute '%s' value"
+}
+
+NoData(int,const char *) {
+  english="No OlsData found at index %d in the '%s' list"
+}
+
+NoField(int,const char *) {
+  english="No OlsField found at index %d in the '%s' list"
+}
+
+NoDefinitions(const char *, const char *) {
+  english="No definitions loaded, waiting for subscription definition list from (%s, %s)"
+}
+
+NoProfiles(const char *, const char *) {
+  english="No profiles loaded, waiting for subscription profiles list from (%s, %s)"
+}
+
+NoProfilesExit() {
+  english="No profiles configuration file, exiting !!!"
+}
+
+NoOperatorsExit() {
+  english="No operators configuration file"
+}
+
+ProfNotLoaded(const char *) {
+  english="Profile '%s' is not loaded"
+}
+
+ProfAlreadyLoaded(const char *) {
+  english="Profile '%s' is already loaded"
+}
+
+ProfNotFound(const char *) {
+  english="Profile '%s' not found"
+}
+
+OperatorNotFound(const char *) {
+  english="Operator '%s' not found"
+}
+
+PasswordNotValid(const char *) {
+  english="Current password for operator '%s' not valid"
+}
+
+PasswordTooLong() {
+  english="Password should not exceed 256 characters"
+}
+
+PasswordTooShort(int) {
+  english="Password should not be shorter than '%d' characters"
+}
+
+OperatorLocked() {
+  english="Operator is currently locked. Please check with Administrator!"
+}
+
+SyntaxError(const char *,int, const char *,const char *) {
+  english="Syntax error file '%s' line %d -> %s : %s"
+}
+
+ListEmpty(const char *) {
+  english="The OlsList '%s' is empty"
+}
+
+UnkType(int) {
+  english="Unknown definition type %d"
+}
+
+InFunction(const char *, int) {
+   english="Error returned by '%s' function: minor=%d"
+}
+
+FileAccess(const char *, const char *) {
+   english="Impossible to write snapshot contents to file: %s/%s"
+}
+
+Internal(const char *) {
+   english="Internal error: %s"
+}
+
+TooMuchProfiles(int, const char*) {
+   english="The profile list exceeds %d bytes for %s operator"
+}
+
+OperatorAlreadyExist(const char*) {
+   english="The operator '%s' already exist."
+}
+
+OperatorIsNull() {
+   english="The operator is NULL."
+}

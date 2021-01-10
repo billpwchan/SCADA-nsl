@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.42.2.27.4.1.8,ou=attributeTypes,cn=java,ou=schema
+m-usage: USER_APPLICATIONS
+m-oid: 1.3.6.1.4.1.42.2.27.4.1.8
+m-name: javaSerializedData
+m-description: Serialized form of a Java object
+m-obsolete: FALSE
+entryParentId: 6f4d9f5f-1cde-41d5-a184-630c7c8c58b6
+m-singlevalue: TRUE
+createTimestamp: 20140513151220.379Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.40
+m-nousermodification: FALSE
+m-collective: FALSE
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: 1f65cd49-2db0-461a-86b7-c041fe4d426a
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.879000Z#000012#000#000000

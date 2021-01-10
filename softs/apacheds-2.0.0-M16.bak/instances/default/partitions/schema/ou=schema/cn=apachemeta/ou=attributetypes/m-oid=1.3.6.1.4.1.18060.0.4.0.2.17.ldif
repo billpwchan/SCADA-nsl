@@ -1,0 +1,20 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.2.17,ou=attributeTypes,cn=apachemeta,ou=schema
+m-usage: USER_APPLICATIONS
+m-oid: 1.3.6.1.4.1.18060.0.4.0.2.17
+m-name: m-noUserModification
+m-description: The attribute is protected
+m-obsolete: FALSE
+m-equality: booleanMatch
+entryParentId: 242539f6-95dd-4b38-8a3e-bce832eee811
+m-singlevalue: TRUE
+createTimestamp: 20140513151220.207Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+m-nousermodification: FALSE
+m-collective: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+entryUUID: e803c31b-d9dd-4a4f-a5e8-34136330d159
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.661000Z#000006#000#000000

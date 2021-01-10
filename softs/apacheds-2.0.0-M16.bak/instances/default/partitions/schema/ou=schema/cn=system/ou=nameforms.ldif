@@ -1,0 +1,10 @@
+version: 1
+dn: ou=nameForms,cn=system,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 6f0d9a5d-678d-44b1-a0aa-6c76995ee428
+ou: nameforms
+entryUUID: 36ec78f0-03b1-48ce-a805-a0d26f0ff38f
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.191Z
+entryCSN: 20140513151215.004000Z#000004#000#000000

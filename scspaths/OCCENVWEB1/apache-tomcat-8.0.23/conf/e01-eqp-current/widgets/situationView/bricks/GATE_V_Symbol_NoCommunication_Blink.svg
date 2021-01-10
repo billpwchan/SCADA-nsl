@@ -1,0 +1,12 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="GATE_V_Symbol_NoCommunication_Blink"><g id="_C1166B_SYMBOLS_AFC_C1166B_AFC_GATE_5_NO_COMMUNICATION_SVG" transform="translate(-100.0 -100.0)scale(1.0 1.0)rotate(90.0 100.0 100.0)"><rect x="30.0" fill="red" width="140.0" height="40.0" y="80.0" opacity="0"/><g id="AFC/C1166B_AFC_GATE_5_No_Communication" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polygon fill="#000000" class="AnPolygon" fill-rule="evenodd" points="69,-20 69,19 33,19 33,-20 "/>
+
+  
+  <polygon fill="#FF0000" class="AnPolygon" fill-rule="evenodd" points="33,-20 33,19 -34,19 -34,-20 "/>
+
+  
+  <polygon fill="#000000" class="AnPolygon" fill-rule="evenodd" points="-34,-20 -34,19 -70,19 -70,-20 "/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

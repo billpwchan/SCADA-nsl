@@ -1,0 +1,293 @@
+## -------------------------------------------------------------- -*- MSG -*-
+##     SYSECA                                 Animator
+##                                            [TOOLS]
+## --------------------------------------------------------------------------
+## The information contained in this document is proprietary to Animator's
+##   group of SYSECA and shall not be disclosed by the recipent to third
+##             persons without the written consent of SYSECA
+## --------------------------------------------------------------------------
+##         file: kernel.msg
+##  description: ANIMATOR error message file 
+##     creation: 1997/04/24
+##       author: olivier
+## --------------------------------------------------------------------------
+## $Id: kernel.emf,v 1.8 1997/09/25 12:44:21 olivier Exp $
+##
+## $Log: kernel.emf,v $
+## Revision 1.8  1997/09/25 12:44:21  olivier
+## *** empty log message ***
+##
+## Revision 1.7  1997/08/21 10:57:27  olivier
+## *** empty log message ***
+##
+## Revision 1.6  1997/08/12 14:22:05  olivier
+## *** empty log message ***
+##
+## Revision 1.5  1997/07/31 16:24:44  olivier
+## .
+##
+## Revision 1.4  1997/06/18 10:33:41  pierre
+## *** empty log message ***
+##
+## Revision 1.3  1997/06/02 15:37:56  pierre
+## *** empty log message ***
+##
+## Revision 1.2  1997/05/30 10:01:08  olivier
+## Change : french -> french.
+##
+## Revision 1.1  1997/05/26 08:59:55  pierre
+## Initial revision
+##
+## --------------------------------------------------------------------------
+COMPONENT=Kernel,Knl
+
+BadDisplay() {
+  english="The display couldn't be openned."
+  french="Le display ne peut être ouvert."
+}
+DisplayAlreadyRegistered(const char*) {
+  english="The display '%s' is already registered in the workspace."
+  french="Le display '%s' est déjà enregistré dans le workspace."
+}
+
+BadLevel(int) {
+  english="The declutter level numbered '%d' is not available."
+  french="Le niveau d'enrichissement numéroté '%d' n'est pas disponible."
+}
+UnknownLevelZoomMode(const char*, const char*) {
+  english="Unknown zoom mode control '%s' for the declutter level named '%s'."
+  french="Le mode de contrôle du zoom '%s' est inconnu pour le niveau d'enrichissement '%s'."
+}
+
+BadLayer(int) {
+  english="The layer numbered '%d' is not available."
+  french="Le calque numéroté '%d' n'est pas disponible."
+}
+
+BadLevelLayer() {
+  english="The layer or the level doesn't exist."
+  french="Le calque ou le niveau d'enrichissement n'existe pas."
+}
+
+BadLevelDefinition() {
+  english="The definition of the decluttering level is not correct."
+  french="La définition du niveau d'enrichissement est incorrecte."
+}
+
+RemoveLevel(int) {
+  english="The declutter level numbered '%d' canno't be removed."
+  french="Le niveau d'enrichissement numéroté '%d' ne peut être détruit."
+}
+
+RemoveLayer(const char*) {
+  english="The layer named '%s' canno't be removed."
+  french="Le calque nommé '%s' ne peut être détruit."
+}
+
+SharedObject(const char*) {
+  english="The shared object '%s' canno't be modified."
+  french="L'objet partagé '%s' ne peut être modifié."
+}
+
+NoObject() {
+  english="The object is not contained in the image."
+  french="L'objet n'est pas contenu dans l'image."
+}
+
+BadView() {
+  english="The view is nod valid."
+  french="La vue n'est pas valide."
+}
+
+CannotDetachView() {
+  english="The view could not be detached."
+  french="La vue ne peut pas être détachée."
+}
+BadZoomValue(double) {
+  english="The zoom value %f is not valid."
+  french="La valeur de zoom %f n'est pas valide."
+}
+ 
+NumberOfViews() {
+  english="The maximum number of views permitted is reached."
+  french="Le nombre de vues maximum autorisé est atteint."
+}
+
+DifferentLayers() {
+  english="The objects do not belong to the same layer."
+  french="Les objets n'appartiennent pas au même calque."
+}
+
+NoData(const char*) {
+  english="The semantic description of node '%s' is null."
+  french="La partie sémantique du noeud '%s' est nulle."
+}
+CannotCreateVectorialFont(const char*, const char*, const char *)
+{
+  english="Cannot create the vectorial font '%s' from directory '%s' for display '%s'"
+  french="Impossible de créer la police vectorielle '%s' à partir du répertoire '%s' pour le display '%s'"
+}
+CannotCreateSystemFont(const char*, const char*)
+{
+  english="Cannot create the system font '%s' for display '%s'"
+  french="Impossible de créer la police système '%s' pour le display '%s'"
+}
+CannotCreateNamedColor(const char*, const char*)
+{
+  english="Cannot create the named color '%s' for display '%s'"
+  french="Impossible de créer la couleur nommée '%s' pour le display '%s'"
+}
+CannotCreateRGBColor(int, int, int, const char*)
+{
+  english="Cannot create the RGB color (%d,%d,%d) for display '%s'"
+  french="Impossible de créer la couleur RGB (%d,%d,%d) pour le display '%s'"
+}
+CannotCreateHSVColor(float, float, float, const char*)
+{
+  english="Cannot create the HSV color (%f,%f,%f) for display '%s'"
+  french="Impossible de créer la couleur HSV (%f,%f,%f) pour le display '%s'"
+}
+
+BackgroundColorNotFound(const char*)
+{
+  english="Background color '%s' not defined. Getting default color."
+  french="Couleur d'arrière plan '%s' non définie. Utilise la couleur par défaut."
+}
+HighlightColorNotFound(const char*)
+{
+  english="Highlight color '%s' not defined. Getting default color."
+  french="Couleur de mise en évidence '%s' non définie. Utilise la couleur par défaut."
+}
+SelectColorNotFound(const char*)
+{
+  english="Select color '%s' not defined. Getting default color."
+  french="Couleur de sélection '%s' non définie. Utilise la couleur par défaut."
+}
+AlarmColorNotFound(const char*)
+{
+  english="Alarm color '%s' not defined. Getting default color."
+  french="Couleur d'alarme '%s' non définie. Utilise la couleur par défaut."
+}
+InteractorNotFound(const char*)
+{
+  english="Interactor '%s' not defined. Getting default interactor."
+  french="Interaction '%s' non définie. Utilise l'interaction par défaut."
+}
+DefaultCursorNotFound(const char*)
+{
+  english="Default cursor '%s' not defined. Getting default cursor."
+  french="Curseur par défaut '%s' non défini. Utilise le curseur par défaut."
+}
+AddressingModeNotFound(const char*)
+{
+  english="Addressing mode '%s' not defined. Getting default mode."
+  french="Mode d'adressage '%s' non défini. Utilise le mode par défaut."
+}
+HotSpotCursorNotFound(const char*)
+{
+  english="Hot spot cursor '%s' not defined. Getting default cursor."
+  french="Curseur de désignabilité '%s' non défini. Utilise le curseur par défaut."
+}
+HotSpotTypeNotFound(const char*)
+{
+  english="Hot spot type '%s' not defined. Getting cursor by default."
+  french="Type de hotspot '%s' non défini. On utilise le curseur par défaut."
+}
+BadActionParameter(const char*)
+{
+  english="Bad '%s' parameter (ignored)"
+  french="Paramêtre '%s' erroné (ignoré)"
+}
+EventTypeRequired(const char*)
+{
+  english="Event Type required for action '%s'"
+  french="Type d'évenemment requis pour l'action '%s'"
+}
+BadActionType(const char*)
+{
+  english="Event Type unknown for action '%s'"
+  french="Type d'évenemment inconnu dans l'action '%s'"
+}
+ButtonKeyRequired(const char*)
+{
+  english="Key or Button required for action '%s'"
+  french="Touche ou Bouton requis pour l'action '%s'"
+}
+BadButtonKey(const char*)
+{
+  english="Key or Button unknown for action '%s'"
+  french="Touche ou Bouton inconnu pour l'action '%s'"
+}
+InconsistentEvent(const char*)
+{
+  english="Inconsistent event definition for action '%s'"
+  french="Définition d'évenemment incorrecte pour l'action '%s'"
+}
+NoButtonKey(const char*)
+{
+  english="Key or Button missing for action '%s'"
+  french="Touche ou Bouton manquant pour l'action '%s'"
+}
+BadModifier(const char*)
+{
+  english="Modifier unknown for action '%s'"
+  french="Modifieur inconnu pour l'action '%s'"
+}
+ButtonKeyModifierDenied(const char*)
+{
+  english="Key or Button and Modifier not allowed for action '%s'"
+  french="Touche ou Bouton et Modifieur interdits pour l'action '%s'"
+}
+ActionRequired(const char*)
+{
+  english="Action definition required for action '%s'"
+  french="Définition d'action requise pour l'action '%s'"
+}
+ActionIgnored(const char*)
+{
+  english="Bad definition for action '%s' (ignored)"
+  french="Définition éronée pour l'action '%s' (ignorée)"
+}
+DebugActionMsg1(const char*, const char*, int)
+{
+  english="Event: type='%s' buttonKey='%s' modifiers='0x%.4x'"
+  french="Event: type='%s' buttonKey='%s' modifiers='0x%.4x'"
+}
+DebugActionMsg2(const char*, int, int, const char*, int, int)
+{
+  english="       %s=(%d, %d) %s=(%d, %d)"
+}
+DebugActionMsg3(const char*, const char*)
+{
+  english="       %s='%s'"
+}
+DebugActionMsg4(const char*)
+{
+  english="Action: name='%s'"
+  french="Action: nom='%s'"
+}
+OpenFile(const char*)
+{
+  english="Cannot open file '%s'."
+  french="Impossible d'ouvrir le fichier '%s'."
+}
+BadMenuFile(const char*)
+{
+  english="Bad menu file '%s'."
+  french="Fichier menu incorrect '%s'."
+}
+BadColorDefinition(const char*)
+{
+  english="Bad color definition '%s' in resource file."
+  french="Définition de couleur incorrecte '%s' dans le fichier de ressources."
+}
+BadFontDefinition(const char*)
+{
+  english="Bad font definition '%s' in resource file."
+  french="Définition de police incorrecte '%s' dans le fichier de ressources."
+}
+CannotCreateNamedLineStyle(const char*, const char*)
+{
+  english="Cannot create the named line style '%s' for display '%s'"
+  french="Impossible de créer le style de ligne nommée '%s' pour le display '%s'"
+}

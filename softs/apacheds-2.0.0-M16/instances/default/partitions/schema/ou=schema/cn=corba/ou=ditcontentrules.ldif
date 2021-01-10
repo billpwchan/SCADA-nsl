@@ -1,0 +1,10 @@
+version: 1
+dn: ou=ditContentRules,cn=corba,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 29245e65-cf56-4c10-8574-d57545af80e0
+ou: ditcontentrules
+entryUUID: cddb1d65-9399-447b-a726-cbe007b532ea
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.254Z
+entryCSN: 20140513151214.708000Z#00000d#000#000000

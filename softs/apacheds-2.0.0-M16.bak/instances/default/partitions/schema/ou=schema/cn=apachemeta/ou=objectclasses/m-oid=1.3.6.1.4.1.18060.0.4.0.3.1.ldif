@@ -1,0 +1,19 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.0.3.1,ou=objectClasses,cn=apachemeta,ou=schema
+m-supobjectclass: top
+m-must: m-oid
+m-may: m-description
+m-may: x-schema
+m-typeobjectclass: ABSTRACT
+m-oid: 1.3.6.1.4.1.18060.0.4.0.3.1
+m-name: metaTop
+m-description: Top level objectclass of all meta objects
+m-obsolete: FALSE
+entryParentId: 9cdaa799-befc-4c3a-bc01-a8882d6b846d
+createTimestamp: 20140513151220.285Z
+objectclass: top
+objectclass: metaTop
+objectclass: metaObjectClass
+entryUUID: 6b051c5c-16cd-4b45-addd-b9b3fe7304f6
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.676000Z#00000d#000#000000

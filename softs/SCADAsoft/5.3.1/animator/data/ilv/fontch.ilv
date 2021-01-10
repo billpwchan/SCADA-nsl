@@ -1,0 +1,31 @@
+// Ilv Version: 2.3
+// File generated: Tue Nov 12 19:54:48 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+2 "defaultBg" "defaultFg" "fixed" 0 solid solid 0 0 0
+1 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 11
+2 { 0 0 IlvScrolledStringList 5 50 110 92 F1 2 0 0 0 0 1
+"item" Y Y } 96 "familylist" "ScrolledStringList" 7120 "normal" "foundary" 1 5 1 205 1 80 2 2
+2 { 1 0 IlvScrolledStringList 251 50 65 92 F1 2 0 0 0 0 1
+"item" Y Y } 96 "size" "ScrolledStringList" 6852 "apply" "text" "underline" 1 4 1 80 2
+2 { 2 0 IlvTextField 5 168 327 27 F7 2 1 -1 0 "0123456789 abcdpqrst ABCDEPQRST" } 96 "text" "TextField" 6612 "PrintType" "apply" "size" 1 5 1 5 1 50 2
+2 { 3 0 IlvToggle 141 53 94 17 F1 2 1 2 0 0 0 Y "&italic" } 96 "italic" "Toggle" 6212 "SelectStyle" "bold" "normal" 1 102
+2 { 4 0 IlvToggle 141 78 94 17 F1 2 1 2 0 0 0 Y "&bold" } 96 "bold" "Toggle" 6212 "SelectStyle" "underline" "italic" 1 102
+2 { 5 0 IlvToggle 141 103 94 17 F1 2 1 2 0 0 0 Y "&underline" } 96 "underline" "Toggle" 6212 "SelectStyle" "size" "bold" 1 102
+2 { 6 1 IlvButton 5 217 60 23 F1 2 16 Y "&apply" } 96 "apply" "Button" 6292 "apply" "cancel" "text" 1 5 1 5
+2 { 7 1 IlvButton 272 217 60 23 F1 2 16 Y "&close" } 96 "cancel" "Button" 4292 "cancel" "apply" 1 5 1 5
+2 { 8 0 IlvOptionMenu 132 8 123 20 2 9 0
+"*"
+"adobe"
+"bitstream"
+"b&h"
+"misc"
+"schumacher"
+"sun"
+"dec"
+"sony" } 32 "foundary" 2068 "ChFound" "familylist" 1 132
+3 { 9 2 IlvReliefLine 0 209 337 209 1 } 32 "line" 464 1 0 1 0 1 35 2
+3 { 10 0 IlvMessageLabel 5 5 119 26 0 "&foundry" 1 } 0 16 1 5
+Size 337 245

@@ -1,0 +1,121 @@
+// Ilv Version: 5.0
+// File generated: Mon Nov 08 10:19:55 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "dmprompt"
+PathName "D:\\SOFTS\\animator4\\anstudio\\data\\dmprompt.ilv"
+Palettes 3
+"default" 2 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 14
+2 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 107 33 148 23 F1 2 3
+{ IlvMenuItem 65 2 4 "&OutputSizeKSF"  } 
+{ IlvMenuItem 1 2 4 "&OutputSizeWP"  } 
+{ IlvMenuItem 1 2 4 "&OutputSizePA"  }  0  } 32 "Where"
+0
+2 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 107 5 148 23 F1 2 3
+{ IlvMenuItem 65 2 4 "&DumpAreaV"  } 
+{ IlvMenuItem 1 2 4 "&DumpAreaA"  } 
+{ IlvMenuItem 1 2 4 "&DumpAreaS"  }  0  } 32 "What"
+4096 "Button_1"
+2 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 5 172 68 23 F13 2 { IlvMessageItem 262145 4 16 4 "&apply"  }   } 512
+1
+1 "__ilvCallback" "apply"
+0
+2 { 3 2 IlvReliefLine 0 164 260 164 1 } 0
+0
+2 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 187 172 68 23 F13 2 { IlvMessageItem 262145 4 16 4 "Cancel"  }   } 544 "Button_1"
+1
+1 "__ilvCallback" "cancel"
+10240 "What"
+2 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFileSelectorField 107 136 148 22 F6 2 1 -1 0 "ilvdump.ps" } 32 "File"
+0
+2 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 107 87 148 20 F1 2 2
+{ IlvMenuItem 65 2 4 "&Portrait"  } 
+{ IlvMenuItem 1 2 4 "&Landscape"  }  0  } 32 "Orient"
+0
+2 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 5 134 74 26 F268435468 0 { IlvMessageItem 262169 4 16 4 "&fileName"  }   } 0
+0
+2 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 5 32 94 26 F268435468 0 { IlvMessageItem 262169 4 16 4 "&OutputSize"  }   } 0
+0
+2 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 5 4 92 26 F268435468 0 { IlvMessageItem 262169 4 16 4 "&DumpArea"  }   } 0
+0
+2 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 5 59 94 26 F268435468 0 { IlvMessageItem 262169 4 16 4 "&PaperFormat"  }   } 0
+0
+2 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 107 60 148 23 F1 2 6
+{ IlvMenuItem 65 2 4 "&PaperFormatDefault"  } 
+{ IlvMenuItem 1 2 4 "A4"  } 
+{ IlvMenuItem 1 2 4 "US Letter"  } 
+{ IlvMenuItem 1 2 4 "US Legal"  } 
+{ IlvMenuItem 1 2 4 "A3"  } 
+{ IlvMenuItem 1 2 4 "B5"  }  0  } 32 "Paper"
+0
+3 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 5 86 93 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&orientation"  }   } 0
+0
+4 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 5 114 118 16 F1 2 1 1 0 0 0 Y "&ColorPS" } 32 "Color"
+0
+Size 260 200
+GeometryHandlers
+1 100 0 260 0 260 0
+14 3 0 0 5  92 0 92 9  163 0 163 0
+ 3 0 0 5  94 0 94 8  161 0 161 0
+ 3 0 0 5  94 0 94 10  161 0 161 0
+ 3 0 0 5  93 0 93 12  162 0 162 0
+ 3 0 0 5  0 0 118 13  0 0 137 0
+ 3 0 0 5  74 0 74 7  181 0 181 0
+ 3 0 0 0  260 0 260 3  0 0 0 0
+ 3 0 0 5  0 0 68 2  187 0 187 0
+ 3 187 0 187  0 0 68 4  0 0 5 0
+ 3 0 0 107  148 0 148 5  0 0 5 0
+ 3 0 0 107  148 0 148 6  0 0 5 0
+ 3 0 0 107  148 0 148 11  0 0 5 0
+ 3 0 0 107  148 0 148 0  0 0 5 0
+ 3 0 0 107  148 0 148 1  0 0 5 0
+1 100 0 200 0 200 0
+14 3 4 0 4  26 0 26 9  170 0 170 0
+ 3 32 0 32  26 0 26 8  142 0 142 0
+ 3 59 0 59  26 0 26 10  115 0 115 0
+ 3 86 0 86  22 0 22 12  92 0 92 0
+ 3 114 0 114  16 0 16 13  70 0 70 0
+ 3 134 0 134  26 0 26 7  40 0 40 0
+ 3 163 0 163  0 0 2 3  0 0 35 0
+ 3 172 0 172  0 0 23 2  0 0 5 0
+ 3 172 0 172  0 0 23 4  0 0 5 0
+ 3 136 0 136  22 0 22 5  42 0 42 0
+ 3 87 0 87  20 0 20 6  93 0 93 0
+ 3 60 0 60  23 0 23 11  117 0 117 0
+ 3 33 0 33  23 0 23 0  144 0 144 0
+ 3 5 0 5  23 0 23 1  172 0 172 0
+Layers 5
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

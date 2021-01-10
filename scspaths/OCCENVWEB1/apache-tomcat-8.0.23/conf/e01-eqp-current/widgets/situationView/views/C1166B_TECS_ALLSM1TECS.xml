@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_TECS_ALLSM1TECS" resolution="1.5" maxExtent="0.0 0.0 2394.0 1222.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="false"></controls>
+        <imageLayer path="images/C1166B_TECS_ALLSM1TECS.svg" width="2394.0" height="1222.0" bounds="0.0 0.0 2394.0 1222.0" name="C1166B_TECS_ALLSM1TECS" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="AnDefaultLayer" type="OVERLAY">
+            <entityEntry x="1385.0" y="816.0" symbolId="C1166B_ECT_HOVR" entityId="OCC_KOTECTHOVR0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.2437810897827148"></entityEntry>
+            <entityEntry x="2041.0" y="815.0" symbolId="C1166B_ECT_HOVR" entityId="OCC_LMCECTHOVR0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.2437810897827148"></entityEntry>
+            <entityEntry x="2041.0" y="201.0" symbolId="C1166B_ECT_AUTO" entityId="OCC_LMCECTAUTO0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.2437810897827148"></entityEntry>
+            <entityEntry x="2041.0" y="375.0" symbolId="C1166B_SIG_SUMM_ActiveText" entityId="OCC_OCCSIGSUMM0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="2041.0" y="519.0" symbolId="C1166B_ECT_SUMM_S1_ActiveText" entityId="OCC_LMCECTSUMM0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="1392.0" y="669.0" symbolId="C1166B_ECT_SUMM_S1_ActiveText" entityId="OCC_KOTECTSUMM0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+            <entityEntry x="2041.0" y="670.0" symbolId="C1166B_ECT_SUMM_S2_ActiveText" entityId="OCC_LMCECTSUMM0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.1940298080444336"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

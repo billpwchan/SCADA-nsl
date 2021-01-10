@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.7165.2.1.54,ou=attributeTypes,cn=samba,ou=schema
+m-usage: USER_APPLICATIONS
+m-oid: 1.3.6.1.4.1.7165.2.1.54
+m-name: sambaPasswordHistory
+m-description: Concatenated MD4 hashes of the unicode passwords used on this acc
+ ount
+m-obsolete: FALSE
+m-equality: caseIgnoreIA5Match
+entryParentId: 1aa34f16-4abf-48e3-bece-da71ee9d6b8b
+m-singlevalue: FALSE
+createTimestamp: 20140513151220.270Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-nousermodification: FALSE
+m-collective: FALSE
+objectclass: top
+objectclass: metaTop
+objectclass: metaAttributeType
+entryUUID: d8e06bdc-527d-4a62-bb28-9cd8b2922d7a
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.973000Z#000022#000#000000

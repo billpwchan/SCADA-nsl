@@ -1,0 +1,57 @@
+// Ilv Version: 2.22
+// File generated: Wed Jun 26 16:50:24 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 5
+2 "defaultBg" "defaultFg" "button" "%helvetica-12-" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+1 "antiquewhite3" "defaultFg" "fixed" 0 solid solid 0 0 0
+"default" 4 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+3 "defaultBg" "defaultFg" "%times-12-" 0 solid solid 0 0 0
+IlvObjects 30
+2 { 0 0 IlvComboBox 91 53 73 22 2 1 ""
+"*" } 96 "itemrow" "ComboBox" 4 "ItemCallSet"
+2 { 1 0 IlvOptionMenu 13 107 149 22 2 8 0
+"&empty"
+"Label"
+"Int"
+"Float"
+"Double"
+"Bitmap"
+"Graphic"
+"Gadget" } 96 "itemtype" "OptionMenu" 4 "ItemCallLabel"
+2 { 2 0 IlvToggle 201 80 114 17 F1 2 1 2 0 0 0 Y "&sensitive" } 96 "itemsensitive" "Toggle" 4 "ItemCallSensitive"
+2 { 3 0 IlvTextField 13 159 148 22 F6 2 1 -1 0 "" } 96 "itemlabel" "TextField" 0
+2 { 4 1 IlvFilledRectangle 129 212 54 19 } 32 "itemforeground" 0
+2 { 5 0 IlvButton 23 243 93 23 F1 2 16 Y "&background color" } 96 "bgButton" "Button" 4 "ItemCallBackground"
+2 { 6 1 IlvFilledRectangle 129 245 54 19 } 32 "itembackground" 0
+2 { 7 0 IlvComboBox 91 26 73 22 2 1 ""
+"*" } 96 "itemcolumn" "ComboBox" 4 "ItemCallSet"
+2 { 8 0 IlvButton 23 211 93 23 F1 2 16 Y "&foreground color" } 96 "fgButton" "Button" 4 "ItemCallForeground"
+2 { 9 2 IlvButton 5 323 60 23 F1 2 16 Y "&apply" } 64 "Button" 148 "apply" 1 5 1 5
+2 { 10 0 IlvButton 23 275 93 23 F1 2 16 Y "&font" } 96 "fontButton" "Button" 4 "ItemCallFont"
+2 { 11 2 IlvButton 308 323 60 23 F1 2 16 Y "&close" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 12 3 IlvRectangle 127 210 58 23 } 0 0
+2 { 13 3 IlvRectangle 127 243 58 23 } 0 0
+2 { 14 0 IlvToggle 201 56 114 17 F1 2 1 2 0 0 0 Y "&readonly" } 96 "itemreadonly" "Toggle" 0
+2 { 15 0 IlvToggle 201 32 114 17 F1 2 1 2 0 0 0 Y "&relief" } 96 "itemrelief" "Toggle" 0
+2 { 16 0 IlvOptionMenu 270 152 91 22 2 3 1
+"&left"
+"&center"
+"&right" } 96 "itemalignment" "OptionMenu" 0
+2 { 17 0 IlvComboBox 127 275 120 22 2 3 "Default"
+"Default"
+"bold"
+"large" } 96 "itemfont" "ComboBox" 4 "SelectFont"
+2 { 18 0 IlvToggle 201 128 114 17 F1 2 1 2 0 0 0 Y "&interactive" } 96 "iteminteractive" "Toggle" 0
+3 { 19 4 IlvReliefLine 0 315 373 315 1 } 32 "line" 464 1 0 1 0 1 35 2
+3 { 20 0 IlvMessageLabel 13 132 147 22 0 "&label" 1 } 0 0
+3 { 21 0 IlvMessageLabel 13 26 71 22 0 "&column" 1 } 0 0
+3 { 22 0 IlvMessageLabel 13 53 72 22 0 "&row" 1 } 0 0
+3 { 23 0 IlvMessageLabel 197 150 70 26 0 "&alignment" 1 } 0 0
+3 { 24 0 IlvMessageLabel 13 80 147 22 0 "&type" 1 } 0 0
+3 { 25 0 IlvToggle 219 246 125 17 F1 2 1 2 0 0 0 Y "&fillbackground" } 32 "itemfillbackground" 0
+3 { 26 0 IlvToggle 201 104 114 17 F1 2 1 2 0 0 0 Y "&grayed" } 32 "itemgrayed" 0
+3 { 27 2 IlvFrame 5 5 169 182 0 "&item" 1 } 0 0
+3 { 28 2 IlvFrame 183 5 186 182 0 "&state" 1 } 0 0
+3 { 29 2 IlvFrame 5 192 364 113 0 "&resources" 1 } 0 0
+Size 373 351

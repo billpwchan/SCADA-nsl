@@ -1,0 +1,213 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 15:59:29 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "astcledtchartgen"
+PathName "D:\\SOFTS\\animator4\\anstudio\\data\\anilv\\astcledtchartgen.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 29
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 192 191 82 F268435468 0 { IlvMessageItem 262169 4 16 4 "&horizontalAxis"  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 76 215 113 22 F6 2 2 -1 0 "" } 544 "Format"
+1
+1 "__ilvCallback" "formatCB"
+6144 "Steps" "Font"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 14 213 54 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&format"  }   } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 14 243 54 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&ticks"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 76 244 113 22 F6 2 2 -1 0 "0" . , 2 2 0 2147483647 } 544 "Steps"
+1
+1 "__ilvCallback" "stepsCB"
+6144 "Number" "Format"
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 221 192 45 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "Max"  }   } 32 "XMaxLabel"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 203 140 195 84 F268435468 0 { IlvMessageItem 262169 4 16 4 "        y = f(x)"  }   } 0
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 279 94 113 22 F6 2 2 -1 0 "0." . _? 2 24 -3.4e+038 3.4e+038 } 544 "Range"
+1
+1 "__ilvCallback" "rangeCB"
+6144 "XMin" "Fx"
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 279 163 113 22 F6 2 2 -1 0 "0." . _? 2 24 -3.4e+038 3.4e+038 } 544 "XMin"
+1
+1 "__ilvCallback" "xminCB"
+6144 "XMax" "Range"
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 203 72 195 54 F268435468 0 { IlvMessageItem 262169 4 16 4 "        y = f(t)"  }   } 0
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 221 94 45 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&range"  }   } 32 "RangeLabel"
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 221 163 45 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "Min"  }   } 32 "XMinLabel"
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 279 192 113 22 F6 2 2 -1 0 "0." . _? 2 24 -3.4e+038 3.4e+038 } 544 "XMax"
+1
+1 "__ilvCallback" "xmaxCB"
+6144 "Width" "XMin"
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 88 191 101 F268435468 0 { IlvMessageItem 262169 4 16 4 "&scales"  }   } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 76 128 113 22 F38 2 1 -1 0 "" 0 } 544 "Font"
+1
+1 "__ilvCallback" "fontCB"
+2048 "Format"
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 17 127 51 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&Font"  }   } 0
+0
+1 { 16 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 76 157 113 22 F34904 2 N N 0 0 0 0 0 0 108 17 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "ScaleColor"
+1
+1 "__ilvCallback" "scaleColorCB"
+6144 "Format" "Font"
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 25 157 43 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&color"  }   } 0
+0
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 73 105 18 15 F1073741825 2 2 1 0 15 0 B "noname" } 544 "Visible"
+1
+1 "__ilvCallback" "visibleCB"
+4096 "Height"
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 17 102 51 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&visible"  }   } 0
+0
+1 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 304 46 88 22 F6 2 2 -1 0 "0" . , 2 2 0 2147483647 } 544 "Number"
+1
+1 "__ilvCallback" "numberCB"
+6144 "Ft" "Steps"
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 207 46 95 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&numberOfPoints"  }   } 0
+0
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 5 3 191 82 F268435468 0 { IlvMessageItem 262169 4 16 4 "&size"  }   } 0
+0
+1 { 23 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 76 22 113 22 F6 2 2 -1 0 "0" . , 2 2 0 2147483647 } 544 "Width"
+1
+1 "__ilvCallback" "widthCB"
+6144 "Height" "XMax"
+1 { 24 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 76 51 113 22 F6 2 2 -1 0 "0" . , 2 2 0 2147483647 } 544 "Height"
+1
+1 "__ilvCallback" "heightCB"
+6144 "Visible" "Width"
+1 { 25 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 16 22 52 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&width"  }   } 0
+0
+1 { 26 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 16 51 52 22 F268435468 0 { IlvMessageItem 262153 4 16 4 "&height"  }   } 0
+0
+1 { 27 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 218 74 18 15 F1 2 1 2 1 15 0 B "noname" } 544 "Ft"
+1
+1 "__ilvCallback" "typeFtCB"
+6144 "Fx" "Number"
+1 { 28 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 218 142 18 15 F1 2 1 2 1 15 0 B "noname" } 544 "Fx"
+1
+1 "__ilvCallback" "typeFxCB"
+6144 "Range" "Ft"
+Size 404 279
+GeometryHandlers
+2 100 200 200 0 200 0
+ 100 203 203 200 203 200
+9 3 0 0 76  113 0 113 23  0 0 11 0
+ 3 0 0 5  191 0 191 22  0 0 4 0
+ 3 0 0 76  113 0 113 24  0 0 11 0
+ 3 0 0 5  191 0 191 13  0 0 4 0
+ 3 0 0 76  113 0 113 14  0 0 11 0
+ 3 0 0 76  113 0 113 16  0 0 11 0
+ 3 0 0 76  113 0 113 1  0 0 11 0
+ 3 0 0 76  113 0 113 4  0 0 11 0
+ 3 0 0 5  191 0 191 0  0 0 4 0
+12 3 0 0 7  0 0 95 21  101 0 101 1
+ 3 0 0 3  195 0 195 9  0 0 5 1
+ 3 0 0 3  195 0 195 6  0 0 5 1
+ 3 0 0 21  0 0 45 10  137 0 137 1
+ 3 0 0 18  0 0 18 27  167 0 167 1
+ 3 0 0 18  0 0 18 28  167 0 167 1
+ 3 0 0 21  0 0 45 11  137 0 137 1
+ 3 0 0 21  0 0 45 5  137 0 137 1
+ 3 0 0 79  113 0 113 8  0 0 11 1
+ 3 0 0 79  113 0 113 12  0 0 11 1
+ 3 0 0 104  88 0 88 20  0 0 11 1
+ 3 0 0 79  113 0 113 7  0 0 11 1
+6 100 91 72 0 72 0
+ 100 0 18 72 18 72
+ 100 0 46 90 46 90
+ 100 0 58 136 58 136
+ 100 0 40 194 40 194
+ 100 0 45 234 45 234
+7 3 51 0 51  0 0 22 24  17 0 17 1
+ 3 0 0 3  82 0 82 22  0 0 5 1
+ 3 22 0 22  0 0 22 23  46 0 46 1
+ 3 22 0 22  0 0 22 25  46 0 46 1
+ 3 51 0 51  0 0 22 26  17 0 17 1
+ 3 46 0 46  0 0 22 20  4 0 4 0
+ 3 46 0 46  0 0 22 21  4 0 4 0
+4 3 0 0 0  54 0 54 9  0 0 10 2
+ 3 0 0 2  0 0 15 27  190 0 190 5
+ 3 22 0 22  0 0 22 7  20 0 20 2
+ 3 22 0 22  0 0 22 10  20 0 20 2
+7 3 0 -2 -2  101 0 101 13  0 0 5 3
+ 3 12 0 12  0 0 22 19  70 0 70 3
+ 3 15 0 15  0 0 15 18  74 0 74 3
+ 3 37 0 37  0 0 22 15  45 0 45 3
+ 3 67 0 67  0 0 22 17  15 0 15 3
+ 3 38 0 38  0 0 22 14  44 0 44 3
+ 3 67 0 67  0 0 22 16  15 0 15 3
+6 3 0 0 4  84 0 84 6  0 0 10 4
+ 3 0 0 6  0 0 15 28  77 0 77 4
+ 3 27 0 27  0 0 22 11  49 0 49 4
+ 3 56 0 56  0 0 22 5  20 0 20 4
+ 3 27 0 27  0 0 22 8  49 0 49 4
+ 3 56 0 56  0 0 22 12  20 0 20 4
+5 3 0 -2 -2  82 0 82 0  0 0 5 5
+ 3 21 0 21  0 0 22 1  42 0 42 5
+ 3 50 0 50  0 0 22 4  13 0 13 5
+ 3 19 0 19  0 0 22 2  44 0 44 5
+ 3 49 0 49  0 0 22 3  14 0 14 5
+0
+EOF

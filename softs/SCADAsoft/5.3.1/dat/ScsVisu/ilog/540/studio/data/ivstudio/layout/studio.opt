@@ -1,0 +1,16 @@
+// LayoutStudio: ILOG Layout options.
+
+studio {
+    messageDB			"ivstudio/layout/studio.dbm";
+    command ShowLayoutInspector {
+	label "&showLayoutInspector";
+	prompt "&showLayoutInspectorP";
+	bitmap "ilviews/layout/icons/layout20_20.png";
+	category layout;
+    }
+
+    toolBarItem			"-" IlvStGrapherBuffer;
+    toolBarItem			ShowLayoutInspector    IlvStGrapherBuffer;
+
+    panelFile "ivstudio/layout/studio.pnl";
+}

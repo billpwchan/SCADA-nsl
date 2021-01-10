@@ -1,0 +1,12 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="LIF_WHCC_InService_Blink"><g id="_C1166B_SYMBOLS_LIF_C1166B_LIF_WHCC_1_INSERVICE_SVG" transform="translate(-98.5 -98.5)scale(1.0 1.0)"><rect x="40.0" fill="red" width="120.0" height="120.0" y="40.0" opacity="0"/><g id="LIF/C1166B_LIF_WHCC_1_InService" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <circle fill="#FFFFFF" r="8.00px" cx="-38px" class="AnCircle" fill-rule="evenodd" cy="39px"/>
+
+  
+  <circle fill="none" r="8.00px" cx="-38px" class="AnCircle" cy="39px" stroke="#000000" stroke-width="2px"/>
+
+  
+  <polyline fill="none" stroke-width="3px" class="AnPolyline" points="-60,-60 -60,59 59,59 59,-60 -60,-60 " stroke="#218A21"/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

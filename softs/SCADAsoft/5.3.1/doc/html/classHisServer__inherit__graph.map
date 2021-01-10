@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" href="$classTrdServer.html" title="This class allows the use of attribute values stored in archives managed by the Historian Server..." alt="TrdServer" coords="7,166,81,193" />
+<area shape="rect" href="$classOlsServer.html" title="This class provides a remote access to OlsList objects." alt="OlsServer" coords="8,17,80,44" />
+</map>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" href="$classOlsList.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsList" coords="72,289,128,316" />
+<area shape="rect" href="$classOlsDataSet.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsDataSet" coords="8,198,88,225" />
+<area shape="rect" href="$classOlsField.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsField" coords="17,108,78,134" />
+<area shape="rect" href="$classScsData.html" title="This class represents a database value." alt="ScsData" coords="17,17,78,44" />
+<area shape="rect" href="$classScsTimer.html" title="The ScsTimer class provides a mean of calling asynchrounously a callback function." alt="ScsTimer" coords="117,198,186,225" />
+</map>

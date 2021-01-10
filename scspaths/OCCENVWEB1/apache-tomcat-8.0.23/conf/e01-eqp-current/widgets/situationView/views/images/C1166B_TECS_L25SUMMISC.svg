@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="1264" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 2268 1264" width="2268">
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <polyline class="AnPolyline" fill="none" points="673,172 673,1201 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="27,40 2241,40 2241,1203 27,1203 27,40 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="28,172 2239,172 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="28,376 2239,376 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="28,585 2239,585 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="28,791 2239,791 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="28,997 2239,997 " stroke="#000000" stroke-width="1px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement">
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.649970,0.000000,0.000000,4.860000,1078.390015,71.510002)" x="0px" y="12px">KOT</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,776.250000,311.750000)" x="0px" y="12px">CABPS</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,749.250000,526.750000)" x="0px" y="12px">EXIT-DIRK</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,1106.250000,526.750000)" x="0px" y="12px">EXIT-DIRT</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,745.250000,724.750000)" x="0px" y="12px">FIRE-KTVB</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,1095.250000,724.750000)" x="0px" y="12px">FIRE-TWVB</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,800.250000,926.750000)" x="0px" y="12px">PLC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,87.300003,250.300003)" x="0px" y="12px">CABINET POWER SUPPLY</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,99.300003,453.299988)" x="0px" y="12px">DIRECTIONAL EXIT SIGN</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,116.300003,661.299988)" x="0px" y="12px">COMMON FIRE ALARM</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,287.299988,869.299988)" x="0px" y="12px">PLC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,741.554993,1128.780029)" x="0px" y="12px">ACB-00206</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,1096.550049,1128.780029)" x="0px" y="12px">ACB-00207</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,1462.550049,1128.780029)" x="0px" y="12px">ACB-01006</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.000000,0.000000,0.000000,3.000000,1821.550049,1128.780029)" x="0px" y="12px">ACB-01007</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(3.600000,0.000000,0.000000,3.600000,85.300003,1073.300049)" x="0px" y="12px">CLP INCOMING MAINS ACB</text>
+
+  
+  </g>
+
+</svg>

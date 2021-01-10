@@ -1,0 +1,8 @@
+panel "MainPanel" {
+  removeMenuItem SetLanguage_en_US : "&mview", "&moptions";
+  removeMenuItem SetLanguage_fr_FR : "&mview", "&moptions";
+
+  // New QUIT command to close the TRD editor's extension
+  removeMenuItem QuitDssStudio :  "&mfile";
+  menuItem QuitTrdStudio :  "&mfile";
+}

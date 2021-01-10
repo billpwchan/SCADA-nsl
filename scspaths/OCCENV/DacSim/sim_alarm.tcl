@@ -1,0 +1,1 @@
+extvar set deiSITE1B001F001FIREFD001smoke 1

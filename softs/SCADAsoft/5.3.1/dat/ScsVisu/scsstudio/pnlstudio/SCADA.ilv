@@ -1,0 +1,120 @@
+// Ilv Version: 3.0
+// File generated: Mon Sep 20 19:07:42 1999
+// Creator class: IlvGadgetManagerOutput
+FileName "SCADA"
+PathName "/animusers/jpu/scadasoft/dat/ScsVisu/PanelBuilder/SCADA.ilv"
+Palettes 6
+0 "gray" "black" "bold" "StockedDefaultGui" 0 solid solid 0 0 0
+2 "gray" "black" "button" "StockedDefaultGui" 0 solid solid 0 0 0
+"default" 1 0 29298 35209 65535 65535 65535 "normal" "StockedDefaultGui" 0 solid solid 0 0 0
+"IlvStMenu" 4 30840 38550 43690 65535 65535 65535 "menu" "StockedDefaultGui" 0 solid solid 0 0 0
+5 48830 48830 48830 "black" "default" "fixed" 0 solid solid 0 0 0
+"default" 3 0 29298 35209 65535 65535 65535 "default" "fixed" 0 solid solid 0 0 0
+IlvObjects 29
+1 { 0 0 IlvButton 12 130 73 23 F1 2 16 Y "button" } 0
+0
+1 { 1 1 IlvTextField 12 41 142 22 F6 2 1 -1 0 "Text Field" } 0
+0
+1 { 2 2 IlvFrame 12 191 92 48 0 "^Frame" 1 } 0
+0
+1 { 3 1 IlvText 12 72 126 45 F129 2 0 2
+"Text"
+"multi lines"
+0 0 1 1 1 1 0 0 } 0
+0
+1 { 4 1 IlvToggle 12 166 74 16 F1 2 1 2 0 0 0 Y "Toggle" } 0
+0
+1 { 5 1 IlvToggle 33 212 78 16 F1 2 1 2 1 0 0 Y "Radio" } 0
+0
+1 { 6 1 IlvSlider 12 357 125 19 F1 2 0 100 50 10 1 10 } 0
+0
+1 { 7 3 IlvReliefLine 12 382 137 382 1 } 0
+0
+1 { 8 3 IlvReliefLine 153 132 153 385 1 } 0
+0
+1 { 9 1 IlvSlider 119 132 18 217 F1 2 0 100 50 10 4 10 } 0
+0
+1 { 10 1 IlvSpinBox 9 1137 151 22 2 0 200 32 2 1
+1 IlvTextField 9 1137 109 22 F6 2 1 -1 0 "Monday"  f 0 1 7 0
+"Monday"
+"Tuesday"
+"Wednesday"
+"Thursday"
+"Friday"
+"Saturday"
+"Sunday" } 0
+0
+2 { 11 4 IlvMenuBar 12 7 142 29 F2 2 3
+2 "&menu_file"
+2 "&menu_edit"
+2 "&menu_help" } 0
+0
+2 { 12 4 IlvPopupMenu 12 246 92 77 F2 2 4
+2 "&menu_open..."
+2 "&menu_save"
+0 
+2 "&menu_exit" } 64 "Popup"
+0
+2 { 13 1 IlvMessageLabel 13 331 101 22 0 "MessageLabel" 1 } 0
+0
+2 { 14 3 IlvArrowButton 94 130 23 23 F1 2 16 Y "" 2 0 } 0
+0
+2 { 15 1 IlvComboBox 12 398 142 20 F6 2 3 "ComboBox"
+"item1"
+"item2"
+"item3" } 0
+0
+2 { 16 1 IlvScrolledComboBox 12 426 142 20 F6 2 8 "SCCombo"
+"A"
+"B"
+"C"
+"D"
+"E"
+"F"
+"G"
+"H" 4 } 0
+0
+2 { 17 1 IlvStringList 12 454 51 52 F1 2 0 1 0 0 3
+"item1"
+"item2"
+"item3" } 0
+0
+2 { 18 1 IlvScrolledStringList 70 454 67 37 F1 2 0 1 0 0 4
+"item1"
+"item2"
+"item3"
+"this item is very long. You must scroll to see it." Y Y } 0
+0
+2 { 19 1 IlvPasswordTextField 12 518 142 22 F6 2 1 -1 0 "ScsStudio" } 0
+0
+2 { 20 1 IlvDateField 12 552 142 22 F6 2 1 -1 0 "25/02/1999" / 3 1 7 } 0
+0
+2 { 21 1 IlvSCGadgetContainerRectangle 18 618 130 33 "" 3 } 0
+0
+2 { 22 5 IlvRectangle 12 612 142 44 } 0
+0
+2 { 23 1 IlvNotebook 12 662 142 35 2 2
+"Tab 1" "" 1 "gray" ""
+"Tab 2" "" 1 "gray" ""
+0 0 4 0 0 5 2 10 10 10 10  } 0
+0
+2 { 24 1 IlvSheet 12 706 126 66 F88 2 1 1 1 40 25 1 1 1 1 0 0 1 4 4 1 0 0 66 1 ""
+1 N 0 0 1 1 1 1 0  } 0
+0
+2 { 25 1 IlvTreeGadget 12 796 142 80 F12 2 20 1 1 1 1 1 0
+"root" 8 "N" "N" 2
+"First Root" 8 "N" "N" 2
+"Leaf 1" 8 "N" "N" 0
+"Leaf 2" 8 "N" "N" 0
+"Second Root" 8 "N" "N" 0
+ } 0
+0
+2 { 26 3 AnImageRectangle "" 12 889 142 100 } 0
+0
+2 { 27 1 ScsList "" 12 1004 127 98 } 0
+0
+2 { 28 1 IlvNumberField 12 586 142 22 F6 2 2 -1 0 "1234567.89" . , 2 16 -3.40282e+38 3.40282e+38 } 0
+0
+Size 165 1164
+Background "gray"
+EOF

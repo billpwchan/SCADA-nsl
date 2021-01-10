@@ -1,0 +1,12 @@
+// 
+//	    ILOG Views Studio configuration
+//		Old Charts Extension
+// 
+studio {
+    dragDropPalette "Old Charts" {
+	dataFileName "ivstudio/p_ochart.ilv";
+	label "Old Charts";
+	path "Graphics";
+	bitmap "ivstudio/icons/icoldch.png"
+    }
+}

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$classOlsCollectableList.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsCollectableList" coords="7,92,132,119" />
+<area shape="rect" href="$classOlsLimitedList.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsLimitedList" coords="156,92,263,119" />
+<area shape="rect" href="$classOlsListWithClientVisibility.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsListWithClientVisibility" coords="287,92,473,119" />
+<area shape="rect" href="$classOlsQuickList.html" title="This class is one of the class of the OLS (Object List Server) SCADAsoft component." alt="OlsQuickList" coords="497,92,593,119" />
+</map>

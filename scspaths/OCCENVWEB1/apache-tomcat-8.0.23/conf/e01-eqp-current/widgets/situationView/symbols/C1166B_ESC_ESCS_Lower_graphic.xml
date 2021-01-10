@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_ESC_ESCS_Lower_graphic">
+        <root>
+            <svgGroup id="C1166B_ESC_ESCS_Lower_ESC_ESCS_Lower_Undefined_ESC_ESCS_Lower_Alarm_Blink_ESC_ESCS_Lower_Stop_ESC_ESCS_Lower_Stop_Blink_ESC_ESCS_Lower_Run_To_H_ESC_ESCS_Lower_Run_from_H_Blink_ESC_ESCS_Lower_Run_To_H_Blink_ESC_ESCS_Lower_Alarm_ESC_ESCS_Lower_Run_from_H">
+                <svgRef brickId="ESC_ESCS_Lower_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ESC_ESCS_Lower_ESC_ESCS_Lower_State_Empty_ESC_ESCS_Lower_State_Selected_MO_ESC_ESCS_Lower_State_Invalid_ESC_ESCS_Lower_State_Selected_ESC_ESCS_Lower_State_MO">
+                <svgRef brickId="ESC_ESCS_Lower_State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

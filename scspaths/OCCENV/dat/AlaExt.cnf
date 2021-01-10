@@ -1,0 +1,298 @@
+#############################################################
+# External alarms configuration for tests ALAEXT            #
+#############################################################
+#
+# ALARM CLASS 0
+#
+CLASS = 0
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = A
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E =  %s
+MESSAGE_N =  %s
+DSS_EVENT_TYPE =
+
+
+#
+# ALARM CLASS 1 : SCS_K_ALMID_CTL_SENDCMD
+#
+CLASS = 1
+ACTIVE = TRUE
+VALUE_AUTOMATON = ExtAlmAckValueAutomatonLog
+ACK_AUTOMATON = ShelveAckReset
+STATE_E = A
+STATE_N = N
+SEVERITY_E = 2
+SEVERITY_N = 2
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~%s : commande '%s' : %s ~%s~%s~%s~%s
+MESSAGE_N = %s~%s : commande '%s' : %s ~%s~%s~%s~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 2
+#
+CLASS = 2
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~%s: %s de la variable '%s'~~~~%s
+MESSAGE_N = %s~%s: %s de la variable '%s'~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 3
+#
+CLASS = 3
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~%s: %s de forçage de la variable '%s' à l'état '%s'~~~~%s
+MESSAGE_N = %s~%s: %s de forçage de la variable '%s' à l'état '%s'~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 4
+#
+CLASS = 4
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = ADM~Changement du mot de passe de l'utilisateur %s~~~~%s
+MESSAGE_N = ADM~Changement du mot de passe de l'utilisateur %s~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 5
+#
+CLASS = 5
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~Lancement du programme horaire %s~~~~%s
+MESSAGE_N = %s~Lancement du programme horaire %s~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 6
+#
+CLASS = 6
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~Désactivation du programme horaire %s~~~~%s
+MESSAGE_N = %s~Désactivation du programme horaire %s~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 7
+#
+CLASS = 7
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~Activation du programme horaire %s~~~~%s
+MESSAGE_N = %s~Activation du programme horaire %s~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 8
+#
+CLASS = 8
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~Modification du programme horaire %s~~~~%s
+MESSAGE_N = %s~Modification du programme horaire %s~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 9
+#
+CLASS = 9
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~Création du programme horaire %s~~~~%s
+MESSAGE_N = %s~Création du programme horaire %s~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 10
+#
+CLASS = 10
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~Suppression du programme horaire %s~~~~%s
+MESSAGE_N = %s~Suppression du programme horaire %s~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 11
+#
+CLASS = 11
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = ADM~Descriptif pour la commande %s (%s) ~~~~%s
+MESSAGE_N = ADM~Descriptif pour la commande %s (%s) ~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 12
+#
+CLASS = 12
+ACTIVE = TRUE
+VALUE_AUTOMATON = 
+ACK_AUTOMATON = 
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 6
+SEVERITY_N = 6
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~%s - Acquittement~~~~%s
+MESSAGE_N = %s~%s - Acquittement~~~~%s
+DSS_EVENT_TYPE =
+
+#
+# ALARM CLASS 14
+#
+CLASS = 14
+ACTIVE = TRUE
+VALUE_AUTOMATON =
+ACK_AUTOMATON =
+STATE_E = N
+STATE_N = N
+SEVERITY_E = 5
+SEVERITY_N = 5
+OBJECT_NAME =
+FUNCTIONAL_CAT =
+GEOGRAPHICAL_CAT =
+EQUIPMENT_CLASS =
+GROUP_1 =
+GROUP_2 =
+MESSAGE_E = %s~%s : commande '%s' : %s ~%s~%s~%s~%s
+MESSAGE_N = %s~%s : commande '%s' : %s ~%s~%s~%s~%s
+DSS_EVENT_TYPE =
+

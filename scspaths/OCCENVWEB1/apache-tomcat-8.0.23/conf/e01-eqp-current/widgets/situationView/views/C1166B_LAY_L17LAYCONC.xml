@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_LAY_L17LAYCONC" resolution="4.00313283208 3.33594402673 2.77995335561 2.31662779634 1.93052316362 1.60876930302 1.34064108585 1.11720090487 0.93100075406 0.775833961717" maxExtent="0.0 0.0 6389.0 3041.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_LAY_L17LAYCONC.svg" width="6389.0" height="3041.0" bounds="0.0 0.0 6389.0 3041.0" name="C1166B_LAY_L17LAYCONC" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Layout_AFC" type="OVERLAY">
+            <entityEntry x="2857.0" y="1611.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="2887.0" y="1611.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="2917.0" y="1611.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="2948.0" y="1611.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0005" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="2977.0" y="1611.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0006" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="3007.0" y="1611.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0007" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="3036.0" y="1611.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="3142.0" y="1766.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0021" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="3171.0" y="1766.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0020" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5161.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0019" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5191.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0008" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5221.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0009" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5252.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0010" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5281.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0011" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5311.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0012" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5340.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0013" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5370.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0014" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5400.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0015" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5429.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0016" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5459.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0017" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+            <entityEntry x="5488.0" y="1670.0" symbolId="C1166B_AFC_GATE_Vertical" entityId="GATE0018" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="true" scale="0.49751242995262146"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

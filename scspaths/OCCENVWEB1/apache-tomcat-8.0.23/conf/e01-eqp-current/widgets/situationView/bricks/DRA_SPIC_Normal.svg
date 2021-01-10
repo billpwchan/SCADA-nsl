@@ -1,0 +1,21 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="DRA_SPIC_Normal"><g id="_C1166B_SYMBOLS_DRA_C1166B_DRA_WATS_1_NORMAL_SVG" transform="translate(-71.72222 -72.36842)scale(0.7222222 0.7236842)"><rect x="37.0" fill="red" width="126.0" height="152.0" y="24.0" opacity="0"/><g id="DRA/C1166B_DRA_WATS_1_Normal" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polyline fill="none" stroke-width="1px" class="AnPolyline" points="-62,57 " stroke="#FFFFFF"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="-62,-75 -62,75 " stroke="#218A21"/>
+
+  
+  <polyline fill="none" stroke-width="2px" class="AnPolyline" points="61,-75 61,75 " stroke="#218A21"/>
+
+  
+  <polygon fill="#218A21" class="AnPolygon" fill-rule="evenodd" points="-62,57 -62,75 61,75 61,57 61,0 -62,0 -62,57 "/>
+
+  
+  <line stroke-dashoffset="0" fill="none" x1="-62px" x2="61px" y1="-60px" y2="-60px" class="AnLine" stroke-dasharray=" 6 8" stroke="#000000" stroke-width="2px"/>
+
+  
+  <line stroke-dashoffset="0" fill="none" x1="-62px" x2="61px" y1="37px" y2="37px" class="AnLine" stroke-dasharray=" 6 8" stroke="#000000" stroke-width="2px"/>
+
+</g></g></g></svg>

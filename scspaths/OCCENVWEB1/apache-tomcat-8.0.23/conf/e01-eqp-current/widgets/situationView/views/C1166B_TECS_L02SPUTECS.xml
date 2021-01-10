@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_TECS_L02SPUTECS" resolution="0.996319018405 0.830265848671 0.691888207226 0.576573506021 0.480477921684 0.40039826807 0.333665223392 0.278054352827 0.231711960689 0.193093300574" maxExtent="0.0 0.0 1452.0 812.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_TECS_L02SPUTECS.svg" width="1452.0" height="812.0" bounds="0.0 0.0 1452.0 812.0" name="C1166B_TECS_L02SPUTECS" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="519.0" y="486.0" symbolId="C1166B_ECT_TSPU" entityId="OCC_SSVECTTSPU0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="744.0" y="486.0" symbolId="C1166B_ECT_TSPU" entityId="OCC_SSVECTTSPU0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="969.0" y="486.0" symbolId="C1166B_ECT_TSPU" entityId="OCC_SSVECTTSPU0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1194.0" y="486.0" symbolId="C1166B_ECT_TSPU" entityId="OCC_SSVECTTSPU0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1196.0" y="229.0" symbolId="C1166B_ECT_TSPU" entityId="OCC_CTVECTTSPU0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="971.0" y="229.0" symbolId="C1166B_ECT_TSPU" entityId="OCC_CTVECTTSPU0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="746.0" y="229.0" symbolId="C1166B_ECT_TSPU" entityId="OCC_CTVECTTSPU0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="521.0" y="229.0" symbolId="C1166B_ECT_TSPU" entityId="OCC_CTVECTTSPU0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

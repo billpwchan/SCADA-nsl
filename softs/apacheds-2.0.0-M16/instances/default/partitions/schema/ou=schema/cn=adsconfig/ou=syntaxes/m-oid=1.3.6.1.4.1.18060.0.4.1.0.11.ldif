@@ -1,0 +1,14 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.0.11,ou=syntaxes,cn=adsconfig,ou=schema
+objectclass: top
+objectclass: metaTop
+objectclass: metaSyntax
+m-oid: 1.3.6.1.4.1.18060.0.4.1.0.11
+m-description: Deref Alias
+x-not-human-readable: FALSE
+m-obsolete: FALSE
+entryParentId: 954cdd5c-c0c2-4ba0-8856-34c2cb3f4373
+entryUUID: e1b6b3d0-21dd-4f63-b72a-09db7b1143e9
+creatorsname: uid=admin,ou=system
+createtimestamp: 20100111145217Z
+entrycsn: 20100111202214.878000Z#000000#000#000000

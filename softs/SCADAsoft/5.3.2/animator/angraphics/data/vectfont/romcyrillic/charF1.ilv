@@ -1,0 +1,31 @@
+// Ilv Version: 3.0
+// File generated: Fri Jul 17 16:55:14 1998
+// Creator class: IlvManagerOutput
+FileName "charF1"
+PathName "D:\\Utilis\\olivier\\a97\\source\\angraphics\\data\\vectfont\\romcyrillic\\charF1.ilv"
+Palettes 1
+"default" 0 "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+IlvObjects 9
+1 { 0 0 IlvRectangle 200 -120 400 700 } 32 "AnReferenceBox"
+1 { 1 0 IlvLine 200 400 600 400 } 32 "AnBaseLine"
+1 { 2 0 IlvPolyline 17
+280 240 520 240 520 200 500 160 480 140 440 120 380 120 320 140 280 180 260 240
+260 280 280 340 320 380 380 400 420 400 480 380 520 340 } 0
+1 { 3 0 IlvPolyline 3
+500 240 500 180 480 140 } 0
+1 { 4 0 IlvPolyline 8
+380 120 340 140 300 180 280 240 280 280 300 340 340 380 380 400 } 0
+1 { 5 0 IlvPolyline 9
+312 -18 292 2 292 22 312 42 332 42 352 22 352 2 332 -18 312 -18 } 0
+1 { 6 0 IlvPolyline 5
+312 2 312 22 332 22 332 2 312 2 } 0
+1 { 7 0 IlvPolyline 9
+481 -18 461 2 461 22 481 42 501 42 521 22 521 2 501 -18 481 -18 } 0
+1 { 8 0 IlvPolyline 5
+481 2 481 22 501 22 501 2 481 2 } 0
+Layers 2
+0
+0
+Views 1
+"scMgrRectView" 1 0 0 1 0 120
+EOF

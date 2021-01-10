@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- StateList XML save document type definition -->
+<!ELEMENT StateList (Column?,List+)>
+<!ATTLIST StateList
+ multi (YES | NO) #REQUIRED
+ mode (MANDATORY | CONFIGURED | OPERATOR) #REQUIRED
+ name CDATA #REQUIRED
+ creatorId CDATA #REQUIRED
+ description CDATA #REQUIRED
+ comment CDATA #REQUIRED
+ activate (YES | NO) #IMPLIED
+>
+<!ELEMENT Column (Name+)>
+<!ELEMENT Name EMPTY>
+<!ATTLIST Name
+ value CDATA #REQUIRED
+>
+<!ELEMENT List (Attribute+,Condition?)>
+<!ELEMENT Attribute EMPTY>
+<!ATTLIST Attribute
+ name CDATA #REQUIRED
+>
+<!ELEMENT Condition EMPTY>
+<!ATTLIST Condition
+ value CDATA #REQUIRED
+>

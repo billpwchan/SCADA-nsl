@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$classDacEIV.html" title="External input variable (EIV) definition for the DAC component." alt="DacEIV" coords="7,108,71,134" />
+<area shape="rect" href="$classScsData.html" title="This class represents a database value." alt="ScsData" coords="8,17,69,44" />
+<area shape="rect" href="$classAscManager.html" title="This class is one of the interface classes for the exported services of the RED SCADAsoft component (..." alt="AscManager" coords="103,108,196,134" />
+</map>

@@ -1,0 +1,30 @@
+<!-- DtdVersion='2.3' -->
+
+<!ELEMENT Database (Class*,UserContext*,Hierarchy,Instance*)>
+<!ATTLIST Database
+ numClasses CDATA #REQUIRED
+>
+<!ELEMENT UserContext EMPTY>
+<!ATTLIST UserContext
+ contextId CDATA #REQUIRED
+ name CDATA #REQUIRED
+>
+<!ELEMENT Class EMPTY>
+<!ATTLIST Class
+ name CDATA #REQUIRED
+ filename CDATA #REQUIRED
+ path CDATA #IMPLIED
+>
+<!ELEMENT Instance EMPTY>
+<!ATTLIST Instance
+ name CDATA #REQUIRED
+ filename CDATA #REQUIRED
+ path CDATA #IMPLIED
+>
+<!ELEMENT Hierarchy EMPTY>
+<!ATTLIST Hierarchy
+ filename CDATA #REQUIRED
+ path CDATA #IMPLIED
+ maxLevel CDATA #REQUIRED
+>
+

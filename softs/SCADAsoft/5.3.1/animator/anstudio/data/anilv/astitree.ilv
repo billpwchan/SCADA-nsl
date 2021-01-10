@@ -1,0 +1,88 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astitree"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astitree.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 9
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 101 426 89 23 F13 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "Ok"
+1
+1 "__ilvCallback" "okCB"
+10240 "Tree"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTreeGadget 5 5 281 342 F32 2 A A 0 0 0 0 20 1 1 1 1 1 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 2
+{ IlvTreeGadgetItem 1 2 4 "First Root" 2
+{ IlvTreeGadgetItem 1 2 4 "Leaf 1" 0
+ } { IlvTreeGadgetItem 1 2 4 "Leaf 2" 0
+ }  } { IlvTreeGadgetItem 1 2 4 "Second Root" 0
+ }  }  } 32 "Tree"
+6144 "Group" "Ok"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 5 354 89 23 F13 2 { IlvMessageItem 262145 4 16 4 "&GroupTree"  }   } 544 "Group"
+1
+1 "__ilvCallback" "groupCB"
+4096 "Tree"
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 5 384 89 23 F13 2 { IlvMessageItem 262145 4 16 4 "&RemoveTree"  }   } 544 "Delete"
+1
+1 "__ilvCallback" "deleteCB"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 101 354 89 23 F13 2 { IlvMessageItem 262145 4 16 4 "&UngroupTree"  }   } 544 "Ungroup"
+1
+1 "__ilvCallback" "unGroupCB"
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 197 354 89 23 F13 2 { IlvMessageItem 262145 4 16 4 "&SelectAllTree"  }   } 544 "selectAll"
+1
+1 "__ilvCallback" "selectAllCB"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 197 384 89 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Reset"  }   } 544 "Reset"
+1
+1 "__ilvCallback" "resetCB"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 101 384 89 23 F13 2 { IlvMessageItem 262145 4 16 4 "&VisibilityCriteria"  }   } 544 "VisibilityCriteria"
+1
+1 "__ilvCallback" "visibilityCriteriaCB"
+0
+1 { 8 1 IlvReliefLine 0 416 292 416 1 } 0
+0
+Size 292 455
+GeometryHandlers
+3 100 50 97 0 97 0
+ 100 0 96 97 96 97
+ 100 0 99 193 99 193
+5 3 0 0 5  281 0 281 1  0 0 6 2
+ 3 0 0 0  292 0 292 8  0 0 0 2
+ 3 101 0 101  0 0 89 0  102 0 102 2
+ 3 0 0 5  89 0 89 2  0 0 3 0
+ 3 0 0 5  89 0 89 3  0 0 3 0
+2 3 0 0 4  89 0 89 7  0 0 3 1
+ 3 0 0 4  89 0 89 4  0 0 3 1
+2 3 0 0 4  89 0 89 5  0 0 6 2
+ 3 0 0 4  89 0 89 6  0 0 6 2
+1 100 230 455 0 455 0
+9 3 0 0 5  342 0 342 1  0 0 108 0
+ 3 426 0 426  0 0 23 0  0 0 6 0
+ 3 415 0 415  0 0 2 8  0 0 38 0
+ 3 354 0 354  0 0 23 2  0 0 78 0
+ 3 384 0 384  0 0 23 3  0 0 48 0
+ 3 354 0 354  0 0 23 4  0 0 78 0
+ 3 384 0 384  0 0 23 7  0 0 48 0
+ 3 354 0 354  0 0 23 5  0 0 78 0
+ 3 384 0 384  0 0 23 6  0 0 48 0
+EOF

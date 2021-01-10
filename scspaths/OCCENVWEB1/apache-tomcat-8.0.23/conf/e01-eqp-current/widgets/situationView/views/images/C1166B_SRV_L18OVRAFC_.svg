@@ -1,0 +1,814 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="1303" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 2553 1303" width="2553">
+
+  
+  <g class="AnLayer" id="AnDefaultLayer">
+
+    
+    <polyline class="AnPolyline" fill="none" points="61,26 1264,26 1264,1224 61,1224 61,26 " stroke="#000000" stroke-width="3px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1330,350 2479,350 2479,1224 1330,1224 1330,350 " stroke="#000000" stroke-width="3px" />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="1415,450 1518,450 1518,585 1415,585 " />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,450 1518,450 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,459 1518,459 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,468 1518,468 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,477 1518,477 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,486 1518,486 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,495 1518,495 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,504 1518,504 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,513 1518,513 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,522 1518,522 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,531 1518,531 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,540 1518,540 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,549 1518,549 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,558 1518,558 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,567 1518,567 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,576 1518,576 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1415,585 1518,585 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="627,155 729,155 729,253 627,253 " />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="770,155 872,155 872,253 770,253 " />
+
+    
+    <polyline class="AnPolyline" fill="none" points="872,253 872,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="863,253 863,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="854,253 854,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="835,253 835,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="844,253 844,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="826,253 826,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="816,253 816,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="807,253 807,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="798,253 798,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="789,253 789,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="779,253 779,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="636,253 636,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="646,253 646,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="655,253 655,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="664,253 664,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="673,253 673,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="692,253 692,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="683,253 683,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="701,253 701,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="711,253 711,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="720,253 720,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="627,212 627,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="770,211 770,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="729,212 729,155 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="627,253 627,210 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="770,253 770,210 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="729,253 729,210 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polygon class="AnPolygon" fill="#A9A9A9" fill-rule="evenodd" points="510,269 608,269 608,372 510,372 " />
+
+    
+    <polyline class="AnPolyline" fill="none" points="563,372 510,372 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,269 510,269 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,325 510,325 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,316 510,316 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,335 510,335 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,344 510,344 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,353 510,353 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,362 510,362 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,279 510,279 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,288 510,288 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,297 510,297 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,307 510,307 " stroke="#FFFFFF" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,372 562,372 " stroke="#FFFFFF" stroke-width="1px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <polyline class="AnPolyline" fill="none" points="989,147 488,147 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="882,261 617,261 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="617,436 617,261 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="305,688 473,688 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="305,770 82,770 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="305,688 305,770 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1238,1122 1238,806 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1126,436 1126,212 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1005,213 989,213 989,147 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="860,369 976,369 976,450 860,450 860,369 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="860,436 617,436 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1126,436 976,436 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1112,212 1126,212 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="882,261 882,369 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="625,253 874,253 874,257 625,257 625,253 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="625,151 874,151 874,155 625,155 625,151 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="718,1044 909,1044 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="89,1002 212,1002 212,1120 89,1120 89,1002 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="212,1002 319,1002 319,1046 370,1046 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="834,688 1023,688 1023,806 834,806 834,688 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="711,688 834,688 834,806 711,806 711,688 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="588,688 711,688 711,806 588,806 588,688 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="465,688 588,688 588,806 465,806 465,688 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2377,878 2377,633 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2337,674 2377,674 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2235,673 2103,673 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1756,878 1756,539 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1898,425 1898,929 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1898,964 1898,1130 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1898,929 1866,929 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1866,929 1929,964 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1929,964 1898,964 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1363,588 1411,588 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1522,589 1756,589 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1366,742 1486,742 1486,822 1366,822 1366,742 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1524,781 1486,781 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1693,780 1756,780 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1809,1016 1361,1016 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2447,1016 1987,1016 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2447,878 2377,878 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1978,601 2103,601 2103,700 1978,700 1978,601 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1022,806 1238,806 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1040,1044 1139,1044 1139,1124 1040,1124 1040,1044 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="941,1044 1040,1044 1040,1124 941,1124 941,1044 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="842,1044 941,1044 941,1124 842,1124 842,1044 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1139,1044 1238,1044 1238,1124 1139,1124 1139,1044 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="729,205 627,205 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="634,213 627,205 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="627,205 634,196 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="872,205 770,205 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="777,213 770,205 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="770,205 777,196 " stroke="#000000" stroke-width="1px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-dasharray=" 6 8" stroke-dashoffset="0" stroke-width="2px" x1="82px" x2="1251px" y1="511px" y2="511px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-dasharray=" 6 8" stroke-dashoffset="0" stroke-width="2px" x1="82px" x2="1251px" y1="641px" y2="641px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="557,269 557,372 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="565,365 557,372 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="557,372 548,365 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="608,377 608,265 612,265 612,377 608,377 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="506,377 506,265 510,265 510,377 506,377 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="383,147 506,147 506,265 383,265 383,147 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="260,147 383,147 383,265 260,265 260,147 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="137,147 260,147 260,265 137,265 137,147 " stroke="#000000" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1756,878 1808,878 " stroke="#000000" stroke-width="2px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement">
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1349.510010,187.779999)" x="0px" y="12px">Station</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.575380,0.000000,0.000000,1.575380,1339.510010,208.779999)" x="0px" y="12px">Computer</text>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Layout_AFC">
+
+    
+    <polyline class="AnPolyline" fill="none" points="1518,446 1522,446 1522,589 1518,589 1518,446 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1411,446 1415,446 1415,589 1411,589 1411,446 " stroke="#000000" stroke-width="1px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Layout_AFC_Label">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1121.310059,42.869999)" x="0px" y="12px">GAT-017</text>
+
+    
+    <polyline class="AnPolyline" fill="none" points="1018,173 1018,54 1118,54 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1013,158 1018,173 1023,158 " stroke="#000000" stroke-width="1px" />
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1120.310059,90.870003)" x="0px" y="12px">GAT-019</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1120.310059,66.870003)" x="0px" y="12px">GAT-018</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1120.310059,113.870003)" x="0px" y="12px">GAT-020</text>
+
+    
+    <polyline class="AnPolyline" fill="none" points="1100,174 1100,125 1118,125 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1095,159 1100,174 1105,159 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1070,174 1070,102 1117,102 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1065,159 1070,174 1075,159 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1041,173 1041,77 1118,77 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1036,158 1041,173 1046,158 " stroke="#000000" stroke-width="1px" />
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,729.309021,1140.869995)" x="0px" y="12px">GAT-002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,730.309021,1115.869995)" x="0px" y="12px">GAT-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,729.309021,1162.869995)" x="0px" y="12px">GAT-003</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,729.309021,1187.869995)" x="0px" y="12px">GAT-004</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,489.308990,1141.869995)" x="0px" y="12px">GAT-010</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,489.308990,1117.869995)" x="0px" y="12px">GAT-009</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,489.308990,1163.869995)" x="0px" y="12px">GAT-102</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,489.308990,1188.869995)" x="0px" y="12px">GAT-101</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,607.309021,900.869995)" x="0px" y="12px">GAT-007</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,607.309021,876.869995)" x="0px" y="12px">GAT-008</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,607.309021,922.869995)" x="0px" y="12px">GAT-006</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,607.309021,947.869995)" x="0px" y="12px">GAT-005</text>
+
+    
+    <polyline class="AnPolyline" fill="none" points="710,1084 710,1127 728,1127 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="705,1099 710,1084 715,1099 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="680,1084 680,1151 727,1151 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="675,1099 680,1084 685,1099 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="651,1085 651,1173 728,1173 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="646,1100 651,1085 656,1100 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="621,1083 621,1198 728,1198 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="616,1098 621,1083 626,1098 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="587,1003 587,960 605,960 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="582,988 587,1003 592,988 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="557,1003 557,934 604,934 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="552,988 557,1003 562,988 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="528,1002 528,912 605,912 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="523,987 528,1002 533,987 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="498,1004 498,888 605,888 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="493,989 498,1004 503,989 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="469,1085 469,1128 487,1128 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="464,1100 469,1085 474,1100 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="439,1085 439,1151 486,1151 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="434,1100 439,1085 444,1100 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="410,1086 410,1173 487,1173 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="405,1101 410,1086 415,1101 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="380,1084 380,1199 487,1199 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="375,1099 380,1084 385,1099 " stroke="#000000" stroke-width="1px" />
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,2143.310059,745.869995)" x="0px" y="12px">GAT-145</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,2143.310059,773.869995)" x="0px" y="12px">GAT-049</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,2143.310059,800.869995)" x="0px" y="12px">GAT-050</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,2143.310059,828.869995)" x="0px" y="12px">GAT-051</text>
+
+    
+    <polyline class="AnPolyline" fill="none" points="2329,714 2329,839 2225,839 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2334,728 2329,713 2324,728 " stroke="#000000" stroke-width="1px" />
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1521.310059,875.869995)" x="0px" y="12px">GAT-037</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1521.310059,851.869995)" x="0px" y="12px">GAT-036</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1521.310059,898.869995)" x="0px" y="12px">GAT-129</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1613.310059,663.869995)" x="0px" y="12px">GAT-034</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1613.310059,639.869995)" x="0px" y="12px">GAT-033</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1613.310059,686.869995)" x="0px" y="12px">GAT-035</text>
+
+    
+    <polyline class="AnPolyline" fill="none" points="1593,741 1593,698 1611,698 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1588,726 1593,741 1598,726 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1563,741 1563,675 1610,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1558,726 1563,741 1568,726 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1534,740 1534,650 1611,650 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1529,725 1534,740 1539,725 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1626,820 1626,863 1608,863 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1631,835 1626,820 1621,835 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1656,820 1656,886 1609,886 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1661,835 1656,820 1651,835 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1685,821 1685,910 1608,910 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1690,836 1685,821 1680,836 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2243,712 2243,755 2225,755 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2248,727 2243,712 2238,727 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2273,712 2273,784 2226,784 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2278,727 2273,712 2268,727 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2302,713 2302,811 2225,811 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="2307,728 2302,713 2297,728 " stroke="#000000" stroke-width="1px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Layout_Room_Label">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,879.617004,703.869995)" x="0px" y="12px">New Equip.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,861.617004,1071.869995)" x="0px" y="12px">Shop 1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,178.117004,207.869995)" x="0px" y="12px">Rm.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,155.283005,185.869995)" x="0px" y="12px">Generator</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,424.117004,205.869995)" x="0px" y="12px">Rm.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,891.617004,420.869995)" x="0px" y="12px">Above</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,411.308990,181.869995)" x="0px" y="12px">Utilities</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,276.450012,188.869995)" x="0px" y="12px">Switch Rm.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,875.617004,397.869995)" x="0px" y="12px">Inspection</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,883.783020,377.869995)" x="0px" y="12px">Platform</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,634.117004,754.869995)" x="0px" y="12px">Rm.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,741.117004,741.869995)" x="0px" y="12px">Female</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,621.783020,732.869995)" x="0px" y="12px">Police</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,750.283020,721.869995)" x="0px" y="12px">Staff</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,628.450012,711.869995)" x="0px" y="12px">New</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,486.450012,741.869995)" x="0px" y="12px">Mess Rm.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,485.782990,719.869995)" x="0px" y="12px">New Staff</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,364.617004,707.869995)" x="0px" y="12px">ATM </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,122.282997,1061.869995)" x="0px" y="12px">Office</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,120.308998,1037.869995)" x="0px" y="12px">Ticket </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,887.450012,726.869995)" x="0px" y="12px">Rm. and </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,878.117004,768.869995)" x="0px" y="12px">Control Rm.</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,872.617004,748.869995)" x="0px" y="12px">New Station </text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,957.617004,1071.869995)" x="0px" y="12px">Shop 2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1059.619995,1071.869995)" x="0px" y="12px">Shop 3</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1158.619995,1071.869995)" x="0px" y="12px">Shop 4</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,577.309021,194.869995)" x="0px" y="12px">S03</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.051280,0.000000,0.000000,2.051280,343.381989,906.830017)" x="0px" y="12px">( Paid Area)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.051280,0.000000,0.000000,2.051280,347.160004,879.830017)" x="0px" y="12px">Concourse</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.051280,0.000000,0.000000,2.051280,881.104004,1173.829956)" x="0px" y="12px">( Unpaid Area)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.051280,0.000000,0.000000,2.051280,898.159973,1148.829956)" x="0px" y="12px">Concourse</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.051280,0.000000,0.000000,2.051280,812.104004,80.830002)" x="0px" y="12px">( Unpaid Area)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.051280,0.000000,0.000000,2.051280,829.159973,55.830002)" x="0px" y="12px">Concourse</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.835700,0.000000,0.000000,2.835700,556.903992,1247.180054)" x="0px" y="12px">UNI Concourse</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,1403.780029,769.869995)" x="0px" y="12px">CUC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.023180,0.000000,0.000000,2.023180,2149.020020,524.039978)" x="0px" y="12px">Platform</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(1.641030,0.000000,0.000000,1.641030,2016.280029,637.869995)" x="0px" y="12px">Kiosk</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.023180,0.000000,0.000000,2.023180,2118.290039,549.039978)" x="0px" y="12px">(Unpaid Area)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.023180,0.000000,0.000000,2.023180,2149.020020,875.039978)" x="0px" y="12px">Platform</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.023180,0.000000,0.000000,2.023180,2133.360107,904.039978)" x="0px" y="12px">(Paid Area)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.835700,0.000000,0.000000,2.835700,1767.900024,1244.180054)" x="0px" y="12px">UNI Platform</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.051280,0.000000,0.000000,2.051280,1527.719971,967.830017)" x="0px" y="12px">Platfrom 1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.051280,0.000000,0.000000,2.051280,2159.719971,967.830017)" x="0px" y="12px">Platfrom 1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.051280,0.000000,0.000000,2.051280,922.382019,304.829987)" x="0px" y="12px">( Paid Area)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.051280,0.000000,0.000000,2.051280,926.159973,277.829987)" x="0px" y="12px">Concourse</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.023180,0.000000,0.000000,2.023180,1396.020020,633.039978)" x="0px" y="12px">Platform</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.023180,0.000000,0.000000,2.023180,1365.290039,658.039978)" x="0px" y="12px">(Unpaid Area)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.023180,0.000000,0.000000,2.023180,1393.020020,886.039978)" x="0px" y="12px">Platform</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.023180,0.000000,0.000000,2.023180,1377.359985,915.039978)" x="0px" y="12px">(Paid Area)</text>
+
+  
+  </g>
+
+</svg>

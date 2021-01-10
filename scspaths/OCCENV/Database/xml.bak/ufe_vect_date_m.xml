@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="ufe_vect_date_m" numAttributes="5" numInstances="0" numPeriod_MT="" numPeriod_ST="" period_MT="" period_ST="">
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="computedDate" replicated="0">
+<Vector numElements="64">
+<Scalar size="8" valueType="DATE"/>
+</Vector>
+<VectorDefaultValue>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</VectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="label" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="value" replicated="0">
+<Vector numElements="64">
+<Scalar size="8" valueType="DATE"/>
+</Vector>
+<VectorDefaultValue>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</VectorDefaultValue>
+</AttributeDescription>
+</Class>

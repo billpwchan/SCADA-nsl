@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE xml>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header key="header">
+		<eventbusname>tecs_offnormalsummary_eventbus</eventbusname>
+		<eventbusscope>local</eventbusscope>
+	</header>
+
+	<actionset key="init"></actionset>
+	<actionset key="init_delay">
+		<OperationType>actionsetkey</OperationType>
+		<OperationString1>set_default_widget_filter</OperationString1>
+	</actionset>
+
+	<action key="set_default_widget_filter">
+		<SenderOperation>event</SenderOperation>
+		<OperationType>action</OperationType>
+		<OperationElement>UILayout_TECS_OffNormalSummary_Viewer</OperationElement>
+		<OperationString1>AddFilter</OperationString1>
+		<OperationString2>tecs_offnormal</OperationString2>
+		<OperationString3>gdg_column_SL_Cond_Res</OperationString3>
+		<OperationString4>1</OperationString4>
+	</action>
+</data-set>

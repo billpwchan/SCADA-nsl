@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$classOlsServer.html" title="This class provides a remote access to OlsList objects." alt="OlsServer" coords="18,32,90,58" />
+<area shape="rect" href="$classHisServer.html" title="This class allows the use of the management of archive services exported by the Historian Server..." alt="HisServer" coords="156,6,228,33" />
+<area shape="rect" href="$classScsAlmServer.html" title="This class provides a remote access to the alarm server of SCADAsoft." alt="ScsAlmServer" coords="141,57,242,84" />
+<area shape="rect" href="$classTrdServer.html" title="This class allows the use of attribute values stored in archives managed by the Historian Server..." alt="TrdServer" coords="293,6,368,33" />
+</map>

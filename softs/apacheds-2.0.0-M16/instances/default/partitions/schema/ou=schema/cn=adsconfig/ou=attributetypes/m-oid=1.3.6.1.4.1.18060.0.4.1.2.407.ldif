@@ -1,0 +1,17 @@
+version: 1
+dn: m-oid=1.3.6.1.4.1.18060.0.4.1.2.407,ou=attributeTypes,cn=adsconfig,ou=schema
+m-length: 0
+m-oid: 1.3.6.1.4.1.18060.0.4.1.2.407
+m-name: ads-krbRenewableAllowed
+m-description: Whether renewable tickets are allowed
+m-equality: booleanMatch
+entryParentId: c11acc1c-02ea-42e3-b600-cc0ca6feff74
+m-singlevalue: TRUE
+createTimestamp: 20140513151220.145Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.7
+objectclass: metaTop
+objectclass: metaAttributeType
+objectclass: top
+entryUUID: dd84e924-e736-4046-9cc2-26ad2a207650
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.411000Z#00000e#000#000000

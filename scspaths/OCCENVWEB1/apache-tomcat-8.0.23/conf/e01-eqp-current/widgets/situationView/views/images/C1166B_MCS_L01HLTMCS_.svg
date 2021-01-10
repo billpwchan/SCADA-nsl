@@ -1,0 +1,1096 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="1059" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 2074 1059" width="2074">
+
+  
+  <g class="AnLayer" id="AnDefaultLayer">
+
+    
+    <polygon class="AnPolygon" fill="#FFFFCF" fill-rule="evenodd" points="65,3 2009,3 2009,1052 65,1052 65,3 " />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <polyline class="AnPolyline" fill="none" points="114,220 469,220 469,579 114,579 114,220 " stroke="#000000" stroke-dasharray=" 6 8" stroke-dashoffset="0" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="544,220 1863,220 1863,579 544,579 544,220 " stroke="#000000" stroke-dasharray=" 6 8" stroke-dashoffset="0" stroke-width="2px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="114,730 1867,730 1867,1029 114,1029 114,730 " stroke="#000000" stroke-dasharray=" 6 8" stroke-dashoffset="0" stroke-width="2px" />
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1165,450 1165,436 1698,436 1698,450 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1346,450 1346,436 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1523,450 1523,436 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1445,436 1445,422 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="626,451 626,437 825,437 825,451 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="726,437 726,423 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement">
+
+    
+    <g>
+
+      
+      <polygon class="AnPolygon" fill="#989898" fill-rule="evenodd" points="1541,776 1840,776 1840,805 1541,805 1541,776 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1541,776 1840,776 1840,805 1541,805 1541,776 " stroke="#000000" stroke-width="3px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1686,776 1686,805 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1696,776 1696,805 " stroke="#000000" stroke-width="1px" />
+
+      
+      <g>
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1553,786 1567,786 1567,795 1553,795 1553,786 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1575,786 1589,786 1589,795 1575,795 1575,786 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1597,786 1611,786 1611,795 1597,795 1597,786 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1619,786 1633,786 1633,795 1619,795 1619,786 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1748,786 1762,786 1762,795 1748,795 1748,786 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1770,786 1784,786 1784,795 1770,795 1770,786 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1792,786 1806,786 1806,795 1792,795 1792,786 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1814,786 1828,786 1828,795 1814,795 1814,786 " />
+
+      
+      </g>
+
+      
+      <g>
+
+        
+        <g>
+
+          
+          <polyline class="AnPolyline" fill="none" points="1553,786 1567,786 1567,795 1553,795 1553,786 " stroke="#000000" stroke-width="1px" />
+
+          
+          <polyline class="AnPolyline" fill="none" points="1575,786 1589,786 1589,795 1575,795 1575,786 " stroke="#000000" stroke-width="1px" />
+
+          
+          <polyline class="AnPolyline" fill="none" points="1597,786 1611,786 1611,795 1597,795 1597,786 " stroke="#000000" stroke-width="1px" />
+
+          
+          <polyline class="AnPolyline" fill="none" points="1619,786 1633,786 1633,795 1619,795 1619,786 " stroke="#000000" stroke-width="1px" />
+
+        
+        </g>
+
+        
+        <g>
+
+          
+          <polyline class="AnPolyline" fill="none" points="1748,786 1762,786 1762,795 1748,795 1748,786 " stroke="#000000" stroke-width="1px" />
+
+          
+          <polyline class="AnPolyline" fill="none" points="1770,786 1784,786 1784,795 1770,795 1770,786 " stroke="#000000" stroke-width="1px" />
+
+          
+          <polyline class="AnPolyline" fill="none" points="1792,786 1806,786 1806,795 1792,795 1792,786 " stroke="#000000" stroke-width="1px" />
+
+          
+          <polyline class="AnPolyline" fill="none" points="1814,786 1828,786 1828,795 1814,795 1814,786 " stroke="#000000" stroke-width="1px" />
+
+        
+        </g>
+
+      
+      </g>
+
+      
+      <g>
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1671,783 1685,783 1685,784 1671,784 1671,783 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1676,790 1685,790 1685,791 1676,791 1676,790 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1680,796 1685,796 1685,797 1680,797 1680,796 " />
+
+      
+      </g>
+
+      
+      <g>
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1711,783 1697,783 1697,784 1711,784 1711,783 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1706,790 1697,790 1697,791 1706,791 1706,790 " />
+
+        
+        <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1702,796 1697,796 1697,797 1702,797 1702,796 " />
+
+      
+      </g>
+
+    
+    </g>
+
+    
+    <polyline class="AnPolyline" fill="none" points="611,925 611,939 666,939 666,925 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1336,925 1336,939 1391,939 1391,925 " stroke="#000000" stroke-width="1px" />
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_12_1">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="593px" y="274px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="601px" y="327px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="601px" y="279px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="601px" x2="651px" y1="334px" y2="334px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="601,334 593,334 583,354 668,354 658,334 601,334 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="593,274 593,327 601,327 601,334 593,334 583,354 668,354 658,334 651,334 651,327 658,327 658,274 593,274 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="601px" x2="651px" y1="339px" y2="339px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="596px" x2="656px" y1="344px" y2="344px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="598px" x2="653px" y1="349px" y2="349px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="601px" x2="651px" y1="327px" y2="327px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_2_2">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="314px" y="274px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="322px" y="327px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="322px" y="279px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="322px" x2="372px" y1="334px" y2="334px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="322,334 314,334 304,354 389,354 379,334 322,334 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="314,274 314,327 322,327 322,334 314,334 304,354 389,354 379,334 372,334 372,327 379,327 379,274 314,274 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="322px" x2="372px" y1="339px" y2="339px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="317px" x2="377px" y1="344px" y2="344px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="319px" x2="374px" y1="349px" y2="349px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="322px" x2="372px" y1="327px" y2="327px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_3_3">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="148px" y="477px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="156px" y="530px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="156px" y="482px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="156px" x2="206px" y1="537px" y2="537px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="156,537 148,537 138,557 223,557 213,537 156,537 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="148,477 148,530 156,530 156,537 148,537 138,557 223,557 213,537 206,537 206,530 213,530 213,477 148,477 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="156px" x2="206px" y1="542px" y2="542px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="151px" x2="211px" y1="547px" y2="547px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="153px" x2="208px" y1="552px" y2="552px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="156px" x2="206px" y1="530px" y2="530px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_11_4">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="832px" y="274px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="840px" y="327px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="840px" y="279px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="840px" x2="890px" y1="334px" y2="334px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="840,334 832,334 822,354 907,354 897,334 840,334 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="832,274 832,327 840,327 840,334 832,334 822,354 907,354 897,334 890,334 890,327 897,327 897,274 832,274 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="840px" x2="890px" y1="339px" y2="339px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="835px" x2="895px" y1="344px" y2="344px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="837px" x2="892px" y1="349px" y2="349px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="840px" x2="890px" y1="327px" y2="327px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_13_5">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="1067px" y="274px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="1075px" y="327px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="1075px" y="279px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="1075px" x2="1125px" y1="334px" y2="334px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1075,334 1067,334 1057,354 1142,354 1132,334 1075,334 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1067,274 1067,327 1075,327 1075,334 1067,334 1057,354 1142,354 1132,334 1125,334 1125,327 1132,327 1132,274 1067,274 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1075px" x2="1125px" y1="339px" y2="339px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1070px" x2="1130px" y1="344px" y2="344px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1072px" x2="1127px" y1="349px" y2="349px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1075px" x2="1125px" y1="327px" y2="327px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_5_6">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="593px" y="454px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="601px" y="507px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="601px" y="459px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="601px" x2="651px" y1="514px" y2="514px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="601,514 593,514 583,534 668,534 658,514 601,514 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="593,454 593,507 601,507 601,514 593,514 583,534 668,534 658,514 651,514 651,507 658,507 658,454 593,454 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="601px" x2="651px" y1="519px" y2="519px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="596px" x2="656px" y1="524px" y2="524px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="598px" x2="653px" y1="529px" y2="529px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="601px" x2="651px" y1="507px" y2="507px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_4_7">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="792px" y="454px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="800px" y="507px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="800px" y="459px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="800px" x2="850px" y1="514px" y2="514px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="800,514 792,514 782,534 867,534 857,514 800,514 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="792,454 792,507 800,507 800,514 792,514 782,534 867,534 857,514 850,514 850,507 857,507 857,454 792,454 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="800px" x2="850px" y1="519px" y2="519px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="795px" x2="855px" y1="524px" y2="524px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="797px" x2="852px" y1="529px" y2="529px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="800px" x2="850px" y1="507px" y2="507px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_6_8">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="1136px" y="454px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="1144px" y="507px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="1144px" y="459px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="1144px" x2="1194px" y1="514px" y2="514px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1144,514 1136,514 1126,534 1211,534 1201,514 1144,514 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1136,454 1136,507 1144,507 1144,514 1136,514 1126,534 1211,534 1201,514 1194,514 1194,507 1201,507 1201,454 1136,454 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1144px" x2="1194px" y1="519px" y2="519px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1139px" x2="1199px" y1="524px" y2="524px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1141px" x2="1196px" y1="529px" y2="529px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1144px" x2="1194px" y1="507px" y2="507px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_9_9">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="1315px" y="454px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="1323px" y="507px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="1323px" y="459px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="1323px" x2="1373px" y1="514px" y2="514px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1323,514 1315,514 1305,534 1390,534 1380,514 1323,514 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1315,454 1315,507 1323,507 1323,514 1315,514 1305,534 1390,534 1380,514 1373,514 1373,507 1380,507 1380,454 1315,454 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1323px" x2="1373px" y1="519px" y2="519px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1318px" x2="1378px" y1="524px" y2="524px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1320px" x2="1375px" y1="529px" y2="529px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1323px" x2="1373px" y1="507px" y2="507px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_8_10">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="1494px" y="454px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="1502px" y="507px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="1502px" y="459px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="1502px" x2="1552px" y1="514px" y2="514px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1502,514 1494,514 1484,534 1569,534 1559,514 1502,514 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1494,454 1494,507 1502,507 1502,514 1494,514 1484,534 1569,534 1559,514 1552,514 1552,507 1559,507 1559,454 1494,454 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1502px" x2="1552px" y1="519px" y2="519px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1497px" x2="1557px" y1="524px" y2="524px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1499px" x2="1554px" y1="529px" y2="529px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1502px" x2="1552px" y1="507px" y2="507px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static WKST Symbol" id="Comp_static WKST_10_11">
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="53px" width="65px" x="1669px" y="454px" />
+
+      
+      <rect class="AnRectangle" fill="#E0E4E5" fill-rule="evenodd" height="7px" width="50px" x="1677px" y="507px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="43px" stroke="#000000" stroke-width="1px" width="50px" x="1677px" y="459px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#D6DADD" stroke-width="1px" x1="1677px" x2="1727px" y1="514px" y2="514px" />
+
+      
+      <polygon class="AnPolygon" fill="#D6DADD" fill-rule="evenodd" points="1677,514 1669,514 1659,534 1744,534 1734,514 1677,514 " />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1669,454 1669,507 1677,507 1677,514 1669,514 1659,534 1744,534 1734,514 1727,514 1727,507 1734,507 1734,454 1669,454 " stroke="#989898" stroke-width="3px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1677px" x2="1727px" y1="519px" y2="519px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1672px" x2="1732px" y1="524px" y2="524px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1674px" x2="1729px" y1="529px" y2="529px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1677px" x2="1727px" y1="507px" y2="507px" />
+
+    
+    </g>
+
+    
+    <g class="Comp_static FEP Symbol" id="Comp_static FEP_2_12">
+
+      
+      <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,213.000000,757.000000)" x="0px" y="12px">A </text>
+
+      
+      <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,396.000000,757.000000)" x="0px" y="12px">B</text>
+
+      
+      <rect class="AnRectangle" fill="#989898" fill-rule="evenodd" height="68px" width="75px" x="234px" y="775px" />
+
+      
+      <rect class="AnRectangle" fill="#989898" fill-rule="evenodd" height="68px" width="75px" x="317px" y="775px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="317px" x2="392px" y1="825px" y2="825px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="334px" x2="334px" y1="778px" y2="840px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="354px" x2="354px" y1="778px" y2="840px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="374px" x2="374px" y1="778px" y2="840px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="234px" x2="309px" y1="825px" y2="825px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="251px" x2="251px" y1="778px" y2="840px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="271px" x2="271px" y1="778px" y2="840px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="291px" x2="291px" y1="778px" y2="840px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="68px" stroke="#E5E5E5" stroke-width="3px" width="75px" x="234px" y="775px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="68px" stroke="#E5E5E5" stroke-width="3px" width="75px" x="317px" y="775px" />
+
+    
+    </g>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,284.500000,853.750000)" x="0px" y="12px">FEP
+</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,847.250000,944.750000)" x="0px" y="12px">NSSSVR</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1049.750000,944.750000)" x="0px" y="12px">DBMSSVR1
+</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1610.500000,813.750000)" x="0px" y="12px">Dual Load Balancer</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.500000,0.000000,0.000000,2.500000,1715.630005,981.940002)" x="0px" y="12px">OCC CER</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1386.500000,471.750000)" x="0px" y="12px">TCWS2
+</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,664.250000,471.750000)" x="0px" y="12px">PSCWS1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,864.250000,471.750000)" x="0px" y="12px">PSCWS2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,972.750000,417.750000)" x="0px" y="12px">OCEWS1
+</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1207.500000,471.750000)" x="0px" y="12px">TCWS1
+</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1564.500000,471.750000)" x="0px" y="12px">TCWS3
+</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1741.500000,471.750000)" x="0px" y="12px">TCWS4
+</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,230.750000,482.750000)" x="0px" y="12px">ESC Wks</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,231.000000,507.750000)" x="0px" y="12px">(Provided</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,301.750000,362.750000)" x="0px" y="12px">FBRWS1
+</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,912.500000,270.750000)" x="0px" y="12px">ESC WS 1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,918.000000,294.750000)" x="0px" y="12px">(Provided</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,671.500000,270.750000)" x="0px" y="12px">EA Monitor</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.500000,0.000000,0.000000,2.500000,1708.130005,228.690002)" x="0px" y="12px">OCC OCR</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1156.000000,294.750000)" x="0px" y="12px">(Provided</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1150.500000,270.750000)" x="0px" y="12px">ESC WS 2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.500000,0.000000,0.000000,2.500000,682.130005,87.690002)" x="0px" y="12px">CDN</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.500000,0.000000,0.000000,2.500000,1867.130005,619.690002)" x="0px" y="12px">MCS</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.500000,0.000000,0.000000,2.500000,1867.130005,651.690002)" x="0px" y="12px">Network</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.500000,0.000000,0.000000,2.500000,133.630005,263.940002)" x="0px" y="12px">Fallback</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.500000,0.000000,0.000000,2.500000,132.130005,230.690002)" x="0px" y="12px">TSY</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.500000,0.000000,0.000000,2.500000,133.630005,327.940002)" x="0px" y="12px">Room</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.500000,0.000000,0.000000,2.500000,133.130005,296.690002)" x="0px" y="12px">Control</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,528.500000,944.750000)" x="0px" y="12px">RTSRV1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,666.500000,944.750000)" x="0px" y="12px">RTSRV2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1240.500000,944.750000)" x="0px" y="12px">WEBSVR1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1380.500000,944.750000)" x="0px" y="12px">WEBSVR2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1346.500000,392.750000)" x="0px" y="12px">(Provide in Phase B)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,625.500000,396.750000)" x="0px" y="12px">(Provide in Phase B)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,236.000000,533.750000)" x="0px" y="12px">by 1166)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,923.000000,320.750000)" x="0px" y="12px">by 1166)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1161.000000,320.750000)" x="0px" y="12px">by 1166)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,678.000000,296.750000)" x="0px" y="12px">(Provided</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,683.000000,322.750000)" x="0px" y="12px">by 1166)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,211.500000,876.750000)" x="0px" y="12px">(Provide in Phase B)</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,239.500000,388.750000)" x="0px" y="12px">(Provide in Phase B)</text>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Pscada_Line">
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="111,626 1854,626 " stroke="#000000" stroke-width="3px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="111,682 1854,682 " stroke="#000000" stroke-width="3px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="262,774 262,682 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="282,774 282,689 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="282,626 282,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="345,774 345,682 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="365,774 365,689 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="365,626 365,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="562,774 562,682 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="582,774 582,689 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="582,626 582,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="700,774 700,682 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="720,774 720,689 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="720,626 720,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1342,534 1342,626 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1362,534 1362,619 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1362,682 1362,633 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="883,774 883,682 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="903,774 903,689 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="903,626 903,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1095,774 1095,682 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1115,774 1115,689 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1115,626 1115,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1284,774 1284,682 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1304,774 1304,689 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1304,626 1304,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1424,774 1424,682 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1444,774 1444,689 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1444,626 1444,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1608,774 1608,682 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1628,774 1628,689 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1628,626 1628,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1757,774 1757,682 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1777,774 1777,689 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1777,626 1777,675 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <polyline class="AnPolyline" fill="none" points="516,682 516,633 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="496,170 496,626 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="516,163 516,619 " stroke="#000000" stroke-width="1px" />
+
+    
+    <g>
+
+      
+    <path class="AnClosedSpline" d="M1150,107 C1150,88 958,75 734,75 502,75 317,88 317,107 312,118 502,134 727,135 958,135 1144,118 1150,107 Z" fill="none" stroke="#000000" stroke-width="2px" />
+      
+    <path class="AnClosedSpline" d="M1225,107 C1225,75 1001,43 726,43 446,42 226,75 226,107 223,138 446,169 722,169 1001,169 1222,138 1225,107 Z" fill="none" stroke="#000000" stroke-width="2px" />
+    
+    </g>
+
+    
+    <polyline class="AnPolyline" fill="none" points="496,155 496,129 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="335,136 335,114 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="335,274 335,155 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="355,147 355,274 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1090,142 1090,119 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1090,274 1090,156 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1110,145 1110,274 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="854,161 854,134 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="854,274 854,176 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="874,166 874,274 " stroke="#000000" stroke-width="1px" />
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="615,534 615,626 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="635,534 635,619 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="635,682 635,633 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="815,534 815,626 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="835,534 835,619 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="835,682 835,633 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1013,534 1013,626 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1033,534 1033,619 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1033,682 1033,633 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1162,534 1162,626 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1182,534 1182,619 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1182,682 1182,633 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1519,534 1519,626 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1539,534 1539,619 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1539,682 1539,633 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <g>
+
+      
+      <polyline class="AnPolyline" fill="none" points="1695,534 1695,626 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1715,534 1715,619 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1715,682 1715,633 " stroke="#000000" stroke-width="1px" />
+
+    
+    </g>
+
+    
+    <polyline class="AnPolyline" fill="none" points="625,354 625,373 915,373 915,463 987,463 " stroke="#000000" stroke-width="1px" />
+
+  
+  </g>
+
+</svg>

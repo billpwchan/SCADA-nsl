@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_TECS_L02F3_TECS" resolution="1.99937343358" maxExtent="0.0 0.0 3191.0 1629.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="false"></controls>
+        <imageLayer path="images/C1166B_TECS_L02F3_TECS.svg" width="3191.0" height="1629.0" bounds="0.0 0.0 3191.0 1629.0" name="C1166B_TECS_L02F3_TECS" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="Equipement" type="OVERLAY">
+            <entityEntry x="1041.0" y="1009.0" symbolId="C1166B_ECT_TTVF_ActiveText" entityId="OCC_CTVECTTTVF0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="939.0" symbolId="C1166B_ECT_TTVF_ActiveText" entityId="OCC_CTVECTTTVF0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="869.0" symbolId="C1166B_ECT_TTVF_ActiveText" entityId="OCC_CTVECTTTVF0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="799.0" symbolId="C1166B_ECT_TTVF_ActiveText" entityId="OCC_CTVECTTTVF0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="729.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_CTVECTMFD_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="659.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_CTVECTMFD_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="589.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_CTVECTMFD_0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="519.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_CTVECTMFD_0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="449.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_CTVECTMFD_0005" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="379.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_CTVECTMFD_0006" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="309.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_CTVECTMFD_0007" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="239.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_CTVECTMFD_0008" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1041.0" y="169.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_CTVECTMFD_0009" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="1009.0" symbolId="C1166B_ECT_TTVF_ActiveText" entityId="OCC_SSVECTTTVF0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="939.0" symbolId="C1166B_ECT_TTVF_ActiveText" entityId="OCC_SSVECTTTVF0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="869.0" symbolId="C1166B_ECT_TTVF_ActiveText" entityId="OCC_SSVECTTTVF0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="799.0" symbolId="C1166B_ECT_TTVF_ActiveText" entityId="OCC_SSVECTTTVF0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="729.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_SSVECTMFD_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="659.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_SSVECTMFD_0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="589.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_SSVECTMFD_0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="519.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_SSVECTMFD_0004" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="449.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_SSVECTMFD_0005" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="379.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_SSVECTMFD_0006" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="309.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_SSVECTMFD_0007" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="239.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_SSVECTMFD_0008" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="169.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_SSVECTMFD_0009" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2590.0" y="99.0" symbolId="C1166B_ECT_MFD__ActiveText" entityId="OCC_SSVECTMFD_0010" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="2653.0" y="1346.0" symbolId="C1166B_ECT_CALM_ActiveText" entityId="OCC_LMCECTCALM0015" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

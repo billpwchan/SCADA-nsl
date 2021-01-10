@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="sci_cb_type" numAttributes="26" numInstances="0" numPeriod_MT="" numPeriod_ST="" period_MT="" period_ST="">
+<AttributeDescription attrType="STATIC" name="NumDec" replicated="0">
+<Scalar size="2" valueType="INT16"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="class_id" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="107"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="computedMessage" replicated="0">
+<Scalar size="257" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="hmiOrder" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initValue" replicated="0">
+<Vector numElements="2">
+<Scalar size="256" valueType="BITFIELD"/>
+</Vector>
+<VectorDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</VectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="label" replicated="0">
+<Scalar size="129" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="name" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="opDate" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="opSource" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="operStatus" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="period" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="previousStatus" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="previousValidity" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="previousValue" replicated="0">
+<Vector numElements="2">
+<Scalar size="256" valueType="BITFIELD"/>
+</Vector>
+<VectorDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</VectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="previousValueDate" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="reportType" replicated="0">
+<Scalar size="33" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="source" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="status" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="unit" replicated="0">
+<Scalar size="21" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="userField1" replicated="0">
+<Scalar size="513" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="userField2" replicated="0">
+<Scalar size="513" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="HISTORIC_CHB" name="validity" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="HISTORIC_CHB" name="value" replicated="0">
+<Vector numElements="2">
+<Scalar size="256" valueType="BITFIELD"/>
+</Vector>
+<VectorDefaultValue>
+<ScalarDefaultValue defaultValue="0"/>
+<ScalarDefaultValue defaultValue="0"/>
+</VectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="HISTORIC_CHB" name="valueDate" replicated="0">
+<Scalar size="8" valueType="DATE"/>
+<ScalarDefaultValue defaultValue="01/01/2000 00:00:00.000"/>
+</AttributeDescription>
+</Class>

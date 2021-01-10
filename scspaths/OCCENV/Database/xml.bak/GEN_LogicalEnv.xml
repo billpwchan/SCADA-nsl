@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="GEN_LogicalEnv" numAttributes="4" numInstances="8" numPeriod_MT="0" numPeriod_ST="0" period_MT="0" period_ST="0">
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="state" replicated="0">
+<Scalar size="17" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="stateVector" replicated="0">
+<Vector numElements="12">
+<Scalar size="18" valueType="CHARN"/>
+</Vector>
+<VectorDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue=""/>
+</VectorDefaultValue>
+</AttributeDescription>
+</Class>

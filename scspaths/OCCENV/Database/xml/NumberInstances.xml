@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="Number">
+<InstanceDescription alias="CTVECTTES_0001HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0001HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0002HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0002HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0003HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0003HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0004HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0004HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0005HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0005HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0006HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0006HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0007HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0007HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0008HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0008HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0009HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0009HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0010HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0010HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0011HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0011HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0012HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0012HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0013HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0013HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0014HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0014HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0015HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0015HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0016HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0016HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0017HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0017HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0018HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0018HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0019HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0019HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0020HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0020HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0021HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0021HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0022HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0022HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0023HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0023HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVECTTES_0024HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVECTTES_0024HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_BC__0001HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_BC__0001HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-VOLTAGE.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0001HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0001HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-VOLTAGE.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0001HMIFloat2" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0001HMIFloat2"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float2"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-CURRENT.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0001HMIFloat3" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0001HMIFloat3"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float3"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-ENERGY.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0001HMIFloat4" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0001HMIFloat4"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float4"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-POWFACTOR.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0002HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0002HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-VOLTAGE.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0002HMIFloat2" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0002HMIFloat2"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float2"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-CURRENT.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0002HMIFloat3" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0002HMIFloat3"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float3"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-ENERGY.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="CTVLV_CLP_0002HMIFloat4" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="CTVLV_CLP_0002HMIFloat4"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float4"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-POWFACTOR.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0001HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0001HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0002HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0002HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0003HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0003HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0004HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0004HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0005HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0005HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0006HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0006HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0007HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0007HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0008HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0008HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0009HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0009HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0010HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0010HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0011HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0011HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTTEMP0012HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTTEMP0012HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0001HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0001HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0002HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0002HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0003HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0003HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0004HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0004HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0005HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0005HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0006HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0006HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVECTTES_0007HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVECTTES_0007HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciECT-TEMP.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_BC__0001HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_BC__0001HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-VOLTAGE.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0001HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0001HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-VOLTAGE.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0001HMIFloat2" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0001HMIFloat2"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float2"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-CURRENT.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0001HMIFloat3" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0001HMIFloat3"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float3"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-ENERGY.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0001HMIFloat4" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0001HMIFloat4"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float4"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-POWFACTOR.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0002HMIFloat1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0002HMIFloat1"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float1"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-VOLTAGE.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0002HMIFloat2" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0002HMIFloat2"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float2"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-CURRENT.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0002HMIFloat3" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0002HMIFloat3"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float3"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-ENERGY.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="SSVLV_CLP_0002HMIFloat4" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="SSVLV_CLP_0002HMIFloat4"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="Float4"/>
+</AttributDescription>
+<AttributDescription attrId="value" position="0" formula="[^:^:aciPOW-POWFACTOR.value]" activation="ENABLE">
+<ScalarValue value="0.0"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

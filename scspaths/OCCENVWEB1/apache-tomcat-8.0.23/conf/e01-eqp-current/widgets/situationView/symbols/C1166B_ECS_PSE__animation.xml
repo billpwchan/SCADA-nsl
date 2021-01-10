@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<animationConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/animation">
+    <animationRules id="C1166B_ECS_PSE__animation">
+        <animationRule>
+            <source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:statusDataSourceType" name="symbol1"></source>
+            <sourceType>INT</sourceType>
+            <svgRefAnimation defaultValue="ECS_PSE__Undefined" nodeId="symbol1.value_node">
+                <enumerationBinding>
+                    <item inputValue="0" value="ECS_PSE__Undefined"></item>
+                    <item inputValue="102" value="ECS_PSE__Alarm_Blink"></item>
+                    <item inputValue="101" value="ECS_PSE__Normal_Blink"></item>
+                    <item inputValue="2" value="ECS_PSE__Alarm"></item>
+                    <item inputValue="1" value="ECS_PSE__Normal"></item>
+                </enumerationBinding>
+            </svgRefAnimation>
+        </animationRule>
+        <animationRule>
+            <source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:computedStatusDataSourceType" statusComputerName="com.thalesgroup.scadasoft.stresstest.calculated.widget.C1166B_ECS_State" name="C1166B_ECS_State"></source>
+            <sourceType>STRING</sourceType>
+            <svgRefAnimation defaultValue="ECS_PSE__State_Empty" nodeId="C1166B_ECS_State_node">
+                <enumerationBinding>
+                    <item inputValue="1" value="ECS_PSE__State_Invalid"></item>
+                    <item inputValue="2" value="ECS_PSE__State_Selected"></item>
+                    <item inputValue="4" value="ECS_PSE__State_Selected_MO"></item>
+                    <item inputValue="0" value="ECS_PSE__State_Empty"></item>
+                    <item inputValue="3" value="ECS_PSE__State_MO"></item>
+                </enumerationBinding>
+            </svgRefAnimation>
+        </animationRule>
+    </animationRules>
+</animationConfiguration>

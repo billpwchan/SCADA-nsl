@@ -1,0 +1,7 @@
+log/
+Database/binary/
+Database/xml/
+Database/UserLibs/
+ScsEnvList
+dbmdump.log
+*.pid

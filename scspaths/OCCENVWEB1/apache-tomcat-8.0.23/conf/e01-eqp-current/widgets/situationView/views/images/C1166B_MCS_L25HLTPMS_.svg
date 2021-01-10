@@ -1,0 +1,637 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="815" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 1596 815" width="1596">
+
+  
+  <g class="AnLayer" id="AnDefaultLayer">
+
+    
+    <polygon class="AnPolygon" fill="#FFFFCF" fill-rule="evenodd" points="700,410 1377,410 1377,776 700,776 700,410 " />
+
+    
+    <polygon class="AnPolygon" fill="#FFFFCF" fill-rule="evenodd" points="224,16 1378,16 1378,370 224,370 224,16 " />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Background">
+
+    
+    <g class="DCN_static HUB Symbol" id="DCN_static HUB_1_1">
+
+      
+      <rect class="AnRectangle" fill="#989898" fill-rule="evenodd" height="30px" width="225px" x="483px" y="72px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="30px" stroke="#000000" stroke-width="3px" width="225px" x="483px" y="72px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="595px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="618px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="640px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="663px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="686px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="528px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="550px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="573px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="595px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="618px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="640px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="663px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="686px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="528px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="550px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="573px" y="80px" />
+
+    
+    </g>
+
+    
+    <g class="PMS_static FPLC Symbol" id="PMS_static FPLC_1_2">
+
+      
+      <polygon class="AnPolygon" fill="#218A21" fill-rule="evenodd" points="521,246 516,246 516,321 521,321 521,326 668,326 668,321 673,321 673,246 668,246 668,241 521,241 521,246 " />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="80px" width="25px" x="521px" y="241px" />
+
+      
+      <rect class="AnRectangle" fill="#989898" fill-rule="evenodd" height="60px" width="122px" x="546px" y="261px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="20px" width="122px" x="546px" y="241px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="80px" stroke="#000000" stroke-width="1px" width="147px" x="521px" y="241px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="546,241 546,253 536,253 536,241 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="558,241 558,253 568,253 568,241 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="581,241 581,253 591,253 591,241 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="603,241 603,253 613,253 613,241 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="626,241 626,253 636,253 636,241 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="648,241 648,253 658,253 658,241 " stroke="#000000" stroke-width="1px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="30px" stroke="#000000" stroke-width="1px" width="15px" x="526px" y="268px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="10px" stroke="#000000" stroke-width="1px" width="5px" x="526px" y="301px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="3px" stroke="#000000" stroke-width="1px" width="10px" x="526px" y="313px" />
+
+      
+      <circle class="AnCircle" cx="531px" cy="261px" fill="none" r="5.00px" stroke="#000000" stroke-width="1px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="546px" x2="558px" y1="246px" y2="246px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="568px" x2="581px" y1="246px" y2="246px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="591px" x2="603px" y1="246px" y2="246px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="613px" x2="626px" y1="246px" y2="246px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="636px" x2="648px" y1="246px" y2="246px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="546px" x2="668px" y1="261px" y2="261px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="546px" x2="668px" y1="278px" y2="278px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="546px" x2="668px" y1="311px" y2="311px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="546px" x2="546px" y1="253px" y2="321px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="656px" x2="656px" y1="253px" y2="321px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="651px" x2="651px" y1="253px" y2="321px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="633px" x2="633px" y1="253px" y2="321px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="628px" x2="628px" y1="253px" y2="321px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="611px" x2="611px" y1="253px" y2="321px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="606px" x2="606px" y1="253px" y2="321px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="588px" x2="588px" y1="253px" y2="321px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="583px" x2="583px" y1="253px" y2="321px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="566px" x2="566px" y1="253px" y2="321px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="561px" x2="561px" y1="253px" y2="321px" />
+
+    
+    </g>
+
+    
+    <g class="PMS_static PLC Symbol" id="PMS_static PLC_1_3">
+
+      
+      <polygon class="AnPolygon" fill="#218A21" fill-rule="evenodd" points="994,440 989,440 989,515 994,515 994,520 1141,520 1141,515 1146,515 1146,440 1141,440 1141,435 994,435 994,440 " />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="80px" width="25px" x="994px" y="435px" />
+
+      
+      <rect class="AnRectangle" fill="#989898" fill-rule="evenodd" height="60px" width="122px" x="1019px" y="455px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="20px" width="122px" x="1019px" y="435px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="80px" stroke="#000000" stroke-width="1px" width="147px" x="994px" y="435px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1019,435 1019,447 1009,447 1009,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1031,435 1031,447 1041,447 1041,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1054,435 1054,447 1064,447 1064,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1076,435 1076,447 1086,447 1086,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1099,435 1099,447 1109,447 1109,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1121,435 1121,447 1131,447 1131,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="30px" stroke="#000000" stroke-width="1px" width="15px" x="999px" y="462px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="10px" stroke="#000000" stroke-width="1px" width="5px" x="999px" y="495px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="3px" stroke="#000000" stroke-width="1px" width="10px" x="999px" y="507px" />
+
+      
+      <circle class="AnCircle" cx="1004px" cy="455px" fill="none" r="5.00px" stroke="#000000" stroke-width="1px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1019px" x2="1031px" y1="440px" y2="440px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1041px" x2="1054px" y1="440px" y2="440px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1064px" x2="1076px" y1="440px" y2="440px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1086px" x2="1099px" y1="440px" y2="440px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1109px" x2="1121px" y1="440px" y2="440px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1019px" x2="1141px" y1="455px" y2="455px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1019px" x2="1141px" y1="472px" y2="472px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1019px" x2="1141px" y1="505px" y2="505px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1019px" x2="1019px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1129px" x2="1129px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1124px" x2="1124px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1106px" x2="1106px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1101px" x2="1101px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1084px" x2="1084px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1079px" x2="1079px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1061px" x2="1061px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1056px" x2="1056px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1039px" x2="1039px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1034px" x2="1034px" y1="447px" y2="515px" />
+
+      
+      <polygon class="AnPolygon" fill="#218A21" fill-rule="evenodd" points="1163,440 1158,440 1158,515 1163,515 1163,520 1310,520 1310,515 1315,515 1315,440 1310,440 1310,435 1163,435 1163,440 " />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="80px" width="25px" x="1163px" y="435px" />
+
+      
+      <rect class="AnRectangle" fill="#989898" fill-rule="evenodd" height="60px" width="122px" x="1188px" y="455px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="20px" width="122px" x="1188px" y="435px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="80px" stroke="#000000" stroke-width="1px" width="147px" x="1163px" y="435px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1188,435 1188,447 1178,447 1178,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1200,435 1200,447 1210,447 1210,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1223,435 1223,447 1233,447 1233,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1245,435 1245,447 1255,447 1255,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1268,435 1268,447 1278,447 1278,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <polyline class="AnPolyline" fill="none" points="1290,435 1290,447 1300,447 1300,435 " stroke="#000000" stroke-width="1px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="30px" stroke="#000000" stroke-width="1px" width="15px" x="1168px" y="462px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="10px" stroke="#000000" stroke-width="1px" width="5px" x="1168px" y="495px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="3px" stroke="#000000" stroke-width="1px" width="10px" x="1168px" y="507px" />
+
+      
+      <circle class="AnCircle" cx="1173px" cy="455px" fill="none" r="5.00px" stroke="#000000" stroke-width="1px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1188px" x2="1200px" y1="440px" y2="440px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1210px" x2="1223px" y1="440px" y2="440px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1233px" x2="1245px" y1="440px" y2="440px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1255px" x2="1268px" y1="440px" y2="440px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1278px" x2="1290px" y1="440px" y2="440px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1188px" x2="1310px" y1="455px" y2="455px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1188px" x2="1310px" y1="472px" y2="472px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1188px" x2="1310px" y1="505px" y2="505px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1188px" x2="1188px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1298px" x2="1298px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1293px" x2="1293px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1275px" x2="1275px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1270px" x2="1270px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1253px" x2="1253px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1248px" x2="1248px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1230px" x2="1230px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1225px" x2="1225px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1208px" x2="1208px" y1="447px" y2="515px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1203px" x2="1203px" y1="447px" y2="515px" />
+
+    
+    </g>
+
+    
+    <g class="PMS_static RIO Symbol" id="PMS_static RIO_1_4">
+
+      
+      <polygon class="AnPolygon" fill="#218A21" fill-rule="evenodd" points="1282,618 1062,618 1062,623 1039,623 1039,719 1290,719 1290,623 1282,623 1282,618 " />
+
+      
+      <rect class="AnRectangle" fill="#989898" fill-rule="evenodd" height="60px" width="95px" x="1062px" y="654px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="31px" width="118px" x="1164px" y="623px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="31px" width="95px" x="1062px" y="623px" />
+
+      
+      <rect class="AnRectangle" fill="#989898" fill-rule="evenodd" height="60px" width="118px" x="1164px" y="654px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1039px" x2="1290px" y1="714px" y2="714px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1062px" x2="1062px" y1="623px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1157px" x2="1157px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1087px" x2="1087px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1104px" x2="1104px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1122px" x2="1122px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1139px" x2="1139px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1062px" x2="1282px" y1="623px" y2="623px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1164px" x2="1164px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1182px" x2="1182px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1202px" x2="1202px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1222px" x2="1222px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1242px" x2="1242px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1262px" x2="1262px" y1="618px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1282px" x2="1282px" y1="623px" y2="719px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1164px" x2="1282px" y1="654px" y2="654px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1062px" x2="1157px" y1="691px" y2="691px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1062px" x2="1157px" y1="704px" y2="704px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1062px" x2="1157px" y1="666px" y2="666px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1062px" x2="1157px" y1="654px" y2="654px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1062px" x2="1157px" y1="679px" y2="679px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1164px" x2="1282px" y1="691px" y2="691px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1164px" x2="1282px" y1="666px" y2="666px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1164px" x2="1282px" y1="679px" y2="679px" />
+
+      
+      <line class="AnLine" fill="none" stroke="#000000" stroke-width="1px" x1="1164px" x2="1282px" y1="704px" y2="704px" />
+
+      
+      <rect class="AnRectangle" fill="#989898" fill-rule="evenodd" height="3px" width="15px" x="1067px" y="646px" />
+
+    
+    </g>
+
+    
+    <g class="DCN_static HUB Symbol" id="DCN_static HUB_3_5">
+
+      
+      <rect class="AnRectangle" fill="#989898" fill-rule="evenodd" height="30px" width="225px" x="1025px" y="72px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="30px" stroke="#000000" stroke-width="3px" width="225px" x="1025px" y="72px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="1137px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="1160px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="1182px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="1205px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="1228px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="1070px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="1092px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="#D6DADD" fill-rule="evenodd" height="15px" width="15px" x="1115px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="1137px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="1160px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="1182px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="1205px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="1228px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="1070px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="1092px" y="80px" />
+
+      
+      <rect class="AnRectangle" fill="none" height="15px" stroke="#000000" stroke-width="1px" width="15px" x="1115px" y="80px" />
+
+    
+    </g>
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="5px" x1="409px" x2="782px" y1="173px" y2="173px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="5px" x1="951px" x2="1324px" y1="173px" y2="173px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="55,795 1553,795 " stroke="#000000" stroke-dasharray=" 21 3" stroke-dashoffset="0" stroke-width="1px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,240.104004,29.152000)" x="0px" y="12px">LMC TER1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.500000,0.000000,0.000000,2.500000,58.130001,748.690002)" x="0px" y="12px">Concourse Level</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1123.500000,729.750000)" x="0px" y="12px">IBP RI/O</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1107.500000,529.750000)" x="0px" y="12px">IBP PLC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,542.500000,333.750000)" x="0px" y="12px">Field PLC</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,531.500000,38.750000)" x="0px" y="12px">MCS Switch 1</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,1064.500000,37.750000)" x="0px" y="12px">MCS Switch 2</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(2.000000,0.000000,0.000000,2.000000,716.304016,423.152008)" x="0px" y="12px">LMC SCR</text>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Pscada_Line">
+
+    
+    <polyline class="AnPolyline" fill="none" points="600,101 600,172 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1141,101 1141,172 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="578,241 578,173 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1060,173 1060,211 620,211 620,241 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="715,204 715,173 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="715,251 715,218 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1059,251 715,251 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1059,435 1059,252 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1222,435 1222,173 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1085,618 1085,470 " stroke="#000000" stroke-width="1px" />
+
+    
+    <polyline class="AnPolyline" fill="none" points="1085,567 1242,567 1242,520 " stroke="#000000" stroke-width="1px" />
+
+  
+  </g>
+
+</svg>

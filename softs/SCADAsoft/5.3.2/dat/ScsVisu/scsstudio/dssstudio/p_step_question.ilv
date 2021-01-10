@@ -1,0 +1,40 @@
+// Ilv Version: 3.1
+// File generated: Mon Feb 14 18:03:40 2000
+// Creator class: IlvGadgetManagerOutput
+FileName "p_step_question"
+PathName "D:\\Scadaref\\scadasoft\\dat\\ScsVisu\\scsstudio\\dssstudio\\p_step_question.ilv"
+Palettes 4
+"default" 3 "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0
+1 "gray" "black" "%Times New Roman-12-" 0 solid solid 0 0 0
+"default" 2 "gray" "black" "normal" "StockedDefaultGui" 0 solid solid 0 0 0
+0 "gray" "black" "button" "StockedDefaultGui" 0 solid solid 0 0 0
+IlvObjects 6
+2 { 0 0 IlvButton 15 92 70 23 F9 2 1 16 4 "&apply"   } 608 "apply" "Button"
+1
+1 "__ilvCallback" "apply"
+144 1 15 1 10
+2 { 1 0 IlvButton 203 92 70 23 F9 2 1 16 4 "&cancel"   } 608 "cancel" "Button"
+1
+1 "__ilvCallback" "cancel"
+192 1 15 1 10
+2 { 2 1 IlvReliefLine 1 69 288 70 1 } 32 "separator"
+464 1 0 1 0 1 55 2
+2 { 3 2 IlvOptionMenu 163 40 110 20 F1 2 10
+IlvMenuItem 65 2 4 "DssBeginStep"
+IlvMenuItem 1 2 4 "DssCallStep"
+IlvMenuItem 1 2 4 "DssCheckStep"
+IlvMenuItem 1 2 4 "DssChooseStep"
+IlvMenuItem 1 2 4 "DssCreateStep"
+IlvMenuItem 1 2 4 "DssDoStep"
+IlvMenuItem 1 2 4 "DssGraphicStep"
+IlvMenuItem 1 2 4 "DssEndStep"
+IlvMenuItem 1 2 4 "DssExecuteStep"
+IlvMenuItem 1 2 4 "DssWaitStep"   0  } 32 "MenuStep"
+0
+2 { 4 3 IlvIcon 5 5 "default" "" } 32 "bitmap"
+0
+2 { 5 2 IlvMessageLabel 52 12 233 22 F8 0 25 16 4 "MessageLabel"   } 32 "title"
+0
+Size 288 125
+Background "gray"
+EOF

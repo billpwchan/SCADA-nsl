@@ -1,0 +1,15 @@
+#ifndef _SCSPROCESS_IDL_
+#define _SCSPROCESS_IDL_
+
+interface ScsProcessIdl
+{
+
+  string scs_implementation();
+  string scs_host();
+
+  // The following function does nothing but guarantees, 
+  // if no exception is raised, that the servant is alive
+  void isAlive();
+};
+
+#endif // _SCSPROCESS_IDL_

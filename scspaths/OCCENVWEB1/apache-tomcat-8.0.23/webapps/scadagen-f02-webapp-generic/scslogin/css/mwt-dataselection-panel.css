@@ -1,0 +1,109 @@
+/****************************************/
+/*   Data selection panel               */
+/****************************************/
+.mwt-dataSelection {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 0;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  margin-top: 8px;
+}
+
+/**********************/
+/* measures selection */
+/**********************/
+.mwt-dataSelection-addButton {
+  -webkit-align-self: flex-end;
+  align-self: flex-end;
+}
+.mwt-dataSelection-measureLabel {
+  color: #FFFFFF;
+  margin: 4px 8px;
+/*   font-family: "Roboto-medium"; */
+  font-size: 13px;
+}
+.mwt-dataSelection-measureContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.mwt-dataSelection-measureItem {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #FFFFFF;
+  margin: 4px 8px;
+  cursor: pointer;
+}
+.mwt-dataSelection-measureItem input,
+.mwt-dataSelection-measureItem label {
+  cursor: pointer;
+}
+.mwt-dataSelection-measureItem label {
+/*   font-family: "Roboto-medium"; */
+  font-size: 13px;
+}
+.mwt-dataSelection-tagContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin: 10px 0px;
+}
+
+/************************/
+/* tags selection panel */
+/************************/
+.mwt-tagSelection {
+  margin-left: 25px;
+  margin-right: 25px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.mwt-tagSelection-label {
+  color: #999999;
+  margin: 4px 8px;
+/*   font-family: "Roboto-medium"; */
+  font-size: 13px;
+}
+.mwt-tagSelection-scrollContainer {
+  flex-grow: 1;
+  flex-shrink: 0;
+  position: relative;
+}
+.mwt-tagSelection-container {
+/*   display: -webkit-flex; */
+/*   display: flex; */
+/*   -webkit-flex-direction: column; */
+/*   flex-direction: column; */
+  overflow: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+.mwt-tagSelection-item {
+/*   font-family: "Roboto-medium"; */
+  font-size: 13px;
+  display: block;
+}
+.mwt-tagSelection-item input,
+.mwt-tagSelection-item label {
+  cursor: pointer;
+}

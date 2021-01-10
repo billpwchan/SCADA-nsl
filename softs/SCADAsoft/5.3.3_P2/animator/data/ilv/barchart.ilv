@@ -1,0 +1,32 @@
+// Ilv Version: 2.3
+// File generated: Tue Nov 12 19:17:07 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+0 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 2 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+1 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 20
+1 { 0 0 IlvFrame 5 91 214 154 0 "&data" 1 } 32 "Frame_1" 976 1 5 1 137 1 48 2 2
+1 { 1 0 IlvFrame 5 4 214 83 0 "&scale" 1 } 0 336 1 5 1 137 2
+1 { 2 0 IlvFrame 226 4 125 241 0 "&bar" 1 } 0 736 1 4 1 5 1 48 2
+2 { 3 1 IlvLabel 17 41 "X" } 0 16 1 17
+2 { 4 1 IlvTextField 111 22 83 22 F6 2 1 -1 0 "" } 96 "scaleX" "TextField" 336 1 111 1 162 2
+2 { 5 0 IlvButton 7 265 60 23 F1 2 16 Y "&apply" } 64 "Button" 148 "apply" 1 7 1 5
+2 { 6 0 IlvButton 291 265 60 23 F1 2 16 Y "&close" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 7 1 IlvLabel 18 70 "Y" } 0 16 1 18
+2 { 8 1 IlvTextField 111 51 83 22 F6 2 1 -1 0 "" } 96 "scaleY" "TextField" 336 1 111 1 162 2
+2 { 9 1 IlvButton 18 145 79 23 F1 2 16 Y "&remove" } 96 "removeButton" "Button" 20 "remove" 1 18
+2 { 10 1 IlvScrolledStringList 107 144 102 41 F1 2 0 1 0 0 1
+"item" A A } 96 "list" "ScrolledStringList" 2004 "select" "select" 1 107 1 147 1 108 2 2
+2 { 11 1 IlvButton 18 175 79 23 F1 2 16 Y "&replace" } 96 "replaceButton" "Button" 20 "replace" 1 18
+2 { 12 1 IlvButton 18 205 79 23 F1 2 16 Y "&add" } 96 "addButton" "Button" 20 "add" 1 18
+2 { 13 1 IlvTextField 108 110 101 22 F6 2 1 -1 0 "" } 96 "text" "TextField" 340 "add" 1 108 1 147 2
+2 { 14 1 IlvTextField 237 54 104 22 F6 2 1 -1 0 "" } 96 "size" "TextField" 64 1 15
+2 { 15 1 IlvOptionMenu 236 123 105 20 2 2 0
+"&vertical"
+"&horizontal" } 96 "orientation" "OptionMenu" 64 1 15
+2 { 16 1 IlvButton 18 115 79 23 F1 2 16 Y "&clean" } 64 "Button" 20 "clean" 1 18
+3 { 17 2 IlvReliefLine 0 257 356 257 1 } 32 "line" 464 1 0 1 0 1 35 2
+3 { 18 1 IlvMessageLabel 236 28 92 26 0 "&size" 1 } 0 64 1 28
+3 { 19 1 IlvMessageLabel 237 96 98 26 0 "&orientation" 1 } 0 64 1 21
+Size 356 293

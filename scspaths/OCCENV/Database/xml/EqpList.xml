@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="EqpList" numAttributes="4" numInstances="0" numPeriod_MT="" numPeriod_ST="" period_MT="" period_ST="">
+<AttributeDescription attrType="STATIC" name="modeTable" replicated="0">
+<StructVector numElementsList="420" numElementsStruct="2">
+<StructFieldDescription name="alias">
+<Scalar size="129" valueType="CHARN"/>
+</StructFieldDescription>
+<StructFieldDescription name="targetValue">
+<Scalar size="4" valueType="INT32"/>
+</StructFieldDescription>
+</StructVector>
+<StructVectorDefaultValue numElementsList="420">
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="0"/>
+</StructFieldDefaultValue>
+</StructVectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="modeStatus" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+</Class>

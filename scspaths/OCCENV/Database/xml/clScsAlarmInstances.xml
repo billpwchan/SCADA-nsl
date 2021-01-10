@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="clScsAlarm">
+<InstanceDescription alias="ScsAlarm">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="ScsAlarm"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="ScsAlarm"/>
+</AttributDescription>
+<AttributDescription attrId="format">
+<StructVectorValue>
+<StructFieldValue>
+<ScalarValue value="^:^.label;^:^.shortLabel;^.label;#label;^:^.name;^.nom_instance;^:^.type"/>
+<ScalarValue value="|RTDB_E_DCI|%|%|%|%||||||||%:%|%||||"/>
+<ScalarValue value="ScsString;ScsString;ScsString;ScsString;ScsString;ScsString;ScsString"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="^:^.label;^:^.shortLabel;^.label;#label;^.computedMessage;^:^.name;^.nom_instance;^:^.type"/>
+<ScalarValue value="|RTDB_E_ACI|%|%|%|%|%|||||||%:%|%||||"/>
+<ScalarValue value="ScsString;ScsString;ScsString;ScsString;ScsString;ScsString;ScsString;ScsString"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="^:^.label;^:^.shortLabel;^.label;#label;^.valueDate;^:^.name;^.nom_instance;^:^.type"/>
+<ScalarValue value="|RTDB_SOE_DCI|%|%|%|%||%||||||%:%|%||||"/>
+<ScalarValue value="ScsString;ScsString;ScsString;ScsString;ScsTime(%x %X.%l);ScsString;ScsString;ScsString"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="^:^.label;^:^.shortLabel;^:^:TrainID.computedValue;^.label;#label;^:^.name;^.nom_instance;^:^.type"/>
+<ScalarValue value="|RTDB_E_DCI|%|%|% %|%||||||||%:%|%||||"/>
+<ScalarValue value="ScsString;ScsString;ScsString;ScsString;ScsString;ScsString;ScsString;ScsString"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+<ScalarValue value=""/>
+</StructFieldValue>
+</StructVectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

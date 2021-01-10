@@ -1,0 +1,10 @@
+version: 1
+dn: ou=matchingRuleUse,cn=core,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 27e0ec4b-9943-4b88-a389-c2ac8d28f75a
+ou: matchingruleuse
+entryUUID: ed172d9f-bdb8-4bee-9003-a2b3bb741091
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.316Z
+entryCSN: 20140513151214.708000Z#000020#000#000000

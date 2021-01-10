@@ -1,0 +1,76 @@
+// Ilv Version: 5.0
+// File generated: Fri Nov 05 16:32:57 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "astiquerytestobj"
+PathName "D:\\SOFTS\\animator4\\anstudio\\data\\anilv\\astiquerytestobj.ilv"
+Palettes 2
+"AstInputPalette" 1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 8
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 4 4 304 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ObjectName"  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvTextField 14 24 183 20 F6 2 1 -1 0 "" } 544 "ObjectName"
+1
+1 "__ilvCallback" "objectNameCB"
+4096 "ButSensitive"
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 210 26 92 16 F1 2 1 2 0 0 0 Y "&Allbut" } 544 "ButObjectName"
+1
+1 "__ilvCallback" "butObjectNameCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 4 115 304 50 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Sensitivity"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 15 138 72 16 F1 2 1 2 1 0 0 Y "Sensitive" } 544 "Sensitive"
+1
+1 "__ilvCallback" "sensitiveCB"
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 96 138 72 16 F1 2 1 2 1 0 0 Y "Insensitive" } 544 "Insensitive"
+1
+1 "__ilvCallback" "insensitiveCB"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 210 138 92 16 F1 2 1 2 0 0 0 Y "&Allbut" } 544 "ButSensitive"
+1
+1 "__ilvCallback" "butSensitiveCB"
+2048 "ObjectName"
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 120 78 62 20 F807 2 16 -1 0 "&And" 2
+{ IlvGadgetItem 1 2 4 "&And"  } 
+{ IlvGadgetItem 1 2 4 "&Or"  }  4 0 } 32 "Condition"
+6144 "Condition2" "NoteBook"
+Size 313 176
+GeometryHandlers
+1 100 0 313 0 313 0
+8 3 0 0 4  304 0 304 0  0 0 5 0
+ 3 0 0 4  304 0 304 3  0 0 5 0
+ 3 0 0 14  183 0 183 1  0 20 116 0
+ 3 0 0 96  0 0 72 5  145 49 145 0
+ 3 0 0 15  0 0 72 4  226 0 226 0
+ 3 210 0 210  0 0 92 6  0 0 11 0
+ 3 210 0 210  0 0 92 2  0 0 11 0
+ 3 120 0 120  0 0 62 7  131 0 131 0
+3 100 0 59 0 59 0
+ 100 0 56 59 56 59
+ 100 0 61 115 61 115
+3 3 26 0 26  0 0 16 2  17 0 17 0
+ 3 24 0 24  0 0 20 1  15 0 15 0
+ 3 4 0 4  50 0 50 0  5 0 5 0
+1 3 19 0 19  0 0 20 7  17 0 17 1
+4 3 23 0 23  0 0 16 6  22 0 22 2
+ 3 23 0 23  0 0 16 5  22 0 22 2
+ 3 23 0 23  0 0 16 4  22 0 22 2
+ 3 0 0 0  50 0 50 3  0 0 11 2
+EOF

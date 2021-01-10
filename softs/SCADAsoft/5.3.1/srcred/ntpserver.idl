@@ -1,0 +1,40 @@
+//-*-c++-*-
+/******************************************************************************/
+/*                                                                            */
+/*  FILE             : his.idl                                                */
+/*  FULL NAME                :                                                */
+/*----------------------------------------------------------------------------*/
+/*  AUTHOR           : Y. Lozinguez                                           */
+/*  COMPANY          : SYSECA                                                 */
+/*  CREATION DATE    : Fri Jan 15 10:54:23 1999                               */
+/*  LANGUAGE         : C++                                                    */
+/*............................................................................*/
+/*  OVERVIEW                                                                  */
+/*                                                                            */
+/*............................................................................*/
+/*  CONTENTS                                                                  */
+/*                                                                            */
+/******************************************************************************/
+// IDENTIFICATION:
+// $Id: $
+//
+// HISTORY:
+// $Log: $
+
+#include "scstype.idl"
+#include "scsredtype.idl"
+
+struct NtpInfo {
+  string alias;
+  short digitalValue;
+  short infoSource;
+  short validity;
+  long infoId;
+};
+
+typedef sequence<NtpInfo> NtpInfoList;
+
+interface NtpServerIdl : ScsProcessIdl
+{
+    oneway void newPosition(in NtpInfoList info, in short lastMessage); //1 if this is the last message of the writing
+};

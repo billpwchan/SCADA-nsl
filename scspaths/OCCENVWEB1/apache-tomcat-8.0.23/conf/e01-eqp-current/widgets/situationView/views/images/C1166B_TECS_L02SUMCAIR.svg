@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="2281" preserveAspectRatio="xMinYMin meet" style="background-color:#D2D2D2;" version="1.1" viewBox="0 0 4467 2281" width="4467">
+
+  
+  <g class="AnLayer" id="AnDefaultLayer">
+
+    
+    <polyline class="AnPolyline" fill="none" points="484,1181 3982,1181 " stroke="#000000" stroke-dasharray=" 21 3" stroke-dashoffset="0" stroke-width="1px" />
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement">
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Equipement Text">
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,1240.000000,274.000000)" x="0px" y="12px">SSVB-AIC-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,1240.000000,913.000000)" x="0px" y="12px">SSVB-AIC-002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,1903.000000,527.000000)" x="0px" y="12px">AIR</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,1898.000000,602.000000)" x="0px" y="12px">TREATMENT</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,1903.000000,677.000000)" x="0px" y="12px">PANEL</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2742.000000,254.000000)" x="0px" y="12px">SSVB-AIR-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2742.000000,915.000000)" x="0px" y="12px">SSVB-AIR-002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(6.199960,0.000000,0.000000,6.480000,1537.859985,76.680000)" x="0px" y="12px">LMC SSV TECS  Compressed Air Summary</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,1240.000000,1502.000000)" x="0px" y="12px">CTVB-AIC-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,1240.000000,2141.000000)" x="0px" y="12px">CTVB-AIC-002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,1904.000000,1755.000000)" x="0px" y="12px">AIR</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,1899.000000,1830.000000)" x="0px" y="12px">TREATMENT</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(5.000000,0.000000,0.000000,5.000000,1904.000000,1905.000000)" x="0px" y="12px">PANEL</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2742.000000,1482.000000)" x="0px" y="12px">CTVB-AIR-001</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(4.000000,0.000000,0.000000,4.000000,2742.000000,2143.000000)" x="0px" y="12px">CTVB-AIR-002</text>
+
+    
+    <text class="AnText" fill="#000000" font-family="Arial" font-size="12" font-style="normal" font-weight="normal" text-decoration="none" transform="matrix(6.199960,0.000000,0.000000,6.480000,1528.260010,1304.680054)" x="0px" y="12px">LMC CTV TECS  Compressed Air Summary</text>
+
+  
+  </g>
+
+  
+  <g class="AnLayer" id="Emcs_Sch_Line">
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1487px" x2="1877px" y1="431px" y2="431px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1487px" x2="1877px" y1="831px" y2="831px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2299px" x2="2596px" y1="646px" y2="646px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3238px" x2="3337px" y1="653px" y2="653px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2598px" x2="2598px" y1="802px" y2="483px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2598px" x2="2844px" y1="483px" y2="483px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2844px" x2="2598px" y1="802px" y2="802px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3238px" x2="3238px" y1="483px" y2="802px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2963px" x2="3238px" y1="483px" y2="483px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3238px" x2="2963px" y1="802px" y2="802px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1488px" x2="1878px" y1="1659px" y2="1659px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1488px" x2="1878px" y1="2059px" y2="2059px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2300px" x2="2597px" y1="1874px" y2="1874px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3239px" x2="3338px" y1="1881px" y2="1881px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2599px" x2="2599px" y1="2030px" y2="1711px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2599px" x2="2845px" y1="1711px" y2="1711px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2845px" x2="2599px" y1="2030px" y2="2030px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3239px" x2="3239px" y1="1711px" y2="2030px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2964px" x2="3239px" y1="1711px" y2="1711px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="3239px" x2="2964px" y1="2030px" y2="2030px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2298px" x2="2298px" y1="1532px" y2="2221px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1878px" x2="1878px" y1="2221px" y2="1532px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1878px" x2="2298px" y1="1532px" y2="1532px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2298px" x2="1878px" y1="2221px" y2="2221px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2297px" x2="2297px" y1="304px" y2="993px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1877px" x2="1877px" y1="993px" y2="304px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="1877px" x2="2297px" y1="304px" y2="304px" />
+
+    
+    <line class="AnLine" fill="none" stroke="#000000" stroke-width="2px" x1="2297px" x2="1877px" y1="993px" y2="993px" />
+
+  
+  </g>
+
+</svg>

@@ -1,0 +1,27 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="DSS_TACK_D_State_Selected"><g id="_C1166B_SYMBOLS_DSS_C1166B_DSS_TACK_D_HIGHLIGHT_2_SELECTED_SVG" transform="translate(-100.0 -100.0)scale(1.0 1.0)"><rect x="39.0" fill="red" width="122.0" height="42.0" y="79.0" opacity="0"/><g id="DSS/C1166B_DSS_TACK_D_Highlight_2_Selected" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <polygon fill="#FFFFCF" class="AnPolygon" fill-rule="evenodd" points="-60,-20 -56,-20 -56,-4 -60,-4 "/>
+
+  
+  <polygon fill="#FFFFCF" class="AnPolygon" fill-rule="evenodd" points="-60,-20 -44,-20 -44,-16 -60,-16 "/>
+
+  
+  <polygon fill="#FFFFCF" class="AnPolygon" fill-rule="evenodd" points="60,-4 60,-20 57,-20 57,-4 "/>
+
+  
+  <polygon fill="#FFFFCF" class="AnPolygon" fill-rule="evenodd" points="-44,20 -60,20 -60,17 -44,17 "/>
+
+  
+  <polygon fill="#FFFFCF" class="AnPolygon" fill-rule="evenodd" points="60,20 45,20 45,17 60,17 "/>
+
+  
+  <polygon fill="#FFFFCF" class="AnPolygon" fill-rule="evenodd" points="-60,5 -56,5 -56,20 -60,20 "/>
+
+  
+  <polygon fill="#FFFFCF" class="AnPolygon" fill-rule="evenodd" points="45,-20 60,-20 60,-16 45,-16 "/>
+
+  
+  <polygon fill="#FFFFCF" class="AnPolygon" fill-rule="evenodd" points="57,5 60,5 60,20 57,20 "/>
+
+</g><animate dur="1.0" attributeName="visibility" from="hidden" repeatCount="indefinite" to="visible"/></g></g></svg>

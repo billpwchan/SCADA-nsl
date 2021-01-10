@@ -1,0 +1,58 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:30:17 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astiagregat"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astiagregat.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"AstInputPalette" 1 F "gray" "black" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 6
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 100 16 221 22 F6 2 1 -1 0 "" } 544 "AgregatName"
+1
+1 "__ilvCallback" "objectNameCB"
+4096 "cancelButton"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 5 16 43 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Name"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 5 46 86 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "&comment"  }   } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvTextField 100 46 221 78 F6 2 1 -1 0 "" } 544 "ObjectCommentText"
+1
+1 "__ilvCallback" "objectCommentCB"
+0
+2 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+0 IlvButton 5 132 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&ok"  }   } 544 "applyButton"
+1
+1 "__ilvCallback" "okCB"
+2048 "xfield"
+2 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+0 IlvButton 248 132 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&cancel"  }   } 544 "cancelButton"
+1
+1 "__ilvCallback" "cancelCB"
+10240 "AgregatName"
+Size 328 163
+GeometryHandlers
+1 100 0 328 0 328 0
+4 3 0 0 100  221 0 221 0  0 0 7 0
+ 3 0 0 100  221 0 221 3  0 0 7 0
+ 3 0 0 5  0 0 73 4  250 0 250 0
+ 3 248 0 248  0 0 73 5  0 0 7 0
+1 100 0 163 0 163 0
+4 3 0 0 16  0 0 22 0  125 0 125 0
+ 3 0 0 46  78 0 78 3  39 0 39 0
+ 3 132 0 132  0 0 23 4  0 0 8 0
+ 3 132 0 132  0 0 23 5  0 0 8 0
+Layers 3
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

@@ -1,0 +1,32 @@
+// Ilv Version: 5.0
+// File generated: Mon Nov 08 11:11:57 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "statpanel"
+PathName "M:\\devsrc_dla\\scs_source\\src\\dat\\browser\\statpanel.ilv"
+Palettes 1
+"IlvStToolBar" 0 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 2
+1 { 0 P 2
+[ IlvPanelObjectReference IlvPanelObjectReference  "1090587397.0" ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNotebook 10 10 780 528 F1 2 0 2  3
+" { IlvNotebookPageItem 1 2 4 "&DepTitle"  }  B "statdep.ilv"
+" { IlvNotebookPageItem 1 2 4 "&TopFTitle"  }  B "stattopf.ilv"
+" { IlvNotebookPageItem 1 2 4 "&TopRWCTitle"  }  B "stattoprwc.ilv"
+0 0 4 5 2 10 10 10 10  } 32 "StatNotebook"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 362 567 73 23 F268435469 2 { IlvMessageItem 262145 4 16 4 "&close"  }   } 544 "CloseStatPanelBtn"
+1
+1 "__ilvCallback" "CloseStatPanelCB"
+0
+Size 800 600
+GeometryHandlers
+1 100 0 800 0 800 0
+2 3 0 0 10  780 0 780 0  0 0 10 0
+ 3 362 0 362  0 0 73 1  365 0 365 0
+1 100 0 600 0 600 0
+2 3 0 0 10  528 0 528 0  0 0 62 0
+ 3 567 0 567  0 0 23 1  0 0 10 0
+EOF

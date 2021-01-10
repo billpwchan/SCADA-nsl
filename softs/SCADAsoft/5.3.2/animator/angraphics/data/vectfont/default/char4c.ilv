@@ -1,0 +1,15 @@
+// Ilv Version: 2.3
+// File generated: Fri Jun 27 16:43:17 1997
+// Creator class: IlvManagerOutput
+Palettes 1
+"default" 0 "gray" "black" "default" "StockedSystem" 0 solid solid 0 0 0
+IlvObjects 4
+1 { 0 0 IlvLine 236 253 165 253 } 0
+1 { 1 0 IlvLine 165 253 165 147 } 0
+1 { 2 0 IlvMarker 133 252 16 4 } 0
+1 { 3 0 IlvMarker 273 252 16 4 } 0
+Layers 2
+0
+0
+Views 1
+"v13" 1 0 0 1 0 0

@@ -1,0 +1,33 @@
+<svg contentScriptType="text/ecmascript" xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify" contentStyleType="text/css" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" version="1.0"><g id="WKST_Symbol_Undefined"><g id="_C1166B_SYMBOLS_COMP_C1166B_COM_WKST_0_UNDEFINED_SVG" transform="translate(-99.57399 -100.0)scale(1.0 1.0)"><rect x="55.0" fill="red" width="90.0" height="86.0" y="57.0" opacity="0"/><g id="Comp/C1166B_COM_WKST_0_Undefined" transform="matrix(1.000000, 0, 0, 1.000000, 100.000000, 100.000000)">
+
+  
+  <rect x="-33px" y="-40px" fill="#D6DADD" width="65px" fill-rule="evenodd" class="AnRectangle" height="53px"/>
+
+  
+  <rect x="-25px" y="13px" fill="#E0E4E5" width="50px" fill-rule="evenodd" class="AnRectangle" height="7px"/>
+
+  
+  <rect x="-25px" y="-35px" fill="none" width="50px" class="AnRectangle" height="43px" stroke="#000000" stroke-width="1px"/>
+
+  
+  <line fill="none" x1="-25px" x2="25px" y1="20px" y2="20px" class="AnLine" stroke="#D6DADD" stroke-width="1px"/>
+
+  
+  <polygon fill="#D6DADD" class="AnPolygon" fill-rule="evenodd" points="-25,20 -33,20 -43,40 42,40 32,20 -25,20 "/>
+
+  
+  <polyline fill="none" stroke-width="3px" class="AnPolyline" points="-33,-40 -33,13 -25,13 -25,20 -33,20 -43,40 42,40 32,20 25,20 25,13 32,13 32,-40 -33,-40 " stroke="#989898"/>
+
+  
+  <line fill="none" x1="-25px" x2="25px" y1="25px" y2="25px" class="AnLine" stroke="#000000" stroke-width="1px"/>
+
+  
+  <line fill="none" x1="-30px" x2="30px" y1="30px" y2="30px" class="AnLine" stroke="#000000" stroke-width="1px"/>
+
+  
+  <line fill="none" x1="-28px" x2="27px" y1="35px" y2="35px" class="AnLine" stroke="#000000" stroke-width="1px"/>
+
+  
+  <line fill="none" x1="-25px" x2="25px" y1="13px" y2="13px" class="AnLine" stroke="#000000" stroke-width="1px"/>
+
+</g></g></g></svg>

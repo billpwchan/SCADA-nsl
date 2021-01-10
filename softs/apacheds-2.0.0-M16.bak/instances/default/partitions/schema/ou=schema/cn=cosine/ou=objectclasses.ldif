@@ -1,0 +1,10 @@
+version: 1
+dn: ou=objectClasses,cn=cosine,ou=schema
+objectclass: organizationalUnit
+objectclass: top
+entryParentId: 6fb331a7-1adf-43ac-b3f5-d959c309a15b
+ou: objectclasses
+entryUUID: a565a661-dc55-4a3d-a5dc-17decb13d444
+creatorsname: uid=admin,ou=system
+createTimestamp: 20140513151220.410Z
+entryCSN: 20140513151214.754000Z#00001c#000#000000

@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="ufe_string">
+<InstanceDescription alias="KOTECTSUMM0001MODECombineMODE1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTSUMM0001MODECombineMODE1"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Combine the Mode 1,2,4 and 5 status"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="CombineMODE1"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;KOTECTCMO10001:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;KOTECTCMO10001:dciECT-STATUS.value]=1),&quot;1&quot;,&quot;&quot;),IF(([&lt;alias&gt;KOTECTCMO10002:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;KOTECTCMO10002:dciECT-STATUS.value]=1),&quot;2&quot;,&quot;&quot;),IF(([&lt;alias&gt;KOTECTCMO10003:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;KOTECTCMO10003:dciECT-STATUS.value]=1),&quot;4&quot;,&quot;&quot;),IF(([&lt;alias&gt;KOTECTCMO10004:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;KOTECTCMO10004:dciECT-STATUS.value]=1),&quot;5&quot;,&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="KOTECTSUMM0001MODECombineMODE2" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="KOTECTSUMM0001MODECombineMODE2"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Combine the Mode 3 and 6 status"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="CombineMODE2"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;KOTECTEMO10001:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;KOTECTEMO10001:dciECT-STATUS.value]=1),&quot;3&quot;,&quot;&quot;),IF(([&lt;alias&gt;KOTECTEMO10002:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;KOTECTEMO10002:dciECT-STATUS.value]=1),&quot;6&quot;,&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCCRDSCRD0001CModCtrlCmodDioAlaisDn" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCCRDSCRD0001CModCtrlCmodDioAlaisDn"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Construct the mapped C-mode DIO alias"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="CmodDioAlaisDn"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="IF(({&lt;alias&gt;OCCSIGSUMM0001:calcDnTrackCMOD:tableIndex.computedValue}&gt;0) AND ([^:^:dciCRD-ASISALM.value]=0),StrJoin(&quot;:&quot;,{&lt;alias&gt;OCCSIGSUMM0001calcDnTrackCMOD:mappingTabResult.computedValue},&quot;dioECT-CTLCMD&quot;),&quot;NA&quot;)" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCCRDSCRD0001CModCtrlCmodDioAlaisUp" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCCRDSCRD0001CModCtrlCmodDioAlaisUp"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Construct the mapped C-mode DIO alias"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="CmodDioAlaisUp"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="IF(({&lt;alias&gt;OCCSIGSUMM0001:calcUpTrackCMOD:tableIndex.computedValue}&gt;0) AND ([^:^:dciCRD-ASISALM.value]=0),StrJoin(&quot;:&quot;,{&lt;alias&gt;OCCSIGSUMM0001calcUpTrackCMOD:mappingTabResult.computedValue},&quot;dioECT-CTLCMD&quot;),&quot;NA&quot;)" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0002RepeatActioninDioName" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0002RepeatActioninDioName"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dio resend control name"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDioName"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="^:^:dioECT-CTLCMD"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="IF([:ScadaSoft.dpcTrigger]&gt;0,[.value],[.value])" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0003RepeatActioninDioName" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0003RepeatActioninDioName"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dio resend control name"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDioName"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="^:^:dioECT-CTLCMD"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="IF([:ScadaSoft.dpcTrigger]&gt;0,[.value],[.value])" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0004RepeatActioninDioName" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0004RepeatActioninDioName"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dio resend control name"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDioName"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="^:^:dioECT-CTLCMD"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="IF([:ScadaSoft.dpcTrigger]&gt;0,[.value],[.value])" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0005RepeatActioninDioName" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0005RepeatActioninDioName"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dio resend control name"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDioName"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="^:^:dioECT-CTLCMD"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="IF([:ScadaSoft.dpcTrigger]&gt;0,[.value],[.value])" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0006RepeatActioninDioName" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0006RepeatActioninDioName"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dio resend control name"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDioName"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="^:^:dioECT-CTLCMD"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="IF([:ScadaSoft.dpcTrigger]&gt;0,[.value],[.value])" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0007RepeatActioninDioName" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0007RepeatActioninDioName"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dio resend control name"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDioName"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="^:^:dioECT-CTLCMD"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="IF([:ScadaSoft.dpcTrigger]&gt;0,[.value],[.value])" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0008RepeatActioninDioName" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0008RepeatActioninDioName"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dio resend control name"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDioName"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="^:^:dioECT-CTLCMD"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="IF([:ScadaSoft.dpcTrigger]&gt;0,[.value],[.value])" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTCALM0009RepeatActioninDioName" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTCALM0009RepeatActioninDioName"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="dio resend control name"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="inDioName"/>
+</AttributDescription>
+<AttributDescription attrId="value">
+<ScalarValue value="^:^:dioECT-CTLCMD"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="IF([:ScadaSoft.dpcTrigger]&gt;0,[.value],[.value])" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTSUMM0001CMODCurrCMOD1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTSUMM0001CMODCurrCMOD1"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Calculate the running C mode number C1 to C4"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="CurrCMOD1"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;LMCECTCALM0002:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0002:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0002.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0003:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0003:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0003.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0004:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0004:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0004.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0005:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0005:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0005.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTSUMM0001CMODCurrCMOD2" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTSUMM0001CMODCurrCMOD2"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Calculate the running C mode number C5 to C8"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="CurrCMOD2"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;LMCECTCALM0006:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0006:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0006.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0007:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0007:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0007.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0008:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0008:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0008.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0009:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0009:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0009.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTSUMM0001EMODCurrEMOD1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTSUMM0001EMODCurrEMOD1"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Calculate the running E mode number F1 to F4"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="CurrEMOD1"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;LMCECTCALM0010:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0010:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0010.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0014:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0014:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0014.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0015:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0015:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0015.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0016:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0016:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0016.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTSUMM0001EMODCurrEMOD2" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTSUMM0001EMODCurrEMOD2"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Calculate the running E mode number F5 to F7X"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="CurrEMOD2"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;LMCECTCALM0017:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0017:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0017.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0018:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0018:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0018.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0019:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0019:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0019.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0020:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0020:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0020.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTSUMM0001EMODCurrEMOD3" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTSUMM0001EMODCurrEMOD3"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Calculate the running E mode number F8 and F9"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="CurrEMOD3"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;LMCECTCALM0021:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0021:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0021.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0022:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0022:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0022.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="LMCECTSUMM0001EMODCurrEMOD4" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="LMCECTSUMM0001EMODCurrEMOD4"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Calculate the running E mode number F10 to F12"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="CurrEMOD4"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;LMCECTCALM0011:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0011:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0011.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0012:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0012:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0012.label},&quot;&quot;),IF(([&lt;alias&gt;LMCECTCALM0013:dciECT-STATUS.validity]=1) AND ([&lt;alias&gt;LMCECTCALM0013:dciECT-STATUS.value]=1),{&lt;alias&gt;LMCECTCALM0013.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001PHASEADnTrack1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001PHASEADnTrack1"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Group the XT, LAN, LAP and LAQ Activated Demand Signal"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="DnTrack1"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;OCCSIGCONG0023:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0023:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0023.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0011:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0011:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0011.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0012:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0012:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0012.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0013:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0013:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0013.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001PHASEADnTrack2" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001PHASEADnTrack2"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Group the LAR, LAS, LAT and LAU Activated Demand Signal"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="DnTrack2"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;OCCSIGCONG0014:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0014:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0014.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0015:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0015:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0015.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0016:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0016:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0016.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0017:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0017:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0017.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001PHASEADnTrack3" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001PHASEADnTrack3"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Group the LAV, LAW and LAX Activated Demand Signal"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="DnTrack3"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;OCCSIGCONG0018:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0018:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0018.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0019:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0019:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0019.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0020:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0020:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0020.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001PHASEAUpTrack1" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001PHASEAUpTrack1"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Group the XN, XG, LAA and LAB Activated Demand Signal"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="UpTrack1"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;OCCSIGCONG0022:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0022:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0022.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0021:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0021:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0021.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0001:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0001:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0001.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0002:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0002:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0002.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001PHASEAUpTrack2" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001PHASEAUpTrack2"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Group the LAC, LAD, LAE and LAF Activated Demand Signal"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="UpTrack2"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;OCCSIGCONG0003:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0003:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0003.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0004:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0004:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0004.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0005:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0005:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0005.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0006:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0006:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0006.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001PHASEAUpTrack3" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001PHASEAUpTrack3"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Group the LAG, LAH, LAJ and LAK Activated Demand Signal"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="UpTrack3"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="StrJoin(&quot; &quot;,IF(([&lt;alias&gt;OCCSIGCONG0007:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0007:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0007.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0008:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0008:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0008.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0009:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0009:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0009.label},&quot;&quot;),IF(([&lt;alias&gt;OCCSIGCONG0010:dciSIG-TRIGGER.validity]=1) AND ([&lt;alias&gt;OCCSIGCONG0010:dciSIG-TRIGGER.value]=1),{&lt;alias&gt;OCCSIGCONG0010.label},&quot;&quot;))" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001PHASEBDnTrack" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001PHASEBDnTrack"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="For future use"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="DnTrack"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001PHASEBUpTrack" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001PHASEBUpTrack"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="For future use"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="UpTrack"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001PHASECDnTrack" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001PHASECDnTrack"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="For future use"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="DnTrack"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001PHASECUpTrack" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001PHASECUpTrack"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="For future use"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="UpTrack"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001calcDnTrackCMODmappingTabResult" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001calcDnTrackCMODmappingTabResult"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Store the down track congestion mode mapped table result"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="mappingTabResult"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="uTable_Read_StrByIdx(&quot;&lt;alias&gt;LMCCRDSCRD0001:DnTrackCmodTab&quot;,&quot;.valueTable&quot;,[^:tableIndex.computedValue],&quot;string1&quot;)" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001calcUpTrackCMODmappingTabResult" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001calcUpTrackCMODmappingTabResult"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Store the up track congestion mode mapped table result"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="mappingTabResult"/>
+</AttributDescription>
+<AttributDescription attrId="computedValue" position="0" formula="uTable_Read_StrByIdx(&quot;&lt;alias&gt;LMCCRDSCRD0001:UpTrackCmodTab&quot;,&quot;.valueTable&quot;,[^:tableIndex.computedValue],&quot;string1&quot;)" activation="ENABLE">
+<ScalarValue value=""/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+<InstanceDescription alias="OCCSIGSUMM0001initDaccomgrpOHLStatus" calculation="OPTIMISED">
+<Context contextId="0">
+<AttributDescription attrId="UNIVNAME">
+<ScalarValue value="OCCSIGSUMM0001initDaccomgrpOHLStatus"/>
+</AttributDescription>
+<AttributDescription attrId="label">
+<ScalarValue value="Group all the OHL engerization status"/>
+</AttributDescription>
+<AttributDescription attrId="nom_instance">
+<ScalarValue value="grpOHLStatus"/>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

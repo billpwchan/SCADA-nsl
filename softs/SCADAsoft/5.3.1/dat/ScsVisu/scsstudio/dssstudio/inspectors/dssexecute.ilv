@@ -1,0 +1,38 @@
+// Ilv Version: 3.1
+// File generated: Thu Mar 23 10:08:15 2000
+// Creator class: IlvGadgetManagerOutput
+FileName "dssexecute"
+PathName "D:\\Scadaref\\scadasoft\\dat\\ScsVisu\\scsstudio\\dssstudio\\inspectors\\dssexecute.ilv"
+Palettes 1
+"default" 0 "gray" "black" "normal" "StockedDefaultGui" 0 solid solid 0 0 0
+IlvObjects 7
+0 { 0 0 IlvMessageLabel 3 120 113 22 F8 0 25 16 4 "&tclProcName"   } 0
+0
+0 { 1 0 IlvTextField 120 120 169 22 F6 2 1 -1 0 "" } 32 "TclProcField"
+2048 "TextText"
+0 { 2 0 IlvMessageLabel 3 2 113 22 F8 0 25 16 4 "&text"   } 0
+0
+0 { 3 0 IlvTextField 120 5 169 22 F6 2 1 -1 0 "" } 32 "TextField"
+16384
+1 { 4 0 IlvText 120 3 169 75 F129 2 Y Y 3 3 3 3 0 1
+""
+0 0 0 0 } 32 "TextText"
+6144 "CleanBtn" "TclProcField"
+1 { 5 0 IlvButton 120 84 80 23 F268435465 2 1 16 4 "&clean"   } 32 "CleanBtn"
+4096 "TextText"
+1 { 6 0 IlvButton 209 84 80 23 F268435465 2 1 16 4 "&set"   } 32 "SetBtn"
+2048 "ModeSelector"
+Size 292 145
+Background "gray"
+GeometryHandlers
+1 100 0 292 0 292 0
+4 3 0 0 120  169 0 169 4  0 0 3 0
+ 3 209 0 209  0 0 80 6  0 0 3 0
+ 3 120 0 120  0 0 80 5  0 0 92 0
+ 3 0 0 120  169 0 169 1  0 0 3 0
+1 100 0 145 0 145 0
+4 3 0 0 3  0 0 75 4  0 0 67 0
+ 3 0 0 84  0 0 23 6  38 0 38 0
+ 3 0 0 84  0 0 23 5  38 0 38 0
+ 3 0 0 120  0 0 22 1  0 0 3 0
+EOF

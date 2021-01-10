@@ -1,0 +1,106 @@
+### Scheduled tasks automatically saved at 07/06/2017 01:03
+#
+# Task Fields seperated by ;
+# Name : 1. Schedule Table fields
+#           - timeScheduleType(scs_table)
+#           - scheduleType(Oneshot, Predefined, Userdefined)
+#           - scheduleId(1-8)
+#        2. Equipment Task fields
+#           - timeScheudleType(scs_task)
+#           - scheduleType (Oneshot, Predefined, Userdefined)
+#           - scheduleId (1 - 8)
+#           - funcCat
+#           - geoCat
+#           - eqpLabel
+#           - eqpAlias
+#           - point point
+#           - target state (ON/OFF)
+# Description : 1. Schedule Table fields
+#                  - scheduleTableTypeDescription (Oneshot, Predefined, Userdefined)
+#                  - scheduleTableTitle
+#                  - runningStatus(start, stop)
+#                  - visibility (visible, invisible)
+#                  - periodic (true, false)
+#                  - titleReadOnly
+#                  - timeReadOnly
+#                  - equipmentReadOnly
+#               2. Equipment Task
+#                  - eqtDescription
+
+# Start time : dd/mm/yyyy_hh:mm or (* means from now)
+# End time : dd/mm/yyyy_hh:mm or (* means always valid)
+# Interval : unit in minuted, (0 for no interval) to 527040 
+# Filter : dg_dow_dom_moy_dom_h_m
+#          dg - day group from 1 to 32 or *
+#          dow - day of week monday(1) to sunday(7)
+#          dom - 1 to 31 or negative number
+#          moy - 1 to 12 or * for any value
+#          h - 0 to 23 or * for any value
+#          m - 0 to 59 or * for any value
+# Log flag : 1 for logging event, 0 for no logging
+# Inhibition flag : 1 for inhibited, 0 for no inhibition
+# Remove at end flag : (optional) 1 for removing task at end date, 0 (default) for not removing
+# Command : 1) shell script
+#           2) ##01## for CtlCmd
+#           3) ##02## for GRC point
+#           4) ##03## for create event
+# Arguments : 1) arguments for shell script
+#             2) list of CtlCmds (send_mode command_nb CtlCmd_command_list
+#             3) GRC point (mode "GRC_point_name")
+#             4) hook
+
+Task=sch_table,Oneshot,1;Oneshot description,Oneshot title,started,visible,false,true,false,true;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Oneshot,1,1,11,Eqt Label 01 (Oneshot),<alias>CTVECTCMOD0001,dioECT-CTLCMD,ON;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Oneshot,1,1,11,Eqt Label 01 (Oneshot),<alias>CTVECTCMOD0001,dioECT-CTLCMD,OFF;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 9 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Oneshot,1,1,11,Eqt Label 02 (Oneshot),<alias>CTVECTCMOD0002,dioECT-CTLCMD,ON;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 1 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Oneshot,1,1,11,Eqt Label 02 (Oneshot),<alias>CTVECTCMOD0002,dioECT-CTLCMD,OFF;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 2 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Oneshot,1,1,11,Eqt Label 03 (Oneshot),<alias>CTVECTCMOD0003,dioECT-CTLCMD,ON;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 3 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Oneshot,1,1,11,Eqt Label 03 (Oneshot),<alias>CTVECTCMOD0003,dioECT-CTLCMD,OFF;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 4 0;0;1;0;c:\\temp\\echo.bat;0
+
+Task=sch_table,Predefined,1;Predefined1 description,Predefined1 title,started,visible,true,true,false,true;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,1,1,11,Eqt Label 01 (Predefined1),<alias>CTVECTCMOD0001,dioECT-CTLCMD,ON;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,1,1,11,Eqt Label 01 (Predefined1),<alias>CTVECTCMOD0001,dioECT-CTLCMD,OFF;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 9 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,1,1,11,Eqt Label 02 (Predefined1),<alias>CTVECTCMOD0002,dioECT-CTLCMD,ON;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 1 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,1,1,11,Eqt Label 02 (Predefined1),<alias>CTVECTCMOD0002,dioECT-CTLCMD,OFF;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 2 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,1,1,11,Eqt Label 03 (Predefined1),<alias>CTVECTCMOD0003,dioECT-CTLCMD,ON;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 3 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,1,1,11,Eqt Label 03 (Predefined1),<alias>CTVECTCMOD0003,dioECT-CTLCMD,OFF;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 4 0;0;1;0;c:\\temp\\echo.bat;0
+
+Task=sch_table,Predefined,2;Predefined2 description,Predefined2 title,started,visible,true,true,false,true;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,2,1,11,Eqt Label 01 (Predefined2),<alias>CTVECTCMOD0001,dioECT-CTLCMD,ON;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,2,1,11,Eqt Label 01 (Predefined2),<alias>CTVECTCMOD0001,dioECT-CTLCMD,OFF;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 9 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,2,1,11,Eqt Label 02 (Predefined2),<alias>CTVECTCMOD0002,dioECT-CTLCMD,ON;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 1 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,2,1,11,Eqt Label 02 (Predefined2),<alias>CTVECTCMOD0002,dioECT-CTLCMD,OFF;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 2 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,2,1,11,Eqt Label 03 (Predefined2),<alias>CTVECTCMOD0003,dioECT-CTLCMD,ON;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 3 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,2,1,11,Eqt Label 03 (Predefined2),<alias>CTVECTCMOD0003,dioECT-CTLCMD,OFF;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 4 0;0;1;0;c:\\temp\\echo.bat;0
+
+Task=sch_table,Predefined,3;Predefined3 description,Predefined3 title,started,visible,true,true,false,true;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,3,1,11,Eqt Label 01 (Predefined3),<alias>CTVECTCMOD0001,dioECT-CTLCMD,ON;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,3,1,11,Eqt Label 01 (Predefined3),<alias>CTVECTCMOD0001,dioECT-CTLCMD,OFF;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 9 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,3,1,11,Eqt Label 02 (Predefined3),<alias>CTVECTCMOD0002,dioECT-CTLCMD,ON;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 1 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,3,1,11,Eqt Label 02 (Predefined3),<alias>CTVECTCMOD0002,dioECT-CTLCMD,OFF;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 2 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,3,1,11,Eqt Label 03 (Predefined3),<alias>CTVECTCMOD0003,dioECT-CTLCMD,ON;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 3 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Predefined,3,1,11,Eqt Label 03 (Predefined3),<alias>CTVECTCMOD0003,dioECT-CTLCMD,OFF;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 4 0;0;1;0;c:\\temp\\echo.bat;0
+
+Task=sch_table,Userdefined,1;Userdefined1 description,Userdefined1 title,started,visible,true,true,false,true;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,1,1,11,Eqt Label 01 (Userdefined1),<alias>CTVECTCMOD0001,dioECT-CTLCMD,ON;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,1,1,11,Eqt Label 01 (Userdefined1),<alias>CTVECTCMOD0001,dioECT-CTLCMD,OFF;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 9 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,1,1,11,Eqt Label 02 (Userdefined1),<alias>CTVECTCMOD0002,dioECT-CTLCMD,ON;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 1 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,1,1,11,Eqt Label 02 (Userdefined1),<alias>CTVECTCMOD0002,dioECT-CTLCMD,OFF;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 2 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,1,1,11,Eqt Label 03 (Userdefined1),<alias>CTVECTCMOD0003,dioECT-CTLCMD,ON;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 3 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,1,1,11,Eqt Label 03 (Userdefined1),<alias>CTVECTCMOD0003,dioECT-CTLCMD,OFF;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 4 0;0;1;0;c:\\temp\\echo.bat;0
+
+Task=sch_table,Userdefined,2;Userdefined2 description,Userdefined2 title,started,visible,true,true,false,true;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,2,1,11,Eqt Label 01 (Userdefined2),<alias>CTVECTCMOD0001,dioECT-CTLCMD,ON;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,2,1,11,Eqt Label 01 (Userdefined2),<alias>CTVECTCMOD0001,dioECT-CTLCMD,OFF;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 9 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,2,1,11,Eqt Label 02 (Userdefined2),<alias>CTVECTCMOD0002,dioECT-CTLCMD,ON;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 1 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,2,1,11,Eqt Label 02 (Userdefined2),<alias>CTVECTCMOD0002,dioECT-CTLCMD,OFF;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 2 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,2,1,11,Eqt Label 03 (Userdefined2),<alias>CTVECTCMOD0003,dioECT-CTLCMD,ON;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 3 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,2,1,11,Eqt Label 03 (Userdefined2),<alias>CTVECTCMOD0003,dioECT-CTLCMD,OFF;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 4 0;0;1;0;c:\\temp\\echo.bat;0
+
+Task=sch_table,Userdefined,3;Userdefined3 description,Userdefined3 title,started,visible,true,true,false,true;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,3,1,11,Eqt Label 01 (Userdefined3),<alias>CTVECTCMOD0001,dioECT-CTLCMD,ON;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 8 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,3,1,11,Eqt Label 01 (Userdefined3),<alias>CTVECTCMOD0001,dioECT-CTLCMD,OFF;Eqt Description 01;*;31/12/2011 23:59;527040;* * * * 9 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,3,1,11,Eqt Label 02 (Userdefined3),<alias>CTVECTCMOD0002,dioECT-CTLCMD,ON;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 1 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,3,1,11,Eqt Label 02 (Userdefined3),<alias>CTVECTCMOD0002,dioECT-CTLCMD,OFF;Eqt Description 02;*;31/12/2011 23:59;527040;* * * * 2 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,3,1,11,Eqt Label 03 (Userdefined3),<alias>CTVECTCMOD0003,dioECT-CTLCMD,ON;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 3 0;0;1;0;c:\\temp\\echo.bat;0
+Task=sch_task,Userdefined,3,1,11,Eqt Label 03 (Userdefined3),<alias>CTVECTCMOD0003,dioECT-CTLCMD,OFF;Eqt Description 03;*;31/12/2011 23:59;527040;* * * * 4 0;0;1;0;c:\\temp\\echo.bat;0

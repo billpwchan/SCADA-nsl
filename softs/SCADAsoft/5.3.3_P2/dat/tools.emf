@@ -1,0 +1,75 @@
+## -------------------------------------------------------------- -*- MSG -*-
+##     SYSECA                                 Animator
+##                                            [TOOLS]
+## --------------------------------------------------------------------------
+## The information contained in this document is proprietary to Animator's
+##   group of SYSECA and shall not be disclosed by the recipent to third
+##             persons without the written consent of SYSECA
+## --------------------------------------------------------------------------
+##         file: tools.emf
+##  description: ANIMATOR error message file 
+##     creation: 1997/05/12
+##       author: olivier
+## --------------------------------------------------------------------------
+## $Id: tools.emf,v 1.1 1997/10/24 14:18:35 scadaref Exp $
+##
+## $Log: tools.emf,v $
+## Revision 1.1  1997/10/24 14:18:35  scadaref
+## Initial revision
+##
+## Revision 1.2  1997/06/13 08:09:01  olivier
+## *** empty log message ***
+##
+## Revision 1.1  1997/05/15 16:32:26  olivier
+## Initial revision
+##
+## --------------------------------------------------------------------------
+COMPONENT=tools,Tls
+Init() {
+   english="Tls Initialization"
+   french="Initialisation de Tls"
+}
+OpenFile(const char*) {
+  english="File '%s' cannot be opened"
+  french="Fichier '%s' ne peut être ouvert"
+  spanish="Fichero '%s' ne se puede abrir"
+}
+BadMessageFileLocation(const char*) {
+  english="Error message file '%s' cannot be located"
+  french="Le fichier de messages d'erreur '%s' ne peut être localise"
+}
+File(const char*) {
+  english="File : '%s'"
+  french="Fichier : '%s'"
+  spanish="Fichero : '%s'"
+}
+ReadError() {
+  english="Read Error"
+  french="Erreur de lecture"
+  spanish="Error de lectura"
+}
+EOBUnexpected() {
+  english="End of block unexpected"
+  french="Fin de bloc non attendue"
+  spanish="Final de bloque inesperada"
+}
+TraceErrorLine(const char*) {
+  english="Error at  : '%s'"
+  french="Erreur a        : '%s'"
+  spanish="Error en      : '%s'"
+}
+TraceCurrentLine(const char*) {
+  english="Full Line : '%s'"
+  french="Ligne entière   : '%s'"
+  spanish="Linea entera  : '%s'"
+}
+TraceFileName(const char*) {
+  english="In File   : '%s'"
+  french="Dans le fichier : '%s'"
+  spanish="En el fichero : '%s'"
+}
+IncoherentFormat(const char*) {
+  english="Incoherent output format : '%s'"
+  french="Format de sortie incoherent : '%s'"
+  spanish="Formato de salida incoherente: '%s'"
+}

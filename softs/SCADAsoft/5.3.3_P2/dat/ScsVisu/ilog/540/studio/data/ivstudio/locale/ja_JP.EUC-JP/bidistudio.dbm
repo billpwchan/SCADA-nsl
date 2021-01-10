@@ -1,0 +1,16 @@
+// IlvMessageDatabase 5 Wed Jan 19 17:33:56 CET 2011
+// Language: ja_JP
+// Encoding: EUC-JP
+"&Contextual" "Contextual"
+"&Direction" "方向"
+"&LtoR" "左から右へ"
+"&National" "National"
+"&Nominal" "名詞"
+"&Numerals" "数字"
+"&RtoL" "右から左へ"
+"&Shaping" "Shaping"
+"&ShowBidiTestPanel" "ﾃｽﾄ構成..."
+"&Swapping" "交換"
+"&WordBreak" "改ﾍﾟｰｼﾞと改行"
+"&applyDefault" "ﾃﾞﾌｫﾙﾄ ｱﾄﾘﾋﾞｭｰﾄ"
+

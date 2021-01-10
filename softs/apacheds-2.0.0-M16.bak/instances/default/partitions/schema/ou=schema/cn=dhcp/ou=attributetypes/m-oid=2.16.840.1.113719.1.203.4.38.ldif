@@ -1,0 +1,21 @@
+version: 1
+dn: m-oid=2.16.840.1.113719.1.203.4.38,ou=attributeTypes,cn=dhcp,ou=schema
+m-usage: USER_APPLICATIONS
+m-oid: 2.16.840.1.113719.1.203.4.38
+m-name: dhcpFailOverEndpointState
+m-description: Server (Failover Endpoint) state, as defined in DHCP Failover Pro
+ tocol [FAILOVR]
+m-obsolete: FALSE
+m-equality: integerMatch
+entryParentId: 5fc28934-904a-496b-90d3-4bcffeb59039
+m-singlevalue: TRUE
+createTimestamp: 20140513151220.332Z
+m-syntax: 1.3.6.1.4.1.1466.115.121.1.26
+m-nousermodification: FALSE
+m-collective: FALSE
+objectclass: metaAttributeType
+objectclass: metaTop
+objectclass: top
+entryUUID: 91b4fbee-242e-4a4b-9903-bfd06a5baaad
+creatorsname: uid=admin,ou=system
+entryCSN: 20140513151214.817000Z#000006#000#000000

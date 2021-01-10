@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_ECS_EX1S_Down_graphic">
+        <root>
+            <svgGroup id="C1166B_ECS_EX1S_Down_ECS_EX1S_D_State_MO_ECS_EX1S_D_State_Invalid_ECS_EX1S_D_State_Selected_ECS_EX1S_D_State_Empty_ECS_EX1S_D_State_Selected_MO">
+                <svgRef brickId="ECS_EX1S_D_State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECS_EX1S_Down_ECS_EX1S_D_Undefined_ECS_EX1S_D_Run_ECS_EX1S_D_Stop_ECS_EX1S_D_Run_Blink_ECS_EX1S_D_Stop_Blink">
+                <svgRef brickId="ECS_EX1S_D_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<graphicConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/graphic">
+    <graphic id="C1166B_ECT_AIR1_graphic">
+        <root>
+            <svgGroup id="C1166B_ECT_AIR1_AIR1_State_Selected_MO_AIR1_State_Empty_AIR1_State_MO_AIR1_State_Invalid_AIR1_State_Selected">
+                <svgRef brickId="AIR1_State_Empty" id="C1166B_ECS_State_node"></svgRef>
+            </svgGroup>
+            <svgGroup id="C1166B_ECT_AIR1_AIR1_Symbol_Undefined_AIR1_Symbol_Alarm_Blink_AIR1_Symbol_Alarm_AIR1_Symbol_Normal_AIR1_Symbol_Normal_Blink">
+                <svgRef brickId="AIR1_Symbol_Undefined" id="symbol1.value_node"></svgRef>
+            </svgGroup>
+        </root>
+    </graphic>
+</graphicConfiguration>

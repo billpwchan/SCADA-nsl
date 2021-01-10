@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Instance SYSTEM "dtd/dbkinstance.dtd">
+<Instance classId="ClassConfig">
+<InstanceDescription alias="class config">
+<Context contextId="0">
+<AttributDescription attrId="index">
+<ScalarValue value="19"/>
+</AttributDescription>
+<AttributDescription attrId="names">
+<StructVectorValue>
+<StructFieldValue>
+<ScalarValue value="aal_type"/>
+<ScalarValue value="606"/>
+<ScalarValue value="AAL_TYPE : Analogue ALarm automaton"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="sio_type"/>
+<ScalarValue value="109"/>
+<ScalarValue value="SIO_TYPE : Structured Internal Output"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="sac_type"/>
+<ScalarValue value="207"/>
+<ScalarValue value="SAC_TYPE : Structured ACquired data"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="aci_cb_type"/>
+<ScalarValue value="106"/>
+<ScalarValue value="ACI_CB_TYPE"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="soe_only_type"/>
+<ScalarValue value="104"/>
+<ScalarValue value="SOE_ONLY_TYPE"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="dac_type"/>
+<ScalarValue value="204"/>
+<ScalarValue value="DAC_TYPE : Discrete ACquired data"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="dfo_type"/>
+<ScalarValue value="404"/>
+<ScalarValue value="DFO_TYPE : Discrete FOrced data"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="aac_type"/>
+<ScalarValue value="206"/>
+<ScalarValue value="AAC_TYPE : Analogue ACquired data"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="dci_soe_type"/>
+<ScalarValue value="104"/>
+<ScalarValue value="DCI_SOE_TYPE"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="sfo_type"/>
+<ScalarValue value="407"/>
+<ScalarValue value="SFO_TYPE : Structured FOrced data"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="SCI_TYPE"/>
+<ScalarValue value="107"/>
+<ScalarValue value="SCI_TYPE"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="dio_type"/>
+<ScalarValue value="105"/>
+<ScalarValue value="DIO_TYPE : Discrete Internal Output"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="dco_type"/>
+<ScalarValue value="304"/>
+<ScalarValue value="DCO_TYPE : Discrete COmputed data"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="dal_type12"/>
+<ScalarValue value="604"/>
+<ScalarValue value="DAL_TYPE12 : DAL with valueTable size 12"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="dov_type"/>
+<ScalarValue value="110"/>
+<ScalarValue value="DOV_TYPE : Digital Output Value"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="dci_cb_type"/>
+<ScalarValue value="104"/>
+<ScalarValue value="DCI_CB_TYPE"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="basicEquipment"/>
+<ScalarValue value="1101"/>
+<ScalarValue value="Basical Equipment"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="afo_type"/>
+<ScalarValue value="406"/>
+<ScalarValue value="AFO_TYPE : Analogue FOrced data"/>
+</StructFieldValue>
+<StructFieldValue>
+<ScalarValue value="dal_type"/>
+<ScalarValue value="604"/>
+<ScalarValue value="DAL_TYPE : Discrete ALarm automaton"/>
+</StructFieldValue>
+</StructVectorValue>
+</AttributDescription>
+</Context>
+</InstanceDescription>
+</Instance>

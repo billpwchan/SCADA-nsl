@@ -1,0 +1,45 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:23:08 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astclauncher"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astclauncher.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 5
+1 { 0 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&quit" 4 4 ]
+0 IlvButton 42 292 32 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "ivicn6.png"  }   } 512
+1
+1 "__ilvCallback" "quitCB"
+0
+1 { 1 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&WorkSpace" 4 4 ]
+0 IlvButton 2 254 32 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "ws.png"  }   } 544 "WorkSpace"
+1
+1 "__ilvCallback" "workSpaceCB"
+0
+1 { 2 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&Anime" 4 4 ]
+0 IlvButton 42 254 32 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 3 0 "anime.png" "" ""  }   } 544 "Anime"
+1
+1 "__ilvCallback" "animeCB"
+0
+1 { 3 P 2
+[ IlvPanelObjectReference IlvPanelObjectReference  "971178487.0" ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNotebook 2 1 72 245 F1 2 0 2  1
+" { IlvNotebookPageItem 3 2 4 "" 1 0 "an97launcher.png"  }  "gray" ""
+0 0 4 5 2 5 1 1 1  } 32 "NoteBookLauncher"
+0
+1 { 4 P 2
+[ IlvToolTip __ilvToolTip 2 "Animator 2004" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Toggle" ]
+0 IlvButton 0 290 40 38 F335544349 2 { IlvMessageItem 262146 4 16 4 1 0 "an97t.png"  }   } 544 "AnimatorIcon"
+1
+1 "__ilvCallback" "iconCB"
+0
+Size 76 325
+EOF

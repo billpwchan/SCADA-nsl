@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$ctlcmd_8h.html" title="Supplies ORB client access to the CTLCMD component server." alt="ctlcmd.h" coords="6,92,70,119" />
+<area shape="rect" href="$ctlgrc_8h.html" title="CTL Grouped Remote Control Server structure for the CTLGRC component." alt="ctlgrc.h" coords="94,92,150,119" />
+<area shape="rect" href="$dac_8h.html" title="DacServer Classes definition providing ORB client access to the DAC component server (daccontrol proc..." alt="dac.h" coords="174,92,217,119" />
+<area shape="rect" href="$dpc_8h.html" title="ORB client access to the DPC component servers." alt="dpc.h" coords="241,92,284,119" />
+<area shape="rect" href="$fts_8h.html" title="Access to the FTS component Server." alt="fts.h" coords="308,92,345,119" />
+<area shape="rect" href="$scswdg_8h.html" title="Access to the the SCADAsoft watchdog component." alt="scswdg.h" coords="369,92,436,119" />
+<area shape="rect" href="$tsctypes_8h.html" title="classes, typedefs and functions used in Tsc context" alt="tsctypes.h" coords="44,167,116,193" />
+<area shape="rect" href="$tsc_8h.html" title="Access to the Task Scheduler (TSC) component." alt="tsc.h" coords="61,241,98,268" />
+</map>

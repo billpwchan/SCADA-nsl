@@ -1,0 +1,62 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:23 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "Menu"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\Menu.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 7
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton -1 -1 322 292 F536870925 0 { IlvMessageItem 262144 4 16 4  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 237 255 75 25 F13 2 { IlvMessageItem 262147 4 2 4 "Remove" 1 0 "icons/scs_remove.png"  }   } 544 "MClear"
+1
+1 "__ilvCallback" "MClearCB"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 151 255 75 25 F13 2 { IlvMessageItem 262147 4 2 4 "Set" 1 0 "icons/scs_set.png"  }   } 544 "MSet"
+1
+1 "__ilvCallback" "MSetCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTreeGadget 8 9 304 174 F32 2 A A 0 0 0 0 20 1 1 1 1 1 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 0
+ }  } 32 "MTree"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField -140 40 140 25 F6 2 1 -1 0 "Text Field" } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 20 207 279 25 F6 2 1 -1 0 "" } 32 "MScript"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 8 185 304 60 F268435468 0 { IlvMessageItem 262169 4 16 4 "Method Name"  }   } 0
+0
+Size 320 290
+Background 54998 54227 52942
+GeometryHandlers
+1 100 0 320 0 320 0
+6 3 151 0 151  0 0 75 2  0 0 94 0
+ 3 0 -1 -1  322 0 322 0  0 -1 -1 0
+ 3 0 0 8  304 0 304 3  0 0 8 0
+ 3 0 0 8  304 0 304 6  0 0 8 0
+ 3 0 0 20  279 0 279 5  0 0 21 0
+ 3 237 0 237  0 0 75 1  0 0 8 0
+2 100 0 186 0 186 0
+ 0 0 104 186 104 186
+2 3 0 0 9  174 0 174 3  0 0 107 1
+ 3 0 -1 -1  292 0 292 0  0 -1 -1 1
+4 3 21 0 21  0 0 25 5  0 0 58 1
+ 3 0 -1 -1  0 0 60 6  0 0 45 1
+ 3 69 0 69  0 0 25 2  0 0 10 1
+ 3 69 0 69  0 0 25 1  0 0 10 1
+EOF

@@ -1,0 +1,185 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:23:06 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcledtchartres"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcledtchartres.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 20
+1 { 0 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 116 10 175 19 F34904 2 N N 0 0 0 0 0 0 170 14 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "Foreground"
+1
+1 "__ilvCallback" "foregroundCB"
+0
+1 { 1 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 116 35 175 19 F34904 2 N N 0 0 0 0 0 0 170 14 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "Background"
+1
+1 "__ilvCallback" "backgroundCB"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 116 60 175 19 F39 2 1 -1 0 "" 2
+{ IlvMenuItem 1 2 4 "FillPattern"  } 
+{ IlvMenuItem 1 2 4 "FillMaskPattern"  }  } 32 "FillStyle"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 116 85 175 19 F39 2 1 -1 0 "" 2
+{ IlvMenuItem 1 2 4 "EvenOddRule"  } 
+{ IlvMenuItem 1 2 4 "WindingRule"  }  } 32 "FillRule"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 177 111 115 19 F38 2 1 -1 0 "solid" 28
+{ IlvMenuItem 1 2 4 "solid"  } 
+{ IlvMenuItem 1 2 4 "clear"  } 
+{ IlvMenuItem 1 2 4 "gray"  } 
+{ IlvMenuItem 1 2 4 "cross"  } 
+{ IlvMenuItem 1 2 4 "dark1"  } 
+{ IlvMenuItem 1 2 4 "dark2"  } 
+{ IlvMenuItem 1 2 4 "dark3"  } 
+{ IlvMenuItem 1 2 4 "dark4"  } 
+{ IlvMenuItem 1 2 4 "light1"  } 
+{ IlvMenuItem 1 2 4 "light2"  } 
+{ IlvMenuItem 1 2 4 "light3"  } 
+{ IlvMenuItem 1 2 4 "light4"  } 
+{ IlvMenuItem 1 2 4 "diagrl"  } 
+{ IlvMenuItem 1 2 4 "diaglr"  } 
+{ IlvMenuItem 1 2 4 "horiz"  } 
+{ IlvMenuItem 1 2 4 "vert"  } 
+{ IlvMenuItem 1 2 4 "pattern1"  } 
+{ IlvMenuItem 1 2 4 "pattern2"  } 
+{ IlvMenuItem 1 2 4 "pattern3"  } 
+{ IlvMenuItem 1 2 4 "pattern4"  } 
+{ IlvMenuItem 1 2 4 "pattern5"  } 
+{ IlvMenuItem 1 2 4 "pattern6"  } 
+{ IlvMenuItem 1 2 4 "pattern7"  } 
+{ IlvMenuItem 1 2 4 "pattern8"  } 
+{ IlvMenuItem 1 2 4 "pattern9"  } 
+{ IlvMenuItem 1 2 4 "pattern10"  } 
+{ IlvMenuItem 1 2 4 "pattern11"  } 
+{ IlvMenuItem 1 2 4 "pattern12"  }  } 544 "Pattern"
+1
+1 "__ilvCallback" "patternCB"
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 177 161 115 19 F38 2 1 -1 0 "0" 7
+{ IlvMenuItem 1 2 4 "0"  } 
+{ IlvMenuItem 1 2 4 "1"  } 
+{ IlvMenuItem 1 2 4 "2"  } 
+{ IlvMenuItem 1 2 4 "3"  } 
+{ IlvMenuItem 1 2 4 "4"  } 
+{ IlvMenuItem 1 2 4 "5"  } 
+{ IlvMenuItem 1 2 4 "6"  }  } 544 "LineWidth"
+1
+1 "__ilvCallback" "lineWidthCB"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 177 136 115 19 F38 2 1 -1 0 "solid" 8
+{ IlvMenuItem 1 2 4 "solid"  } 
+{ IlvMenuItem 1 2 4 "dash"  } 
+{ IlvMenuItem 1 2 4 "dot"  } 
+{ IlvMenuItem 1 2 4 "dashdot"  } 
+{ IlvMenuItem 1 2 4 "dashdoubledot"  } 
+{ IlvMenuItem 1 2 4 "alternate"  } 
+{ IlvMenuItem 1 2 4 "doubledot"  } 
+{ IlvMenuItem 1 2 4 "longdash"  }  } 544 "LineStyle"
+1
+1 "__ilvCallback" "lineStyleCB"
+0
+1 { 7 1 IlvReliefLine 0 196 299 196 1 } 0
+0
+1 { 8 1 IlvFilledRectangle 116 111 55 19 } 32 "PatternVisu"
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 111 90 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Pattern"  }   } 0
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 10 90 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Foreground"  }   } 0
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 35 90 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Background"  }   } 0
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 60 90 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&FillStyle"  }   } 0
+0
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 85 90 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&FillRule"  }   } 0
+0
+1 { 14 1 IlvLine 116 145 170 145 } 32 "LineStyleVisu"
+0
+1 { 15 1 IlvLine 116 170 170 170 } 32 "LineWidthVisu"
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 136 90 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&LineStyle"  }   } 0
+0
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 12 161 90 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&LineWidth"  }   } 0
+0
+1 { 18 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ApplyTT" 4 4 ]
+0 IlvButton 7 206 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&apply"  }   } 544 "Apply"
+1
+1 "__ilvCallback" "applyCB"
+0
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 219 206 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&cancel"  }   } 512
+1
+1 "__ilvCallback" "cancelCB"
+0
+Size 299 236
+GeometryHandlers
+3 0 107 107 0 107 0
+ 100 67 67 107 67 107
+ 100 125 125 174 125 174
+3 3 0 0 7  0 0 73 18  219 0 219 2
+ 3 219 0 219  0 0 73 19  0 0 7 2
+ 3 0 0 0  299 0 299 7  0 0 0 2
+7 3 0 0 9  175 0 175 0  0 0 8 2
+ 3 0 0 9  175 0 175 1  0 0 8 2
+ 3 0 0 9  175 0 175 2  0 0 8 2
+ 3 0 0 9  175 0 175 3  0 0 8 2
+ 3 0 0 9  55 0 55 8  0 0 3 1
+ 3 0 0 9  55 0 55 14  0 0 3 1
+ 3 0 0 9  55 0 55 15  0 0 3 1
+3 3 0 0 3  115 0 115 4  0 0 7 2
+ 3 0 0 3  115 0 115 6  0 0 7 2
+ 3 0 0 3  115 0 115 5  0 0 7 2
+1 100 236 236 0 236 0
+20 3 10 0 10  0 0 19 10  207 0 207 0
+ 3 35 0 35  0 0 19 11  182 0 182 0
+ 3 60 0 60  0 0 19 12  157 0 157 0
+ 3 85 0 85  0 0 19 13  132 0 132 0
+ 3 111 0 111  0 0 19 9  106 0 106 0
+ 3 136 0 136  0 0 19 16  81 0 81 0
+ 3 161 0 161  0 0 19 17  56 0 56 0
+ 3 206 0 206  0 0 23 18  7 0 7 0
+ 3 195 0 195  0 0 2 7  39 0 39 0
+ 3 206 0 206  0 0 23 19  7 0 7 0
+ 3 10 0 10  0 0 19 0  207 0 207 0
+ 3 35 0 35  0 0 19 1  182 0 182 0
+ 3 60 0 60  0 0 19 2  157 0 157 0
+ 3 85 0 85  0 0 19 3  132 0 132 0
+ 3 111 0 111  0 0 19 4  106 0 106 0
+ 3 136 0 136  0 0 19 6  81 0 81 0
+ 3 161 0 161  0 0 19 5  56 0 56 0
+ 3 111 0 111  0 0 19 8  106 0 106 0
+ 3 145 0 145  0 0 1 14  90 0 90 0
+ 3 170 0 170  0 0 1 15  65 0 65 0
+EOF

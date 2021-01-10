@@ -1,0 +1,245 @@
+###############################################################################
+# IDENTIFICATION:
+# $Id: ascerror.emf,v 1.12 2000/01/28 14:35:21 jmb Exp $
+#
+# HISTORY:
+# $Log: ascerror.emf,v $
+# Revision 1.12  2000/01/28 14:35:21  jmb
+# Add ProcessHasCrashedStopEnv error
+#
+# Revision 1.11  1999/11/10 13:49:00  jmb
+# Add MoreThanOneStandby error
+#
+# Revision 1.10  1999/06/04 17:41:46  ylo
+# *** empty log message ***
+#
+# Revision 1.9  1999/03/10 18:23:10  ylo
+# Add ProcessNotSupervised
+#
+# Revision 1.8  1999/03/02 09:43:43  ylo
+# *** empty log message ***
+#
+# Revision 1.7  1999/03/01 14:03:38  ylo
+# *** empty log message ***
+#
+# Revision 1.6  1999/02/25 15:28:43  ylo
+# Add IncorrectEnvList for hostserver_i.cpp.
+#
+# Revision 1.5  1997/11/14 17:20:00  jpu
+# Add Unix()
+#
+# Revision 1.4  1997/11/07 18:56:38  jpu
+# Add ParseFile(), UnknownEnvironment()
+#
+# Revision 1.3  1997/11/05 12:01:49  jpu
+# Add OpenFile()
+#
+# Revision 1.2  1997/11/05 11:05:30  jpu
+# Add Environment()
+#
+# Revision 1.1  1997/10/29 12:34:57  jpu
+# Initial revision
+#
+##############################################################################
+COMPONENT=Asc,Asc
+
+Init() {
+   english="AscManager Initialization"
+   french="Initialisation de l'AscManager"
+}
+
+ORB(const char *) {
+   english="Orb Error %s"
+   french="Erreur Orb %s"
+}
+
+Unix(const char *, int) {
+   english="Error returned by function %s: errno=%d"
+   french="Erreur retournee par la fonction %s: errno=%d"
+}
+
+ScadasoftFunction(const char *, int) {
+   english="SCADAsoft function %s error (minor=%d)"
+   french="Erreur fonction SCADAsoft %s (minor=%d)"
+}
+
+Environment(const char*) {
+   english="Environment variable %s not set"
+   french="Variable d'environment %s non positionnee"
+}
+
+OpenFile(const char*) {
+   english="Error opening file %s"
+   french="Erreur d'ouverture du fichier %s"
+}
+
+ParseFile(const char*) {
+   english="Error parsing file %s"
+   french="Erreur d'analyse syntaxique du fichier %s"
+}
+
+SameShutdownOrder(const char*) {
+   english="Same shutdown order in file %s"
+   french="Meme numero d'ordre d'arret dans le fichier %s"
+}
+
+UnknownEnvironment(const char*) {
+   english="Unknown Scadasoft environment %s"
+   french="Environnement Scadasoft %s inconnu"
+}
+
+InactiveServer(const char*) {
+   english="Server %s is not active"
+   french="Le serveur %s n'est pas actif"
+}
+
+BadServerName(const char*) {
+   english="%s is a bad server name"
+   french="%s n'est pas un nom de server"
+}
+
+IncorrectEnvList(const char *, const char *) {
+   english="The host %s is not part of the environment %s in the ScsEnvList file or orb has not started"
+   french="Le serveur %s ne fait pas partie de l'environement %s dans le ficher ScsEnvList ou l'orb n'est pas lance"
+}
+
+ProcessNotStarted(const char *) {
+   english="The process %s has not started correctly"
+   french="Le processus %s n'a pas démarré correctement"
+}
+
+NoDbmServer(int) {
+   english="Cannot connect to the dbmserver (%d)"
+   french="Impossible de se connecter au dbmserver (%d)"
+}
+
+ProcessNotSupervised(const char *) {
+   english="The process %s is not yet supervised"
+   french="Le processus %s n'est pas encore supervisé"
+}
+
+ProcessAlreadyRunning(const char *) {
+   english="The process %s is already running"
+   french="Le processus %s est déjà lancé"
+}
+
+MoreThanOneStandby(const char *) {
+   english="More than one standby environment '%s' is running : not yet implemented"
+   french="Plus d'un environnement de secours '%s' est lancé : traitement pas encore implémenté"
+}
+
+ProcessHasCrashedStopEnv(const char *) {
+   english="The Process '%s' has crashed : stopping the environment"
+   french="le processus '%s' est tombé : arrêt de l'environnement"
+}
+
+BadNbPhysEnv1(const char *,int) {
+   english="Error while updating the physical state of the environment %s. The actual number of element is %d instead of 1."
+   french="Erreur lors de la mise à jour de l'état physique de l'environnement %s. Le nombre actuel d'éléments est %d et devrait être 1."
+}
+
+BadNbPhysEnv01(const char *,int) {
+   english="Error while updating the state of the physical environment %s. The actual number of element is %d instead of 0 or 1."
+   french="Erreur lors de la mise à jour de l'état physique de l'environnement %s. Le nombre actuel d'éléments est %d et devrait être 0 ou 1."
+}
+
+BadNbLogState(const char *,const char *,int) {
+   english="Error while updating the logical state of the process %s of the logical environment %s. The actual number of element is %d instead of 0 or 1."
+   french="Erreur lors de la mise à jour de l'état logique du process %s de l'environnement logique %s. Le nombre actuel d'éléments est %d et devrait être 0 ou 1."
+}
+
+UnkownProcess(const char *) {
+   english="The process %s is unknown"
+   french="Le process %s est inconnu"
+}
+
+UnableToSetState(const char *,const char *) {
+   english="Unable to set the process %s to the state %s"
+   french="Impossible de prositionner le process %s en l'état %s"
+}
+
+Shutdown() {
+   english="shutdown is in progress ..."
+   french="arrêt de l'environnement ..."
+}
+
+ProcessNotInEnvTable(const char *) {
+   english="The process %s is not defined in the ScsEnvTable."
+   french="Le process %s n'est pas défini dans le fichier ScsEnvTable."
+}
+
+Watchdog(const char*) {
+   english="Watchdog Error %s"
+   french="Erreur watchdog %s" 	 	
+}		
+	
+CannotAssignProcessor(const char *, int) {
+   english="Cannot assign process %s on processor %d"
+   french="Impossible d'affecter le processus %s sur le processeur %d" 	 	
+}		
+
+DuplicateProcessInEnvTable(const char *) {
+   english="The process %s is defined several times in the ScsEnvTable."
+   french="Le process %s est défini plusieurs fois dans le fichier ScsEnvTable."
+}
+
+AuthorizeStandby(const char*) {
+   english="On STANDBY (%s) No External Client connection authorization possible"
+   french="Sur le STANDBY (%s) Pas d'authorisation de connection cliente posssible"
+}
+
+EnvironmentLost(const char*) {
+   english=" TIMEOUT LOST of Environment  %s !!!!"
+   french=" TIMEOUT PERTE de l'environment  %s !!!!"
+}
+
+EnvironmentWait(int, const char* ) {
+   english=" TIMEOUT WAIT(%d) of Environment  %s  !!!!"
+   french=" TIMEOUT ATTENTE(%d) de l'environment  %s !!!!" 
+}
+
+EnvironmentDown(const char*) {
+   english=" ==> Environment %s passed to DOWN !!!!"
+   french=" ==> Environment %s passe a DOWN !!!!"
+}
+
+FirstReceive(const char*) {
+   english=" ==> AscHost: FIRST  RECEIVE from  %s"
+   french=" ==> AscHost: FIRST  RECEIVE from  %s"
+}
+
+AgainReceive(const char*) {
+   english=" ==> AscHost: AGAIN  RECEIVE from  %s"
+   french=" ==> AscHost: AGAIN  RECEIVE from  %s"
+}
+
+DoesntRequireToSpecifyState(const char *) {
+   english="Process %s doesn't need to specify its state (supervision is not PUSH)"
+   french="Le processus %s n'est pas en supervision PUSH (aucun besoin d'appeler specifyState())"
+}
+
+SnapshotInProgress() {
+   english="A snapshot is already in progress"
+   french="Un snapshot est en cours"
+}
+
+WrongState(const char*) {
+   english="Not ready to do a snapshot (the current state is %s)"
+   french="L'état de l'environnement (%s) ne permet pas de faire un snapshot"
+}
+CannotCreateDirectory(const char*) {
+   english="Cannot create directory (%s)"
+   french="Impossible de créer le répertoire (%s)"
+}
+ForeSnapStart() {
+   english="Foreground snapshot starting"
+   french="Lancement du snapshot d'avant plan"
+}
+ForeSnapEndFailed(int) {
+   english="Foreground snapshot failed (minor %d)"
+   french="Erreur lors du snapshot d'avant plan (minor %d)"
+}
+ForeSnapEndSuccess() {
+   english="Foreground snapshot successful completion"
+   french="Snapshot d'avant plan réussi"
+}

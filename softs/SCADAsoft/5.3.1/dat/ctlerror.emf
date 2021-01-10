@@ -1,0 +1,228 @@
+##############################################################################
+#
+# FILE             : ctlerror.emf
+# AUTHOR           : J. Pujol
+# COMPANY          : SYSECA
+# CREATION DATE    : Dec 7 1999
+#
+# OVERVIEW:
+#	Description file for the error functions of CTL component
+#
+##############################################################################
+# IDENTIFICATION:
+# $Id$
+#
+# HISTORY:
+# $Log$
+##############################################################################
+COMPONENT=Ctl,Ctl
+
+Init() {
+   english="Initialization failed"
+   french="L'initialisation a échoué"
+}
+
+ORB(const char *) {
+   english="Orb error %s"
+   french="Erreur Orb %s"
+}
+
+ServerNotRegistered(const char *) {
+   english="Server %s is not registered at the ascmanager"
+   french="Le serveur %s n'est pas enregistre aupres de l'ascmanager"
+}
+
+Connection(const char *) {
+   english="Connection error: %s"
+   french="Erreur de connexion: %s"
+}
+
+RtapFunction(const char *) {
+   english="Rtap function %s error"
+   french="Erreur fonction Rtap %s"
+}
+
+ScadasoftFunction(const char *, int) {
+   english="SCADAsoft function %s error (minor=%d)"
+   french="Erreur fonction SCADAsoft %s (minor=%d)"
+}
+
+SystemFunction(const char *, int) {
+   english="System function %s error (errno=%d)"
+   french="Erreur fonction systeme %s (errno=%d)"
+}
+
+Internal(const char *) {
+   english="Internal error: %s"
+   french="Erreur interne: %s"
+}
+
+AlmExtern(const char *, int) {
+   english="External alarm error: %s (minor=%d)"
+   french="Erreur alarme externe: %s (minor=%d)"
+}
+
+BadParam(const char *) {
+   english="Bad parameter: %s"
+   french="Parametre incorrect: %s"
+}
+
+VariableDeclaration(const char *) {
+   english="Variable declaration error: %s"
+   french="Erreur de declaration de variable: %s"
+}
+
+MemoryProblem(const char *) {
+   english="Memory problem: %s"
+   french="Probleme memoire: %s"
+}
+
+InitialCondition(const char *) {
+   english="Initial condition for command: %s not valid"
+   french="Condition initiale de la commande: %s non valide"
+}
+
+InitialConditionTimeOut() {
+   english="No time-out on initial condition allowed for list of commands"
+   french="Aucun time-out sur condition initiale autorise pour liste de commandes"
+}
+
+ReturnCondition(const char *) {
+   english="Return condition for command: %s not valid"
+   french="Condition de retour de la commande: %s non valide"
+}
+
+ReturnConditionValid(const char *) {
+   english="Return condition for command: %s already valid"
+   french="Condition de retour de la commande: %s deja valide"
+}
+
+SendCommand(const char *, int) {
+   english="Sending command: %s (error=%d)"
+   french="Erreur d'envoi de commande: %s (erreur=%d)"
+}
+
+BadValue(const char *, const char *) {
+   english="Given value for variable %s not correct%s"
+   french="Valeur donnee pour variable %s non correcte%s"
+}
+
+NoValuePoint(const char *) {
+   english="Discrete internal variable point %s has no value point"
+   french="Le point de variable interne discrete %s n'a pas de point valeur"
+}
+
+Configuration(const char *, const char *) {
+   english="Configuration error (%s - %s)"
+   french="Problèmes de configuration (%s - %s)"
+}
+
+GrcRootNotExist(const char *) {
+   english="The GRC root point (%s) does not exist"
+   french="Le point racine (%s) des GRC n'existe pas"
+}
+
+GrcNotExist(const char *) {
+   english="The GRC root point (%s) does not exist"
+   french="Le point racine (%s) des GRC n'existe pas"
+}
+
+GrcInvalidDbLoc(const char *) {
+   english="Invalid database location (%s)"
+   french="Emplacement (%s) invalide"
+}
+
+GrcCannotBeLaunchedExe(const char *, const char *, int, int, int, int) {
+   english="GRC %s cannot be launched: %s must be %d, %d or %d instead of %d"
+   french="Le GRC %s ne peut être lancée: %s doit valoir %d, %d ou %d à la place de %d"
+}
+
+GrcCannotBeLaunchedIni(const char *, const char *, int, int) {
+   english="GRC %s cannot be launched: %s must be %d instead of %d"
+   french="Le GRC %s ne peut être lancée: %s doit valoir %d à la place de %d"
+}
+
+GrcCannotBeLaunchedInh(const char *, const char *, int, int) {
+   english="GRC %s cannot be launched: %s must be %d instead of %d"
+   french="Le GRC %s ne peut être lancée: %s doit valoir %d à la place de %d"
+}
+
+GrcProcRunCmdFailed(const char *, const char *) {
+   english="AscManager::runcmd failed (%s, %s)"
+   french="AscManager::runcmd failed (%s, %s)"
+}
+
+GrcInvalidDbValue(const char *, const char *) {
+   english="Invalid database value (%s,%s)"
+   french="Valeur (%s,%s) invalide"
+}
+
+GrcSendingACmd(const char *, float, int) {
+   english="Error while sending analog command %s value %f retry %d"
+   french="Erreur sur envoi de commande analogique %s valeur %f essai %d"
+}
+
+GrcSendingDCmd(const char *, int, int) {
+   english="Error while sending discrete command %s value %d retry %d"
+   french="Erreur sur envoi de commande %s valeur %d essai %d"
+}
+
+GrcSendingSCmd(const char *, char *, int) {
+   english="Error while sending structured command %s retry %d"
+   french="Erreur sur envoi de commande structurée %s essai %d"
+}
+
+GrcSendingUCmd(const char *, int) {
+   english="Error while sending unknown command type %s retry %d"
+   french="Erreur sur envoi de commande %s de type inconnu essai %d"
+}
+
+GrcRcvCmdCb(const char *) {
+   english="Error while sending command %s"
+   french="Erreur sur envoi de commande %s"
+}
+
+GrcMaxRetryReach(const char *) {
+   english="Max retry reached for command %s"
+   french="Nombre max de tentatives atteint pour la commande %s"
+}
+
+GrcBrcIndexOutOfRange(const char *, long, long , long) {
+  english="BRC index '%s' is out of range. Value is '%ld' and should be between '%ld' and '%ld'"
+  french="L'index '%s' du BRC dépasse les bornes. Sa valeur est '%ld' mais devrait être entre '%ld' et '%ld'"
+}
+
+LoadingSnapshot(const char *) {
+  english="Error loading snapshot file '%s'" 
+  french="Erreur de lecture du fichier de snapshot '%s'"
+}
+
+Implementation(const char *) {
+   english="Server %s is not registered at the host server or is unavailable"
+   french="Le server %s n'est pas enregistre aupres du server de nom ou n'est pas disponible"
+}
+
+GrcExecModeUnknown(const char *, int) {
+  english="Unknown GRC '%s\' execution mode: %d"
+  french="Mode d'exécution inconnu: %d pour la GRC '%s'"
+}
+
+Callback() {
+   english="Error when callback invoked"
+   french="Erreur lors de la callback"
+}
+
+CmdNotExecuted() {
+   english="Command not executed"
+   french="Commande non executée"
+}
+
+CmdNotUpdated(const char*) {
+   english="Cannot notify end of command '%s'. This command has not been updated."
+   french="Impossible de notifier la fin de la commande '%s'. Cette commande aurait du etre mise a jour."
+}
+
+CmdUnWaitedCommand(const char*) {
+   english="Unwaited callback for command '%s'."
+   french="Retour non sollicitée de la commande '%s'."
+}

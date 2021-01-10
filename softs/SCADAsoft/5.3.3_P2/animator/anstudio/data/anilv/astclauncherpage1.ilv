@@ -1,0 +1,94 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:23:08 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astclauncherpage1"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astclauncherpage1.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 12
+1 { 0 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&VectEditor" 4 4 ]
+0 IlvButton 1 175 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edvect.png"  }   } 544 "Vect"
+1
+1 "__ilvCallback" "vectCB"
+6144 "Resource" "Bargraph"
+1 { 1 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ChartEditor" 4 4 ]
+0 IlvButton 1 140 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 3 0 "edchart.png" "" ""  }   } 544 "ClassChart"
+1
+1 "__ilvCallback" "classChartCB"
+6144 "Bargraph" "ClassMS"
+1 { 2 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&BargraphEditor" 4 4 ]
+0 IlvButton 35 140 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edbargraph.png"  }   } 544 "Bargraph"
+1
+1 "__ilvCallback" "bargraphCB"
+6144 "Vect" "ClassChart"
+1 { 3 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&SymbolEditor" 4 4 ]
+0 IlvButton 35 0 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edsy.png"  }   } 544 "Symbol"
+1
+1 "__ilvCallback" "symbolCB"
+0
+1 { 4 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ClassASEditor" 4 4 ]
+0 IlvButton 1 35 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edsa.png"  }   } 544 "ClassAS"
+1
+1 "__ilvCallback" "classASCB"
+0
+1 { 5 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ClassANEditor" 4 4 ]
+0 IlvButton 1 70 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "ednd.png"  }   } 544 "ClassND"
+1
+1 "__ilvCallback" "classNDCB"
+0
+1 { 6 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ClassATEditor" 4 4 ]
+0 IlvButton 35 70 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edta.png"  }   } 544 "ClassAT"
+1
+1 "__ilvCallback" "classATCB"
+0
+1 { 7 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ResourceEditor" 4 4 ]
+0 IlvButton 35 175 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edres.png"  }   } 544 "Resource"
+1
+1 "__ilvCallback" "resourceCB"
+6144 "Image" "Vect"
+1 { 8 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ClassBackDropEditor" 4 4 ]
+0 IlvButton 35 35 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edback.png"  }   } 544 "ClassBackDrop"
+1
+1 "__ilvCallback" "classBackDropCB"
+0
+1 { 9 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ImageEditor" 4 4 ]
+0 IlvButton 1 0 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edim.png"  }   } 544 "Image"
+1
+1 "__ilvCallback" "imageCB"
+4096 "Resource"
+1 { 10 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ClassFSEditor" 4 4 ]
+0 IlvButton 1 105 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edfs.png"  }   } 544 "ClassFS"
+1
+1 "__ilvCallback" "classFSCB"
+0
+1 { 11 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ClassMSEditor" 4 4 ]
+0 IlvButton 35 105 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "edms.png"  }   } 544 "ClassMS"
+1
+1 "__ilvCallback" "classMSCB"
+2048 "ClassChart"
+Size 68 210
+EOF

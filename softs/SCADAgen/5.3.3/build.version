@@ -1,0 +1,7 @@
+#Tue, 13 Mar 2018 17:39:03 +0800
+
+build.number=0002
+build.time=2018.03.13-17.39
+build.platform=xp-msvc10
+build.machineName=${env.HOSTNAME}
+build.version=v5.3.3

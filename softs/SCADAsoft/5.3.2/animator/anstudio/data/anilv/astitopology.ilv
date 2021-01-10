@@ -1,0 +1,36 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:43:14 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astitopology"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astitopology.ilv"
+Palettes 1
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+IlvObjects 5
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 22 16 95 15 F268435468 0 { IlvMessageItem 262169 4 16 4 "&LinkNumberOAP"  }   } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 10 40 196 166 F34910 2 A A 0 0 0 0 1 1 190 20 1 1 0 0 1 0 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "liaisonMatrix"
+1
+1 "__ilvCallback" "liaisonMatrixCB"
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 8 216 72 20 F13 2 { IlvMessageItem 262145 4 16 4 "&ResetOAP"  }   } 544 "reset"
+1
+1 "__ilvCallback" "resetCB"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 132 216 72 20 F13 2 { IlvMessageItem 262145 4 16 4 "&RemoveOAP"  }   } 544 "remove"
+1
+1 "__ilvCallback" "removeLinkCB"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 127 16 36 15 F268435468 0 { IlvMessageItem 262169 4 16 4 "0"  }   } 32 "linkNumberLabel"
+0
+Size 220 250
+EOF

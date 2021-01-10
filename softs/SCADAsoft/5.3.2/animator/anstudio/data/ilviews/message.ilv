@@ -1,0 +1,43 @@
+// Ilv Version: 5.0
+// File generated: Mon Nov 08 10:26:42 2004
+// Creator class: IlvGadgetManagerOutput
+FileName "message"
+PathName "D:\\SOFTS\\animator4\\anstudio\\data\\ilviews\\message.ilv"
+Palettes 2
+0 F "gray" "black" "button" "%Microsoft Sans Serif-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 5
+2 { 0 P 2
+[ IlvAttachments _IlvAttachments 144  1 15 1 12 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 15 50 70 23 F13 2 { IlvMessageItem 262145 4 16 4 "&ok"  }   } 544 "apply"
+1
+1 "__ilvCallback" "apply"
+2048 "cancel"
+2 { 1 P 2
+[ IlvAttachments _IlvAttachments 192  1 15 1 12 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 185 50 70 23 F13 2 { IlvMessageItem 262145 4 16 4 "&cancel"  }   } 544 "cancel"
+1
+1 "__ilvCallback" "cancel"
+8192
+2 { 2 P 1
+[ IlvAttachments _IlvAttachments 16  1 8 ]
+1 IlvTransparentIcon 8 5 "astquestion.png" "" } 32 "bitmap"
+0
+3 { 3 P 1
+[ IlvAttachments _IlvAttachments 464  1 0 1 0 1 47 2 ]
+1 IlvReliefLine 0 37 270 37 1 } 32 "line"
+0
+3 { 4 P 2
+[ IlvAttachments _IlvAttachments 48  1 43 1 14 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 43 14 225 28 F268435468 0 { IlvMessageItem 262169 4 16 4 "Title"  }   } 32 "title"
+0
+Size 270 85
+Layers 4
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE root SYSTEM "DacExchange.dtd">
+<root>
+    <SCOPE name="SCS">
+        <CONF key="TraceModules"></CONF>
+        <CONF key="TraceLevels">1,30</CONF>
+        <CONF key="CommandSending">on</CONF>
+        <CONF key="StandbyConnect">on</CONF>
+        <CONF key="WaitForServer">DacControl</CONF>
+    </SCOPE>
+    <SCOPE name="HBA">
+      <SCOPE name="Endpoint1">
+            <!-- 
+              == the value to set in 'creatorId',
+                - key   : hostname,
+                - value : the 'creatorId' to set in the soap sent request.
+            -->
+            <CONF key="D240811">SCADA_WS_1</CONF>
+            <CONF key="D240811b">SCADA_WS_2</CONF>
+            <CONF key="LocalHost">127.0.0.1</CONF>
+            <CONF key="LocalPort">8080</CONF>
+            <CONF key="RemoteEndPoint">http://127.0.0.1:9080</CONF>
+            <!-- 
+              == in milliseconds,
+              == retry every 'x' milliseconds to bind the server,
+              == once the server bound, send every 'x' ms a watchdog subscription.
+            -->
+            <CONF key="RetryTimeout">10000</CONF>
+        </SCOPE>
+        <SCOPE name="Watchdog">
+            <!-- 
+              == multiple of 100 milliseconds,
+              == 50 stands for 50 * 100 = 5000 milliseconds.
+            -->
+            <CONF key="Timeout">50</CONF>
+            <CONF key="SubscriptionId">SUBSCRIPTION_WATCHDOG</CONF>
+            <CONF key="ObjectId">TVS</CONF>
+            <CONF key="StatusName">Watchdog</CONF>
+        </SCOPE>
+        <SCOPE name="SUBSCRIPTION_CAMERA">
+            <CONF key="Attributes">Status,Pan</CONF>
+        </SCOPE>
+        <SCOPE name="SUBSCRIPTION_DMM">
+            <CONF key="Attributes">Layout,DMMLoc</CONF>
+        </SCOPE>
+    </SCOPE>
+</root>

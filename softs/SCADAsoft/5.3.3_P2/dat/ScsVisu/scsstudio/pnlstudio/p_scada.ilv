@@ -1,0 +1,22 @@
+// Ilv Version: 5.0
+// File generated: Mon Dec 22 10:42:20 2003
+// Creator class: IlvGadgetManagerOutput
+FileName "p_scada"
+PathName "D:\\scadaref\\src\\scshome2\\dat\\ScsVisu\\scsstudio\\pnlstudio\\p_scada.ilv"
+Palettes 3
+"defaultGadget" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+2 F "wheat" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 3
+1 { 0 0 AnImageRectangle "" 8 8 142 100 } 0
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 ScsList "" 8 123 142 100 } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 ScsResizableList "" 8 238 142 100 } 0
+0
+Size 158 347
+EOF

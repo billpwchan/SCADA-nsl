@@ -1,0 +1,77 @@
+/******************************************************************************/
+/*									      */
+/*  FILE	: sig_ext_MsgProcnumToSinf.dat                                */
+/*  FULL NAME	: Configuration file for message/procnum send in intern       */
+/*									      */
+/*----------------------------------------------------------------------------*/
+/*  AUTHOR		:	Olivier GARCIA                                */
+/*  COMPANY		:	SYSECA					      */
+/*  CREATION DATE	:	1996/07/03				      */
+/*  LANGUAGE		:	C Ansi					      */
+/*............................................................................*/
+/*  OVERVIEW								      */
+/*	Configuration file to define the procnum associated with a message    */
+/*	send in intern (SINF to SINF).                                        */
+/*      This file used the keyword #message                                   */
+/*                                                                            */
+/*      The maximun size of a message name is 64 caracters                    */
+/*                                                                            */
+/*............................................................................*/
+/*  CONTENTS								      */
+/*  Keyword		Message Name				Procnum	      */
+/*  #message            xxx_xxx_D_MSGINT_xxxxxxxxxxxxxxx                    */
+/*                                                                            */
+/******************************************************************************/
+
+/*----------------------------------------------------------------------------*/
+/*  IDENTIFICATION							      */
+#pragma ident "@(#)sig_ext_MsgProcnumToInt.dat	1.4 03/10/97"
+/*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*/
+/*  CONSTANTS DEFINITION						      */
+/*----------------------------------------------------------------------------*/
+
+/* List subscription messages */
+/* -------------------------- */
+#message SIG_DBA_D_MSGINT_CREAT_LST_SBS 120 /* procnumsig_dba_sbs_LST         */
+#message SIG_DBA_D_MSGINT_REACT_LST_SBS 120 /* procnumsig_dba_sbs_LST         */
+
+#message SIG_DBA_D_MSGINT_CREATE_ITEM	120 /* procnumsig_dba_sbs_LST         */
+#message SIG_DBA_D_MSGINT_DELETE_ITEM	120 /* procnumsig_dba_sbs_LST         */
+#message SIG_DBA_D_MSGINT_MODIFY_ITEM	120 /* procnumsig_dba_sbs_LST         */
+ 
+#message SIG_DBA_D_MSGINT_CREATE_MULTI	120 /* procnumsig_dba_sbs_LST         */
+#message SIG_DBA_D_MSGINT_DELETE_MULTI	120 /* procnumsig_dba_sbs_LST         */
+#message SIG_DBA_D_MSGINT_MODIFY_MULTI	120 /* procnumsig_dba_sbs_LST         */
+ 
+/* Group subscription messages */
+/* --------------------------- */
+#message SIG_DBA_D_MSGINT_CREAT_GRP_SBS 121 /* procnumsig_dba_sbs_Grp         */
+#message SIG_DBA_D_MSGINT_REACT_GRP_SBS 121 /* procnumsig_dba_sbs_Grp         */
+ 
+/* ====================================== */
+ 
+#message SIL_TRT_D_MSG_FAULT_INF_LIS_PUT  110 /* procnum sil_trt_gmg           */
+#message SIL_TRT_D_MSG_FAULT_INF_LIS_SUP  110 /* procnum sil_trt_gmg           */
+#message SIL_TRT_D_MSG_INHIB_INF_LIS_PUT  110 /* procnum sil_trt_gmg           */
+#message SIL_TRT_D_MSG_INHIB_INF_LIS_SUP  110 /* procnum sil_trt_gmg           */
+#message SIL_TRT_D_MSG_FORCED_INF_LIS_PUT 110 /* procnum sil_trt_gmg           */
+#message SIL_TRT_D_MSG_FORCED_INF_LIS_SUP 110 /* procnum sil_trt_gmg           */
+#message SIL_TRT_D_MSG_FORCED_INF_LIS_MOD 110 /* procnum sil_trt_gmg           */
+#message SIL_TRT_D_MSG_MANUAL_INF_LIS_PUT 110 /* procnum sil_trt_gmg           */
+#message SIL_TRT_D_MSG_MANUAL_INF_LIS_SUP 110 /* procnum sil_trt_gmg           */
+#message SIL_TRT_D_MSG_MANUAL_INF_LIS_MOD 110 /* procnum sil_trt_gmg           */
+ 
+
+/* alarm  messages 		*/
+/* -------------------------- */
+#message SIL_TRT_D_MSG_GRAD 100 /* procnum sil_ala_lmg           */
+ 
+/* ====================================== */
+/* type of messages concerning "history" */
+ 
+/*#message SIG_HIS_D_MSG_ALARM_LIS_PUT            ????*/
+/*#message SIG_HIS_D_MSG_ACTION_LIS_PUT           ????*/
+ 
+ 

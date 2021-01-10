@@ -1,0 +1,22 @@
+// Ilv Version: 2.3
+// File generated: Tue Nov 12 19:28:36 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+"default" 2 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+1 "defaultBg" "defaultFg" "bold" "%helvetica-12-B" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 13
+2 { 0 0 IlvTextField 110 3 107 22 F6 2 1 -1 0 "" } 96 "min" "TextField" 336 1 110 1 5 2
+2 { 1 0 IlvTextField 110 31 107 22 F6 2 1 -1 0 "" } 96 "max" "TextField" 336 1 110 1 5 2
+2 { 2 0 IlvTextField 110 59 107 22 F6 2 1 -1 0 "" } 96 "value" "TextField" 336 1 110 1 5 2
+2 { 3 1 IlvButton 7 161 60 23 F1 2 16 Y "&apply" } 64 "Button" 148 "apply" 1 7 1 5
+2 { 4 1 IlvButton 157 161 60 23 F1 2 16 Y "&close" } 64 "Button" 196 "cancel" 1 5 1 5
+2 { 5 0 IlvTextField 110 87 107 22 F6 2 1 -1 0 "" } 96 "start" "TextField" 336 1 110 1 5 2
+2 { 6 0 IlvTextField 110 114 107 22 F6 2 1 -1 0 "" } 96 "range" "TextField" 336 1 110 1 5 2
+3 { 7 2 IlvReliefLine 0 153 222 153 1 } 32 "line" 464 1 0 1 0 1 35 2
+3 { 8 0 IlvMessageLabel 9 57 80 26 0 "&value" 1 } 0 16 1 9
+3 { 9 0 IlvMessageLabel 9 85 95 26 0 "&startAngle" 1 } 0 16 1 9
+3 { 10 0 IlvMessageLabel 9 112 92 26 0 "&angleRange" 1 } 0 16 1 9
+3 { 11 0 IlvMessageLabel 9 1 90 26 0 "&min" 1 } 0 16 1 9
+3 { 12 0 IlvMessageLabel 9 29 89 26 0 "&max" 1 } 0 16 1 9
+Size 222 189

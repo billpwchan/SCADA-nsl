@@ -1,0 +1,96 @@
+/****************************************/
+/*   dashboard display mode             */
+/****************************************/
+
+
+/* dashboard layout panel */
+.dashboardLayout {
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.dashboardLayout-title {
+  width: 100%;
+  height: auto;
+/*   font-family: "Roboto-regular"; */
+  font-size: 32px;
+  text-align: center;
+  margin: 10px;
+}
+.dashboardLayout-chartContainer {
+  flex-grow: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.dashboardLayout-chart {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+/****************************/
+
+/* layouts according to DashboardLayoutType */
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_SINGLE"] {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_SINGLE"] .dashboardLayout-chart {
+  flex-grow: 1;
+}
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_1_2"] {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_1_2"] .dashboardLayout-chart {
+  flex-grow: 1;
+}
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_2_1"] {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_2_1"] .dashboardLayout-chart {
+  flex-grow: 1;
+}
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_2_2"] {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_2_2"] .dashboardLayout-chart {
+  width: 50%;
+  flex-grow: 1;
+}
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_1_3"] {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_1_3"] .dashboardLayout-chart:nth-child(1) {
+  width: 100%;
+  flex-grow: 1;
+}
+.dashboardLayout-chartContainer[data-layout-type="LAYOUT_1_3"] .dashboardLayout-chart {
+  width: 33.33333333333%;
+  flex-grow: 1;
+}
+/********************************************/

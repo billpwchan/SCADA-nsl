@@ -1,0 +1,19 @@
+// Ilv Version: 2.3
+// File generated: Wed Nov 13 10:03:56 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 3
+1 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 2 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 7
+2 { 0 0 IlvComboBox 79 4 222 20 F1 2 3 "Name"
+"Everywhere"
+"Name"
+"English" } 96 "where" "ComboBox" 336 1 79 1 5 2
+2 { 1 0 IlvMessageLabel 10 5 52 24 0 "&where" 1 } 0 16 1 10
+2 { 2 0 IlvMessageLabel 10 40 52 24 0 "&what" 1 } 0 16 1 10
+2 { 3 0 IlvTextField 78 39 223 23 F6 2 1 -1 0 "&a*" } 96 "what" "TextField" 336 1 78 1 5 2
+2 { 4 1 IlvButton 228 86 73 23 F1 2 16 Y "&close" } 64 "Button" 196 "close" 1 5 1 5
+2 { 5 1 IlvButton 5 86 77 23 F1 2 16 Y "&search" } 64 "Button" 148 "search" 1 5 1 5
+3 { 6 2 IlvReliefLine -1 78 305 78 1 } 32 "line" 464 1 4294967295 1 1 1 35 2
+Size 306 114

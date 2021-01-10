@@ -1,0 +1,86 @@
+// Ilv Version: 2.3
+// File generated: Wed Nov 13 10:30:55 1996
+// Creator class: IlvGadgetManagerOutput
+Palettes 4
+3 "defaultBg" "defaultFg" "menu" "%helvetica-12-B" 0 solid solid 0 0 0
+0 "defaultBg" "defaultFg" "button" "%helvetica-12-B" 0 solid solid 0 0 0
+"default" 2 "defaultBg" "defaultFg" "default" "fixed" 0 solid solid 0 0 0
+1 "defaultBg" "defaultFg" "normal" "%helvetica-12-" 0 solid solid 0 0 0
+IlvObjects 25
+1 { 0 0 IlvFrame 5 195 370 182 0 "&itemprops" 1 } 32 "Frame_1" 0
+2 { 1 1 IlvTextField 125 214 125 23 F6 2 1 -1 0 "" } 96 "label" "TextField" 2052 "setLabel" "bitmap"
+2 { 2 1 IlvFileSelectorField 125 247 125 23 F6 2 1 -1 0 "" } 96 "bitmap" "TextField" 6148 "setBitmap" "callb" "label"
+2 { 3 1 IlvTextField 125 281 125 23 F6 2 1 -1 0 "" } 96 "callb" "TextField" 6148 "setCallback" "accel" "bitmap"
+2 { 4 1 IlvToggle 282 312 88 17 F1 2 1 2 0 0 0 Y "&checked" } 96 "check" "Toggle" 6148 "setChecked" "Button_3" "radio"
+2 { 5 1 IlvToggle 282 216 88 17 F1 2 1 2 0 0 0 Y "&readonly" } 96 "ro" "Toggle" 6148 "setReadOnly" "sens" "accelkey"
+2 { 6 1 IlvToggle 282 240 88 17 F1073741825 2 1 2 0 0 0 Y "&sensitive" } 96 "sens" "Toggle" 6148 "setSensitive" "toggle" "ro"
+2 { 7 0 IlvButton 5 395 62 23 F1 2 16 Y "&apply" } 96 "Button_3" "Button" 4100 "apply" "check"
+2 { 8 0 IlvButton 313 395 62 23 F1 2 16 Y "&close" } 96 "Button_4" "Button" 16388 "cancel"
+2 { 9 1 IlvButton 16 97 118 23 F1 2 16 Y "&insert" } 32 "Button_1" 6148 "add" "Button_2" "Toggle_1"
+2 { 10 1 IlvButton 17 159 118 23 F1 2 16 Y "&remove" } 32 "remove" 6148 "remove" "ScrolledStringList_1" "Button_2"
+2 { 11 1 IlvButton 16 127 118 23 F1 2 16 Y "&Insert Separator" } 32 "Button_2" 6148 "separator" "remove" "Button_1"
+2 { 12 1 IlvTextField 125 313 125 23 F6 2 1 -1 0 "" } 32 "accel" 6148 "setAcceleratorText" "accelkey" "callb"
+2 { 13 1 IlvMessageLabel 15 312 93 26 0 "&accelerator" 1 } 0 0
+2 { 14 1 IlvTextField 125 346 125 23 F6 2 1 -1 0 "" } 32 "accelkey" 6148 "setAcceleratorKey" "ro" "accel"
+2 { 15 1 IlvMessageLabel 15 345 111 26 0 "&acceleratorKey" 1 } 0 0
+3 { 16 2 IlvReliefLine 0 388 380 388 1 } 32 "line" 0
+3 { 17 1 IlvMessageLabel 15 213 98 26 0 "&label" 1 } 0 0
+3 { 18 1 IlvMessageLabel 15 246 88 26 0 "&bitmap" 1 } 0 0
+3 { 19 1 IlvMessageLabel 15 286 90 14 0 "&callback" 1 } 0 0
+3 { 20 0 IlvFrame 5 2 370 191 0 "&items" 1 } 0 0
+3 { 21 1 IlvToggle 282 264 88 17 F1 2 1 2 0 0 0 Y "Toggle" } 32 "toggle" 6148 "setToggle" "radio" "sens"
+3 { 22 1 IlvToggle 282 290 88 17 F1 2 1 2 0 0 0 Y "&radio" } 32 "radio" 6148 "setRadio" "check" "toggle"
+3 { 23 3 IlvSCGadgetContainerRectangle 153 21 209 159 "" 3 } 32 "scroll" 0
+3 { 24 1 IlvToggle 20 68 90 17 F1 2 1 2 0 0 0 Y "&setTearOff" } 32 "tearOff" 6148 "tearOff" "Button_1" "Button_4"
+Size 380 424
+GeometryHandlers
+1 100 0 380 0 380 0
+25 3 0 0 153  209 0 209 23  0 0 18 0
+ 3 0 0 5  370 0 370 20  0 0 5 0
+ 3 0 0 5  370 0 370 0  0 0 5 0
+ 3 0 0 0  380 0 380 16  0 0 0 0
+ 3 313 0 313  0 0 62 8  0 0 5 0
+ 3 282 0 282  0 0 88 4  0 0 10 0
+ 3 282 0 282  0 0 88 22  0 0 10 0
+ 3 282 0 282  0 0 88 21  0 0 10 0
+ 3 282 0 282  0 0 88 6  0 0 10 0
+ 3 282 0 282  0 0 88 5  0 0 10 0
+ 3 0 0 125  125 0 125 1  0 0 130 0
+ 3 0 0 125  125 0 125 2  0 0 130 0
+ 3 0 0 125  125 0 125 3  0 0 130 0
+ 3 0 0 125  125 0 125 12  0 0 130 0
+ 3 0 0 125  125 0 125 14  0 0 130 0
+ 3 0 0 16  0 0 118 9  246 0 246 0
+ 3 0 0 16  0 0 118 11  246 0 246 0
+ 3 0 0 17  0 0 118 10  245 0 245 0
+ 3 0 0 20  0 0 90 24  270 0 270 0
+ 3 0 0 15  0 0 98 17  267 0 267 0
+ 3 0 0 15  0 0 88 18  277 0 277 0
+ 3 0 0 15  0 0 90 19  275 0 275 0
+ 3 0 0 15  0 0 93 13  272 0 272 0
+ 3 0 0 15  0 0 111 15  254 0 254 0
+ 3 0 0 5  0 0 62 7  313 0 313 0
+2 100 197 197 0 197 0
+ 0 0 227 197 227 197
+21 3 0 0 21  159 0 159 23  0 0 244 1
+ 3 0 0 2  191 0 191 20  0 0 231 1
+ 3 195 0 195  0 0 182 0  0 0 47 1
+ 3 387 0 387  0 0 2 16  0 0 35 1
+ 3 395 0 395  0 0 23 7  0 0 6 1
+ 3 395 0 395  0 0 23 8  0 0 6 1
+ 3 312 0 312  0 0 17 4  0 0 95 1
+ 3 290 0 290  0 0 17 22  0 0 117 1
+ 3 264 0 264  0 0 17 21  0 0 143 1
+ 3 240 0 240  0 0 17 6  0 0 167 1
+ 3 216 0 216  0 0 17 5  0 0 191 1
+ 3 214 0 214  0 0 23 1  0 0 187 1
+ 3 247 0 247  0 0 23 2  0 0 154 1
+ 3 281 0 281  0 0 23 3  0 0 120 1
+ 3 313 0 313  0 0 23 12  0 0 88 1
+ 3 346 0 346  0 0 23 14  0 0 55 1
+ 3 213 0 213  0 0 26 17  0 0 185 1
+ 3 246 0 246  0 0 26 18  0 0 152 1
+ 3 286 0 286  0 0 14 19  0 0 124 1
+ 3 312 0 312  0 0 26 13  0 0 86 1
+ 3 345 0 345  0 0 26 15  0 0 53 1
+0

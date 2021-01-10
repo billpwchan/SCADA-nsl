@@ -1,0 +1,284 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:30:17 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astidiffimage"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astidiffimage.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 55
+0 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 306 189 120 133 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Rectangle"  }   } 0
+0
+0 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 18 15 568 61 F268435468 0 { IlvMessageItem 262169 4 16 4 "&RefImageLabel"  }   } 0
+0
+0 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 18 76 568 61 F268435468 0 { IlvMessageItem 262169 4 16 4 "&TestImageLabel"  }   } 0
+0
+0 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 434 189 120 133 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Statistics"  }   } 0
+0
+1 { 4 1 IlvReliefLine 4 491 595 491 1 } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 358 503 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Reset"  }   } 544 "Reset"
+1
+1 "__ilvCallback" "resetCB"
+0
+1 { 6 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 248 208 20 20 F34904 2 N N 0 0 0 0 0 0 15 15 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "ColorSame"
+1
+1 "__ilvCallback" "chooseSameColor"
+6144 "ShowSameRect" "ShowSame"
+1 { 7 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 248 238 20 20 F34904 2 N N 0 0 0 0 0 0 15 15 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "ColorDiff"
+1
+1 "__ilvCallback" "chooseDiffColor"
+6144 "ShowDiffRect" "ShowDiff"
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 16 208 108 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&SameObjects"  }   } 0
+0
+1 { 9 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ApplyTT" 4 4 ]
+0 IlvButton 5 503 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Compare"  }   } 544 "Apply"
+1
+1 "__ilvCallback" "applyCB"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 516 503 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Close"  }   } 544 "Close"
+1
+1 "__ilvCallback" "cancelCB"
+10240 "ShowSame"
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 140 35 440 20 F268435471 0 1 -1 0 "" } 32 "RefWsPath"
+16384
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 140 96 440 20 F268435471 0 1 -1 0 "" } 32 "TstWsPath"
+16384
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 30 35 108 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&DBase"  }   } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 30 96 108 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&DBase"  }   } 0
+0
+1 { 15 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 248 298 20 20 F34904 2 N N 0 0 0 0 0 0 15 15 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "ColorAdded"
+1
+1 "__ilvCallback" "chooseAddedColor"
+6144 "ShowPrimitives" "ShowAdded"
+1 { 16 P 2
+[ IlvInteractorProperty __ilvInteractor "MatrixSelector" ]
+[ IlvToolTip __ilvToolTip 2 "&ColorsTT" 4 4 ]
+0 IlvMatrix 248 268 20 20 F34904 2 N N 0 0 0 0 0 0 15 15 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "ColorSuppressed"
+1
+1 "__ilvCallback" "chooseSuppressedColor"
+6144 "ShowSuppressedRect" "ShowSuppressed"
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 16 238 108 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&DifferentObjects"  }   } 0
+0
+1 { 18 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 16 298 108 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&AddedObjects"  }   } 0
+0
+1 { 19 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 16 268 108 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&SuppressedObjects"  }   } 0
+0
+1 { 20 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 16 336 108 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&GraphicalPrimitives"  }   } 0
+0
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 222 189 73 133 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Colors"  }   } 0
+0
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 124 189 87 133 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Show"  }   } 0
+0
+1 { 23 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ApplyTT" 4 4 ]
+0 IlvButton 170 503 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "&Print"  }   } 544 "Print"
+1
+1 "__ilvCallback" "printCB"
+0
+1 { 24 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 136 209 63 16 F1 2 1 1 0 0 0 Y "&Yes" } 544 "ShowSame"
+1
+1 "__ilvCallback" "showSame"
+6144 "ColorSame" "Close"
+1 { 25 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 136 239 63 16 F1073741825 2 1 1 0 0 0 Y "&Yes" } 544 "ShowDiff"
+1
+1 "__ilvCallback" "showDiff"
+6144 "ColorDiff" "ShowSameRect"
+1 { 26 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 136 299 63 16 F1073741825 2 1 1 0 0 0 Y "&Yes" } 544 "ShowAdded"
+1
+1 "__ilvCallback" "showAdded"
+6144 "ColorAdded" "ShowSuppressedRect"
+1 { 27 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 136 269 63 16 F1073741825 2 1 1 0 0 0 Y "&Yes" } 544 "ShowSuppressed"
+1
+1 "__ilvCallback" "showSuppressed"
+6144 "ColorSuppressed" "ShowDiffRect"
+1 { 28 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 334 213 63 16 F1 2 1 1 0 0 0 Y "&Yes" } 544 "ShowSameRect"
+1
+1 "__ilvCallback" "showSameRect"
+6144 "ShowDiff" "ColorSame"
+1 { 29 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 334 239 63 16 F1073741825 2 1 1 0 0 0 Y "&Yes" } 544 "ShowDiffRect"
+1
+1 "__ilvCallback" "showDiffRect"
+6144 "ShowSuppressed" "ColorDiff"
+1 { 30 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvToggle 334 270 63 16 F1073741825 2 1 1 0 0 0 Y "&Yes" } 544 "ShowSuppressedRect"
+1
+1 "__ilvCallback" "showSuppressedRect"
+6144 "ShowAdded" "ColorSuppressed"
+1 { 31 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 214 387 132 14 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ClassName"  }   } 0
+0
+1 { 32 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 404 385 136 14 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ObjectName"  }   } 0
+0
+1 { 33 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 210 407 180 22 F7 2 1 -1 0 "" } 32 "ClassName"
+4096 "Zoom"
+1 { 34 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 400 407 180 22 F7 2 1 -1 0 "" } 32 "ObjectName"
+0
+1 { 35 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvScrolledComboBox 124 336 169 20 F807 2 1 -1 0 "&None" 4
+{ IlvGadgetItem 1 2 4 "&NoPrimitive"  } 
+{ IlvGadgetItem 1 2 4 "&RefPrimitives"  } 
+{ IlvGadgetItem 1 2 4 "&TstPrimitives"  } 
+{ IlvGadgetItem 1 2 4 "&BothPrimitives"  }  4 0 } 544 "ShowPrimitives"
+1
+1 "__ilvCallback" "showPrimitives"
+6144 "Zoom" "ColorAdded"
+1 { 36 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 22 453 556 22 F7 2 1 -1 0 "" } 32 "ObjectPath"
+0
+1 { 37 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 22 433 136 14 F268435468 0 { IlvMessageItem 262169 4 16 4 "&ObjectPath"  }   } 0
+0
+1 { 38 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 12 366 576 117 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Selection"  }   } 0
+0
+1 { 39 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 226 138 151 41 F268435468 0 { IlvMessageItem 262169 4 16 4 "&CurrentPZFactor"  }   } 0
+0
+1 { 40 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 234 154 134 20 F38 2 1 -1 0 "" 8
+{ IlvMenuItem 1 2 4 "1200%"  } 
+{ IlvMenuItem 1 2 4 "800%"  } 
+{ IlvMenuItem 1 2 4 "400%"  } 
+{ IlvMenuItem 1 2 4 "200%"  } 
+{ IlvMenuItem 1 2 4 "100%"  } 
+{ IlvMenuItem 1 2 4 "50%"  } 
+{ IlvMenuItem 1 2 4 "10%"  } 
+{ IlvMenuItem 1 2 4 "&FitImage"  }  } 544 "Zoom"
+1
+1 "__ilvCallback" "zoom"
+6144 "ClassName" "ShowPrimitives"
+1 { 41 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 140 55 440 20 F268435471 0 1 -1 0 "" } 32 "RefImageName"
+16384
+1 { 42 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 30 55 108 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Name"  }   } 0
+0
+1 { 43 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 30 116 108 19 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Name"  }   } 0
+0
+1 { 44 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 140 116 440 20 F268435471 0 1 -1 0 "" } 32 "TstImageName"
+16384
+1 { 45 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 445 212 98 19 F15 2 2 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "SameCount"
+0
+1 { 46 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 445 239 98 19 F15 2 2 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "DiffCount"
+0
+1 { 47 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 445 268 98 19 F15 2 2 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "SupprCount"
+0
+1 { 48 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 445 298 98 19 F15 2 2 -1 0 "0" . , 2 0 -2147483648 2147483647 } 32 "AddedCount"
+0
+1 { 49 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 124 35 16 19 F268435468 0 { IlvMessageItem 262145 4 16 4 ":"  }   } 0
+0
+1 { 50 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 124 55 16 19 F268435468 0 { IlvMessageItem 262145 4 16 4 ":"  }   } 0
+0
+1 { 51 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 124 96 16 19 F268435468 0 { IlvMessageItem 262145 4 16 4 ":"  }   } 0
+0
+1 { 52 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 124 116 16 19 F268435468 0 { IlvMessageItem 262145 4 16 4 ":"  }   } 0
+0
+1 { 53 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMessageLabel 22 387 132 14 F268435468 0 { IlvMessageItem 262169 4 16 4 "&TypeClass"  }   } 0
+0
+1 { 54 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 22 407 180 22 F7 2 1 -1 0 "" } 32 "ClassType"
+0
+Size 600 531
+Layers 2
+""  116 30 65535 65535 0
+""  116 30 65535 65535 0
+EOF

@@ -1,0 +1,12 @@
+/terracotta
+/log/
+ScsEnvList
+ScsEnvTable
+scadasoft.cfg
+transaction.log
+hs_err_pid*.log
+BAConnectorConfiguration.xml
+ehcache.xml
+quartz.properties
+SCSHistoLastID.dat
+*.pid

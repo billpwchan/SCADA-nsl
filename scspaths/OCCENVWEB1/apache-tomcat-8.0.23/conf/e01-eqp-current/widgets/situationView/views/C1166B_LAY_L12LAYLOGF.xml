@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_LAY_L12LAYLOGF" resolution="5.77914110429 4.81595092025 4.01329243354 3.34441036128 2.7870086344 2.32250719533 1.93542266278 1.61285221898 1.34404351582 1.12003626318" maxExtent="0.0 0.0 6917.0 4710.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_LAY_L12LAYLOGF.svg" width="6917.0" height="4710.0" bounds="0.0 0.0 6917.0 4710.0" name="C1166B_LAY_L12LAYLOGF" type="BASE_LAYER"></imageLayer>
+    </view>
+</viewConfiguration>

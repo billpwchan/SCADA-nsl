@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<viewConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/view">
+    <view srs="EPSG:23030" units="m" id="C1166B_POW_L25SUMUPS_" resolution="1.65398773006 1.37832310838 1.14860259032 0.957168825267 0.797640687722 0.664700573102 0.553917144252 0.46159762021 0.384664683508 0.320553902923" maxExtent="0.0 0.0 2420.0 1348.0" resolutionReference="1.0">
+        <controls displayLayerSwitcher="false" displayScaleLine="false" displayScale="false" displayMousePosition="false" displayPanZoomBar="true"></controls>
+        <imageLayer path="images/C1166B_POW_L25SUMUPS_.svg" width="2420.0" height="1348.0" bounds="0.0 0.0 2420.0 1348.0" name="C1166B_POW_L25SUMUPS_" type="BASE_LAYER"></imageLayer>
+        <symbolLayer name="AnDefaultLayer" type="OVERLAY">
+            <entityEntry x="982.0" y="859.0" symbolId="C1166B_UPS_UPS_" entityId="OCC_KOTUPSUPS_0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1337.0" y="859.0" symbolId="C1166B_UPS_UPSA" entityId="OCC_KOTUPSUPSA0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="1703.0" y="859.0" symbolId="C1166B_UPS_UPSA" entityId="OCC_KOTUPSUPSA0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="2062.0" y="859.0" symbolId="C1166B_UPS_UPSA" entityId="OCC_KOTUPSUPSA0003" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="1.492537260055542"></entityEntry>
+            <entityEntry x="982.0" y="505.0" symbolId="C1166B_LV__SUPF" entityId="OCC_KOTLV_SUPF0001" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9950248599052429"></entityEntry>
+            <entityEntry x="1334.0" y="505.0" symbolId="C1166B_LV__SUPF" entityId="OCC_KOTLV_SUPF0002" tx="0.0" ty="0.0" rotate="0.0" hFlip="false" vFlip="false" scale="0.9900497794151306"></entityEntry>
+        </symbolLayer>
+    </view>
+</viewConfiguration>

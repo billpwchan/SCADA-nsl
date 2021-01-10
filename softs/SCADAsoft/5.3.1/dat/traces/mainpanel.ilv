@@ -1,0 +1,104 @@
+// Ilv Version: 4.0
+// File generated: Wed Mar 14 16:49:02 2001
+// Creator class: IlvGadgetManagerOutput
+FileName "mainpanel"
+PathName "U:\\scs_source\\dat\\traces\\mainpanel.ilv"
+Palettes 3
+2 "gray" "black" "button" "%MS Sans Serif-11-[Charset:0]" 0 solid solid 0 0 0
+1 "gray" "black" "bold" "%MS Sans Serif-11-B[Charset:0]" 0 solid solid 0 0 0
+"IlvStText" 0 "gray" "black" "normal" "%MS Sans Serif-11-[Charset:0]" 0 solid solid 0 0 0
+IlvObjects 13
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 186 241 286 222 F34910 2 A A S 0 0 0 0 0 1 22 31 1 1 0 0 1 0 3 1 V0 2 0 1 N 0 0 0 0 0  } 32 "UserTraces"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 180 225 299 246 F268435468 0 { IlvMessageItem 262169 4 16 4 "User traces"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Button" ]
+2 IlvButton 17 482 87 23 F13 2 { IlvMessageItem 262145 4 16 4 "Quit"  }   } 512
+1
+1 "__ilvCallback" "quit"
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 181 -1 299 222 F268435468 0 { IlvMessageItem 262169 4 16 4 "Scadasoft traces"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 188 15 285 200 F34910 2 A A S 0 0 0 0 0 1 22 31 1 1 0 0 1 0 3 1 V0 2 0 1 N 0 0 0 0 0  } 32 "ScsTraces"
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 12 23 155 26 F6 2 1 -1 0 "" } 32 "Environement"
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 13 73 150 27 F6 2 1 -1 0 "" } 32 "HostName"
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvFrame 7 7 165 48 F268435468 0 { IlvMessageItem 262169 4 16 4 "^Environment"  }   } 0
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvFrame 6 58 164 46 F268435468 0 { IlvMessageItem 262169 4 16 4 "^HostName"  }   } 0
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvButton 172 482 101 23 F13 2 { IlvMessageItem 262145 4 16 4 "Set"  }   } 512
+1
+1 "__ilvCallback" "Send"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvButton 337 480 103 25 F13 2 { IlvMessageItem 262145 4 16 4 "SetAll"  }   } 512
+1
+1 "__ilvCallback" "sendAll"
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvStringList 16 122 147 343 F131 2 N N S 0 0 0 0 0 1 0 0 V0 2 0 } 544 "ProcessList"
+1
+1 "__ilvCallback" "processListCB"
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvFrame 8 105 163 366 F268435468 0 { IlvMessageItem 262169 4 16 4 "Process"  }   } 0
+0
+Size 489 522
+Background "gray"
+GeometryHandlers
+1 100 0 489 0 489 0
+8 3 17 0 17  0 0 87 2  385 0 385 0
+ 3 172 0 172  0 0 101 9  216 0 216 0
+ 3 337 0 337  0 0 103 10  49 1 49 0
+ 3 181 0 181  299 0 299 3  9 0 9 0
+ 3 180 0 180  299 0 299 1  10 0 10 0
+ 3 7 1 7  0 0 165 7  317 0 317 0
+ 3 12 0 12  155 0 155 5  322 0 322 0
+ 3 13 0 13  150 0 150 6  326 0 326 0
+7 33 0 0 0 0 0
+ 33 0 8 0 8 0
+ 0 0 3 8 3 8
+ 0 0 6 11 6 11
+ 0 0 0 17 0 17
+ 0 0 254 17 254 17
+ 33 0 251 271 251 271
+7 3 482 0 482  0 0 23 2  17 0 17 6
+ 3 482 0 482  0 0 23 9  17 0 17 6
+ 3 480 0 480  0 0 25 10  17 0 17 6
+ 3 0 0 7  0 0 48 7  -55 -3 -55 0
+ 3 0 0 58  0 0 46 8  -104 -13 -104 0
+ 3 0 0 73  27 0 27 6  -100 -1 -100 0
+ 3 0 0 23  26 0 26 5  -49 -1 -49 0
+0
+0
+0
+0
+0
+2 3 -30 -1 -30  222 0 222 0  59 0 59 6
+ 3 -46 -1 -46  246 0 246 1  51 0 51 6
+EOF

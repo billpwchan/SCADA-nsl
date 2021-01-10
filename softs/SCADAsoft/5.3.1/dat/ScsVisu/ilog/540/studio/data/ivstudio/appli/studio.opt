@@ -1,0 +1,673 @@
+// 
+//	    ILOG Views Studio configuration
+//		Application Extension
+// 
+studio {
+
+    commandFile			"ivstudio/appli/studio.cmd";
+    panelFile			"ivstudio/appli/studio.pnl";
+
+    defaultApplicationName 	testapp;
+    fileLoader			"iva" "OpenApplication";
+    panelHeaderFile 		"<ilviews/gadgets/gadcont.h>";
+    baseClassHeader		IlvGadgetContainer "<ilviews/gadgets/gadcont.h>";
+    baseClassHeader             IlvContainer "<ilviews/contain/contain.h>";
+    baseClassHeader		IlvDialog "<ilviews/gadgets/idialog.h>";
+    applicationBaseClass	IlvApplication;
+    applicationHeaderFile	"<ilviews/gadgets/appli.h>"
+
+    applicationFileExtension	".iva";
+    headerFileExtension		".h";
+    makeFileExtension		".mak";
+
+    toolBarCommands Main {
+	-,
+	TestDocument,
+	ShowClassPalette,
+	EditApplication,
+	ShowApplicationInspector,
+    }
+
+    // --- Interactors ---
+
+    viewsInteractor "Button" {
+	headerFile "<ilviews/contain/inter.h>";
+    }
+    viewsInteractor "ChDrag" {
+	headerFile "<ilviews/chartint.h>";
+	library "views31";
+    }
+    viewsInteractor "ChDragX" {
+	headerFile "<ilviews/chartint.h>";
+	library "views31";
+    }
+    viewsInteractor "ChDragY" {
+	headerFile "<ilviews/chartint.h>";
+	library "views31";
+    }
+    viewsInteractor "ChSelect" {
+	headerFile "<ilviews/chartint.h>";
+	library "views31";
+    }
+    viewsInteractor "ComboBox" {
+	headerFile "<ilviews/gadgets/vcombint.h>";
+    }
+    viewsInteractor "Gauge" {
+	headerFile "<ilviews/contain/gaugeint.h>";
+    }
+    viewsInteractor "Matrix" {
+	headerFile "<ilviews/gadgets/vmatint.h>";
+    }
+    viewsInteractor "MatrixSelector" {
+	headerFile "<ilviews/gadgets/vmatsel.h>";
+    }
+    viewsInteractor "MenuBar" {
+	headerFile "<ilviews/gadgets/vmbinter.h>";
+    }
+    viewsInteractor "Move" {
+	headerFile "<ilviews/contain/inter.h>";
+    }
+    viewsInteractor "MoveReshape" {
+	headerFile "<ilviews/contain/inter.h>";
+    }
+    viewsInteractor "OptionMenu" {
+	headerFile "<ilviews/gadgets/voptmint.h>";
+    }
+    viewsInteractor "Popup" {
+	headerFile "<ilviews/gadgets/vpopint.h>";
+    }
+    viewsInteractor "RButton" {
+	headerFile "<ilviews/contain/inter.h>";
+    }
+    viewsInteractor "Reshape" {
+	headerFile "<ilviews/contain/inter.h>";
+    }
+    viewsInteractor "SCManager" {
+	headerFile "<ilviews/gadmgr/scmgrint.h>";
+    }
+    viewsInteractor "SCMatrixSelector" {
+	headerFile "<ilviews/gadgets/vscmatsl.h>";
+    }
+    viewsInteractor "SComboBox" {
+	headerFile "<ilviews/gadgets/vscombin.h>";
+    }
+    viewsInteractor "ScrollBar" {
+	headerFile "<ilviews/gadgets/vsbinter.h>";
+    }
+    viewsInteractor "ScrolledMatrix" {
+	headerFile "<ilviews/gadgets/vscmatin.h>";
+    }
+    viewsInteractor "ScrolledStringList" {
+	headerFile "<ilviews/gadgets/vsclint.h>";
+    }
+    viewsInteractor "Selector" {
+	headerFile "<ilviews/contain/exclint.h>";
+    }
+    viewsInteractor "Sheet" {
+	headerFile "<ilviews/gadgets/vsheetin.h>";
+    }
+    viewsInteractor "Slider" {
+	headerFile "<ilviews/gadgets/vslidint.h>";
+    }
+    viewsInteractor "StringList" {
+	headerFile "<ilviews/gadgets/vslinter.h>";
+    }
+    viewsInteractor "Text" {
+	headerFile "<ilviews/gadgets/vtextint.h>";
+    }
+    viewsInteractor "TextField" {
+	headerFile "<ilviews/gadgets/vtfinter.h>";
+    }
+    viewsInteractor "Toggle" {
+	headerFile "<ilviews/contain/inter.h>";
+    }
+    viewsInteractor "VChDragY" {
+	headerFile "<ilviews/variable/contint.h>";
+	library "ilvvar";
+    }
+    viewsInteractor "VGauge" {
+	headerFile "<ilviews/variable/contint.h>";
+	library "ilvvar";
+    }
+    viewsInteractor "VMove" {
+	headerFile "<ilviews/variable/contint.h>";
+	library "ilvvar";
+    }
+    viewsInteractor "VReshape" {
+	headerFile "<ilviews/variable/contint.h>";
+	library "ilvvar";
+    }
+    viewsInteractor "VSheet" {
+	headerFile "<ilviews/variable/gcontint.h>";
+	library "ilvvar";
+    }
+    viewsInteractor "VarScrollBar" {
+	headerFile "<ilviews/variable/gcontint.h>";
+	library "ilvvar";
+    }
+    viewsInteractor "VarSlider" {
+	headerFile "<ilviews/variable/gcontint.h>";
+	library "ilvvar";
+    }
+    viewsInteractor "VarTextField" {
+	headerFile "<ilviews/variable/gcontint.h>";
+	library "ilvvar";
+    }
+    viewsInteractor "VarToggle" {
+	headerFile "<ilviews/variable/gcontint.h>";
+	library "ilvvar";
+    }
+
+    // --- Target platforms ---
+    system "alpha_5.1_6.5" {
+	compiler "cxx";
+	systemLibraries "bsd dnet_stub m pthread";
+	motif true;
+    }
+    system "ultrasparc32_8_6.2" {
+        compilerOptions "-mt -KPIC";
+        libDir "shared_mt";
+        systemLibraries "nsl socket gen";
+        linkerOptions "-mt -L/usr/openwin/lib -L/usr/dt/lib";
+        motif true;
+    }
+    system "ultrasparc64_8_6.2" {
+        compilerOptions "-mt -xtarget=ultra -xarch=v9 -KPIC";
+        libDir "shared_mt";
+        systemLibraries "nsl socket gen";
+        linkerOptions "-mt -xtarget=ultra -xarch=v9 -L/usr/openwin/lib -L/usr/dt/lib";
+        motif true;
+    }
+    system "ultrasparc32_10_11" {
+        compilerOptions "-mt -KPIC";
+        libDir "shared_mt";
+        systemLibraries "nsl socket gen";
+        linkerOptions "-mt -L/usr/openwin/lib -L/usr/dt/lib";
+        motif true;
+    }
+    system "ultrasparc64_10_11" {
+        compilerOptions "-mt -xtarget=ultra -xarch=v9 -KPIC";
+        libDir "shared_mt";
+        systemLibraries "nsl socket gen";
+        linkerOptions "-mt -xtarget=ultra -xarch=v9 -L/usr/openwin/lib -L/usr/dt/lib";
+        motif true;
+    }
+    system "x86_solaris10_11" {
+        compilerOptions "-mt -KPIC";
+        libDir "shared_mt";
+        systemLibraries "nsl socket gen";
+        linkerOptions "-mt -L/usr/openwin/lib -L/usr/dt/lib";
+        motif true;
+    }
+    system "x64_solaris10_11" {
+        compilerOptions "-mt -xarch=amd64 -KPIC";
+        libDir "shared_mt";
+        systemLibraries "nsl socket gen";
+        linkerOptions "-mt -xarch=amd64 -L/usr/openwin/lib -L/usr/dt/lib";
+        motif true;
+    }
+    system "hp32_11_3.52" {
+	compiler "aCC";
+	compilerOptions  "+Z +DAportable -AA -mt";
+        libDir "shared_mt_AA";
+	systemLibraries "m pthread";
+	linkerOptions "-AA -mt";
+	motif true;
+    }
+    system "hp64_11_3.52" {
+	compiler "aCC";
+	compilerOptions  "+DA2.0W -AA -mt";
+        libDir "shared_mt_AA";
+	systemLibraries "m pthread";
+	linkerOptions "+DA2.0W -AA -mt";
+	motif true;
+    }
+    system "hp32_11_3.73" {
+	compiler "aCC";
+	compilerOptions  "+Z +DAportable -AA -mt";
+        libDir "shared_mt_AA";
+	systemLibraries "m pthread";
+	linkerOptions "-AA -mt";
+	motif true;
+    }
+    system "hp64_11_3.73" {
+	compiler "aCC";
+	compilerOptions  "+DA2.0W -AA -mt";
+        libDir "shared_mt_AA";
+	systemLibraries "m pthread";
+	linkerOptions "+DA2.0W -AA -mt";
+	motif true;
+    }
+    system "ia64_hpux11_5.52" {
+	compiler "aCC";
+	compilerOptions  "+DD64 -mt";
+        libDir "shared_mt";
+	systemLibraries "m pthread";
+	linkerOptions "+DD64 -mt";
+	motif true;
+    }
+    system "ia64_hpux11_6.17" {
+	compiler "aCC";
+	compilerOptions  "+DD64 -mt";
+        libDir "shared_mt";
+	systemLibraries "m pthread";
+	linkerOptions "+DD64 -mt";
+	motif true;
+    }
+    system "ia64-32_hpux11_6.17" {
+	compiler "aCC";
+	compilerOptions  "-mt";
+        libDir "shared_mt";
+	systemLibraries "m pthread";
+	linkerOptions "-mt";
+	motif true;
+    }
+    system "x86_RHEL3.0_3.2" {
+	compiler "g++";
+        compilerOptions "-fPIC -Wno-deprecated";
+	linkerOptions "-L/usr/X11R6/lib";
+	systemLibraries "dl";
+	motif true;
+    }
+    system "ppc_linux2_glibc2.3_gcc3.2" {
+	compiler "g++";
+        compilerOptions "-fPIC -Wno-deprecated";
+	linkerOptions "-L/usr/X11R6/lib";
+	systemLibraries "dl";
+	motif true;
+    }
+    system "ia64_RHEL3.0_3.2" {
+	compiler "g++";
+        compilerOptions "-fPIC -Wno-deprecated";
+	linkerOptions "-L/usr/X11R6/lib";
+	systemLibraries "dl";
+	motif true;
+    }
+    system "rs6000_5.1_6.0" {
+        compiler "xlC";
+        compilerOptions "-+ -qstaticinline -qrtti=all -DIL_STD";
+        libDir "shared_stl";
+        motif true;
+    }
+    system "power32_aix5.2_7.0" {
+        compiler "xlC_r";
+        compilerOptions "-qfloat=nomaf -bhalt:5 -qmkshrobj -qstaticinline -qrtti=all -DIL_STD";
+        libDir "shared_mt_stl";
+        motif true;
+    }
+    system "power64_aix5.2_7.0" {
+        compiler "xlC_r";
+        compilerOptions "-q64 -qfloat=nomaf -bhalt:5 -qmkshrobj -qstaticinline -qrtti=all -DIL_STD";
+	linkerOptions "-q64 -bhalt:5";
+        libDir "shared_mt_stl";
+        motif true;
+    }
+    system "power32_aix5.3_7.0" {
+        compiler "xlC_r";
+        compilerOptions "-qfloat=nomaf -bhalt:5 -qmkshrobj -qstaticinline -qrtti=all -DIL_STD";
+        libDir "shared_mt_stl";
+        motif true;
+    }
+    system "power64_aix5.3_7.0" {
+        compiler "xlC_r";
+        compilerOptions "-q64 -qfloat=nomaf -bhalt:5 -qmkshrobj -qstaticinline -qrtti=all -DIL_STD";
+	linkerOptions "-q64 -bhalt:5";
+        libDir "shared_mt_stl";
+        motif true;
+    }
+    system "power32_aix6.1_10.1" {
+        compiler "xlC_r";
+        compilerOptions "-qfloat=nomaf -bhalt:5 -qmkshrobj -qstaticinline -qrtti=all -DIL_STD";
+        libDir "shared_mt_stl";
+        motif true;
+    }
+    system "power64_aix6.1_10.1" {
+        compiler "xlC_r";
+        compilerOptions "-q64 -qfloat=nomaf -bhalt:5 -qmkshrobj -qstaticinline -qrtti=all -DIL_STD";
+	linkerOptions "-q64 -bhalt:5";
+        libDir "shared_mt_stl";
+        motif true;
+    }
+    system "msvc7" {
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MT /nologo /W3 /G3 /GX /GR /DILVSTD /DIL_STD";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "msvc7 (STA)" {
+	systemName "msvc7";
+	libDir "stat_sta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /ML /nologo /W3 /G3 /GX /GR /DILVSTD /DIL_STD";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "msvc7 (MTA)" {
+	systemName "msvc7";
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MT /nologo /W3 /G3 /GX /GR /DILVSTD /DIL_STD";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "msvc7 (MDA)" {
+	systemName "msvc7";
+	libDir "stat_mda";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MD /nologo /W3 /G3 /GX /GR /DILVSTD /DIL_STD";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "msvc7 (MDA DLL)" {
+	systemName "msvc7";
+	libDir "dll_mda";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MD /nologo /W3 /G3 /GX /GR /DILVSTD /DIL_STD /DILVDLL";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2003_7.1" {
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MT /nologo /W3 /G3 /GX /GR /DILVSTD /DIL_STD";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2003_7.1 (STA)" {
+	systemName "x86_.net2003_7.1";
+	libDir "stat_sta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /ML /nologo /W3 /G3 /GX /GR /DILVSTD /DIL_STD";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2003_7.1 (MTA)" {
+	systemName "x86_.net2003_7.1";
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MT /nologo /W3 /G3 /GX /GR /DILVSTD /DIL_STD";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2003_7.1 (MDA)" {
+	systemName "x86_.net2003_7.1";
+	libDir "stat_mda";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MD /nologo /W3 /G3 /GX /GR /DILVSTD /DIL_STD";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2003_7.1 (MDA DLL)" {
+	systemName "x86_.net2003_7.1";
+	libDir "dll_mda";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MD /nologo /W3 /G3 /GX /GR /DILVSTD /DIL_STD /DILVDLL";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2005_8.0" {
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MT /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2005_8.0 (MTA)" {
+	systemName "x86_.net2005_8.0";
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MT /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2005_8.0 (MDA)" {
+	systemName "x86_.net2005_8.0";
+	libDir "stat_mda";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MD /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2005_8.0 (MDA DLL)" {
+	systemName "x86_.net2005_8.0";
+	libDir "dll_mda";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MD /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /DILVDLL /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2008_9.0" {
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MT /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2008_9.0 (MTA)" {
+	systemName "x86_.net2008_9.0";
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MT /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2008_9.0 (MDA)" {
+	systemName "x86_.net2008_9.0";
+	libDir "stat_mda";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MD /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2008_9.0 (MDA DLL)" {
+	systemName "x86_.net2008_9.0";
+	libDir "dll_mda";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MD /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /DILVDLL /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x64_.net2008_9.0" {
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN64 /c /MT /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x64_.net2008_9.0 (MTA)" {
+	systemName "x64_.net2008_9.0";
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN64 /c /MT /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x64_.net2008_9.0 (MDA)" {
+	systemName "x64_.net2008_9.0";
+	libDir "stat_mda";
+	compiler "cl";
+	compilerOptions "/DWIN64 /c /MD /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x64_.net2008_9.0 (MDA DLL)" {
+	systemName "x64_.net2008_9.0";
+	libDir "dll_mda";
+	compiler "cl";
+	compilerOptions "/DWIN64 /c /MD /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /DILVDLL /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /INCREMENTAL:yes /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2010_10.0" {
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MT /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2010_10.0 (MTA)" {
+	systemName "x86_.net2010_10.0";
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MT /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2010_10.0 (MDA)" {
+	systemName "x86_.net2010_10.0";
+	libDir "stat_mda";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MD /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86_.net2010_10.0 (MDA DLL)" {
+	systemName "x86_.net2010_10.0";
+	libDir "dll_mda";
+	compiler "cl";
+	compilerOptions "/DWIN32 /c /MD /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /DILVDLL /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x64_.net2010_10.0" {
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN64 /c /MT /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x64_.net2010_10.0 (MTA)" {
+	systemName "x64_.net2010_10.0";
+	libDir "stat_mta";
+	compiler "cl";
+	compilerOptions "/DWIN64 /c /MT /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /SUBSYSTEM:windows";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x64_.net2010_10.0 (MDA)" {
+	systemName "x64_.net2010_10.0";
+	libDir "stat_mda";
+	compiler "cl";
+	compilerOptions "/DWIN64 /c /MD /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x64_.net2010_10.0 (MDA DLL)" {
+	systemName "x64_.net2010_10.0";
+	libDir "dll_mda";
+	compiler "cl";
+	compilerOptions "/DWIN64 /c /MD /nologo /W3 /EHsc /GR /DILVSTD /DIL_STD /DILVDLL /D_CRT_SECURE_NO_DEPRECATE";
+	linker "link";
+	linkerOptions "/nologo /SUBSYSTEM:windows msvcrt.lib";
+	systemLibraries "kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib wsock32.lib imm32.lib winspool.lib";
+	sourceFileExtension ".cpp";
+    }
+    system "x86-64_linux2_glibc2.3_gcc3.4" {
+	compiler "g++";
+        compilerOptions "-fPIC -Wno-deprecated";
+	linkerOptions "-L/usr/X11R6/lib64";
+	systemLibraries "dl";
+	motif true;
+    }
+    system "x86_RHEL4.0_3.4" {
+	compiler "g++";
+        compilerOptions "-fPIC -m32 -Wno-deprecated";
+	linkerOptions "-m32 -L/usr/X11R6/lib";
+	systemLibraries "dl";
+	motif true;
+    }
+    system "x86-64_RHEL4.0_3.4" {
+	compiler "g++";
+        compilerOptions "-fPIC -m64 -Wno-deprecated";
+	linkerOptions "-m64 -L/usr/X11R6/lib64";
+	systemLibraries "dl";
+	motif true;
+    }
+    system "x86_linux2_glibc2.3_gcc3.4" {
+	compiler "g++";
+        compilerOptions "-fPIC -Wno-deprecated";
+	linkerOptions "-L/usr/X11R6/lib";
+	systemLibraries "dl";
+	motif true;
+    }
+    system "x86_sles10.0_4.1" {
+	compiler "g++";
+        compilerOptions "-fPIC -m32 -Wno-deprecated";
+	linkerOptions "-m32 -L/usr/X11R6/lib";
+	systemLibraries "dl";
+	motif true;
+    }
+    system "x86_rhel5.0_4.1" {
+	compiler "g++";
+        compilerOptions "-fPIC -m32 -Wno-deprecated";
+	linkerOptions "-m32 -L/usr/X11R6/lib";
+	systemLibraries "dl";
+	motif true;
+    }
+    system "x64_rhel5.0_4.1" {
+	compiler "g++";
+        compilerOptions "-fPIC -m64 -Wno-deprecated";
+	linkerOptions "-m64 -L/usr/X11R6/lib64";
+	systemLibraries "dl";
+	motif true;
+    }
+}

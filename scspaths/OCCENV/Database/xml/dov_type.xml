@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE Class SYSTEM "dtd/dbkclass.dtd">
+<Class name="dov_type" numAttributes="26" numInstances="1068" numPeriod_MT="0" numPeriod_ST="0" period_MT="0" period_ST="0">
+<AttributeDescription attrType="STATIC" name="initCondTable" replicated="0">
+<StructVector numElementsList="8" numElementsStruct="2">
+<StructFieldDescription name="condInfo">
+<Scalar size="31" valueType="CHARN"/>
+</StructFieldDescription>
+<StructFieldDescription name="condVal">
+<Scalar size="1" valueType="BOOLEAN"/>
+</StructFieldDescription>
+</StructVector>
+<StructVectorDefaultValue numElementsList="8">
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+</StructVectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="retCondTable" replicated="0">
+<StructVector numElementsList="8" numElementsStruct="2">
+<StructFieldDescription name="condInfo">
+<Scalar size="31" valueType="CHARN"/>
+</StructFieldDescription>
+<StructFieldDescription name="condVal">
+<Scalar size="1" valueType="BOOLEAN"/>
+</StructFieldDescription>
+</StructVector>
+<StructVectorDefaultValue numElementsList="8">
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+<StructFieldDefaultValue>
+<ScalarDefaultValue defaultValue=""/>
+<ScalarDefaultValue defaultValue="false"/>
+</StructFieldDefaultValue>
+</StructVectorDefaultValue>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="UNIVNAME" replicated="0">
+<Scalar size="65" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="class_id" replicated="0">
+<Scalar size="21" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue="110"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initCond1" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initCond2" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initCond3" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initCond4" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initCond5" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initCond6" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initCond7" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initCond8" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initCondGL" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="false"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="initCondTO" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="nom_instance" replicated="0">
+<Scalar size="51" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="returnCond1" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="returnCond2" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="returnCond3" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="returnCond4" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="returnCond5" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="returnCond6" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="returnCond7" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="returnCond8" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="1"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="returnCondGL" replicated="0">
+<Scalar size="1" valueType="BOOLEAN"/>
+<ScalarDefaultValue defaultValue="false"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="returnCondTO" replicated="0">
+<Scalar size="4" valueType="INT32"/>
+<ScalarDefaultValue defaultValue="0"/>
+</AttributeDescription>
+<AttributeDescription attrType="STATIC" name="veCoord" replicated="0">
+<Scalar size="81" valueType="CHARN"/>
+<ScalarDefaultValue defaultValue=""/>
+</AttributeDescription>
+</Class>

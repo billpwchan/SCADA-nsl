@@ -1,0 +1,204 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 15:30:17 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "astcledtnd"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\an\\anstudio\\data\\anilv\\astcledtnd.ilv"
+Palettes 2
+"defaultGadget" 0 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+IlvObjects 26
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 2 306 299 22 F7 2 1 -1 0 "" } 32 "Message"
+0
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 2 162 168 47 F268435468 0 { IlvMessageItem 262169 4 16 4 "Format"  }   } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 9 177 153 22 F6 2 2 -1 0 "X" } 544 "Format"
+1
+1 "__ilvCallback" "formatCB"
+0
+1 { 3 P 2
+[ IlvAttachments _IlvAttachments 368  1 0 1 0 1 0 2 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMenuBar 0 0 304 29 F268435750 2 V0 2 2
+{ IlvMenuItem 67108865 2 4 "&menu_file"  0 IlvPopupMenu 3 26 120 167 F166 2 V0 2 10
+{ IlvMenuItem 33554435 2 4 "&mnew" 1 0 "astnew2.png"  "mnewCB" } 
+{ IlvMenuItem 33554435 2 4 "&menu_open..." 1 0 "astopen2.png"  "mopenCB" } 
+{ IlvMenuItem 33554435 2 4 "&menu_save" 1 0 "astsave2.png"  "msaveCB" } 
+{ IlvMenuItem 33554435 2 4 "&saveAs" 1 0 "astsaveas.png"  "msaveasCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554435 2 4 "&showpanelWorkSpace" 1 0 "ws2.png"  "workspaceCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554435 2 4 "&showpanelErrors" 1 0 "error.png"  "errorsCB" } 
+{ IlvMenuItem 0 2 4  } 
+{ IlvMenuItem 33554435 2 4 "&quit" 1 0 "icquit.png"  "cancelECB" }  22   } 
+{ IlvMenuItem 33554433 2 4 "&menu_help"  "HelpCB" }  0 } 32 "Menu"
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 2 115 168 47 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Font"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvMatrix 184 116 110 131 F34906 2 A N 0 0 0 0 1 0 105 32 1 1 0 0 1 1 1 1 V0 2 0 0 N 0 0 0 0 0  } 544 "MatrixColor"
+1
+1 "__ilvCallback" "matrixColorCB"
+0
+1 { 6 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&resetrep" 4 4 ]
+0 IlvButton 184 87 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcnew.png"  }   } 544 "ResetColor"
+1
+1 "__ilvCallback" "resetColorCB"
+0
+1 { 7 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&deleterep" 4 4 ]
+0 IlvButton 242 87 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcdel.png"  }   } 544 "RemoveColor"
+1
+1 "__ilvCallback" "removeColorCB"
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 2 65 168 47 F268435468 0 { IlvMessageItem 262169 4 16 4 "&Value"  }   } 0
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvNumberField 9 81 153 22 F6 2 2 -1 0 "0" . , 10 16 -3.40282e+038 3.40282e+038 } 544 "Number"
+1
+1 "__ilvCallback" "numberCB"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 176 65 125 190 F268435468 0 { IlvMessageItem 262169 4 16 4 "&colorrep"  }   } 0
+0
+1 { 11 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&colordef" 4 4 ]
+0 IlvButton 271 87 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astcdefault.png"  }   } 544 "DefaultColor"
+1
+1 "__ilvCallback" "defaultColorCB"
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvOptionMenu 184 272 110 22 F1 2 3
+{ IlvMenuItem 1 2 4 "&Left"  } 
+{ IlvMenuItem 1 2 4 "&Center"  } 
+{ IlvMenuItem 65 2 4 "&Right"  }  2  } 544 "Alignment"
+1
+1 "__ilvCallback" "alignmentCB"
+0
+1 { 13 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 2 209 168 47 F268435468 0 { IlvMessageItem 262169 4 16 4 "&PreFixeLabel"  }   } 0
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 9 225 153 22 F6 2 2 -1 0 "" } 544 "PreFixeLabel"
+1
+1 "__ilvCallback" "preFixeLabelCB"
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 2 255 168 47 F268435468 0 { IlvMessageItem 262169 4 16 4 "&PostFixeLabel"  }   } 32 "FramePostFixeLabel"
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvTextField 9 272 153 22 F6 2 2 -1 0 "" } 544 "PostFixeLabel"
+1
+1 "__ilvCallback" "postFixeLabelCB"
+0
+1 { 17 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ImportPortableFormatTip" 4 4 ]
+0 IlvButton 41 33 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astopen.png"  }   } 544 "Open"
+1
+1 "__ilvCallback" "mopenCB"
+4096 "SymbolList"
+1 { 18 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&ExportPortableFormatTip" 4 4 ]
+0 IlvButton 79 33 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astsave.png"  }   } 544 "Save"
+1
+1 "__ilvCallback" "msaveCB"
+0
+1 { 19 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&QuitTip" 4 4 ]
+0 IlvButton 271 33 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "ivicn6.png"  }   } 512
+1
+1 "__ilvCallback" "cancelECB"
+0
+1 { 20 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&DesignateTip" 4 4 ]
+0 IlvButton 117 33 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astdesignate.png"  }   } 544 "Designate"
+1
+1 "__ilvCallback" "designateCB"
+0
+1 { 21 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvFrame 176 255 125 47 F268435468 0 { IlvMessageItem 262169 4 16 4 "Position"  }   } 0
+0
+1 { 22 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvComboBox 9 132 153 22 F38 2 1 -1 0 "" 0 } 544 "Font"
+1
+1 "__ilvCallback" "fontCB"
+0
+1 { 23 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&NewTip" 4 4 ]
+0 IlvButton 3 33 30 30 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astnew.png"  }   } 544 "New"
+1
+1 "__ilvCallback" "mnewCB"
+0
+1 { 24 P 2
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+[ IlvToolTip __ilvToolTip 2 "&deleterep" 4 4 ]
+0 IlvButton 213 87 23 23 F13 2 { IlvMessageItem 262147 4 16 4 "" 1 0 "astres2.png"  }   } 512
+1
+1 "__ilvCallback" "addColorCB"
+0
+1 { 25 1 IlvReliefLine 0 28 304 28 1 } 0
+0
+Size 304 329
+GeometryHandlers
+2 100 172 172 0 172 0
+ 100 132 132 172 132 172
+12 3 0 0 2  299 0 299 0  0 0 3 1
+ 3 0 0 0  304 0 304 25  0 0 0 1
+ 3 0 0 9  153 0 153 9  0 0 10 0
+ 3 0 0 2  168 0 168 8  0 0 2 0
+ 3 0 0 2  168 0 168 4  0 0 2 0
+ 3 0 0 9  153 0 153 22  0 0 10 0
+ 3 0 0 9  153 0 153 2  0 0 10 0
+ 3 0 0 2  168 0 168 1  0 0 2 0
+ 3 0 0 9  153 0 153 14  0 0 10 0
+ 3 0 0 2  168 0 168 13  0 0 2 0
+ 3 0 0 2  168 0 168 15  0 0 2 0
+ 3 0 0 9  153 0 153 16  0 0 10 0
+9 3 0 0 4  125 0 125 10  0 0 3 1
+ 3 0 0 12  110 0 110 5  0 0 10 1
+ 3 0 0 12  0 0 23 6  97 0 97 1
+ 3 0 0 41  0 0 23 24  68 0 68 1
+ 3 0 0 70  0 0 23 7  39 0 39 1
+ 3 0 0 99  0 0 23 11  10 0 10 1
+ 3 99 0 99  0 0 30 19  0 0 3 1
+ 3 0 0 12  110 0 110 12  0 0 10 1
+ 3 0 0 4  125 0 125 21  0 0 3 1
+3 0 73 73 0 73 0
+ 100 0 228 73 228 73
+ 0 0 28 301 28 301
+5 3 255 0 255  0 0 47 21  0 0 27 2
+ 3 0 0 116  131 0 131 5  0 0 82 2
+ 3 0 0 65  190 0 190 10  0 0 74 2
+ 3 272 0 272  0 0 22 12  0 0 35 2
+ 3 306 0 306  0 0 22 0  0 0 1 2
+0
+0
+EOF

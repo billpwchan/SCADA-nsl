@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE xml>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<header key="header">
+		<rows>1</rows>
+		<cols>7</cols>
+		<rootPanel>AbsolutePanel</rootPanel>
+		<rootCss>project-gwt-flextable-socsummary-filter</rootCss>
+	</header>
+
+	<option key="0|0">
+		<widget>Button</widget>
+		<label>&lt;</label>
+		<css>project-UIWidgetSocSummaryPager-button-PreviousPage</css>
+		<element>PreviousPage</element>
+	</option>
+	<option key="0|1">
+		<widget>InlineLabel</widget>
+		<label>X</label>
+		<css>project-UIWidgetSocSummaryPager-inlinelabel-PageStart</css>
+		<element>PageStart</element>
+	</option>
+	<option key="0|2">
+		<widget>InlineLabel</widget>
+		<label> - </label>
+		<css>project-UIWidgetSocSummaryPager-inlinelabel-spliter</css>
+	</option>
+	<option key="0|3">
+		<widget>InlineLabel</widget>
+		<label>X</label>
+		<css>project-UIWidgetSocSummaryPager-inlinelabel-EndIndex</css>
+		<element>EndIndex</element>
+	</option>	
+	<option key="0|4">
+		<widget>InlineLabel</widget>
+		<label> of </label>
+		<css>project-UIWidgetSocSummaryPager-inlinelabel-spliter</css>
+		<element>of</element>
+	</option>
+	<option key="0|5">
+		<widget>InlineLabel</widget>
+		<label>X</label>
+		<css>project-UIWidgetSocSummaryPager-inlinelabel-Exact</css>
+		<element>Exact</element>
+	</option>
+	<option key="0|6">
+		<widget>Button</widget>
+		<label>&gt;</label>
+		<css>project-UIWidgetSocSummaryPager-button-NextPage</css>
+		<element>NextPage</element>
+	</option>
+</data-set>

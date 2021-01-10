@@ -1,0 +1,29 @@
+// Ilv Version: 5.0
+// File generated: Fri May 19 14:14:23 2006
+// Creator class: IlvGadgetManagerOutput
+FileName "PageDemo"
+PathName "D:\\Utilis\\scadadev\\jcmsnap\\scs_source\\src\\dat\\ScsVisu\\scsstudio\\pnlstudio\\PageDemo.ilv"
+Palettes 1
+0 F "gray" "black" "button" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 2
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 301 149 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "Clear"  }   } 544 "CClear"
+1
+1 "__ilvCallback" "CClearCB"
+6144 "CAttributeList" "CAdd"
+1 { 1 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvButton 218 149 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "Add"  }   } 544 "CAdd"
+1
+1 "__ilvCallback" "CAddCB"
+6144 "CClear" "CRefreshMode"
+Size 384 194
+GeometryHandlers
+1 100 0 384 0 384 0
+0
+2 100 0 89 0 89 0
+ 0 0 105 89 105 89
+0
+0
+EOF

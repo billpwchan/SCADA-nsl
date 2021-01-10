@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+******************************************
+ Generated with MetaConfigurator v3.1.0.5
+     Project: C1166B
+     Version: 1.2.4
+
+        User: T0096600
+    Computer: PC15003
+          OS: Windows 7 v6.1 (arch amd64)
+******************************************
+-->
+<animationConfiguration xmlns:ns2="http://www.thalesgroup.com/hv/mwt/conf/common" xmlns="http://www.thalesgroup.com/hv/mwt/conf/situationview/animation">
+    <animationRules id="C1166B_ECT_EXIT_animation">
+        <animationRule>
+            <source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:computedStatusDataSourceType" statusComputerName="com.thalesgroup.scadasoft.stresstest.calculated.widget.C1166B_ECS_State" name="C1166B_ECS_State"></source>
+            <sourceType>STRING</sourceType>
+            <svgRefAnimation defaultValue="EXIT_State_Empty" nodeId="C1166B_ECS_State_node">
+                <enumerationBinding>
+                    <item inputValue="4" value="EXIT_State_Selected_MO"></item>
+                    <item inputValue="1" value="EXIT_State_Invalid"></item>
+                    <item inputValue="3" value="EXIT_State_MO"></item>
+                    <item inputValue="2" value="EXIT_State_Selected"></item>
+                    <item inputValue="0" value="EXIT_State_Empty"></item>
+                </enumerationBinding>
+            </svgRefAnimation>
+        </animationRule>
+        <animationRule>
+            <source xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:statusDataSourceType" name="symbol1"></source>
+            <sourceType>INT</sourceType>
+            <svgRefAnimation defaultValue="EXIT_Symbol_Undefined" nodeId="symbol1.value_node">
+                <enumerationBinding>
+                    <item inputValue="2" value="EXIT_Symbol_Off"></item>
+                    <item inputValue="1" value="EXIT_Symbol_On"></item>
+                    <item inputValue="0" value="EXIT_Symbol_Undefined"></item>
+                </enumerationBinding>
+            </svgRefAnimation>
+        </animationRule>
+    </animationRules>
+</animationConfiguration>
